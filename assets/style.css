@@ -537,3 +537,28 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
 .divgrid-dark .byrow a{color:#C9BFB0}
 .divgrid-dark .byrow a:hover{color:#D8A5A5}
 .altcell .byrow{font-size:10.5px}
+
+/* ---- Header rails: scrollbars, and why they overflowed ------------------
+   .navrow, .msrow and .trow are all overflow-x:auto inside .wrap, which is
+   capped at max-width:1220px. That cap is why widening the browser never
+   helped: available width is 1176px at 1280, 1440 and 1920 alike, so all
+   three overflowed by the same amount at every desktop size and macOS drew
+   three persistent scrollbars down the header.
+
+   Scroll behaviour is kept for touch; only the bar is hidden. */
+.navrow::-webkit-scrollbar,
+.msrow::-webkit-scrollbar,
+.trow::-webkit-scrollbar { display: none; }
+.navrow, .msrow, .trow { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (min-width: 900px) {
+  /* 16 nav items overflowed by 110px. Tightening the gap recovers ~120px, so
+     the row fits on one line; wrap is left on as a safety valve for a future
+     seventeenth section rather than reintroducing a scrollbar. */
+  .navrow { flex-wrap: wrap; overflow-x: visible; gap: 0 14px; }
+
+  /* Trending overflowed by only 34px. Letting the headlines shrink and
+     ellipsize removes the overflow entirely instead of scrolling for a sliver. */
+  .trow { gap: 10px; }
+  .trow a { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+}
