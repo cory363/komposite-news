@@ -1,0 +1,6 @@
+# Komposite News — prerendered static bundle, no build step.
+# The repository root IS the site, so publish from "." and run no command.
+
+[build]
+  command = ""
+  publish = "."
