@@ -9,7 +9,20 @@
  * the dimensions actually served by Special:FilePath?width=800. Both are true
  * statements about different things, and the schema one is what crawlers read.
  */
+import fs from "node:fs";
 import { furniture, SITE, esc, TITLE_SEP, prettyDate, readTime, commonsUrl } from "./lib-template.mjs";
+
+/**
+ * Related cards must show the headline the target page actually carries.
+ * Typing them by hand drifts, so the title is read from the target's h1 and the
+ * value in the record is only a fallback for a page that does not exist yet.
+ */
+function realHeadline(href, fallback) {
+  const p = href.replace(/^\//, "").replace(/\/$/, "") + "/index.html";
+  if (!fs.existsSync(p)) return fallback;
+  const m = fs.readFileSync(p, "utf8").match(/<h1[^>]*>([\s\S]*?)<\/h1>/);
+  return m ? m[1].replace(/&amp;/g, "&") : fallback;
+}
 
 const AUTHORS = {
   "jonathan-bright": "Jonathan Bright|Policy Editor",
@@ -86,7 +99,7 @@ export function render(a) {
   const body = a.body.map(p => `<p>${p}</p>`).join("");
   const tags = a.tags.map(t => `<a href="/tag/${t.slug}/">${esc(t.name)}</a>`).join("");
   const rel = a.related.map(r =>
-    `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(r.title)}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
+    `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
 
   const main = `<main class="wrap artgrid"><article class="art">
 <span class="kick">${esc(a.kick)}</span>

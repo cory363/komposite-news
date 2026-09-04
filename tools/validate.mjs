@@ -59,6 +59,25 @@ for (const slug of NEW) {
 }
 ok(`checked ${NEW.length} new articles against NewsArticle requirements`);
 
+// 2b. Related-card titles must match the real headline of the page they point to
+const h1of = p => { const f2 = p.replace(/^\//, "").replace(/\/$/, "") + "/index.html";
+  if (!fs.existsSync(f2)) return null; const h = fs.readFileSync(f2, "utf8");
+  return (h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || null; };
+let mism = 0;
+for (const slug of NEW) {
+  const f2 = slug.replace(/^\//, "").replace(/\/$/, "") + "/index.html";
+  if (!fs.existsSync(f2)) continue;
+  const h = fs.readFileSync(f2, "utf8");
+  const relSec = (h.match(/<section class="relblock">([\s\S]*?)<\/section>/) || [])[1] || "";
+  for (const m of relSec.matchAll(/<h2><a href="([^"]+)">([\s\S]*?)<\/a><\/h2>/g)) {
+    const real = h1of(m[1]);
+    if (real === null) { bad(`${slug} related points at missing ${m[1]}`); mism++; continue; }
+    const norm = x => x.replace(/&amp;/g,"&").replace(/&#39;|&rsquo;/g,"\u2019").trim();
+    if (norm(real) !== norm(m[2])) { bad(`${slug} related title mismatch for ${m[1]}\n         card: ${m[2]}\n         real: ${real}`); mism++; }
+  }
+}
+if (!mism) ok("related-card titles all match their target headlines");
+
 // 3. Duplicates sitewide
 const T = {}, C = {};
 for (const f of files) {
