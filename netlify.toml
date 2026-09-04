@@ -4,3 +4,25 @@
 [build]
   command = ""
   publish = "."
+
+# Canonical host is https://kompositenews.com with no www. Netlify already
+# performs both redirects for the primary domain; these make the rule explicit
+# and version-controlled so it survives any change of primary domain.
+
+[[redirects]]
+  from = "https://www.kompositenews.com/*"
+  to = "https://kompositenews.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.kompositenews.com/*"
+  to = "https://kompositenews.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://kompositenews.com/*"
+  to = "https://kompositenews.com/:splat"
+  status = 301
+  force = true

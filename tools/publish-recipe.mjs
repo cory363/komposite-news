@@ -25,17 +25,19 @@ const a = {
   },
 };
 
-const hero = commonsUrl(a.photo.file, 1400);
+const OVERRIDE = JSON.parse(fs.readFileSync("tools/data/heroes.json", "utf8"))["recipes/" + a.slug];
+const hero = OVERRIDE ? OVERRIDE.url : commonsUrl(a.photo.file, 1400);
 const heroCard = commonsUrl(a.photo.file);
 const url = `${SITE}/recipes/${a.slug}/`;
 const title = `${esc(a.headline)} &mdash; Recipe of the Day`;
-const imgH = Math.round(1400 * a.photo.origH / a.photo.origW);
+const imgW = OVERRIDE ? OVERRIDE.width : 1400;
+const imgH = OVERRIDE ? OVERRIDE.height : Math.round(1400 * a.photo.origH / a.photo.origW);
 
 const newsArticle = {
   "@context": "https://schema.org", "@type": "NewsArticle",
   headline: a.headline, description: a.metaDesc,
   datePublished: a.date, dateModified: a.date,
-  image: { "@type": "ImageObject", url: hero, width: 1400, height: imgH },
+  image: { "@type": "ImageObject", url: hero, width: imgW, height: imgH },
   author: { "@type": "Person", name: "Marta Reyes", url: `${SITE}/authors/marta-reyes/` },
   publisher: { "@type": "NewsMediaOrganization", name: "Komposite News", url: SITE,
     logo: { "@type": "ImageObject", url: `${SITE}/assets/img/komposite-logo.png`, width: 1200, height: 1200 } },
@@ -95,7 +97,7 @@ const main = `<main class="wrap artpage">
 <h1 class="arthead">${esc(a.headline)}</h1>
 <p class="deck artdeck">${esc(a.dek)}</p>
 <div class="byrow"><div class="byline-l">By <a href="/authors/marta-reyes/">Marta Reyes</a>, Food Editor</div><div class="bydate">${a.meta}</div></div>
-<span class="pwrap"><img class="illo photo arthero" src="${esc(hero)}" alt="${esc(a.photo.alt)}" loading="lazy" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${esc(a.photo.credit)}</span></span>
+<span class="pwrap"><img class="illo photo arthero" src="${esc(hero)}" alt="${esc(OVERRIDE ? OVERRIDE.alt : a.photo.alt)}" loading="lazy" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${OVERRIDE ? OVERRIDE.creditHtml : esc(a.photo.credit)}</span></span>
 <div class="artbody">
 <h2 class="rechead">Why we&rsquo;re making it</h2><p>Shoulder is the cut that rewards patience and punishes speed. Left alone at a low temperature it turns from something you could not carve into something that falls apart in the right way, and it does this without needing to be watched. Published ${prettyDate(a.date)}.</p>
 <p>The beans are not a side dish. They go into the pot at the end and take on the fat and the wine, which is the whole reason to cook a shoulder in liquid rather than roast it dry.</p>

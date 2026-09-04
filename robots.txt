@@ -1,4 +1,18 @@
+# Komposite News
+#
+# Crawling is welcome, including by AI and LLM crawlers. This site places no
+# machine-learning restriction on its content.
+#
+# The disallows below cover interface paths and query-string URLs that would
+# generate unlimited near-duplicate pages. Every article, section, author and
+# topic page remains open.
+
 User-agent: *
 Allow: /
+
+# Client-side search: the results are generated in the browser from
+# search-index.json, so a crawled query URL is an empty shell.
+Disallow: /*?q=
+Disallow: /*?s=
 
 Sitemap: https://kompositenews.com/sitemap.xml
