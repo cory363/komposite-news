@@ -1,0 +1,1012 @@
+{
+ "/ai/ai-agents-back-office-operations/": [
+  {
+   "phrase": "finance chiefs",
+   "href": "/business/cfo-scrutiny-technology-spend/",
+   "df": 2
+  }
+ ],
+ "/ai/ai-data-center-cooling-economics/": [
+  {
+   "phrase": "procurement",
+   "href": "/ai/enterprise-buyers-ai-contract-terms/",
+   "df": 11
+  }
+ ],
+ "/ai/ai-infrastructure-spending-new-phase/": [
+  {
+   "phrase": "procurement teams",
+   "href": "/ai/enterprise-buyers-ai-contract-terms/",
+   "df": 4
+  },
+  {
+   "phrase": "software layer",
+   "href": "/fintech/instant-payments-b2b-standard/",
+   "df": 2
+  }
+ ],
+ "/ai/ai-talent-market-normalizes/": [
+  {
+   "phrase": "frontier labs",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/ai/enterprise-buyers-ai-contract-terms/": [
+  {
+   "phrase": "enterprise ai",
+   "href": "/business/middle-market-adopts-enterprise-ai/",
+   "df": 1
+  },
+  {
+   "phrase": "enterprise tiers",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/ai/gpu-cloud-market-shakeout/": [
+  {
+   "phrase": "software layer",
+   "href": "/fintech/instant-payments-b2b-standard/",
+   "df": 2
+  }
+ ],
+ "/ai/inference-costs-reshape-product-design/": [
+  {
+   "phrase": "evaluation",
+   "href": "/ai/ai-evaluation-becomes-budget-line/",
+   "df": 5
+  }
+ ],
+ "/ai/model-providers-consolidate-enterprise-tiers/": [
+  {
+   "phrase": "engineering teams",
+   "href": "/ai/smaller-models-win-production-workloads/",
+   "df": 3
+  },
+  {
+   "phrase": "professional services",
+   "href": "/business/services-firms-rebuild-around-automation/",
+   "df": 2
+  }
+ ],
+ "/ai/opinion-ai-productivity-measurement/": [
+  {
+   "phrase": "automation",
+   "href": "/ai/ai-agents-back-office-operations/",
+   "df": 7
+  }
+ ],
+ "/ai/smaller-models-win-production-workloads/": [
+  {
+   "phrase": "model providers",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/blockchain/banks-test-blockchain-settlement/": [
+  {
+   "phrase": "settlement",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 12
+  }
+ ],
+ "/blockchain/blockchain-carbon-registries/": [
+  {
+   "phrase": "shared ledgers",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 3
+  }
+ ],
+ "/blockchain/blockchain-data-availability-costs/": [
+  {
+   "phrase": "teams increasingly",
+   "href": "/ai/smaller-models-win-production-workloads/",
+   "df": 1
+  },
+  {
+   "phrase": "settlement",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 12
+  }
+ ],
+ "/blockchain/digital-identity-credentials-enterprise/": [
+  {
+   "phrase": "logistics",
+   "href": "/business/supply-chain-software-consolidation/",
+   "df": 6
+  },
+  {
+   "phrase": "identity infrastructure",
+   "href": "/cybersecurity/identity-first-security-spending/",
+   "df": 2
+  }
+ ],
+ "/blockchain/interoperability-standards-institutional-chains/": [
+  {
+   "phrase": "standards",
+   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
+   "df": 12
+  }
+ ],
+ "/blockchain/onchain-settlement-fx-corridors/": [
+  {
+   "phrase": "settlement",
+   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "df": 12
+  }
+ ],
+ "/blockchain/onchain-treasury-operations-corporates/": [
+  {
+   "phrase": "stablecoins",
+   "href": "/fintech/deposit-tokens-bank-response/",
+   "df": 4
+  },
+  {
+   "phrase": "money market funds",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
+   "df": 4
+  },
+  {
+   "phrase": "supplier payments",
+   "href": "/blockchain/stablecoin-settlement-b2b-payments/",
+   "df": 4
+  }
+ ],
+ "/blockchain/opinion-boring-blockchain-wins/": [
+  {
+   "phrase": "shared ledgers",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 3
+  },
+  {
+   "phrase": "collateral mobility",
+   "href": "/markets/tokenized-collateral-margin-cycle/",
+   "df": 2
+  },
+  {
+   "phrase": "settlement",
+   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "df": 12
+  }
+ ],
+ "/blockchain/permissioned-ledgers-supply-chain-finance/": [
+  {
+   "phrase": "enterprise blockchain",
+   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
+   "df": 2
+  },
+  {
+   "phrase": "institutional pattern",
+   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "df": 2
+  }
+ ],
+ "/blockchain/stablecoin-settlement-b2b-payments/": [
+  {
+   "phrase": "standards",
+   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
+   "df": 12
+  },
+  {
+   "phrase": "settlement",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 12
+  }
+ ],
+ "/blockchain/tokenization-pilots-to-institutional-markets/": [
+  {
+   "phrase": "tokenization",
+   "href": "/markets/private-markets-liquidity-windows/",
+   "df": 3
+  },
+  {
+   "phrase": "private credit",
+   "href": "/markets/private-credit-technology-lending/",
+   "df": 3
+  },
+  {
+   "phrase": "shared ledgers",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 3
+  },
+  {
+   "phrase": "money market",
+   "href": "/blockchain/tokenized-treasuries-money-funds/",
+   "df": 4
+  }
+ ],
+ "/blockchain/tokenized-treasuries-money-funds/": [
+  {
+   "phrase": "stablecoins",
+   "href": "/fintech/deposit-tokens-bank-response/",
+   "df": 4
+  },
+  {
+   "phrase": "trading firms",
+   "href": "/markets/digital-asset-market-making-institutional/",
+   "df": 3
+  }
+ ],
+ "/blockchain/validator-economics-institutional-staking/": [
+  {
+   "phrase": "infrastructure providers",
+   "href": "/markets/exchanges-race-tokenized-collateral/",
+   "df": 2
+  }
+ ],
+ "/business/board-oversight-ai-risk/": [
+  {
+   "phrase": "cybersecurity",
+   "href": "/cybersecurity/deepfake-fraud-corporate-defenses/",
+   "df": 2
+  }
+ ],
+ "/business/cfo-scrutiny-technology-spend/": [
+  {
+   "phrase": "point solutions",
+   "href": "/business/supply-chain-software-consolidation/",
+   "df": 2
+  }
+ ],
+ "/business/corporate-venture-arms-return/": [
+  {
+   "phrase": "procurement",
+   "href": "/business/cfo-scrutiny-technology-spend/",
+   "df": 11
+  },
+  {
+   "phrase": "infrastructure software",
+   "href": "/startups/venture-funding-infrastructure-software/",
+   "df": 3
+  }
+ ],
+ "/business/data-center-boom-local-economies/": [
+  {
+   "phrase": "data centers",
+   "href": "/ai/ai-data-center-cooling-economics/",
+   "df": 3
+  }
+ ],
+ "/business/enterprise-software-pricing-ai-era/": [
+  {
+   "phrase": "procurement",
+   "href": "/business/cfo-scrutiny-technology-spend/",
+   "df": 11
+  },
+  {
+   "phrase": "consumption pricing",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/business/industrial-reshoring-software-gap/": [
+  {
+   "phrase": "supplier onboarding",
+   "href": "/blockchain/digital-identity-credentials-enterprise/",
+   "df": 2
+  },
+  {
+   "phrase": "automation",
+   "href": "/technology/robotics-warehouse-to-workshop/",
+   "df": 7
+  },
+  {
+   "phrase": "supply chains",
+   "href": "/ai/semiconductor-supply-data-center-demand/",
+   "df": 3
+  },
+  {
+   "phrase": "logistics",
+   "href": "/business/supply-chain-software-consolidation/",
+   "df": 6
+  }
+ ],
+ "/business/middle-managers-ai-restructuring/": [
+  {
+   "phrase": "logistics",
+   "href": "/business/supply-chain-software-consolidation/",
+   "df": 6
+  }
+ ],
+ "/business/middle-market-adopts-enterprise-ai/": [
+  {
+   "phrase": "automation",
+   "href": "/ai/ai-agents-back-office-operations/",
+   "df": 7
+  },
+  {
+   "phrase": "software supply chain",
+   "href": "/cybersecurity/software-supply-chain-rules-bite/",
+   "df": 2
+  },
+  {
+   "phrase": "enterprise tiers",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/business/services-firms-rebuild-around-automation/": [
+  {
+   "phrase": "automation",
+   "href": "/technology/robotics-warehouse-to-workshop/",
+   "df": 7
+  }
+ ],
+ "/business/shadow-ai-governance-problem/": [
+  {
+   "phrase": "procurement",
+   "href": "/business/cfo-scrutiny-technology-spend/",
+   "df": 11
+  },
+  {
+   "phrase": "workforce",
+   "href": "/business/middle-managers-ai-restructuring/",
+   "df": 2
+  }
+ ],
+ "/business/waiting-for-rates-to-fall-building-costs/": [
+  {
+   "phrase": "cheaper financing",
+   "href": "/blockchain/permissioned-ledgers-supply-chain-finance/",
+   "df": 1
+  }
+ ],
+ "/crypto/compliance-architecture-crypto-firms/": [
+  {
+   "phrase": "regulation",
+   "href": "/crypto/defi-institutional-wrappers/",
+   "df": 10
+  },
+  {
+   "phrase": "privacy rules",
+   "href": "/ai/synthetic-data-enterprise-training/",
+   "df": 1
+  },
+  {
+   "phrase": "standards",
+   "href": "/crypto/what-an-attestation-must-prove/",
+   "df": 12
+  }
+ ],
+ "/crypto/crypto-custody-price-war/": [
+  {
+   "phrase": "institutional crypto",
+   "href": "/crypto/institutional-crypto-allocations-mature/",
+   "df": 1
+  },
+  {
+   "phrase": "standards",
+   "href": "/crypto/what-an-attestation-must-prove/",
+   "df": 12
+  }
+ ],
+ "/crypto/defi-institutional-wrappers/": [
+  {
+   "phrase": "tokenized cash",
+   "href": "/blockchain/onchain-treasury-operations-corporates/",
+   "df": 1
+  },
+  {
+   "phrase": "market making",
+   "href": "/markets/digital-asset-market-making-institutional/",
+   "df": 1
+  }
+ ],
+ "/crypto/exchange-tokens-regulatory-reckoning/": [
+  {
+   "phrase": "regulation",
+   "href": "/crypto/defi-institutional-wrappers/",
+   "df": 10
+  }
+ ],
+ "/crypto/institutional-crypto-allocations-mature/": [
+  {
+   "phrase": "digital asset",
+   "href": "/policy/digital-asset-legislation-settles/",
+   "df": 4
+  },
+  {
+   "phrase": "competition among",
+   "href": "/blockchain/blockchain-data-availability-costs/",
+   "df": 2
+  },
+  {
+   "phrase": "institutional markets",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
+   "df": 1
+  }
+ ],
+ "/crypto/memecoin-era-institutional-distance/": [
+  {
+   "phrase": "standards",
+   "href": "/crypto/what-an-attestation-must-prove/",
+   "df": 12
+  }
+ ],
+ "/crypto/stablecoin-reserve-transparency-standards/": [
+  {
+   "phrase": "regulation",
+   "href": "/crypto/defi-institutional-wrappers/",
+   "df": 10
+  },
+  {
+   "phrase": "stablecoins",
+   "href": "/fintech/deposit-tokens-bank-response/",
+   "df": 4
+  },
+  {
+   "phrase": "money market",
+   "href": "/blockchain/tokenized-treasuries-money-funds/",
+   "df": 4
+  }
+ ],
+ "/culture/physical-media-collectors-hold/": [
+  {
+   "phrase": "streaming",
+   "href": "/culture/the-window-reopens-slowly/",
+   "df": 6
+  }
+ ],
+ "/culture/practical-effects-comeback/": [
+  {
+   "phrase": "entertainment",
+   "href": "/culture/physical-media-collectors-hold/",
+   "df": 3
+  }
+ ],
+ "/culture/production-follows-the-rebate/": [
+  {
+   "phrase": "public money",
+   "href": "/divide/divide-data-center-subsidies-left/",
+   "df": 1
+  }
+ ],
+ "/culture/repertory-cinema-revival-business/": [
+  {
+   "phrase": "streaming",
+   "href": "/culture/the-window-reopens-slowly/",
+   "df": 6
+  }
+ ],
+ "/culture/restoration-is-a-funding-problem/": [
+  {
+   "phrase": "boutique labels",
+   "href": "/culture/physical-media-collectors-hold/",
+   "df": 2
+  },
+  {
+   "phrase": "harder question",
+   "href": "/cybersecurity/sbom-what-buyers-do-with-it/",
+   "df": 2
+  }
+ ],
+ "/culture/ryde-vine-kid-netflix-editor-app-age-monster/": [
+  {
+   "phrase": "entertainment",
+   "href": "/culture/practical-effects-comeback/",
+   "df": 3
+  },
+  {
+   "phrase": "education",
+   "href": "/divide/divide-free-college-right/",
+   "df": 2
+  }
+ ],
+ "/culture/the-window-reopens-slowly/": [
+  {
+   "phrase": "streaming",
+   "href": "/music/catalog-music-streaming-economics/",
+   "df": 6
+  }
+ ],
+ "/cybersecurity/deepfake-fraud-corporate-defenses/": [
+  {
+   "phrase": "corporate treasuries",
+   "href": "/blockchain/onchain-treasury-operations-corporates/",
+   "df": 1
+  }
+ ],
+ "/cybersecurity/help-desk-identity-verification/": [
+  {
+   "phrase": "networking",
+   "href": "/technology/ipv6-and-the-machines/",
+   "df": 1
+  }
+ ],
+ "/cybersecurity/identity-first-security-spending/": [
+  {
+   "phrase": "rehearsed recovery",
+   "href": "/cybersecurity/ransomware-resilience-dividend/",
+   "df": 1
+  },
+  {
+   "phrase": "machine identity",
+   "href": "/cybersecurity/identity-machine-workloads/",
+   "df": 2
+  }
+ ],
+ "/cybersecurity/insurers-write-the-security-baseline/": [
+  {
+   "phrase": "insurance",
+   "href": "/cybersecurity/ransomware-resilience-dividend/",
+   "df": 9
+  },
+  {
+   "phrase": "standards",
+   "href": "/cybersecurity/sbom-what-buyers-do-with-it/",
+   "df": 12
+  },
+  {
+   "phrase": "regulation",
+   "href": "/cybersecurity/critical-infrastructure-reporting-rules/",
+   "df": 10
+  }
+ ],
+ "/cybersecurity/ransomware-resilience-dividend/": [
+  {
+   "phrase": "recovery capability",
+   "href": "/cybersecurity/identity-first-security-spending/",
+   "df": 1
+  }
+ ],
+ "/cybersecurity/sbom-what-buyers-do-with-it/": [
+  {
+   "phrase": "cybersecurity",
+   "href": "/cybersecurity/deepfake-fraud-corporate-defenses/",
+   "df": 2
+  }
+ ],
+ "/cybersecurity/software-supply-chain-rules-bite/": [
+  {
+   "phrase": "inventory problem",
+   "href": "/cybersecurity/identity-machine-workloads/",
+   "df": 2
+  },
+  {
+   "phrase": "regulation",
+   "href": "/cybersecurity/critical-infrastructure-reporting-rules/",
+   "df": 10
+  }
+ ],
+ "/divide/divide-data-center-subsidies-left/": [
+  {
+   "phrase": "ai data centers",
+   "href": "/ai/ai-data-center-cooling-economics/",
+   "df": 1
+  }
+ ],
+ "/divide/divide-data-center-subsidies-right/": [
+  {
+   "phrase": "competition among",
+   "href": "/blockchain/blockchain-data-availability-costs/",
+   "df": 2
+  },
+  {
+   "phrase": "data centers",
+   "href": "/ai/ai-data-center-cooling-economics/",
+   "df": 3
+  }
+ ],
+ "/divide/divide-free-college-left/": [
+  {
+   "phrase": "free college",
+   "href": "/divide/divide-free-college-right/",
+   "df": 2
+  }
+ ],
+ "/divide/divide-free-college-right/": [
+  {
+   "phrase": "public college",
+   "href": "/divide/divide-free-college-left/",
+   "df": 2
+  }
+ ],
+ "/fintech/cross-border-payments-competition/": [
+  {
+   "phrase": "regulation",
+   "href": "/fintech/credit-invisible-cashflow-underwriting/",
+   "df": 10
+  }
+ ],
+ "/fintech/deposit-tokens-bank-response/": [
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
+  },
+  {
+   "phrase": "stablecoins",
+   "href": "/fintech/cross-border-payments-competition/",
+   "df": 4
+  },
+  {
+   "phrase": "supplier payments",
+   "href": "/blockchain/stablecoin-settlement-b2b-payments/",
+   "df": 4
+  }
+ ],
+ "/fintech/embedded-credit-meets-its-cost-of-funds/": [
+  {
+   "phrase": "behaves like",
+   "href": "/recipes/braise-that-behaves-like-a-roast/",
+   "df": 1
+  }
+ ],
+ "/fintech/embedded-finance-vertical-software/": [
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
+  },
+  {
+   "phrase": "software companies",
+   "href": "/startups/design-partners-replace-the-free-trial/",
+   "df": 1
+  }
+ ],
+ "/fintech/instant-payments-b2b-standard/": [
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
+  },
+  {
+   "phrase": "payment rails",
+   "href": "/crypto/crypto-payments-emerging-markets/",
+   "df": 1
+  },
+  {
+   "phrase": "supply chains",
+   "href": "/ai/semiconductor-supply-data-center-demand/",
+   "df": 3
+  },
+  {
+   "phrase": "supplier payments",
+   "href": "/blockchain/stablecoin-settlement-b2b-payments/",
+   "df": 4
+  }
+ ],
+ "/fintech/insurance-parametric-mainstream/": [
+  {
+   "phrase": "product design",
+   "href": "/ai/inference-costs-reshape-product-design/",
+   "df": 1
+  }
+ ],
+ "/fintech/realtime-fraud-model-sharing/": [
+  {
+   "phrase": "instant payments",
+   "href": "/fintech/instant-payments-b2b-standard/",
+   "df": 2
+  }
+ ],
+ "/fintech/the-sponsor-bank-takes-the-hit/": [
+  {
+   "phrase": "transaction monitoring",
+   "href": "/crypto/compliance-architecture-crypto-firms/",
+   "df": 2
+  }
+ ],
+ "/fintech/treasury-was-built-on-float/": [
+  {
+   "phrase": "instant payments",
+   "href": "/fintech/instant-payments-b2b-standard/",
+   "df": 2
+  }
+ ],
+ "/markets/benchmark-reform-second-wave/": [
+  {
+   "phrase": "critical infrastructure",
+   "href": "/cybersecurity/critical-infrastructure-reporting-rules/",
+   "df": 4
+  }
+ ],
+ "/markets/digital-asset-market-making-institutional/": [
+  {
+   "phrase": "digital asset",
+   "href": "/policy/digital-asset-legislation-settles/",
+   "df": 4
+  },
+  {
+   "phrase": "trading firms",
+   "href": "/blockchain/tokenized-treasuries-money-funds/",
+   "df": 3
+  }
+ ],
+ "/markets/exchanges-race-tokenized-collateral/": [
+  {
+   "phrase": "tokenization",
+   "href": "/markets/private-markets-liquidity-windows/",
+   "df": 3
+  },
+  {
+   "phrase": "interoperability standards",
+   "href": "/blockchain/interoperability-standards-institutional-chains/",
+   "df": 1
+  },
+  {
+   "phrase": "collateral mobility",
+   "href": "/markets/tokenized-collateral-margin-cycle/",
+   "df": 2
+  },
+  {
+   "phrase": "money market funds",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
+   "df": 4
+  }
+ ],
+ "/markets/private-credit-technology-lending/": [
+  {
+   "phrase": "secondary market",
+   "href": "/startups/secondaries-startup-liquidity/",
+   "df": 4
+  },
+  {
+   "phrase": "private credit",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
+   "df": 3
+  }
+ ],
+ "/markets/private-credits-marks-go-on-trial/": [
+  {
+   "phrase": "private credit",
+   "href": "/markets/private-credit-technology-lending/",
+   "df": 3
+  }
+ ],
+ "/markets/private-markets-liquidity-windows/": [
+  {
+   "phrase": "tokenization",
+   "href": "/blockchain/blockchain-carbon-registries/",
+   "df": 3
+  }
+ ],
+ "/music/all-in-pricing-comes-to-tickets/": [
+  {
+   "phrase": "commercial one",
+   "href": "/cybersecurity/software-supply-chain-rules-bite/",
+   "df": 1
+  }
+ ],
+ "/music/catalog-music-streaming-economics/": [
+  {
+   "phrase": "streaming",
+   "href": "/culture/the-window-reopens-slowly/",
+   "df": 6
+  }
+ ],
+ "/music/catalogs-are-a-rates-trade/": [
+  {
+   "phrase": "entertainment",
+   "href": "/culture/practical-effects-comeback/",
+   "df": 3
+  },
+  {
+   "phrase": "streaming",
+   "href": "/music/catalog-music-streaming-economics/",
+   "df": 6
+  }
+ ],
+ "/music/rumours-generation-rediscovery/": [
+  {
+   "phrase": "streaming",
+   "href": "/music/catalog-music-streaming-economics/",
+   "df": 6
+  }
+ ],
+ "/music/the-rooms-that-build-careers/": [
+  {
+   "phrase": "having its best",
+   "href": "/culture/repertory-cinema-revival-business/",
+   "df": 1
+  }
+ ],
+ "/policy/ai-liability-courts-first-cases/": [
+  {
+   "phrase": "deployed systems",
+   "href": "/business/board-oversight-ai-risk/",
+   "df": 1
+  },
+  {
+   "phrase": "contract terms",
+   "href": "/policy/procurement-regulating-ai-first/",
+   "df": 2
+  }
+ ],
+ "/policy/ai-rules-implementation-phase/": [
+  {
+   "phrase": "enforcement action",
+   "href": "/fintech/the-sponsor-bank-takes-the-hit/",
+   "df": 1
+  },
+  {
+   "phrase": "regulation",
+   "href": "/policy/cross-border-data-regimes-settle/",
+   "df": 10
+  },
+  {
+   "phrase": "standards bodies",
+   "href": "/blockchain/interoperability-standards-institutional-chains/",
+   "df": 1
+  },
+  {
+   "phrase": "transparency",
+   "href": "/crypto/stablecoin-reserve-transparency-standards/",
+   "df": 4
+  }
+ ],
+ "/policy/digital-asset-legislation-settles/": [
+  {
+   "phrase": "regulation",
+   "href": "/policy/cross-border-data-regimes-settle/",
+   "df": 10
+  },
+  {
+   "phrase": "digital asset",
+   "href": "/crypto/crypto-market-structure-rules-reshape-exchanges/",
+   "df": 4
+  }
+ ],
+ "/policy/open-source-ai-policy-truce/": [
+  {
+   "phrase": "evaluation",
+   "href": "/ai/ai-evaluation-becomes-budget-line/",
+   "df": 5
+  },
+  {
+   "phrase": "transparency",
+   "href": "/crypto/stablecoin-reserve-transparency-standards/",
+   "df": 4
+  },
+  {
+   "phrase": "industrial base",
+   "href": "/divide/divide-data-center-subsidies-right/",
+   "df": 1
+  }
+ ],
+ "/policy/procurement-regulating-ai-first/": [
+  {
+   "phrase": "regulation",
+   "href": "/policy/cross-border-data-regimes-settle/",
+   "df": 10
+  },
+  {
+   "phrase": "enterprise buyers",
+   "href": "/ai/enterprise-buyers-ai-contract-terms/",
+   "df": 1
+  }
+ ],
+ "/policy/right-to-repair-enters-enforcement/": [
+  {
+   "phrase": "considerably harder",
+   "href": "/cybersecurity/insurers-write-the-security-baseline/",
+   "df": 1
+  }
+ ],
+ "/startups/defense-tech-generalist-money/": [
+  {
+   "phrase": "frontier labs",
+   "href": "/ai/model-providers-consolidate-enterprise-tiers/",
+   "df": 2
+  }
+ ],
+ "/startups/design-partners-replace-the-free-trial/": [
+  {
+   "phrase": "mid-sized companies",
+   "href": "/business/middle-market-adopts-enterprise-ai/",
+   "df": 3
+  }
+ ],
+ "/startups/secondaries-startup-liquidity/": [
+  {
+   "phrase": "tender offers",
+   "href": "/startups/tender-offers-reach-the-rank-and-file/",
+   "df": 1
+  }
+ ],
+ "/startups/seed-strapping-default-alive/": [
+  {
+   "phrase": "secondary market",
+   "href": "/startups/secondaries-startup-liquidity/",
+   "df": 4
+  }
+ ],
+ "/startups/technical-founders-services-margins/": [
+  {
+   "phrase": "services firms",
+   "href": "/business/services-firms-rebuild-around-automation/",
+   "df": 1
+  }
+ ],
+ "/startups/tender-offers-reach-the-rank-and-file/": [
+  {
+   "phrase": "harder question",
+   "href": "/cybersecurity/sbom-what-buyers-do-with-it/",
+   "df": 2
+  },
+  {
+   "phrase": "early investors",
+   "href": "/startups/secondaries-startup-liquidity/",
+   "df": 1
+  }
+ ],
+ "/startups/what-a-seed-round-now-requires/": [
+  {
+   "phrase": "uncomfortable part",
+   "href": "/culture/production-follows-the-rebate/",
+   "df": 1
+  }
+ ],
+ "/technology/cloud-repatriation-selective/": [
+  {
+   "phrase": "engineering teams",
+   "href": "/ai/smaller-models-win-production-workloads/",
+   "df": 3
+  },
+  {
+   "phrase": "mid-sized companies",
+   "href": "/business/middle-market-adopts-enterprise-ai/",
+   "df": 3
+  }
+ ],
+ "/technology/enterprise-browsers-quiet-standard/": [
+  {
+   "phrase": "workforce",
+   "href": "/business/middle-managers-ai-restructuring/",
+   "df": 2
+  }
+ ],
+ "/technology/ipv6-and-the-machines/": [
+  {
+   "phrase": "security tool",
+   "href": "/cybersecurity/security-consolidation-platform-fatigue/",
+   "df": 1
+  }
+ ],
+ "/technology/observability-costs-revolt/": [
+  {
+   "phrase": "infrastructure software",
+   "href": "/startups/venture-funding-infrastructure-software/",
+   "df": 3
+  }
+ ],
+ "/technology/open-source-maintenance-funding/": [
+  {
+   "phrase": "service levels",
+   "href": "/blockchain/validator-economics-institutional-staking/",
+   "df": 1
+  },
+  {
+   "phrase": "supply chains",
+   "href": "/ai/semiconductor-supply-data-center-demand/",
+   "df": 3
+  },
+  {
+   "phrase": "software supply chain",
+   "href": "/cybersecurity/software-supply-chain-rules-bite/",
+   "df": 2
+  }
+ ],
+ "/technology/quantum-safe-migration-deadline/": [
+  {
+   "phrase": "critical infrastructure",
+   "href": "/cybersecurity/critical-infrastructure-reporting-rules/",
+   "df": 4
+  }
+ ],
+ "/technology/queue-position-is-the-real-asset/": [
+  {
+   "phrase": "power availability",
+   "href": "/technology/power-constraints-shape-computing/",
+   "df": 1
+  }
+ ],
+ "/technology/robotics-warehouse-to-workshop/": [
+  {
+   "phrase": "manufacturing",
+   "href": "/policy/right-to-repair-enters-enforcement/",
+   "df": 1
+  }
+ ]
+}

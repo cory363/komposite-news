@@ -15,4 +15,6 @@ Allow: /
 Disallow: /*?q=
 Disallow: /*?s=
 
+Sitemap: https://kompositenews.com/sitemap-index.xml
 Sitemap: https://kompositenews.com/sitemap.xml
+Sitemap: https://kompositenews.com/news-sitemap.xml
