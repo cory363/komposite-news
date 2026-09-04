@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kompositenews.netlify.app/sitemap.xml
+Sitemap: https://kompositenews.com/sitemap.xml
