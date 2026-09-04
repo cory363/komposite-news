@@ -79,14 +79,14 @@ export function render(a) {
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://use.typekit.net/rby3otj.css">
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=12"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=13"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
   const body = a.body.map(p => `<p>${p}</p>`).join("");
   const tags = a.tags.map(t => `<a href="/tag/${t.slug}/">${esc(t.name)}</a>`).join("");
   const rel = a.related.map(r =>
-    `<article class="hl"><span class="kick">${esc(r.kick)}</span><h3><a href="${r.href}">${esc(r.title)}</a></h3><div class="tago">${esc(r.ago)}</div></article>`).join("");
+    `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(r.title)}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
 
   const main = `<main class="wrap artgrid"><article class="art">
 <span class="kick">${esc(a.kick)}</span>
