@@ -88,13 +88,13 @@
   {
    "phrase": "settlement",
    "href": "/blockchain/onchain-settlement-fx-corridors/",
-   "df": 12
+   "df": 13
   }
  ],
  "/blockchain/blockchain-carbon-registries/": [
   {
    "phrase": "shared ledgers",
-   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
    "df": 3
   }
  ],
@@ -106,8 +106,8 @@
   },
   {
    "phrase": "settlement",
-   "href": "/blockchain/onchain-settlement-fx-corridors/",
-   "df": 12
+   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "df": 13
   }
  ],
  "/blockchain/digital-identity-credentials-enterprise/": [
@@ -133,7 +133,7 @@
   {
    "phrase": "settlement",
    "href": "/blockchain/banks-test-blockchain-settlement/",
-   "df": 12
+   "df": 13
   }
  ],
  "/blockchain/onchain-treasury-operations-corporates/": [
@@ -155,11 +155,6 @@
  ],
  "/blockchain/opinion-boring-blockchain-wins/": [
   {
-   "phrase": "shared ledgers",
-   "href": "/blockchain/onchain-settlement-fx-corridors/",
-   "df": 3
-  },
-  {
    "phrase": "collateral mobility",
    "href": "/markets/tokenized-collateral-margin-cycle/",
    "df": 2
@@ -167,31 +162,36 @@
   {
    "phrase": "settlement",
    "href": "/blockchain/banks-test-blockchain-settlement/",
-   "df": 12
+   "df": 13
+  },
+  {
+   "phrase": "shared ledgers",
+   "href": "/blockchain/tokenization-pilots-to-institutional-markets/",
+   "df": 3
   }
  ],
  "/blockchain/permissioned-ledgers-supply-chain-finance/": [
   {
-   "phrase": "enterprise blockchain",
-   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
+   "phrase": "institutional pattern",
+   "href": "/blockchain/banks-test-blockchain-settlement/",
    "df": 2
   },
   {
-   "phrase": "institutional pattern",
-   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "phrase": "enterprise blockchain",
+   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
    "df": 2
   }
  ],
  "/blockchain/stablecoin-settlement-b2b-payments/": [
   {
    "phrase": "standards",
-   "href": "/blockchain/enterprise-chains-consolidate-platforms/",
+   "href": "/blockchain/interoperability-standards-institutional-chains/",
    "df": 12
   },
   {
    "phrase": "settlement",
-   "href": "/blockchain/onchain-settlement-fx-corridors/",
-   "df": 12
+   "href": "/blockchain/banks-test-blockchain-settlement/",
+   "df": 13
   }
  ],
  "/blockchain/tokenization-pilots-to-institutional-markets/": [
@@ -206,14 +206,14 @@
    "df": 3
   },
   {
-   "phrase": "shared ledgers",
-   "href": "/blockchain/onchain-settlement-fx-corridors/",
-   "df": 3
-  },
-  {
    "phrase": "money market",
    "href": "/blockchain/tokenized-treasuries-money-funds/",
    "df": 4
+  },
+  {
+   "phrase": "shared ledgers",
+   "href": "/blockchain/onchain-settlement-fx-corridors/",
+   "df": 3
   }
  ],
  "/blockchain/tokenized-treasuries-money-funds/": [
@@ -300,6 +300,10 @@
    "phrase": "logistics",
    "href": "/business/supply-chain-software-consolidation/",
    "df": 6
+  },
+  {
+   "phrase": "reshoring",
+   "href": "/business/sourcing-moves-faster-than-tariffs/"
   }
  ],
  "/business/middle-managers-ai-restructuring/": [
@@ -335,14 +339,14 @@
  ],
  "/business/shadow-ai-governance-problem/": [
   {
-   "phrase": "procurement",
-   "href": "/business/cfo-scrutiny-technology-spend/",
-   "df": 11
-  },
-  {
    "phrase": "workforce",
    "href": "/business/middle-managers-ai-restructuring/",
    "df": 2
+  },
+  {
+   "phrase": "procurement",
+   "href": "/business/cfo-scrutiny-technology-spend/",
+   "df": 11
   }
  ],
  "/business/waiting-for-rates-to-fall-building-costs/": [
@@ -354,14 +358,14 @@
  ],
  "/crypto/compliance-architecture-crypto-firms/": [
   {
-   "phrase": "regulation",
-   "href": "/crypto/defi-institutional-wrappers/",
-   "df": 10
-  },
-  {
    "phrase": "privacy rules",
    "href": "/ai/synthetic-data-enterprise-training/",
    "df": 1
+  },
+  {
+   "phrase": "regulation",
+   "href": "/crypto/exchange-tokens-regulatory-reckoning/",
+   "df": 10
   },
   {
    "phrase": "standards",
@@ -396,7 +400,7 @@
  "/crypto/exchange-tokens-regulatory-reckoning/": [
   {
    "phrase": "regulation",
-   "href": "/crypto/defi-institutional-wrappers/",
+   "href": "/crypto/memecoin-era-institutional-distance/",
    "df": 10
   }
  ],
@@ -426,14 +430,14 @@
  ],
  "/crypto/stablecoin-reserve-transparency-standards/": [
   {
-   "phrase": "regulation",
-   "href": "/crypto/defi-institutional-wrappers/",
-   "df": 10
-  },
-  {
    "phrase": "stablecoins",
    "href": "/fintech/deposit-tokens-bank-response/",
    "df": 4
+  },
+  {
+   "phrase": "regulation",
+   "href": "/crypto/exchange-tokens-regulatory-reckoning/",
+   "df": 10
   },
   {
    "phrase": "money market",
@@ -441,11 +445,22 @@
    "df": 4
   }
  ],
+ "/culture/consent-becomes-a-line-item/": [
+  {
+   "phrase": "streaming",
+   "href": "/culture/the-window-reopens-slowly/",
+   "df": 8
+  },
+  {
+   "phrase": "for a production",
+   "href": "/culture/production-follows-the-rebate/"
+  }
+ ],
  "/culture/physical-media-collectors-hold/": [
   {
    "phrase": "streaming",
    "href": "/culture/the-window-reopens-slowly/",
-   "df": 6
+   "df": 8
   }
  ],
  "/culture/practical-effects-comeback/": [
@@ -466,7 +481,7 @@
   {
    "phrase": "streaming",
    "href": "/culture/the-window-reopens-slowly/",
-   "df": 6
+   "df": 8
   }
  ],
  "/culture/restoration-is-a-funding-problem/": [
@@ -496,8 +511,8 @@
  "/culture/the-window-reopens-slowly/": [
   {
    "phrase": "streaming",
-   "href": "/music/catalog-music-streaming-economics/",
-   "df": 6
+   "href": "/music/streaming-learns-to-weight-a-play/",
+   "df": 8
   }
  ],
  "/cybersecurity/deepfake-fraud-corporate-defenses/": [
@@ -505,6 +520,10 @@
    "phrase": "corporate treasuries",
    "href": "/blockchain/onchain-treasury-operations-corporates/",
    "df": 1
+  },
+  {
+   "phrase": "synthetic",
+   "href": "/culture/consent-becomes-a-line-item/"
   }
  ],
  "/cybersecurity/help-desk-identity-verification/": [
@@ -512,34 +531,38 @@
    "phrase": "networking",
    "href": "/technology/ipv6-and-the-machines/",
    "df": 1
+  },
+  {
+   "phrase": "password reset",
+   "href": "/cybersecurity/passwords-leaving-by-attrition/"
   }
  ],
  "/cybersecurity/identity-first-security-spending/": [
   {
-   "phrase": "rehearsed recovery",
-   "href": "/cybersecurity/ransomware-resilience-dividend/",
-   "df": 1
-  },
-  {
    "phrase": "machine identity",
    "href": "/cybersecurity/identity-machine-workloads/",
    "df": 2
+  },
+  {
+   "phrase": "rehearsed recovery",
+   "href": "/cybersecurity/ransomware-resilience-dividend/",
+   "df": 1
   }
  ],
  "/cybersecurity/insurers-write-the-security-baseline/": [
+  {
+   "phrase": "standards",
+   "href": "/cybersecurity/passwords-leaving-by-attrition/",
+   "df": 12
+  },
   {
    "phrase": "insurance",
    "href": "/cybersecurity/ransomware-resilience-dividend/",
    "df": 9
   },
   {
-   "phrase": "standards",
-   "href": "/cybersecurity/sbom-what-buyers-do-with-it/",
-   "df": 12
-  },
-  {
    "phrase": "regulation",
-   "href": "/cybersecurity/critical-infrastructure-reporting-rules/",
+   "href": "/cybersecurity/software-supply-chain-rules-bite/",
    "df": 10
   }
  ],
@@ -611,14 +634,14 @@
  ],
  "/fintech/deposit-tokens-bank-response/": [
   {
-   "phrase": "insurance",
-   "href": "/fintech/insurance-parametric-mainstream/",
-   "df": 9
-  },
-  {
    "phrase": "stablecoins",
    "href": "/fintech/cross-border-payments-competition/",
    "df": 4
+  },
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
   },
   {
    "phrase": "supplier payments",
@@ -635,26 +658,26 @@
  ],
  "/fintech/embedded-finance-vertical-software/": [
   {
-   "phrase": "insurance",
-   "href": "/fintech/insurance-parametric-mainstream/",
-   "df": 9
-  },
-  {
    "phrase": "software companies",
    "href": "/startups/design-partners-replace-the-free-trial/",
    "df": 1
+  },
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
   }
  ],
  "/fintech/instant-payments-b2b-standard/": [
   {
-   "phrase": "insurance",
-   "href": "/fintech/insurance-parametric-mainstream/",
-   "df": 9
-  },
-  {
    "phrase": "payment rails",
    "href": "/crypto/crypto-payments-emerging-markets/",
    "df": 1
+  },
+  {
+   "phrase": "insurance",
+   "href": "/fintech/insurance-parametric-mainstream/",
+   "df": 9
   },
   {
    "phrase": "supply chains",
@@ -772,8 +795,8 @@
  "/music/catalog-music-streaming-economics/": [
   {
    "phrase": "streaming",
-   "href": "/culture/the-window-reopens-slowly/",
-   "df": 6
+   "href": "/music/streaming-learns-to-weight-a-play/",
+   "df": 8
   }
  ],
  "/music/catalogs-are-a-rates-trade/": [
@@ -784,15 +807,27 @@
   },
   {
    "phrase": "streaming",
-   "href": "/music/catalog-music-streaming-economics/",
-   "df": 6
+   "href": "/music/streaming-learns-to-weight-a-play/",
+   "df": 8
   }
  ],
  "/music/rumours-generation-rediscovery/": [
   {
    "phrase": "streaming",
+   "href": "/music/streaming-learns-to-weight-a-play/",
+   "df": 8
+  }
+ ],
+ "/music/streaming-learns-to-weight-a-play/": [
+  {
+   "phrase": "rates remain",
+   "href": "/business/waiting-for-rates-to-fall-building-costs/",
+   "df": 1
+  },
+  {
+   "phrase": "streaming",
    "href": "/music/catalog-music-streaming-economics/",
-   "df": 6
+   "df": 8
   }
  ],
  "/music/the-rooms-that-build-careers/": [
@@ -822,7 +857,7 @@
   },
   {
    "phrase": "regulation",
-   "href": "/policy/cross-border-data-regimes-settle/",
+   "href": "/policy/app-store-becomes-the-age-gate/",
    "df": 10
   },
   {
@@ -839,7 +874,7 @@
  "/policy/digital-asset-legislation-settles/": [
   {
    "phrase": "regulation",
-   "href": "/policy/cross-border-data-regimes-settle/",
+   "href": "/policy/app-store-becomes-the-age-gate/",
    "df": 10
   },
   {
@@ -868,7 +903,7 @@
  "/policy/procurement-regulating-ai-first/": [
   {
    "phrase": "regulation",
-   "href": "/policy/cross-border-data-regimes-settle/",
+   "href": "/policy/app-store-becomes-the-age-gate/",
    "df": 10
   },
   {
@@ -896,6 +931,10 @@
    "phrase": "mid-sized companies",
    "href": "/business/middle-market-adopts-enterprise-ai/",
    "df": 3
+  },
+  {
+   "phrase": "acquired",
+   "href": "/startups/the-exit-is-an-acquisition/"
   }
  ],
  "/startups/secondaries-startup-liquidity/": [
@@ -1005,8 +1044,60 @@
  "/technology/robotics-warehouse-to-workshop/": [
   {
    "phrase": "manufacturing",
-   "href": "/policy/right-to-repair-enters-enforcement/",
+   "href": "/business/sourcing-moves-faster-than-tariffs/",
    "df": 1
+  }
+ ],
+ "/policy/app-store-becomes-the-age-gate/": [
+  {
+   "phrase": "data handling",
+   "href": "/policy/state-privacy-laws-national-floor/"
+  },
+  {
+   "phrase": "identity documents",
+   "href": "/cybersecurity/help-desk-identity-verification/"
+  }
+ ],
+ "/startups/the-exit-is-an-acquisition/": [
+  {
+   "phrase": "seed round",
+   "href": "/startups/what-a-seed-round-now-requires/"
+  },
+  {
+   "phrase": "cap table",
+   "href": "/startups/tender-offers-reach-the-rank-and-file/"
+  }
+ ],
+ "/cybersecurity/passwords-leaving-by-attrition/": [
+  {
+   "phrase": "help desk",
+   "href": "/cybersecurity/help-desk-identity-verification/"
+  },
+  {
+   "phrase": "budget line",
+   "href": "/cybersecurity/security-consolidation-platform-fatigue/"
+  }
+ ],
+ "/business/sourcing-moves-faster-than-tariffs/": [
+  {
+   "phrase": "supply chain",
+   "href": "/business/supply-chain-software-consolidation/"
+  },
+  {
+   "phrase": "nearshoring",
+   "href": "/business/industrial-reshoring-software-gap/"
+  }
+ ],
+ "/policy/state-privacy-laws-national-floor/": [
+  {
+   "phrase": "minors",
+   "href": "/policy/app-store-becomes-the-age-gate/"
+  }
+ ],
+ "/markets/ten-stocks-are-now-forty-percent/": [
+  {
+   "phrase": "index fund",
+   "href": "/startups/the-exit-is-an-acquisition/"
   }
  ]
 }

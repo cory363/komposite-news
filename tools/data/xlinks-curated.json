@@ -1,0 +1,84 @@
+{
+  "/policy/app-store-becomes-the-age-gate/": [
+    {
+      "phrase": "data handling",
+      "href": "/policy/state-privacy-laws-national-floor/"
+    },
+    {
+      "phrase": "identity documents",
+      "href": "/cybersecurity/help-desk-identity-verification/"
+    }
+  ],
+  "/startups/the-exit-is-an-acquisition/": [
+    {
+      "phrase": "seed round",
+      "href": "/startups/what-a-seed-round-now-requires/"
+    },
+    {
+      "phrase": "cap table",
+      "href": "/startups/tender-offers-reach-the-rank-and-file/"
+    }
+  ],
+  "/cybersecurity/passwords-leaving-by-attrition/": [
+    {
+      "phrase": "help desk",
+      "href": "/cybersecurity/help-desk-identity-verification/"
+    },
+    {
+      "phrase": "budget line",
+      "href": "/cybersecurity/security-consolidation-platform-fatigue/"
+    }
+  ],
+  "/culture/consent-becomes-a-line-item/": [
+    {
+      "phrase": "for a production",
+      "href": "/culture/production-follows-the-rebate/"
+    }
+  ],
+  "/business/sourcing-moves-faster-than-tariffs/": [
+    {
+      "phrase": "supply chain",
+      "href": "/business/supply-chain-software-consolidation/"
+    },
+    {
+      "phrase": "nearshoring",
+      "href": "/business/industrial-reshoring-software-gap/"
+    }
+  ],
+  "/policy/state-privacy-laws-national-floor/": [
+    {
+      "phrase": "minors",
+      "href": "/policy/app-store-becomes-the-age-gate/"
+    }
+  ],
+  "/startups/design-partners-replace-the-free-trial/": [
+    {
+      "phrase": "acquired",
+      "href": "/startups/the-exit-is-an-acquisition/"
+    }
+  ],
+  "/cybersecurity/help-desk-identity-verification/": [
+    {
+      "phrase": "password reset",
+      "href": "/cybersecurity/passwords-leaving-by-attrition/"
+    }
+  ],
+  "/cybersecurity/deepfake-fraud-corporate-defenses/": [
+    {
+      "phrase": "synthetic",
+      "href": "/culture/consent-becomes-a-line-item/"
+    }
+  ],
+  "/business/industrial-reshoring-software-gap/": [
+    {
+      "phrase": "reshoring",
+      "href": "/business/sourcing-moves-faster-than-tariffs/"
+    }
+  ],
+  "/markets/ten-stocks-are-now-forty-percent/": [
+    {
+      "phrase": "index fund",
+      "href": "/startups/the-exit-is-an-acquisition/"
+    }
+  ]
+}

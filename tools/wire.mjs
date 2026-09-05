@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { SITE, esc, prettyDate } from "./lib-template.mjs";
-import { heroUrl } from "./render-article.mjs";
+import { heroUrl, hero } from "./render-article.mjs";
 
 const AUTHORS = {
   "jonathan-bright": ["Jonathan Bright", "Policy Editor"],
@@ -44,7 +44,8 @@ const storyCard = a =>
 
 const leadCard = a => {
   const [n] = AUTHORS[a.author];
-  return `<article class="story"><span class="kick">${esc(a.kick)}</span><h2 class="secbig"><a href="${rel(a)}">${esc(a.headline)}</a></h2><p class="deck">${esc(a.dek)}</p><a href="${rel(a)}"><span class="pwrap"><img class="illo photo "  src="${esc(heroUrl(a))}" alt="${esc(a.photo.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${esc(a.photo.credit)}</span></span></a><div class="tago"><a href="/authors/${a.author}/">${n}</a> &middot; ${upper(a.date)}</div></article>`;
+  const h = hero(a);
+  return `<article class="story"><span class="kick">${esc(a.kick)}</span><h2 class="secbig"><a href="${rel(a)}">${esc(a.headline)}</a></h2><p class="deck">${esc(a.dek)}</p><a href="${rel(a)}"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span></a><div class="tago"><a href="/authors/${a.author}/">${n}</a> &middot; ${upper(a.date)}</div></article>`;
 };
 
 /** Demote an existing lead card to a feature card, dropping its hero and byline. */
