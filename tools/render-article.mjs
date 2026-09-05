@@ -95,9 +95,8 @@ export function render(a) {
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(h.url)}">
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://use.typekit.net/rby3otj.css">
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=14"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css?v=15"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
