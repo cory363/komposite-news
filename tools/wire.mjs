@@ -60,8 +60,15 @@ function demote(lead) {
   return `<article class="story"><span class="kick">${kick}</span><h3><a href="${href}">${title}</a></h3><p class="deck">${deck}</p><div class="tago">${date.trim()} </div></article>`;
 }
 
-function insertAfter(html, marker, insertion) {
-  const i = html.indexOf(marker);
+/**
+ * Insert after the first occurrence of `marker` AT OR AFTER `from`.
+ *
+ * The offset is not optional detail: searching from 0 meant every homepage
+ * card landed in the page's first .secl, which is the AI block. That put 28
+ * cards from other sections into AI and left the other rails empty.
+ */
+function insertAfter(html, marker, insertion, from = 0) {
+  const i = html.indexOf(marker, from);
   if (i < 0) return null;
   return html.slice(0, i + marker.length) + insertion + html.slice(i + marker.length);
 }
@@ -77,7 +84,7 @@ export function wire(a, log = console.log) {
     const bi = h.indexOf(band);
     if (bi >= 0 && !h.slice(bi, bi + 4000).includes(`href="${url}"`)) {
       const secl = h.indexOf('<div class="secl">', bi);
-      const out = insertAfter(h, h.slice(secl, secl + '<div class="secl">'.length), secitem(a));
+      const out = insertAfter(h, '<div class="secl">', secitem(a), bi);
       if (out) {
         // keep the block the same length by dropping its last secitem
         const start = out.indexOf('<div class="secl">', bi);
