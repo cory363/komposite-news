@@ -1,0 +1,14 @@
+{
+  "name": "Komposite News",
+  "short_name": "Komposite",
+  "description": "AI, blockchain, digital assets, enterprise technology and capital markets.",
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#7E2231",
+  "background_color": "#F9EFE2",
+  "icons": [
+    { "src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/assets/img/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
