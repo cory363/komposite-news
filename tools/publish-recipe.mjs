@@ -80,6 +80,7 @@ const STEPS = [
 const { chrome, tail } = furniture();
 
 const head = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#7E2231">
 <title>${title}</title><meta name="description" content="${esc(a.metaDesc)}">
 <link rel="canonical" href="${url}">
 <meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:image" content="${esc(hero)}">
