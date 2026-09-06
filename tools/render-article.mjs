@@ -36,6 +36,8 @@ const AUTHORS = {
   "dana-whitfield": "Dana Whitfield|Senior AI Correspondent",
   "colin-abernathy": "Colin Abernathy|Culture Editor",
   "marta-reyes": "Marta Reyes|Recipes Editor",
+  "ruth-calloway": "Ruth Calloway|Contributing Columnist",
+  "grant-whitmore": "Grant Whitmore|Contributing Columnist",
 };
 
 export const heroKey = a => `${a.dir}/${a.slug}`;
@@ -108,12 +110,12 @@ export function render(a) {
     `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
 
   const main = `<main class="wrap artgrid"><article class="art">
-<span class="kick">${esc(a.kick)}</span>
+<span class="kick${a.opinion ? " k-op" : ""}">${esc(a.kick)}</span>
 <h1>${esc(a.headline)}</h1><p class="artdeck">${esc(a.dek)}</p>
 <div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>
 <div class="bydate">${prettyDate(a.date)} &middot; ${mins} min read</div></div>
 ${shareRow(url, a.headline)}
-<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>
+${a.opinion ? `<figure class="arthero"><figcaption>${esc(a.dek)}</figcaption></figure>` : `<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>`}
 <div class="artbody">${body}</div>
 <div class="tagsrow">${tags}</div>
 <div class="band"><span>MORE ON THIS STORY</span></div>

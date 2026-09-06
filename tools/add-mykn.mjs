@@ -26,8 +26,10 @@ for (const f of walk(".")) {
 
   // Save control, dropped into the existing share row on article pages.
   if (h.includes('"@type":"NewsArticle"') && h.includes('class="sharerow"') && !h.includes("kn-save")) {
-    const url = (h.match(/rel="canonical" href="[^"]*(\/[^"]*)"/) || [])[1]
-      || "/" + f.replace(/index\.html$/, "");
+    // Take the canonical and strip the origin. The previous pattern was
+    // greedy and captured only the final slash, so every Save stored "/".
+    const canon = (h.match(/rel="canonical" href="([^"]*)"/) || [])[1] || "";
+    const url = canon.replace(/^https?:\/\/[^/]+/, "") || "/" + f.replace(/^\.\//, "").replace(/index\.html$/, "");
     const headline = ((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]*>/g, "");
     const kick = (h.match(/<span class="kick">([^<]*)</) || [])[1] || "";
     const date = (h.match(/"datePublished":"([^"]+)"/) || [])[1] || "";

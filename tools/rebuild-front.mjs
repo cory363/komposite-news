@@ -112,3 +112,53 @@ console.log("  distinct stories above the fold: " + seen.size);
     console.log("  ok   Trending bar -> " + trend.map(a => a.title.slice(0, 30)).join(" | "));
   } else console.log("  MISS Trending bar");
 }
+
+// --- The Divide panel and Recipe of the Day -----------------------------
+// Both were curated once and never swapped, so the homepage showed the same
+// Divide pair and the same recipe regardless of what had been published since.
+{
+  let f = fs.readFileSync("index.html", "utf8");
+
+  // Newest Divide pair: two columns sharing a publication time.
+  const divides = arts.filter(a => a.dir === "divide");
+  const left = divides.find(a => /-left$/.test(a.url.replace(/\/$/, "")));
+  const right = divides.find(a => /-right$/.test(a.url.replace(/\/$/, "")));
+  if (left && right) {
+    const issue = { "divide-crypto-retirement": "Should retirement plans be allowed to hold crypto?" }[
+      left.url.replace(/\/$/, "").split("/").pop().replace(/-left$/, "")] || "One issue. Two arguments.";
+    let g = f.replace(/(<h2 class="divpanel-issue">)[\s\S]*?(<\/h2>)/, `$1${esc(issue)}$2`);
+    const col = (a, side) =>
+      `<article class="divcol"><span class="chip chip-${side === "left" ? "l" : "r"}">From the ${side === "left" ? "Left" : "Right"}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3><p class="deck">${esc(a.dek)}</p>${byline(a)}</article>`;
+    g = g.replace(/(<div class="divgrid divgrid-dark">)[\s\S]*?(<a class="divpanel-all")/,
+      `$1\n  ${col(left, "left")}\n  <div class="divrule divrule-dark"><span>VS</span></div>\n  ${col(right, "right")}\n</div>\n$2`);
+    if (g !== f) { f = g; console.log("  ok   Divide panel -> " + left.title.slice(0, 40) + " vs " + right.title.slice(0, 40)); }
+    else console.log("  MISS Divide panel");
+  }
+
+  // Newest recipe.
+  const recipes = fs.existsSync("recipes")
+    ? fs.readdirSync("recipes", { withFileTypes: true }).filter(e => e.isDirectory())
+        .map(e => "recipes/" + e.name + "/index.html").filter(p => fs.existsSync(p))
+        .map(p => {
+          const h2 = fs.readFileSync(p, "utf8");
+          return {
+            url: "/" + p.replace(/index\.html$/, ""),
+            title: ((h2.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
+            dek: ((h2.match(/<p class="deck artdeck">([\s\S]*?)<\/p>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
+            meta: (h2.match(/<div class="bydate">([^<]*)</) || [])[1] || "",
+            img: (h2.match(/<img class="illo photo arthero"[^>]*\ssrc="([^"]*)"/) || [])[1] || "",
+            alt: (h2.match(/<img class="illo photo arthero"[^>]*alt="([^"]*)"/) || [])[1] || "",
+            cred: (h2.match(/<img class="illo photo arthero"[\s\S]*?<span class="pcred">([\s\S]*?)<\/span>/) || [])[1] || "",
+            date: (h2.match(/"datePublished":"([^"]+)"/) || [])[1] || "",
+          };
+        }).filter(r => r.title).sort((a, b) => b.date.localeCompare(a.date))
+    : [];
+  const rec = recipes[0];
+  if (rec) {
+    const card = `\n  <a class="recimg" href="${rec.url}"><span class="pwrap"><img class="illo photo" src="${esc(rec.img)}" alt="${esc(rec.alt)}" loading="lazy" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${rec.cred}</span></span></a>\n  <div class="recbody"><div class="kick">From the kitchen</div><h2><a href="${rec.url}">${esc(rec.title)}</a></h2><p class="deck">${esc(rec.dek)}</p>\n  <div class="byrole">${esc(rec.meta)} &middot; By <a href="/authors/marta-reyes/">Marta Reyes</a></div>\n  <a class="allof" href="${rec.url}">Get the recipe &rsaquo;</a></div>\n`;
+    const g = f.replace(/(<section class="wrap recipecard">)[\s\S]*?(<\/section>)/, `$1${card}$2`);
+    if (g !== f) { f = g; console.log("  ok   Recipe of the Day -> " + rec.title); }
+    else console.log("  MISS Recipe card");
+  }
+  fs.writeFileSync("index.html", f);
+}
