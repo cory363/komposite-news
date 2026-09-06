@@ -412,5 +412,50 @@
   "alt": "Braised beef served with beans on a white plate",
   "creditHtml": "<a href=\"https://unsplash.com/@gennady107?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Gennady Zakharin</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "business/the-office-is-a-quality-trade": {
+  "id": "pYlBAu3de0w",
+  "url": "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZW1wdHklMjBtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2UlMjBkZXNrc3xlbnwxfDB8fHwxNzg4NzE4OTY0fDA&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
+  "width": 800,
+  "height": 430,
+  "alt": "An open-plan office of empty desks and chairs",
+  "creditHtml": "<a href=\"https://unsplash.com/@hdbernd?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Bernd 📷 Dittrich</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "technology/the-dependency-nobody-funds": {
+  "id": "ieic5Tq8YMk",
+  "url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c291cmNlJTIwY29kZSUyMHRlcm1pbmFsJTIwc2NyZWVuJTIwZGV2ZWxvcGVyfGVufDF8MHx8fDE3ODg3MTg5OTN8MA&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
+  "width": 800,
+  "height": 534,
+  "alt": "A screen filled with lines of source code",
+  "creditHtml": "<a href=\"https://unsplash.com/@cdr6934?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Chris Ried</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/open-banking-goes-back-to-drafting": {
+  "id": "QwAL909kTiY",
+  "url": "https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YmFua2luZyUyMGFwcCUyMHBob25lJTIwc2NyZWVuJTIwZmluYW5jZXxlbnwxfDB8fHwxNzg4NzE4OTY1fDA&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
+  "width": 800,
+  "height": 533,
+  "alt": "A hand holding a smartphone showing a banking app",
+  "creditHtml": "<a href=\"https://unsplash.com/@tranmautritam?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tran Mau Tri Tam ✪</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/attackers-learned-the-physics": {
+  "id": "C3DfIgig1j8",
+  "url": "https://images.unsplash.com/photo-1738918937796-743064feefa1?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8aW5kdXN0cmlhbCUyMGNvbnRyb2wlMjByb29tJTIwcGxhbnR8ZW58MXwwfHx8MTc4ODcxODk2NXww&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
+  "width": 800,
+  "height": 533,
+  "alt": "An industrial control room wall of dials and switches",
+  "creditHtml": "<a href=\"https://unsplash.com/@modry_dinosaurus?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Frantisek Duris</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "startups/two-markets-wearing-one-label": {
+  "id": "wD1LRb9OeEo",
+  "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8d2hpdGVib2FyZCUyMG1lZXRpbmclMjBzbWFsbCUyMHRlYW0lMjBzdGFydHVwfGVufDF8MHx8fDE3ODg3MTg5NjZ8MA&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
+  "width": 800,
+  "height": 600,
+  "alt": "Three people working on laptops around a table",
+  "creditHtml": "<a href=\"https://unsplash.com/@austindistel?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Austin Distel</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
