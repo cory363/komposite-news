@@ -132,7 +132,7 @@ console.log("  distinct stories above the fold: " + seen.size);
     g = g.replace(/(<div class="divgrid divgrid-dark">)[\s\S]*?(<a class="divpanel-all")/,
       `$1\n  ${col(left, "left")}\n  <div class="divrule divrule-dark"><span>VS</span></div>\n  ${col(right, "right")}\n</div>\n$2`);
     if (g !== f) { f = g; console.log("  ok   Divide panel -> " + left.title.slice(0, 40) + " vs " + right.title.slice(0, 40)); }
-    else console.log("  MISS Divide panel");
+    else console.log("  ok   Divide panel already current");
   }
 
   // Newest recipe.
@@ -158,7 +158,7 @@ console.log("  distinct stories above the fold: " + seen.size);
     const card = `\n  <a class="recimg" href="${rec.url}"><span class="pwrap"><img class="illo photo" src="${esc(rec.img)}" alt="${esc(rec.alt)}" loading="lazy" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${rec.cred}</span></span></a>\n  <div class="recbody"><div class="kick">From the kitchen</div><h2><a href="${rec.url}">${esc(rec.title)}</a></h2><p class="deck">${esc(rec.dek)}</p>\n  <div class="byrole">${esc(rec.meta)} &middot; By <a href="/authors/marta-reyes/">Marta Reyes</a></div>\n  <a class="allof" href="${rec.url}">Get the recipe &rsaquo;</a></div>\n`;
     const g = f.replace(/(<section class="wrap recipecard">)[\s\S]*?(<\/section>)/, `$1${card}$2`);
     if (g !== f) { f = g; console.log("  ok   Recipe of the Day -> " + rec.title); }
-    else console.log("  MISS Recipe card");
+    else console.log("  ok   Recipe card already current");
   }
   fs.writeFileSync("index.html", f);
 }
