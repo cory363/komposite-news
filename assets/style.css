@@ -867,3 +867,47 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:700;letter-spacing:-.014em}
   .abcgrid,.secgrid{margin-left:0;margin-right:0}
   .abcgrid .abccard,.secgrid .abccard{border-left:0;padding:0}
 }
+
+/* ---- Masthead and display voice -------------------------------------- */
+/* Archivo is a competent grotesque and reads like every other product built
+   this year, which is the problem. A high-contrast didone carries the
+   masthead and the largest display sizes; the grotesque keeps everything
+   small, where high contrast would fall apart. */
+:root{--mast:"Bodoni Moda",Didot,"Bodoni 72","Times New Roman",serif}
+
+.brand,.footlogo{font-family:var(--mast)!important;font-weight:800;letter-spacing:-.018em}
+/* .dhead .brand caps this at 34px and outranks a bare .brand selector. */
+.dhead .brand,.brand{font-size:clamp(30px,4.4vw,54px);line-height:.94}
+.dhrow{padding-top:16px;padding-bottom:14px}
+
+/* Display sizes only. Below roughly 26px the thin strokes go to nothing. */
+.abclead-panel h2,.art h1,.bbl h2,.spothead,.coverhead,.divpanel-issue{
+  font-family:var(--mast);font-weight:700;letter-spacing:-.012em}
+.abclead-panel h2{font-size:clamp(30px,3.1vw,46px);line-height:1.02}
+.art h1{line-height:1.04;letter-spacing:-.014em}
+.bbl h2{line-height:1.04}
+
+/* ---- House grade and credit placement --------------------------------- */
+/* Two problems, one device. Photographs came from a dozen sources and looked
+   it; the credit sat under the image as its own line, reading like a caption
+   for the picture rather than an attribution. A graded scrim unifies the
+   pictures and gives the credit somewhere to sit. */
+.pwrap{position:relative;display:block;overflow:hidden}
+.pwrap>img,.abccard>a>img,.seclead>a>img,.inpix-c>img{
+  filter:saturate(.88) contrast(1.07) brightness(.99)}
+
+.pwrap::after,.abccard>a::after,.seclead>a::after,.inpix-c::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    linear-gradient(180deg,rgba(12,38,74,.16) 0%,rgba(12,38,74,0) 34%,rgba(8,24,48,.46) 100%),
+    radial-gradient(120% 80% at 50% 40%,rgba(0,0,0,0) 55%,rgba(6,20,40,.20) 100%);}
+.abccard>a,.seclead>a,.inpix-c{position:relative;display:block;overflow:hidden}
+
+/* Credit rides the image, bottom right, on the scrim it already has. */
+.pcred{position:absolute;right:9px;bottom:7px;z-index:2;display:block;
+  font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.07em;
+  text-transform:uppercase;color:rgba(255,255,255,.86);padding:0;margin:0;
+  text-align:right;text-shadow:0 1px 3px rgba(0,0,0,.55);max-width:70%}
+.arthero .pwrap .pcred{text-align:right}
+.pcred a{font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;text-decoration:none}
+.pcred a:hover{color:#fff;text-decoration:underline}
