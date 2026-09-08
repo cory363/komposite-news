@@ -798,3 +798,33 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:700;letter-spacing:-.014em}
    navigation and furniture are all Archivo, so the ABC voice holds. */
 .artbody p,.artbody li,.artbody blockquote{font-family:var(--serif)}
 .artbody p{font-size:18px;line-height:1.62}
+
+/* ---- Section module shapes ------------------------------------------- */
+/* Three shapes rotating down the page. Twelve identical grids is what makes
+   a front read as machine-assembled rather than edited. */
+.secmod-lead{display:grid;grid-template-columns:1.55fr 1fr;gap:28px;align-items:start}
+.seclead>a{display:block;overflow:hidden}
+.seclead img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--tint);
+  transition:transform .4s cubic-bezier(.2,.6,.3,1)}
+.seclead:hover img{transform:scale(1.03)}
+.seclead-tx{padding-top:11px}
+.seclead-tx h3{font-family:var(--display);font-size:23px;line-height:1.14;font-weight:700;
+  letter-spacing:-.018em;margin:0 0 6px}
+.seclead-tx h3 a:hover{color:var(--claret)}
+
+.secmod-split{display:grid;grid-template-columns:1.9fr 1fr;gap:28px;align-items:start}
+.secpair{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+
+.seclist{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.seclist li{border-bottom:1px solid var(--rule);padding:11px 0;display:flex;
+  align-items:baseline;justify-content:space-between;gap:14px}
+.seclist li a{font-family:var(--display);font-size:15.5px;font-weight:700;line-height:1.22;
+  letter-spacing:-.008em;color:var(--ink)}
+.seclist li a:hover{color:var(--claret)}
+.secl-t{font-family:var(--sans);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--faint);white-space:nowrap;flex:0 0 auto}
+
+@media (max-width:900px){
+  .secmod-lead,.secmod-split{grid-template-columns:1fr;gap:18px}
+  .secpair{grid-template-columns:1fr}
+}
