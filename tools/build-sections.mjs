@@ -41,16 +41,40 @@ const used = fs.existsSync("tools/data/front-used.json")
   ? new Set(JSON.parse(fs.readFileSync("tools/data/front-used.json", "utf8"))) : new Set();
 
 let h = fs.readFileSync("index.html", "utf8");
+
+/* De-duplicate by IMAGE, not just by URL. Two different stories carrying the
+   same stock photo read as one story told twice, which is what the homepage
+   was doing. Seed from the images the front zone already placed. */
+const imgId = u => {
+  const m = String(u).match(/photo-([A-Za-z0-9_-]{6,})/) || String(u).match(/FilePath\/([^?"]+)/);
+  return m ? decodeURIComponent(m[1]) : String(u).split("?")[0];
+};
+const usedImgs = new Set();
+{
+  const cut = h.indexOf('<section class="wrap secblock">');
+  const head = cut > 0 ? h.slice(0, cut) : h;
+  for (const m of head.matchAll(/<img[^>]*\bsrc="([^"]+)"/g)) usedImgs.add(imgId(m[1]));
+}
 let rebuilt = 0;
 for (const [slug, label] of SECTIONS) {
-  const bandStart = h.indexOf(`<div class="band"><span><a href="/${slug}/">`);
-  if (bandStart < 0) { console.log("  --   " + label + " (no band)"); continue; }
-  const bandEnd = h.indexOf("<div class=\"band\">", bandStart + 10);
-  const stop = bandEnd > 0 ? bandEnd : h.indexOf('<section class="divpanel">', bandStart);
-  if (stop < 0) { console.log("  --   " + label + " (no end marker)"); continue; }
+  /* First run consumed the old .band markers, so anchor on the .secblock this
+     tool itself emits and make the rebuild idempotent. */
+  const marker = `<div class="sechead-row"><h2><a href="/${slug}/">`;
+  const mi = h.indexOf(marker);
+  if (mi < 0) { console.log("  --   " + label + " (no section block)"); continue; }
+  const bandStart = h.lastIndexOf('<section class="wrap secblock">', mi);
+  const endTag = "</div></section>";
+  const ei = h.indexOf(endTag, mi);
+  if (bandStart < 0 || ei < 0) { console.log("  --   " + label + " (markers unbalanced)"); continue; }
+  const stop = ei + endTag.length;
 
-  const picks = articles(slug).filter(a => !used.has(a.url)).slice(0, 4);
-  if (picks.length < 4) picks.push(...articles(slug).filter(a => !picks.includes(a)).slice(0, 4 - picks.length));
+  const pool = articles(slug);
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 4);
+  if (picks.length < 4)                                  // relax URL rule before repeating a photo
+    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 4 - picks.length));
+  if (picks.length < 4)                                  // last resort: section is too thin
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 4 - picks.length));
+  picks.forEach(a => usedImgs.add(imgId(a.img)));
   const block = `<section class="wrap secblock">
 <div class="sechead-row"><h2><a href="/${slug}/">${esc(label)}</a></h2><a class="allof" href="/${slug}/">All ${esc(label)} coverage &rsaquo;</a></div>
 <div class="secgrid">

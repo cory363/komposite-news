@@ -706,3 +706,53 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
    type, so photographer names rendered at 16px next to 9px credit text. */
 .pcred a{font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;text-decoration:none}
 .pcred a:hover{color:var(--slate);text-decoration:underline}
+
+/* ---- ABC-derived homepage modules ------------------------------------ */
+
+/* Quick links: chip row of current topics, directly under the utility bar. */
+.quicklinks{border-bottom:1px solid var(--rule);background:var(--paper)}
+.qlrow{display:flex;align-items:center;gap:8px;padding:9px 0;overflow-x:auto;scrollbar-width:none}
+.qlrow::-webkit-scrollbar{display:none}
+.qllabel{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--faint);white-space:nowrap;flex:0 0 auto}
+.qlrow a{flex:0 0 auto;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--slate);
+  border:1px solid var(--rule);border-radius:999px;padding:5px 12px;white-space:nowrap;text-decoration:none}
+.qlrow a:hover{border-color:var(--claret);color:var(--claret);background:var(--tint)}
+
+/* Ranked Top stories, ABC's numbered rail. The base rail marks each item
+   with a square bullet; with numerals that reads as two markers, so the
+   numbered variant drops the dot and indents for the counter instead. */
+.abctop-num ol{counter-reset:kn}
+.abctop-num li{counter-increment:kn;position:relative}
+.abctop-num li a{padding-left:38px}
+.abctop-num li a::before{display:none}
+.abctop-num li::before{content:counter(kn);position:absolute;left:14px;top:11px;
+  font-family:var(--sans);font-size:13px;font-weight:800;color:var(--claret);line-height:1.28}
+
+/* In pictures: photo-led strip. */
+.inpix{margin:34px auto 8px}
+.inpix-g{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.inpix-c{display:block;text-decoration:none;color:inherit}
+.inpix-c img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--tint)}
+.inpix-t{display:block;font-family:var(--serif);font-size:14px;font-weight:600;line-height:1.28;
+  margin-top:8px;color:var(--ink)}
+.inpix-c:hover .inpix-t{color:var(--claret)}
+
+/* Newsletter promo, in place of ABC's app-download block. */
+.nlpromo{display:grid;grid-template-columns:7fr 5fr;gap:28px;align-items:center;
+  background:var(--tint);border:1px solid var(--rule);padding:26px 28px;margin:34px auto}
+.nlpromo-k{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--claret);margin-bottom:6px}
+.nlpromo h2{font-family:var(--serif);font-size:26px;line-height:1.15;margin:0 0 6px}
+.nlpromo p{font-size:14px;color:var(--slate);margin:0;max-width:52ch}
+.nlpromo-f{display:flex;gap:8px}
+.nlpromo-f input{flex:1;min-width:0;font-family:var(--sans);font-size:14px;padding:11px 12px;
+  border:1px solid var(--rule);background:var(--paper);color:var(--ink)}
+.nlpromo-f button{font-family:var(--sans);font-size:13px;font-weight:700;letter-spacing:.02em;
+  padding:11px 18px;border:0;background:var(--claret);color:#fff;cursor:pointer}
+.nlpromo-f button:hover{background:var(--claret-lt)}
+
+@media (max-width:900px){
+  .inpix-g{grid-template-columns:repeat(2,1fr)}
+  .nlpromo{grid-template-columns:1fr;gap:16px;padding:20px}
+}

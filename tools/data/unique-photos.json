@@ -1,0 +1,530 @@
+{
+ "ai/ai-data-center-cooling-economics": {
+  "file": "CESCA.JPG",
+  "width": 4288,
+  "height": 2848,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Vcarceler",
+  "cat": "Supercomputers"
+ },
+ "ai/ai-talent-market-normalizes": {
+  "file": "Wikimedia_Foundation_Servers-8055_02.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Victorgrigas",
+  "cat": "Data centers"
+ },
+ "technology/edge-inference-consumer-devices": {
+  "file": "Cable_Guys.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Harold Odhiambo Otieno",
+  "cat": "Optical fiber cables"
+ },
+ "ai/model-providers-consolidate-enterprise-tiers": {
+  "file": "Nancy_Grace_Roman_Reflected_in_JWST_Mirror_(42127817431).jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "Public domain",
+  "artist": "NASA Hubble Space Telescope",
+  "cat": "Cleanrooms"
+ },
+ "ai/opinion-ai-productivity-measurement": {
+  "file": "Roboteam_Robots.jpg",
+  "width": 5702,
+  "height": 3801,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Robobotics",
+  "cat": "Robotics"
+ },
+ "ai/gpu-cloud-market-shakeout": {
+  "file": "Roboteam_PROBOT.jpg",
+  "width": 5760,
+  "height": 3840,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Robobotics",
+  "cat": "Robotics"
+ },
+ "ai/smaller-models-win-production-workloads": {
+  "file": "ESO_pushes_technology_further.jpg",
+  "width": 5598,
+  "height": 3744,
+  "lic": "CC BY 4.0",
+  "artist": "ESO",
+  "cat": "Server rooms"
+ },
+ "ai/synthetic-data-enterprise-training": {
+  "file": "CDC_3000_family_overview_-_3D_rendering.jpg",
+  "width": 4000,
+  "height": 2213,
+  "lic": "CC BY-SA 4.0",
+  "artist": "FlyAkwa",
+  "cat": "Supercomputers"
+ },
+ "blockchain/blockchain-data-availability-costs": {
+  "file": "2016_366_51_Container_Port_(24533007943).jpg",
+  "width": 5472,
+  "height": 3648,
+  "lic": "CC BY 2.0",
+  "artist": "Edna Winti",
+  "cat": "Container terminals"
+ },
+ "blockchain/enterprise-chains-consolidate-platforms": {
+  "file": "Morocco_Casablanca_containers_1403.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 2.0",
+  "artist": "Industrial Wales",
+  "cat": "Container cranes"
+ },
+ "blockchain/onchain-settlement-fx-corridors": {
+  "file": "Flying_to_the_end_of_the_world_(12449889513).jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY 2.0",
+  "artist": "Don Toofee from Dammam, KSA",
+  "cat": "Cargo ships"
+ },
+ "blockchain/onchain-treasury-operations-corporates": {
+  "file": "اسکله_شهید_کلانتری.jpg",
+  "width": 5464,
+  "height": 3070,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Dadkan1996",
+  "cat": "Ports"
+ },
+ "blockchain/interoperability-standards-institutional-chains": {
+  "file": "Speicherstadt_Sunset_(16997407709).jpg",
+  "width": 5760,
+  "height": 3512,
+  "lic": "CC BY 2.0",
+  "artist": "Tony Webster from Portland, Oregon, United States",
+  "cat": "Warehouses"
+ },
+ "blockchain/permissioned-ledgers-supply-chain-finance": {
+  "file": "Kalmar_Peinemann_reachstacker.jpg",
+  "width": 5210,
+  "height": 3365,
+  "lic": "CC BY 2.0",
+  "artist": "Joost J. Bakker from IJmuiden",
+  "cat": "Shipping containers"
+ },
+ "blockchain/validator-economics-institutional-staking": {
+  "file": "Heave,_Ho!_(8070540955).jpg",
+  "width": 5064,
+  "height": 2992,
+  "lic": "Public domain",
+  "artist": "Marines from Arlington, VA, United States",
+  "cat": "Logistics"
+ },
+ "technology/cloud-repatriation-selective": {
+  "file": "Between_Hemlock_and_Shawnee_on_155.jpg",
+  "width": 6016,
+  "height": 4000,
+  "lic": "Public domain",
+  "artist": "Nyttend",
+  "cat": "Telecommunications equipment"
+ },
+ "blockchain/opinion-boring-blockchain-wins": {
+  "file": "Trieste_APL_New_Jersey_2.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Andrzej Otrębski",
+  "cat": "Container terminals"
+ },
+ "business/supply-chain-software-consolidation": {
+  "file": "2015-04-09_08_05_09_Product_packaging_machinery_at_Halo_Farms_in_Lawrence,_New_Jersey.jpg",
+  "width": 5586,
+  "height": 3180,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Famartin",
+  "cat": "Assembly lines"
+ },
+ "crypto/crypto-payments-emerging-markets": {
+  "file": "Hut_8_Medicine_Hat_box_2.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY 4.0",
+  "artist": "Curtis Huisman - www.curtis.media",
+  "cat": "Bitcoin mining"
+ },
+ "startups/defense-tech-generalist-money": {
+  "file": "ILA_2024,_Schoenefeld_(ILA44523).jpg",
+  "width": 6720,
+  "height": 4480,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Matti Blume",
+  "cat": "Unmanned aerial vehicles"
+ },
+ "startups/technical-founders-services-margins": {
+  "file": "Evolonic_UAV,_ILA_2024,_Schoenefeld_(ILA44491).jpg",
+  "width": 6720,
+  "height": 4480,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Matti Blume",
+  "cat": "Unmanned aerial vehicles"
+ },
+ "business/middle-managers-ai-restructuring": {
+  "file": "Pokaz_pracy_automatycznej_linii_.jpg",
+  "width": 6016,
+  "height": 4016,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Artur.Lowi",
+  "cat": "Industrial robots"
+ },
+ "business/shadow-ai-governance-problem": {
+  "file": "Victor-Oscar-Company-Factory4.jpg",
+  "width": 7360,
+  "height": 4912,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Viclifecute",
+  "cat": "Factories"
+ },
+ "crypto/defi-institutional-wrappers": {
+  "file": "Data_Center_(22370911658).jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY 2.0",
+  "artist": "Carl Lender from Sunrise, USA",
+  "cat": "Data centers"
+ },
+ "crypto/memecoin-era-institutional-distance": {
+  "file": "Mirza_Substation.jpg",
+  "width": 5472,
+  "height": 3648,
+  "lic": "CC BY-SA 4.0",
+  "artist": "ShreshtaKhetan",
+  "cat": "Electrical substations"
+ },
+ "markets/private-markets-liquidity-windows": {
+  "file": "Trading_apps_on_an_iPhone_screen.jpg",
+  "width": 4000,
+  "height": 2667,
+  "lic": "CC BY 2.0",
+  "artist": "forextime.com",
+  "cat": "Stock exchanges"
+ },
+ "markets/tokenized-collateral-margin-cycle": {
+  "file": "RVS_Handelsraum.jpg",
+  "width": 5262,
+  "height": 3508,
+  "lic": "CC BY 2.0 at",
+  "artist": "Raiffeisenverband Salzburg reg. Gen. m. b. H., Schwarzstr. 13-15, 5024 Salzburg",
+  "cat": "Trading rooms"
+ },
+ "markets/volatility-market-structure-ai-trading": {
+  "file": "Edificio_del_banco_BISA,_El_Prado,_La_Paz.jpg",
+  "width": 5568,
+  "height": 3712,
+  "lic": "CC BY-SA 4.0",
+  "artist": "EEJCC",
+  "cat": "Bank buildings"
+ },
+ "crypto/crypto-market-structure-rules-reshape-exchanges": {
+  "file": "Reaping_the_Wind_(7938506158).jpg",
+  "width": 5472,
+  "height": 3648,
+  "lic": "CC BY 2.0",
+  "artist": "Wayne  Wilkinson",
+  "cat": "Wind turbines"
+ },
+ "crypto/stablecoin-reserve-transparency-standards": {
+  "file": "Bluebird_Solar_Manufacturing_Unit.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Bluebird Solar",
+  "cat": "Solar panels"
+ },
+ "markets/private-credit-technology-lending": {
+  "file": "View_Of_Sandto_From_The_West_Cliff_Hotel_In_Forst_Town.jpg",
+  "width": 4801,
+  "height": 2396,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Bizcallers",
+  "cat": "Financial districts"
+ },
+ "markets/retail-flow-market-structure": {
+  "file": "Fog-Pocalypse_(9511257330).jpg",
+  "width": 5608,
+  "height": 3733,
+  "lic": "CC BY 2.0",
+  "artist": "Zach Dischner",
+  "cat": "Banks"
+ },
+ "business/industrial-reshoring-software-gap": {
+  "file": "Machine_for_producing_files.JPG",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Masugn",
+  "cat": "Machine tools"
+ },
+ "startups/climate-tech-industrial-phase": {
+  "file": "30134_jissekiimage3.JPG",
+  "width": 4080,
+  "height": 2720,
+  "lic": "CC BY-SA 3.0",
+  "artist": "MUGENUP",
+  "cat": "Open plan offices"
+ },
+ "startups/seed-strapping-default-alive": {
+  "file": "FMN_Lab_team_(1).jpg",
+  "width": 6148,
+  "height": 4099,
+  "lic": "CC BY 4.0",
+  "artist": "FMNLab",
+  "cat": "Cleanrooms"
+ },
+ "startups/venture-funding-infrastructure-software": {
+  "file": "Parque_Villa-Lobos_2018_095.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "cat": "Solar panels"
+ },
+ "startups/vertical-ai-startups-moats": {
+  "file": "Magnus_Egerstedt.jpg",
+  "width": 6016,
+  "height": 4016,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Rob Felt - Georgia Tech staff photographer",
+  "cat": "Robotics"
+ },
+ "business/corporate-venture-arms-return": {
+  "file": "PARISOMA_conference_room.JPG",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Msingularian",
+  "cat": "Conference rooms"
+ },
+ "business/data-center-boom-local-economies": {
+  "file": "Besichtigung_ICE-Instandhaltungswerk_Köln-Nippes_Februar_2018-9450.jpg",
+  "width": 5184,
+  "height": 2916,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Raimond Spekking",
+  "cat": "Automated guided vehicles"
+ },
+ "business/middle-market-adopts-enterprise-ai": {
+  "file": "Kingandmcgaw-newhaven-factory.jpg",
+  "width": 5616,
+  "height": 3504,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Davidmorgans",
+  "cat": "Warehouses"
+ },
+ "business/services-firms-rebuild-around-automation": {
+  "file": "Alien_Property_Custodian_-_Property_Seized_-_Robert_Soltan_&_Company,_Mamaroneck,_N.Y.,_taken_over_by_Alien_Property_Custodian._Calendar_Department_-_NARA_-_17342734.jpg",
+  "width": 5399,
+  "height": 3568,
+  "lic": "Public domain",
+  "artist": "Unknown authorUnknown author or not provided",
+  "cat": "Assembly lines"
+ },
+ "startups/secondaries-startup-liquidity": {
+  "file": "DRONE_DE_LAONGO_02.jpg",
+  "width": 6000,
+  "height": 3314,
+  "lic": "CC BY-SA 4.0",
+  "artist": "CelitoArtwork",
+  "cat": "Unmanned aerial vehicles"
+ },
+ "crypto/compliance-architecture-crypto-firms": {
+  "file": "Mutant-pine.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Compo",
+  "cat": "Nuclear power plants"
+ },
+ "crypto/crypto-custody-price-war": {
+  "file": "SKA_site,_South_Africa_2014_04.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "cat": "Server rooms"
+ },
+ "crypto/exchange-tokens-regulatory-reckoning": {
+  "file": "Bitcoin_mining_farm.jpg",
+  "width": 3072,
+  "height": 1728,
+  "lic": "CC BY 2.0",
+  "artist": "Marko Ahtisaari",
+  "cat": "Bitcoin mining"
+ },
+ "crypto/prediction-markets-institutional-hedging": {
+  "file": "Datacenter_Empty_Floor_(22166545884).jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY 2.0",
+  "artist": "Carl Lender from Sunrise, USA",
+  "cat": "Data centers"
+ },
+ "cybersecurity/security-consolidation-platform-fatigue": {
+  "file": "Řídící_místnost_úpravny_vod_Káraný.jpg",
+  "width": 5616,
+  "height": 3744,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Che(Please credit as \"Petr Novák, Wikipedia\" in case you use this outside WMF pr",
+  "cat": "Control rooms"
+ },
+ "technology/observability-costs-revolt": {
+  "file": "ZotacGTX-550ti_salidas.jpg",
+  "width": 5214,
+  "height": 3486,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Piero71",
+  "cat": "Computer hardware"
+ },
+ "cybersecurity/identity-first-security-spending": {
+  "file": "CBP_Biometrics_Pilot_Program_-_San_Diego_(27114256704).jpg",
+  "width": 6480,
+  "height": 4320,
+  "lic": "Public domain",
+  "artist": "U.S. Customs and Border Protection",
+  "cat": "Biometrics"
+ },
+ "cybersecurity/identity-machine-workloads": {
+  "file": "Cameragun_pete3.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Glogger",
+  "cat": "Surveillance"
+ },
+ "cybersecurity/software-supply-chain-rules-bite": {
+  "file": "Server_Room_(22397102849).jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY 2.0",
+  "artist": "Carl Lender from Sunrise, USA",
+  "cat": "Server rooms"
+ },
+ "cybersecurity/ransomware-resilience-dividend": {
+  "file": "ÖBB_Taurus_1116_130_ecard.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY-SA 3.0 at",
+  "artist": "Isiwal",
+  "cat": "Smart cards"
+ },
+ "fintech/banking-software-modernization-wave": {
+  "file": "München_—_Hbf_(McDonald's-Restaurant).JPG",
+  "width": 5312,
+  "height": 2988,
+  "lic": "CC BY 2.0 de",
+  "artist": "User:Mattes",
+  "cat": "Payment terminals"
+ },
+ "fintech/deposit-tokens-bank-response": {
+  "file": "楽天カードマン_2014_(13524512165).jpg",
+  "width": 5760,
+  "height": 3840,
+  "lic": "CC BY-SA 2.0",
+  "artist": "Norio NAKAYAMA",
+  "cat": "Credit cards"
+ },
+ "fintech/cross-border-payments-competition": {
+  "file": "Siège_de_la_Banque_Ouest_Africaine_de_Développement_(BOAD,_Lomé_-_Togo.jpg",
+  "width": 7360,
+  "height": 4912,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Jihanefikara",
+  "cat": "Bank buildings"
+ },
+ "fintech/embedded-finance-vertical-software": {
+  "file": "Credit_Card_Chip_(34684294971).jpg",
+  "width": 5695,
+  "height": 3797,
+  "lic": "CC BY 2.0",
+  "artist": "kuhnmi",
+  "cat": "Smart cards"
+ },
+ "fintech/insurance-parametric-mainstream": {
+  "file": "Jesus_its_cold_(16198412595).jpg",
+  "width": 5252,
+  "height": 3500,
+  "lic": "CC BY 2.0",
+  "artist": "PiConsti",
+  "cat": "Banks"
+ },
+ "fintech/realtime-fraud-model-sharing": {
+  "file": "Lezhë_Apr_25_122.jpg",
+  "width": 6000,
+  "height": 4000,
+  "lic": "CC BY-SA 4.0",
+  "artist": "",
+  "cat": "Banknotes"
+ },
+ "markets/corporate-bond-electronification": {
+  "file": "Office_am_Abend.jpg",
+  "width": 5184,
+  "height": 3456,
+  "lic": "CC BY-SA 3.0",
+  "artist": "SteKrueBe",
+  "cat": "Offices"
+ },
+ "markets/digital-asset-market-making-institutional": {
+  "file": "US_Stock_Market_-_Investing_in_the_United_States.jpg",
+  "width": 4000,
+  "height": 2667,
+  "lic": "CC BY 2.0",
+  "artist": "forextime.com",
+  "cat": "Stock exchanges"
+ },
+ "markets/exchanges-race-tokenized-collateral": {
+  "file": "Global_Asset_Trading_Room.jpg",
+  "width": 6960,
+  "height": 4192,
+  "lic": "CC0",
+  "artist": "ManoBV16",
+  "cat": "Trading rooms"
+ },
+ "markets/treasury-market-plumbing-modernizes": {
+  "file": "Фото_головного_здание_банка.jpg",
+  "width": 6192,
+  "height": 4128,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Edashurov",
+  "cat": "Bank buildings"
+ },
+ "policy/open-source-ai-policy-truce": {
+  "file": "ParliamentChambers_-_100419.jpg",
+  "width": 5000,
+  "height": 2962,
+  "lic": "CC BY-SA 4.0",
+  "artist": "Josuamudreilagi",
+  "cat": "Parliament buildings"
+ },
+ "policy/stablecoin-law-implementation-year": {
+  "file": "Hohn_-_Hohe_Straße_-_Amt_Hohner_Harde_01_ies.jpg",
+  "width": 5616,
+  "height": 3744,
+  "lic": "CC BY-SA 3.0",
+  "artist": "Frank Vincentz",
+  "cat": "Government buildings"
+ },
+ "technology/enterprise-browsers-quiet-standard": {
+  "file": "Datacenter_informatique_de_l'Ecole_Polytechnique_(32544959853).jpg",
+  "width": 5653,
+  "height": 3769,
+  "lic": "CC BY-SA 2.0",
+  "artist": "Ecole polytechnique Université Paris-Saclay",
+  "cat": "Server rooms"
+ },
+ "technology/quantum-safe-migration-deadline": {
+  "file": "ม็อกซี่.jpg",
+  "width": 5468,
+  "height": 3288,
+  "lic": "Public domain",
+  "artist": "R. Lannom/NASA/JPL-Caltech",
+  "cat": "Cleanrooms"
+ }
+}

@@ -1,0 +1,530 @@
+[
+ {
+  "slug": "ai/ai-data-center-cooling-economics",
+  "sec": "ai",
+  "h1": "Liquid cooling stops being optional in AI data centers",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Jaguar_Supercomputer_(4101196244).jpg"
+ },
+ {
+  "slug": "ai/ai-talent-market-normalizes",
+  "sec": "ai",
+  "h1": "The AI talent market cools from frenzy to merely hot",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Jaguar_Supercomputer_(4101196244).jpg"
+ },
+ {
+  "slug": "technology/edge-inference-consumer-devices",
+  "sec": "technology",
+  "h1": "On-Device AI redraws the line between phone and cloud",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Semiconductor_Wafer_of_Microelectronics.jpg"
+ },
+ {
+  "slug": "ai/model-providers-consolidate-enterprise-tiers",
+  "sec": "ai",
+  "h1": "Model providers consolidate around enterprise tiers",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Jaguar_Supercomputer_(3592579288).jpg"
+ },
+ {
+  "slug": "ai/opinion-ai-productivity-measurement",
+  "sec": "ai",
+  "h1": "We are measuring AI productivity wrong, and it matters",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Summit_(supercomputer).jpg"
+ },
+ {
+  "slug": "ai/gpu-cloud-market-shakeout",
+  "sec": "ai",
+  "h1": "The GPU cloud market enters its shakeout phase",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Jaguar_Supercomputer_(3592579200).jpg"
+ },
+ {
+  "slug": "ai/smaller-models-win-production-workloads",
+  "sec": "ai",
+  "h1": "Smaller models are winning more production workloads",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "CNE_cleanroom_1.jpg"
+ },
+ {
+  "slug": "ai/synthetic-data-enterprise-training",
+  "sec": "ai",
+  "h1": "Synthetic data moves from workaround to standard practice",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Cleanroom_-_photolithography_lab_(9148361843).jpg"
+ },
+ {
+  "slug": "blockchain/blockchain-data-availability-costs",
+  "sec": "blockchain",
+  "h1": "Data availability becomes blockchain's quiet cost battle",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks%2C_one_empty_-_IMG_3636.jpg"
+ },
+ {
+  "slug": "blockchain/enterprise-chains-consolidate-platforms",
+  "sec": "blockchain",
+  "h1": "Enterprise blockchain consolidates onto a few platforms",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks%2C_one_empty_-_IMG_3636.jpg"
+ },
+ {
+  "slug": "blockchain/onchain-settlement-fx-corridors",
+  "sec": "blockchain",
+  "h1": "Foreign exchange settlement tests its on-chain future",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks%2C_one_empty_-_IMG_3636.jpg"
+ },
+ {
+  "slug": "blockchain/onchain-treasury-operations-corporates",
+  "sec": "blockchain",
+  "h1": "Corporate treasuries experiment with on-chain operations",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks%2C_one_empty_-_IMG_3636.jpg"
+ },
+ {
+  "slug": "blockchain/interoperability-standards-institutional-chains",
+  "sec": "blockchain",
+  "h1": "Interoperability standards take shape for institutional chains",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks_-_IMG_3472.jpg"
+ },
+ {
+  "slug": "blockchain/permissioned-ledgers-supply-chain-finance",
+  "sec": "blockchain",
+  "h1": "Permissioned ledgers gain ground in supply chain finance",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks_-_IMG_3472.jpg"
+ },
+ {
+  "slug": "blockchain/validator-economics-institutional-staking",
+  "sec": "blockchain",
+  "h1": "Institutional staking grows up and gets boring",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks_-_IMG_3472.jpg"
+ },
+ {
+  "slug": "technology/cloud-repatriation-selective",
+  "sec": "technology",
+  "h1": "Cloud repatriation turns out to be selective, not wholesale",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_racks_-_IMG_3472.jpg"
+ },
+ {
+  "slug": "blockchain/opinion-boring-blockchain-wins",
+  "sec": "blockchain",
+  "h1": "The boring blockchain is the one that wins",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYC_Manhattan_Skyline.JPG"
+ },
+ {
+  "slug": "business/supply-chain-software-consolidation",
+  "sec": "business",
+  "h1": "Supply chain software consolidates around control towers",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYC_Manhattan_Skyline.JPG"
+ },
+ {
+  "slug": "crypto/crypto-payments-emerging-markets",
+  "sec": "crypto",
+  "h1": "Crypto payment rails compound quietly in emerging markets",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYC_Manhattan_Skyline.JPG"
+ },
+ {
+  "slug": "startups/defense-tech-generalist-money",
+  "sec": "startups",
+  "h1": "Defense tech graduates from niche thesis to generalist allocation",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYC_Manhattan_Skyline.JPG"
+ },
+ {
+  "slug": "startups/technical-founders-services-margins",
+  "sec": "startups",
+  "h1": "Startups discover the margin hiding in services industries",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYC_Manhattan_Skyline.JPG"
+ },
+ {
+  "slug": "business/middle-managers-ai-restructuring",
+  "sec": "business",
+  "h1": "The middle layer absorbs aI's organizational shock",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline_at_Night%2C_Including_Bank_of_America_Tower.JPG"
+ },
+ {
+  "slug": "business/shadow-ai-governance-problem",
+  "sec": "business",
+  "h1": "Shadow AI becomes the new shadow IT",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline_at_Night%2C_Including_Bank_of_America_Tower.JPG"
+ },
+ {
+  "slug": "crypto/defi-institutional-wrappers",
+  "sec": "crypto",
+  "h1": "DeFi finds its institutional wrapper",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline_at_Night%2C_Including_Bank_of_America_Tower.JPG"
+ },
+ {
+  "slug": "crypto/memecoin-era-institutional-distance",
+  "sec": "crypto",
+  "h1": "The memecoin economy and the Wall institutions built around it",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline_at_Night%2C_Including_Bank_of_America_Tower.JPG"
+ },
+ {
+  "slug": "markets/private-markets-liquidity-windows",
+  "sec": "markets",
+  "h1": "Private markets build their own liquidity, carefully",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYSE_Advanced_Trading_Floor.jpg"
+ },
+ {
+  "slug": "markets/tokenized-collateral-margin-cycle",
+  "sec": "markets",
+  "h1": "Margin calls at machine speed test the new collateral rails",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYSE_Advanced_Trading_Floor.jpg"
+ },
+ {
+  "slug": "markets/volatility-market-structure-ai-trading",
+  "sec": "markets",
+  "h1": "AI in the order flow: what machine trading is doing to volatility",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NYSE_Advanced_Trading_Floor.jpg"
+ },
+ {
+  "slug": "crypto/crypto-market-structure-rules-reshape-exchanges",
+  "sec": "crypto",
+  "h1": "New market structure rules push crypto exchanges toward familiar shapes",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Stock-exchange-trading-floor.jpg"
+ },
+ {
+  "slug": "crypto/stablecoin-reserve-transparency-standards",
+  "sec": "crypto",
+  "h1": "Stablecoin Reserve reporting converges on common standards",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Stock-exchange-trading-floor.jpg"
+ },
+ {
+  "slug": "markets/private-credit-technology-lending",
+  "sec": "markets",
+  "h1": "Private credit builds a technology lending machine",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Stock-exchange-trading-floor.jpg"
+ },
+ {
+  "slug": "markets/retail-flow-market-structure",
+  "sec": "markets",
+  "h1": "Retail order flow reshapes itself around new disclosure rules",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Stock-exchange-trading-floor.jpg"
+ },
+ {
+  "slug": "business/industrial-reshoring-software-gap",
+  "sec": "business",
+  "h1": "Reshored factories hit a software gap",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline%2C_New_York_(3453206184).jpg"
+ },
+ {
+  "slug": "startups/climate-tech-industrial-phase",
+  "sec": "startups",
+  "h1": "Climate tech enters its industrial phase",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline%2C_New_York_(3453206184).jpg"
+ },
+ {
+  "slug": "startups/seed-strapping-default-alive",
+  "sec": "startups",
+  "h1": "Seed-Strapping becomes a respectable strategy",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline%2C_New_York_(3453206184).jpg"
+ },
+ {
+  "slug": "startups/venture-funding-infrastructure-software",
+  "sec": "startups",
+  "h1": "Venture funding returns to infrastructure software",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline%2C_New_York_(3453206184).jpg"
+ },
+ {
+  "slug": "startups/vertical-ai-startups-moats",
+  "sec": "startups",
+  "h1": "Vertical AI startups search for moats beyond the model",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Manhattan_Skyline%2C_New_York_(3453206184).jpg"
+ },
+ {
+  "slug": "business/corporate-venture-arms-return",
+  "sec": "business",
+  "h1": "Corporate venture arms return with narrower mandates",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Factory_Automation_Robotics_Palettizing_Bread.jpg"
+ },
+ {
+  "slug": "business/data-center-boom-local-economies",
+  "sec": "business",
+  "h1": "The data center boom collides with local economics",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Factory_Automation_Robotics_Palettizing_Bread.jpg"
+ },
+ {
+  "slug": "business/middle-market-adopts-enterprise-ai",
+  "sec": "business",
+  "h1": "The middle market quietly adopts enterprise AI",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Factory_Automation_Robotics_Palettizing_Bread.jpg"
+ },
+ {
+  "slug": "business/services-firms-rebuild-around-automation",
+  "sec": "business",
+  "h1": "Professional services firms rebuild around automation",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Factory_Automation_Robotics_Palettizing_Bread.jpg"
+ },
+ {
+  "slug": "startups/secondaries-startup-liquidity",
+  "sec": "startups",
+  "h1": "The secondary market becomes startups' pressure valve",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Factory_Automation_Robotics_Palettizing_Bread.jpg"
+ },
+ {
+  "slug": "crypto/compliance-architecture-crypto-firms",
+  "sec": "crypto",
+  "h1": "New regulation forces crypto firms to rethink compliance architecture",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen_-_8966256167.jpg"
+ },
+ {
+  "slug": "crypto/crypto-custody-price-war",
+  "sec": "crypto",
+  "h1": "Custody, crypto's safest business, enters a price war",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen_-_8966256167.jpg"
+ },
+ {
+  "slug": "crypto/exchange-tokens-regulatory-reckoning",
+  "sec": "crypto",
+  "h1": "Exchange tokens face their regulatory reckoning",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen_-_8966256167.jpg"
+ },
+ {
+  "slug": "crypto/prediction-markets-institutional-hedging",
+  "sec": "crypto",
+  "h1": "Prediction markets court the hedging crowd",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen_-_8966256167.jpg"
+ },
+ {
+  "slug": "cybersecurity/security-consolidation-platform-fatigue",
+  "sec": "cybersecurity",
+  "h1": "Security tool sprawl meets its budget reckoning",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_Rack_(54126210834).jpg"
+ },
+ {
+  "slug": "technology/observability-costs-revolt",
+  "sec": "technology",
+  "h1": "The observability bill sparks an engineering revolt",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Server_Rack_(54126210834).jpg"
+ },
+ {
+  "slug": "cybersecurity/identity-first-security-spending",
+  "sec": "cybersecurity",
+  "h1": "Cybersecurity spending shifts toward identity and resilience",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Racks_Amravati_Data_Center.jpg"
+ },
+ {
+  "slug": "cybersecurity/identity-machine-workloads",
+  "sec": "cybersecurity",
+  "h1": "Machine identity sprawl becomes security's biggest inventory problem",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Racks_Amravati_Data_Center.jpg"
+ },
+ {
+  "slug": "cybersecurity/software-supply-chain-rules-bite",
+  "sec": "cybersecurity",
+  "h1": "Software supply chain rules begin to bite",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Racks_Amravati_Data_Center.jpg"
+ },
+ {
+  "slug": "cybersecurity/ransomware-resilience-dividend",
+  "sec": "cybersecurity",
+  "h1": "The resilience investments start paying a measurable dividend",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg"
+ },
+ {
+  "slug": "fintech/banking-software-modernization-wave",
+  "sec": "fintech",
+  "h1": "Core banking modernization reaches the point of no return",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg"
+ },
+ {
+  "slug": "fintech/deposit-tokens-bank-response",
+  "sec": "fintech",
+  "h1": "Deposit tokens are the banks' answer to stablecoins",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Mobile_payment_01.jpg"
+ },
+ {
+  "slug": "fintech/cross-border-payments-competition",
+  "sec": "fintech",
+  "h1": "Cross-Border payments enter a genuine price war",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Payment_terminal_at_self-checkout.jpg"
+ },
+ {
+  "slug": "fintech/embedded-finance-vertical-software",
+  "sec": "fintech",
+  "h1": "Embedded finance finds its natural habitat in vertical software",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Payment_terminal_at_self-checkout.jpg"
+ },
+ {
+  "slug": "fintech/insurance-parametric-mainstream",
+  "sec": "fintech",
+  "h1": "Parametric insurance moves from exotic to ordinary",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen.jpg"
+ },
+ {
+  "slug": "fintech/realtime-fraud-model-sharing",
+  "sec": "fintech",
+  "h1": "Banks start sharing fraud signals at network speed",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Betaalpas_en_logo_contactloos_betalen.jpg"
+ },
+ {
+  "slug": "markets/corporate-bond-electronification",
+  "sec": "markets",
+  "h1": "The corporate bond market completes its quiet electronification",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+ },
+ {
+  "slug": "markets/digital-asset-market-making-institutional",
+  "sec": "markets",
+  "h1": "Digital asset market making becomes an institutional business",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+ },
+ {
+  "slug": "markets/exchanges-race-tokenized-collateral",
+  "sec": "markets",
+  "h1": "Exchanges and clearinghouses race toward tokenized collateral",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+ },
+ {
+  "slug": "markets/treasury-market-plumbing-modernizes",
+  "sec": "markets",
+  "h1": "Treasury market plumbing gets a long-deferred upgrade",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg"
+ },
+ {
+  "slug": "policy/open-source-ai-policy-truce",
+  "sec": "policy",
+  "h1": "Open-Weight AI wins a conditional policy truce",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Capitol%2C_Washington%2C_D.C._USA13.jpg"
+ },
+ {
+  "slug": "policy/stablecoin-law-implementation-year",
+  "sec": "policy",
+  "h1": "Stablecoin law meets its implementation year",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "United_States_Capitol_Building.jpg"
+ },
+ {
+  "slug": "technology/enterprise-browsers-quiet-standard",
+  "sec": "technology",
+  "h1": "The enterprise browser becomes a quiet standard",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "FANUC_6-axis_welding_robots.jpg"
+ },
+ {
+  "slug": "technology/quantum-safe-migration-deadline",
+  "sec": "technology",
+  "h1": "The quantum-safe migration finds its deadlines",
+  "sf": "",
+  "unsplash": false,
+  "dupOf": "Electric_transmission_lines.jpg"
+ }
+]
