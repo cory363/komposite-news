@@ -48,7 +48,12 @@ const ago = iso => {
   return new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).toUpperCase();
 };
 
-const seen = new Set();
+// Stories already carried by the ABC-shaped zone above; the band below must
+// not repeat them, and it is labelled "More news" now that the zone owns the
+// Top Stories list.
+const frontUsed = fs.existsSync("tools/data/front-used.json")
+  ? new Set(JSON.parse(fs.readFileSync("tools/data/front-used.json", "utf8"))) : new Set();
+const seen = new Set(frontUsed);
 const take = (n, pred = () => true) => {
   const out = [];
   for (const a of arts) { if (out.length >= n) break; if (seen.has(a.url) || !pred(a)) continue; seen.add(a.url); out.push(a); }

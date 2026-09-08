@@ -631,3 +631,55 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
 .stripcard .cztag2{display:block;font-family:var(--sans);font-size:9.5px;font-weight:700;letter-spacing:.12em;
   text-transform:uppercase;color:var(--claret);margin:9px 0 3px}
 .stripcard h3{font-family:var(--serif);font-size:15.5px;line-height:1.26;font-weight:600;margin:0}
+
+/* ---- Masthead in paper, not coal --------------------------------------
+   ABC runs a light header with dark type. The black bar was doing a lot of
+   visual work that the layout no longer needs, and it fought the beige. */
+.dhead{background:var(--paper);border-bottom:1px solid var(--rule)}
+.dhead .brand{color:var(--ink)}
+.dhead .brand:hover{color:var(--claret)}
+.dhead .dhsearch{color:var(--slate)}
+.dhead .dhsearch:hover{color:var(--ink)}
+.dhead .mainnav{background:var(--paper);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule-dark)}
+.dhead .navrow a{color:var(--ink)}
+.dhead .navrow a:hover{color:var(--claret);border-bottom-color:var(--claret)}
+
+/* ================= ABC-shaped front =====================================
+   Lead unit is a tinted panel beside a dominant image, with a four-across
+   card grid under it and a rail carrying a feature and a Top Stories list.
+   Kickers sit above headlines and every card carries a relative time, which
+   is ABC's pattern; the palette stays Komposite's. ---------------------- */
+.abczone{display:grid;grid-template-columns:1fr;gap:28px;padding-top:22px}
+@media(min-width:1000px){.abczone{grid-template-columns:2.1fr 1fr;gap:34px}}
+.abcmain{min-width:0}
+
+.abclead{display:grid;grid-template-columns:1fr;border:1px solid var(--rule);background:#F3E9D9}
+@media(min-width:760px){.abclead{grid-template-columns:0.85fr 1.15fr}}
+.abclead-panel{padding:26px 24px;display:flex;flex-direction:column;justify-content:center}
+.abckick{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--claret);margin-bottom:9px}
+.abclead-panel h2{font-family:var(--serif);font-size:clamp(25px,2.6vw,34px);line-height:1.1;font-weight:700;margin:0 0 12px;letter-spacing:-.012em}
+.abclead-panel .abcdek{font-family:var(--body);font-size:15.5px;line-height:1.45;color:var(--slate);margin:0}
+.abclead img{width:100%;height:100%;min-height:240px;aspect-ratio:16/10;object-fit:cover;display:block;background:#E7DAC4}
+
+.abcgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px 20px;margin-top:26px}
+@media(min-width:900px){.abcgrid{grid-template-columns:repeat(4,1fr)}}
+.abccard img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:#E7DAC4;border:1px solid var(--rule)}
+.abccard .abckick{margin:9px 0 4px;font-size:10px}
+.abccard h3{font-family:var(--serif);font-size:15.5px;line-height:1.25;font-weight:600;margin:0}
+.abctime{display:block;font-family:var(--sans);font-size:11px;letter-spacing:.04em;color:var(--faint);margin-top:6px}
+
+.abcrail{min-width:0}
+.abcrail > * + *{margin-top:24px}
+.abcfeature img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#E7DAC4;border:1px solid var(--rule)}
+.abcfeature h3{font-family:var(--serif);font-size:18px;line-height:1.22;font-weight:600;margin:10px 0 0}
+
+.abctop{border:1px solid var(--rule)}
+.abctop-h{background:var(--ink);color:var(--paper);font-family:var(--sans);font-size:12px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;padding:11px 14px}
+.abctop ol{list-style:none;margin:0;padding:0;background:#F3E9D9}
+.abctop li{border-bottom:1px solid var(--rule)}
+.abctop li:last-child{border-bottom:none}
+.abctop li a{display:block;padding:11px 14px;font-family:var(--serif);font-size:15px;line-height:1.28;font-weight:600}
+.abctop li a::before{content:"";display:inline-block;width:5px;height:5px;background:var(--claret);
+  border-radius:50%;vertical-align:middle;margin-right:9px}
+.abctop li a:hover{color:var(--claret)}

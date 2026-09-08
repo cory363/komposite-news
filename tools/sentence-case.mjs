@@ -69,8 +69,14 @@ export const CURATED = new Set([
   "Colorado", "Connecticut", "Indiana", "Kentucky", "Rhode", "Island", "Utah",
   "Arkansas", "Oregon", "Nebraska", "York", "Federal", "Reserve", "Congress",
   "GENIUS", "Act", "Commons", "Wikimedia", "Unsplash",
+  "Hollywood", "America", "American", "Americans", "Silicon", "Valley",
+  "Japan", "Japanese", "India", "Indian", "Korea", "Korean", "Brazil",
+  "Mexico", "Africa", "African", "Asia", "Asian", "Latin", "Broadway",
 ]);
-const isAcronym = w => /^[A-Z0-9]{2,}$/.test(w.replace(/[^A-Za-z0-9]/g, ""));
+/** Entities inside a headline broke the acronym test: R&amp;D reduced to
+ *  "RampD", which is not all-caps, so R&D was lower-cased to r&D. */
+const decodeEnt = w => String(w).replace(/&amp;/g, "&").replace(/&#39;|&rsquo;/g, "'");
+const isAcronym = w => /^[A-Z0-9]{2,}$/.test(decodeEnt(w).replace(/[^A-Za-z0-9]/g, ""));
 const hasInnerCap = w => /[a-z][A-Z]/.test(w);      // iPhone, FedNow, eBay
 
 export function toSentenceCase(title, vocab) {

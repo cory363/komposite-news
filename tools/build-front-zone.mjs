@@ -1,13 +1,14 @@
 /**
- * Build the CNN/ABC-style front zone and drop it in place of the old
- * fb-lead block.
+ * Build the front zone in ABC News' shape.
  *
- * Shape is taken from the CNN capture: a left stack of image cards, a
- * dominant centre lead with a plain-text headline list beneath it, and a
- * labelled right rail. Underneath, a labelled strip of four compact cards.
+ * From their homepage: a lead unit that is a tinted panel beside a dominant
+ * image, a four-across card grid beneath it, and a right rail carrying one
+ * feature plus a Top Stories list. Kickers sit above headlines, every card
+ * carries a relative time, and nothing carries a byline or a dek. Their front
+ * page contains zero byline markup and almost no summary text; the dek
+ * appears once, on the lead.
  *
- * From ABC: no bylines and no deks on cards. Their homepage carries zero
- * byline markup and almost no summary text, and that density is the point.
+ * The palette stays Komposite's. Only the structure is borrowed.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -34,9 +35,20 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
       kick: (h.match(/<span class="kick[^"]*">([^<]*)</) || [])[1] || "",
       date: (h.match(/"datePublished":"([^"]+)"/) || [])[1] || "",
       img: img ? img[1] : null, alt: img ? img[2] : "",
-      section: (h.match(/"articleSection":"([^"]*)"/) || [])[1] || "",
     };
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));
+
+const now = Date.now();
+const ago = iso => {
+  const mins = Math.floor((now - new Date(iso).getTime()) / 60000);
+  if (mins < 1) return "Just now";
+  if (mins < 60) return `${mins} minute${mins === 1 ? "" : "s"} ago`;
+  const h = Math.floor(mins / 60);
+  if (h < 24) return `${h} hour${h === 1 ? "" : "s"} ago`;
+  const d = Math.floor(h / 24);
+  if (d <= 6) return `${d} day${d === 1 ? "" : "s"} ago`;
+  return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+};
 
 const seen = new Set();
 const take = (n, pred = () => true) => {
@@ -44,66 +56,58 @@ const take = (n, pred = () => true) => {
   for (const a of arts) { if (out.length >= n) break; if (seen.has(a.url) || !pred(a)) continue; seen.add(a.url); out.push(a); }
   return out;
 };
-const withPhoto = a => Boolean(a.img);
-const isOpinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
+const photo = a => Boolean(a.img);
+const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 
-const lead = take(1, a => withPhoto(a) && !isOpinion(a))[0];
-const leadList = take(4, a => !isOpinion(a));
-const leftCards = take(3, a => withPhoto(a) && !isOpinion(a));
-const rightA = take(1, a => withPhoto(a) && !isOpinion(a))[0];
-const rightASub = take(1, a => !isOpinion(a))[0];
-const rightB = take(1, a => withPhoto(a) && !isOpinion(a))[0];
-const rightBSub = take(1, a => !isOpinion(a))[0];
-const rightC = take(1, a => withPhoto(a) && !isOpinion(a))[0];
-const rightCSub = take(1, a => !isOpinion(a))[0];
-const strip = take(4, a => withPhoto(a) && !isOpinion(a));
+const lead = take(1, a => photo(a) && !opinion(a))[0];
+const grid = take(8, a => photo(a) && !opinion(a));
+const feature = take(1, a => photo(a) && !opinion(a))[0];
+const topStories = take(8, a => !opinion(a));
 
-const pic = a => `<img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">`;
-const card = (a, tag) => `<article class="czcard"><a href="${a.url}">${pic(a)}</a>`
-  + (tag ? `<span class="cztag">${esc(tag)}</span>` : "")
-  + `<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
+const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>`
+  + `<div class="abckick">${esc(a.kick)}</div>`
+  + `<h3><a href="${a.url}">${esc(a.title)}</a></h3>`
+  + `<span class="abctime">${ago(a.date)}</span></article>`;
 
-const zone = `<main class="wrap czone">
-<div class="cz-col">
-${leftCards.map((a, i) => card(a, i === 1 ? a.kick : "")).join("\n")}
+const zone = `<main class="wrap abczone">
+<div class="abcmain">
+  <article class="abclead">
+    <div class="abclead-panel">
+      <div class="abckick">${esc(lead.kick)}</div>
+      <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
+      <p class="abcdek">${esc(lead.dek)}</p>
+    </div>
+    <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
+  </article>
+  <div class="abcgrid">
+${grid.map(card).join("\n")}
+  </div>
 </div>
-<div class="cz-col">
-  <article class="czlead"><a href="${lead.url}">${pic(lead)}</a>
-  <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
-  <p class="czdek">${esc(lead.dek)}</p></article>
-  <div class="czlist">${leadList.map(a => `<a href="${a.url}">${esc(a.title)}</a>`).join("")}</div>
-</div>
-<div class="cz-col">
-  <div><div class="czlabel">${esc(rightA.section || rightA.kick)}</div>
-  <article class="czcard"><a href="${rightA.url}">${pic(rightA)}</a>
-  <h3><a href="${rightA.url}">${esc(rightA.title)}</a></h3>
-  <p class="czsub"><a href="${rightASub.url}">${esc(rightASub.title)}</a></p></article></div>
-  <div><div class="czlabel">${esc(rightB.section || rightB.kick)}</div>
-  <article class="czcard"><a href="${rightB.url}">${pic(rightB)}</a>
-  <h3><a href="${rightB.url}">${esc(rightB.title)}</a></h3>
-  <p class="czsub"><a href="${rightBSub.url}">${esc(rightBSub.title)}</a></p></article></div>
-  <div><div class="czlabel">${esc(rightC.section || rightC.kick)}</div>
-  <article class="czcard"><a href="${rightC.url}">${pic(rightC)}</a>
-  <h3><a href="${rightC.url}">${esc(rightC.title)}</a></h3>
-  <p class="czsub"><a href="${rightCSub.url}">${esc(rightCSub.title)}</a></p></article></div>
-</div>
-</main>
-<section class="wrap stripzone"><div class="czlabel">Latest across the desks</div>
-<div class="stripgrid">
-${strip.map(a => `<article class="stripcard"><a href="${a.url}">${pic(a)}</a><span class="cztag2">${esc(a.kick)}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`).join("\n")}
-</div></section>`;
+<aside class="abcrail">
+  <article class="abcfeature"><a href="${feature.url}"><img src="${esc(feature.img)}" alt="${esc(feature.alt)}" loading="lazy"></a>
+    <div class="abckick">${esc(feature.kick)}</div>
+    <h3><a href="${feature.url}">${esc(feature.title)}</a></h3>
+    <span class="abctime">${ago(feature.date)}</span></article>
+  <div class="abctop"><div class="abctop-h">Top stories</div>
+    <ol>${topStories.map(a => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join("")}</ol>
+  </div>
+</aside>
+</main>`;
 
 let h = fs.readFileSync("index.html", "utf8");
-const start = h.indexOf('<main class="wrap fblead">');
-const endMarker = '<section class="billboard">';
-const end = h.indexOf(endMarker);
-if (start < 0 || end < 0 || end < start) { console.error("could not locate the old front zone"); process.exit(1); }
+const startMarkers = ['<main class="wrap czone">', '<main class="wrap fblead">', '<main class="wrap abczone">'];
+let start = -1;
+for (const m of startMarkers) { const i = h.indexOf(m); if (i > -1) { start = i; break; } }
+const end = h.indexOf('<section class="billboard">');
+if (start < 0 || end < 0) { console.error("could not locate the front zone"); process.exit(1); }
 h = h.slice(0, start) + zone + "\n" + h.slice(end);
 fs.writeFileSync("index.html", h);
+// Record what the zone consumed so the band below does not repeat it.
+fs.writeFileSync("tools/data/front-used.json", JSON.stringify([...seen], null, 1));
 
-console.log("front zone rebuilt");
-console.log("  lead:   " + lead.title);
-console.log("  left:   " + leftCards.map(a => a.title.slice(0, 28)).join(" / "));
-console.log("  rails:  " + [rightA, rightB, rightC].map(a => a.title.slice(0, 28)).join(" / "));
-console.log("  strip:  " + strip.map(a => a.title.slice(0, 22)).join(" / "));
-console.log("  distinct stories in zone: " + seen.size);
+console.log("ABC-shaped front zone built");
+console.log("  lead:    " + lead.title);
+console.log("  grid:    " + grid.length + " cards, each with kicker and relative time");
+console.log("  feature: " + feature.title);
+console.log("  top:     " + topStories.length + " headlines");
+console.log("  distinct stories: " + seen.size);
