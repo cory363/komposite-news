@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#7E2231"/>
+  <rect width="512" height="512" fill="#14508C"/>
   <g transform="translate(23,0)">
-    <rect x="86" y="118" width="26" height="276" fill="#F9EFE2"/>
-    <text x="140" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="330" fill="#F9EFE2">K</text>
+    <rect x="86" y="118" width="26" height="276" fill="#FFFFFF"/>
+    <text x="140" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="330" fill="#FFFFFF">K</text>
   </g>
 </svg>

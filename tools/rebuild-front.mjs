@@ -60,7 +60,7 @@ const take = (n, pred = () => true) => {
   return out;
 };
 const byline = a => a.author ? `<div class="byrow">By <a href="/authors/${a.author}/">${a.name}</a>, <span>${a.role}</span></div>` : "";
-const pic = (a, cls) => a.img ? `<span class="pwrap"><img class="${cls}"  src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${a.cred}</span></span>` : "";
+const pic = (a, cls) => a.img ? `<span class="pwrap"><img class="${cls}"  src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"></span></span><span class="pcred">${a.cred}</span>` : "";
 
 const isOpinion = a => a.dir === "divide" || /opinion/i.test(a.kick) || /^opinion-/.test(a.url.split("/")[2] || "");
 const cover = take(1, a => a.img && !isOpinion(a))[0];

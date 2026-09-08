@@ -48,7 +48,7 @@ const leadCard = a => {
   const [n] = AUTHORS[a.author];
   const h = hero(a);
   const hasPhoto = Boolean(h.url && !/Special:FilePath\/\?/.test(h.url));
-  return `<article class="story"><span class="kick">${esc(a.kick)}</span><h2 class="secbig"><a href="${rel(a)}">${esc(a.headline)}</a></h2><p class="deck">${esc(a.dek)}</p>${hasPhoto ? `<a href="${rel(a)}"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span></a>` : ""}<div class="tago"><a href="/authors/${a.author}/">${n}</a> &middot; ${upper(a.date)}</div></article>`;
+  return `<article class="story"><span class="kick">${esc(a.kick)}</span><h2 class="secbig"><a href="${rel(a)}">${esc(a.headline)}</a></h2><p class="deck">${esc(a.dek)}</p>${hasPhoto ? `<a href="${rel(a)}"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"></span></a><span class="pcred">${h.creditHtml}</span>` : ""}<div class="tago"><a href="/authors/${a.author}/">${n}</a> &middot; ${upper(a.date)}</div></article>`;
 };
 
 /** Demote an existing lead card to a feature card, dropping its hero and byline. */
