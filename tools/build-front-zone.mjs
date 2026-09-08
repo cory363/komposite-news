@@ -60,6 +60,11 @@ const photo = a => Boolean(a.img);
 const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 
 const lead = take(1, a => photo(a) && !opinion(a))[0];
+/* CNN and ABC both hang two or three related angles under the lead. It is
+   the device that makes a front read as a newsroom covering a story rather
+   than a list of unrelated items. Prefer same-section follow-ons. */
+const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
+  .concat(take(3, a => !opinion(a))).slice(0, 3);
 const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid
@@ -76,6 +81,7 @@ const zone = `<main class="wrap abczone">
       <div class="abckick">${esc(lead.kick)}</div>
       <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
       <p class="abcdek">${esc(lead.dek)}</p>
+      ${cluster.length ? `<ul class="leadcluster">${cluster.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join("")}</ul>` : ""}
     </div>
     <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
   </article>

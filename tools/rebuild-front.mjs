@@ -60,7 +60,15 @@ const take = (n, pred = () => true) => {
   return out;
 };
 const byline = a => a.author ? `<div class="byrow">By <a href="/authors/${a.author}/">${a.name}</a>, <span>${a.role}</span></div>` : "";
-const pic = (a, cls) => a.img ? `<span class="pwrap"><img class="${cls}"  src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"></span></span><span class="pcred">${a.cred}</span>` : "";
+/* The credit carries Unsplash links, so it cannot sit inside the anchor that
+   wraps the card image: nested anchors are invalid, the parser lifts them out,
+   and the credit escapes .pcred and renders at body size. An earlier fix left
+   a stray </span> here and kept the credit inside the anchor, which is what
+   produced the oversized credits on More news. Image and credit are now
+   emitted separately so callers can close the anchor between them. */
+const picImg = (a, cls) => a.img ? `<span class="pwrap"><img class="${cls}"  src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"></span>` : "";
+const picCred = a => a.img && a.cred ? `<span class="pcred">${a.cred}</span>` : "";
+const pic = (a, cls) => picImg(a, cls) + picCred(a);
 
 const isOpinion = a => a.dir === "divide" || /opinion/i.test(a.kick) || /^opinion-/.test(a.url.split("/")[2] || "");
 const cover = take(1, a => a.img && !isOpinion(a))[0];
@@ -81,7 +89,7 @@ sub(/(<ol class="poplist">)[\s\S]*?(<\/ol>)/,
   `$1${popular.map(a => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join("")}$2`, "Popular list");
 
 sub(/(<div class="fb-center"><article class="cover">)[\s\S]*?(<\/article>)/,
-  `$1\n    <a href="${cover.url}">${pic(cover, "illo coverimg photo ")}</a>\n    <div class="coverlab">Daily Cover Story</div>\n    <h1><a href="${cover.url}">${esc(cover.title)}</a></h1>\n    <p class="deck">${esc(cover.dek)}</p>\n    ${byline(cover)}$2`, "Cover story");
+  `$1\n    <span class="pfig"><a href="${cover.url}">${picImg(cover, "illo coverimg photo ")}</a>${picCred(cover)}</span>\n    <div class="coverlab">Daily Cover Story</div>\n    <h1><a href="${cover.url}">${esc(cover.title)}</a></h1>\n    <p class="deck">${esc(cover.dek)}</p>\n    ${byline(cover)}$2`, "Cover story");
 
 sub(/(<div class="coverunder">)[\s\S]*?(<\/div>\s*<\/div>\s*<div class="fb-right">)/,
   `$1${under.map(a => `<article class="story cu"><span class="kick">${esc(a.kick)}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3>${byline(a)}</article>`).join("")}$2`, "Cover-under pair");
@@ -90,12 +98,12 @@ sub(/(<div class="fb-right">)[\s\S]*?(<\/div>\s*<\/main>)/,
   `$1${opinions.map(a => `<article class="imgcard"><a href="${a.url}"></a><span class="kick k-op">Opinion</span><h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`).join("")}$2`, "Opinion cards (deduped)");
 
 sub(/(<div class="bbl"><div class="bbkick">The Big Read<\/div>)[\s\S]*?(<\/div>\s*<div class="bbr">)[\s\S]*?(<\/div>\s*<\/div><\/section>)/,
-  `$1<h2><a href="${bigread.url}">${esc(bigread.title)}</a></h2><a class="bbcta" href="${bigread.url}">Read the full story</a>$2<a href="${bigread.url}">${pic(bigread, "illo bbimg photo ")}</a>$3`, "The Big Read");
+  `$1<h2><a href="${bigread.url}">${esc(bigread.title)}</a></h2><a class="bbcta" href="${bigread.url}">Read the full story</a>$2<span class="pfig"><a href="${bigread.url}">${picImg(bigread, "illo bbimg photo ")}</a>${picCred(bigread)}</span>$3`, "The Big Read");
 
 sub(/(<section class="wrap toprow">)[\s\S]*?(<\/section>)/,
   `$1${tops.map((a, i) => {
     const s = subs[i];
-    return `<article class="topcell"><a href="${a.url}">${pic(a, "illo photo ")}</a>\n<span class="kick">${esc(a.kick)}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3>\n${s ? `<div class="hsub"><a href="${s.url}">${esc(s.title)}</a></div>` : ""}<div class="tago">${ago(a.date)} </div></article>`;
+    return `<article class="topcell"><span class="pfig"><a href="${a.url}">${picImg(a, "illo photo ")}</a>${picCred(a)}</span>\n<span class="kick">${esc(a.kick)}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3>\n${s ? `<div class="hsub"><a href="${s.url}">${esc(s.title)}</a></div>` : ""}<div class="tago">${ago(a.date)} </div></article>`;
   }).join("")}$2`, "Top Stories");
 
 fs.writeFileSync("index.html", h);

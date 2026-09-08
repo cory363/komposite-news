@@ -70,11 +70,11 @@ for (const [slug, label] of SECTIONS) {
   const stop = ei + endTag.length;
 
   const pool = articles(slug);
-  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 7);
-  if (picks.length < 7)                                  // relax URL rule before repeating a photo
-    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 7 - picks.length));
-  if (picks.length < 7)                                  // last resort: section is too thin
-    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 7 - picks.length));
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 8);
+  if (picks.length < 8)                                  // relax URL rule before repeating a photo
+    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 8 - picks.length));
+  if (picks.length < 8)                                  // last resort: section is too thin
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 8 - picks.length));
   picks.forEach(a => usedImgs.add(imgId(a.img)));
   /* Real front pages vary module shape by editorial weight; twelve identical
      4-card grids is the thing that reads as generated. Rotate three shapes. */
@@ -87,7 +87,9 @@ for (const [slug, label] of SECTIONS) {
     const [big, ...rest] = picks;
     inner = `<div class="secmod secmod-lead">
 <article class="seclead"><a href="${big.url}"><img src="${esc(big.img)}" alt="${esc(big.alt)}" loading="lazy"></a>
-<div class="seclead-tx"><div class="abckick">${esc(big.kick)}</div><h3><a href="${big.url}">${esc(big.title)}</a></h3><span class="abctime">${ago(big.date)}</span></div></article>
+<div class="seclead-tx"><div class="abckick">${esc(big.kick)}</div><h3><a href="${big.url}">${esc(big.title)}</a></h3>
+${rest.length > 6 ? `<ul class="leadcluster"><li><a href="${rest[6].url}">${esc(rest[6].title)}</a></li></ul>` : ""}
+<span class="abctime">${ago(big.date)}</span></div></article>
 <ul class="seclist">${rest.slice(0, 6).map(line).join("")}</ul></div>`;
   } else if (shape === "split") {
     inner = `<div class="secmod secmod-split">

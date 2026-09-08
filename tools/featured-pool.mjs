@@ -3,7 +3,7 @@
    members are whatever anyone uploaded; featured pictures were judged. */
 import fs from "node:fs";
 const UA = "KompositeNews/1.0 (https://kompositenews.com; cory@acepr.us)";
-const BAD = /(diagram|chart|graph|logo|icon|map\b|svg|infographic|coat.of.arms|seal|flag.of|poster|screenshot|drawing|painting|illustration|sketch|engraving|lithograph|18\d\d|19[0-4]\d|bird|insect|flower|butterfly|moth|beetle|fungus|mushroom|spider|fish|lizard|frog|plant|orchid|panorama.of.a.church|cathedral|monastery|mosque|temple)/i;
+const BAD = /(diagram|chart|graph|logo|icon|map\b|svg|infographic|coat.of.arms|seal|flag.of|poster|screenshot|drawing|painting|illustration|sketch|engraving|lithograph|18\d\d|19\d\d|bird|insect|flower|butterfly|moth|beetle|fungus|mushroom|spider|fish|lizard|frog|plant|orchid|panorama.of.a.church|cathedral|monastery|mosque|temple)/i;
 const shootKey = f => f.toLowerCase().replace(/\.[a-z]+$/, "").replace(/[\s_-]*\(\d+\)$/, "")
   .replace(/[\s_-]*\d{1,7}$/, "").replace(/[^a-z]+/g, "").slice(0, 22);
 
