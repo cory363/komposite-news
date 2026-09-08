@@ -700,7 +700,7 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
 .sechead-row h2 a{color:var(--ink)}
 .sechead-row h2 a:hover{color:var(--claret)}
 .sechead-row .allof{font-family:var(--sans);font-size:11.5px;letter-spacing:.05em;color:var(--claret);white-space:nowrap}
-.secblock{margin:34px 0 0}
+.secblock{margin:34px auto 0}   /* auto, not 0: the shorthand was resetting .wrap's horizontal centering */
 
 /* Unsplash credits contain links, and anchors were not inheriting the credit
    type, so photographer names rendered at 16px next to 9px credit text. */
@@ -756,3 +756,8 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
   .inpix-g{grid-template-columns:repeat(2,1fr)}
   .nlpromo{grid-template-columns:1fr;gap:16px;padding:20px}
 }
+
+/* Section-page card grid: same furniture as the homepage sections, so a
+   section page and the homepage read as one publication. */
+.secpage-grid{margin:6px 0 18px}
+.secpage-grid .secgrid{gap:26px 20px}
