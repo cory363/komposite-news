@@ -1114,3 +1114,61 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
   letter-spacing:.12em;font-size:12.5px}
 .sechead-row h2{font-size:13px}
 .abctop-h{font-size:12px}
+
+/* ======================================================================
+   New York Times structure
+   Their served stack is nyt-cheltenham for headlines, nyt-imperial for body
+   and nyt-franklin for labels — all three proprietary and unlicensable here.
+   Their own fallback chain names Georgia, which says what they consider an
+   acceptable substitute: a sturdy, large-x-height serif, not a display face.
+   This mirrors the structure with open equivalents:
+     Frank Ruhl Libre  -> Cheltenham's role, sturdy bracketed serifs
+     Literata          -> Imperial's role, built for reading at length
+     Libre Franklin    -> Franklin's role, and a genuine Franklin Gothic
+                          revival rather than an approximation
+   ====================================================================== */
+:root{
+  --display:"Frank Ruhl Libre",Georgia,"Times New Roman",serif;
+  --mast:"Frank Ruhl Libre",Georgia,"Times New Roman",serif;
+  --serif:"Literata",Georgia,"Times New Roman",serif;
+  --body:"Literata",Georgia,"Times New Roman",serif;
+  --sans:"Libre Franklin",Helvetica,Arial,sans-serif;
+  --mono:"Libre Franklin",Helvetica,Arial,sans-serif;
+}
+
+.dhead .brand,.brand,.footlogo{
+  font-family:var(--mast)!important;font-weight:800;letter-spacing:-.022em;
+  text-transform:none;font-variation-settings:normal}
+.dhead .brand,.brand{font-size:clamp(34px,4.7vw,60px);line-height:.96}
+
+h1,h2,h3,.spothead,.bbhead,.coverhead,
+.abclead-panel h2,.art h1,.bbl h2,.divpanel-issue,
+.abccard h3,.seclead-tx h3,.abctop li a,.seclist li a,.inpix-t,.nlpromo h2,
+.leadcluster a,.qitem h3,.story h2,.story h3,.hl h2,.hl h3,
+.topcell h3,.stripcard h3,.imgcard h3,.czcard h3,.czlead h2,.opfeat h3,
+.aucard h3,.nl h3,.cover h1,.leadviscap h1,.abcfeature h3{
+  font-family:var(--display);font-weight:700;letter-spacing:-.011em;
+  font-variation-settings:normal}
+
+.abclead-panel h2{font-size:clamp(29px,2.8vw,42px);line-height:1.07;font-weight:800}
+.art h1{font-size:clamp(32px,3.2vw,46px);line-height:1.06;font-weight:800}
+.abccard h3{font-size:17.5px;line-height:1.25;font-weight:700}
+.secgrid .abccard h3{font-size:18px}
+.seclead-tx h3{font-size:25px;line-height:1.14}
+.abctop li a,.seclist li a{font-size:16.5px;line-height:1.26;font-weight:700}
+.leadcluster a{font-size:16px;line-height:1.28;font-weight:700}
+.inpix-t{font-size:16px;line-height:1.22}
+.abcfeature h3{font-size:19px;line-height:1.22}
+
+/* Reading copy in Literata, the way Imperial carries the Times' body. */
+.artbody p,.artbody li,.artbody blockquote{font-family:var(--serif)}
+.artbody p{font-size:18px;line-height:1.62}
+.abcdek,.abclead-panel .abcdek,.deck,.standfirst,.hsub{font-family:var(--serif)}
+
+/* Franklin for every label, kicker, byline and timestamp. */
+.abckick,.kick,.band span,.sechead-row h2,.abctop-h,.abctime,.secl-t,.qllabel,
+.byrow,.byline-l,.byrole,.bydate,.tago,.ft,.fc,.readmore,.allof,.tlabel{
+  font-family:var(--sans)}
+.band span,.sechead-row h2,.abctop-h{font-weight:700;letter-spacing:.1em}
+.sechead-row h2{font-size:13px}
+.abctop-h{font-size:12px}
