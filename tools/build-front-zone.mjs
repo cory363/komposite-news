@@ -78,6 +78,7 @@ const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
 const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid
+const railOpinion = take(4, a => opinion(a) || /opinion|analysis|column/i.test(a.kick));
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
 const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>`
@@ -110,6 +111,9 @@ ${grid.map(card).join("\n")}
   <div class="abctop abctop-num"><div class="abctop-h">Top stories</div>
     <ol>${topStories.map(a => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join("")}</ol>
   </div>
+    ${railOpinion.length ? `<div class="railmod"><div class="railmod-h">Opinion &amp; analysis</div>
+      <ul>${railOpinion.map(a => `<li><a href="${a.url}">${esc(a.title)}</a>${a.author ? `<span class="railby">${esc(a.author)}</span>` : ""}</li>`).join("")}</ul>
+      <a class="railmore" href="/opinion/">All opinion &rsaquo;</a></div>` : ""}
 </aside>
 </main>`;
 

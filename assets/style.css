@@ -1262,3 +1262,69 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
   .netrow{padding:6px 0}
   .netlabel{font-size:9px;letter-spacing:.12em}
 }
+
+/* ---- Rail: second module ---------------------------------------------- */
+/* Top stories ended a long way above the foot of the main column and left a
+   bare column of white. */
+.railmod{margin-top:26px;border-top:2px solid var(--ink);padding-top:12px}
+.railmod-h{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);margin-bottom:6px}
+.railmod ul{list-style:none;margin:0;padding:0}
+.railmod li{border-bottom:1px solid var(--rule);padding:10px 0}
+.railmod li:last-child{border-bottom:0}
+.railmod li a{display:block;font-family:var(--display);font-size:16px;font-weight:700;
+  line-height:1.26;color:var(--ink);letter-spacing:-.008em}
+.railmod li a:hover{color:var(--claret)}
+.railby{display:block;font-family:var(--sans);font-size:11px;font-weight:600;
+  color:var(--claret);margin-top:4px;letter-spacing:.02em}
+.railmore{display:inline-block;margin-top:12px;font-family:var(--sans);font-size:11px;
+  font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--claret)}
+
+/* 2. A photo credit burned across a 150px thumbnail is noise, not
+      attribution; the article page carries the credit properly. */
+.abcgrid .pcred,.topcell .pcred,.secgrid .pcred,.inpix .pcred{display:none}
+
+/* 3. The Big Read was a headline and a button in a field of black, with the
+      picture stranded on the right. A dek and a byline give the band
+      something to hold, and the columns are rebalanced. */
+.bbrow{grid-template-columns:minmax(0,1fr) 480px;gap:48px;align-items:center;
+  padding-top:40px;padding-bottom:40px}
+.bbdek{font-family:var(--serif);font-size:17px;line-height:1.5;color:#C9D2DC;
+  margin:12px 0 0;max-width:56ch}
+.bbby{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.06em;
+  color:#8FA3B8;margin-top:14px}
+.bbcta{margin-top:18px}
+.bbr img,.billboard .pwrap img{aspect-ratio:3/2;object-fit:cover;width:100%}
+
+/* 5. In Pictures captions sat in white boxes over the frames and truncated
+      mid-word. Below the image, where a caption belongs. */
+.inpix-c img{aspect-ratio:3/2}
+.inpix-t{position:static;background:none;padding:8px 0 0;color:var(--ink);
+  font-family:var(--display);font-weight:700;font-size:15px;line-height:1.22;
+  display:block;overflow:visible;text-shadow:none}
+
+/* The house gradient covers its whole box. With the caption moved below the
+   frame it sat inside that box too, greying the text. Confine the overlay to
+   the picture. */
+.inpix-c::after{inset:0 0 auto 0;aspect-ratio:3/2;height:auto}
+
+/* More news images arrived at whatever ratio the hero happened to be, so the
+   kickers and headlines below them sat at four different heights. One ratio
+   puts the text on a line. */
+.topcell{display:flex;flex-direction:column}
+.topcell .pfig,.topcell>a{display:block}
+.topcell img{width:100%;aspect-ratio:3/2;object-fit:cover;display:block;background:var(--tint)}
+.topcell .kick{margin-top:11px}
+
+/* The outer cells dropped their side padding to align with the page edge,
+   which made them wider and, at a fixed ratio, their images taller — 181px
+   against 166px. Equal padding on every cell, container pulled out to
+   compensate. Same defect, and same fix, as the card grid. */
+/* Negative margin on a .wrap kills its own margin:0 auto and de-centres the
+   row — the same defect as .secblock earlier. Zero the wrap padding instead
+   and let each cell carry an identical 22px, so content lines up with every
+   other band while the columns stay equal. */
+.toprow{padding-left:0;padding-right:0}
+.topcell{padding:4px 22px 8px}
+.topcell:first-child{padding-left:22px}
+.topcell:last-child{padding-right:22px}

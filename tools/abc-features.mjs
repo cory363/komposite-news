@@ -58,7 +58,7 @@ if (!/inpix/.test(h)) {
   const seen = new Set(); const pix = [];
   for (const a of pool) { const id = imgId(a.img); if (seen.has(id)) continue; seen.add(id); pix.push(a); if (pix.length === 5) break; }
   if (pix.length === 5) {
-    const cells = pix.map(a => `<a class="inpix-c" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"><span class="inpix-t">${esc(a.title.length > 52 ? a.title.slice(0, 51).trim() + "…" : a.title)}</span></a>`).join("");
+    const cells = pix.map(a => `<a class="inpix-c" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"><span class="inpix-t">${esc(a.title)}</span></a>`).join("");
     const block = `<section class="wrap inpix"><div class="sechead-row"><h2>In pictures</h2><a class="allof" href="/latest/">All latest coverage &rsaquo;</a></div><div class="inpix-g">${cells}</div></section>\n`;
     h = h.replace(/(<section class="divpanel">)/, block + "$1");
     pix.forEach(a => onPage.add(imgId(a.img)));

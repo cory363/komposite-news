@@ -98,7 +98,7 @@ sub(/(<div class="fb-right">)[\s\S]*?(<\/div>\s*<\/main>)/,
   `$1${opinions.map(a => `<article class="imgcard"><a href="${a.url}"></a><span class="kick k-op">Opinion</span><h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`).join("")}$2`, "Opinion cards (deduped)");
 
 sub(/(<div class="bbl"><div class="bbkick">The Big Read<\/div>)[\s\S]*?(<\/div>\s*<div class="bbr">)[\s\S]*?(<\/div>\s*<\/div><\/section>)/,
-  `$1<h2><a href="${bigread.url}">${esc(bigread.title)}</a></h2><a class="bbcta" href="${bigread.url}">Read the full story</a>$2<span class="pfig"><a href="${bigread.url}">${picImg(bigread, "illo bbimg photo ")}</a>${picCred(bigread)}</span>$3`, "The Big Read");
+  `$1<h2><a href="${bigread.url}">${esc(bigread.title)}</a></h2>${bigread.dek ? `<p class="bbdek">${esc(bigread.dek)}</p>` : ""}${bigread.name ? `<div class="bbby">By ${esc(bigread.name)}</div>` : ""}<a class="bbcta" href="${bigread.url}">Read the full story</a>$2<span class="pfig"><a href="${bigread.url}">${picImg(bigread, "illo bbimg photo ")}</a>${picCred(bigread)}</span>$3`, "The Big Read");
 
 sub(/(<section class="wrap toprow">)[\s\S]*?(<\/section>)/,
   `$1${tops.map((a, i) => {
