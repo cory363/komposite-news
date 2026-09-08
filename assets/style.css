@@ -1069,3 +1069,48 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
 .opfeat h3,.czcard h3{font-size:18px;line-height:1.26}
 .czlead h2,.cover h1,.leadviscap h1{line-height:1.12}
 .feedrow{font-weight:600}
+
+/* ======================================================================
+   Editorial voice
+   Four attempts at this used a neutral sans for headlines — Inter, Archivo,
+   Geist — and each read as software rather than journalism, because that is
+   what those faces are for. Fraunces is a variable display serif with an
+   optical-size axis: real contrast at headline sizes, a genuine italic, and
+   enough character that it belongs to one publication rather than any.
+   Geist stays for metadata, Source Serif 4 for reading copy.
+   ====================================================================== */
+:root{--display:"Fraunces","Source Serif 4",Georgia,serif;
+      --mast:"Fraunces","Source Serif 4",Georgia,serif}
+
+.dhead .brand,.brand,.footlogo{
+  font-family:var(--mast)!important;font-weight:800;letter-spacing:-.02em;
+  text-transform:none;font-variation-settings:"opsz" 144,"SOFT" 0,"WONK" 1}
+.dhead .brand,.brand{font-size:clamp(34px,4.6vw,58px);line-height:.98}
+
+h1,h2,h3,.spothead,.bbhead,.coverhead,
+.abclead-panel h2,.art h1,.bbl h2,.divpanel-issue,
+.abccard h3,.seclead-tx h3,.abctop li a,.seclist li a,.inpix-t,.nlpromo h2,
+.leadcluster a,.qitem h3,.story h2,.story h3,.hl h2,.hl h3,
+.topcell h3,.stripcard h3,.imgcard h3,.czcard h3,.czlead h2,.opfeat h3,
+.aucard h3,.nl h3,.cover h1,.leadviscap h1{
+  font-family:var(--display);font-weight:700;letter-spacing:-.014em;
+  font-variation-settings:"opsz" 72,"SOFT" 0,"WONK" 0}
+
+.abclead-panel h2{font-size:clamp(28px,2.7vw,40px);line-height:1.08;font-weight:800;
+  font-variation-settings:"opsz" 120,"SOFT" 0,"WONK" 1}
+.art h1{font-size:clamp(32px,3.2vw,46px);line-height:1.06;font-weight:800;
+  font-variation-settings:"opsz" 120,"SOFT" 0,"WONK" 1}
+.abccard h3{font-size:17.5px;line-height:1.24;font-weight:700;
+  font-variation-settings:"opsz" 24}
+.secgrid .abccard h3{font-size:18px}
+.seclead-tx h3{font-size:25px;line-height:1.14}
+.abctop li a,.seclist li a{font-size:16.5px;line-height:1.26;font-weight:700;
+  font-variation-settings:"opsz" 24}
+.leadcluster a{font-size:16px;line-height:1.28;font-weight:700}
+.inpix-t{font-size:16px;line-height:1.22}
+
+/* Labels and furniture stay in the grotesque. */
+.band span,.sechead-row h2,.abctop-h{font-family:var(--sans);font-weight:700;
+  letter-spacing:.12em;font-size:12.5px}
+.sechead-row h2{font-size:13px}
+.abctop-h{font-size:12px}
