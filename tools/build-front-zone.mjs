@@ -82,6 +82,7 @@ const zone = `<main class="wrap abczone">
       <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
       <p class="abcdek">${esc(lead.dek)}</p>
       ${cluster.length ? `<ul class="leadcluster">${cluster.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join("")}</ul>` : ""}
+      <a class="readmore" href="${lead.url}">Read the full story &rsaquo;</a>
     </div>
     <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
   </article>
