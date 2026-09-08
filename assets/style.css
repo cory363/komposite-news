@@ -911,3 +911,14 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:700;letter-spacing:-.014em}
 .arthero .pwrap .pcred{text-align:right}
 .pcred a{font:inherit;color:inherit;letter-spacing:inherit;text-transform:inherit;text-decoration:none}
 .pcred a:hover{color:#fff;text-decoration:underline}
+
+/* ---- Masthead: Baron stand-in ----------------------------------------- */
+/* Baron Neue is licensed for personal use only — commercial use needs the
+   designer's written permission — and Levato is a paid Linotype licence, so
+   neither can ship as-is. Bebas Neue is the same idea under SIL OFL: an
+   uppercase condensed display face with the weight to hold a masthead. */
+.dhead .brand,.brand,.footlogo{
+  font-family:"Bebas Neue","Oswald",Impact,var(--mast)!important;
+  font-weight:400;letter-spacing:.035em}
+.dhead .brand,.brand{font-size:clamp(34px,5.2vw,62px);line-height:.92}
+.footlogo{letter-spacing:.03em}
