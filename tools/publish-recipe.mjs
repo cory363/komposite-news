@@ -88,7 +88,7 @@ const head = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta n
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=League+Gothic&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=36"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=41"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
 const main = `<main class="wrap artpage">

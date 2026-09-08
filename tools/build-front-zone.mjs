@@ -64,7 +64,7 @@ const lead = take(1, a => photo(a) && !opinion(a))[0];
    the device that makes a front read as a newsroom covering a story rather
    than a list of unrelated items. Prefer same-section follow-ons. */
 const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
-  .concat(take(3, a => !opinion(a))).slice(0, 3);
+  .concat(take(3, a => !opinion(a))).slice(0, 2);   // 2, not 3: keeps the lead unit above a 1280x800 fold
 const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid

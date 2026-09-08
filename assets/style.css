@@ -1017,3 +1017,55 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
 .mostread li::before{font-family:var(--display);font-weight:400;font-size:24px;color:var(--faint)}
 .qitem h3{font-size:19px;line-height:1.1}
 .hairlist a{font-size:13.5px;font-weight:600}
+
+/* ---- Headline weight and the fold ------------------------------------ */
+/* League Gothic ships a single weight and is dense by design; at headline
+   sizes it reads as one heavy mass. Geist is the other half of Adweek's own
+   stack and has a real weight axis, so headlines move there at 600 and the
+   condensed face is kept for the masthead, where its density is the point. */
+h1,h2,h3,.spothead,.bbhead,.coverhead,
+.abclead-panel h2,.art h1,.bbl h2,.divpanel-issue,
+.abccard h3,.seclead-tx h3,.abctop li a,.seclist li a,.inpix-t,.nlpromo h2,
+.leadcluster a,.qitem h3,.story h2,.story h3,.hl h2,.hl h3{
+  font-family:var(--sans);font-weight:600;letter-spacing:-.011em}
+
+/* Sized down so the lead unit clears a 1280x800 laptop fold, which it was
+   overrunning by about 50px, and set with more line height to read. */
+.abclead-panel h2{font-size:clamp(26px,2.5vw,36px);line-height:1.14;font-weight:650}
+.abclead-panel{padding:24px 26px 24px 22px}
+/* 2:1 rather than 16:9 so a row of cards shows above a 1280x800 fold. */
+.abclead img{min-height:190px;aspect-ratio:2/1}
+.art h1{font-size:clamp(30px,3.1vw,42px);line-height:1.12;font-weight:650}
+.abccard h3{font-size:17px;line-height:1.28;font-weight:600}
+.secgrid .abccard h3{font-size:17.5px}
+.seclead-tx h3{font-size:24px;line-height:1.18}
+.abctop li a,.seclist li a{font-size:16px;line-height:1.28;font-weight:600}
+.leadcluster a{font-size:15.5px;line-height:1.3;font-weight:600}
+.inpix-t{font-size:15.5px;line-height:1.26}
+.bbl h2{line-height:1.12}
+
+/* Masthead keeps the condensed face. */
+.dhead .brand,.brand,.footlogo{font-family:var(--mast)!important}
+
+/* The lead dek ran to five lines and, with the cluster, pushed the whole unit
+   past a 1280x800 fold. Three lines is enough to carry the point. */
+.abclead-panel .abcdek{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;
+  overflow:hidden;font-size:15px;line-height:1.42}
+.leadcluster{margin-top:12px;padding-top:12px}
+.leadcluster li{padding:5px 0 5px 14px}
+
+/* .abcfeature h3 sets --display directly and outranks the bare h3 selector
+   above, so it kept the condensed face while its neighbours changed. */
+.abcfeature h3{font-family:var(--sans);font-weight:600;font-size:18px;line-height:1.26}
+
+/* Sweep the remaining headline selectors onto the sans. Each of these sets
+   --display directly and so outranked the grouped rule above. The condensed
+   face is kept only where it is doing display work: the masthead, section
+   band labels and the Top stories header. */
+.topcell h3,.stripcard h3,.imgcard h3,.czcard h3,.czlead h2,.opfeat h3,
+.aucard h3,.nl h3,.cover h1,.leadviscap h1,.divissue-h,.hsub,.inlinerel,
+.feedrow,.secline,.catname{font-family:var(--sans);font-weight:600;letter-spacing:-.008em}
+.topcell h3,.stripcard h3,.imgcard h3{font-size:17px;line-height:1.28}
+.opfeat h3,.czcard h3{font-size:18px;line-height:1.26}
+.czlead h2,.cover h1,.leadviscap h1{line-height:1.12}
+.feedrow{font-weight:600}
