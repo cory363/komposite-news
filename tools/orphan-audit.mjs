@@ -8,7 +8,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+/* tips/thanks is a post-submit confirmation: noindex, and only reachable
+   after a POST, so it is not an orphan. */
 const SKIP = new Set([".git", "node_modules", "tools", "assets"]);
+const NOT_ORPHAN = /^\.?\/?tips\/thanks\//;
 function walk(d, out = []) {
   for (const e of fs.readdirSync(d, { withFileTypes: true })) {
     if (SKIP.has(e.name)) continue;

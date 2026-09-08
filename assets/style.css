@@ -1223,3 +1223,49 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
 .abclead-panel{padding:18px 24px 18px 22px}
 .abclead-panel h2{margin-bottom:8px}
 .abcgrid{margin-top:16px}
+
+/* ======================================================================
+   Network bar — Media Morpheus
+   Sits above the masthead and the search row, which is where a group bar
+   belongs: it is the parent, not a feature of this title.
+   ====================================================================== */
+.netbar{background:var(--paper);border-bottom:1px solid var(--rule)}
+.netrow{display:flex;align-items:center;gap:0;padding:7px 0;min-height:30px}
+.netlabel{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--faint);white-space:nowrap;
+  padding-right:16px;margin-right:16px;border-right:1px solid var(--rule)}
+.netbrands{display:flex;align-items:center;gap:18px;min-width:0;overflow-x:auto;
+  scrollbar-width:none}
+.netbrands::-webkit-scrollbar{display:none}
+.netbrand{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--slate);white-space:nowrap;text-decoration:none}
+.netbrand:hover{color:var(--ink)}
+.netbrand.is-current{color:var(--ink);font-weight:800}
+.nettip{margin-left:auto;padding-left:18px;font-family:var(--sans);font-size:11px;
+  font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);
+  white-space:nowrap;text-decoration:none}
+.nettip:hover{color:var(--claret)}
+
+/* ---- Tip form --------------------------------------------------------- */
+.tipform{max-width:640px;margin:26px 0 40px;border-top:2px solid var(--ink);padding-top:22px}
+.tf-l{display:block;font-family:var(--sans);font-size:11px;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin:20px 0 7px}
+.tf-l:first-of-type{margin-top:0}
+.tf-opt,.tf-req{font-weight:600;letter-spacing:.04em;text-transform:none}
+.tf-opt{color:var(--faint)}
+.tf-req{color:var(--claret)}
+.tf-i,.tf-t{width:100%;font-family:var(--serif);font-size:16px;line-height:1.5;
+  padding:11px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink)}
+.tf-i:focus,.tf-t:focus{outline:2px solid var(--claret);outline-offset:-1px;border-color:var(--claret)}
+.tf-t{resize:vertical;min-height:180px}
+.tf-b{margin-top:22px;font-family:var(--sans);font-size:13px;font-weight:700;
+  letter-spacing:.06em;padding:13px 26px;border:0;background:var(--ink);color:var(--paper);cursor:pointer}
+.tf-b:hover{background:var(--claret)}
+.tf-note{font-family:var(--sans);font-size:12px;color:var(--faint);margin-top:14px;line-height:1.5}
+.tf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+@media (max-width:700px){
+  .netlabel{display:none}
+  .netrow{padding:6px 0}
+  .netbrand{font-size:10px;letter-spacing:.08em}
+}
