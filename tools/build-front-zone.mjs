@@ -22,6 +22,7 @@ function walk(d, out = []) {
   }
   return out;
 }
+const aslug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const esc = s => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, "&amp;");
 
 const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)\//.test(f))
@@ -34,6 +35,7 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
       dek: ((h.match(/<p class="artdeck">([\s\S]*?)<\/p>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
       kick: (h.match(/<span class="kick[^"]*">([^<]*)</) || [])[1] || "",
       date: (h.match(/"datePublished":"([^"]+)"/) || [])[1] || "",
+      author: (h.match(/"author":\{[^}]*?"name":"([^"]+)"/) || [])[1] || "",
       img: img ? img[1] : null, alt: img ? img[2] : "",
     };
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));
@@ -57,6 +59,14 @@ const take = (n, pred = () => true) => {
   return out;
 };
 const photo = a => Boolean(a.img);
+/* A precise clock time reads as a desk that is running, where a relative
+   "3 hours ago" reads as a feed. Times are the article's own datePublished. */
+const stamp = d => {
+  const t = new Date(d);
+  if (isNaN(t)) return "";
+  return t.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })
+    + " &middot; " + t.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone: "UTC" }) + " UTC";
+};
 const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 
 const lead = take(1, a => photo(a) && !opinion(a))[0];
@@ -69,10 +79,11 @@ const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid
 
+const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
 const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>`
   + `<div class="abckick">${esc(a.kick)}</div>`
   + `<h3><a href="${a.url}">${esc(a.title)}</a></h3>`
-  + `<span class="abctime">${ago(a.date)}</span></article>`;
+  + byline(a) + `<span class="abctime">${ago(a.date)}</span></article>`;
 
 const zone = `<main class="wrap abczone">
 <div class="abcmain">
@@ -82,6 +93,7 @@ const zone = `<main class="wrap abczone">
       <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
       <p class="abcdek">${esc(lead.dek)}</p>
       ${cluster.length ? `<ul class="leadcluster">${cluster.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join("")}</ul>` : ""}
+      <div class="leadmeta">${lead.author ? `<span class="leadby">By <a href="/authors/${aslug(lead.author)}/">${esc(lead.author)}</a></span>` : ""}<span class="leadstamp">${stamp(lead.date)}</span></div>
       <a class="readmore" href="${lead.url}">Read the full story &rsaquo;</a>
     </div>
     <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>

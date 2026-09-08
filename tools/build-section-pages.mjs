@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
+const aslug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const esc = s => String(s).replace(/&(?!#?\w+;)/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const SECS = [["ai","AI"],["blockchain","Blockchain"],["crypto","Crypto"],["business","Business"],
   ["technology","Technology"],["markets","Markets"],["fintech","Fintech"],["cybersecurity","Cybersecurity"],
@@ -28,10 +29,11 @@ function articles(sec) {
       const d = h.match(/"datePublished"\s*:\s*"([^"]+)"/);
       const im = h.match(/<figure class="arthero">[\s\S]*?<img[^>]*\ssrc="([^"]*)"[^>]*alt="([^"]*)"/);
       const k = h.match(/<(?:div|span) class="kick[^"]*">([\s\S]*?)<\/(?:div|span)>/);
+      const au = h.match(/"author":\{[^}]*?"name":"([^"]+)"/);
       return { url: "/" + f.replace(/index\.html$/, ""),
         title: t ? t[1].replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").trim() : "",
         kick: k ? k[1].replace(/<[^>]*>/g, "").trim() : "",
-        date: d ? d[1] : "", img: im ? im[1] : null, alt: im ? im[2] : "" };
+        date: d ? d[1] : "", author: au ? au[1] : "", img: im ? im[1] : null, alt: im ? im[2] : "" };
     }).filter(a => a.title && a.date && a.img).sort((a, b) => b.date.localeCompare(a.date));
 }
 
@@ -75,7 +77,7 @@ for (const [slug, label] of SECS) {
   if (!picks.length) { console.log("  --   " + label + " (nothing left)"); continue; }
 
   const grid = `<div class="secpage-grid"><div class="secgrid">
-${picks.map(a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick || label)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3><span class="abctime">${ago(a.date)}</span></article>`).join("\n")}
+${picks.map(a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick || label)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3>${a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : ""}<span class="abctime">${ago(a.date)}</span></article>`).join("\n")}
 </div></div>`;
   h = h.slice(0, start) + grid + h.slice(end);
   fs.writeFileSync(page, h);

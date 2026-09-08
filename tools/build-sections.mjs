@@ -12,6 +12,7 @@ import path from "node:path";
 const SECTIONS = [["ai","AI"],["blockchain","Blockchain"],["crypto","Crypto"],["business","Business"],
   ["technology","Technology"],["markets","Markets"],["fintech","Fintech"],["cybersecurity","Cybersecurity"],
   ["startups","Startups"],["policy","Policy"],["culture","Culture"],["music","Music"]];
+const aslug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const esc = s => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, "&amp;");
 const now = Date.now();
 const ago = iso => {
@@ -79,7 +80,7 @@ for (const [slug, label] of SECTIONS) {
   /* Real front pages vary module shape by editorial weight; twelve identical
      4-card grids is the thing that reads as generated. Rotate three shapes. */
   const shape = ["grid", "lead", "split"][rebuilt % 3];
-  const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3><span class="abctime">${ago(a.date)}</span></article>`;
+  const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3>${a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : ""}<span class="abctime">${ago(a.date)}</span></article>`;
   const line = a => `<li><a href="${a.url}">${esc(a.title)}</a><span class="secl-t">${ago(a.date)}</span></li>`;
 
   let inner;

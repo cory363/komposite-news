@@ -1172,3 +1172,54 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
 .band span,.sechead-row h2,.abctop-h{font-weight:700;letter-spacing:.1em}
 .sechead-row h2{font-size:13px}
 .abctop-h{font-size:12px}
+
+/* ---- Devices from Time and ABC ---------------------------------------- */
+
+/* 1. A byline on every front-page card. Time runs one under each headline;
+      it is the plainest signal that a person stands behind the story. */
+.cardby{font-family:var(--sans);font-size:11.5px;font-weight:600;color:var(--slate);
+  margin-top:6px;letter-spacing:.01em}
+.leadmeta{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-top:14px}
+.leadby{font-family:var(--sans);font-size:12.5px;font-weight:700;color:var(--ink);
+  letter-spacing:.01em}
+.leadstamp{font-family:var(--sans);font-size:11px;color:var(--faint);letter-spacing:.03em}
+
+/* 2. Boxed section labels. Time outlines its kickers rather than colouring
+      them, which reads as a masthead device instead of a tag. */
+.abccard .abckick,.seclead-tx .abckick{display:inline-block;border:1px solid var(--rule);
+  padding:3px 7px;font-size:9.5px;font-weight:700;letter-spacing:.1em;color:var(--slate);
+  background:var(--paper)}
+.abccard:hover .abckick{border-color:var(--claret);color:var(--claret)}
+.abclead-panel .abckick{display:inline-block;border:1px solid var(--claret);
+  padding:4px 9px;color:var(--claret);font-size:10px;letter-spacing:.11em;margin-bottom:14px}
+
+/* 3. Bylines sit above the timestamp, so give the stamp a little air. */
+.abccard .abctime{margin-top:4px}
+
+/* The card is a flex column, so an inline-block child still stretches to the
+   full track width; the label boxes were running edge to edge. And .cardby
+   carried no order, so it fell in beside the image instead of under the
+   headline. */
+.abccard .abckick,.seclead-tx .abckick,.abclead-panel .abckick{align-self:flex-start}
+.abclead-panel{align-items:flex-start}
+.abccard h3{order:1}
+.abccard .cardby{order:2}
+.abccard .abctime{order:3}
+
+/* A byline that goes nowhere is a label. Linking it through to the writer's
+   page is what a masthead does. */
+.cardby a,.leadby a{color:inherit;text-decoration:none;
+  border-bottom:1px solid transparent}
+.cardby a:hover,.leadby a:hover{color:var(--claret);border-bottom-color:var(--claret)}
+
+/* The byline and dateline add about 45px to the lead panel, which put the
+   card row back under a 1280x800 fold. Two lines of dek buys it back. */
+.abclead-panel .abcdek{-webkit-line-clamp:2;margin-bottom:2px}
+.abclead-panel .leadcluster{margin-top:10px;padding-top:10px}
+.abclead-panel .leadcluster li{padding:4px 0 4px 14px}
+.leadmeta{margin-top:10px}
+.readmore{margin-top:10px}
+/* 1366x768 was still 20px short of showing a card row. */
+.abclead-panel{padding:18px 24px 18px 22px}
+.abclead-panel h2{margin-bottom:8px}
+.abcgrid{margin-top:16px}
