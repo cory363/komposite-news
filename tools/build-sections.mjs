@@ -70,11 +70,11 @@ for (const [slug, label] of SECTIONS) {
   const stop = ei + endTag.length;
 
   const pool = articles(slug);
-  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 5);
-  if (picks.length < 5)                                  // relax URL rule before repeating a photo
-    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 5 - picks.length));
-  if (picks.length < 5)                                  // last resort: section is too thin
-    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 5 - picks.length));
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 7);
+  if (picks.length < 7)                                  // relax URL rule before repeating a photo
+    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 7 - picks.length));
+  if (picks.length < 7)                                  // last resort: section is too thin
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 7 - picks.length));
   picks.forEach(a => usedImgs.add(imgId(a.img)));
   /* Real front pages vary module shape by editorial weight; twelve identical
      4-card grids is the thing that reads as generated. Rotate three shapes. */
@@ -88,11 +88,11 @@ for (const [slug, label] of SECTIONS) {
     inner = `<div class="secmod secmod-lead">
 <article class="seclead"><a href="${big.url}"><img src="${esc(big.img)}" alt="${esc(big.alt)}" loading="lazy"></a>
 <div class="seclead-tx"><div class="abckick">${esc(big.kick)}</div><h3><a href="${big.url}">${esc(big.title)}</a></h3><span class="abctime">${ago(big.date)}</span></div></article>
-<ul class="seclist">${rest.map(line).join("")}</ul></div>`;
+<ul class="seclist">${rest.slice(0, 6).map(line).join("")}</ul></div>`;
   } else if (shape === "split") {
     inner = `<div class="secmod secmod-split">
 <div class="secpair">${picks.slice(0, 2).map(card).join("")}</div>
-<ul class="seclist">${picks.slice(2).map(line).join("")}</ul></div>`;
+<ul class="seclist">${picks.slice(2, 6).map(line).join("")}</ul></div>`;
   } else {
     inner = `<div class="secgrid">\n${picks.slice(0, 4).map(card).join("\n")}\n</div>`;  // 4, not 5: a fifth card orphans onto its own row
   }

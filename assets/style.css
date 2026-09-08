@@ -804,7 +804,7 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:700;letter-spacing:-.014em}
    a front read as machine-assembled rather than edited. */
 .secmod-lead{display:grid;grid-template-columns:1.55fr 1fr;gap:28px;align-items:start}
 .seclead>a{display:block;overflow:hidden}
-.seclead img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--tint);
+.seclead img{width:100%;aspect-ratio:2/1;object-fit:cover;display:block;background:var(--tint);
   transition:transform .4s cubic-bezier(.2,.6,.3,1)}
 .seclead:hover img{transform:scale(1.03)}
 .seclead-tx{padding-top:11px}
@@ -827,4 +827,43 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:700;letter-spacing:-.014em}
 @media (max-width:900px){
   .secmod-lead,.secmod-split{grid-template-columns:1fr;gap:18px}
   .secpair{grid-template-columns:1fr}
+}
+
+/* ---- Structural weight ----------------------------------------------- */
+/* What separated this from a broadsheet front was that nothing was divided.
+   Every column floated on white. Ruled gutters are the oldest device in the
+   trade and they do most of the work. */
+@media (min-width:900px){
+  .abczone{position:relative}
+  .abcrail{border-left:1px solid var(--rule);padding-left:26px}
+  .abcmain{padding-right:26px}
+
+  /* Cards divided by hairlines rather than by gap alone. Every card keeps the
+     same padding so their content boxes stay identical — dropping it on the
+     outer cards made them wider and their images taller, which is what left
+     the row ragged. The container is pulled out instead. */
+  .abcgrid,.secgrid{column-gap:0;margin-left:-18px;margin-right:-18px}
+  .abcgrid .abccard,.secgrid .abccard{border-left:1px solid var(--rule);padding:0 18px}
+  .abcgrid .abccard:nth-child(4n+1),.secgrid .abccard:nth-child(4n+1){border-left:0}
+
+  .secpair .abccard:last-child{border-left:1px solid var(--rule);padding-left:20px}
+  .secmod-lead .seclist,.secmod-split .seclist{border-left:1px solid var(--rule);
+    padding-left:24px;border-top:0}
+  .secmod-lead .seclist li:first-child,.secmod-split .seclist li:first-child{padding-top:0}
+}
+
+/* The lead sat in a narrow tinted box and the headline broke across four
+   lines. Give it the width and let the type breathe. */
+.abclead{grid-template-columns:1fr 1.32fr}
+.abclead-panel{padding:30px 30px 30px 26px}
+.abclead-panel h2{font-size:clamp(28px,2.9vw,40px);line-height:1.06}
+
+/* Section heads read as labels, not headings, without a marker. */
+.sechead-row h2{position:relative;padding-left:15px}
+.sechead-row h2::before{content:"";position:absolute;left:0;top:50%;
+  transform:translateY(-50%);width:5px;height:16px;background:var(--claret)}
+
+@media (max-width:899px){
+  .abcgrid,.secgrid{margin-left:0;margin-right:0}
+  .abcgrid .abccard,.secgrid .abccard{border-left:0;padding:0}
 }

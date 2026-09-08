@@ -62,7 +62,7 @@ const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 const lead = take(1, a => photo(a) && !opinion(a))[0];
 const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
-const topStories = take(8, a => !opinion(a));
+const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid
 
 const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>`
   + `<div class="abckick">${esc(a.kick)}</div>`
@@ -88,7 +88,7 @@ ${grid.map(card).join("\n")}
     <div class="abckick">${esc(feature.kick)}</div>
     <h3><a href="${feature.url}">${esc(feature.title)}</a></h3>
     <span class="abctime">${ago(feature.date)}</span></article>
-  <div class="abctop"><div class="abctop-h">Top stories</div>
+  <div class="abctop abctop-num"><div class="abctop-h">Top stories</div>
     <ol>${topStories.map(a => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join("")}</ol>
   </div>
 </aside>

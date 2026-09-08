@@ -34,12 +34,8 @@ const onPage = new Set([...h.matchAll(/<img[^>]*\bsrc="([^"]+)"/g)].map(m => img
 const all = SECS.flatMap(articles);
 const done = [];
 
-/* 1. Numbered Top stories rail (ABC runs its list as ranked headlines). */
-if (!/abctop-num/.test(h)) {
-  h = h.replace('<div class="abctop"><div class="abctop-h">Top stories</div>',
-                '<div class="abctop abctop-num"><div class="abctop-h">Top stories</div>');
-  done.push("numbered Top stories rail");
-}
+/* 1. Numbered Top stories rail — now emitted by build-front-zone.mjs itself,
+      because patching it here was undone every time the zone regenerated. */
 
 /* 2. Dek under the lead headline: ABC's hero carries a descriptive line. */
 if (!/abclead-dek/.test(h)) {
@@ -54,14 +50,6 @@ if (!/abclead-dek/.test(h)) {
   }
 }
 
-/* 3. Quick links: ABC's chip row of live topics under the nav. */
-if (!/quicklinks/.test(h)) {
-  const picks = all.slice(0, 5);
-  const chips = picks.map(a => `<a href="${a.url}">${esc(a.title.length > 30 ? a.title.slice(0, 29).trim() + "…" : a.title)}</a>`).join("");
-  const row = `<div class="quicklinks"><div class="wrap qlrow"><span class="qllabel">Quick links</span>${chips}</div></div>\n`;
-  h = h.replace(/(<div class="utility">)/, row + "$1");
-  done.push("quick-links chip row");
-}
 
 /* 4. "In pictures": ABC's photo-gallery strip. Uses heroes not already on the
       page so the homepage stays free of repeated imagery. */
