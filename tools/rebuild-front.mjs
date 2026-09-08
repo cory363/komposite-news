@@ -68,7 +68,7 @@ const popular = take(7, a => !isOpinion(a));
 
 let h = fs.readFileSync("index.html", "utf8");
 const sub = (re, val, label) => {
-  if (!re.test(h)) { console.log("  MISS " + label); return; }
+  if (!re.test(h)) { console.log("  --   " + label + " (module replaced by the front zone)"); return; }
   h = h.replace(re, val); console.log("  ok   " + label);
 };
 
