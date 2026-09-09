@@ -30,10 +30,11 @@ function articles(sec) {
       const im = h.match(/<figure class="arthero">[\s\S]*?<img[^>]*\ssrc="([^"]*)"[^>]*alt="([^"]*)"/);
       const k = h.match(/<(?:div|span) class="kick[^"]*">([\s\S]*?)<\/(?:div|span)>/);
       const au = h.match(/"author":\{[^}]*?"name":"([^"]+)"/);
+      const dk = h.match(/<p class="[^"]*artdeck[^"]*"[^>]*>([\s\S]*?)<\/p>/);
       return { url: "/" + f.replace(/index\.html$/, ""),
         title: t ? t[1].replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").trim() : "",
         kick: k ? k[1].replace(/<[^>]*>/g, "").trim() : "",
-        date: d ? d[1] : "", author: au ? au[1] : "", img: im ? im[1] : null, alt: im ? im[2] : "" };
+        date: d ? d[1] : "", author: au ? au[1] : "", dek: dk ? dk[1].replace(/<[^>]*>/g, "").trim() : "", img: im ? im[1] : null, alt: im ? im[2] : "" };
     }).filter(a => a.title && a.date && a.img).sort((a, b) => b.date.localeCompare(a.date));
 }
 
@@ -76,9 +77,31 @@ for (const [slug, label] of SECS) {
   }
   if (!picks.length) { console.log("  --   " + label + " (nothing left)"); continue; }
 
-  const grid = `<div class="secpage-grid"><div class="secgrid">
-${picks.map(a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick || label)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3>${a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : ""}<span class="abctime">${ago(a.date)}</span></article>`).join("\n")}
-</div></div>`;
+  /* Section pages ran a four-across card grid while the front had moved to
+     WWD's weighting, so the two read as different sites. Same structure here:
+     two feature blocks with the picture in different places, then rows. */
+  const by = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
+  const fSide = a => `<article class="wfeat wfeat-side">
+<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="wfeat-tx"><div class="abckick">${esc(a.kick || label)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
+${by(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
+  const fStack = a => `<article class="wfeat wfeat-stack">
+<div class="wfeat-tx"><div class="abckick">${esc(a.kick || label)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
+${by(a)}</div>
+<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<span class="abctime">${ago(a.date)}</span></article>`;
+  const fRow = a => `<article class="wrow">
+<a class="wrow-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="wrow-tx"><div class="abckick">${esc(a.kick || label)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${by(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
+
+  const grid = `<div class="secpage-grid">${picks.length > 1 ? `<div class="wfeatrow">${fSide(picks[0])}${fStack(picks[1])}</div>` : ""}
+<div class="wrowgrid">${picks.slice(2).map(fRow).join("")}</div></div>`;
   h = h.slice(0, start) + grid + h.slice(end);
   fs.writeFileSync(page, h);
   console.log(`  ok   ${label.padEnd(14)} ${picks.length} cards`);

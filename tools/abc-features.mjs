@@ -66,13 +66,6 @@ if (!/inpix/.test(h)) {
   }
 }
 
-/* 5. Newsletter capture, styled as ABC's app-promo block rather than the
-      footer form we had. */
-if (!/nlpromo/.test(h)) {
-  const block = `<section class="wrap nlpromo"><div class="nlpromo-l"><div class="nlpromo-k">The Komposite Briefing</div><h2>One email. The stories that moved the market.</h2><p>A short morning read on AI, digital assets and capital markets — written for people who have to act on it.</p></div><form class="nlpromo-f" action="/contact/" method="get"><label class="visually-hidden" for="nlp-email">Email address</label><input id="nlp-email" name="email" type="email" placeholder="you@company.com" required><button type="submit">Subscribe</button></form></section>\n`;
-  h = h.replace(/(<section class="divpanel">)/, block + "$1");
-  done.push("newsletter promo module");
-}
 
 fs.writeFileSync("index.html", h);
 console.log("  added:\n" + (done.length ? done.map(d => "    - " + d).join("\n") : "    (nothing; all present)"));
