@@ -21,7 +21,11 @@ const billboard = cut(/<section class="billboard">[\s\S]*?<\/section>\s*/);
 const moreBand  = cut(/<div class="band"><span>MORE NEWS<\/span><\/div>\s*<section class="wrap toprow">[\s\S]*?<\/section>\s*/);
 const inpix     = cut(/<section class="wrap inpix">[\s\S]*?<\/section>\s*/);
 const reco      = cut(/<section class="recobar">[\s\S]*?<\/section>\s*/);
-const nl        = cut(/<section class="nlstrip">[\s\S]*?<\/section>\s*/);
+/* The newsletter strip carried a second Komposite wordmark and a second
+   subscribe control into the middle of the section run, directly under a
+   black strip that already says both. Removed rather than relocated. */
+cut(/<section class="nlstrip">[\s\S]*?<\/section>\s*/);
+const nl = null;
 
 if (!secs.length) { console.error("  no section blocks found"); process.exit(1); }
 

@@ -102,16 +102,17 @@ const lList = a => `<article class="llist">
 
 const zone = `<main class="wrap abczone">
 <div class="abcmain">
-  <article class="abclead">
-    <div class="abclead-panel">
+  <article class="lhero">
+    <div class="lhero-frame">
+    <a class="lhero-img" href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
+    <div class="lhero-tx">
       <div class="abckick">${esc(lead.kick)}</div>
       <h2><a href="${lead.url}">${esc(lead.title)}</a></h2>
-      <p class="abcdek">${esc(lead.dek)}</p>
-      ${cluster.length ? `<ul class="leadcluster">${cluster.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join("")}</ul>` : ""}
+      <p class="lhero-dek">${esc(lead.dek)}</p>
       <div class="leadmeta">${lead.author ? `<span class="leadby">By <a href="/authors/${aslug(lead.author)}/">${esc(lead.author)}</a></span>` : ""}<span class="leadstamp">${stamp(lead.date)}</span></div>
-      <a class="readmore" href="${lead.url}">Read the full story &rsaquo;</a>
     </div>
-    <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
+    </div>
+    ${cluster.length ? `<ul class="lhero-cluster">${cluster.map(c => `<li><a href="${c.url}">${esc(c.title)}</a></li>`).join("")}</ul>` : ""}
   </article>
   <div class="lsechead"><span class="lseclabel"><a href="/latest/">Latest</a></span></div>
   <div class="lgrid">

@@ -1717,3 +1717,55 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
   .lbig img{aspect-ratio:4/3}
   .lbig-tx h3{font-size:21px}
 }
+
+/* ======================================================================
+   Lead
+   The old lead put a 39px headline in a 371px panel beside a half-width
+   frame, which is why it read small against everything under it. It is now
+   a dominant overlay in the same language as every block on the page, with
+   the follow-on links carried below the frame rather than inside the card.
+   ====================================================================== */
+.lhero{position:relative}
+.lhero-img{display:block;position:relative;overflow:hidden}
+.lhero-img img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--tint);
+  transition:transform .5s cubic-bezier(.2,.6,.3,1)}
+.lhero:hover .lhero-img img{transform:scale(1.025)}
+.lhero-img::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,0) 30%,rgba(0,0,0,.86) 100%)}
+.lhero-tx{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:28px 30px}
+.lhero-tx .abckick{display:inline-block;border:1px solid rgba(255,255,255,.75);
+  color:#fff;background:none;padding:4px 10px;font-size:10px;letter-spacing:.12em;margin-bottom:12px}
+.lhero-tx h2{font-family:var(--display);font-size:clamp(30px,3.6vw,52px);line-height:1.05;
+  font-weight:700;letter-spacing:-.018em;margin:0;max-width:20ch}
+.lhero-tx h2 a{color:#fff}
+.lhero-tx h2 a:hover{color:#fff;text-decoration:underline;text-underline-offset:5px}
+.lhero-dek{font-family:var(--serif);font-size:16px;line-height:1.5;color:rgba(255,255,255,.9);
+  margin:12px 0 0;max-width:56ch;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lhero-tx .leadmeta{margin-top:12px}
+.lhero-tx .leadby,.lhero-tx .leadby a{color:#fff}
+.lhero-tx .leadby a:hover{color:#fff;border-bottom-color:#fff}
+.lhero-tx .leadstamp{color:rgba(255,255,255,.68)}
+
+/* Follow-on links sit under the frame as a ruled row. */
+.lhero-cluster{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:0 26px;
+  margin:0;padding:0;border-bottom:1px solid var(--rule)}
+.lhero-cluster li{padding:13px 0;border-top:1px solid var(--rule)}
+.lhero-cluster li:first-child{border-top:0}
+.lhero-cluster li:nth-child(2){border-top:0}
+.lhero-cluster a{font-family:var(--display);font-size:17px;font-weight:700;line-height:1.24;
+  color:var(--ink);letter-spacing:-.008em}
+.lhero-cluster a:hover{color:var(--claret)}
+
+@media (max-width:700px){
+  .lhero-tx{padding:18px 18px}
+  .lhero-tx h2{font-size:clamp(22px,6vw,30px);max-width:none}
+  .lhero-dek{display:none}
+  .lhero-cluster{grid-template-columns:1fr}
+  .lhero-cluster li:nth-child(2){border-top:1px solid var(--rule)}
+}
+
+/* The overlay was anchored to the bottom of the whole article, which includes
+   the follow-on links, so the byline fell below the picture and rendered
+   white on white. It anchors to the frame now. */
+.lhero-frame{position:relative;display:block}
+.lhero{position:static}
