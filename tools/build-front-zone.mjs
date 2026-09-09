@@ -77,8 +77,8 @@ const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
   .concat(take(3, a => !opinion(a))).slice(0, 2);   // 2, not 3: keeps the lead unit above a 1280x800 fold
 const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
-const topStories = take(11, a => !opinion(a));   // 8 left the rail short against the grid
-const railOpinion = take(4, a => opinion(a) || /opinion|analysis|column/i.test(a.kick));
+const topStories = take(7, a => !opinion(a));   // 11 made the hero zone 1,600px tall and pushed the sections off screen
+const railOpinion = take(3, a => opinion(a) || /opinion|analysis|column/i.test(a.kick));
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
 
@@ -125,7 +125,7 @@ const zone = `<main class="wrap abczone">
     ${featBelow(grid[1])}
   </div>
   <div class="wrowgrid">
-${grid.slice(2, 8).map(rowCard).join("\n")}
+${grid.slice(2, 6).map(rowCard).join("\n")}
   </div>
 </div>
 <aside class="abcrail">
