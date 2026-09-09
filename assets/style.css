@@ -1868,3 +1868,33 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
 .knav-links a{font-size:12.5px;letter-spacing:.035em}
 .knav-row{gap:18px}
 .knav-utils{gap:13px}
+
+/* Four tabs carry plain text rather than a link — In pictures, More News,
+   Spotlight, News — and the white was set on .lseclabel a, so those rendered
+   near-black on a black tab and read as empty boxes. Colour belongs on the
+   tab. */
+.lseclabel{color:#fff}
+.lseclabel,.lseclabel a{font-family:var(--sans);font-size:12px;font-weight:800;
+  letter-spacing:.14em;text-transform:uppercase;font-style:italic;color:#fff;text-decoration:none}
+.lseclabel{padding:5px 20px;display:inline-block}
+.lseclabel a{display:block;transform:none;padding:0}
+.lseclabel>a,.lseclabel{transform:none}
+.lsechead .lseclabel{transform:skewX(-12deg)}
+.lsechead .lseclabel a,.lsechead .lseclabel{}
+.lsechead .lseclabel>*{transform:skewX(12deg);display:block}
+
+/* ---- Headlines ------------------------------------------------------- */
+/* Playfair is a high-contrast display serif; at 52px in white over a
+   photograph it reads theatrical rather than institutional. The masthead is
+   set in Inter, so the headlines follow it: modern, plain, and the same
+   voice as the wordmark. Lora still carries the reading copy. */
+:root{--display:"Inter",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.abctop li a,.seclist li a,
+.wfeat h3,.wrow h3,.abccard h3,.topcell h3,.inpix-t,.leadcluster a,.lhero-cluster a,
+.recohead,.railmod li a,.qitem h3,.bbl h2,.spothead{
+  font-family:var(--display);letter-spacing:-.018em}
+.lhero-tx h2{font-weight:800;line-height:1.02;letter-spacing:-.028em}
+.lbig-tx h3{font-weight:800;line-height:1.06;letter-spacing:-.022em}
+.art h1{font-family:var(--display);font-weight:800;letter-spacing:-.026em;line-height:1.06}
+.lstack h3,.llist h3,.abctop li a,.seclist li a,.recohead{font-weight:700}
+.artbody p,.artbody li,.artbody blockquote,.lhero-dek,.lbig-dek,.abcdek{font-family:var(--serif)}

@@ -99,8 +99,8 @@ export function render(a) {
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(h.url)}">
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=79"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/style.css?v=80"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
