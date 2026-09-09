@@ -1944,3 +1944,55 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.abctop li a,.seclist li 
   .kfoot-cols{grid-template-columns:repeat(2,1fr)}
   .kfoot-legal{flex-direction:column;align-items:flex-start;gap:12px}
 }
+
+/* ---- Grid tightening -------------------------------------------------- */
+/* The list text was top-aligned against a 72px thumbnail, so a one-line
+   headline floated at the top of its row and read as misaligned. Centre the
+   text on the picture. */
+.llist{align-items:center;padding:11px 0}
+.llist-tx{align-self:center}
+
+/* The big frame at 3:4 ran the block far taller than the two columns beside
+   it, which is where most of the white came from. 4:5 keeps the portrait
+   without the overhang. */
+.lbig img{aspect-ratio:4/5}
+
+/* Close the gaps: the page was carrying roughly 40px of air at every seam. */
+.lsec{margin-top:26px}
+.lsechead{margin-bottom:16px}
+.lgrid{gap:0}
+.lcol-big{padding-right:22px}
+.lcol-stack{padding:0 20px}
+.lcol-list{padding-left:20px}
+.lstack{padding:14px 0}
+.lstack-img{margin-bottom:7px}
+.lmore{margin-top:12px;padding-top:10px}
+
+.lhero-cluster li{padding:11px 0}
+.knav-links a{padding:13px 0}
+.kdate-row{padding:8px 0}
+.recobar{margin-top:26px;padding:22px 0 24px}
+.billboard{margin-top:26px}
+.bbrow{padding-top:32px;padding-bottom:32px}
+.inpix{margin:26px auto 6px}
+.toprow{padding-top:2px}
+.kfoot{margin-top:40px}
+
+/* Mirrored sections reverse the order of the three columns but were still
+   using the same track widths, so the frame landed in the narrow track and
+   the stack in the wide one — a 474px height spread against 70px in the
+   unmirrored blocks. Reverse the tracks with the order. */
+.lsec-mirror .lgrid{grid-template-columns:1fr 1.7fr 1.1fr}
+.lsec-mirror .lcol-stack{padding:0 22px 0 0;border-left:0}
+.lsec-mirror .lcol-big{padding:0 20px;border-left:1px solid var(--rule);
+  border-right:1px solid var(--rule)}
+
+/* The kicker and relative age together overrun a 135px text column, so
+   "Market Structure" broke across two lines mid-phrase. The line never wraps
+   now; in the narrowest column the age drops and the kicker keeps the room. */
+.lmeta{flex-wrap:nowrap;white-space:nowrap;min-width:0;gap:5px}
+.lkick{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.abcmain .lcol-list .lsep,.abcmain .lcol-list .lago,
+.abcmain .lcol-stack .lsep,.abcmain .lcol-stack .lago{display:none}
+.abcmain .llist h3{font-size:14px}
+.abcmain .lstack h3{font-size:16px}
