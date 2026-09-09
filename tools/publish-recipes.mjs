@@ -47,7 +47,7 @@ ${ICONS}
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400..900&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&family=Literata:ital,opsz,wght@0,7..72,300..700;1,7..72,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=56"><script type="application/ld+json">${JSON.stringify(ld)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=62"><script type="application/ld+json">${JSON.stringify(ld)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const { chrome, tail } = furniture();
