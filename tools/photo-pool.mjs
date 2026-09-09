@@ -3,7 +3,7 @@
    a JWST mirror and a crucifix got picked last time. */
 import fs from "node:fs";
 const UA = "KompositeNews/1.0 (https://kompositenews.com; cory@acepr.us)";
-const BAD = /(diagram|chart|graph|logo|icon|map\b|svg|plot|schema|infographic|coat.of.arms|seal|flag.of|poster|screenshot|drawing|painting|illustration|sketch|clipart|banner|emblem|barcode|qr.code|font|typeface|symbol|engraving|postcard|stereograph|lithograph|negative|woodcut|18\d\d|19[0-5]\d|LC-|Library.of.Congress|book|page.from|plaque|stamp|coin.of|portrait.of|militar|army|navy|air.force|soldier|marine.corps|usns|troops|airmen|museo|museum|historic|fortepan|vintage|antique|memorial|!!!)/i;
+const BAD = /(diagram|chart|graph|logo|icon|map\b|svg|plot|schema|infographic|coat.of.arms|seal|flag.of|poster|screenshot|drawing|painting|illustration|sketch|clipart|banner|emblem|barcode|qr.code|network.map|coverage|route|atlas|topolog|font|typeface|symbol|engraving|postcard|stereograph|lithograph|negative|woodcut|18\d\d|19[0-5]\d|LC-|Library.of.Congress|book|page.from|plaque|stamp|coin.of|portrait.of|militar|army|navy|air.force|soldier|marine.corps|usns|troops|airmen|museo|museum|historic|fortepan|vintage|antique|memorial|!!!)/i;
 const shootKey = f => f.toLowerCase().replace(/\.[a-z]+$/, "")
   .replace(/[\s_-]*\(\d+\)$/, "").replace(/[\s_-]*\d{1,7}$/, "")
   .replace(/[^a-zÀ-￿]+/g, "").slice(0, 24);

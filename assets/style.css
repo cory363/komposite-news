@@ -1769,3 +1769,43 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
    white on white. It anchors to the frame now. */
 .lhero-frame{position:relative;display:block}
 .lhero{position:static}
+
+/* Tabs are black and white throughout. The red hover made some read as a
+   different device from the rest. */
+.lseclabel:hover{background:var(--ink)}
+.lseclabel a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+/* ---- Section block: more weight -------------------------------------- */
+/* The composition was right but set too light to read as premium: the
+   overlay headline sat at 27px under a shallow gradient, and the three
+   columns had no separation. */
+.lgrid{grid-template-columns:1.7fr 1fr 1.1fr;gap:0}
+.lcol-big{padding-right:26px}
+.lcol-stack{padding:0 24px;border-left:1px solid var(--rule);border-right:1px solid var(--rule)}
+.lcol-list{padding-left:24px}
+
+.lbig img{aspect-ratio:3/4}
+.lbig a::after{background:linear-gradient(180deg,rgba(0,0,0,0) 26%,rgba(0,0,0,.52) 62%,rgba(0,0,0,.93) 100%)}
+.lbig-tx{padding:26px 26px 24px}
+.lbig-tx h3{font-size:clamp(24px,2.2vw,33px);line-height:1.08;letter-spacing:-.018em}
+.lbig-tx .lmeta{margin-bottom:10px}
+.lbig-tx .lkick{border:1px solid rgba(255,255,255,.7);padding:3px 8px;letter-spacing:.11em}
+.lbig-tx .lsep{display:none}
+.lbig-dek{font-size:14.5px;line-height:1.5;margin-top:11px}
+
+/* Stack cards get room to breathe and a rule between them. */
+.lcol-stack{gap:0}
+.lstack{padding:18px 0;border-top:1px solid var(--rule)}
+.lstack:first-child{padding-top:0;border-top:0}
+.lstack h3{font-size:18px;line-height:1.22;margin-top:2px}
+.lstack-img img{aspect-ratio:3/2}
+
+/* List column: tighter, with the kicker carrying the colour. */
+.llist{grid-template-columns:78px 1fr;gap:13px;padding:13px 0}
+.llist h3{font-size:14.5px;line-height:1.28}
+.lmore{margin-top:16px;padding-top:12px;border-top:2px solid var(--ink);align-self:stretch;text-align:right}
+
+@media (max-width:1000px){
+  .lcol-big,.lcol-stack,.lcol-list{padding:0;border:0}
+  .lcol-stack{border-top:1px solid var(--rule);padding-top:16px}
+}
