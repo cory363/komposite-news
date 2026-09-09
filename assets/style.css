@@ -2018,3 +2018,25 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.abctop li a,.seclist li 
 .railmod{margin-top:20px}
 .abctop-thumbs li a{padding:9px 14px}
 .abctop-num.abctop-thumbs li a{padding-left:36px}
+
+/* ======================================================================
+   Susan (Adobe Fonts, Paratype) — kit qpp5cbs
+   Requested face. The kit exists with Susan n4/i4/n7/i7 and the right
+   domains, but Adobe retired the legacy publish endpoint, so it has to be
+   published once from fonts.adobe.com. Inter is kept next in every stack:
+   until the kit goes live the page renders exactly as it does now, and the
+   moment it is published Susan takes over with no further deploy.
+   ====================================================================== */
+:root{
+  --display:"susan","Inter",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --sans:"susan","Inter","Libre Franklin",Helvetica,Arial,sans-serif;
+  --serif:"susan","Lora",Georgia,"Times New Roman",serif;
+  --body:"susan","Lora",Georgia,"Times New Roman",serif;
+}
+body{font-family:var(--body);font-style:normal;font-weight:400}
+.artbody p,.artbody li,.artbody blockquote{font-family:var(--serif);font-weight:400}
+
+/* Susan carries Book and Bold only, so headline weights resolve to 700
+   rather than the 800 Inter was using. */
+h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
+.lhero-tx h2,.lbig-tx h3,.art h1{letter-spacing:-.02em}
