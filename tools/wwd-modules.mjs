@@ -51,14 +51,7 @@ const pick = (n, avoid) => {
   return out;
 };
 
-/* 1. Ticker: square thumb left, kicker / headline / two-line dek right. */
-const tick = pick(6, false);
-const ticker = `<div class="tickwrap"><div class="wrap tickrow">
-${tick.map(a => `<a class="tickcard" href="${a.url}">
-<span class="tickthumb"><img src="${esc(sq(a.img))}" alt="${esc(a.alt)}" loading="lazy"></span>
-<span class="ticktx"><span class="tickkick">${esc(a.kick)}</span><span class="tickhead">${esc(a.title)}</span><span class="tickdek">${esc(a.dek.slice(0, 96))}</span></span></a>`).join("")}
-</div></div>`;
-h = h.replace(/<div class="trend">[\s\S]*?<\/div><\/div>/, ticker);
+/* The ticker was removed at the editor's request. */
 
 /* 2. Top stories: headline left, square thumb right, as WWD's Eye rail. */
 h = h.replace(/<div class="abctop abctop-num">([\s\S]*?)<\/ol>\s*<\/div>/, (m, inner) => {
@@ -87,4 +80,4 @@ ${recs.map(a => `<a class="recocard" href="${a.url}">
   }
 }
 fs.writeFileSync("index.html", h);
-console.log(`  ticker cards: ${tick.length}   rail thumbs: ${/abctop-thumbs/.test(h) ? "yes" : "no"}   recommends: ${/recobar/.test(h) ? "yes" : "no"}`);
+console.log(`  rail thumbs: ${/abctop-thumbs/.test(h) ? "yes" : "no"}   recommends: ${/recobar/.test(h) ? "yes" : "no"}`);

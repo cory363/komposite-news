@@ -82,31 +82,24 @@ const railOpinion = take(3, a => opinion(a) || /opinion|analysis|column/i.test(a
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
 
-/* WWD does not run a uniform card grid under the lead. It runs two heavy
-   blocks whose pictures sit in different places — one beside the text, one
-   under it — and then dense rows of thumbnail-and-headline beneath. The
-   asymmetry is the point: a uniform 4x2 of identical cards reads as a
-   template, which is exactly what ours looked like. */
-const featLeft = a => `<article class="wfeat wfeat-side">
-<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
-<div class="wfeat-tx"><div class="abckick">${esc(a.kick)}</div>
-<h3><a href="${a.url}">${esc(a.title)}</a></h3>
-${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
-${byline(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
+/* The block between the lead and the first section was still the WWD
+   arrangement while everything below it had moved to Leonard's composition,
+   so the two halves of the page did not agree. Same shapes as the section
+   blocks now: a frame with the headline over it, a stack of two, a list. */
+const lmeta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick)}</span><span class="lsep">/</span><span class="lago">${ago(a.date)}</span></div>`;
 
-const featBelow = a => `<article class="wfeat wfeat-stack">
-<div class="wfeat-tx"><div class="abckick">${esc(a.kick)}</div>
-<h3><a href="${a.url}">${esc(a.title)}</a></h3>
-${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
-${byline(a)}</div>
-<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
-<span class="abctime">${ago(a.date)}</span></article>`;
+const lOverlay = a => `<article class="lbig">
+<a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">
+<span class="lbig-tx">${lmeta(a)}<h3>${esc(a.title)}</h3>${a.dek ? `<p class="lbig-dek">${esc(a.dek)}</p>` : ""}</span></a></article>`;
 
-const rowCard = a => `<article class="wrow">
-<a class="wrow-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
-<div class="wrow-tx"><div class="abckick">${esc(a.kick)}</div>
-<h3><a href="${a.url}">${esc(a.title)}</a></h3>
-${byline(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
+const lStack = a => `<article class="lstack">
+<a class="lstack-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
+
+const lList = a => `<article class="llist">
+<a class="llist-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="llist-tx">${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
+
 const zone = `<main class="wrap abczone">
 <div class="abcmain">
   <article class="abclead">
@@ -120,12 +113,11 @@ const zone = `<main class="wrap abczone">
     </div>
     <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
   </article>
-  <div class="wfeatrow">
-    ${featLeft(grid[0])}
-    ${featBelow(grid[1])}
-  </div>
-  <div class="wrowgrid">
-${grid.slice(2, 6).map(rowCard).join("\n")}
+  <div class="lsechead"><span class="lseclabel"><a href="/latest/">Latest</a></span></div>
+  <div class="lgrid">
+    <div class="lcol-big">${lOverlay(grid[0])}</div>
+    <div class="lcol-stack">${grid.slice(1, 3).map(lStack).join("")}</div>
+    <div class="lcol-list">${grid.slice(3, 7).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
   </div>
 </div>
 <aside class="abcrail">
@@ -146,7 +138,13 @@ let h = fs.readFileSync("index.html", "utf8");
 const startMarkers = ['<main class="wrap czone">', '<main class="wrap fblead">', '<main class="wrap abczone">'];
 let start = -1;
 for (const m of startMarkers) { const i = h.indexOf(m); if (i > -1) { start = i; break; } }
-const end = h.indexOf('<section class="billboard">');
+/* The zone used to end at the billboard, which sat immediately below it. The
+   billboard is now interleaved further down, three section blocks past the
+   zone, so that boundary swallowed AI, Blockchain and Crypto on every
+   rebuild. The zone ends where it ends: at its own </main>. */
+const endTag = "</main>";
+const endAt = h.indexOf(endTag, start);
+const end = endAt < 0 ? -1 : endAt + endTag.length;
 if (start < 0 || end < 0) { console.error("could not locate the front zone"); process.exit(1); }
 h = h.slice(0, start) + zone + "\n" + h.slice(end);
 fs.writeFileSync("index.html", h);
