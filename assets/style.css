@@ -1996,3 +1996,25 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.abctop li a,.seclist li 
 .abcmain .lcol-stack .lsep,.abcmain .lcol-stack .lago{display:none}
 .abcmain .llist h3{font-size:14px}
 .abcmain .lstack h3{font-size:16px}
+
+/* ---- Further tightening ---------------------------------------------- */
+/* Seams that were still carrying more air than the density around them. */
+.abczone{padding-top:22px}
+.lhero-cluster{margin-top:0}
+.lsec{margin-top:22px}
+.lsechead{margin-bottom:14px}
+.lstack{padding:12px 0}
+.llist{padding:10px 0}
+.lbig-tx{padding:22px 22px 20px}
+.lbig-dek{margin-top:9px;-webkit-line-clamp:2}
+.recobar{margin-top:22px;padding:20px 0 22px}
+.billboard{margin-top:22px}
+.bbrow{padding-top:28px;padding-bottom:28px}
+.inpix{margin:22px auto 4px}
+.divpanel{margin-top:26px;padding:32px 0 30px}
+.kfoot{margin-top:32px}
+.kfoot-top{padding:38px 0 30px}
+.abcrail .abcfeature{margin-bottom:18px}
+.railmod{margin-top:20px}
+.abctop-thumbs li a{padding:9px 14px}
+.abctop-num.abctop-thumbs li a{padding-left:36px}

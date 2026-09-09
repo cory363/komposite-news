@@ -23,7 +23,7 @@ const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(
 
 /* The tip confirmation page is noindex and reachable only after a POST,
    so it does not belong in the sitemap or the orphan audit. */
-const pages = walk(".").filter(f => !/^(saved|tips\/thanks)\//.test(f.replace(/^\.\//, ""))).map(f => {
+const pages = walk(".").filter(f => !/^(saved|tips\/thanks|subscribe\/thanks)\//.test(f.replace(/^\.\//, ""))).map(f => {
   const h = fs.readFileSync(f, "utf8");
   const loc = SITE + "/" + f.replace(/^\.\//, "").replace(/index\.html$/, "");
   const pub = (h.match(/"datePublished":"([^"]+)"/) || [])[1];

@@ -24,8 +24,8 @@ const HEADER = `<header class="kmast">
   <div class="knav-links">${NAV.map(([h, l]) => `<a href="${h}">${l}</a>`).join("")}</div>
   <div class="knav-utils">
     <a class="knav-search" href="/search/">Search</a>
-    <a class="knav-login" href="/#newsletter">Log in</a>
-    <a class="knav-sub" href="/#newsletter">Subscribe</a>
+    <a class="knav-login" href="/subscribe/">Log in</a>
+    <a class="knav-sub" href="/subscribe/">Subscribe</a>
   </div>
 </div></nav>
 <div class="kdateline"><div class="wrap kdate-row"><span id="udate">Wednesday, September 9, 2026</span><span class="kdate-ed">Global Edition</span><a class="kdate-tip" href="/tips/">Got a tip?</a></div></div>
