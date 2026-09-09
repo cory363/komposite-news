@@ -34,6 +34,8 @@ function articles(dir) {
         title: ((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
         kick: (h.match(/<span class="kick[^"]*">([^<]*)</) || [])[1] || "",
         date: (h.match(/"datePublished":"([^"]+)"/) || [])[1] || "",
+        author: (h.match(/"author":\{[^}]*?"name":"([^"]+)"/) || [])[1] || "",
+        dek: ((h.match(/<p class="[^"]*artdeck[^"]*"[^>]*>([\s\S]*?)<\/p>/) || [])[1] || "").replace(/<[^>]*>/g, "").trim(),
         img: img ? img[1] : null, alt: img ? img[2] : "" };
     }).filter(a => a.title && a.date && a.img).sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -60,49 +62,59 @@ let rebuilt = 0;
 for (const [slug, label] of SECTIONS) {
   /* First run consumed the old .band markers, so anchor on the .secblock this
      tool itself emits and make the rebuild idempotent. */
-  const marker = `<div class="sechead-row"><h2><a href="/${slug}/">`;
+  /* The block markup changed shape, so the old anchor no longer exists in the
+     page this tool wrote last time. Accept either. */
+  const marker = [`<div class="lsechead"><span class="lseclabel"><a href="/${slug}/">`,
+                  `<div class="sechead-row"><h2><a href="/${slug}/">`]
+                 .map(m => ({ m, i: h.indexOf(m) })).filter(x => x.i >= 0)
+                 .sort((a, b) => a.i - b.i)[0]?.m;
+  if (!marker) { console.log("  --   " + label + " (no section block)"); continue; }
   const mi = h.indexOf(marker);
   if (mi < 0) { console.log("  --   " + label + " (no section block)"); continue; }
   // prefix match: the class now carries a shape suffix (secblock-lead etc.)
   const bandStart = h.lastIndexOf('<section class="wrap secblock', mi);
-  const endTag = "</div></section>";
+  const endTag = "</section>";
   const ei = h.indexOf(endTag, mi);
   if (bandStart < 0 || ei < 0) { console.log("  --   " + label + " (markers unbalanced)"); continue; }
   const stop = ei + endTag.length;
 
   const pool = articles(slug);
-  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 8);
-  if (picks.length < 8)                                  // relax URL rule before repeating a photo
-    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 8 - picks.length));
-  if (picks.length < 8)                                  // last resort: section is too thin
-    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 8 - picks.length));
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 9);
+  if (picks.length < 9)                                  // relax URL rule before repeating a photo
+    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 9 - picks.length));
+  if (picks.length < 9)                                  // last resort: section is too thin
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 9 - picks.length));
   picks.forEach(a => usedImgs.add(imgId(a.img)));
-  /* Real front pages vary module shape by editorial weight; twelve identical
-     4-card grids is the thing that reads as generated. Rotate three shapes. */
-  const shape = ["grid", "lead", "split"][rebuilt % 3];
-  const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a><div class="abckick">${esc(a.kick)}</div><h3><a href="${a.url}">${esc(a.title)}</a></h3>${a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : ""}<span class="abctime">${ago(a.date)}</span></article>`;
-  const line = a => `<li><a href="${a.url}">${esc(a.title)}</a><span class="secl-t">${ago(a.date)}</span></li>`;
+  /* Leonard runs each section as a three-column composition rather than a
+     row of equal cards: one large frame with the headline laid over it, a
+     stack of two beside it, and a thumbnail list closing with a MORE link.
+     The composition mirrors on alternate sections so the page does not
+     settle into a rhythm. */
+  const by = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
+  const meta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick || label)}</span><span class="lsep">/</span><span class="lago">${ago(a.date)}</span></div>`;
 
-  let inner;
-  if (shape === "lead") {
-    const [big, ...rest] = picks;
-    inner = `<div class="secmod secmod-lead">
-<article class="seclead"><a href="${big.url}"><img src="${esc(big.img)}" alt="${esc(big.alt)}" loading="lazy"></a>
-<div class="seclead-tx"><div class="abckick">${esc(big.kick)}</div><h3><a href="${big.url}">${esc(big.title)}</a></h3>
-${rest.length > 6 ? `<ul class="leadcluster"><li><a href="${rest[6].url}">${esc(rest[6].title)}</a></li></ul>` : ""}
-<span class="abctime">${ago(big.date)}</span></div></article>
-<ul class="seclist">${rest.slice(0, 6).map(line).join("")}</ul></div>`;
-  } else if (shape === "split") {
-    inner = `<div class="secmod secmod-split">
-<div class="secpair">${picks.slice(0, 2).map(card).join("")}</div>
-<ul class="seclist">${picks.slice(2, 6).map(line).join("")}</ul></div>`;
-  } else {
-    inner = `<div class="secgrid">\n${picks.slice(0, 4).map(card).join("\n")}\n</div>`;  // 4, not 5: a fifth card orphans onto its own row
-  }
+  const overlay = a => `<article class="lbig">
+<a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">
+<span class="lbig-tx">${meta(a)}<h3>${esc(a.title)}</h3>${a.dek ? `<p class="lbig-dek">${esc(a.dek)}</p>` : ""}</span></a></article>`;
 
-  const block = `<section class="wrap secblock secblock-${shape}">
-<div class="sechead-row"><h2><a href="/${slug}/">${esc(label)}</a></h2><a class="allof" href="/${slug}/">All ${esc(label)} coverage &rsaquo;</a></div>
-${inner}</section>
+  const stackCard = a => `<article class="lstack">
+<a class="lstack-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+${meta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
+
+  const listItem = a => `<article class="llist">
+<a class="llist-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="llist-tx">${meta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
+
+  const mirrored = rebuilt % 2 === 1;
+  const big = picks[0], stack = picks.slice(1, 3), list = picks.slice(3, 9);
+  const bigCol = `<div class="lcol-big">${overlay(big)}</div>`;
+  const stackCol = `<div class="lcol-stack">${stack.map(stackCard).join("")}</div>`;
+  const listCol = `<div class="lcol-list">${list.map(listItem).join("")}<a class="lmore" href="/${slug}/">More ${esc(label)} <span aria-hidden="true">&rarr;</span></a></div>`;
+
+  const block = `<section class="wrap secblock lsec${mirrored ? " lsec-mirror" : ""}">
+<div class="lsechead"><span class="lseclabel"><a href="/${slug}/">${esc(label)}</a></span></div>
+<div class="lgrid">${mirrored ? stackCol + bigCol + listCol : bigCol + stackCol + listCol}</div>
+</section>
 `;
   h = h.slice(0, bandStart) + block + h.slice(stop);
   rebuilt++;

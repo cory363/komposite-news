@@ -1643,3 +1643,77 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
    and let the wordmark overrun into the sticky nav below, clipping its cap
    line. The row sizes to its content now. */
 .dhrow{height:auto;min-height:64px}
+
+/* ======================================================================
+   Leonard section composition
+   Each section is a three-column block: one large frame with the headline
+   laid over it, a stack of two beside it, and a thumbnail list closing with
+   a MORE link. The composition mirrors on alternate sections.
+   ====================================================================== */
+.lsec{margin-top:38px}
+
+/* Skewed black label centred on a rule. */
+.lsechead{position:relative;text-align:center;margin-bottom:20px}
+.lsechead::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--rule)}
+.lseclabel{position:relative;display:inline-block;background:var(--ink);transform:skewX(-12deg);
+  padding:5px 20px}
+.lseclabel a{display:block;transform:skewX(12deg);font-family:var(--sans);font-size:12px;
+  font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#fff;text-decoration:none;
+  font-style:italic}
+.lseclabel:hover{background:var(--claret)}
+
+.lgrid{display:grid;grid-template-columns:1.55fr 1fr 1.05fr;gap:26px;align-items:start}
+
+/* Kicker / relative age, the way Leonard sets its metadata. */
+.lmeta{display:flex;align-items:baseline;gap:6px;font-family:var(--sans);font-size:10px;
+  font-weight:700;letter-spacing:.09em;text-transform:uppercase;margin-bottom:6px}
+.lkick{color:var(--claret)}
+.lsep,.lago{color:var(--faint);font-weight:600;letter-spacing:.05em}
+
+/* Large frame with the headline over it. */
+.lbig{position:relative}
+.lbig a{display:block;position:relative;overflow:hidden}
+.lbig img{width:100%;aspect-ratio:4/5;object-fit:cover;display:block;background:var(--tint)}
+.lbig a::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(0,0,0,0) 38%,rgba(0,0,0,.82) 100%)}
+.lbig-tx{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:20px 22px}
+.lbig-tx .lmeta{color:#fff}
+.lbig-tx .lkick{color:#fff}
+.lbig-tx .lsep,.lbig-tx .lago{color:rgba(255,255,255,.72)}
+.lbig-tx h3{font-family:var(--display);font-size:27px;line-height:1.14;font-weight:700;
+  color:#fff;margin:0;letter-spacing:-.012em}
+.lbig-dek{font-family:var(--serif);font-size:14px;line-height:1.45;color:rgba(255,255,255,.86);
+  margin:9px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lbig a:hover img{transform:scale(1.03)}
+.lbig img{transition:transform .45s cubic-bezier(.2,.6,.3,1)}
+
+/* Two stacked cards, picture over text. */
+.lcol-stack{display:flex;flex-direction:column;gap:22px}
+.lstack-img{display:block;overflow:hidden;margin-bottom:9px}
+.lstack-img img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--tint)}
+.lstack h3{font-family:var(--display);font-size:17px;line-height:1.24;font-weight:700;margin:0}
+.lstack h3 a:hover{color:var(--claret)}
+
+/* Thumbnail list closing with a MORE link. */
+.lcol-list{display:flex;flex-direction:column}
+.llist{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:start;
+  padding:11px 0;border-bottom:1px solid var(--rule)}
+.llist:first-child{padding-top:0}
+.llist-thumb{display:block;overflow:hidden}
+.llist-thumb img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:var(--tint)}
+.llist h3{font-family:var(--display);font-size:14px;line-height:1.26;font-weight:700;margin:0}
+.llist h3 a:hover{color:var(--claret)}
+.lmore{align-self:flex-end;margin-top:14px;font-family:var(--sans);font-size:11px;font-weight:800;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+.lmore:hover{color:var(--claret)}
+
+@media (max-width:1000px){
+  .lgrid{grid-template-columns:1fr 1fr;gap:22px}
+  .lcol-list{grid-column:1/-1}
+  .llist{grid-template-columns:84px 1fr}
+}
+@media (max-width:640px){
+  .lgrid{grid-template-columns:1fr}
+  .lbig img{aspect-ratio:4/3}
+  .lbig-tx h3{font-size:21px}
+}
