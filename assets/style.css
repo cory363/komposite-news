@@ -1438,3 +1438,59 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
   .bbrow{grid-template-columns:1fr;gap:22px;padding-top:28px;padding-bottom:28px}
   .bbdek{max-width:none}
 }
+
+/* ======================================================================
+   WWD picture grammar
+   Their cards run a small square thumbnail beside the text rather than a
+   wide frame above it, which is what makes the front read as dense and
+   text-forward. Three modules built to that shape.
+   ====================================================================== */
+
+/* ---- Ticker cards under the nav --------------------------------------- */
+.tickwrap{border-bottom:1px solid var(--rule);background:var(--paper)}
+.tickrow{display:flex;gap:0;overflow-x:auto;scrollbar-width:thin;padding:0}
+.tickcard{flex:0 0 33.333%;display:flex;gap:11px;align-items:flex-start;
+  padding:12px 18px;border-right:1px solid var(--rule);text-decoration:none;min-width:280px}
+.tickcard:first-child{padding-left:0}
+.tickcard:last-child{border-right:0}
+.tickthumb{flex:0 0 56px;width:56px;height:56px;overflow:hidden;background:var(--tint)}
+.tickthumb img{width:100%;height:100%;object-fit:cover;display:block}
+.ticktx{min-width:0;display:flex;flex-direction:column;gap:3px}
+.tickkick{font-family:var(--sans);font-size:9px;font-weight:800;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--claret)}
+.tickhead{font-family:var(--display);font-size:13.5px;font-weight:700;line-height:1.22;color:var(--ink)}
+.tickcard:hover .tickhead{color:var(--claret)}
+.tickdek{font-family:var(--serif);font-size:12px;line-height:1.36;color:var(--slate);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* ---- Top stories with thumbnails on the right ------------------------- */
+.abctop-thumbs li a{display:flex;align-items:flex-start;gap:11px;padding:11px 14px}
+.abctop-thumbs .toptx{flex:1 1 auto;min-width:0}
+.abctop-thumbs .topthumb{flex:0 0 54px;width:54px;height:54px;overflow:hidden;background:var(--tint)}
+.abctop-thumbs .topthumb img{width:100%;height:100%;object-fit:cover;display:block}
+.abctop-num.abctop-thumbs li a{padding-left:38px}
+
+/* ---- Recommends band, grey ground ------------------------------------- */
+.recobar{background:var(--wwdgrey);margin-top:34px;padding:26px 0 28px}
+.recoh{font-family:var(--sans);font-size:15px;font-weight:800;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink);margin:0 0 16px}
+.recogrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.recocard{display:flex;gap:12px;align-items:flex-start;padding:0 20px;
+  border-right:1px solid #DCDCDC;text-decoration:none}
+.recocard:first-child{padding-left:0}
+.recocard:last-child{border-right:0;padding-right:0}
+.recothumb{flex:0 0 68px;width:68px;height:78px;overflow:hidden;background:#E4E4E4}
+.recothumb img{width:100%;height:100%;object-fit:cover;display:block}
+.recotx{min-width:0;display:flex;flex-direction:column;gap:5px}
+.recokick{font-family:var(--sans);font-size:9.5px;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink)}
+.recohead{font-family:var(--display);font-size:15px;font-weight:700;line-height:1.2;color:var(--ink)}
+.recocard:hover .recohead{color:var(--claret)}
+
+@media (max-width:900px){
+  .tickcard{flex:0 0 78%;min-width:0}
+  .recogrid{grid-template-columns:1fr 1fr;gap:18px 0}
+  .recocard{padding:0 14px}
+  .recocard:nth-child(2n){border-right:0;padding-right:0}
+  .recocard:nth-child(2n+1){padding-left:0}
+}
