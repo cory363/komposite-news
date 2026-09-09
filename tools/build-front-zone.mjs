@@ -81,11 +81,32 @@ const topStories = take(11, a => !opinion(a));   // 8 left the rail short agains
 const railOpinion = take(4, a => opinion(a) || /opinion|analysis|column/i.test(a.kick));
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
-const card = a => `<article class="abccard"><a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>`
-  + `<div class="abckick">${esc(a.kick)}</div>`
-  + `<h3><a href="${a.url}">${esc(a.title)}</a></h3>`
-  + byline(a) + `<span class="abctime">${ago(a.date)}</span></article>`;
 
+/* WWD does not run a uniform card grid under the lead. It runs two heavy
+   blocks whose pictures sit in different places — one beside the text, one
+   under it — and then dense rows of thumbnail-and-headline beneath. The
+   asymmetry is the point: a uniform 4x2 of identical cards reads as a
+   template, which is exactly what ours looked like. */
+const featLeft = a => `<article class="wfeat wfeat-side">
+<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="wfeat-tx"><div class="abckick">${esc(a.kick)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
+${byline(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
+
+const featBelow = a => `<article class="wfeat wfeat-stack">
+<div class="wfeat-tx"><div class="abckick">${esc(a.kick)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${a.dek ? `<p class="wfeat-dek">${esc(a.dek)}</p>` : ""}
+${byline(a)}</div>
+<a class="wfeat-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<span class="abctime">${ago(a.date)}</span></article>`;
+
+const rowCard = a => `<article class="wrow">
+<a class="wrow-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<div class="wrow-tx"><div class="abckick">${esc(a.kick)}</div>
+<h3><a href="${a.url}">${esc(a.title)}</a></h3>
+${byline(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
 const zone = `<main class="wrap abczone">
 <div class="abcmain">
   <article class="abclead">
@@ -99,8 +120,12 @@ const zone = `<main class="wrap abczone">
     </div>
     <a href="${lead.url}"><img src="${esc(lead.img)}" alt="${esc(lead.alt)}" loading="lazy"></a>
   </article>
-  <div class="abcgrid">
-${grid.map(card).join("\n")}
+  <div class="wfeatrow">
+    ${featLeft(grid[0])}
+    ${featBelow(grid[1])}
+  </div>
+  <div class="wrowgrid">
+${grid.slice(2, 8).map(rowCard).join("\n")}
   </div>
 </div>
 <aside class="abcrail">

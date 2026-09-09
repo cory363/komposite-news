@@ -1494,3 +1494,72 @@ h1,h2,h3,.spothead,.bbhead,.coverhead,
   .recocard:nth-child(2n){border-right:0;padding-right:0}
   .recocard:nth-child(2n+1){padding-left:0}
 }
+
+/* ======================================================================
+   Front grid, WWD weighting
+   Two heavy blocks with the picture in different places, then dense
+   thumbnail rows. A uniform 4x2 of identical cards is what made the old
+   front read as a template.
+   ====================================================================== */
+.wfeatrow{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:22px;
+  border-top:2px solid var(--ink);padding-top:20px}
+.wfeatrow>.wfeat:first-child{padding-right:26px;border-right:1px solid var(--rule)}
+.wfeatrow>.wfeat:last-child{padding-left:26px}
+
+.wfeat h3{font-family:var(--display);font-size:23px;line-height:1.14;font-weight:700;
+  margin:7px 0 0;letter-spacing:-.012em}
+.wfeat h3 a:hover{color:var(--claret)}
+.wfeat-dek{font-family:var(--serif);font-size:14.5px;line-height:1.45;color:var(--slate);
+  margin:9px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.wfeat .cardby{margin-top:10px}
+.wfeat .abctime{display:block;margin-top:5px}
+
+/* Picture beside the text, portrait, as WWD sets its left block. */
+.wfeat-side{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:start}
+.wfeat-side .wfeat-img{display:block;overflow:hidden}
+.wfeat-side .wfeat-img img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block;background:var(--tint)}
+
+/* Picture under the text, landscape, as WWD sets its right block. */
+.wfeat-stack .wfeat-img{display:block;overflow:hidden;margin-top:14px}
+.wfeat-stack .wfeat-img img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--tint)}
+
+/* Dense rows: thumb left, headline right, hairline between. */
+.wrowgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 34px;margin-top:22px;
+  border-top:1px solid var(--rule)}
+.wrow{display:grid;grid-template-columns:104px 1fr;gap:14px;align-items:start;
+  padding:16px 0;border-bottom:1px solid var(--rule)}
+.wrow-thumb{display:block;overflow:hidden}
+.wrow-thumb img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--tint)}
+.wrow h3{font-family:var(--display);font-size:16.5px;line-height:1.24;font-weight:700;
+  margin:6px 0 0;letter-spacing:-.008em}
+.wrow h3 a:hover{color:var(--claret)}
+.wrow .cardby{margin-top:7px}
+.wrow .abctime{display:block;margin-top:3px}
+.wrow-thumb img,.wfeat-img img{transition:transform .4s cubic-bezier(.2,.6,.3,1)}
+.wrow:hover .wrow-thumb img,.wfeat:hover .wfeat-img img{transform:scale(1.04)}
+
+@media (max-width:900px){
+  .wfeatrow{grid-template-columns:1fr}
+  .wfeatrow>.wfeat:first-child{padding-right:0;border-right:0;border-bottom:1px solid var(--rule);
+    padding-bottom:20px;margin-bottom:20px}
+  .wfeatrow>.wfeat:last-child{padding-left:0}
+  .wrowgrid{grid-template-columns:1fr}
+}
+
+/* The left block ran short against the right one, which carries text plus a
+   landscape frame, so the column rule stopped halfway and left white beneath.
+   A taller portrait and a wider column bring the two masses level. */
+.wfeat-side{grid-template-columns:200px 1fr;gap:18px}
+.wfeat-side .wfeat-img img{aspect-ratio:2/3}
+.wfeat-side .wfeat-dek{-webkit-line-clamp:5}
+.wfeat-stack .wfeat-dek{-webkit-line-clamp:2}
+
+/* A 200px portrait left roughly 140px for text in a half-width column, so
+   headlines broke to four lines and the byline wrapped. Smaller frame, and
+   the feature row leans slightly to the picture-beside-text block. */
+.wfeatrow{grid-template-columns:1.08fr 1fr}
+.wfeat-side{grid-template-columns:132px 1fr;gap:15px}
+.wfeat-side .wfeat-img img{aspect-ratio:3/4}
+.wfeat-side h3{font-size:20px}
+.wfeat-side .wfeat-dek{-webkit-line-clamp:3;font-size:14px}
+.wfeat .cardby{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
