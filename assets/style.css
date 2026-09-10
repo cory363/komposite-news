@@ -2248,3 +2248,35 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
   .opfeat h3,.opfeat .deck{padding-left:30px}
   .opfeat .qby{white-space:normal;overflow:visible;text-overflow:clip}
 }
+
+/* ======================================================================
+   Top stories, above the fold
+   It was the only rail on the site built as a boxed widget: a 1px border, a
+   solid black header bar and a pale blue-grey fill (#F2F5F8) that appears
+   nowhere else. Everything around it is white with hairlines. The list now
+   wears the same dress as Popular in the news band — a small caps label over
+   a rule, a large light numeral, hairline rows — so it reads as editorial
+   furniture rather than a sidebar module.
+   ====================================================================== */
+.abctop{border:0}
+.abctop-h{background:transparent;color:var(--ink);font-family:var(--sans);font-size:11px;
+  font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  padding:0 0 7px;border-bottom:2px solid var(--rule-dark)}
+.abctop ol{background:transparent}
+.abctop li{border-bottom:1px solid var(--rule)}
+.abctop-thumbs li a{padding:12px 0;gap:13px;align-items:flex-start}
+.abctop-num.abctop-thumbs li a{padding-left:30px}
+/* 4:3 reads as a photograph; the 54px square read as an avatar. */
+.abctop-thumbs .topthumb{flex:0 0 64px;width:64px;height:48px}
+/* The numeral sits on the first line of the headline, not above it. */
+.abctop-num li::before{left:0;top:11px;font-family:var(--display);font-size:22px;
+  font-weight:400;color:var(--faint);line-height:1}
+.abctop li a{font-weight:700}
+.abctop li a:hover{color:var(--claret)}
+.abctop li a:hover .topthumb img{opacity:.86}
+.abctop-thumbs .topthumb img{transition:opacity .18s}
+@media (max-width:900px){
+  .abctop-thumbs li a{padding:10px 0}
+  .abctop-num.abctop-thumbs li a{padding-left:28px}
+  .abctop-num li::before{top:9px;font-size:20px}
+}
