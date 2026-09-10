@@ -28,7 +28,7 @@ const HEADER = `<header class="kmast">
     <a class="knav-sub" href="/subscribe/">Subscribe</a>
   </div>
 </div></nav>
-<div class="kdateline"><div class="wrap kdate-row"><span id="udate">Wednesday, September 9, 2026</span><span class="kdate-ed">Global Edition</span><a class="kdate-tip" href="/tips/">Got a tip?</a></div></div>
+<div class="kdateline"><div class="wrap kdate-row"><span id="udate">Thursday, September 10, 2026</span><span class="kdate-ed">Global Edition</span><a class="kdate-tip" href="/tips/">Got a tip?</a></div></div><script>(function(){var e=document.getElementById("udate");if(e)e.textContent=new Date().toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric",year:"numeric",timeZone:"America/New_York"});})();</script>
 `;
 
 const SKIP = new Set([".git", "node_modules", "tools", "assets"]);

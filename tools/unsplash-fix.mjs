@@ -35,9 +35,25 @@ const count = {}; live.forEach(r => count[r.id] = (count[r.id] || 0) + 1);
 const seenFirst = new Set();
 const dupes = live.filter(r => { if (count[r.id] < 2) return false;
   if (!seenFirst.has(r.id)) { seenFirst.add(r.id); return false; } return true; });
-const beats = (process.argv[2] || "").split(",").filter(Boolean);
-const commons = live.filter(r => r.commons && beats.includes(r.sec));
-const work = [...dupes, ...commons.filter(c => !dupes.includes(c))];
+/* Two modes. A beat sweep, and "list:<file>" — a hand-built worklist where
+   each entry carries its own query, because a beat query cannot tell a story
+   about water permitting from one about a bridge at night. */
+const arg = process.argv[2] || "";
+const listFile = arg.startsWith("list:") ? arg.slice(5) : null;
+let work;
+if (listFile) {
+  const bySlug = Object.fromEntries(live.map(r => [r.slug, r]));
+  work = JSON.parse(fs.readFileSync(listFile, "utf8")).map(e => {
+    const r = bySlug[e.slug];
+    if (!r) { console.log("  not found: " + e.slug); return null; }
+    return { ...r, pkey: e.slug, queries: e.q };
+  }).filter(Boolean);
+} else {
+  const beats = arg.split(",").filter(Boolean);
+  const commons = live.filter(r => r.commons && beats.includes(r.sec));
+  work = [...dupes, ...commons.filter(c => !dupes.includes(c))]
+    .map(r => ({ ...r, pkey: r.sec, queries: null }));
+}
 
 const QUERIES = {
   crypto:        ["bitcoin cryptocurrency abstract dark", "digital currency finance neon", "crypto trading screens dark"],
@@ -57,26 +73,32 @@ const QUERIES = {
 let calls = 0, applied = 0;
 const budget = Number(process.argv[3] || 40);
 const pools = {};
-const needed = [...new Set(work.map(w => w.sec))];
+const needed = [];
+for (const w of work) if (!needed.some(n => n.pkey === w.pkey)) needed.push(w);
 
-for (const sec of needed) {
+for (const { pkey, sec, queries } of needed) {
   if (calls >= budget) break;
-  pools[sec] = [];
-  for (const q of (QUERIES[sec] || QUERIES.business)) {
+  pools[pkey] = [];
+  for (const q of (queries || QUERIES[sec] || QUERIES.business)) {
     if (calls >= budget) break;
     const r = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(q)}&per_page=30&orientation=landscape&content_filter=high`, { headers: H });
     calls++;
     if (!r.ok) continue;
     const j = await r.json();
-    pools[sec].push(...(j.results || []).filter(p => p.width / p.height >= 1.2));
+    /* The house rule is real photography: no charts, no maps, no renders. A
+       search for markets returns screens of candlesticks, so reject on what
+       the photographer called it. */
+    const NO = /chart|graph|map\b|diagram|infographic|illustration|render|3d|logo/i;
+    pools[pkey].push(...(j.results || []).filter(p => p.width / p.height >= 1.2
+      && !NO.test((p.alt_description || "") + " " + (p.description || ""))));
     await new Promise(x => setTimeout(x, 180));
   }
-  console.log(`  pool ${sec.padEnd(14)} ${pools[sec].length}`);
+  console.log(`  pool ${pkey.padEnd(46)} ${pools[pkey].length}`);
 }
 
 for (const w of work) {
   if (calls >= budget) { console.log("  budget reached"); break; }
-  const pool = pools[w.sec] || [];
+  const pool = pools[w.pkey] || [];
   const pick = pool.find(p => !inUse.has(p.id));
   if (!pick) { console.log("  no candidate for " + w.slug); continue; }
   try { const r = await fetch(pick.links.download_location, { headers: H }); calls++; if (!r.ok) throw 0; }

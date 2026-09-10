@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "fintech/banking-software-modernization-wave",
+  "sec": "fintech",
+  "alt": "A contactless payment card opened to reveal its antenna and chip",
+  "commons": true,
+  "score": 1.792
+ },
+ {
+  "slug": "technology/robotics-warehouse-to-workshop",
+  "sec": "technology",
+  "alt": "Robots weld car bodies at BMW's Leipzig plant; the same automation is now reaching far smaller shops",
+  "commons": true,
+  "score": 2.315
+ },
+ {
+  "slug": "startups/climate-tech-industrial-phase",
+  "sec": "startups",
+  "alt": "The Manhattan skyline",
+  "commons": true,
+  "score": 3.142
+ },
+ {
+  "slug": "business/corporate-venture-arms-return",
+  "sec": "business",
+  "alt": "A palletizing robot at work in an automated food plant",
+  "commons": true,
+  "score": 3.721
+ },
+ {
+  "slug": "policy/water-becomes-a-permitting-question",
+  "sec": "policy",
+  "alt": "A bridge and waterfront lit after dark",
+  "commons": true,
+  "score": 3.801
+ },
+ {
+  "slug": "culture/repertory-cinema-revival-business",
+  "sec": "culture",
+  "alt": "35mm film threaded through a Philips DP70 projector",
+  "commons": true,
+  "score": 3.897
+ },
+ {
+  "slug": "technology/observability-costs-revolt",
+  "sec": "technology",
+  "alt": "A populated server rack",
+  "commons": true,
+  "score": 4.057
+ },
+ {
+  "slug": "technology/developer-platform-teams-standard",
+  "sec": "technology",
+  "alt": "Six-axis industrial welding robots on a factory line",
+  "commons": true,
+  "score": 4.246
+ },
+ {
+  "slug": "crypto/defi-institutional-wrappers",
+  "sec": "crypto",
+  "alt": "The Manhattan skyline at night",
+  "commons": true,
+  "score": 4.451
+ },
+ {
+  "slug": "cybersecurity/software-supply-chain-rules-bite",
+  "sec": "cybersecurity",
+  "alt": "Equipment racks inside a data center",
+  "commons": true,
+  "score": 4.947
+ }
+]
