@@ -1,0 +1,1457 @@
+{
+ "rows": [
+  {
+   "slug": "ai/ai-agents-back-office-operations",
+   "sec": "ai",
+   "id": "1674027444485-cec3da58eef4",
+   "alt": "An abstract image of a sphere with dots and lines",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/ai-coding-tools-enterprise-standards",
+   "sec": "ai",
+   "id": "1651340765216-ba02df201308",
+   "alt": "A close up of a circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/ai-data-center-cooling-economics",
+   "sec": "ai",
+   "id": "1762163516269-3c143e04175c",
+   "alt": "Server rack with blinking green lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/ai-evaluation-becomes-budget-line",
+   "sec": "ai",
+   "id": "1757466762489-52fea38071ad",
+   "alt": "Abstract blue waves of glowing particles",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/ai-infrastructure-spending-new-phase",
+   "sec": "ai",
+   "id": "1578410169170-021c8c9c1554",
+   "alt": "Empty lighted hallway",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/ai-talent-market-normalizes",
+   "sec": "ai",
+   "id": "1633545515526-ce9cd7fc67d9",
+   "alt": "A room that has a bunch of desks in it",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/enterprise-buyers-ai-contract-terms",
+   "sec": "ai",
+   "id": "1633545509580-5832d6f71f89",
+   "alt": "A room filled with lots of computers and desks",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/gpu-cloud-market-shakeout",
+   "sec": "ai",
+   "id": "1585544899634-20ac6f712876",
+   "alt": "Green and white hallway with green doors",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/inference-costs-reshape-product-design",
+   "sec": "ai",
+   "id": "1683560660669-6be33568035e",
+   "alt": "A computer screen with lines and dots on it",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/model-providers-consolidate-enterprise-tiers",
+   "sec": "ai",
+   "id": "1633545505446-586bf83717f0",
+   "alt": "A room filled with lots of computer monitors",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/opinion-ai-productivity-measurement",
+   "sec": "ai",
+   "id": "1496096265110-f83ad7f96608",
+   "alt": "White and black digital wallpaper",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/samsung-openai-chip-partnership-deepens",
+   "sec": "ai",
+   "id": "1557701197-2f99da0922dd",
+   "alt": "Blue circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/semiconductor-supply-data-center-demand",
+   "sec": "ai",
+   "id": "1555589228-135c25ae8cf5",
+   "alt": "Green and white circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/smaller-models-win-production-workloads",
+   "sec": "ai",
+   "id": "1727434032765-9c4df88b6e02",
+   "alt": "A blue firework ball on a black background",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/synthetic-data-enterprise-training",
+   "sec": "ai",
+   "id": "1727434032773-af3cd98375ba",
+   "alt": "A close up of a computer circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "ai/the-buyers-started-making-their-own",
+   "sec": "ai",
+   "id": "1651340550839-3b295d930048",
+   "alt": "A close-up of a circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/banks-test-blockchain-settlement",
+   "sec": "blockchain",
+   "id": "1707332287886-84315bbb04bb",
+   "alt": "A black and blue abstract background with squares and rectangles",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/blockchain-carbon-registries",
+   "sec": "blockchain",
+   "id": "1766997199917-dba5bfde06b2",
+   "alt": "Geometric tunnel with glowing teal lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/blockchain-data-availability-costs",
+   "sec": "blockchain",
+   "id": "1671491908153-8aaf4cf809d7",
+   "alt": "A bunch of lights that are on a wall",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/broadridge-dlx-tokenization-platform",
+   "sec": "blockchain",
+   "id": "1753998943619-b9cd910887e5",
+   "alt": "Code on a computer screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/digital-identity-credentials-enterprise",
+   "sec": "blockchain",
+   "id": "1674027444485-cec3da58eef4",
+   "alt": "An abstract image of a sphere with dots and lines",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/enterprise-chains-consolidate-platforms",
+   "sec": "blockchain",
+   "id": "1633101136135-cbfa5415061a",
+   "alt": "A blue background with a pattern of thin branches",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/interoperability-standards-institutional-chains",
+   "sec": "blockchain",
+   "id": "1690316256964-c9071de2f1fd",
+   "alt": "A close up of a blue feather on a black background",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/onchain-settlement-fx-corridors",
+   "sec": "blockchain",
+   "id": "1638356554489-decb2e3a4c37",
+   "alt": "A picture of some blue lights in the dark",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/onchain-treasury-operations-corporates",
+   "sec": "blockchain",
+   "id": "1765816589173-d87bf0c38e71",
+   "alt": "Abstract geometric pattern of illuminated lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/opinion-boring-blockchain-wins",
+   "sec": "blockchain",
+   "id": "1734971702445-5f63c4dda405",
+   "alt": "A close up of a building with blue lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/permissioned-ledgers-supply-chain-finance",
+   "sec": "blockchain",
+   "id": "1739561439496-f2d1be7503d8",
+   "alt": "A 3D image of a diamond on a black background",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/private-credit-moves-onchain",
+   "sec": "blockchain",
+   "id": "1780764818910-80526d8aeb6d",
+   "alt": "Out-of-focus city lights and reflections on a rainy night",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/rollups-discover-the-income-statement",
+   "sec": "blockchain",
+   "id": "1754039984985-ef607d80113a",
+   "alt": "Code displayed on computer screens",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/stablecoin-settlement-b2b-payments",
+   "sec": "blockchain",
+   "id": "1641897037078-e91a4afcce94",
+   "alt": "A computer generated image of a ball of lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/tokenization-pilots-to-institutional-markets",
+   "sec": "blockchain",
+   "id": "1644325349124-d1756b79dd42",
+   "alt": "A blue abstract background with lines and dots",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/tokenized-treasuries-money-funds",
+   "sec": "blockchain",
+   "id": "1590859808308-3d2d9c515b1a",
+   "alt": "A fine white mesh fabric draped over a dark surface under blue light",
+   "src": "unsplash"
+  },
+  {
+   "slug": "blockchain/validator-economics-institutional-staking",
+   "sec": "blockchain",
+   "id": "1678845536613-5cf0ec5245cd",
+   "alt": "An abstract image of a network of dots",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/board-oversight-ai-risk",
+   "sec": "business",
+   "id": "Wroclaw-_Dworzec,_perony.jpg",
+   "alt": "The glazed roof of a railway station from below",
+   "src": "commons"
+  },
+  {
+   "slug": "business/boards-plan-the-exit-in-advance",
+   "sec": "business",
+   "id": "1431540015161-0bf868a2d407",
+   "alt": "An empty boardroom table surrounded by chairs",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/cfo-scrutiny-technology-spend",
+   "sec": "business",
+   "id": "1623051786552-e46ef84e6c07",
+   "alt": "Gray concrete building under blue sky during daytime",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/climate-shows-up-in-the-premium",
+   "sec": "business",
+   "id": "1761959166803-ed952543eeae",
+   "alt": "A house with storm damage to its roof",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/corporate-venture-arms-return",
+   "sec": "business",
+   "id": "PARISOMA_conference_room.JPG",
+   "alt": "A palletizing robot at work in an automated food plant",
+   "src": "commons"
+  },
+  {
+   "slug": "business/data-center-boom-local-economies",
+   "sec": "business",
+   "id": "1624213012413-fda54df1810f",
+   "alt": "Gray concrete building under white sky during daytime",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/enterprise-software-pricing-ai-era",
+   "sec": "business",
+   "id": "1788809035446-676eaa7c3abc",
+   "alt": "A brick building with large windows under a cloudy sky",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/industrial-reshoring-software-gap",
+   "sec": "business",
+   "id": "Moored_Bojador,_Vera_Cruz,_and_Atyla,_Doca_de_Alcântara,_Lisbon,_Portugal_julesvernex2.jpg",
+   "alt": "Cranes working a container quay",
+   "src": "commons"
+  },
+  {
+   "slug": "business/kkr-250-million-premerger-filing-penalty",
+   "sec": "business",
+   "id": "1689789079525-90a132b63d80",
+   "alt": "A building lit up at night with a lot of windows",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/middle-managers-ai-restructuring",
+   "sec": "business",
+   "id": "Pokaz_pracy_automatycznej_linii_.jpg",
+   "alt": "The Manhattan skyline at night",
+   "src": "commons"
+  },
+  {
+   "slug": "business/middle-market-adopts-enterprise-ai",
+   "sec": "business",
+   "id": "1641155049992-8cba3e42f632",
+   "alt": "A very tall building with some very tall windows",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/services-firms-rebuild-around-automation",
+   "sec": "business",
+   "id": "1724315071350-21765a0a9f91",
+   "alt": "A large building with a very tall ceiling",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/shadow-ai-governance-problem",
+   "sec": "business",
+   "id": "Münster,_LVM_--_2017_--_9343-7.jpg",
+   "alt": "A glass office tower seen from street level at night",
+   "src": "commons"
+  },
+  {
+   "slug": "business/sourcing-moves-faster-than-tariffs",
+   "sec": "business",
+   "id": "1678182451047-196f22a4143e",
+   "alt": "Shipping containers stacked in rows at a port",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/supply-chain-software-consolidation",
+   "sec": "business",
+   "id": "2015-04-09_08_05_09_Product_packaging_machinery_at_Halo_Farms_in_Lawrence,_New_Jersey.jpg",
+   "alt": "Office towers on the Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "business/the-office-is-a-quality-trade",
+   "sec": "business",
+   "id": "1718220216044-006f43e3a9b1",
+   "alt": "An open-plan office of empty desks and chairs",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/the-training-budget-finds-a-purpose",
+   "sec": "business",
+   "id": "1524178232363-1fb2b075b655",
+   "alt": "People seated in a training room facing a projector screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "business/waiting-for-rates-to-fall-building-costs",
+   "sec": "business",
+   "id": "1760246964044-1384f71665b9",
+   "alt": "Modern office building exterior at dusk with lights",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/bitcoin-mining-grid-services",
+   "sec": "crypto",
+   "id": "Betaalpas_en_logo_contactloos_betalen_-_8966256167.jpg",
+   "alt": "A contactless debit card and payment terminal",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/compliance-architecture-crypto-firms",
+   "sec": "crypto",
+   "id": "Moscow_Metro_Volokolamskaya_asv2018-09.jpg",
+   "alt": "A vaulted pedestrian tunnel lit along its length",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/crypto-custody-price-war",
+   "sec": "crypto",
+   "id": "New_River_Gorge_Bridge.jpg",
+   "alt": "A steel arch bridge spanning a wooded gorge",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/crypto-market-structure-rules-reshape-exchanges",
+   "sec": "crypto",
+   "id": "Stock-exchange-trading-floor.jpg",
+   "alt": "A stock exchange trading floor",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/crypto-payments-emerging-markets",
+   "sec": "crypto",
+   "id": "NYC_Manhattan_Skyline.JPG",
+   "alt": "Office towers on the Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/defi-institutional-wrappers",
+   "sec": "crypto",
+   "id": "Data_Center_(22370911658).jpg",
+   "alt": "The Manhattan skyline at night",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/equities-start-moving-onchain",
+   "sec": "crypto",
+   "id": "1672870153636-32a5e5218792",
+   "alt": "An exchange display board mounted on a wall",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/exchange-tokens-regulatory-reckoning",
+   "sec": "crypto",
+   "id": "Bitcoin_mining_farm.jpg",
+   "alt": "A contactless debit card and payment terminal",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/institutional-crypto-allocations-mature",
+   "sec": "crypto",
+   "id": "1621501011941-c8ee93618c9a",
+   "alt": "Gold round coin on black surface",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/memecoin-era-institutional-distance",
+   "sec": "crypto",
+   "id": "Manhattan_Skyline_at_Night,_Including_Bank_of_America_Tower.JPG",
+   "alt": "The Manhattan skyline at night",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/prediction-markets-institutional-hedging",
+   "sec": "crypto",
+   "id": "Munich_Subway_Station_Georg-Brauchle-Ring,_April_2017.jpg",
+   "alt": "An escalator hall seen as converging lines",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/retirement-money-meets-crypto",
+   "sec": "crypto",
+   "id": "1609554496796-c345a5335ceb",
+   "alt": "Gold and black round emblem",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/sec-proposes-regulation-crypto-assets",
+   "sec": "crypto",
+   "id": "1641580529558-a96cf6efbc72",
+   "alt": "A bitcoin on top of a computer motherboard",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/sgx-perpetual-futures-us-institutions",
+   "sec": "crypto",
+   "id": "1632071865819-512bac164112",
+   "alt": "A bit coin sitting on top of a table",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/stablecoin-reserve-transparency-standards",
+   "sec": "crypto",
+   "id": "Bluebird_Solar_Manufacturing_Unit.jpg",
+   "alt": "A stock exchange trading floor",
+   "src": "commons"
+  },
+  {
+   "slug": "crypto/the-derivatives-tail-got-longer",
+   "sec": "crypto",
+   "id": "1590283603385-17ffb3a7f29f",
+   "alt": "A screen showing a cryptocurrency price chart",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/the-etf-shelf-gets-crowded",
+   "sec": "crypto",
+   "id": "1670684684445-a4504dca0bbc",
+   "alt": "Rows of identical products filling supermarket shelves",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/visa-onchain-lending-settlement-data",
+   "sec": "crypto",
+   "id": "1518546305927-5a555bb7020d",
+   "alt": "Gold-colored Bitcoin",
+   "src": "unsplash"
+  },
+  {
+   "slug": "crypto/what-an-attestation-must-prove",
+   "sec": "crypto",
+   "id": "1554224155-6726b3ff858f",
+   "alt": "Financial statements laid out beside a pen and calculator",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/animation-follows-the-pipeline",
+   "sec": "culture",
+   "id": "1728281144091-b743062a9bf0",
+   "alt": "An artist drawing with a stylus on a laptop screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/anniversary-rereleases-economics",
+   "sec": "culture",
+   "id": "Projecteur_cinématographique_35mm.jpg",
+   "alt": "A 35mm cinema projector",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/consent-becomes-a-line-item",
+   "sec": "culture",
+   "id": "1612544409025-e1f6a56c1152",
+   "alt": "A film crew working under lighting rigs on a soundstage",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/documentaries-lost-their-buyer",
+   "sec": "culture",
+   "id": "1497015289639-54688650d173",
+   "alt": "A person seated for a filmed interview in front of a bookshelf",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/games-became-the-safest-bet",
+   "sec": "culture",
+   "id": "Münster,_LVM,_Skulptur_-Zwei_Pferde-_--_2016_--_5969-75.jpg",
+   "alt": "An illuminated sculpture outside a glass building at night",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/physical-media-collectors-hold",
+   "sec": "culture",
+   "id": "35mm_cinema_projectors.jpg",
+   "alt": "Twin 35mm projectors in a cinema projection booth",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/practical-effects-comeback",
+   "sec": "culture",
+   "id": "Late_20th_century_Westrex_35mm_cinema_projector.jpg",
+   "alt": "A Westrex 35mm cinema projector",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/production-follows-the-rebate",
+   "sec": "culture",
+   "id": "1632187981988-40f3cbaeef5e",
+   "alt": "A film crew gathered around a camera rig on location",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/publishing-is-hollywoods-r-and-d",
+   "sec": "culture",
+   "id": "1625053376622-e462848c453f",
+   "alt": "Wooden shelves filled with hardback books",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/repertory-cinema-revival-business",
+   "sec": "culture",
+   "id": "Philips_DP70_projector_mechanism,_with_35mm_film_threaded.jpg",
+   "alt": "35mm film threaded through a Philips DP70 projector",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/restoration-is-a-funding-problem",
+   "sec": "culture",
+   "id": "1485846234645-a62644f84728",
+   "alt": "A film slate held up in front of a camera before a take",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/ryde-vine-kid-netflix-editor-app-age-monster",
+   "sec": "culture",
+   "id": "/assets/img/ryde-key-art.jpg",
+   "alt": "Key art for RYDE: a fog-lit road at night under streetlamps",
+   "src": "commons"
+  },
+  {
+   "slug": "culture/the-big-screen-got-bigger",
+   "sec": "culture",
+   "id": "1595769816263-9b910be24d5f",
+   "alt": "Rows of red cinema seats facing a screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "culture/the-window-reopens-slowly",
+   "sec": "culture",
+   "id": "1771574203200-0ec88f162fe0",
+   "alt": "Empty red seats facing a cinema screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/ai-attacks-defense-automation",
+   "sec": "cybersecurity",
+   "id": "Server_Rack_(54126210834).jpg",
+   "alt": "A populated server rack",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/anthropic-fourth-model-incident",
+   "sec": "cybersecurity",
+   "id": "1558494949-ef010cbdcc31",
+   "alt": "Cable network",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/attackers-learned-the-physics",
+   "sec": "cybersecurity",
+   "id": "1738918937796-743064feefa1",
+   "alt": "An industrial control room wall of dials and switches",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/critical-infrastructure-reporting-rules",
+   "sec": "cybersecurity",
+   "id": "Racks_Amravati_Data_Center.jpg",
+   "alt": "Equipment racks inside a data center",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/deepfake-fraud-corporate-defenses",
+   "sec": "cybersecurity",
+   "id": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+   "alt": "A contactless payment card opened to reveal its antenna and chip",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/everyone-shares-the-same-vendors",
+   "sec": "cybersecurity",
+   "id": "1604869515882-4d10fa4b0492",
+   "alt": "Blue and white indicator lights in a dark equipment room",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/help-desk-identity-verification",
+   "sec": "cybersecurity",
+   "id": "1553775282-20af80779df7",
+   "alt": "A support headset resting beside a laptop on a desk",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/identity-first-security-spending",
+   "sec": "cybersecurity",
+   "id": "CBP_Biometrics_Pilot_Program_-_San_Diego_(27114256704).jpg",
+   "alt": "Equipment racks inside a data center",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/identity-machine-workloads",
+   "sec": "cybersecurity",
+   "id": "Racks_Amravati_Data_Center.jpg",
+   "alt": "Equipment racks inside a data center",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/insurers-write-the-security-baseline",
+   "sec": "cybersecurity",
+   "id": "1450101499163-c8848c66ca85",
+   "alt": "Hands annotating printed figures and charts on a desk",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/passwords-leaving-by-attrition",
+   "sec": "cybersecurity",
+   "id": "1585079374502-415f8516dcc3",
+   "alt": "A glowing fingerprint on a dark circular scanner",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/ransomware-resilience-dividend",
+   "sec": "cybersecurity",
+   "id": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+   "alt": "A contactless payment card opened to reveal its antenna and chip",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/sbom-what-buyers-do-with-it",
+   "sec": "cybersecurity",
+   "id": "1691435828932-911a7801adfb",
+   "alt": "Dense patch cabling running into networking equipment",
+   "src": "unsplash"
+  },
+  {
+   "slug": "cybersecurity/security-consolidation-platform-fatigue",
+   "sec": "cybersecurity",
+   "id": "Řídící_místnost_úpravny_vod_Káraný.jpg",
+   "alt": "A populated server rack",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/software-supply-chain-rules-bite",
+   "sec": "cybersecurity",
+   "id": "Server_Room_(22397102849).jpg",
+   "alt": "Equipment racks inside a data center",
+   "src": "commons"
+  },
+  {
+   "slug": "cybersecurity/the-agent-is-a-privileged-user",
+   "sec": "cybersecurity",
+   "id": "1485230405346-71acb9518d9c",
+   "alt": "A security guard standing in a building lobby",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/agentic-payments-authorization",
+   "sec": "fintech",
+   "id": "Mobile_payment_01.jpg",
+   "alt": "A customer pays by phone at a mobile payment terminal",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/banking-software-modernization-wave",
+   "sec": "fintech",
+   "id": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+   "alt": "A contactless payment card opened to reveal its antenna and chip",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/credit-invisible-cashflow-underwriting",
+   "sec": "fintech",
+   "id": "Payment_terminal_at_self-checkout.jpg",
+   "alt": "A payment terminal at a self-checkout station",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/cross-border-payments-competition",
+   "sec": "fintech",
+   "id": "Siège_de_la_Banque_Ouest_Africaine_de_Développement_(BOAD,_Lomé_-_Togo.jpg",
+   "alt": "A payment terminal at a self-checkout station",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/deposit-tokens-bank-response",
+   "sec": "fintech",
+   "id": "Mobile_payment_01.jpg",
+   "alt": "A customer pays by phone at a mobile payment terminal",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/embedded-credit-meets-its-cost-of-funds",
+   "sec": "fintech",
+   "id": "1758611974022-ca3182694951",
+   "alt": "A shopper holding a payment card while using a phone",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/embedded-finance-vertical-software",
+   "sec": "fintech",
+   "id": "IMO_9668570_-_Spauwer_03.jpg",
+   "alt": "A cargo vessel under way",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/instant-payments-b2b-standard",
+   "sec": "fintech",
+   "id": "E-burg_asv2019-05_img54_Chkalovskaya_metro_station.jpg",
+   "alt": "An empty metro platform in cool light",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/insurance-parametric-mainstream",
+   "sec": "fintech",
+   "id": "Betaalpas_en_logo_contactloos_betalen.jpg",
+   "alt": "A bank card held to a contactless payment terminal",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/open-banking-goes-back-to-drafting",
+   "sec": "fintech",
+   "id": "1609921141835-710b7fa6e438",
+   "alt": "A hand holding a smartphone showing a banking app",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/realtime-fraud-model-sharing",
+   "sec": "fintech",
+   "id": "Walt_Disney_Concert_Hall_Partial_View_sw_2013.jpg",
+   "alt": "The curved steel facade of a concert hall",
+   "src": "commons"
+  },
+  {
+   "slug": "fintech/tabapay-buys-transact-bank",
+   "sec": "fintech",
+   "id": "1509017174183-0b7e0278f1ec",
+   "alt": "Woman holding Android smartphone",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/the-sponsor-bank-takes-the-hit",
+   "sec": "fintech",
+   "id": "1663286357473-39dacb93b5d4",
+   "alt": "The columned frontage of a bank building on a city street",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/the-swipe-fee-settles-for-now",
+   "sec": "fintech",
+   "id": "1726137569911-bc03e55fd87f",
+   "alt": "A hand holding a payment card at a counter",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/treasury-genius-act-stablecoin-rules",
+   "sec": "fintech",
+   "id": "1628527304948-06157ee3c8a6",
+   "alt": "A person holding a blank credit card near a payment terminal on orange",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/treasury-was-built-on-float",
+   "sec": "fintech",
+   "id": "1509017174183-0b7e0278f1ec",
+   "alt": "A hand holding a smartphone showing a payment screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "fintech/wages-before-payday-get-a-rulebook",
+   "sec": "fintech",
+   "id": "1553729459-efe14ef6055d",
+   "alt": "A fan of US dollar banknotes held in a hand",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/benchmark-reform-second-wave",
+   "sec": "markets",
+   "id": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+   "alt": "Traders crowd the floor of the New York Stock Exchange in 1963",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/cash-stopped-being-a-waiting-room",
+   "sec": "markets",
+   "id": "Sydney_(AU),_Darling_Harbour_--_2019_--_3193-5.jpg",
+   "alt": "A financial district skyline reflected at night",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/central-banks-keep-buying-gold",
+   "sec": "markets",
+   "id": "1762463176417-2c5e63767bd2",
+   "alt": "Gold bars arranged on a dark surface",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/cftc-cdor-tiie-swap-clearing-transition",
+   "sec": "markets",
+   "id": "1651341050677-24dba59ce0fd",
+   "alt": "Graphical user interface, application",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/corporate-bond-electronification",
+   "sec": "markets",
+   "id": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+   "alt": "Traders crowd the floor of the New York Stock Exchange in 1963",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/digital-asset-market-making-institutional",
+   "sec": "markets",
+   "id": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+   "alt": "Traders crowd the floor of the New York Stock Exchange in 1963",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/exchanges-race-tokenized-collateral",
+   "sec": "markets",
+   "id": "Global_Asset_Trading_Room.jpg",
+   "alt": "Traders crowd the floor of the New York Stock Exchange in 1963",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/private-credit-technology-lending",
+   "sec": "markets",
+   "id": "View_Of_Sandto_From_The_West_Cliff_Hotel_In_Forst_Town.jpg",
+   "alt": "A stock exchange trading floor",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/private-credits-marks-go-on-trial",
+   "sec": "markets",
+   "id": "1722299547563-03e2d21fe289",
+   "alt": "Two office towers rising side by side against the sky",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/private-markets-liquidity-windows",
+   "sec": "markets",
+   "id": "Trading_apps_on_an_iPhone_screen.jpg",
+   "alt": "The advanced trading floor of the New York Stock Exchange",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/record-supply-meets-tight-spreads",
+   "sec": "markets",
+   "id": "1504711434969-e33886168f5c",
+   "alt": "A financial newspaper open at the markets pages",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/retail-flow-market-structure",
+   "sec": "markets",
+   "id": "Canary_Wharf_commercial_estate,_City_of_London,_Great_Britain,_october_2013_©_Mels_van_der_Mede.jpg",
+   "alt": "A financial district lit after dark",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/sec-transfer-agent-rules-proposal",
+   "sec": "markets",
+   "id": "1612178991541-b48cc8e92a4d",
+   "alt": "A hand pointing at a smartphone displaying currency quotes against a laptop",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/ten-stocks-are-now-forty-percent",
+   "sec": "markets",
+   "id": "1651341050677-24dba59ce0fd",
+   "alt": "A financial data interface showing index performance",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/the-basis-trade-meets-a-haircut",
+   "sec": "markets",
+   "id": "1701831737236-f365b205f578",
+   "alt": "A Wall Street street sign photographed in black and white",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/the-window-opened-for-a-few",
+   "sec": "markets",
+   "id": "1723158597314-4760daf1aaae",
+   "alt": "The facade of a stock exchange building",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/tokenized-collateral-margin-cycle",
+   "sec": "markets",
+   "id": "RVS_Handelsraum.jpg",
+   "alt": "The advanced trading floor of the New York Stock Exchange",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/treasury-market-plumbing-modernizes",
+   "sec": "markets",
+   "id": "Фото_головного_здание_банка.jpg",
+   "alt": "Traders crowd the floor of the New York Stock Exchange in 1963; the market's plumbing has changed less than its screens",
+   "src": "commons"
+  },
+  {
+   "slug": "markets/treasury-yields-buyback-disappoints",
+   "sec": "markets",
+   "id": "1645226880663-81561dcab0ae",
+   "alt": "A person holding a cell phone in front of a stock chart",
+   "src": "unsplash"
+  },
+  {
+   "slug": "markets/volatility-market-structure-ai-trading",
+   "sec": "markets",
+   "id": "Edificio_del_banco_BISA,_El_Prado,_La_Paz.jpg",
+   "alt": "The advanced trading floor of the New York Stock Exchange",
+   "src": "commons"
+  },
+  {
+   "slug": "music/all-in-pricing-comes-to-tickets",
+   "sec": "music",
+   "id": "1459749411175-04bf5292ceea",
+   "alt": "A crowd lit by stage lighting at a live concert",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/catalog-music-streaming-economics",
+   "sec": "music",
+   "id": "Vintage_Vinyl,_Evanston,_IL.jpg",
+   "alt": "The storefront of a vintage vinyl record shop",
+   "src": "commons"
+  },
+  {
+   "slug": "music/catalogs-are-a-rates-trade",
+   "sec": "music",
+   "id": "1618609377864-68609b857e90",
+   "alt": "Faders and knobs on a studio mixing console",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/endless-farewell-tour-economy",
+   "sec": "music",
+   "id": "Vinyl_groove_macro.jpg",
+   "alt": "The grooves of a vinyl record in extreme close-up",
+   "src": "commons"
+  },
+  {
+   "slug": "music/half-the-uploads-are-machines",
+   "sec": "music",
+   "id": "1681683967405-7efef2cd810c",
+   "alt": "A music production desk with keyboard and monitor",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/rumours-generation-rediscovery",
+   "sec": "music",
+   "id": "Púa_de_tocadiscos_sobre_disco_de_vinilo.jpg",
+   "alt": "A turntable needle resting on a spinning vinyl record",
+   "src": "commons"
+  },
+  {
+   "slug": "music/streaming-learns-to-weight-a-play",
+   "sec": "music",
+   "id": "1557063673-0493e05da49f",
+   "alt": "A pair of wired earphones on a plain background",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/sync-is-the-growth-line",
+   "sec": "music",
+   "id": "1478737270239-2f02b77fc618",
+   "alt": "A condenser microphone in a recording studio, close up",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/the-festival-middle-disappears",
+   "sec": "music",
+   "id": "1787677357235-063a9982610c",
+   "alt": "A festival crowd in a field watching a band on stage",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/the-growth-is-somewhere-else",
+   "sec": "music",
+   "id": "1527261834078-9b37d35a4a32",
+   "alt": "A microphone on a stand under stage lighting",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/the-rooms-that-build-careers",
+   "sec": "music",
+   "id": "1614014929026-c542fbe555d1",
+   "alt": "An audience filling the floor in front of a small stage",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/the-superfan-is-the-business-model",
+   "sec": "music",
+   "id": "Graz_Murinsel_gangway-2478.jpg",
+   "alt": "A steel and glass roof structure seen from below",
+   "src": "commons"
+  },
+  {
+   "slug": "music/vinyl-is-a-real-business-again",
+   "sec": "music",
+   "id": "1760302318644-40cb22d44a99",
+   "alt": "Rows of vinyl records in browsing crates at a record shop",
+   "src": "unsplash"
+  },
+  {
+   "slug": "music/why-sticky-fingers-still-matters",
+   "sec": "music",
+   "id": "Close-up_of_phonograph_turntable.jpg",
+   "alt": "A stylus riding a record on a phonograph turntable",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/ai-liability-courts-first-cases",
+   "sec": "policy",
+   "id": "Capitol,_Washington,_D.C._USA13.jpg",
+   "alt": "The dome of the United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/ai-rules-implementation-phase",
+   "sec": "policy",
+   "id": "US_Capitol_west_side.JPG",
+   "alt": "The west front of the United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/app-store-becomes-the-age-gate",
+   "sec": "policy",
+   "id": "1495654794940-1c0cd2aeedc1",
+   "alt": "A child using a tablet computer at a table",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/cross-border-data-regimes-settle",
+   "sec": "policy",
+   "id": "United_States_Capitol_Building.jpg",
+   "alt": "The United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/data-center-permitting-fast-track",
+   "sec": "policy",
+   "id": "Capitol_Building_Full_View.jpg",
+   "alt": "The United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/digital-asset-legislation-settles",
+   "sec": "policy",
+   "id": "Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+   "alt": "The Marriner S. Eccles Federal Reserve Board Building in Washington",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/export-controls-shift-to-enforcement",
+   "sec": "policy",
+   "id": "1672307613484-3254a04651fd",
+   "alt": "A silicon wafer showing a grid of processor dies",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/open-source-ai-policy-truce",
+   "sec": "policy",
+   "id": "ParliamentChambers_-_100419.jpg",
+   "alt": "The dome of the United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/procurement-regulating-ai-first",
+   "sec": "policy",
+   "id": "1523292562811-8fa7962a78c8",
+   "alt": "The plain concrete facade of a government office building",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/right-to-repair-enters-enforcement",
+   "sec": "policy",
+   "id": "1521798604188-0d6595d6d6ae",
+   "alt": "A technician using a soldering iron on a circuit board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/stablecoin-law-implementation-year",
+   "sec": "policy",
+   "id": "United_States_Capitol_Building.jpg",
+   "alt": "The United States Capitol",
+   "src": "commons"
+  },
+  {
+   "slug": "policy/state-privacy-laws-national-floor",
+   "sec": "policy",
+   "id": "1573181759662-1c146525b21f",
+   "alt": "A state government building seen from below against an open sky",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/the-commission-goes-to-court",
+   "sec": "policy",
+   "id": "1512941937669-90a1b58e7e9c",
+   "alt": "A smartphone home screen showing installed apps",
+   "src": "unsplash"
+  },
+  {
+   "slug": "policy/water-becomes-a-permitting-question",
+   "sec": "policy",
+   "id": "Ferry_Building_at_night.jpg",
+   "alt": "A bridge and waterfront lit after dark",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/climate-tech-industrial-phase",
+   "sec": "startups",
+   "id": "30134_jissekiimage3.JPG",
+   "alt": "The Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/defense-tech-generalist-money",
+   "sec": "startups",
+   "id": "ILA_2024,_Schoenefeld_(ILA44523).jpg",
+   "alt": "Office towers on the Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/design-partners-replace-the-free-trial",
+   "sec": "startups",
+   "id": "1541746972996-4e0b0f43e02a",
+   "alt": "A small team working together around laptops",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/revenue-per-employee-is-the-pitch",
+   "sec": "startups",
+   "id": "1579389083078-4e7018379f7e",
+   "alt": "A person working at a laptop in a small office",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/secondaries-startup-liquidity",
+   "sec": "startups",
+   "id": "Münster,_Westdeutsche_Lotterie_--_2013_--_5125.jpg",
+   "alt": "An office building lit at dusk",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/seed-strapping-default-alive",
+   "sec": "startups",
+   "id": "FMN_Lab_team_(1).jpg",
+   "alt": "The Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/technical-founders-services-margins",
+   "sec": "startups",
+   "id": "Evolonic_UAV,_ILA_2024,_Schoenefeld_(ILA44491).jpg",
+   "alt": "Office towers on the Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/tender-offers-reach-the-rank-and-file",
+   "sec": "startups",
+   "id": "1611974789855-9c2a0a7236a3",
+   "alt": "A candlestick price chart on a dark trading screen",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/the-accelerator-gets-smaller",
+   "sec": "startups",
+   "id": "1503551723145-6c040742065b-v2",
+   "alt": "Coloured sticky notes pinned across a planning board",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/the-exit-is-an-acquisition",
+   "sec": "startups",
+   "id": "1686771416282-3888ddaf249b",
+   "alt": "Two people shaking hands across a desk beside a laptop",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/the-visa-is-the-strategy",
+   "sec": "startups",
+   "id": "1581553673739-c4906b5d0de8",
+   "alt": "An open passport showing immigration stamps",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/two-markets-wearing-one-label",
+   "sec": "startups",
+   "id": "1557804506-669a67965ba0",
+   "alt": "Three people working on laptops around a table",
+   "src": "unsplash"
+  },
+  {
+   "slug": "startups/venture-funding-infrastructure-software",
+   "sec": "startups",
+   "id": "Munich_subway_station_Westfriedhof.jpg",
+   "alt": "A metro station lit blue with a train pulling through",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/vertical-ai-startups-moats",
+   "sec": "startups",
+   "id": "Manhattan_Skyline,_New_York_(3453206184).jpg",
+   "alt": "The Manhattan skyline",
+   "src": "commons"
+  },
+  {
+   "slug": "startups/what-a-seed-round-now-requires",
+   "sec": "startups",
+   "id": "Münster,_LVM,_Bürogebäude_--_2013_--_5149-51.jpg",
+   "alt": "A modern office building at night with traffic trails",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/cloud-repatriation-selective",
+   "sec": "technology",
+   "id": "1597733336794-12d05021d510",
+   "alt": "Purple and blue light digital wallpaper",
+   "src": "unsplash"
+  },
+  {
+   "slug": "technology/cooling-without-water",
+   "sec": "technology",
+   "id": "1620203853151-496c7228306c",
+   "alt": "Industrial cooling pipework running along a facility wall",
+   "src": "unsplash"
+  },
+  {
+   "slug": "technology/developer-platform-teams-standard",
+   "sec": "technology",
+   "id": "FANUC_6-axis_welding_robots.jpg",
+   "alt": "Six-axis industrial welding robots on a factory line",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/digital-twins-operations-standard",
+   "sec": "technology",
+   "id": "Cleanroom1.jpg",
+   "alt": "A cleanroom for microelectronic manufacturing",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/edge-inference-consumer-devices",
+   "sec": "technology",
+   "id": "Semiconductor_Wafer_of_Microelectronics.jpg",
+   "alt": "A patterned semiconductor wafer",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/enterprise-browsers-quiet-standard",
+   "sec": "technology",
+   "id": "Datacenter_informatique_de_l'Ecole_Polytechnique_(32544959853).jpg",
+   "alt": "Six-axis industrial welding robots on a factory line",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/error-correction-stops-being-theory",
+   "sec": "technology",
+   "id": "1781330189305-d92d518dc28d",
+   "alt": "Scientific apparatus and wiring in a research laboratory",
+   "src": "unsplash"
+  },
+  {
+   "slug": "technology/ipv6-and-the-machines",
+   "sec": "technology",
+   "id": "Industrial-robots-21.jpg",
+   "alt": "Robotic manipulators on an automated production line",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/observability-costs-revolt",
+   "sec": "technology",
+   "id": "Server_Rack_(54126210834).jpg",
+   "alt": "A populated server rack",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/open-source-maintenance-funding",
+   "sec": "technology",
+   "id": "Electric_transmission_lines.jpg",
+   "alt": "Electricity transmission pylons",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/power-constraints-shape-computing",
+   "sec": "technology",
+   "id": "Electric_power_transmission_line.JPG",
+   "alt": "High-voltage electricity transmission lines",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/quantum-safe-migration-deadline",
+   "sec": "technology",
+   "id": "Electric_transmission_lines.jpg",
+   "alt": "Electricity transmission pylons",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/queue-position-is-the-real-asset",
+   "sec": "technology",
+   "id": "1604869515882-4d10fa4b0492",
+   "alt": "White and blue light on dark room",
+   "src": "unsplash"
+  },
+  {
+   "slug": "technology/robotics-warehouse-to-workshop",
+   "sec": "technology",
+   "id": "BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg",
+   "alt": "Robots weld car bodies at BMW's Leipzig plant; the same automation is now reaching far smaller shops",
+   "src": "commons"
+  },
+  {
+   "slug": "technology/satellite-joins-the-procurement-list",
+   "sec": "technology",
+   "id": "1526666923127-b2970f64b422",
+   "alt": "A satellite dish standing in an open field",
+   "src": "unsplash"
+  },
+  {
+   "slug": "technology/the-dependency-nobody-funds",
+   "sec": "technology",
+   "id": "1515879218367-8466d910aaa4",
+   "alt": "A screen filled with lines of source code",
+   "src": "unsplash"
+  }
+ ],
+ "dupes": [
+  {
+   "id": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+   "slugs": [
+    "cybersecurity/deepfake-fraud-corporate-defenses",
+    "cybersecurity/ransomware-resilience-dividend",
+    "fintech/banking-software-modernization-wave"
+   ]
+  },
+  {
+   "id": "NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+   "slugs": [
+    "markets/benchmark-reform-second-wave",
+    "markets/corporate-bond-electronification",
+    "markets/digital-asset-market-making-institutional"
+   ]
+  },
+  {
+   "id": "1674027444485-cec3da58eef4",
+   "slugs": [
+    "ai/ai-agents-back-office-operations",
+    "blockchain/digital-identity-credentials-enterprise"
+   ]
+  },
+  {
+   "id": "Server_Rack_(54126210834).jpg",
+   "slugs": [
+    "cybersecurity/ai-attacks-defense-automation",
+    "technology/observability-costs-revolt"
+   ]
+  },
+  {
+   "id": "Racks_Amravati_Data_Center.jpg",
+   "slugs": [
+    "cybersecurity/critical-infrastructure-reporting-rules",
+    "cybersecurity/identity-machine-workloads"
+   ]
+  },
+  {
+   "id": "1604869515882-4d10fa4b0492",
+   "slugs": [
+    "cybersecurity/everyone-shares-the-same-vendors",
+    "technology/queue-position-is-the-real-asset"
+   ]
+  },
+  {
+   "id": "Mobile_payment_01.jpg",
+   "slugs": [
+    "fintech/agentic-payments-authorization",
+    "fintech/deposit-tokens-bank-response"
+   ]
+  },
+  {
+   "id": "1509017174183-0b7e0278f1ec",
+   "slugs": [
+    "fintech/tabapay-buys-transact-bank",
+    "fintech/treasury-was-built-on-float"
+   ]
+  },
+  {
+   "id": "1651341050677-24dba59ce0fd",
+   "slugs": [
+    "markets/cftc-cdor-tiie-swap-clearing-transition",
+    "markets/ten-stocks-are-now-forty-percent"
+   ]
+  },
+  {
+   "id": "United_States_Capitol_Building.jpg",
+   "slugs": [
+    "policy/cross-border-data-regimes-settle",
+    "policy/stablecoin-law-implementation-year"
+   ]
+  },
+  {
+   "id": "Electric_transmission_lines.jpg",
+   "slugs": [
+    "technology/open-source-maintenance-funding",
+    "technology/quantum-safe-migration-deadline"
+   ]
+  }
+ ]
+}
