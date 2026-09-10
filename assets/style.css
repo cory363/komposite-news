@@ -2042,6 +2042,46 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
 .lhero-tx h2,.lbig-tx h3,.art h1{letter-spacing:-.02em}
 
 /* ======================================================================
+   The Divide, brought onto the house theme
+   It had been built on a palette of its own: a warm brown-black (#171310)
+   where the rest of the site uses black, a centred letterspaced serif label
+   where every other section wears the skewed tab, an italic serif tagline,
+   and blue-white, taupe and dusty-pink text that appear nowhere else. Same
+   panel and same editorial format, wearing the same components as the rest.
+   ====================================================================== */
+.divpanel{background:#000;color:#fff}
+.divpanel-label{text-align:center;margin-bottom:12px}
+/* The section tab, inverted. A black tab is invisible on a black panel, so it
+   runs white-on-black; the skew and the type are the tab that heads every
+   other section. The inner span un-skews the text, as .lseclabel does. */
+.divpanel-label a{display:inline-block;background:#fff;transform:skewX(-12deg);
+  padding:5px 20px;text-decoration:none}
+.divpanel-label a span{display:block;transform:skewX(12deg);font-family:var(--sans);
+  font-size:12px;font-weight:800;font-style:italic;letter-spacing:.14em;
+  text-transform:uppercase;color:#000}
+.divpanel-label a:hover{background:var(--claret)}
+.divpanel-label a:hover span{color:#fff}
+.divpanel-tag{font-family:var(--sans);font-style:normal;font-size:11px;font-weight:600;
+  letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);margin:0 0 20px}
+.divpanel-issue{font-family:var(--display);font-weight:700;letter-spacing:-.011em;color:#fff}
+.divgrid-dark .divcol h3 a{color:#fff}
+.divgrid-dark .divcol h3 a:hover{color:var(--claret-lt)}
+.divgrid-dark .deck{color:rgba(255,255,255,.72)}
+.divgrid-dark .byrow{color:rgba(255,255,255,.5)}
+.divgrid-dark .byrow a{color:#fff;border-bottom:1px solid rgba(255,255,255,.45)}
+.divgrid-dark .byrow a:hover{color:var(--claret-lt);border-color:var(--claret-lt)}
+.divgrid-dark .chip-r{background:#fff;color:#000}
+.divrule-dark:before{border-left-color:rgba(255,255,255,.22)}
+.divrule-dark span{background:#000;border-color:rgba(255,255,255,.22);color:#fff}
+/* Reads like the MORE Y arrow that closes every other section. */
+.divpanel-all{font-family:var(--sans);font-size:11px;font-weight:800;letter-spacing:.1em;
+  text-transform:uppercase;color:#fff;text-decoration:none}
+.divpanel-all:hover{color:var(--claret-lt)}
+/* Stacked on mobile the columns are separated by a hairline, and it was
+   inheriting the light-mode rule colour: a bright white line across black. */
+.divgrid-dark .divcol{border-bottom-color:rgba(255,255,255,.18)}
+
+/* ======================================================================
    Mobile
    This block sits last on purpose. The earlier max-width rules were being
    overridden by plain rules added after them — .lgrid was still resolving to
