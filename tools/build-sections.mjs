@@ -79,11 +79,11 @@ for (const [slug, label] of SECTIONS) {
   const stop = ei + endTag.length;
 
   const pool = articles(slug);
-  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 9);
-  if (picks.length < 9)                                  // relax URL rule before repeating a photo
-    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 9 - picks.length));
-  if (picks.length < 9)                                  // last resort: section is too thin
-    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 9 - picks.length));
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 11);
+  if (picks.length < 11)                                  // relax URL rule before repeating a photo
+    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 11 - picks.length));
+  if (picks.length < 11)                                  // last resort: section is too thin
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 11 - picks.length));
   picks.forEach(a => usedImgs.add(imgId(a.img)));
   /* Leonard runs each section as a three-column composition rather than a
      row of equal cards: one large frame with the headline laid over it, a
