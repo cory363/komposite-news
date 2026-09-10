@@ -2041,6 +2041,13 @@ body{font-family:var(--body);font-style:normal;font-weight:400}
 h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
 .lhero-tx h2,.lbig-tx h3,.art h1{letter-spacing:-.02em}
 
+/* Section tabs that head a .secblock inherit that block's top margin, so they
+   sit 22px clear of the section above. The standalone bands — Spotlight, News,
+   More News, Opinion, Latest — are bare siblings with no wrapper, so they sat
+   hard against the section above them at 0px. Same rhythm for both. */
+.lsechead{margin-top:34px}
+.secblock .lsechead{margin-top:0}
+
 /* ======================================================================
    The Divide, brought onto the house theme
    It had been built on a palette of its own: a warm brown-black (#171310)
