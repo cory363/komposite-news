@@ -1,0 +1,1091 @@
+[
+ {
+  "url": "/markets/treasury-yields-buyback-disappoints/",
+  "sec": "markets",
+  "title": "Yields hit 4.86% as a buyback lands short",
+  "kick": "Fixed Income",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rossiya-Osiyo_banki_binosi.jpg?width=1400",
+  "id": "Rossiya-Osiyo_banki_binosi.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/markets/cftc-cdor-tiie-swap-clearing-transition/",
+  "sec": "markets",
+  "title": "CFTC retires CDOR and TIIE from clearing",
+  "kick": "Market Structure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg?width=1400",
+  "id": "Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/markets/sec-transfer-agent-rules-proposal/",
+  "sec": "markets",
+  "title": "The SEC reopens the transfer agent rules",
+  "kick": "Market Structure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Connecticut_Avenue%2C_Washington_DC.jpg?width=1400",
+  "id": "Connecticut_Avenue,_Washington_DC.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/cybersecurity/anthropic-fourth-model-incident/",
+  "sec": "cybersecurity",
+  "title": "A model found a machine it was not given",
+  "kick": "AI Security",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Channel_1_Israel_DSC0371.jpg?width=1400",
+  "id": "Channel_1_Israel_DSC0371.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/visa-onchain-lending-settlement-data/",
+  "sec": "crypto",
+  "title": "Visa opens settlement data to DeFi lenders",
+  "kick": "Payments",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/P039363-720382.jpg?width=1400",
+  "id": "P039363-720382.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/fintech/tabapay-buys-transact-bank/",
+  "sec": "fintech",
+  "title": "TabaPay buys a bank to close the loop",
+  "kick": "Banking",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnster%2C_Westdeutsche_Lotterie_--_2013_--_5125.jpg?width=1400",
+  "id": "Münster,_Westdeutsche_Lotterie_--_2013_--_5125.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/sec-proposes-regulation-crypto-assets/",
+  "sec": "crypto",
+  "title": "SEC proposes a $75m crypto exemption",
+  "kick": "Regulation",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Carregosamail_68.JPG?width=1400",
+  "id": "Carregosamail_68.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/fintech/treasury-genius-act-stablecoin-rules/",
+  "sec": "fintech",
+  "title": "Treasury drafts the stablecoin perimeter",
+  "kick": "Regulation",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Small_Business_Majority_visits_Treasury_(10538997604).jpg?width=1400",
+  "id": "Small_Business_Majority_visits_Treasury_(10538997604).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/kkr-250-million-premerger-filing-penalty/",
+  "sec": "business",
+  "title": "KKR would pay $250m over merger filings",
+  "kick": "Antitrust",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Department_of_Justice_headquarters%2C_August_12%2C_2006.jpg?width=1400",
+  "id": "U.S._Department_of_Justice_headquarters,_August_12,_2006.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/fintech/the-swipe-fee-settles-for-now/",
+  "sec": "fintech",
+  "title": "The swipe fee settles, for now",
+  "kick": "Payments",
+  "img": "https://images.unsplash.com/photo-1726137569911-bc03e55fd87f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cmV0YWlsJTIwY2hlY2tvdXQlMjBjb3VudGVyJTIwc2hvcHxlbnwxfDB8fHwxNzg4ODEzNDgwfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1726137569911-bc03e55fd87f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/everyone-shares-the-same-vendors/",
+  "sec": "cybersecurity",
+  "title": "Everyone shares the same vendors",
+  "kick": "Risk",
+  "img": "https://images.unsplash.com/photo-1604869515882-4d10fa4b0492?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmlicmUlMjBvcHRpYyUyMGNhYmxlcyUyMGJ1bmRsZXxlbnwxfDB8fHwxNzg4ODEzNTA2fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1604869515882-4d10fa4b0492",
+  "src": "unsplash"
+ },
+ {
+  "url": "/technology/satellite-joins-the-procurement-list/",
+  "sec": "technology",
+  "title": "Satellite joins the procurement list",
+  "kick": "Networking",
+  "img": "https://images.unsplash.com/photo-1526666923127-b2970f64b422?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2F0ZWxsaXRlJTIwZGlzaCUyMGFudGVubmElMjBza3l8ZW58MXwwfHx8MTc4ODgxMzQ4Mnww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1526666923127-b2970f64b422",
+  "src": "unsplash"
+ },
+ {
+  "url": "/business/the-training-budget-finds-a-purpose/",
+  "sec": "business",
+  "title": "The training budget finds a purpose",
+  "kick": "Workforce",
+  "img": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8d29ya3Nob3AlMjB0cmFpbmluZyUyMGNsYXNzcm9vbSUyMGFkdWx0c3xlbnwxfDB8fHwxNzg4ODEzNDgyfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1524178232363-1fb2b075b655",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/wages-before-payday-get-a-rulebook/",
+  "sec": "fintech",
+  "title": "Wages before payday get a rulebook",
+  "kick": "Regulation",
+  "img": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y2FzaCUyMHdhZ2VzJTIwaGFuZHMlMjBtb25leSUyMGNvdW50aW5nfGVufDF8MHx8fDE3ODg3OTAwNjN8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1553729459-efe14ef6055d",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/the-growth-is-somewhere-else/",
+  "sec": "music",
+  "title": "The growth is somewhere else",
+  "kick": "Music Business",
+  "img": "https://images.unsplash.com/photo-1527261834078-9b37d35a4a32?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2luZ2VyJTIwbWljcm9waG9uZSUyMHN0YWdlJTIwcGVyZm9ybWFuY2V8ZW58MXwwfHx8MTc4ODgxMzQ4Mnww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1527261834078-9b37d35a4a32",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/the-accelerator-gets-smaller/",
+  "sec": "startups",
+  "title": "The accelerator gets smaller",
+  "kick": "Venture Capital",
+  "img": "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RpY2t5JTIwbm90ZXMlMjB3aGl0ZWJvYXJkJTIwcGxhbm5pbmd8ZW58MXwwfHx8MTc4ODgxMzQ4M3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1503551723145-6c040742065b-v2",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/the-agent-is-a-privileged-user/",
+  "sec": "cybersecurity",
+  "title": "The agent is a privileged user",
+  "kick": "Identity",
+  "img": "https://images.unsplash.com/photo-1485230405346-71acb9518d9c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwd29ya2VyJTIwc2VjdXJpdHklMjBiYWRnZSUyMGRvb3J8ZW58MXwwfHx8MTc4ODc5MDA2M3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1485230405346-71acb9518d9c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/the-festival-middle-disappears/",
+  "sec": "music",
+  "title": "The festival middle disappears",
+  "kick": "Live Music",
+  "img": "https://images.unsplash.com/photo-1787677357235-063a9982610c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8bXVzaWMlMjBmZXN0aXZhbCUyMGNyb3dkJTIwZmllbGQlMjBzdGFnZXxlbnwxfDB8fHwxNzg4NzkwMDYzfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1787677357235-063a9982610c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/business/climate-shows-up-in-the-premium/",
+  "sec": "business",
+  "title": "Climate shows up in the premium",
+  "kick": "Risk",
+  "img": "https://images.unsplash.com/photo-1761959166803-ed952543eeae?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3Rvcm0lMjBkYW1hZ2VkJTIwcm9vZiUyMGhvdXNlcyUyMHdlYXRoZXJ8ZW58MXwwfHx8MTc4ODc5MDA2NHww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1761959166803-ed952543eeae",
+  "src": "unsplash"
+ },
+ {
+  "url": "/ai/ai-infrastructure-spending-new-phase/",
+  "sec": "ai",
+  "title": "AI infrastructure spending moves into a new phase",
+  "kick": "Analysis",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pi_Data_Center.jpg?width=1400",
+  "id": "Pi_Data_Center.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/ai-agents-back-office-operations/",
+  "sec": "ai",
+  "title": "AI agents move into back-office operations",
+  "kick": "Enterprise AI",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Asperitas_AIC24_Immersion_system.jpg?width=1400",
+  "id": "Asperitas_AIC24_Immersion_system.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/model-providers-consolidate-enterprise-tiers/",
+  "sec": "ai",
+  "title": "Model providers consolidate around enterprise tiers",
+  "kick": "Analysis",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CERN_Computer_Center_03.jpg?width=1400",
+  "id": "CERN_Computer_Center_03.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/smaller-models-win-production-workloads/",
+  "sec": "ai",
+  "title": "Smaller models are winning more production workloads",
+  "kick": "Enterprise AI",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CERN_Server.jpg?width=1400",
+  "id": "CERN_Server.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/samsung-openai-chip-partnership-deepens/",
+  "sec": "ai",
+  "title": "Samsung moves up OpenAI's chip stack",
+  "kick": "Semiconductors",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Adder_Technoloy_Testlabor.JPG?width=1400",
+  "id": "Adder_Technoloy_Testlabor.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/the-buyers-started-making-their-own/",
+  "sec": "ai",
+  "title": "The buyers started making their own",
+  "kick": "Semiconductors",
+  "img": "https://images.unsplash.com/photo-1562408590-e32931084e23?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y29tcHV0ZXIlMjBjaGlwJTIwY2lyY3VpdCUyMGJvYXJkJTIwbWFjcm98ZW58MXwwfHx8MTc4ODcyNjc0NXww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1562408590-e32931084e23",
+  "src": "unsplash"
+ },
+ {
+  "url": "/ai/enterprise-buyers-ai-contract-terms/",
+  "sec": "ai",
+  "title": "Enterprise buyers push for clearer AI contract terms",
+  "kick": "Enterprise AI",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_informatique_de_l'Ecole_Polytechnique_(32544959853).jpg?width=1400",
+  "id": "Datacenter_informatique_de_l'Ecole_Polytechnique_(32544959853).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/inference-costs-reshape-product-design/",
+  "sec": "ai",
+  "title": "Falling inference costs are quietly reshaping product design",
+  "kick": "AI Infrastructure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo_of_New_Orleans_Data_Center.jpg?width=1400",
+  "id": "Photo_of_New_Orleans_Data_Center.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/ai-data-center-cooling-economics/",
+  "sec": "ai",
+  "title": "Liquid cooling stops being optional in AI data centers",
+  "kick": "Data Centers",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar_Supercomputer_(4101196244).jpg?width=800",
+  "id": "Jaguar_Supercomputer_(4101196244).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/banks-test-blockchain-settlement/",
+  "sec": "blockchain",
+  "title": "Banks test blockchain settlement without abandoning existing rails",
+  "kick": "Analysis",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Server_racks%2C_one_empty_-_IMG_3636.jpg?width=800",
+  "id": "Server_racks,_one_empty_-_IMG_3636.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/tokenization-pilots-to-institutional-markets/",
+  "sec": "blockchain",
+  "title": "Tokenization moves from pilot programs to institutional markets",
+  "kick": "Tokenization",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NYSE_Advanced_Trading_Floor.jpg?width=800",
+  "id": "NYSE_Advanced_Trading_Floor.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/stablecoin-settlement-b2b-payments/",
+  "sec": "blockchain",
+  "title": "Stablecoin settlement volumes expand across B2B payments",
+  "kick": "Stablecoins",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Maersk_Elba.JPG?width=1400",
+  "id": "Maersk_Elba.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/opinion-boring-blockchain-wins/",
+  "sec": "blockchain",
+  "title": "The boring blockchain is the one that wins",
+  "kick": "Opinion",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trieste_APL_New_Jersey_2.jpg?width=1400",
+  "id": "Trieste_APL_New_Jersey_2.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/blockchain-data-availability-costs/",
+  "sec": "blockchain",
+  "title": "Data availability becomes blockchain's quiet cost battle",
+  "kick": "Blockchain Infrastructure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/City_Lights_of_the_United_States_2012.jpg?width=1400",
+  "id": "City_Lights_of_the_United_States_2012.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/interoperability-standards-institutional-chains/",
+  "sec": "blockchain",
+  "title": "Interoperability standards take shape for institutional chains",
+  "kick": "Blockchain Infrastructure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Speicherstadt_Sunset_(16997407709).jpg?width=1400",
+  "id": "Speicherstadt_Sunset_(16997407709).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/enterprise-chains-consolidate-platforms/",
+  "sec": "blockchain",
+  "title": "Enterprise blockchain consolidates onto a few platforms",
+  "kick": "Blockchain Infrastructure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Morocco_Casablanca_containers_1403.jpg?width=1400",
+  "id": "Morocco_Casablanca_containers_1403.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/broadridge-dlx-tokenization-platform/",
+  "sec": "blockchain",
+  "title": "Broadridge builds on a $351bn-a-day book",
+  "kick": "Tokenization",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/A_view_of_the_server_room_at_The_National_Archives.jpg?width=1400",
+  "id": "A_view_of_the_server_room_at_The_National_Archives.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/blockchain/rollups-discover-the-income-statement/",
+  "sec": "blockchain",
+  "title": "Rollups discover the income statement",
+  "kick": "Blockchain Infrastructure",
+  "img": "https://images.unsplash.com/photo-1644088379091-d574269d422f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8bmV0d29yayUyMG5vZGVzJTIwYWJzdHJhY3QlMjBsaWdodHN8ZW58MXwwfHx8MTc4ODcyNjc0OHww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1644088379091-d574269d422f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/crypto/the-etf-shelf-gets-crowded/",
+  "sec": "crypto",
+  "title": "The ETF shelf gets crowded",
+  "kick": "Digital Assets",
+  "img": "https://images.unsplash.com/photo-1670684684445-a4504dca0bbc?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3VwZXJtYXJrZXQlMjBzaGVsdmVzJTIwcm93cyUyMHByb2R1Y3RzfGVufDF8MHx8fDE3ODg3MjY3ODV8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1670684684445-a4504dca0bbc",
+  "src": "unsplash"
+ },
+ {
+  "url": "/crypto/retirement-money-meets-crypto/",
+  "sec": "crypto",
+  "title": "Retirement money meets crypto",
+  "kick": "Regulation",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Central_hidroel%C3%A9ctrica_de_Walchensee%2C_Kochel%2C_Baviera%2C_Alemania%2C_2014-03-22%2C_DD_04.JPG?width=1400",
+  "id": "Central_hidroeléctrica_de_Walchensee,_Kochel,_Baviera,_Alemania,_2014-03-22,_DD_04.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/equities-start-moving-onchain/",
+  "sec": "crypto",
+  "title": "Equities start moving onchain",
+  "kick": "Tokenization",
+  "img": "https://images.unsplash.com/photo-1672870153636-32a5e5218792?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RvY2slMjBleGNoYW5nZSUyMGRpZ2l0YWwlMjBkaXNwbGF5JTIwYm9hcmR8ZW58MXwwfHx8MTc4ODcxMTA2NXww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1672870153636-32a5e5218792",
+  "src": "unsplash"
+ },
+ {
+  "url": "/crypto/what-an-attestation-must-prove/",
+  "sec": "crypto",
+  "title": "What an attestation must prove",
+  "kick": "Stablecoins",
+  "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YXVkaXQlMjBkb2N1bWVudHMlMjBmaW5hbmNpYWx8ZW58MXwwfHx8MTc4ODU2MTg3NHww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1554224155-6726b3ff858f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/crypto/institutional-crypto-allocations-mature/",
+  "sec": "crypto",
+  "title": "Institutional crypto allocations settle into portfolio routine",
+  "kick": "Institutional Crypto",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg?width=800",
+  "id": "Lower_Manhattan_from_Jersey_City_November_2014_panorama_2.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/sgx-perpetual-futures-us-institutions/",
+  "sec": "crypto",
+  "title": "SGX opens crypto perps to US funds",
+  "kick": "Market Structure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Desarrollo_Satelital_ARSAT.jpg?width=1400",
+  "id": "Desarrollo_Satelital_ARSAT.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/the-derivatives-tail-got-longer/",
+  "sec": "crypto",
+  "title": "The derivatives tail got longer",
+  "kick": "Market Structure",
+  "img": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y3J5cHRvY3VycmVuY3klMjB0cmFkaW5nJTIwY2hhcnRzJTIwc2NyZWVuc3xlbnwxfDB8fHwxNzg4NzExMDY2fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1590283603385-17ffb3a7f29f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/business/sourcing-moves-faster-than-tariffs/",
+  "sec": "business",
+  "title": "Sourcing moves faster than tariffs",
+  "kick": "Trade",
+  "img": "https://images.unsplash.com/photo-1678182451047-196f22a4143e?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2hpcHBpbmclMjBjb250YWluZXJzJTIwcG9ydCUyMGNhcmdvfGVufDF8MHx8fDE3ODg1Njg4OTN8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1678182451047-196f22a4143e",
+  "src": "unsplash"
+ },
+ {
+  "url": "/business/waiting-for-rates-to-fall-building-costs/",
+  "sec": "business",
+  "title": "Waiting for rates to fall is a bet that building costs will hold still",
+  "kick": "Housing",
+  "img": "/assets/img/home-framing-construction.jpg",
+  "id": "/assets/img/home-framing-construction.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/the-office-is-a-quality-trade/",
+  "sec": "business",
+  "title": "The office is a quality trade",
+  "kick": "Workplace",
+  "img": "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZW1wdHklMjBtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2UlMjBkZXNrc3xlbnwxfDB8fHwxNzg4NzE4OTY0fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1718220216044-006f43e3a9b1",
+  "src": "unsplash"
+ },
+ {
+  "url": "/business/enterprise-software-pricing-ai-era/",
+  "sec": "business",
+  "title": "Enterprise software pricing strains under the weight of AI",
+  "kick": "Analysis",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_(22370909788).jpg?width=800",
+  "id": "Datacenter_Server_Racks_(22370909788).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/cfo-scrutiny-technology-spend/",
+  "sec": "business",
+  "title": "CFOs bring new scrutiny to technology spending",
+  "kick": "Enterprise Software",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Factory_Automation_Robotics_Palettizing_Bread.jpg?width=800",
+  "id": "Factory_Automation_Robotics_Palettizing_Bread.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/data-center-boom-local-economies/",
+  "sec": "business",
+  "title": "The data center boom collides with local economics",
+  "kick": "Data Centers",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Factory_Automation_Robotics_Palettizing_Bread.jpg?width=800",
+  "id": "Factory_Automation_Robotics_Palettizing_Bread.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/middle-market-adopts-enterprise-ai/",
+  "sec": "business",
+  "title": "The middle market quietly adopts enterprise AI",
+  "kick": "Enterprise AI",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Factory_Automation_Robotics_Palettizing_Bread.jpg?width=800",
+  "id": "Factory_Automation_Robotics_Palettizing_Bread.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/business/services-firms-rebuild-around-automation/",
+  "sec": "business",
+  "title": "Professional services firms rebuild around automation",
+  "kick": "Professional Services",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Factory_Automation_Robotics_Palettizing_Bread.jpg?width=800",
+  "id": "Factory_Automation_Robotics_Palettizing_Bread.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/queue-position-is-the-real-asset/",
+  "sec": "technology",
+  "title": "Queue position is the real asset",
+  "kick": "Infrastructure",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Wind_Turbines_and_Power_Lines%2C_East_Sussex%2C_England_-_April_2009.jpg?width=1400",
+  "id": "Wind_Turbines_and_Power_Lines,_East_Sussex,_England_-_April_2009.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/cloud-repatriation-selective/",
+  "sec": "technology",
+  "title": "Cloud repatriation turns out to be selective, not wholesale",
+  "kick": "Cloud",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BlackMarble20161km.jpg?width=1400",
+  "id": "BlackMarble20161km.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/robotics-warehouse-to-workshop/",
+  "sec": "technology",
+  "title": "Robotics spreads from the warehouse to the workshop",
+  "kick": "Robotics",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg?width=800",
+  "id": "BMW_Leipzig_MEDIA_050719_Download_Karosseriebau_max.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/observability-costs-revolt/",
+  "sec": "technology",
+  "title": "The observability bill sparks an engineering revolt",
+  "kick": "Cloud",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Server_Rack_(54126210834).jpg?width=800",
+  "id": "Server_Rack_(54126210834).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/developer-platform-teams-standard/",
+  "sec": "technology",
+  "title": "Platform engineering becomes the default org chart",
+  "kick": "Developer Tools",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/FANUC_6-axis_welding_robots.jpg?width=800",
+  "id": "FANUC_6-axis_welding_robots.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/technology/error-correction-stops-being-theory/",
+  "sec": "technology",
+  "title": "Error correction stops being theory",
+  "kick": "Quantum",
+  "img": "https://images.unsplash.com/photo-1781330189305-d92d518dc28d?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cGh5c2ljcyUyMGxhYm9yYXRvcnklMjByZXNlYXJjaCUyMGVxdWlwbWVudHxlbnwxfDB8fHwxNzg4ODEzNDgxfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1781330189305-d92d518dc28d",
+  "src": "unsplash"
+ },
+ {
+  "url": "/technology/cooling-without-water/",
+  "sec": "technology",
+  "title": "Cooling without water",
+  "kick": "Data Centers",
+  "img": "https://images.unsplash.com/photo-1620203853151-496c7228306c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZGF0YSUyMGNlbnRlciUyMGNvb2xpbmclMjBwaXBlcyUyMGluZHVzdHJpYWx8ZW58MXwwfHx8MTc4ODcyNjc0N3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1620203853151-496c7228306c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/technology/the-dependency-nobody-funds/",
+  "sec": "technology",
+  "title": "The dependency nobody funds",
+  "kick": "Open Source",
+  "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c291cmNlJTIwY29kZSUyMHRlcm1pbmFsJTIwc2NyZWVuJTIwZGV2ZWxvcGVyfGVufDF8MHx8fDE3ODg3MTg5OTN8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1515879218367-8466d910aaa4",
+  "src": "unsplash"
+ },
+ {
+  "url": "/markets/record-supply-meets-tight-spreads/",
+  "sec": "markets",
+  "title": "Record supply meets tight spreads",
+  "kick": "Fixed Income",
+  "img": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmluYW5jaWFsJTIwbmV3c3BhcGVyJTIwYm9uZCUyMHBhZ2VzfGVufDF8MHx8fDE3ODg3MjY3NDR8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1504711434969-e33886168f5c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/markets/private-credits-marks-go-on-trial/",
+  "sec": "markets",
+  "title": "Private credit's marks go on trial",
+  "kick": "Private Credit",
+  "img": "https://images.unsplash.com/photo-1722299547563-03e2d21fe289?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y29ycG9yYXRlJTIwb2ZmaWNlJTIwdG93ZXJzJTIwZ2xhc3N8ZW58MXwwfHx8MTc4ODU2MTg5N3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1722299547563-03e2d21fe289",
+  "src": "unsplash"
+ },
+ {
+  "url": "/markets/the-window-opened-for-a-few/",
+  "sec": "markets",
+  "title": "The window opened for a few",
+  "kick": "Capital Markets",
+  "img": "https://images.unsplash.com/photo-1723158597314-4760daf1aaae?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RvY2slMjBleGNoYW5nZSUyMGxpc3RpbmclMjBjZXJlbW9ueSUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3ODg3MjY3NDN8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1723158597314-4760daf1aaae",
+  "src": "unsplash"
+ },
+ {
+  "url": "/markets/ten-stocks-are-now-forty-percent/",
+  "sec": "markets",
+  "title": "Ten stocks are now forty percent",
+  "kick": "Market Structure",
+  "img": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RvY2slMjBleGNoYW5nZSUyMHNjcmVlbnMlMjBkYXRhfGVufDF8MHx8fDE3ODg1NjE4NzJ8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1651341050677-24dba59ce0fd",
+  "src": "unsplash"
+ },
+ {
+  "url": "/markets/private-markets-liquidity-windows/",
+  "sec": "markets",
+  "title": "Private markets build their own liquidity, carefully",
+  "kick": "Private Credit",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trading_apps_on_an_iPhone_screen.jpg?width=1400",
+  "id": "Trading_apps_on_an_iPhone_screen.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/markets/central-banks-keep-buying-gold/",
+  "sec": "markets",
+  "title": "Central banks keep buying gold",
+  "kick": "Reserves",
+  "img": "https://images.unsplash.com/photo-1762463176417-2c5e63767bd2?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Z29sZCUyMGJhcnMlMjBidWxsaW9uJTIwdmF1bHR8ZW58MXwwfHx8MTc4ODgxMzQ3OXww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1762463176417-2c5e63767bd2",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/treasury-was-built-on-float/",
+  "sec": "fintech",
+  "title": "Treasury was built on float",
+  "kick": "Payments",
+  "img": "https://images.unsplash.com/photo-1509017174183-0b7e0278f1ec?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y2FyZCUyMHBheW1lbnQlMjB0ZXJtaW5hbHxlbnwxfDB8fHwxNzg4NTYxODcwfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1509017174183-0b7e0278f1ec",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/the-sponsor-bank-takes-the-hit/",
+  "sec": "fintech",
+  "title": "The sponsor bank takes the hit",
+  "kick": "Regulation",
+  "img": "https://images.unsplash.com/photo-1663286357473-39dacb93b5d4?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YmFuayUyMGJ1aWxkaW5nJTIwY29sdW1ucyUyMGZhY2FkZXxlbnwxfDB8fHwxNzg4NTYxODcwfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1663286357473-39dacb93b5d4",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/embedded-credit-meets-its-cost-of-funds/",
+  "sec": "fintech",
+  "title": "Embedded credit meets its cost of funds",
+  "kick": "Lending",
+  "img": "https://images.unsplash.com/photo-1758611974022-ca3182694951?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8b25saW5lJTIwc2hvcHBpbmclMjBjaGVja291dCUyMHBob25lfGVufDF8MHx8fDE3ODg1NjE4NzF8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1758611974022-ca3182694951",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/embedded-finance-vertical-software/",
+  "sec": "fintech",
+  "title": "Embedded finance finds its natural habitat in vertical software",
+  "kick": "Fintech",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/IMO_9668570_-_Spauwer_03.jpg?width=1400",
+  "id": "IMO_9668570_-_Spauwer_03.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/fintech/banking-software-modernization-wave/",
+  "sec": "fintech",
+  "title": "Core banking modernization reaches the point of no return",
+  "kick": "Fintech",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Contactless_Payment_Card_opened_to_show_RF_antenna.jpg?width=800",
+  "id": "Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/cybersecurity/help-desk-identity-verification/",
+  "sec": "cybersecurity",
+  "title": "The help desk is the way in",
+  "kick": "Identity",
+  "img": "https://images.unsplash.com/photo-1553775282-20af80779df7?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y2FsbCUyMGNlbnRlciUyMGhlYWRzZXQlMjBkZXNrfGVufDF8MHx8fDE3ODg1NjE4Njh8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1553775282-20af80779df7",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/insurers-write-the-security-baseline/",
+  "sec": "cybersecurity",
+  "title": "Insurers now write the security baseline",
+  "kick": "Insurance",
+  "img": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2lnbmluZyUyMGNvbnRyYWN0JTIwcGFwZXJ3b3JrJTIwZGVza3xlbnwxfDB8fHwxNzg4NTYxODY5fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1450101499163-c8848c66ca85",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/sbom-what-buyers-do-with-it/",
+  "sec": "cybersecurity",
+  "title": "What buyers actually do with an SBOM",
+  "kick": "Software Supply Chain",
+  "img": "https://images.unsplash.com/photo-1691435828932-911a7801adfb?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2VydmVyJTIwcm9vbSUyMG5ldHdvcmslMjBjYWJsZXN8ZW58MXwwfHx8MTc4ODU2MTg2OHww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1691435828932-911a7801adfb",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/identity-first-security-spending/",
+  "sec": "cybersecurity",
+  "title": "Cybersecurity spending shifts toward identity and resilience",
+  "kick": "Cybersecurity",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CBP_Biometrics_Pilot_Program_-_San_Diego_(27114256704).jpg?width=1400",
+  "id": "CBP_Biometrics_Pilot_Program_-_San_Diego_(27114256704).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/cybersecurity/attackers-learned-the-physics/",
+  "sec": "cybersecurity",
+  "title": "Attackers learned the physics",
+  "kick": "Critical Infrastructure",
+  "img": "https://images.unsplash.com/photo-1738918937796-743064feefa1?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8aW5kdXN0cmlhbCUyMGNvbnRyb2wlMjByb29tJTIwcGxhbnR8ZW58MXwwfHx8MTc4ODcxODk2NXww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1738918937796-743064feefa1",
+  "src": "unsplash"
+ },
+ {
+  "url": "/cybersecurity/passwords-leaving-by-attrition/",
+  "sec": "cybersecurity",
+  "title": "Passwords are leaving by attrition",
+  "kick": "Identity",
+  "img": "https://images.unsplash.com/photo-1585079374502-415f8516dcc3?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmluZ2VycHJpbnQlMjBiaW9tZXRyaWMlMjBzZWN1cml0eSUyMGxvZ2lufGVufDF8MHx8fDE3ODg1Njg4OTJ8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1585079374502-415f8516dcc3",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/the-superfan-is-the-business-model/",
+  "sec": "music",
+  "title": "The superfan is the business model",
+  "kick": "Music Business",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Graz_Murinsel_gangway-2478.jpg?width=1400",
+  "id": "Graz_Murinsel_gangway-2478.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/culture/games-became-the-safest-bet/",
+  "sec": "culture",
+  "title": "Games became the safest bet",
+  "kick": "Film",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnster%2C_LVM%2C_Skulptur_-Zwei_Pferde-_--_2016_--_5969-75.jpg?width=1400",
+  "id": "Münster,_LVM,_Skulptur_-Zwei_Pferde-_--_2016_--_5969-75.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/markets/the-basis-trade-meets-a-haircut/",
+  "sec": "markets",
+  "title": "The basis trade meets a haircut",
+  "kick": "Fixed Income",
+  "img": "https://images.unsplash.com/photo-1701831737236-f365b205f578?ixid=M3wxMDMxMjcwfDB8MXxhbGx8fHx8fHx8fHwxNzg4NjE3NzUwfA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1701831737236-f365b205f578",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/the-exit-is-an-acquisition/",
+  "sec": "startups",
+  "title": "The exit is an acquisition",
+  "kick": "Venture Capital",
+  "img": "https://images.unsplash.com/photo-1686771416282-3888ddaf249b?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YnVzaW5lc3MlMjBoYW5kc2hha2UlMjBtZWV0aW5nJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODg1Njg4OTJ8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1686771416282-3888ddaf249b",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/what-a-seed-round-now-requires/",
+  "sec": "startups",
+  "title": "What a seed round now requires",
+  "kick": "Venture Capital",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg?width=1400",
+  "id": "Münster,_LVM,_Bürogebäude_--_2013_--_5149-51.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/startups/tender-offers-reach-the-rank-and-file/",
+  "sec": "startups",
+  "title": "Tender offers reach the rank and file",
+  "kick": "Equity",
+  "img": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RvY2slMjBjaGFydCUyMHNjcmVlbiUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4ODU2MTg3MHww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1611974789855-9c2a0a7236a3",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/design-partners-replace-the-free-trial/",
+  "sec": "startups",
+  "title": "Design partners replace the free trial",
+  "kick": "Go to Market",
+  "img": "https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8dGVhbSUyMG1lZXRpbmclMjBsYXB0b3BzJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODg1NjE4NzB8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1541746972996-4e0b0f43e02a",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/climate-tech-industrial-phase/",
+  "sec": "startups",
+  "title": "Climate tech enters its industrial phase",
+  "kick": "Startups",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/30134_jissekiimage3.JPG?width=1400",
+  "id": "30134_jissekiimage3.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/startups/the-visa-is-the-strategy/",
+  "sec": "startups",
+  "title": "The visa is the strategy",
+  "kick": "Talent",
+  "img": "https://images.unsplash.com/photo-1581553673739-c4906b5d0de8?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cGFzc3BvcnQlMjB0cmF2ZWwlMjBkb2N1bWVudHMlMjBkZXNrfGVufDF8MHx8fDE3ODg4MTM0ODF8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1581553673739-c4906b5d0de8",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/two-markets-wearing-one-label/",
+  "sec": "startups",
+  "title": "Two markets wearing one label",
+  "kick": "Venture Capital",
+  "img": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8d2hpdGVib2FyZCUyMG1lZXRpbmclMjBzbWFsbCUyMHRlYW0lMjBzdGFydHVwfGVufDF8MHx8fDE3ODg3MTg5NjZ8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1557804506-669a67965ba0",
+  "src": "unsplash"
+ },
+ {
+  "url": "/startups/revenue-per-employee-is-the-pitch/",
+  "sec": "startups",
+  "title": "Revenue per employee is the pitch",
+  "kick": "Startups",
+  "img": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8dHdvJTIwcGVvcGxlJTIwd29ya2luZyUyMGxhcHRvcCUyMHNtYWxsJTIwb2ZmaWNlfGVufDF8MHx8fDE3ODg2MTc3MTd8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1579389083078-4e7018379f7e",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/state-privacy-laws-national-floor/",
+  "sec": "policy",
+  "title": "State privacy laws set a national floor",
+  "kick": "Privacy",
+  "img": "https://images.unsplash.com/photo-1573181759662-1c146525b21f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RhdGUlMjBjYXBpdG9sJTIwZ292ZXJubWVudCUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3ODg1NjE4Njd8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1573181759662-1c146525b21f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/right-to-repair-enters-enforcement/",
+  "sec": "policy",
+  "title": "Right to repair enters enforcement",
+  "kick": "Right to Repair",
+  "img": "https://images.unsplash.com/photo-1521798604188-0d6595d6d6ae?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cmVwYWlyaW5nJTIwY2lyY3VpdCUyMGJvYXJkJTIwc29sZGVyaW5nfGVufDF8MHx8fDE3ODg1NjE4OTh8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1521798604188-0d6595d6d6ae",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/procurement-regulating-ai-first/",
+  "sec": "policy",
+  "title": "Procurement is regulating AI first",
+  "kick": "Procurement",
+  "img": "https://images.unsplash.com/photo-1523292562811-8fa7962a78c8?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmVkZXJhbCUyMGdvdmVybm1lbnQlMjBidWlsZGluZyUyMGNvbHVtbnN8ZW58MXwwfHx8MTc4ODU2MTg2N3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1523292562811-8fa7962a78c8",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/ai-rules-implementation-phase/",
+  "sec": "policy",
+  "title": "AI regulation enters its implementation phase",
+  "kick": "Regulation",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Capitol_west_side.JPG?width=800",
+  "id": "US_Capitol_west_side.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/policy/data-center-permitting-fast-track/",
+  "sec": "policy",
+  "title": "Permitting becomes the new industrial policy for compute",
+  "kick": "Policy",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Capitol_Building_Full_View.jpg?width=800",
+  "id": "Capitol_Building_Full_View.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/policy/water-becomes-a-permitting-question/",
+  "sec": "policy",
+  "title": "Water becomes a permitting question",
+  "kick": "Policy",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferry_Building_at_night.jpg?width=1400",
+  "id": "Ferry_Building_at_night.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/policy/the-commission-goes-to-court/",
+  "sec": "policy",
+  "title": "The commission goes to court",
+  "kick": "Antitrust",
+  "img": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c21hcnRwaG9uZSUyMGFwcHMlMjBob21lJTIwc2NyZWVufGVufDF8MHx8fDE3ODg3MTEwNjV8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1512941937669-90a1b58e7e9c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/export-controls-shift-to-enforcement/",
+  "sec": "policy",
+  "title": "Export controls shift to enforcement",
+  "kick": "Trade",
+  "img": "https://images.unsplash.com/photo-1672307613484-3254a04651fd?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c2VtaWNvbmR1Y3RvciUyMHdhZmVyJTIwc2lsaWNvbnxlbnwxfDB8fHwxNzg4NzExMDY0fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1672307613484-3254a04651fd",
+  "src": "unsplash"
+ },
+ {
+  "url": "/policy/app-store-becomes-the-age-gate/",
+  "sec": "policy",
+  "title": "The app store becomes the age gate",
+  "kick": "Regulation",
+  "img": "https://images.unsplash.com/photo-1495654794940-1c0cd2aeedc1?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y2hpbGQlMjB1c2luZyUyMHRhYmxldCUyMHNjcmVlbnxlbnwxfDB8fHwxNzg4NTY4ODkxfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1495654794940-1c0cd2aeedc1",
+  "src": "unsplash"
+ },
+ {
+  "url": "/ai/ai-evaluation-becomes-budget-line/",
+  "sec": "ai",
+  "title": "AI evaluation grows from afterthought to budget line",
+  "kick": "AI Governance",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/12-07-12-wikimania-wdc-by-RalfR-010.jpg?width=1400",
+  "id": "12-07-12-wikimania-wdc-by-RalfR-010.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/semiconductor-supply-data-center-demand/",
+  "sec": "ai",
+  "title": "Semiconductor supply chains adjust to new data center demand",
+  "kick": "Semiconductors",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chemicumi_serverid_03.jpg?width=1400",
+  "id": "Chemicumi_serverid_03.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/culture/documentaries-lost-their-buyer/",
+  "sec": "culture",
+  "title": "Documentaries lost their buyer",
+  "kick": "Film",
+  "img": "https://images.unsplash.com/photo-1497015289639-54688650d173?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZG9jdW1lbnRhcnklMjBpbnRlcnZpZXclMjBjYW1lcmElMjBzZXR1cHxlbnwxfDB8fHwxNzg4NjE3NzE2fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1497015289639-54688650d173",
+  "src": "unsplash"
+ },
+ {
+  "url": "/culture/consent-becomes-a-line-item/",
+  "sec": "culture",
+  "title": "Consent becomes a line item",
+  "kick": "Film",
+  "img": "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmlsbSUyMHNldCUyMGxpZ2h0aW5nJTIwY2FtZXJhJTIwY3Jld3xlbnwxfDB8fHwxNzg4NTY4ODkzfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1612544409025-e1f6a56c1152",
+  "src": "unsplash"
+ },
+ {
+  "url": "/culture/production-follows-the-rebate/",
+  "sec": "culture",
+  "title": "Production follows the rebate",
+  "kick": "Film",
+  "img": "https://images.unsplash.com/photo-1632187981988-40f3cbaeef5e?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8ZmlsbSUyMGNyZXclMjBjYW1lcmElMjBzZXR8ZW58MXwwfHx8MTc4ODU2MTg3M3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1632187981988-40f3cbaeef5e",
+  "src": "unsplash"
+ },
+ {
+  "url": "/culture/practical-effects-comeback/",
+  "sec": "culture",
+  "title": "The practical effects comeback is really about trust",
+  "kick": "Film",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Late_20th_century_Westrex_35mm_cinema_projector.jpg?width=800",
+  "id": "Late_20th_century_Westrex_35mm_cinema_projector.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/culture/physical-media-collectors-hold/",
+  "sec": "culture",
+  "title": "The disc endures: physical media's stubborn second life",
+  "kick": "Film",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/35mm_cinema_projectors.jpg?width=800",
+  "id": "35mm_cinema_projectors.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/culture/animation-follows-the-pipeline/",
+  "sec": "culture",
+  "title": "Animation follows the pipeline",
+  "kick": "Media",
+  "img": "https://images.unsplash.com/photo-1728281144091-b743062a9bf0?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YW5pbWF0b3IlMjBkcmF3aW5nJTIwdGFibGV0JTIwc3R1ZGlvJTIwZGVza3xlbnwxfDB8fHwxNzg4NzkwMDY0fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1728281144091-b743062a9bf0",
+  "src": "unsplash"
+ },
+ {
+  "url": "/culture/the-big-screen-got-bigger/",
+  "sec": "culture",
+  "title": "The big screen got bigger",
+  "kick": "Film",
+  "img": "https://images.unsplash.com/photo-1595769816263-9b910be24d5f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8bGFyZ2UlMjBjaW5lbWElMjBzY3JlZW4lMjBwcm9qZWN0aW9ufGVufDF8MHx8fDE3ODg3MTEwNjR8MA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1595769816263-9b910be24d5f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/culture/publishing-is-hollywoods-r-and-d/",
+  "sec": "culture",
+  "title": "Publishing is Hollywood's R&amp;D",
+  "kick": "Media",
+  "img": "https://images.unsplash.com/photo-1625053376622-e462848c453f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Ym9va3NoZWxmJTIwbGlicmFyeSUyMHN0YWNrZWQlMjBib29rc3xlbnwxfDB8fHwxNzg4NzExMDY0fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1625053376622-e462848c453f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/streaming-learns-to-weight-a-play/",
+  "sec": "music",
+  "title": "Streaming learns to weight a play",
+  "kick": "Music Business",
+  "img": "https://images.unsplash.com/photo-1557063673-0493e05da49f?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8aGVhZHBob25lcyUyMGxpc3RlbmluZyUyMG11c2ljJTIwcGhvbmV8ZW58MXwwfHx8MTc4ODU2ODg5M3ww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1557063673-0493e05da49f",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/all-in-pricing-comes-to-tickets/",
+  "sec": "music",
+  "title": "All-In pricing comes to tickets",
+  "kick": "Live Music",
+  "img": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8Y29uY2VydCUyMGNyb3dkJTIwdGlja2V0c3xlbnwxfDB8fHwxNzg4NTYxODcyfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1459749411175-04bf5292ceea",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/sync-is-the-growth-line/",
+  "sec": "music",
+  "title": "Sync is the growth line",
+  "kick": "Music Business",
+  "img": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cmVjb3JkaW5nJTIwc3R1ZGlvJTIwbWljcm9waG9uZSUyMHNlc3Npb258ZW58MXwwfHx8MTc4ODYxNzcxNnww&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1478737270239-2f02b77fc618",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/catalogs-are-a-rates-trade/",
+  "sec": "music",
+  "title": "Catalogs are a rates trade",
+  "kick": "Music Business",
+  "img": "https://images.unsplash.com/photo-1618609377864-68609b857e90?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8cmVjb3JkaW5nJTIwc3R1ZGlvJTIwbWl4aW5nJTIwY29uc29sZXxlbnwxfDB8fHwxNzg4NTYxODcyfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1618609377864-68609b857e90",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/vinyl-is-a-real-business-again/",
+  "sec": "music",
+  "title": "Vinyl is a real business again",
+  "kick": "Music Business",
+  "img": "https://images.unsplash.com/photo-1760302318644-40cb22d44a99?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8dmlueWwlMjByZWNvcmRzJTIwc3RvcmUlMjBjcmF0ZXxlbnwxfDB8fHwxNzg4NzExMDYyfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1760302318644-40cb22d44a99",
+  "src": "unsplash"
+ },
+ {
+  "url": "/music/half-the-uploads-are-machines/",
+  "sec": "music",
+  "title": "Half the uploads are machines",
+  "kick": "Streaming",
+  "img": "https://images.unsplash.com/photo-1681683967405-7efef2cd810c?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8bXVzaWMlMjBwcm9kdWNlciUyMGxhcHRvcCUyMHN0dWRpb3xlbnwxfDB8fHwxNzg4NzExMDYzfDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1681683967405-7efef2cd810c",
+  "src": "unsplash"
+ },
+ {
+  "url": "/blockchain/private-credit-moves-onchain/",
+  "sec": "blockchain",
+  "title": "Private credit moves onchain",
+  "kick": "Tokenization",
+  "img": "https://images.unsplash.com/photo-1602082550257-8e72d72334fe?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8b2ZmaWNlJTIwdG93ZXIlMjBmaW5hbmNlJTIwZ2xhc3MlMjBuaWdodHxlbnwxfDB8fHwxNzg4NzI2NzQ5fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1602082550257-8e72d72334fe",
+  "src": "unsplash"
+ },
+ {
+  "url": "/fintech/open-banking-goes-back-to-drafting/",
+  "sec": "fintech",
+  "title": "Open banking goes back to drafting",
+  "kick": "Regulation",
+  "img": "https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8YmFua2luZyUyMGFwcCUyMHBob25lJTIwc2NyZWVuJTIwZmluYW5jZXxlbnwxfDB8fHwxNzg4NzE4OTY1fDA&amp;ixlib=rb-4.1.0&amp;w=800&amp;q=80&amp;fm=jpg",
+  "id": "1609921141835-710b7fa6e438",
+  "src": "unsplash"
+ },
+ {
+  "url": "/crypto/defi-institutional-wrappers/",
+  "sec": "crypto",
+  "title": "DeFi finds its institutional wrapper",
+  "kick": "Analysis",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Data_Center_(22370911658).jpg?width=1400",
+  "id": "Data_Center_(22370911658).jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/culture/repertory-cinema-revival-business/",
+  "sec": "culture",
+  "title": "The repertory cinema is having its best decade in fifty years",
+  "kick": "Film",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Philips_DP70_projector_mechanism%2C_with_35mm_film_threaded.jpg?width=800",
+  "id": "Philips_DP70_projector_mechanism,_with_35mm_film_threaded.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/music/why-sticky-fingers-still-matters/",
+  "sec": "music",
+  "title": "Why Sticky Fingers still matters",
+  "kick": "Music",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Close-up_of_phonograph_turntable.jpg?width=800",
+  "id": "Close-up_of_phonograph_turntable.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/crypto/crypto-payments-emerging-markets/",
+  "sec": "crypto",
+  "title": "Crypto payment rails compound quietly in emerging markets",
+  "kick": "Payments",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/NYC_Manhattan_Skyline.JPG?width=800",
+  "id": "NYC_Manhattan_Skyline.JPG",
+  "src": "commons"
+ },
+ {
+  "url": "/ai/opinion-ai-productivity-measurement/",
+  "sec": "ai",
+  "title": "We are measuring AI productivity wrong, and it matters",
+  "kick": "Opinion",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/GIP_Servers.jpg?width=1400",
+  "id": "GIP_Servers.jpg",
+  "src": "commons"
+ },
+ {
+  "url": "/cybersecurity/software-supply-chain-rules-bite/",
+  "sec": "cybersecurity",
+  "title": "Software supply chain rules begin to bite",
+  "kick": "Software Supply Chain",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Server_Room_(22397102849).jpg?width=1400",
+  "id": "Server_Room_(22397102849).jpg",
+  "src": "commons"
+ }
+]
