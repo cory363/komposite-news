@@ -2332,3 +2332,65 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
   /* Under 16px, iOS zooms the page when the field takes focus. */
   .sform input,.nlform input{font-size:16px}
 }
+
+/* ======================================================================
+   Typography: Oswald for display, PT Serif for text
+   Applied last so it wins over the earlier font cascade, which redefines the
+   family variables several times. Family, weight, letter-spacing and
+   line-height only — no colour, spacing or layout is touched here.
+
+   The masthead is excluded. .kmark and .kfoot-mark already hardcode Inter, so
+   they are immune to a variable change, but .kmast-sub and .kfoot-tag read
+   var(--sans) and would have moved with it. Both are pinned to the stack they
+   resolve to today, so the lockup renders exactly as before.
+   ====================================================================== */
+:root{
+  --head:"Oswald","Helvetica Neue",Arial Narrow,Arial,sans-serif;
+  --label:"Oswald","Helvetica Neue",Arial Narrow,Arial,sans-serif;
+  --text:"PT Serif",Georgia,"Times New Roman",serif;
+  --display:var(--head);
+  --serif:var(--text);
+  --body:var(--text);
+  --mastfont:"susan","Inter","Libre Franklin",Helvetica,Arial,sans-serif;
+}
+
+/* --- the masthead and the footer logo lockup, unchanged ---------------- */
+.kmark{font-family:"Inter",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif}
+.kfoot-mark{font-family:"Inter",system-ui,-apple-system,Arial,sans-serif}
+/* 1.55 is the body line-height these inherited before this block existed;
+   pinning it keeps the lockup pixel-identical to what it was. */
+.kmast-sub,.kfoot-tag{font-family:var(--mastfont);line-height:1.55}
+
+/* --- text ------------------------------------------------------------- */
+body{font-family:var(--text);line-height:1.6}
+p,li,figcaption,blockquote,dd,dt,
+.artdeck,.artbody p,.deck,.dek,.lhero-dek,.excerpt,.es-note,.tf-note,
+.divpanel-tag,.aubio,.catsub-note,.partnerbox p{
+  font-family:var(--text);font-weight:400;line-height:1.6}
+/* Bylines and timestamps are text, and keep the weights they already have. */
+.byrow,.byname,.byrole,.bydate,.tago,.lago,.abctime,.ft,.railby,.qby,
+.leadby,.dived-date,.cardby,.kfoot-copy,.pcred,.ccredit{font-family:var(--text)}
+
+/* --- headlines -------------------------------------------------------- */
+h1,h2,h3,h4,
+.art h1,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.spothead,.bbl h2,
+.abclead-panel h2,.divpanel-issue,.divgrid-dark .divcol h3,.catname,.secbig,
+.abccard h3,.seclead-tx h3,.abctop li a,.seclist li a,.inpix-t,.nlpromo h2,
+.leadcluster a,.qitem h3,.story h2,.story h3,.hl h2,.hl h3,.mostread li,
+.topcell h3,.stripcard h3,.imgcard h3,.czcard h3,.czlead h2,.opfeat h3,
+.aucard h3,.nl h3,.cover h1,.leadviscap h1,.abcfeature h3,.feedrow a,
+.poplist li a,.railmod li a,.divcol h3,.recohead{
+  font-family:var(--head);font-weight:600;letter-spacing:-.01em;line-height:1.1;
+  font-variation-settings:normal}
+
+/* --- small uppercase category labels ---------------------------------- */
+.kick,.lkick,.abckick,.bbkick,.recokick,.fc,.qllabel,.chip,.secl-t,.tlabel,
+.lseclabel,.lseclabel a,.morehead,.abctop-h,.sechead-row h2,.band span,
+.kfoot-col h2,.pbl,.catsub,.divpanel-label a span,.abctop-h,.sharelabel,
+.tf-l,.kfoot-tip,.nlpromo-k{
+  font-family:var(--label);font-weight:500;letter-spacing:.08em}
+
+/* --- interactive chrome keeps the face it had ------------------------- */
+.knav-links a,.knav-search,.knav-login,.knav-sub,.knav-lang,.knav-lang::after,
+.kdate-row,.kdate-ed,.kdate-tip,.sharebtn,.kn-follow,
+button,input,select,textarea{font-family:var(--mastfont)}
