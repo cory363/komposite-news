@@ -24,7 +24,7 @@ for (const p of walk(".")) {
 
   if (!/knav-lang/.test(h) && /<div class="knav-utils">/.test(h)) {
     h = h.replace(/(<div class="knav-utils">)/,
-      (m, o) => o + `\n    <a class="knav-lang" href="${target}" hreflang="es">Español</a>`);
+      (m, o) => o + `\n    <a class="knav-lang" data-short="ES" href="${target}" hreflang="es">Español</a>`);
     tabs++;
   }
   /* Check for the <link>, not the tab — the tab I just inserted also carries

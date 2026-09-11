@@ -2301,3 +2301,34 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.art h1,.kmark,.kfoot-mark{font-weight:700}
 .lgrid-es .lmeta{margin-top:9px}
 @media (max-width:900px){.lgrid-es{grid-template-columns:repeat(2,1fr);gap:24px 18px}}
 @media (max-width:560px){.lgrid-es{grid-template-columns:1fr;gap:22px}}
+
+/* ======================================================================
+   Mobile, navigation width
+   The language tab took 81px of a 390px bar, leaving the section links 149px
+   and showing "AI MARKETS BUSINES" before the scroll. The tab keeps its place
+   and drops to the language code. The edition label goes: it is decorative,
+   and in Spanish the dateline wrapped to two lines without it.
+   ====================================================================== */
+@media (max-width:560px){
+  .knav-lang{font-size:0;padding:3px 7px}
+  .knav-lang::after{content:attr(data-short);font-size:11px;font-weight:700;letter-spacing:.06em}
+  .kdate-ed{display:none}
+}
+
+/* ======================================================================
+   Narrow phones
+   At 360px and below the section grids overflowed to 372px. A plain 1fr track
+   has an automatic minimum of min-content, and .lmeta is white-space:nowrap,
+   so a long kicker beside a timestamp set a floor the column could not go
+   under. minmax(0,1fr) lets the track shrink to the container; the meta line
+   wraps rather than widening the page.
+   ====================================================================== */
+@media (max-width:560px){
+  .lgrid,.lsec-mirror .lgrid,.secgrid,.lgrid-es{grid-template-columns:minmax(0,1fr)}
+  .lmeta{white-space:normal}
+  /* A flex child will not shrink past its intrinsic width unless told to, so
+     the search field pushed its button 4px off the side of a 320px screen. */
+  .sform input,.nlform input{min-width:0}
+  /* Under 16px, iOS zooms the page when the field takes focus. */
+  .sform input,.nlform input{font-size:16px}
+}

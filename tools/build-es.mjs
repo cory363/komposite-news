@@ -124,7 +124,7 @@ for (const a of ES) {
   /* The language tab. The English page this was copied from already carries
      its own "Español" tab, which would leave two on the Spanish page. */
   h = h.replace(/<a class="knav-lang"[^>]*>[^<]*<\/a>\s*/g, "");
-  h = h.replace(/(<div class="knav-utils">)/, (m, o) => o + `\n    <a class="knav-lang" href="${"/" + a.slug + "/"}" hreflang="en">English</a>`);
+  h = h.replace(/(<div class="knav-utils">)/, (m, o) => o + `\n    <a class="knav-lang" data-short="EN" href="${"/" + a.slug + "/"}" hreflang="en">English</a>`);
 
   const dir = path.join("es", a.slug);
   fs.mkdirSync(dir, { recursive: true });
