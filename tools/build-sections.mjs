@@ -40,8 +40,14 @@ function articles(dir) {
     }).filter(a => a.title && a.date && a.img).sort((a, b) => b.date.localeCompare(a.date));
 }
 
-const used = fs.existsSync("tools/data/front-used.json")
-  ? new Set(JSON.parse(fs.readFileSync("tools/data/front-used.json", "utf8"))) : new Set();
+/* Everything already placed on the front outside the section blocks — the
+   hero zone, the rail, the news band, the opinion band, the divide panel.
+   Read from the page rather than from front-used.json, which only ever knew
+   about the hero zone and went stale whenever the builders ran out of order. */
+const used = new Set(
+  [...fs.readFileSync("index.html", "utf8")
+      .replace(/<section class="wrap secblock[\s\S]*?<\/section>/g, "")
+      .matchAll(/href="(\/[a-z0-9-]+\/[a-z0-9-]+\/)"/g)].map(m => m[1]));
 
 let h = fs.readFileSync("index.html", "utf8");
 
@@ -79,12 +85,19 @@ for (const [slug, label] of SECTIONS) {
   const stop = ei + endTag.length;
 
   const pool = articles(slug);
-  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, 11);
-  if (picks.length < 11)                                  // relax URL rule before repeating a photo
-    picks.push(...pool.filter(a => !picks.includes(a) && !usedImgs.has(imgId(a.img))).slice(0, 11 - picks.length));
-  if (picks.length < 11)                                  // last resort: section is too thin
-    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 11 - picks.length));
-  picks.forEach(a => usedImgs.add(imgId(a.img)));
+  /* The composition renders nine: one lead, two stacked, six listed. It used
+     to ask for eleven, so any section that could not supply eleven unused
+     stories fell through to the relaxing branch and repeated one already on
+     the page. Stacked into a single column on a phone, that is the same
+     article passing by two and three times. */
+  const NEED = 9;
+  const picks = pool.filter(a => !used.has(a.url) && !usedImgs.has(imgId(a.img))).slice(0, NEED);
+  if (picks.length < NEED)      // a repeated photograph is a smaller fault than a repeated story
+    picks.push(...pool.filter(a => !used.has(a.url) && !picks.includes(a)).slice(0, NEED - picks.length));
+  if (picks.length < 4)         // a block still needs a lead and its stack
+    picks.push(...pool.filter(a => !picks.includes(a)).slice(0, 4 - picks.length));
+  picks.forEach(a => { usedImgs.add(imgId(a.img)); used.add(a.url); });
+  if (picks.length < NEED) console.log("  thin  " + label + ": " + picks.length + " unique stories");
   /* Leonard runs each section as a three-column composition rather than a
      row of equal cards: one large frame with the headline laid over it, a
      stack of two beside it, and a thumbnail list closing with a MORE link.

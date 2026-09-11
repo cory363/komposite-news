@@ -78,7 +78,11 @@ const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
 const grid = take(11, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(7, a => !opinion(a));   // 11 made the hero zone 1,600px tall and pushed the sections off screen
-const railOpinion = take(3, a => opinion(a) || /opinion|analysis|column/i.test(a.kick));
+/* The Divide columns have their own panel further down the page; listing
+   them in the opinion rail as well put the same argument on the front twice,
+   which on a phone is two identical headlines a few screens apart. */
+const railOpinion = take(3, a => !a.url.startsWith("/divide/") &&
+  (opinion(a) || /opinion|analysis|column/i.test(a.kick)));
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
 

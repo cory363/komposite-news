@@ -2508,3 +2508,27 @@ button,input,select,textarea{font-family:var(--mastfont)}
 /* The middle tier sits between the two: lighter than a list item, heavier
    than a lead. */
 .lsec .lcol-stack .lstack h3,.story h2,.story h3,.hl h2{font-weight:500}
+
+/* ======================================================================
+   Reading time, and the empty Interviews section
+   The read time was already on every article, sharing a line with the date
+   in the same small grey type, which is why it read as part of the date
+   rather than as its own piece of information. It keeps its place and gains
+   a rule and a little weight, the way a magazine sets it.
+   ====================================================================== */
+.bydate{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+.readtime{font-family:var(--label);font-weight:500;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink);border-left:1px solid var(--rule);
+  padding-left:10px}
+
+.soonbox{max-width:60ch;padding:26px 0 46px;border-top:2px solid var(--rule-dark);margin-top:6px}
+.soon-lede{font-family:var(--head);font-weight:400;font-size:28px;line-height:1.1;
+  letter-spacing:-.01em;margin:20px 0 14px}
+.soon-body{font-family:var(--text);font-size:17px;line-height:1.6;color:var(--slate);margin:0 0 14px}
+.soon-body a{color:var(--claret);font-weight:700}
+@media (max-width:560px){.soon-lede{font-size:23px}.soon-body{font-size:16.5px}}
+
+/* Eleven sections no longer fit the desktop navigation at the old gap: the
+   links needed 884px in an 841px strip, so Interviews was cut mid-word. The
+   gap closes enough to seat all of them without touching type size. */
+@media (min-width:901px){.knav-links{gap:11px}}

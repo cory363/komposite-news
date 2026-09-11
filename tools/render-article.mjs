@@ -113,7 +113,7 @@ export function render(a) {
 <span class="kick${a.opinion ? " k-op" : ""}">${esc(a.kick)}</span>
 <h1>${esc(a.headline)}</h1><p class="artdeck">${esc(a.dek)}</p>
 <div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>
-<div class="bydate">${prettyDate(a.date)} &middot; ${mins} min read</div></div>
+<div class="bydate">${prettyDate(a.date)}<span class="readtime">${mins} min read</span></div></div>
 ${shareRow(url, a.headline)}
 ${a.opinion ? `<figure class="arthero"><figcaption>${esc(a.dek)}</figcaption></figure>` : `<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>`}
 <div class="artbody">${body}</div>
