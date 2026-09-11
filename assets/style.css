@@ -2453,3 +2453,43 @@ button,input,select,textarea{font-family:var(--mastfont)}
   .abcmain .lstack h3{font-size:17px}
   .llist h3,.abcmain .llist h3{font-size:16px}
 }
+
+/* ======================================================================
+   Section blocks: hierarchy, alignment, colour restraint
+   Three measured differences against the reference composition.
+   1. The lead headline was 17.5px — the same size as the sixth item in the
+      list column, so the block had no internal hierarchy and read flat.
+   2. The columns ended at 630 / 533 / 626px. The stack column stopped ~100px
+      short and left a hole. Its images now absorb the leftover height, so all
+      three bottom out on one line.
+   3. Nine kickers in one block, all in the accent. Repeated on every row an
+      accent stops being an accent; the list and stack kickers go to ink and
+      the colour is kept for the lead.
+   ====================================================================== */
+.lsec .lbig-tx h3{font-size:clamp(24px,2.3vw,36px);line-height:1.06}
+.lsec .lbig-dek{font-size:16px;line-height:1.5}
+.lsec .lcol-stack .lstack h3{font-size:21px;line-height:1.14}
+
+.lsec .lgrid{align-items:stretch}
+.lsec .lcol-stack{display:flex;flex-direction:column;gap:20px;overflow:hidden}
+/* The cards have to stretch before their images can absorb anything: the
+   column was the right height, its contents were not. */
+.lsec .lcol-stack .lstack{display:flex;flex-direction:column;flex:1 1 0;min-height:0}
+.lsec .lcol-stack .lstack-img{flex:1 1 auto;min-height:120px;overflow:hidden;display:block}
+.lsec .lcol-stack .lstack-img img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+
+.lsec .lcol-stack .lkick,.lsec .lcol-list .lkick{color:var(--ink)}
+
+@media (max-width:900px){
+  .lsec .lgrid{align-items:start}
+  .lsec .lcol-stack{display:block;overflow:visible}
+  .lsec .lcol-stack .lstack-img{min-height:0}
+  .lsec .lcol-stack .lstack-img img{height:auto;aspect-ratio:16/10}
+  .lsec .lcol-stack .lstack h3{font-size:17px}
+}
+
+/* The opinion grid had minmax(0,1fr) only under 760px. Between there and the
+   full desktop width the three tracks still carried a min-content floor from
+   the nowrap byline, so the page overflowed at 1024. The floor is removed at
+   every width; the byline ellipsises, as it was already set up to do. */
+.opgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
