@@ -100,7 +100,7 @@ export function render(a) {
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="dns-prefetch" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=103"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=106"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));

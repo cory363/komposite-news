@@ -2492,4 +2492,19 @@ button,input,select,textarea{font-family:var(--mastfont)}
    full desktop width the three tracks still carried a min-content floor from
    the nowrap byline, so the page overflowed at 1024. The floor is removed at
    every width; the byline ellipsises, as it was already set up to do. */
-.opgrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (min-width:761px){.opgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* ======================================================================
+   Optical weight on large headlines
+   Oswald 600 holds up at list size and reads heavy once a headline is set
+   large — the reference runs its lead lighter than its list items, which is
+   the usual optical-size adjustment: the bigger the type, the less weight it
+   needs to carry the same colour on the page. Large display headlines drop
+   to 500; card and list headlines stay at 600 so they hold at 15-17px.
+   ====================================================================== */
+.lsec .lbig-tx h3,.lhero-tx h2,.art h1,.spothead,.catname,
+.bbl h2,.abclead-panel h2,.divpanel-issue,.czlead h2,.cover h1,.leadviscap h1{
+  font-weight:400}
+/* The middle tier sits between the two: lighter than a list item, heavier
+   than a lead. */
+.lsec .lcol-stack .lstack h3,.story h2,.story h3,.hl h2{font-weight:500}
