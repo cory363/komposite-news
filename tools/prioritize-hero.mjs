@@ -48,7 +48,10 @@ for (const p of walk(".")) {
     if (!/loading=/.test(t)) t = t.replace(/<img/, `<img loading="eager"`);
     if (!/fetchpriority=/.test(t)) t = t.replace(/<img/, `<img fetchpriority="high"`);
     if (!/decoding=/.test(t)) t = t.replace(/<img/, `<img decoding="async"`);
-    if (!/width="\d+"/.test(t)) {
+    /* Only article heroes take width/height. Elsewhere the card and hero
+       classes size images with CSS aspect-ratio and set no height, so the
+       attribute wins as a presentational hint and stretches the image. */
+    if (isArticle && !/width="\d+"/.test(t)) {
       const src = (t.match(/src="([^"]+)"/) || [])[1] || "";
       const d = dims[idOf(src)];
       const want = +(src.match(/[?&](?:w|width)=(\d+)/) || [])[1] || (d ? d.w : 0);

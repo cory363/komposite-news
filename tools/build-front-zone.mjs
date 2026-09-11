@@ -126,8 +126,8 @@ const zone = `<main class="wrap abczone">
     <div class="abckick">${esc(feature.kick)}</div>
     <h3><a href="${feature.url}">${esc(feature.title)}</a></h3>
     <span class="abctime">${ago(feature.date)}</span></article>
-  <div class="abctop abctop-num"><div class="abctop-h">Top stories</div>
-    <ol>${topStories.map(a => `<li><a href="${a.url}">${esc(a.title)}</a></li>`).join("")}</ol>
+  <div class="abctop abctop-num abctop-thumbs"><div class="abctop-h">Top stories</div>
+    <ol>${topStories.map(a => `<li><a href="${a.url}"><span class="toptx">${esc(a.title)}</span>${a.img ? `<span class="topthumb"><img src="${esc(a.img)}" alt="${esc(a.alt || "")}" loading="lazy"></span>` : ""}</a></li>`).join("")}</ol>
   </div>
     ${railOpinion.length ? `<div class="railmod"><div class="railmod-h">Opinion &amp; analysis</div>
       <ul>${railOpinion.map(a => `<li><a href="${a.url}">${esc(a.title)}</a>${a.author ? `<span class="railby">${esc(a.author)}</span>` : ""}</li>`).join("")}</ul>

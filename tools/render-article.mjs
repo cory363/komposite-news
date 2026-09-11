@@ -98,9 +98,9 @@ export function render(a) {
 <meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:image" content="${esc(h.url)}"><meta property="og:image:width" content="${h.width}"><meta property="og:image:height" content="${h.height}"><meta property="og:image:alt" content="${esc(h.alt)}"><meta property="article:published_time" content="${a.date}"><meta property="article:modified_time" content="${a.date}"><meta property="article:author" content="${esc(name.replace(/&amp;/g, "&"))}"><meta property="article:section" content="${esc(a.sectionLabel)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(h.url)}">
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="dns-prefetch" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=89"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=94"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
@@ -115,7 +115,7 @@ export function render(a) {
 <div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>
 <div class="bydate">${prettyDate(a.date)} &middot; ${mins} min read</div></div>
 ${shareRow(url, a.headline)}
-${a.opinion ? `<figure class="arthero"><figcaption>${esc(a.dek)}</figcaption></figure>` : `<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="lazy" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>`}
+${a.opinion ? `<figure class="arthero"><figcaption>${esc(a.dek)}</figcaption></figure>` : `<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>`}
 <div class="artbody">${body}</div>
 <div class="tagsrow">${tags}</div>
 <div class="band"><span>MORE ON THIS STORY</span></div>

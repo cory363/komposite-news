@@ -18,6 +18,11 @@ const BEATS = {
   fintech:       "payments OR fintech acquisition OR bank technology",
   cybersecurity: "data breach OR ransomware OR cyberattack company",
   business:      "earnings OR merger OR antitrust lawsuit tech",
+  technology:    "enterprise software OR cloud computing OR semiconductor supply",
+  policy:        "SEC rule OR CFPB OR federal regulation technology",
+  startups:      "venture capital funding round OR startup raises Series",
+  culture:       "streaming film box office OR media company deal",
+  music:         "music streaming OR record label OR touring business",
 };
 const seen = new Set();
 const out = [];
