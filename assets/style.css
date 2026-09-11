@@ -2394,3 +2394,62 @@ h1,h2,h3,h4,
 .knav-links a,.knav-search,.knav-login,.knav-sub,.knav-lang,.knav-lang::after,
 .kdate-row,.kdate-ed,.kdate-tip,.sharebtn,.kn-follow,
 button,input,select,textarea{font-family:var(--mastfont)}
+
+/* ======================================================================
+   Reading size
+   The new faces set smaller than the ones they replaced: Oswald is condensed,
+   so a headline at the old pixel size reads shorter, and the standfirst had
+   ended up smaller than the body it introduces. Sizes only — family, weight,
+   spacing and colour are untouched, and the masthead is not in here.
+   ====================================================================== */
+.art h1{font-size:44px}
+.artdeck{font-size:19px}
+.artbody p,.art p,.artbody li{font-size:19px}
+.artbody figcaption,figcaption{font-size:13px}
+.bydate,.byrow,.byname,.byrole,.tago,.lago,.abctime,.ft,.railby,.qby,
+.leadby,.dived-date,.cardby{font-size:11.5px}
+.pcred,.ccredit{font-size:10px}
+
+.lhero-tx h2{font-size:clamp(26px,4vw,52px)}
+.lhero-dek{font-size:17.5px}
+.lbig-tx h3,.lstack h3,.abccard h3,.seclead-tx h3,.topcell h3,.stripcard h3,
+.imgcard h3,.czcard h3,.opfeat h3,.aucard h3,.nl h3,.abcfeature h3,
+.qitem h3,.hl h3,.divcol h3{font-size:17.5px}
+.llist h3,.seclist li a,.feedrow a,.poplist li a,.railmod li a{font-size:15.5px}
+.abctop li a{font-size:17px}
+.mostread li{font-size:15.5px}
+.story h2,.story h3,.czlead h2,.hl h2{font-size:21px}
+.deck,.dek,.excerpt{font-size:15px}
+.spothead{font-size:27px}
+.catname{font-size:34px}
+
+.kick{font-size:12.5px}
+.lkick,.abckick,.bbkick,.recokick,.fc,.qllabel,.secl-t{font-size:11px}
+.lseclabel,.lseclabel a{font-size:12.5px}
+.morehead,.abctop-h,.sechead-row h2,.kfoot-col h2{font-size:12px}
+
+@media (max-width:560px){
+  .art h1{font-size:33px}
+  .artdeck{font-size:18px}
+  .artbody p,.art p,.artbody li{font-size:18.5px}
+  .lhero-dek{font-size:16.5px}
+  .lbig-tx h3,.lstack h3,.abccard h3,.seclead-tx h3,.topcell h3,.stripcard h3,
+  .imgcard h3,.czcard h3,.opfeat h3,.aucard h3,.nl h3,.abcfeature h3,
+  .qitem h3,.hl h3,.divcol h3{font-size:17px}
+  .llist h3,.seclist li a,.feedrow a,.poplist li a,.railmod li a{font-size:16px}
+  .abctop li a{font-size:16.5px}
+  .story h2,.story h3,.czlead h2,.hl h2{font-size:19.5px}
+  .catname{font-size:28px}
+  .spothead{font-size:23px}
+}
+
+/* Four sizes above were set by more specific selectors and did not take.
+   Matching their specificity rather than reaching for !important. */
+.abcmain .lstack h3{font-size:17.5px}
+.abcmain .llist h3{font-size:15.5px}
+.arthero figcaption,.chartfig figcaption{font-size:13px}
+.art>.kick{font-size:12.5px}
+@media (max-width:560px){
+  .abcmain .lstack h3{font-size:17px}
+  .llist h3,.abcmain .llist h3{font-size:16px}
+}
