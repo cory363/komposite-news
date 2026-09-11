@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "ai": "IA", "markets": "Mercados", "business": "Negocios", "technology": "Tecnología",
+    "fintech": "Fintech", "crypto": "Cripto", "cybersecurity": "Ciberseguridad",
+    "policy": "Regulación", "culture": "Cultura", "opinion": "Opinión",
+    "blockchain": "Blockchain", "startups": "Startups", "music": "Música"
+  },
+  "chrome": {
+    "Markets &middot; Technology &middot; Capital": "Mercados &middot; Tecnología &middot; Capital",
+    "Global Edition": "Edición global",
+    "Got a tip?": "¿Tienes información?",
+    "Search": "Buscar",
+    "Log in": "Iniciar sesión",
+    "Subscribe": "Suscríbete",
+    "Sections": "Secciones",
+    "More": "Más",
+    "Newsroom": "Redacción",
+    "Editorial leadership": "Dirección editorial",
+    "Editorial standards": "Normas editoriales",
+    "Corrections": "Correcciones",
+    "AI policy": "Política sobre IA",
+    "News tips": "Envíanos información",
+    "Company": "Compañía",
+    "About": "Quiénes somos",
+    "Careers": "Empleo",
+    "Advertise": "Publicidad",
+    "Licensing &amp; reprints": "Licencias y reproducciones",
+    "Contact": "Contacto",
+    "Follow": "Síguenos",
+    "Privacy": "Privacidad",
+    "Terms": "Términos",
+    "All rights reserved.": "Todos los derechos reservados.",
+    "Share": "Compartir",
+    "Save": "Guardar",
+    "Copy link": "Copiar enlace",
+    "Popular": "Lo más leído",
+    "Top stories": "Titulares",
+    "Latest": "Lo último",
+    "The Divide": "El Debate",
+    "Partner content appears here.": "Aquí aparece contenido de socios.",
+    "Advertise with Komposite": "Anúnciate en Komposite",
+    "From our partners": "De nuestros socios",
+    "min read": "min de lectura"
+  },
+  "months": {
+    "January":"enero","February":"febrero","March":"marzo","April":"abril","May":"mayo",
+    "June":"junio","July":"julio","August":"agosto","September":"septiembre",
+    "October":"octubre","November":"noviembre","December":"diciembre"
+  },
+  "ui": {
+    "editionNote": "Edición en español",
+    "moreIn": "Más en",
+    "readInEnglish": "Leer en inglés",
+    "backToEnglish": "English",
+    "partial": "La edición en español recoge una selección de la cobertura de Komposite News. El resto del sitio está en inglés."
+  }
+}
