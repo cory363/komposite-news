@@ -817,5 +817,32 @@
   "alt": "Parliament Hill in Ottawa seen from across the river",
   "creditHtml": "<a href=\"https://unsplash.com/@desort_design?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Chris DeSort</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/anthropic-publishes-what-it-stopped": {
+  "id": "pwcKF7L4-no",
+  "url": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8bWljcm9iaW9sb2d5JTIwbGFib3JhdG9yeSUyMHJlc2VhcmNoZXIlMjBwaXBldHRlfGVufDF8MHx8fDE3ODkyMTk2MTd8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A pipette filling a laboratory microplate",
+  "creditHtml": "<a href=\"https://unsplash.com/@_louisreed?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Louis Reed</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "policy/fcc-leaves-the-transceiver-alone": {
+  "id": "INNsF0Zz_kQ",
+  "url": "https://images.unsplash.com/photo-1606814540563-5c02d62fd409?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8M3x8ZmliZXIlMjBvcHRpYyUyMGNvbm5lY3RvcnMlMjBtYWNybyUyMGxpZ2h0fGVufDF8MHx8fDE3ODkyMTk2MTh8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 891,
+  "alt": "A bundle of illuminated optical fibres",
+  "creditHtml": "<a href=\"https://unsplash.com/@comparefibre?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Compare Fibre</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/doj-restrains-fifty-two-million-with-an-issuer": {
+  "id": "YkcFA_tMNrA",
+  "url": "https://images.unsplash.com/photo-1774535852012-0c634d8f2da0?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8cG9saWNlJTIwaW52ZXN0aWdhdGlvbiUyMGV2aWRlbmNlJTIwZGVza3xlbnwxfDB8fHwxNzg5MjE5NjE5fDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Documents scattered across a floor",
+  "creditHtml": "<a href=\"https://unsplash.com/@paigeprevost?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Paige Prevost</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
