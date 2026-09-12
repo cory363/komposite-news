@@ -2569,3 +2569,22 @@ button,input,select,textarea{font-family:var(--mastfont)}
   .lsec .lcol-list .llist-thumb{flex:0 0 80px;width:80px}
   .lsec .lcol-list .llist-thumb img{aspect-ratio:1/1}
 }
+
+/* ======================================================================
+   Article tags
+   They carried #FDF8EF, a cream from an earlier palette that survives in
+   three places and matches nothing else on the page — the paper is white,
+   the rules are pale grey and the accent is red. The tags now read as the
+   label they are: Oswald small caps on paper, a hairline box, filling to
+   ink on hover the way the section tabs do.
+   ====================================================================== */
+.tagsrow{gap:8px;margin:26px 0}
+.tagsrow a{font-family:var(--label);font-size:11px;font-weight:500;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink);background:var(--paper);
+  border:1px solid var(--rule);padding:6px 12px;text-decoration:none;
+  transition:background .15s,color .15s,border-color .15s}
+.tagsrow a:hover{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+
+/* The same cream sat behind the search and newsletter fields. */
+.sform input,.nlform input{background:var(--paper)}
+.chartfig{background:var(--tint)}
