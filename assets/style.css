@@ -2561,3 +2561,11 @@ button,input,select,textarea{font-family:var(--mastfont)}
   .abcmain .lcol-stack .lstack-img{min-height:0}
   .abcmain .lcol-stack .lstack-img img{height:auto;aspect-ratio:16/10}
 }
+
+/* Section-list thumbnails: 80px square, matching the reference composition
+   these blocks were modelled on. They were 76x60, which read as a slightly
+   awkward crop beside a square-ish grid of rows. */
+@media (min-width:901px){
+  .lsec .lcol-list .llist-thumb{flex:0 0 80px;width:80px}
+  .lsec .lcol-list .llist-thumb img{aspect-ratio:1/1}
+}
