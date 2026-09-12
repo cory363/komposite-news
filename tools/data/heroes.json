@@ -772,5 +772,50 @@
   "alt": "A large white building with a staircase leading up to the second floor",
   "creditHtml": "<a href=\"https://unsplash.com/@dapperprofessional?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Benjamin R.</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/uk-opens-a-five-month-authorisation-window": {
+  "id": "7ojyp-IXW7w",
+  "url": "https://images.unsplash.com/photo-1549483249-f0b359d1e289?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8bG9uZG9uJTIwY2l0eSUyMGZpbmFuY2lhbCUyMGRpc3RyaWN0JTIwc2t5bGluZXxlbnwxfDB8fHwxNzg5MjEzNjE0fDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "The City of London skyline at dusk",
+  "creditHtml": "<a href=\"https://unsplash.com/@alevtakil?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Alev Takil</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/upi-moves-from-payments-into-credit": {
+  "id": "FY33apL3IR8",
+  "url": "https://images.unsplash.com/photo-1636011203281-a76ae5a437dd?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8aW5kaWElMjBzdHJlZXQlMjBtYXJrZXQlMjB2ZW5kb3IlMjBwYXltZW50fGVufDF8MHx8fDE3ODkyMTM2MTR8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "A busy street market in India",
+  "creditHtml": "<a href=\"https://unsplash.com/@underroot?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Anirudh</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "business/paramount-and-the-states-agree-to-talk": {
+  "id": "mncNxC4aJX8",
+  "url": "https://images.unsplash.com/photo-1702126952818-2ea3d6176281?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZmlsbSUyMHN0dWRpbyUyMGxvdCUyMHNvdW5kJTIwc3RhZ2V8ZW58MXwwfHx8MTc4OTIxMzYxNXww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Lighting rigs on a film sound stage",
+  "creditHtml": "<a href=\"https://unsplash.com/@neonboiiz?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Anthony Lim</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/berlin-refuses-and-the-files-appear": {
+  "id": "dFeOdGPk2hc",
+  "url": "https://images.unsplash.com/photo-1552035496-08efc7baf40e?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8YmVybGluJTIwZ292ZXJubWVudCUyMGJ1aWxkaW5nJTIwYXJjaGl0ZWN0dXJlfGVufDF8MHx8fDE3ODkyMTM2MTZ8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1051,
+  "alt": "The Reichstag building in Berlin",
+  "creditHtml": "<a href=\"https://unsplash.com/@thisisyannic?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Yannic Kreß</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "blockchain/canada-rules-a-token-is-still-a-deposit": {
+  "id": "U-fJl3lTWJ4",
+  "url": "https://images.unsplash.com/photo-1599457480385-83984b998663?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8b3R0YXdhJTIwcGFybGlhbWVudCUyMGJ1aWxkaW5nJTIwY2FuYWRhfGVufDF8MHx8fDE3ODkyMTM2OTJ8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Parliament Hill in Ottawa seen from across the river",
+  "creditHtml": "<a href=\"https://unsplash.com/@desort_design?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Chris DeSort</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
