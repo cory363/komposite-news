@@ -90,6 +90,29 @@ for (const f of files) {
 const dupT = Object.entries(T).filter(([, v]) => v.length > 1);
 const dupC = Object.entries(C).filter(([, v]) => v.length > 1);
 dupC.length ? bad(`duplicate canonicals: ${dupC.length}`) : ok("no duplicate canonicals");
+
+// No two articles may carry the same photograph. The dedupe inside the image
+// tools compared an API short id against a URL-derived one, so it never
+// rejected anything; this is the backstop that would have caught that.
+{
+  const pid = (u) => { const m = String(u).match(/photo-([A-Za-z0-9_-]{6,})/) || String(u).match(/FilePath\/([^?"]+)/); return m ? decodeURIComponent(m[1]) : String(u).split("?")[0]; };
+  const byPhoto = {};
+  for (const f of files) {
+    if (!/\/index\.html$/.test(f) || f.startsWith("es/") || f.startsWith("./es/")) continue;
+    const h = fs.readFileSync(f, "utf8");
+    if (!/"@type":"NewsArticle"/.test(h)) continue;
+    const m = h.match(/<img[^>]*class="[^"]*illo[^"]*"[^>]*src="([^"]+)"/);
+    if (!m) continue;
+    (byPhoto[pid(m[1])] = byPhoto[pid(m[1])] || []).push(f.replace(/\/index\.html$/, ""));
+  }
+  const shared = Object.entries(byPhoto).filter(([, v]) => v.length > 1);
+  if (shared.length) {
+    bad(`images: ${shared.length} photograph(s) used by more than one article`);
+    shared.slice(0, 8).forEach(([, v]) => console.log("        " + v.join("  |  ")));
+  } else {
+    ok(`images: every article carries a different photograph (${Object.keys(byPhoto).length} distinct)`);
+  }
+}
 console.log(`  note duplicate titles: ${dupT.length} (pre-existing section/tag pairs)`);
 dupT.forEach(([t, v]) => console.log("        " + t + " -> " + v.join(", ")));
 

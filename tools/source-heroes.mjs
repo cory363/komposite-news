@@ -39,14 +39,16 @@ for (const w of WORK) {
     calls++;
     if (!r.ok) { console.log(`  ${w.slug}: HTTP ${r.status}`); continue; }
     const j = await r.json();
-    pick = (j.results || []).find(p => p.width / p.height >= 1.3 && !inUse.has(p.id)
+    /* Same mismatch as unsplash-fix: compare the URL-derived id, not the
+       API short id, or nothing is ever excluded. */
+    pick = (j.results || []).find(p => p.width / p.height >= 1.3 && !inUse.has(idOf(p.urls.raw)) && !inUse.has(p.id)
       && !NO.test((p.alt_description || "") + " " + (p.description || "")));
     await new Promise(x => setTimeout(x, 150));
   }
   if (!pick) { console.log("  no candidate: " + w.slug); continue; }
   try { const d = await fetch(pick.links.download_location, { headers: H }); calls++; if (!d.ok) throw 0; }
   catch { console.log("  trigger failed: " + w.slug); continue; }
-  inUse.add(pick.id);
+  inUse.add(idOf(pick.urls.raw)); inUse.add(pick.id);
   heroes[w.slug] = {
     id: pick.id,
     url: `${pick.urls.raw}&w=1400&q=80&fm=jpg&fit=crop`,

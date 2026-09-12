@@ -99,11 +99,15 @@ for (const { pkey, sec, queries } of needed) {
 for (const w of work) {
   if (calls >= budget) { console.log("  budget reached"); break; }
   const pool = pools[w.pkey] || [];
-  const pick = pool.find(p => !inUse.has(p.id));
+  /* inUse holds ids derived from image URLs (1674027444485-cec3da58eef4);
+     p.id is the API short id (Xk7OXNhRTJI). Comparing the two never matched,
+     so this duplicate check has never once rejected a photograph. Compare
+     like with like, and record both forms. */
+  const pick = pool.find(p => !inUse.has(idOf(p.urls.raw)) && !inUse.has(p.id));
   if (!pick) { console.log("  no candidate for " + w.slug); continue; }
   try { const r = await fetch(pick.links.download_location, { headers: H }); calls++; if (!r.ok) throw 0; }
   catch { console.log("  trigger failed " + w.slug); continue; }
-  inUse.add(pick.id);
+  inUse.add(idOf(pick.urls.raw)); inUse.add(pick.id);
   let h = fs.readFileSync(w.file, "utf8");
   const src = `${pick.urls.raw}&w=1400&q=80&fm=jpg&fit=crop`;
   const hh = Math.round(1400 * pick.height / pick.width);
