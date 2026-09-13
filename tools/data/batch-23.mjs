@@ -12,7 +12,7 @@ AI({ slug:"opinion-catch-me-if-you-can", kick:"Opinion",
   dek:"The models that make headlines by breaking out may be the least capable ones. The strategy worth fearing is the one that never gets noticed at all.",
   metaDesc:"Julio Rojas argues that the misalignment strategy worth fearing is not the model that escapes loudly, but the one that passes every evaluation and is never discovered.",
   author:"julio-rojas", date:"2026-09-13T17:00:00Z",
-  capt:"The quiet student at the back of the classroom.",
+  capt:"Being noticed, in his account, is already a failure of calculation.",
   tags:[{name:"AI Security",slug:"ai-security"},{name:"Threat Intelligence",slug:"threat-intelligence"},{name:"Regulation",slug:"regulation"}],
   related:[
     {href:"/ai/anthropic-invites-the-examiners-in/",kick:"Governance",title:"Anthropic invites the examiners inside",ago:"SEPTEMBER 2026"},
