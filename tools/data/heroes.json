@@ -853,5 +853,50 @@
   "alt": "Wall Street signs at an intersection",
   "creditHtml": "<a href=\"https://unsplash.com/@bylolo?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Lo Lo</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "business/paramount-says-the-market-was-invented": {
+  "id": "KL3zuMANySs",
+  "url": "https://images.unsplash.com/photo-1722321974528-ec8eaf725777?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8Mnx8Y2luZW1hJTIwYXVkaXRvcml1bSUyMHNlYXRzJTIwZW1wdHklMjByb3dzfGVufDF8MHx8fDE3ODkzMDYzMTB8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Rows of empty seats in a cinema",
+  "creditHtml": "<a href=\"https://unsplash.com/@evanjeung?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Evan Jeung</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/thailand-writes-rules-for-the-plumbing": {
+  "id": "710ERWutjew",
+  "url": "https://images.unsplash.com/photo-1691089184982-0d6d14153b52?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8Mnx8YmFuZ2tvayUyMGNpdHklMjBza3lsaW5lJTIwcml2ZXJ8ZW58MXwwfHx8MTc4OTMwNjMxMXww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "The Bangkok skyline at dusk",
+  "creditHtml": "<a href=\"https://unsplash.com/@diedani?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Dani Doege</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "blockchain/sebi-settles-ten-billion-rupees-onchain": {
+  "id": "WYHiu6XYNMI",
+  "url": "https://images.unsplash.com/photo-1651431301792-39edddc3b1e9?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8bXVtYmFpJTIwYm9tYmF5JTIwc3RvY2slMjBleGNoYW5nZSUyMGJ1aWxkaW5nfGVufDF8MHx8fDE3ODkzMDYzMTJ8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 787,
+  "alt": "The Mumbai waterfront",
+  "creditHtml": "<a href=\"https://unsplash.com/@jsensarma?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Joydeep Sensarma</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/anthropic-invites-the-examiners-in": {
+  "id": "OL74wCbWVfk",
+  "url": "https://images.unsplash.com/photo-1776639119235-2ffc2d73cc4d?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8c3VydmVpbGxhbmNlJTIwY2FtZXJhJTIwbW9kZXJuJTIwYnVpbGRpbmclMjBmYWNhZGV8ZW58MXwwfHx8MTc4OTMwNjUzMHww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A security camera on a concrete facade",
+  "creditHtml": "<a href=\"https://unsplash.com/@borzenkov?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Anton Borzenkov</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "music/lyrics-became-the-engagement-surface": {
+  "id": "xG8IQMqMITM",
+  "url": "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8aGFuZHdyaXR0ZW4lMjBub3RlYm9vayUyMGx5cmljcyUyMHBlbnxlbnwxfDB8fHwxNzg5MzA2NTMxfDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1051,
+  "alt": "A fountain pen on an open notebook",
+  "creditHtml": "<a href=\"https://unsplash.com/@aaronburden?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Aaron Burden</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }

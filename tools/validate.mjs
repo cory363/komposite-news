@@ -113,6 +113,30 @@ dupC.length ? bad(`duplicate canonicals: ${dupC.length}`) : ok("no duplicate can
     ok(`images: every article carries a different photograph (${Object.keys(byPhoto).length} distinct)`);
   }
 }
+
+// The house imagery rule: real photography, no charts or graphs, and no
+// novelty "physical bitcoin" props. Both faults reached the front page and
+// both were visible in the alt text, so both are checkable here.
+{
+  const CHART = /\b(chart|graph|candlestick|infographic|diagram|dashboard)\b/i;
+  const PROP  = /\b(gold|golden|physical|silver|shiny)[- ]?(coloured|colored)?\s*bitcoin\b|\bbitcoin (coin|token|medal)\b|\bphysical (crypto|bitcoin)\b/i;
+  const breaches = [];
+  for (const f of files) {
+    if (!/\/index\.html$/.test(f) || f.startsWith("es/") || f.startsWith("./es/")) continue;
+    const h = fs.readFileSync(f, "utf8");
+    if (!/"@type":"NewsArticle"/.test(h)) continue;
+    const m = h.match(/<img[^>]*class="[^"]*illo[^"]*"[^>]*alt="([^"]*)"/);
+    if (!m) continue;
+    if (CHART.test(m[1])) breaches.push([f.replace(/\/index\.html$/, ""), "chart", m[1]]);
+    else if (PROP.test(m[1])) breaches.push([f.replace(/\/index\.html$/, ""), "prop coin", m[1]]);
+  }
+  if (breaches.length) {
+    bad(`images: ${breaches.length} breach the house imagery rule`);
+    breaches.slice(0,6).forEach(b => console.log("        " + b[1] + "  " + b[0] + "  " + b[2]));
+  } else {
+    ok("images: no chart or novelty-coin photography");
+  }
+}
 console.log(`  note duplicate titles: ${dupT.length} (pre-existing section/tag pairs)`);
 dupT.forEach(([t, v]) => console.log("        " + t + " -> " + v.join(", ")));
 
