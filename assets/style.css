@@ -2588,3 +2588,15 @@ button,input,select,textarea{font-family:var(--mastfont)}
 /* The same cream sat behind the search and newsletter fields. */
 .sform input,.nlform input{background:var(--paper)}
 .chartfig{background:var(--tint)}
+
+/* The lead item in the Opinion rail runs as a card with its photograph, so a
+   commissioned essay reaches the front page as something more than a line of
+   text in a sidebar list. */
+.railfeat{margin:0 0 14px;padding:0 0 14px;border-bottom:1px solid var(--rule)}
+.railfeat-img{display:block;margin-bottom:9px}
+.railfeat-img img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--tint)}
+.railfeat h3{font-family:var(--head);font-weight:600;font-size:17px;line-height:1.16;
+  letter-spacing:-.01em;margin:0}
+.railfeat h3 a{color:var(--ink)}
+.railfeat h3 a:hover{color:var(--claret)}
+.railfeat .railby{display:block;font-family:var(--text);font-size:11.5px;color:var(--claret);margin-top:5px}

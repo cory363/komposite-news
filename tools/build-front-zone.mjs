@@ -134,7 +134,8 @@ const zone = `<main class="wrap abczone">
     <ol>${topStories.map(a => `<li><a href="${a.url}"><span class="toptx">${esc(a.title)}</span>${a.img ? `<span class="topthumb"><img src="${esc(a.img)}" alt="${esc(a.alt || "")}" loading="lazy"></span>` : ""}</a></li>`).join("")}</ol>
   </div>
     ${railOpinion.length ? `<div class="railmod"><div class="railmod-h">Opinion &amp; analysis</div>
-      <ul>${railOpinion.map(a => `<li><a href="${a.url}">${esc(a.title)}</a>${a.author ? `<span class="railby">${esc(a.author)}</span>` : ""}</li>`).join("")}</ul>
+      ${railOpinion[0].img ? `<article class="railfeat"><a class="railfeat-img" href="${railOpinion[0].url}"><img src="${esc(railOpinion[0].img)}" alt="${esc(railOpinion[0].alt || "")}" loading="lazy"></a><h3><a href="${railOpinion[0].url}">${esc(railOpinion[0].title)}</a></h3>${railOpinion[0].author ? `<span class="railby">${esc(railOpinion[0].author)}</span>` : ""}</article>` : ""}
+      <ul>${railOpinion.slice(railOpinion[0].img ? 1 : 0).map(a => `<li><a href="${a.url}">${esc(a.title)}</a>${a.author ? `<span class="railby">${esc(a.author)}</span>` : ""}</li>`).join("")}</ul>
       <a class="railmore" href="/opinion/">All opinion &rsaquo;</a></div>` : ""}
 </aside>
 </main>`;
