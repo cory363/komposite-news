@@ -122,7 +122,7 @@ const zone = `<main class="wrap abczone">
   <div class="lgrid">
     <div class="lcol-big">${lOverlay(grid[0])}</div>
     <div class="lcol-stack">${grid.slice(1, 3).map(lStack).join("")}</div>
-    <div class="lcol-list">${grid.slice(3, 8).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
+    <div class="lcol-list">${grid.slice(3, 10).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
   </div>
 </div>
 <aside class="abcrail">
