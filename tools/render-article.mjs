@@ -39,6 +39,7 @@ const AUTHORS = {
   "ruth-calloway": "Ruth Calloway|Contributing Columnist",
   "grant-whitmore": "Grant Whitmore|Contributing Columnist",
   "julio-rojas": "Julio Rojas|Contributor",
+  "cory-chamberlain": "Cory Chamberlain|Chief Editor",
 };
 
 export const heroKey = a => `${a.dir}/${a.slug}`;

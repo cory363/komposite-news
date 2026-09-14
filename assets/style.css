@@ -2600,3 +2600,14 @@ button,input,select,textarea{font-family:var(--mastfont)}
 .railfeat h3 a{color:var(--ink)}
 .railfeat h3 a:hover{color:var(--claret)}
 .railfeat .railby{display:block;font-family:var(--text);font-size:11.5px;color:var(--claret);margin-top:5px}
+
+/* Masthead page. The roster is grouped under band headers now, and the chief
+   editor sits alone above the newsroom, so his row is a single column rather
+   than a two-up with a hole beside it. Scoped to .aumast so the band spacing
+   cannot move "Latest by" on the individual author pages, which share
+   .catpage. */
+.aumast .lsechead{margin-top:34px}
+.aumast .lsechead:first-of-type{margin-top:26px}
+.aumast .augrid{margin-top:16px}
+.aumast .augrid-lead{grid-template-columns:1fr}
+.aumast .augrid-lead .aucard p{max-width:680px}

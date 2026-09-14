@@ -13,8 +13,10 @@ const COLS = [
     ["/blockchain/","Blockchain"]]],
   ["More", [["/cybersecurity/","Cybersecurity"],["/startups/","Startups"],
     ["/policy/","Policy"],["/culture/","Culture"],["/music/","Music"],
-    ["/the-divide/","The Divide"],["/opinion/","Opinion"]]],
-  ["Newsroom", [["/authors/","Editorial leadership"],["/editorial-standards/","Editorial standards"],
+    /* Interviews was added to the footer by hand after this roster was
+       written, so every rebuild silently dropped it again. */
+    ["/the-divide/","The Divide"],["/opinion/","Opinion"],["/interviews/","Interviews"]]],
+  ["Newsroom", [["/authors/","Authors &amp; contributors"],["/editorial-standards/","Editorial standards"],
     ["/corrections/","Corrections"],["/ai-policy/","AI policy"],["/tips/","News tips"]]],
   ["Company", [["/about/","About"],["/careers/","Careers"],["/advertise/","Advertise"],
     ["/licensing/","Licensing &amp; reprints"],["/contact/","Contact"]]],
