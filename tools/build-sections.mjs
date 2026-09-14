@@ -17,7 +17,9 @@ const esc = s => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, "&amp;");
 const now = Date.now();
 const ago = iso => {
   const m = Math.floor((now - new Date(iso).getTime()) / 60000);
-  if (m < 60) return `${Math.max(m,1)} minute${m===1?"":"s"} ago`;
+  /* floor at one minute, then pluralise off the number actually printed:
+     a zero-minute-old article was rendering as "1 minutes ago". */
+  if (m < 60) { const n = Math.max(m,1); return `${n} minute${n===1?"":"s"} ago`; }
   const h = Math.floor(m / 60); if (h < 24) return `${h} hour${h===1?"":"s"} ago`;
   const d = Math.floor(h / 24); if (d <= 6) return `${d} day${d===1?"":"s"} ago`;
   return new Date(iso).toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
