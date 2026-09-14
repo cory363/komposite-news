@@ -173,6 +173,44 @@ const rs = fs.readFileSync("rss.xml", "utf8");
 try { ok(`search-index: ${JSON.parse(fs.readFileSync("search-index.json", "utf8")).length} entries, valid JSON`); }
 catch { bad("search-index invalid JSON"); }
 
+/* 5b. Discoverability. Six hand-authored Divide columns shipped with a
+   breadcrumb that named nothing and pointed at /divide/, a directory that has
+   never existed, and with no entry category in the search index. None of that
+   is an <a href>, so the broken-link pass above could not see it. */
+{
+  const idx = JSON.parse(fs.readFileSync("search-index.json", "utf8"));
+  const arr = Array.isArray(idx) ? idx : idx.items;
+  const indexed = new Set(arr.map(e => e.u));
+  const pageUrls = new Set(files.map(p => "/" + p.replace(/^\.\//, "").replace(/index\.html$/, "")));
+  let crumbNoName = 0, crumbNowhere = 0, noSection = 0;
+  const unsearchable = [];
+  for (const f of files) {
+    const h = fs.readFileSync(f, "utf8");
+    const url = "/" + f.replace(/^\.\//, "").replace(/index\.html$/, "");
+    let isArticle = false;
+    for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+      let j; try { j = JSON.parse(m[1]); } catch { continue; }
+      if (j["@type"] === "NewsArticle") { isArticle = true; if (!j.articleSection) noSection++; }
+      if (j["@type"] === "BreadcrumbList") for (const it of j.itemListElement || []) {
+        if (!it.name) crumbNoName++;
+        const u = String(it.item || "").replace("https://kompositenews.com", "") || "/";
+        if (u !== "/" && !pageUrls.has(u)) crumbNowhere++;
+      }
+    }
+    /* noindex pages are meant to be absent from search. */
+    if (isArticle && !indexed.has(url) && !/name="robots" content="noindex/.test(h)) unsearchable.push(url);
+  }
+  crumbNoName ? bad(`breadcrumb items with no name: ${crumbNoName}`) : ok("breadcrumbs: every item is named");
+  crumbNowhere ? bad(`breadcrumb items pointing at a page that does not exist: ${crumbNowhere}`) : ok("breadcrumbs: every item resolves to a page");
+  noSection ? bad(`NewsArticle blocks without articleSection: ${noSection}`) : ok("every article declares its section");
+  const noCat = arr.filter(e => !e.c).length;
+  noCat ? bad(`search-index entries with no category: ${noCat}`) : ok("search-index: every entry carries a category");
+  unsearchable.length
+    ? bad(`articles missing from search-index: ${unsearchable.length}`)
+    : ok(`search: all ${indexed.size} indexed, every article findable`);
+  unsearchable.slice(0, 10).forEach(u => console.log("        " + u));
+}
+
 // 6. Images have alt
 let imgs = 0, noAlt = 0;
 for (const f of files) for (const m of fs.readFileSync(f, "utf8").matchAll(/<img\s[^>]*>/g)) { imgs++; if (!/alt="[^"]+"/.test(m[0])) noAlt++; }

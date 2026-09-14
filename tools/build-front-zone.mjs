@@ -77,11 +77,11 @@ const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
   .concat(take(3, a => !opinion(a))).slice(0, 2);   // 2, not 3: keeps the lead unit above a 1280x800 fold
 const grid = take(11, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
-const topStories = take(7, a => !opinion(a));   // 11 made the hero zone 1,600px tall and pushed the sections off screen
+const topStories = take(5, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
 /* The Divide columns have their own panel further down the page; listing
    them in the opinion rail as well put the same argument on the front twice,
    which on a phone is two identical headlines a few screens apart. */
-const railOpinion = take(3, a => !a.url.startsWith("/divide/") &&
+const railOpinion = take(2, a => !a.url.startsWith("/divide/") &&
   (opinion(a) || /opinion|analysis|column/i.test(a.kick)));
 
 const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
@@ -122,7 +122,7 @@ const zone = `<main class="wrap abczone">
   <div class="lgrid">
     <div class="lcol-big">${lOverlay(grid[0])}</div>
     <div class="lcol-stack">${grid.slice(1, 3).map(lStack).join("")}</div>
-    <div class="lcol-list">${grid.slice(3, 10).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
+    <div class="lcol-list">${grid.slice(3, 8).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
   </div>
 </div>
 <aside class="abcrail">
