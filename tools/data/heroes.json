@@ -997,5 +997,32 @@
   "alt": "Paris rooftops at sunset with the Eiffel Tower in the distance",
   "creditHtml": "<a href=\"https://unsplash.com/@calliegramie?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Thu Ba To</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/chime-buys-the-bank-it-was-renting": {
+  "id": "6t29KEGDGLo",
+  "url": "https://images.unsplash.com/photo-1549224511-7a5143aae98a?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZW1wdHklMjBiYW5rJTIwbG9iYnklMjBtYXJibGUlMjBpbnRlcmlvcnxlbnwxfDB8fHwxNzg5NDc3MzgwfDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1013,
+  "alt": "A marble colonnade along the street frontage of a city bank building",
+  "creditHtml": "<a href=\"https://unsplash.com/@thanospal?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Thanos Pal</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "policy/the-wash-sale-rule-catches-up": {
+  "id": "2xaF4TbjXT0",
+  "url": "https://images.unsplash.com/photo-1507878866276-a947ef722fee?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZW1wdHklMjBjb21taXR0ZWUlMjBoZWFyaW5nJTIwcm9vbSUyMGNoYWlyc3xlbnwxfDB8fHwxNzg5NDc3MzgxfDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Rows of empty chairs set out in a hearing room",
+  "creditHtml": "<a href=\"https://unsplash.com/@jonasjacobsson?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Jonas Jacobsson</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/sixty-one-million-of-the-one-and-a-half-billion": {
+  "id": "tm_pBZ5UHiU",
+  "url": "https://images.unsplash.com/photo-1585713181954-48d69dfb72e9?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8b2lsJTIwdGFua2VyJTIwc2hpcCUyMGF0JTIwc2VhJTIwYWVyaWFsfGVufDF8MHx8fDE3ODk0NzczODF8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "An oil tanker under way at sea, seen from directly above",
+  "creditHtml": "<a href=\"https://unsplash.com/@ventiviews?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Venti Views</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
