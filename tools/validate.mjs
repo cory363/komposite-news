@@ -170,6 +170,16 @@ const sm = fs.readFileSync("sitemap.xml", "utf8");
 const rs = fs.readFileSync("rss.xml", "utf8");
 (rs.match(/<item>/g) || []).length === (rs.match(/<\/item>/g) || []).length && /<\/rss>/.test(rs)
   ? ok(`rss: ${(rs.match(/<item>/g) || []).length} items, balanced`) : bad("rss malformed");
+/* The feed advertised a build date four days older than its newest item,
+   because only build-rss.mjs stamped it and wire.mjs never did. Aggregators
+   read this to decide whether to re-poll. */
+{
+  const lb = Date.parse((rs.match(/<lastBuildDate>([^<]*)</) || [])[1] || "");
+  const newest = Date.parse((rs.match(/<pubDate>([^<]*)</) || [])[1] || "");
+  Number.isFinite(lb) && Number.isFinite(newest) && lb >= newest
+    ? ok("rss: lastBuildDate is no older than the newest item")
+    : bad(`rss: lastBuildDate is stale (${new Date(lb).toUTCString()} vs newest item ${new Date(newest).toUTCString()})`);
+}
 try { ok(`search-index: ${JSON.parse(fs.readFileSync("search-index.json", "utf8")).length} entries, valid JSON`); }
 catch { bad("search-index invalid JSON"); }
 

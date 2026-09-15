@@ -2611,3 +2611,11 @@ button,input,select,textarea{font-family:var(--mastfont)}
 .aumast .augrid{margin-top:16px}
 .aumast .augrid-lead{grid-template-columns:1fr}
 .aumast .augrid-lead .aucard p{max-width:680px}
+
+/* Skip link: out of the way until a keyboard reaches it, then it lands over
+   the masthead where it can be read. */
+.kskip{position:absolute;left:-9999px;top:0;z-index:100}
+.kskip:focus{left:50%;transform:translateX(-50%);top:8px;padding:10px 18px;
+  background:var(--paper);color:var(--ink);border:2px solid var(--claret);
+  font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+  text-decoration:none;border-radius:2px}

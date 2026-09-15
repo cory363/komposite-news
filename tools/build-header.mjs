@@ -12,9 +12,16 @@ import path from "node:path";
 const NAV = [["/ai/","AI"],["/markets/","Markets"],["/business/","Business"],
   ["/technology/","Technology"],["/fintech/","Fintech"],["/crypto/","Crypto"],
   ["/cybersecurity/","Cybersecurity"],["/policy/","Policy"],
-  ["/culture/","Culture"],["/opinion/","Opinion"]];
+  /* Interviews was added to the live nav by hand after this list was written,
+     so the next header rebuild would have deleted it from every page, the way
+     the footer roster silently dropped it. */
+  ["/culture/","Culture"],["/opinion/","Opinion"],["/interviews/","Interviews"]];
 
-const HEADER = `<header class="kmast">
+/* Before this, reaching the story with a keyboard meant tabbing the wordmark,
+   eleven section links, the language tab, search, log in and subscribe — on
+   every page. The link is off-screen until it takes focus. */
+const HEADER = `<a class="kskip" href="#main">Skip to content</a>
+<header class="kmast">
   <div class="wrap kmast-row">
     <a class="kmark" href="/" aria-label="Komposite News home">Komposite News</a>
     <div class="kmast-sub">Markets &middot; Technology &middot; Capital</div>

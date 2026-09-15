@@ -172,6 +172,11 @@ export function wire(a, log = console.log) {
       const item = `<item><title>${esc(a.headline)}</title><link>${SITE}${url}</link><guid>${SITE}${url}</guid><pubDate>${new Date(a.date).toUTCString()}</pubDate><description>${esc(a.dek)}</description><category>${esc(a.sectionLabel)}</category></item>`;
       const i = x.indexOf("<item>");
       x = x.slice(0, i) + item + x.slice(i);
+      /* Only build-rss.mjs ever stamped lastBuildDate, and that runs rarely,
+         so the feed was advertising a build four days older than its newest
+         item. Aggregators use this to decide whether to re-poll. */
+      x = x.replace(/<lastBuildDate>[^<]*<\/lastBuildDate>/,
+        `<lastBuildDate>${new Date(a.date).toUTCString()}</lastBuildDate>`);
       write(f, x); done.push("rss");
     } else done.push("rss(already)");
   }
