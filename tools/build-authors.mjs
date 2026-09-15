@@ -17,6 +17,11 @@ const ROSTER = [
       beats: "Editorial direction and standards" },
   ]],
   ["Newsroom", [
+    /* Biography intentionally minimal: nothing is asserted about a real person
+       that they have not said themselves. Fill in the desk and background when
+       supplied. */
+    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Editor",
+      bio: "Noam Krasniansky is an editor at Komposite News." },
     { slug: "jonathan-bright" }, { slug: "marcus-oyelaran" }, { slug: "colin-abernathy" },
     { slug: "dana-whitfield" }, { slug: "priya-raghavan" }, { slug: "tom-kessler" },
     { slug: "elena-vasquez" }, { slug: "sam-porter" }, { slug: "grace-lindqvist" },
