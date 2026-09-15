@@ -11,17 +11,17 @@ const initials = n => n.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpper
 
 /* Order inside a group is editorial, not alphabetical: desk editors first. */
 const ROSTER = [
-  ["Editor", [
+  ["Leadership", [
     { slug: "cory-chamberlain", name: "Cory Chamberlain", role: "Chief Editor",
       bio: "Cory Chamberlain is the chief editor of Komposite News. He comes to the newsroom from a media executive background and works as an author and journalist.",
       beats: "Editorial direction and standards" },
+    /* Peer to the chief editor, not beneath one. Biography stays to a single
+       factual sentence: nothing is asserted about a real person that they have
+       not said themselves. */
+    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Chief Content Officer",
+      bio: "Noam Krasniansky is chief content officer of Komposite News." },
   ]],
   ["Newsroom", [
-    /* Biography intentionally minimal: nothing is asserted about a real person
-       that they have not said themselves. Fill in the desk and background when
-       supplied. */
-    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Editor",
-      bio: "Noam Krasniansky is an editor at Komposite News." },
     { slug: "jonathan-bright" }, { slug: "marcus-oyelaran" }, { slug: "colin-abernathy" },
     { slug: "dana-whitfield" }, { slug: "priya-raghavan" }, { slug: "tom-kessler" },
     { slug: "elena-vasquez" }, { slug: "sam-porter" }, { slug: "grace-lindqvist" },
@@ -87,7 +87,9 @@ const groups = ROSTER.map(([label, list]) => {
   list.forEach(ensurePage);
   const rows = list.map(read);
   people += rows.length;
-  const lead = label === "Editor" ? " augrid-lead" : "";
+  /* The full-width row exists so one person does not sit in a two-up with a
+     hole beside them. Two or more go back to the normal grid. */
+  const lead = label === "Leadership" && rows.length === 1 ? " augrid-lead" : "";
   return `<div class="lsechead"><span class="lseclabel">${esc(label)}</span></div>\n`
     + `<div class="augrid${lead}">${rows.map(card).join("")}</div>`;
 }).join("\n");

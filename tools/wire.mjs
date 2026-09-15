@@ -28,7 +28,7 @@ const AUTHORS = {
   "grant-whitmore": ["Grant Whitmore", "Contributing Columnist"],
   "julio-rojas": ["Julio Rojas", "Contributor"],
   "cory-chamberlain": ["Cory Chamberlain", "Chief Editor"],
-  "noam-krasniansky": ["Noam Krasniansky", "Editor"],
+  "noam-krasniansky": ["Noam Krasniansky", "Chief Content Officer"],
 };
 
 const read = f => fs.readFileSync(f, "utf8");
