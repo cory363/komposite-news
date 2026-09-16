@@ -27,7 +27,11 @@ const ROSTER = [
     { slug: "elena-vasquez" }, { slug: "sam-porter" }, { slug: "grace-lindqvist" },
   ]],
   ["Contributors", [
-    { slug: "julio-rojas" }, { slug: "ruth-calloway" }, { slug: "grant-whitmore" },
+    { slug: "julio-rojas" },
+    /* One factual sentence until a biography is supplied. */
+    { slug: "irene-spiegel", name: "Irene Spiegel", role: "Contributor",
+      bio: "Irene Spiegel is a contributor to Komposite News." },
+    { slug: "ruth-calloway" }, { slug: "grant-whitmore" },
   ]],
 ];
 

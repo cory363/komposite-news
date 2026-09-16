@@ -39,6 +39,7 @@ const AUTHORS = {
   "ruth-calloway": "Ruth Calloway|Contributing Columnist",
   "grant-whitmore": "Grant Whitmore|Contributing Columnist",
   "julio-rojas": "Julio Rojas|Contributor",
+  "irene-spiegel": "Irene Spiegel|Contributor",
   "cory-chamberlain": "Cory Chamberlain|Chief Editor",
   "noam-krasniansky": "Noam Krasniansky|Chief Content Officer",
 };
