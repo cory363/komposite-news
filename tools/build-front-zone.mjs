@@ -73,8 +73,11 @@ const lead = take(1, a => photo(a) && !opinion(a))[0];
 /* CNN and ABC both hang two or three related angles under the lead. It is
    the device that makes a front read as a newsroom covering a story rather
    than a list of unrelated items. Prefer same-section follow-ons. */
-const cluster = take(3, a => !opinion(a) && a.dir === lead.dir)
-  .concat(take(3, a => !opinion(a))).slice(0, 2);   // 2, not 3: keeps the lead unit above a 1280x800 fold
+/* 2, not 3: keeps the lead unit above a 1280x800 fold. Take only what is
+   shown: take() marks stories as placed, so over-taking and slicing used to
+   drop up to four of the newest pieces from the zone without showing them. */
+const cluster = take(2, a => !opinion(a) && a.dir === lead.dir);
+cluster.push(...take(2 - cluster.length, a => !opinion(a)));
 const grid = take(11, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(5, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
