@@ -51,7 +51,7 @@ const tabs = `<div class="lsechead"><span class="lseclabel"><a href="/es/">${S.c
 const lead = ES[0];
 let front = pageHead("Komposite News en español", S.ui.partial,
   "https://kompositenews.com/es/", "https://kompositenews.com/");
-front += `<main class="wrap">
+front += `<main id="main" class="wrap">
 ${note}
 <article class="lhero">
 <div class="lhero-frame">
@@ -77,7 +77,7 @@ for (const sec of SECS) {
   let p = pageHead(`${name} — Komposite News`,
     `Cobertura de ${name} en la edición en español de Komposite News.`,
     `https://kompositenews.com/es/${sec}/`, `https://kompositenews.com/${sec}/`);
-  p += `<main class="wrap catpage">
+  p += `<main id="main" class="wrap catpage">
 <h1 class="catname">${esc(name)}</h1>
 ${note}
 <div class="lgrid-es">

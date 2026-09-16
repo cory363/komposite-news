@@ -52,7 +52,7 @@ function ensurePage(p) {
         url, description: p.bio }) + "</script>");
   /* No byline feed: an editor with no filed stories should not carry an empty
      "Latest by" rail pretending there is one. */
-  const main = `<main class="wrap catpage">
+  const main = `<main id="main" class="wrap catpage">
 <div class="auhead"><span class="avatar">${initials(p.name)}</span>
 <div><h1 class="catname noborder">${esc(p.name)}</h1>
 <div class="byrole aurole">${esc(p.role)}${p.beats ? " &middot; " + esc(p.beats) : ""} &middot; <a href="/contact/">Contact the newsroom</a></div></div></div>
@@ -96,7 +96,7 @@ const groups = ROSTER.map(([label, list]) => {
 
 const page = "authors/index.html";
 let h = fs.readFileSync(page, "utf8");
-const main = `<main class="wrap catpage aumast">
+const main = `<main id="main" class="wrap catpage aumast">
 <h1 class="catname">Authors &amp; contributors</h1>
 <p class="aubio">Everyone who writes for Komposite News. Reporting is done from primary documents and named sources; where a fact originates with another outlet, that outlet is named and linked in the story.</p>
 ${groups}

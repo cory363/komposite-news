@@ -1024,5 +1024,41 @@
   "alt": "An oil tanker under way at sea, seen from directly above",
   "creditHtml": "<a href=\"https://unsplash.com/@ventiviews?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Venti Views</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "music/universal-sues-the-pipe-not-the-song": {
+  "id": "sdtnZ4LgbWk",
+  "url": "https://images.unsplash.com/photo-1535406208535-1429839cfd13?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8Mnx8cmVjb3JkaW5nJTIwc3R1ZGlvJTIwbWl4aW5nJTIwY29uc29sZXxlbnwxfDB8fHwxNzg5NTY2MTI5fDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 927,
+  "alt": "Faders and knobs on a studio mixing console, in black and white",
+  "creditHtml": "<a href=\"https://unsplash.com/@adigold1?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Adi Goldstein</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/the-breach-came-through-a-known-vpn-flaw": {
+  "id": "OexDQ_KTuIY",
+  "url": "https://images.unsplash.com/photo-1578351709253-928714cb0595?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8dG9reW8lMjBnb3Zlcm5tZW50JTIwYnVpbGRpbmdzfGVufDF8MHx8fDE3ODk1NjYxMzB8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 934,
+  "alt": "Office towers lit from inside at dusk above a sprawling city",
+  "creditHtml": "<a href=\"https://unsplash.com/@gk3?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">George Kedenburg III</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "startups/the-bet-on-being-named-in-the-answer": {
+  "id": "npxXWgQ33ZQ",
+  "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8cGVyc29uJTIwdHlwaW5nJTIwcXVlc3Rpb24lMjBsYXB0b3B8ZW58MXwwfHx8MTc4OTU2NjEzMHww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 932,
+  "alt": "Hands typing on a laptop keyboard in front of a second screen",
+  "creditHtml": "<a href=\"https://unsplash.com/@glenncarstenspeters?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Glenn Carstens-Peters</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "markets/the-ten-year-crosses-five-per-cent": {
+  "id": "PhYq704ffdA",
+  "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZmluYW5jaWFsJTIwZGlzdHJpY3QlMjBza3lzY3JhcGVycyUyMGxvb2tpbmclMjB1cHxlbnwxfDB8fHwxNzg5NTY2MTU4fDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Glass office towers in a financial district, seen from street level against a grey sky",
+  "creditHtml": "<a href=\"https://unsplash.com/@seanpollock?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Sean Pollock</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }

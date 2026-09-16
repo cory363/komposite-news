@@ -91,7 +91,7 @@ const head = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta n
 <link rel="stylesheet" href="/assets/style.css?v=89"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
-const main = `<main class="wrap artpage">
+const main = `<main id="main" class="wrap artpage">
 <div class="artmain">
 <div class="kick">Recipe of the Day</div>
 <h1 class="arthead">${esc(a.headline)}</h1>

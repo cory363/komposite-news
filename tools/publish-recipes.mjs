@@ -51,7 +51,7 @@ ${ICONS}
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const { chrome, tail } = furniture();
-  const main = `<main class="wrap artpage">
+  const main = `<main id="main" class="wrap artpage">
 <div class="artmain">
 <div class="kick">Recipe of the Day</div>
 <h1 class="arthead">${esc(a.headline)}</h1>

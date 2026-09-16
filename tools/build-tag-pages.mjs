@@ -52,7 +52,7 @@ for (const [slug, name] of JSON.parse(fs.readFileSync(process.argv[2], "utf8")))
 <p class="deck">${esc(a.dek)}</p>
 <div class="tago">${longDate(a.dt)} </div>
 </article>`).join("\n");
-  h += `<main class="wrap catpage">
+  h += `<main id="main" class="wrap catpage">
 <h1 class="catname">Topic<span class="catsub">${esc(name)}</span>
 <button class="kn-follow" type="button" data-slug="tag/${slug}" data-name="Topic${esc(name)}" data-href="/tag/${slug}/">Follow</button>
 </h1>

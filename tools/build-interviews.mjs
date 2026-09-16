@@ -23,7 +23,7 @@ let h = head
   /* A section page's schema describes a list of articles; there are none. */
   .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g, "");
 
-h += `<main class="wrap catpage">
+h += `<main id="main" class="wrap catpage">
 <h1 class="catname">Interviews</h1>
 <div class="soonbox">
   <p class="soon-lede">Interviews is launching shortly.</p>

@@ -13,7 +13,9 @@ const DONOR = "ai/semiconductor-supply-data-center-demand/index.html";
 export function furniture() {
   const h = fs.readFileSync(DONOR, "utf8");
   const bodyAt = h.indexOf("</head>") + "</head>".length;
-  const mainAt = h.indexOf('<main class="wrap artgrid">');
+  /* Matched loosely: the skip link put id="main" on this element and the
+     exact-string lookup stopped finding it, which failed every publish. */
+  const mainAt = h.search(/<main[^>]*class="wrap artgrid"/);
   const railAt = h.indexOf('<aside class="artrail">');
   const mainEnd = h.indexOf("</main>");
   if (bodyAt < 0 || mainAt < 0 || railAt < 0) throw new Error("donor structure changed");

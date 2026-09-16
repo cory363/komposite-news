@@ -112,7 +112,7 @@ export function render(a) {
   const rel = a.related.map(r =>
     `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
 
-  const main = `<main class="wrap artgrid"><article class="art">
+  const main = `<main id="main" class="wrap artgrid"><article class="art">
 <span class="kick${a.opinion ? " k-op" : ""}">${esc(a.kick)}</span>
 <h1>${esc(a.headline)}</h1><p class="artdeck">${esc(a.dek)}</p>
 <div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>

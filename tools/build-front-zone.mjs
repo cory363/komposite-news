@@ -104,7 +104,7 @@ const lList = a => `<article class="llist">
 <a class="llist-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
 <div class="llist-tx">${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
 
-const zone = `<main class="wrap abczone">
+const zone = `<main id="main" class="wrap abczone">
 <div class="abcmain">
   <article class="lhero">
     <div class="lhero-frame">
@@ -141,7 +141,7 @@ const zone = `<main class="wrap abczone">
 </main>`;
 
 let h = fs.readFileSync("index.html", "utf8");
-const startMarkers = ['<main class="wrap czone">', '<main class="wrap fblead">', '<main class="wrap abczone">'];
+const startMarkers = ['<main id="main" class="wrap abczone">', '<main class="wrap czone">', '<main class="wrap fblead">', '<main id="main" class="wrap abczone">'];
 let start = -1;
 for (const m of startMarkers) { const i = h.indexOf(m); if (i > -1) { start = i; break; } }
 /* The zone used to end at the billboard, which sat immediately below it. The
