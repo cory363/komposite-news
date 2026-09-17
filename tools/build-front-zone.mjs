@@ -12,6 +12,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { optimizeHtml } from "./optimize-images.mjs";
 
 const SKIP = new Set([".git", "node_modules", "tools", "assets"]);
 function walk(d, out = []) {
@@ -76,7 +77,10 @@ const lead = take(1, a => photo(a) && !opinion(a))[0];
 /* 2, not 3: keeps the lead unit above a 1280x800 fold. Take only what is
    shown: take() marks stories as placed, so over-taking and slicing used to
    drop up to four of the newest pieces from the zone without showing them. */
-const cluster = take(2, a => !opinion(a) && a.dir === lead.dir);
+/* Same-section follow-ons only while they are still news: a two-day-old
+   crypto item under today's crypto lead read as the front page lagging. */
+const fresh = a => new Date(lead.date) - new Date(a.date) < 24 * 3600e3;
+const cluster = take(2, a => !opinion(a) && a.dir === lead.dir && fresh(a));
 cluster.push(...take(2 - cluster.length, a => !opinion(a)));
 const grid = take(11, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
@@ -93,7 +97,7 @@ const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug
    arrangement while everything below it had moved to Leonard's composition,
    so the two halves of the page did not agree. Same shapes as the section
    blocks now: a frame with the headline over it, a stack of two, a list. */
-const lmeta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick)}</span><span class="lsep">/</span><span class="lago">${ago(a.date)}</span></div>`;
+const lmeta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick)}</span><span class="lsep">/</span><time class="lago" datetime="${a.date}" data-ago>${ago(a.date)}</time></div>`;
 
 const lOverlay = a => `<article class="lbig">
 <a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">
@@ -107,7 +111,11 @@ const lList = a => `<article class="llist">
 <a class="llist-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
 <div class="llist-tx">${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
 
+/* The front page had no h1 at all: every headline is an h2 or h3, which
+   leaves screen readers and search engines without a page title. Hidden
+   visually, since the masthead already says it. */
 const zone = `<main id="main" class="wrap abczone">
+<h1 class="visually-hidden">Komposite News: technology, AI, blockchain, markets and the business of what comes next</h1>
 <div class="abcmain">
   <article class="lhero">
     <div class="lhero-frame">
@@ -132,7 +140,7 @@ const zone = `<main id="main" class="wrap abczone">
   <article class="abcfeature"><a href="${feature.url}"><img src="${esc(feature.img)}" alt="${esc(feature.alt)}" loading="lazy"></a>
     <div class="abckick">${esc(feature.kick)}</div>
     <h3><a href="${feature.url}">${esc(feature.title)}</a></h3>
-    <span class="abctime">${ago(feature.date)}</span></article>
+    <time class="abctime" datetime="${feature.date}" data-ago>${ago(feature.date)}</time></article>
   <div class="abctop abctop-num abctop-thumbs"><div class="abctop-h">Top stories</div>
     <ol>${topStories.map(a => `<li><a href="${a.url}"><span class="toptx">${esc(a.title)}</span>${a.img ? `<span class="topthumb"><img src="${esc(a.img)}" alt="${esc(a.alt || "")}" loading="lazy"></span>` : ""}</a></li>`).join("")}</ol>
   </div>
@@ -141,6 +149,15 @@ const zone = `<main id="main" class="wrap abczone">
       <ul>${railOpinion.slice(railOpinion[0].img ? 1 : 0).map(a => `<li><a href="${a.url}">${esc(a.title)}</a>${a.author ? `<span class="railby">${esc(a.author)}</span>` : ""}</li>`).join("")}</ul>
       <a class="railmore" href="/opinion/">All opinion &rsaquo;</a></div>` : ""}
 </aside>
+<script>
+/* "23 hours ago" is true when the page is built and false a day later, and
+   the page is only rebuilt when something is published. Recompute every
+   relative time from its datetime in the reader's browser. Same wording as
+   the builders; untouched if scripts are off. */
+(function(){function f(){var n=Date.now();[].forEach.call(document.querySelectorAll("time[data-ago]"),function(e){var t=Date.parse(e.getAttribute("datetime"));if(isNaN(t))return;var m=Math.max(1,Math.floor((n-t)/6e4)),s;
+if(m<60)s=m+" minute"+(m===1?"":"s")+" ago";else{var h=Math.floor(m/60);if(h<24)s=h+" hour"+(h===1?"":"s")+" ago";else{var d=Math.floor(h/24);s=d<=6?d+" day"+(d===1?"":"s")+" ago":new Date(t).toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});}}
+e.textContent=s;});}if(document.readyState!=="loading")f();else document.addEventListener("DOMContentLoaded",f);})();
+</script>
 </main>`;
 
 let h = fs.readFileSync("index.html", "utf8");
@@ -156,7 +173,7 @@ const endAt = h.indexOf(endTag, start);
 const end = endAt < 0 ? -1 : endAt + endTag.length;
 if (start < 0 || end < 0) { console.error("could not locate the front zone"); process.exit(1); }
 h = h.slice(0, start) + zone + "\n" + h.slice(end);
-fs.writeFileSync("index.html", h);
+fs.writeFileSync("index.html", optimizeHtml(h, "index.html"));
 // Record what the zone consumed so the band below does not repeat it.
 fs.writeFileSync("tools/data/front-used.json", JSON.stringify([...seen], null, 1));
 

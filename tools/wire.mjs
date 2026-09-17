@@ -12,6 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { SITE, esc, prettyDate } from "./lib-template.mjs";
 import { heroUrl, hero } from "./render-article.mjs";
+import { optimizeHtml } from "./optimize-images.mjs";
 
 const AUTHORS = {
   "jonathan-bright": ["Jonathan Bright", "Policy Editor"],
@@ -129,7 +130,7 @@ export function wire(a, log = console.log) {
           }
         }
         h = insertAfter(h, '<div class="feedlist">', feedrow(a)) || h;
-        write(f, h); done.push("section");
+        write(f, optimizeHtml(h, f)); done.push("section");
       } else done.push("section(already)");
     }
   }

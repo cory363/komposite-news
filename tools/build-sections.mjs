@@ -8,6 +8,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { optimizeHtml } from "./optimize-images.mjs";
 
 const SECTIONS = [["ai","AI"],["blockchain","Blockchain"],["crypto","Crypto"],["business","Business"],
   ["technology","Technology"],["markets","Markets"],["fintech","Fintech"],["cybersecurity","Cybersecurity"],
@@ -106,7 +107,7 @@ for (const [slug, label] of SECTIONS) {
      The composition mirrors on alternate sections so the page does not
      settle into a rhythm. */
   const by = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug(a.author)}/">${esc(a.author)}</a></div>` : "";
-  const meta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick || label)}</span><span class="lsep">/</span><span class="lago">${ago(a.date)}</span></div>`;
+  const meta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick || label)}</span><span class="lsep">/</span><time class="lago" datetime="${a.date}" data-ago>${ago(a.date)}</time></div>`;
 
   const overlay = a => `<article class="lbig">
 <a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">
@@ -134,5 +135,5 @@ ${meta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
   h = h.slice(0, bandStart) + block + h.slice(stop);
   rebuilt++;
 }
-fs.writeFileSync("index.html", h);
+fs.writeFileSync("index.html", optimizeHtml(h, "index.html"));
 console.log(`  sections rebuilt (rotating shapes): ${rebuilt}`);

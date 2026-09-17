@@ -137,6 +137,21 @@ dupC.length ? bad(`duplicate canonicals: ${dupC.length}`) : ok("no duplicate can
     ok("images: no chart or novelty-coin photography");
   }
 }
+/* Every Unsplash photograph must carry a srcset. Without one a 76px
+   thumbnail downloads the 1400px file, which is how the front page came to
+   request 86 full-size images. optimize-images.mjs adds it; this makes
+   forgetting to run it a failure rather than a slow page. */
+{
+  let missing = 0, pages = new Set();
+  for (const f of files) for (const m of fs.readFileSync(f, "utf8").matchAll(/<img\b[^>]*src="https:\/\/images\.unsplash\.com[^>]*>/g))
+    if (!/\ssrcset="/.test(m[0])) { missing++; pages.add(f); }
+  missing ? bad(`images: ${missing} Unsplash images without srcset (run tools/optimize-images.mjs) in ${[...pages].slice(0, 4).join(", ")}`)
+          : ok("images: every photograph is responsive (srcset + sizes)");
+  const home = fs.readFileSync("index.html", "utf8");
+  (home.match(/fetchpriority="high"/g) || []).length === 1 && /<h1[\s>]/.test(home)
+    ? ok("front page: one prioritised lead image and an h1")
+    : bad("front page: needs exactly one fetchpriority=high image and an h1");
+}
 console.log(`  note duplicate titles: ${dupT.length} (pre-existing section/tag pairs)`);
 dupT.forEach(([t, v]) => console.log("        " + t + " -> " + v.join(", ")));
 

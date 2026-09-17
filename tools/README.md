@@ -17,8 +17,15 @@ they write files into the repo, and the committed result is what ships.
   leads.
 - `data/batch-*.mjs` — the article records themselves.
 
+- `optimize-images.mjs` — adds srcset/sizes to every Unsplash image and gives
+  each page's lead image eager, high-priority loading. The page builders call
+  it on write; run it on its own after any hand edit. `validate.mjs` fails on
+  an image without a srcset.
+
 Usage:
 
     node tools/find-photo.mjs "search terms"
     node tools/publish.mjs tools/data/batch-1.mjs
     node tools/wire.mjs   tools/data/batch-1.mjs
+    node tools/optimize-images.mjs
+    node tools/validate.mjs

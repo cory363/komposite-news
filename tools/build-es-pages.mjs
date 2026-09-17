@@ -2,6 +2,7 @@
    article builder already produced, so the header, footer and language tab
    stay identical across the edition and there is only one place they live. */
 import fs from "node:fs";
+import { optimizeHtml } from "./optimize-images.mjs";
 import path from "node:path";
 const S = JSON.parse(fs.readFileSync("tools/data/es-strings.json", "utf8"));
 const ES = JSON.parse(fs.readFileSync("tools/data/es-articles.json", "utf8"));
@@ -67,7 +68,7 @@ ${ES.slice(1).map(card).join("\n")}
 </div>
 </main>
 `;
-fs.writeFileSync("es/index.html", front + tail);
+fs.writeFileSync("es/index.html", optimizeHtml(front + tail, "es/index.html"));
 
 /* One page per section that actually has Spanish stories. */
 let n = 0;
@@ -86,7 +87,7 @@ ${items.map(card).join("\n")}
 </main>
 `;
   fs.mkdirSync("es/" + sec, { recursive: true });
-  fs.writeFileSync(`es/${sec}/index.html`, p + tail);
+  fs.writeFileSync(`es/${sec}/index.html`, optimizeHtml(p + tail, `es/${sec}/index.html`));
   n++;
 }
 console.log(`  Spanish front page + ${n} section pages built`);

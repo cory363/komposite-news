@@ -2619,3 +2619,10 @@ button,input,select,textarea{font-family:var(--mastfont)}
   background:var(--paper);color:var(--ink);border:2px solid var(--claret);
   font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;
   text-decoration:none;border-radius:2px}
+
+/* Lead legibility. The scrim began at 30% and reached only ~.5 opacity where
+   the headline sits, so a bright subject behind the text (a floodlit dome, a
+   white facade) swallowed words. Denser from mid-frame down, plus a soft
+   shadow on the type itself as a second line of defence. */
+.lhero-img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 18%,rgba(0,0,0,.38) 45%,rgba(0,0,0,.78) 70%,rgba(0,0,0,.9) 100%)}
+.lhero-tx h2,.lhero-tx .lhero-dek{text-shadow:0 1px 2px rgba(0,0,0,.45),0 2px 18px rgba(0,0,0,.35)}

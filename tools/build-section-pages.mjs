@@ -2,6 +2,7 @@
    page and a list of headlines stopping short of the right margin. This swaps
    that list for the same 4-across card grid the homepage uses. */
 import fs from "node:fs";
+import { optimizeHtml } from "./optimize-images.mjs";
 import path from "node:path";
 
 const aslug = n => n.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -103,7 +104,7 @@ ${by(a)}<span class="abctime">${ago(a.date)}</span></div></article>`;
   const grid = `<div class="secpage-grid">${picks.length > 1 ? `<div class="wfeatrow">${fSide(picks[0])}${fStack(picks[1])}</div>` : ""}
 <div class="wrowgrid">${picks.slice(2).map(fRow).join("")}</div></div>`;
   h = h.slice(0, start) + grid + h.slice(end);
-  fs.writeFileSync(page, h);
+  fs.writeFileSync(page, optimizeHtml(h, page));
   console.log(`  ok   ${label.padEnd(14)} ${picks.length} cards`);
   done++;
 }
