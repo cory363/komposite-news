@@ -82,7 +82,10 @@ const lead = take(1, a => photo(a) && !opinion(a))[0];
 const fresh = a => new Date(lead.date) - new Date(a.date) < 24 * 3600e3;
 const cluster = take(2, a => !opinion(a) && a.dir === lead.dir && fresh(a));
 cluster.push(...take(2 - cluster.length, a => !opinion(a)));
-const grid = take(11, a => photo(a) && !opinion(a));
+/* 8, not 11: the grid renders grid[0], grid[1..2] and grid[3..7]. Taking
+   eleven marked three fresher stories as placed and then never rendered
+   them, which pushed the feature and Top Stories down to older items. */
+const grid = take(8, a => photo(a) && !opinion(a));
 const feature = take(1, a => photo(a) && !opinion(a))[0];
 const topStories = take(5, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
 /* The Divide columns have their own panel further down the page; listing
@@ -160,6 +163,19 @@ e.textContent=s;});}if(document.readyState!=="loading")f();else document.addEven
 </script>
 </main>`;
 
+/* Tell the browser about the lead image in the head, with the same srcset and
+   sizes the img carries, so the fetch starts before the zone is parsed. */
+function preloadLead(html) {
+  html = html.replace(/\s*<link rel="preload" as="image"[^>]*>/g, "");
+  const img = (html.match(/<img\b[^>]*fetchpriority="high"[^>]*>/) || [])[0];
+  if (!img) return html;
+  const at = a => (img.match(new RegExp(`\\s${a}="([^"]*)"`)) || [])[1];
+  const src = at("src"), srcset = at("srcset"), sizes = at("sizes");
+  if (!src) return html;
+  const tag = `<link rel="preload" as="image" href="${src}"${srcset ? ` imagesrcset="${srcset}"` : ""}${sizes ? ` imagesizes="${sizes}"` : ""} fetchpriority="high">`;
+  return html.replace("</head>", tag + "</head>");
+}
+
 let h = fs.readFileSync("index.html", "utf8");
 const startMarkers = ['<main id="main" class="wrap abczone">', '<main class="wrap czone">', '<main class="wrap fblead">', '<main id="main" class="wrap abczone">'];
 let start = -1;
@@ -173,7 +189,8 @@ const endAt = h.indexOf(endTag, start);
 const end = endAt < 0 ? -1 : endAt + endTag.length;
 if (start < 0 || end < 0) { console.error("could not locate the front zone"); process.exit(1); }
 h = h.slice(0, start) + zone + "\n" + h.slice(end);
-fs.writeFileSync("index.html", optimizeHtml(h, "index.html"));
+h = preloadLead(optimizeHtml(h, "index.html"));
+fs.writeFileSync("index.html", h);
 // Record what the zone consumed so the band below does not repeat it.
 fs.writeFileSync("tools/data/front-used.json", JSON.stringify([...seen], null, 1));
 

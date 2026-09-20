@@ -148,7 +148,7 @@ dupC.length ? bad(`duplicate canonicals: ${dupC.length}`) : ok("no duplicate can
   missing ? bad(`images: ${missing} Unsplash images without srcset (run tools/optimize-images.mjs) in ${[...pages].slice(0, 4).join(", ")}`)
           : ok("images: every photograph is responsive (srcset + sizes)");
   const home = fs.readFileSync("index.html", "utf8");
-  (home.match(/fetchpriority="high"/g) || []).length === 1 && /<h1[\s>]/.test(home)
+  (home.match(/<img\b[^>]*fetchpriority="high"/g) || []).length === 1 && /<h1[\s>]/.test(home)
     ? ok("front page: one prioritised lead image and an h1")
     : bad("front page: needs exactly one fetchpriority=high image and an h1");
 }

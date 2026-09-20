@@ -17,6 +17,8 @@ const QUESTIONS = {
   "divide-crypto-retirement":     "Should retirement plans be allowed to hold crypto?",
   "divide-return-to-office":      "Should companies require staff back in the office?",
   "divide-ticket-pricing":        "Should dynamic ticket pricing be capped?",
+  "divide-ai-pacing":             "Should rival AI labs be allowed to agree to slow down?",
+  "divide-shareholder-proposals": "Should shareholders keep the federal right to file proposals?",
 };
 
 const ROLE = { "ruth-calloway": "Ruth Calloway", "grant-whitmore": "Grant Whitmore" };

@@ -171,7 +171,7 @@ export function wire(a, log = console.log) {
   {
     const f = "rss.xml"; let x = read(f);
     if (!x.includes(`${SITE}${url}`)) {
-      const item = `<item><title>${esc(a.headline)}</title><link>${SITE}${url}</link><guid>${SITE}${url}</guid><pubDate>${new Date(a.date).toUTCString()}</pubDate><description>${esc(a.dek)}</description><category>${esc(a.sectionLabel)}</category></item>`;
+      const item = `<item><title>${esc(a.headline)}</title><link>${SITE}${url}</link><guid>${SITE}${url}</guid><pubDate>${new Date(a.date).toUTCString()}</pubDate><description>${esc(a.dek)}</description><dc:creator>${esc(AUTHORS[a.author][0].replace(/&amp;/g, "&"))}</dc:creator><category>${esc(a.sectionLabel)}</category></item>`;
       const i = x.indexOf("<item>");
       x = x.slice(0, i) + item + x.slice(i);
       /* Only build-rss.mjs ever stamped lastBuildDate, and that runs rarely,

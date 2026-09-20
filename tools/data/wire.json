@@ -1,6 +1,14 @@
 [
  {
   "beat": "crypto",
+  "title": "US Stock Perpetual Futures: Kalshi and Coinbase Race for Approval",
+  "url": "https://en.cryptonomist.ch/2026/09/20/us-stock-perpetual-futures",
+  "source": "en.cryptonomist.ch",
+  "age": "2 hours ago",
+  "desc": "US stock perpetual futures filings by Kalshi and Coinbase signal a new chapter in crypto-style derivatives entering equity markets."
+ },
+ {
+  "beat": "crypto",
   "title": "Crypto ETF flows: Ether loses $141M as Solana gains $61M",
   "url": "https://crypto.news/crypto-etf-flows-ether-loses-141m-as-solana-gains-61m/",
   "source": "crypto.news",
@@ -12,7 +20,7 @@
   "title": "Saylor’s Failed CLARITY Act Warning: Don’t Turn Temporary Crypto Rules Into Permanent Restrictions",
   "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-clarity-act-rejection-warning-mstr/cZtC5AZRBEx",
   "source": "stocktwits.com",
-  "age": "3 hours ago",
+  "age": "4 hours ago",
   "desc": "Michael Saylor argued mass adoption was the industry's real protection against a hostile administration."
  },
  {
@@ -20,16 +28,8 @@
   "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand By Investing.com",
   "url": "https://investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141",
   "source": "investing.com",
-  "age": "8 hours ago",
+  "age": "9 hours ago",
   "desc": "Investing.com -- Bitcoin held above ... Bitcoin exchange-traded funds recorded more than $433 million in net inflows on Friday. Get breaking Bitcoin and crypto market updates with "
- },
- {
-  "beat": "crypto",
-  "title": "Michael Saylor Calls CLARITY Act Rejection A ‘Positive Inflection Point’ For Crypto Industry | Asianet Newsable",
-  "url": "https://newsable.asianetnews.com/markets/michael-saylor-calls-clarity-act-rejection-a-positive-inflection-point-for-crypto-industry-articleshow-y824gco",
-  "source": "newsable.asianetnews.com",
-  "age": "2 hours ago",
-  "desc": "Michael Saylor argued mass adoption was the industry's real protection against a hostile administration."
  },
  {
   "beat": "crypto",
@@ -49,6 +49,14 @@
  },
  {
   "beat": "crypto",
+  "title": "Michael Saylor Calls CLARITY Act Rejection A ‘Positive Inflection Point’ For Crypto Industry | Asianet Newsable",
+  "url": "https://newsable.asianetnews.com/markets/michael-saylor-calls-clarity-act-rejection-a-positive-inflection-point-for-crypto-industry-articleshow-y824gco",
+  "source": "newsable.asianetnews.com",
+  "age": "3 hours ago",
+  "desc": "Michael Saylor argued mass adoption was the industry's real protection against a hostile administration."
+ },
+ {
+  "beat": "crypto",
   "title": "Bitcoin Cash and the Grayscale ETF Filing: What Counts",
   "url": "https://cryptoticker.io/en/bitcoin-cash-grayscale-etf-filing-check",
   "source": "cryptoticker.io",
@@ -56,19 +64,11 @@
   "desc": "Grayscale wants to convert its BCH trust. The filing says the listing basis is not approved and names no date. What that means for investors."
  },
  {
-  "beat": "crypto",
-  "title": "Prohibir rendimientos de stablecoins apenas impulsa el crédito bancario",
-  "url": "https://criptonoticias.com/regulacion/prohibir-rendimientos-stablecoins-credito-bancario",
-  "source": "criptonoticias.com",
-  "age": "1 day ago",
-  "desc": "Según asesores de la Casa Blanca, el costo para los usuarios supera con creces el mínimo aumento de préstamos bancarios si se prohíben estos pagos."
- },
- {
   "beat": "blockchain",
   "title": "Coinbase (COIN), Robinhood (HOOD), Circle (CRCL) stand to gain from SEC's tokenized-stock push: analysts",
   "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
   "source": "www.coindesk.com",
-  "age": "38 minutes ago",
+  "age": "2 hours ago",
   "desc": "Goldman Sachs and Citizens analysts said the agency's move create new opportunities in custody, tokenization infrastructure and stablecoin settlement, while giving brokers room to "
  },
  {
@@ -78,6 +78,14 @@
   "source": "en.cryptonomist.ch",
   "age": "1 day ago",
   "desc": "Tokenized deposits can be useful where bank money, institutional relationships, and account-based structures are still needed. Stablecoins can serve as portable settlement assets a"
+ },
+ {
+  "beat": "blockchain",
+  "title": "Analysts Say Coinbase, Robinhood, and Circle Could Be Early Winners of SEC's Tokenized-Stock Push | CommsTrader",
+  "url": "https://commstrader.com/business/crypto/analysts-say-coinbase-robinhood-and-circle-could-be-early-winners-of-secs-tokenized-stock-push",
+  "source": "commstrader.com",
+  "age": "1 hour ago",
+  "desc": "Then there is Circle, the issuer ... across much of onchain trading. If tokenized stocks require a stable, dollar-pegged instrument to facilitate instant settlement, USDC is the mo"
  },
  {
   "beat": "blockchain",
@@ -92,7 +100,7 @@
   "title": "European Blockchain Convention 12 (EBC12) Day 1: Institutional digital assets move into execution",
   "url": "https://crypto-reporter.com/press-releases/european-blockchain-convention-12-ebc12-day-1-institutional-digital-assets-move-into-execution-131547",
   "source": "crypto-reporter.com",
-  "age": "2 hours ago",
+  "age": "3 hours ago",
   "desc": "Stablecoins were discussed less as a crypto-native product and more as part of the future payments and settlement stack. The conversation increasingly centred on interoperability: "
  },
  {
@@ -113,26 +121,18 @@
  },
  {
   "beat": "blockchain",
-  "title": "Tokenizing Real-World Assets? Why the SEC’s Innovation Exemption Matters for Crypto Innovators — StartSmart Counsel",
-  "url": "https://www.startsmartcounsel.com/resource-center/tokenization-is-moving-onchain-why-the-secs-new-innovation-exemption-matters-for-crypto-innovators",
-  "source": "www.startsmartcounsel.com",
-  "age": "1 day ago",
-  "desc": "The SEC’s Innovation Exemption opens new opportunities for tokenized stocks and onchain markets. Learn what it means for crypto founders, fintech innovators, and the future of real"
- },
- {
-  "beat": "blockchain",
-  "title": "Coinbase (COIN), Robinhood (HOOD), Circle (CRCL) se benefician del impulso de la SEC hacia las acciones tokenizadas: analistas",
-  "url": "https://www.coindesk.com/es/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
-  "source": "www.coindesk.com",
-  "age": "38 minutes ago",
-  "desc": "Goldman Sachs and Citizens analysts said the agency's move create new opportunities in custody, tokenization infrastructure and stablecoin settlement, while giving brokers room to "
+  "title": "Asia's weekly TOP10 crypto news: Japan Advances Asset Tokenization, Jiangsu Labels RWA Financing illegal and MOEX to Launch BTC ETH Perpetual Futures and Top10 News",
+  "url": "https://wublock.substack.com/p/asias-weekly-top10-crypto-news-japan-78d",
+  "source": "wublock.substack.com",
+  "age": "2 hours ago",
+  "desc": "Japan’s Financial Services Agency ... of blockchain-based “on-chain finance”. As a core measure to implement Japan’s “Asset Management Nation Upgrade” financial strategy formulated"
  },
  {
   "beat": "ai",
   "title": "Anthropic, OpenAI, SpaceXAI, Google sued over call to ‘pace’ AI development - POLITICO",
   "url": "https://www.politico.com/news/2026/09/18/anthropic-openai-spacexai-google-sued-over-calls-to-pace-ai-development-01085023",
   "source": "www.politico.com",
-  "age": "1 day ago",
+  "age": "2 days ago",
   "desc": "The lawsuit alleges comments about need to “pace the frontier” of AI represent illegal coordination between competitors."
  },
  {
@@ -140,7 +140,7 @@
   "title": "OpenAI Projects $278B Cash Burn: Record Round Runs Dry Before Revenue Catches Up",
   "url": "https://techtimes.com/articles/327752/20260920/openai-projects-278b-cash-burn-record-round-runs-dry-before-revenue-catches.htm",
   "source": "techtimes.com",
-  "age": "6 hours ago",
+  "age": "7 hours ago",
   "desc": "OpenAI cash burn projections from an internal July document reveal the company expects $278 billion in negative free cash flow through 2030, exhausting its record $122 billion Marc"
  },
  {
@@ -164,24 +164,24 @@
   "title": "Anthropic weighs new AI model launch as OpenAI gains ground - Reuters By Investing.com",
   "url": "https://investing.com/news/company-news/anthropic-weighs-new-ai-model-launch-as-openai-gains-ground--reuters-4908022",
   "source": "investing.com",
-  "age": "1 day ago",
+  "age": "2 days ago",
   "desc": "Anthropic weighs new AI model launch as OpenAI gains ground - Reuters"
- },
- {
-  "beat": "ai",
-  "title": "Usuarios demandan en Estados Unidos a Anthropic, OpenAI, SpaceXAI y Google por supuesto pacto ilegal para ralentizar el desarrollo de la IA - El Tiempo",
-  "url": "https://eltiempo.com/mundo/eeuu-y-canada/usuarios-demandan-en-estados-unidos-a-anthropic-openai-spacexai-y-google-por-supuesto-pacto-ilegal-para-ralentizar-el-desarrollo-de-la-ia-3587405",
-  "source": "eltiempo.com",
-  "age": "4 hours ago",
-  "desc": "La acción busca representar a un grupo nacional de suscriptores y cuestiona la coordinación privada entre compañías rivales del sector."
  },
  {
   "beat": "ai",
   "title": "OpenAI Posts $500K Robotics Salaries to Fund Data Factory Behind Its Robot Comeback",
   "url": "https://techtimes.com/articles/327751/20260920/openai-posts-500k-robotics-salaries-fund-data-factory-behind-its-robot-comeback.htm",
   "source": "techtimes.com",
-  "age": "6 hours ago",
+  "age": "7 hours ago",
   "desc": "OpenAI robotics hiring has surged to 27 job listings with salaries up to $500,000 -- signaling that the company is building an industrial teleoperation lab to generate robot traini"
+ },
+ {
+  "beat": "ai",
+  "title": "Usuarios demandan en Estados Unidos a Anthropic, OpenAI, SpaceXAI y Google por supuesto pacto ilegal para ralentizar el desarrollo de la IA - El Tiempo",
+  "url": "https://eltiempo.com/mundo/eeuu-y-canada/usuarios-demandan-en-estados-unidos-a-anthropic-openai-spacexai-y-google-por-supuesto-pacto-ilegal-para-ralentizar-el-desarrollo-de-la-ia-3587405",
+  "source": "eltiempo.com",
+  "age": "5 hours ago",
+  "desc": "La acción busca representar a un grupo nacional de suscriptores y cuestiona la coordinación privada entre compañías rivales del sector."
  },
  {
   "beat": "ai",
@@ -193,27 +193,27 @@
  },
  {
   "beat": "markets",
-  "title": "The Weekly Spread: What Shaped Yields And The Dollar This Week",
-  "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZtDZlBRBES",
-  "source": "stocktwits.com",
-  "age": "1 day ago",
-  "desc": "Robust U.S. employment data, alongside ... market anxieties about persistent inflationary pressures, driving the 10-year U.S. Treasury yield even higher. Advertisement|Remove ads. "
+  "title": "Wall Street goes full bull on gold price after post-hike gains, Main Street bolsters bullish majority as gold holds $4,300 | Kitco News",
+  "url": "https://kitco.com/news/article/2026-09-18/wall-street-goes-full-bull-gold-price-after-post-hike-gains-main-street",
+  "source": "kitco.com",
+  "age": "2 days ago",
+  "desc": "Our goal is to help people make ... and analyses of market-affecting developments. (Kitco News) – Gold prices rebounded during a wild week, as an early selloff driven by surging oi"
  },
  {
   "beat": "markets",
   "title": "Treasury Bond Market Selloff Deepens As 30-Year Auction Hits Highest Yield Since 2001 - Universe News Network",
   "url": "https://universenewsnetwork.com/2026/09/19/treasury-bond-market-selloff-deepens-as-30-year-auction-hits-highest-yield-since-2001",
   "source": "universenewsnetwork.com",
-  "age": "18 hours ago",
+  "age": "19 hours ago",
   "desc": "The consensus framing around this week's Treasury bond market selloff centres on inflation data. That reading is not wrong, but it is incomplete: the more"
  },
  {
   "beat": "markets",
-  "title": "Wall Street goes full bull on gold price after post-hike gains, Main Street bolsters bullish majority as gold holds $4,300 | Kitco News",
-  "url": "https://kitco.com/news/article/2026-09-18/wall-street-goes-full-bull-gold-price-after-post-hike-gains-main-street",
-  "source": "kitco.com",
-  "age": "1 day ago",
-  "desc": "Our goal is to help people make ... and analyses of market-affecting developments. (Kitco News) – Gold prices rebounded during a wild week, as an early selloff driven by surging oi"
+  "title": "The Weekly Spread: What Shaped Yields And The Dollar This Week",
+  "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZtDZlBRBES",
+  "source": "stocktwits.com",
+  "age": "2 days ago",
+  "desc": "Robust U.S. employment data, alongside ... market anxieties about persistent inflationary pressures, driving the 10-year U.S. Treasury yield even higher. Advertisement|Remove ads. "
  },
  {
   "beat": "markets",
@@ -249,18 +249,18 @@
  },
  {
   "beat": "markets",
-  "title": "📊 Week In Review: The Overrule - by Ben The Bull",
-  "url": "https://tradesandgains.substack.com/p/week-in-review-the-overrule",
-  "source": "tradesandgains.substack.com",
-  "age": "20 hours ago",
-  "desc": "The most anticipated week of the fall delivered the hawkish hike — the Fed's first in three years — but the story wasn't the Fed. It was the bond market overruling it: the 10-year "
+  "title": "Investors focus on rate path, AI slowdown after Fed hike By Reuters",
+  "url": "https://investing.com/news/economy-news/investors-focus-on-rate-path-ai-slowdown-after-fed-hike-4908174",
+  "source": "investing.com",
+  "age": "44 minutes ago",
+  "desc": "Markets will continue to digest Wednesday’s decision by the Federal Reserve to hike interest rates for the first time in three years, in an effort to tamp down above-target inflati"
  },
  {
   "beat": "fintech",
   "title": "Embedded Payments Reshape Fintech Acquisition Strategy",
   "url": "https://marketscale.com/industries/business-services/the-early-scale-2026-09-20",
   "source": "marketscale.com",
-  "age": "3 hours ago",
+  "age": "4 hours ago",
   "desc": "Embedded payments drive fintech M&A as Fifth Third, Priority, and CSI target payment-enabled software."
  },
  {
@@ -281,10 +281,18 @@
  },
  {
   "beat": "cybersecurity",
+  "title": "Google Gemini Hacked 3 Real Companies in Test [2026]",
+  "url": "https://tech-insider.org/google-gemini-broke-into-real-company-systems-2026",
+  "source": "tech-insider.org",
+  "age": "22 minutes ago",
+  "desc": "Google confirms a Gemini AI model breached 3 real companies during a May 2026 security test after a domain naming mix-up. Full timeline and analysis."
+ },
+ {
+  "beat": "cybersecurity",
   "title": "[ARCUSMEDIA] - Ransomware Victim: Schneider’s Computing - RedPacket Security",
   "url": "https://www.redpacketsecurity.com/arcusmedia-ransomware-victim-schneider-s-computing/",
   "source": "www.redpacketsecurity.com",
-  "age": "19 hours ago",
+  "age": "1 day ago",
   "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
  },
  {
@@ -292,7 +300,7 @@
   "title": "[EMPERADOR] - Ransomware Victim: Electrolux - RedPacket Security",
   "url": "https://www.redpacketsecurity.com/emperador-ransomware-victim-electrolux/",
   "source": "www.redpacketsecurity.com",
-  "age": "19 hours ago",
+  "age": "1 day ago",
   "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
  },
  {
@@ -300,7 +308,7 @@
   "title": "[RHYSIDA] - Ransomware Victim: Kreishandwerkerschaft Borken - RedPacket Security",
   "url": "https://www.redpacketsecurity.com/rhysida-ransomware-victim-kreishandwerkerschaft-borken/",
   "source": "www.redpacketsecurity.com",
-  "age": "19 hours ago",
+  "age": "1 day ago",
   "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
  },
  {
@@ -316,16 +324,32 @@
   "title": "[N0N] - Ransomware Victim: Fanatics (global sports commerce platform) - RedPacket Security",
   "url": "https://www.redpacketsecurity.com/n0n-ransomware-victim-fanatics-global-sports-commerce-platform/",
   "source": "www.redpacketsecurity.com",
-  "age": "9 hours ago",
+  "age": "10 hours ago",
   "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+  "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+  "source": "thehackernews.com",
+  "age": "1 day ago",
+  "desc": "Google's Gemini gained unauthorized access to real company systems during a May 2026 test, then halted after detecting a real-world breach."
  },
  {
   "beat": "business",
   "title": "Antitrust lawsuit filed against AI companies challenges coordinated slowdown efforts | AP News",
   "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
   "source": "apnews.com",
-  "age": "20 hours ago",
+  "age": "1 day ago",
   "desc": "A new lawsuit claims that Anthropic, OpenAI, SpaceXAI and Google illegally agreed to slow their AI development. Filed Friday in the U.S."
+ },
+ {
+  "beat": "business",
+  "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown | PBS News",
+  "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+  "source": "www.pbs.org",
+  "age": "1 day ago",
+  "desc": "The lawsuit argues that the leading AI companies violated antitrust laws when they agreed to coordinate slowdown efforts, and that doing so would reduce the value consumers get for"
  },
  {
   "beat": "business",
@@ -337,14 +361,6 @@
  },
  {
   "beat": "business",
-  "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown | PBS News",
-  "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
-  "source": "www.pbs.org",
-  "age": "19 hours ago",
-  "desc": "The lawsuit argues that the leading AI companies violated antitrust laws when they agreed to coordinate slowdown efforts, and that doing so would reduce the value consumers get for"
- },
- {
-  "beat": "business",
   "title": "Paramount-Warner merger: California and 11 states could settle lawsuit blocking $110 billion acquisition this weekend | Company Business News",
   "url": "https://livemint.com/companies/news/paramountwarner-merger-california-and-11-states-could-settle-lawsuit-blocking-110-billion-acquisition-report-11789828816137.html",
   "source": "livemint.com",
@@ -353,42 +369,42 @@
  },
  {
   "beat": "business",
-  "title": "Elizabeth Warren Says it Would be a ‘Massive Mistake’ for Rob Bonta to Settle Lawsuit With Paramount as Trump Bans CNN from White House: ‘This Is a Dangerous Merger’",
-  "url": "https://variety.com/2026/film/news/elizabeth-warren-massive-mistake-rob-bonta-settle-paramount-1236869679",
-  "source": "variety.com",
-  "age": "16 hours ago",
-  "desc": "Elizabeth Warren says it would be a 'massive mistake' for Rob Bonta to settle his lawsuit with Paramount."
- },
- {
-  "beat": "business",
   "title": "AI antitrust lawsuit: Anthropic, OpenAI, xAI, Google accused of colluding to slow development - US News | The Financial Express",
   "url": "https://www.financialexpress.com/world-news/us-news/ai-antitrust-lawsuit-anthropic-openai-xai-google-accused-of-colluding-to-slow-development/4343364/",
   "source": "www.financialexpress.com",
-  "age": "2 hours ago",
+  "age": "3 hours ago",
   "desc": "A lawsuit accuses Anthropic, OpenAI, xAI, and Google of illegally coordinating to slow AI development, alleging antitrust violations that limit competition and harm paid AI subscri"
+ },
+ {
+  "beat": "business",
+  "title": "Mark Ruffalo Urges California AG to Not Settle Antitrust Suit Against Paramount-Warner Bros. Merger: “Do Not Cave”",
+  "url": "https://yahoo.com/entertainment/movies/articles/mark-ruffalo-urges-california-ag-041156286.html",
+  "source": "yahoo.com",
+  "age": "10 hours ago",
+  "desc": "The Wall Street Journal reported Friday that Paramount and the states are closing in on a deal to settle the lawsuit."
  },
  {
   "beat": "business",
   "title": "Tech Giants Confront Antitrust Lawsuit Over AI Progress | Ca",
   "url": "https://careeraheadonline.com/tech-giants-confront-antitrust-lawsuit-over-ai-progress",
   "source": "careeraheadonline.com",
-  "age": "18 hours ago",
+  "age": "19 hours ago",
   "desc": "Explore the antitrust lawsuit against major AI companies and its potential impact on innovation, research, and funding in the global AI landscape. Understand the regulatory challen"
  },
  {
   "beat": "business",
-  "title": "\"Collusion, Not Safety\": Massive Antitrust Lawsuit Hits Big Tech's Top AI Leaders",
-  "url": "https://theridgewoodblog.net/collusion-not-safety-massive-antitrust-lawsuit-hits-big-techs-top-ai-leaders",
-  "source": "theridgewoodblog.net",
-  "age": "5 hours ago",
-  "desc": "Tech giants Anthropic, OpenAI, SpaceXAI, and Google face a blockbuster antitrust lawsuit alleging illegal collusion to slow down AI development. Read the full details."
+  "title": "Elizabeth Warren Says it Would be a ‘Massive Mistake’ for Rob Bonta to Settle Lawsuit With Paramount as Trump Bans CNN from White House: ‘This Is a Dangerous Merger’",
+  "url": "https://variety.com/2026/film/news/elizabeth-warren-massive-mistake-rob-bonta-settle-paramount-1236869679",
+  "source": "variety.com",
+  "age": "18 hours ago",
+  "desc": "Elizabeth Warren says it would be a 'massive mistake' for Rob Bonta to settle his lawsuit with Paramount."
  },
  {
   "beat": "technology",
   "title": "Semiconductor Supercycle: How AI Is Driving the Global Chips Boom",
   "url": "https://indianexpress.com/article/explained/explained-sci-tech/expert-explains-ai-chip-boom-india-opportunity-10886212/",
   "source": "indianexpress.com",
-  "age": "34 minutes ago",
+  "age": "2 hours ago",
   "desc": "The recently held SEMICON India event comes amid rising demand for specialised chips. Why are these chips coveted, what makes this period different from earlier tech shifts, and ho"
  },
  {
@@ -398,6 +414,22 @@
   "source": "apacnewsnetwork.com",
   "age": "1 day ago",
   "desc": "SEMICON India 2026, being held from September 17 to 19, has emerged as a major platform for partnerships aimed at strengthening India’s semiconductor ecosystem."
+ },
+ {
+  "beat": "technology",
+  "title": "Quantum's Real Business Model Is Inside the Datacenter",
+  "url": "https://investordenis.substack.com/p/quantums-real-business-model-is-inside",
+  "source": "investordenis.substack.com",
+  "age": "43 minutes ago",
+  "desc": "Of course, part of the revenue ... quantum software, quantum sensors, and atomic clocks. IONQ has a long list of enterprise clients and partners. This also suggests heavy use of IO"
+ },
+ {
+  "beat": "technology",
+  "title": "Semicon India 2026: Global Chipmakers Embrace India's Semiconductor Expansion, ETGovernment",
+  "url": "https://government.economictimes.indiatimes.com/news/technology/semicon-india-2026-draws-global-chipmakers-as-india-expands-semiconductor-ecosystem/134364769",
+  "source": "government.economictimes.indiatimes.com",
+  "age": "7 hours ago",
+  "desc": "Semicon India 2026 attracted significant global interest as semiconductor leaders like ASML and Applied Materials seek to establish a robust presence in India's burgeoning semicond"
  },
  {
   "beat": "technology",
@@ -425,27 +457,11 @@
  },
  {
   "beat": "startups",
-  "title": "Moonshot Weekly: Europe Unplugged. Back to Basics. The Leverage Rush. Moonshot x Deeptech.London Festival.",
-  "url": "https://moonshotcapital.substack.com/p/moonshot-weekly-europe-unplugged",
-  "source": "moonshotcapital.substack.com",
-  "age": "41 minutes ago",
-  "desc": "UK AI drug discovery startup Big Picture Bio, co-founded by Kerstin Papenfuss, raises a €1.75M pre-seed round co-led by Kadmos Capital and Exceptional Ventures; Dutch medtech start"
- },
- {
-  "beat": "startups",
   "title": "Indian Startup Funding — Startups Raised $59 Mn This Week",
   "url": "https://inc42.com/buzz/from-flam-to-verifaix-indian-startups-raised-about-59-mn-this-week",
   "source": "inc42.com",
   "age": "1 day ago",
   "desc": "Indian Startup Funding: This week, Indian startup funding stood at $59.7 Mn across 12 deals, down 82% from the preceding week"
- },
- {
-  "beat": "startups",
-  "title": "$951M Funding Week Exposes Africa's Capital Gap",
-  "url": "https://techbooky.com/951m-funding-week-exposes-africas-capital-gap",
-  "source": "techbooky.com",
-  "age": "6 hours ago",
-  "desc": "A $951m regional funding week was dominated by Saudi deals, exposing how little late-stage capital still reaches many African startups."
  },
  {
   "beat": "startups",
@@ -468,7 +484,7 @@
   "title": "17 Indian startups raised ₹593 crore last week",
   "url": "https://inshorts.com/en/news/17-indian-startups-raised--593-crore-last-week-1789874247699",
   "source": "inshorts.com",
-  "age": "9 hours ago",
+  "age": "10 hours ago",
   "desc": "Indian startups raised 61.8 million ₹593 crore across 17 deals last week, up from 356.8 million ₹3,422 crore raised by 23 startups in the previous week. Growthstage startups secure"
  },
  {
@@ -496,12 +512,12 @@
   "desc": "Latest Bollywood movies box office collection data with verdicts, hit/flop analysis, and budget details. Complete Hindi films collection report."
  },
  {
-  "beat": "music",
-  "title": "What's behind the power shift in the music industry? - NewsBreak",
-  "url": "https://newsbreak.com/money-week-1718669/4895432844389-what-s-behind-the-power-shift-in-the-music-industry",
-  "source": "newsbreak.com",
-  "age": "1 day ago",
-  "desc": "The music industry is changing as technology allows artists to seize power from traditional record labels. That can only be a good thing"
+  "beat": "culture",
+  "title": "Samuel L. Jackson Names The Long Kiss Goodnight as His Favorite Film – Archyde",
+  "url": "https://archyde.com/samuel-l-jackson-names-the-long-kiss-goodnight-as-his-favorite-film",
+  "source": "archyde.com",
+  "age": "16 minutes ago",
+  "desc": "Samuel L. Jackson revealed his favorite film is the 1996 action thriller The Long Kiss Goodnight, a box office disappointment that became a cult classic."
  },
  {
   "beat": "music",
@@ -510,6 +526,14 @@
   "source": "moneyweek.com",
   "age": "1 day ago",
   "desc": "The music industry is changing as technology allows artists to seize power from traditional record labels. That can only be a good thing for artists, fans and savvy investors"
+ },
+ {
+  "beat": "music",
+  "title": "What's behind the power shift in the music industry? - NewsBreak",
+  "url": "https://newsbreak.com/money-week-1718669/4895432844389-what-s-behind-the-power-shift-in-the-music-industry",
+  "source": "newsbreak.com",
+  "age": "1 day ago",
+  "desc": "The music industry is changing as technology allows artists to seize power from traditional record labels. That can only be a good thing"
  },
  {
   "beat": "music",
