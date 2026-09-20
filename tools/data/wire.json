@@ -1,650 +1,522 @@
 [
  {
   "beat": "crypto",
-  "title": "US sanctions Iranian crypto exchange BitBank over alleged bitcoin transfers to IRGC | The Block",
-  "url": "https://theblock.co/news/regulation/2026-09-17-us-sanctions-iranian-crypto-exchange-bitbank-alleged-bitcoin-transfers-to-irgc-415462",
-  "source": "theblock.co",
-  "age": "1 day ago",
-  "desc": "Treasury said the previously sanctioned Hormuz Safe platform used BitBank to transfer payments collected since June."
- },
- {
-  "beat": "crypto",
-  "title": "Coinbase connects crypto services to 3,000+ U.S. banks",
-  "url": "https://crypto.news/coinbase-connects-crypto-services-to-3000-u-s-banks",
+  "title": "Crypto ETF flows: Ether loses $141M as Solana gains $61M",
+  "url": "https://crypto.news/crypto-etf-flows-ether-loses-141m-as-solana-gains-61m/",
   "source": "crypto.news",
-  "age": "13 hours ago",
-  "desc": "Coinbase and Stablecore are linking crypto trading, custody, staking and stablecoin payments to existing systems used by U.S. community banks."
+  "age": "1 day ago",
+  "desc": "U.S. crypto ETFs lost $70.7 million for the week as Ether funds shed $140.6 million and Solana products drew $60.7 million as Bitcoin ended flat."
  },
  {
   "beat": "crypto",
-  "title": "Stablecoin payments firm dtcpay closes $25 million Series A with SBI Group investment | The Block",
-  "url": "https://theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
-  "source": "theblock.co",
-  "age": "11 hours ago",
-  "desc": "The fresh capital enables it to scale product suite and merchant network, including a revamped business portal for enterprise clients."
- },
- {
-  "beat": "crypto",
-  "title": "The SEC and CFTC Say They Will Write Crypto Rules Without Congress. What Atkins and Selig Can Actually Do for XRP and Bitcoin.",
-  "url": "https://finance.yahoo.com/markets/crypto/articles/sec-cftc-write-crypto-rules-164042293.html",
-  "source": "finance.yahoo.com",
-  "age": "1 day ago",
-  "desc": "With the CLARITY Act dead in the Senate and Congress sidelined, SEC Chair Paul Atkins and CFTC Chair Michael Selig just announced they will write crypto rules on their own. Here is"
- },
- {
-  "beat": "crypto",
-  "title": "Bitcoin reclaims $80,000, Solana and Hyperliquid rally as crypto markets shrug off Clarity setback | The Block",
-  "url": "https://theblock.co/news/markets/2026-09-18-bitcoin-reclaims-80000-solana-hyperliquid-rally-crypto-markets-shrug-off-clarity-setback-415523",
-  "source": "theblock.co",
-  "age": "1 hour ago",
-  "desc": "Hyperliquid also launched manual ... borrow stablecoins like USDC and USDT. For his part, entrepeneur and investor Kevin O'Leary told The Starting Block he's buying new crypto posi"
- },
- {
-  "beat": "crypto",
-  "title": "CFTC Gives Crypto Wallet Developers a New Regulatory Escape Hatch",
-  "url": "https://news.bitcoin.com/regulation-and-legal/cftc-gives-crypto-wallet-developers-a-new-regulatory-escape-hatch",
-  "source": "news.bitcoin.com",
-  "age": "1 day ago",
-  "desc": "CFTC staff widened broker-registration relief Sept. 17, giving passive crypto software developers a broader regulatory lane."
- },
- {
-  "beat": "crypto",
-  "title": "CFTC Clears Way for Crypto Developers to Build Trading Tools Without Broker Registration",
-  "url": "https://coingape.com/cftc-clears-way-for-crypto-developers-to-build-trading-tools-without-broker-registration/",
-  "source": "coingape.com",
-  "age": "1 day ago",
-  "desc": "The CFTC issued a no-action position, stating conditions under which crypto developers can build without registering as brokers."
- },
- {
-  "beat": "crypto",
-  "title": "Bitcoin Can Keep Climbing Even if the Clarity Act Stalls, With Rates and ETF Flows the Key",
-  "url": "https://en.bloomingbit.io/feed/news/120592",
-  "source": "en.bloomingbit.io",
-  "age": "10 hours ago",
-  "desc": "Bitcoin up 38% despite legislative setback Bitwise revises view that downturn would drag on Bitcoin already has ETFs, futures and other investment rai"
- },
- {
-  "beat": "blockchain",
-  "title": "After Tokenized Stocks Get Approved: Robinhood, Circle, and the Next Stage of Onchain Finance",
-  "url": "https://techflowpost.com/en-US/article/34083",
-  "source": "techflowpost.com",
-  "age": "7 hours ago",
-  "desc": "Narrow RWA focuses on how traditional ... using blockchain to solve long-standing efficiency issues within traditional finance itself, including 24/7 trading, settlement speed, and"
- },
- {
-  "beat": "blockchain",
-  "title": "US Market: SEC unveils five-year exemption for tokenized stock trading - The Economic Times",
-  "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-sec-unveils-five-year-exemption-for-tokenized-stock-trading/articleshow/134328527.cms",
-  "source": "economictimes.indiatimes.com",
-  "age": "10 hours ago",
-  "desc": "The SEC has introduced a five-year exemption to facilitate trading in tokenized stocks, allowing certain blockchain-based platforms to operate under limited regulatory relief. The "
- },
- {
-  "beat": "blockchain",
-  "title": "SEC gives tokenized stock trading platforms five-year regulatory relief - The Economic Times",
-  "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sec-gives-tokenized-stock-trading-platforms-five-year-regulatory-relief/articleshow/134317750.cms",
-  "source": "economictimes.indiatimes.com",
-  "age": "1 day ago",
-  "desc": "The US SEC has granted a five-year exemption to platforms offering tokenized stocks, easing regulatory hurdles for blockchain-based share trading. The move could bring crypto platf"
- },
- {
-  "beat": "blockchain",
-  "title": "SEC Opens a Conditional Path for Tokenized US Stocks - NewsBreak",
-  "url": "https://www.newsbreak.com/news/4893345622457-sec-opens-a-conditional-path-for-tokenized-us-stocks",
-  "source": "www.newsbreak.com",
-  "age": "10 hours ago",
-  "desc": "The Securities and Exchange Commission has opened a conditional path for certain blockchain venues to trade tokenized US stocks, giving onchain market infr"
- },
- {
-  "beat": "blockchain",
-  "title": "SEC Gives Tokenized Stocks a Five-Year Onchain Runway, Robinhood CEO Vlad Tenev Says ‘It’s a Good Day for - Benzinga",
-  "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61860709/sec-gives-tokenized-stocks-a-five-year-onchain-runway-robinhood-ceo-vlad-tenev-says-its-a-good-day-for-us-innovation",
-  "source": "www.benzinga.com",
-  "age": "10 hours ago",
-  "desc": "SEC grants tokenized stock venues a five-year exemption, enabling on-chain share trading with AMMs, fractionalization and 24/7 settlement."
- },
- {
-  "beat": "blockchain",
-  "title": "Council Post: Tokenization Is Transforming The Rails Beneath Financial Markets",
-  "url": "https://forbes.com/councils/forbestechcouncil/2026/09/17/tokenization-is-transforming-the-rails-beneath-financial-markets",
-  "source": "forbes.com",
-  "age": "1 day ago",
-  "desc": "Tokenization is not simply replacing institutions with code."
- },
- {
-  "beat": "blockchain",
-  "title": "Wall Street Put $350 Billion on Blockchain; Most of It Is Doing Nothing - Newsweek",
-  "url": "https://newsweek.com/wall-street-put-350-billion-on-blockchain-most-of-it-is-doing-nothing-12461154",
-  "source": "newsweek.com",
-  "age": "1 hour ago",
-  "desc": "She operates at the intersection ... to onchain markets. Emily is also the spot executive of Bybit. ... See more of our trusted coverage when you search.Prefer Newsweek on Googleto"
- },
- {
-  "beat": "blockchain",
-  "title": "SEC Opens Door To Blockchain-Based Stocks. Investors Could Soon Trade Equities At All Times. | IBTimes",
-  "url": "https://www.ibtimes.com/sec-opens-door-blockchain-based-stocks-investors-could-soon-trade-equities-all-times-3807583",
-  "source": "www.ibtimes.com",
-  "age": "1 day ago",
-  "desc": "The move allows financial firms to experiment with blockchain-based representations of equities."
- },
- {
-  "beat": "ai",
-  "title": "Anthropic and OpenAI hunt for smaller data center deals, sources tell CNBC, in race to deploy AI capacity",
-  "url": "https://www.cnbc.com/2026/09/18/anthropic-openai-small-ai-data-center-deals.html",
-  "source": "www.cnbc.com",
-  "age": "7 hours ago",
-  "desc": "Anthropic and OpenAI have announced a flurry of AI infrastructure deals over the past year as demand booms."
- },
- {
-  "beat": "ai",
-  "title": "Tech stocks today: Apple's iPhone 18 Pro goes on sale, AI safety debate continues",
-  "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-openai-raising-funds-at-12-trillion-valuation-sk-hynix-and-intel-moves-140134624.html",
-  "source": "finance.yahoo.com",
-  "age": "2 hours ago",
-  "desc": "The AI safety debate continues to rage across Silicon Valley. Late Thursday, The Wall Street Journal reported that a team of cybersecurity researchers used Anthropic's AI models to"
- },
- {
-  "beat": "ai",
-  "title": "Anthropic and OpenAI seek 20–30 MW data center deals: CNBC - Blockspace",
-  "url": "https://blockspace.media/insight/anthropic-openai-data-center-deals",
-  "source": "blockspace.media",
+  "title": "Saylor’s Failed CLARITY Act Warning: Don’t Turn Temporary Crypto Rules Into Permanent Restrictions",
+  "url": "https://stocktwits.com/news-articles/markets/equity/michael-saylor-clarity-act-rejection-warning-mstr/cZtC5AZRBEx",
+  "source": "stocktwits.com",
   "age": "3 hours ago",
-  "desc": "The AI labs are exploring smaller deployments alongside their gigawatt-scale commitments, targeting powered sites that could bring inference capacity online sooner."
+  "desc": "Michael Saylor argued mass adoption was the industry's real protection against a hostile administration."
  },
  {
-  "beat": "ai",
-  "title": "Anthropic and OpenAI Explore Smaller AI Data Center Collaborations",
-  "url": "https://gurufocus.com/news/9087937/anthropic-and-openai-explore-smaller-ai-data-center-collaborations",
-  "source": "gurufocus.com",
-  "age": "4 hours ago",
-  "desc": "As the competition for AI computing infrastructure intensifies, Anthropic and OpenAI are reportedly seeking partnerships for smaller AI data center projects. Ov"
- },
- {
-  "beat": "ai",
-  "title": "Anthropic and OpenAI seek smaller data centers while gigawatt sites wait",
-  "url": "https://runtimewire.com/article/anthropic-openai-smaller-data-center-deals-inference-capacity",
-  "source": "runtimewire.com",
-  "age": "5 hours ago",
-  "desc": "Anthropic and OpenAI are exploring 20-30 MW data center deployments to bring inference capacity online faster while larger campuses are built."
- },
- {
-  "beat": "ai",
-  "title": "OpenAI and Anthropic are making 10 times more revenue than all Chinese AI models combined, research group Rhodium says - NewsBreak",
-  "url": "https://www.newsbreak.com/news/4891279258303-openai-and-anthropic-are-making-10-times-more-revenue-than-all-chinese-ai-models-combined-research-group-rhodium-says",
-  "source": "www.newsbreak.com",
-  "age": "1 day ago",
-  "desc": "BEIJING — China's artificial intelligence models may be enjoying rapid adoption but that isn't yet translating into revenue, raising questions about compan"
- },
- {
-  "beat": "ai",
-  "title": "Sources: Anthropic and OpenAI are seeking smaller data center deals to gain an edge in the AI compute race.",
-  "url": "https://techflowpost.com/en-US/newsletter/136814",
-  "source": "techflowpost.com",
-  "age": "7 hours ago",
-  "desc": "According to CNBC, sources revealed that as competition intensifies over the infrastructure required to deploy workloads, Anthropic and OpenAI are actively seeking small…"
- },
- {
-  "beat": "ai",
-  "title": "Three guys using Anthropic’s Claude hacked into OpenAI and accessed its source code for $6,500 reward | Fortune",
-  "url": "https://fortune.com/2026/09/18/open-ai-hacked-anthropic-claude-source-code-6500-reward",
-  "source": "fortune.com",
-  "age": "7 hours ago",
-  "desc": "Everything you need to know before you reach the office this morning."
- },
- {
-  "beat": "markets",
-  "title": "Treasury yields move lower after Fed kicks off hiking cycle",
-  "url": "https://www.cnbc.com/2026/09/17/treasury-yields-move-lower-after-fed-kicks-off-hiking-cycle.html",
-  "source": "www.cnbc.com",
-  "age": "1 day ago",
-  "desc": "The Federal Reserve raised interest rates for the first time since 2023."
- },
- {
-  "beat": "markets",
-  "title": "Treasury yields move higher as volatile week wraps up",
-  "url": "https://cnbc.com/2026/09/18/treasury-yields-fed-rates-volatile-week.html",
-  "source": "cnbc.com",
+  "beat": "crypto",
+  "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand By Investing.com",
+  "url": "https://investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141",
+  "source": "investing.com",
   "age": "8 hours ago",
-  "desc": "Treasury yields moved higher on Friday as investors continued to look for clues on the trajectory of monetary policy."
+  "desc": "Investing.com -- Bitcoin held above ... Bitcoin exchange-traded funds recorded more than $433 million in net inflows on Friday. Get breaking Bitcoin and crypto market updates with "
  },
  {
-  "beat": "markets",
-  "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: US stocks slip as higher Treasury yields weigh on sentiment - The Economic Times",
-  "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dow-jones-stock-market-live-updates-nasdaq-sp-500-us-iran-israel-war-hormuz-deal-brent-crude-oil-earnings-forecast-nvidia-xenon-pharmaceuticals-berkshire-hathaway-alphabet-apple-stock-price-news-18th-september-2026/liveblog/134335091.cms",
-  "source": "economictimes.indiatimes.com",
-  "age": "5 hours ago",
-  "desc": "Treasury prices fell and yields jumped after the Federal Reserve raised interest rates and signaled that more hikes are likely this year. The selloff was led by two- to five-year n"
+  "beat": "crypto",
+  "title": "Michael Saylor Calls CLARITY Act Rejection A ‘Positive Inflection Point’ For Crypto Industry | Asianet Newsable",
+  "url": "https://newsable.asianetnews.com/markets/michael-saylor-calls-clarity-act-rejection-a-positive-inflection-point-for-crypto-industry-articleshow-y824gco",
+  "source": "newsable.asianetnews.com",
+  "age": "2 hours ago",
+  "desc": "Michael Saylor argued mass adoption was the industry's real protection against a hostile administration."
  },
  {
-  "beat": "markets",
-  "title": "Federal Reserve Board - H.15 - Selected Interest Rates (Daily) - September 17, 2026",
-  "url": "https://www.federalreserve.gov/releases/h15/",
-  "source": "www.federalreserve.gov",
+  "beat": "crypto",
+  "title": "Crypto News Now: Bitcoin Tops $81K as Coinbase, Polygon, Visa In Focus",
+  "url": "https://coingabbar.com/en/crypto-news-market-rises-bitcoin-ethereum-price-up-today",
+  "source": "coingabbar.com",
   "age": "1 day ago",
-  "desc": "The Federal Reserve Board of Governors in Washington DC."
+  "desc": "Crypto News market up today: Bitcoin tops $81K, Ethereum up and Greed Index rises to 71. See coinbase, polygon, visa, MiCA and CLARITY Act as top movers..."
  },
  {
-  "beat": "markets",
-  "title": "A stronger dollar and rising yields: How the Fed’s rate hike could hit global markets",
-  "url": "https://cnbc.com/2026/09/17/fed-rate-hike-impact-globally-currency-yields.html",
-  "source": "cnbc.com",
-  "age": "2 days ago",
-  "desc": "Higher U.S. rates could also keep global bond yields elevated and weigh on equity valuations and economic growth."
- },
- {
-  "beat": "markets",
-  "title": "S&amp;P 500 Falls as Treasury Yields Resume Advance: Markets Wrap",
-  "url": "https://bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
-  "source": "bloomberg.com",
-  "age": "19 hours ago",
-  "desc": "Following a brief pause in the Treasury selloff, 10-year yields climbed to around 5% on speculation that elevated energy costs could fuel inflation, prompting further Federal Reser"
- },
- {
-  "beat": "markets",
-  "title": "Tech leads Wall St to higher close as oil eases, Treasury yields dip",
-  "url": "https://detroitnews.com/story/business/2026/09/17/wall-st-climbs-as-easing-oil-prices-offer-reprieve-after-fed-rate-hike/91807027007",
-  "source": "detroitnews.com",
+  "beat": "crypto",
+  "title": "Brazil blocks stablecoins from key cross-border payment rail as $1.1 trillion market faces new limits",
+  "url": "https://cryptoslate.com/brazil-blocks-stablecoins-from-key-cross-border-payment-rail-as-1-1-trillion-market-faces-new-limits",
+  "source": "cryptoslate.com",
   "age": "1 day ago",
-  "desc": "Wall Street bounced back on Thursday as easing oil prices, dropping Treasury yields and solid labor data helped markets move beyond the interest hike."
+  "desc": "Brazil's central bank is banning virtual assets from one critical cross-border settlement channel while preserving their use for individual international transfers."
  },
  {
-  "beat": "markets",
-  "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
-  "url": "https://finance.yahoo.com/markets/article/10-year-treasury-yield-eases-oil-falls-to-100-alphacheck-134408021.html",
-  "source": "finance.yahoo.com",
+  "beat": "crypto",
+  "title": "Bitcoin Cash and the Grayscale ETF Filing: What Counts",
+  "url": "https://cryptoticker.io/en/bitcoin-cash-grayscale-etf-filing-check",
+  "source": "cryptoticker.io",
   "age": "1 day ago",
-  "desc": "Here's a check of the markets in the first few minutes of trading."
+  "desc": "Grayscale wants to convert its BCH trust. The filing says the listing basis is not approved and names no date. What that means for investors."
  },
  {
-  "beat": "fintech",
-  "title": "Saudi Arabia expands payment options with Alipay+",
-  "url": "https://fintech.global/2026/09/17/saudi-arabia-expands-payment-options-with-alipay/",
-  "source": "fintech.global",
+  "beat": "crypto",
+  "title": "Prohibir rendimientos de stablecoins apenas impulsa el crédito bancario",
+  "url": "https://criptonoticias.com/regulacion/prohibir-rendimientos-stablecoins-credito-bancario",
+  "source": "criptonoticias.com",
   "age": "1 day ago",
-  "desc": "SAMA signals its approach to Saudi fintech as Money20/20 closes with lending, payments and AI developments."
+  "desc": "Según asesores de la Casa Blanca, el costo para los usuarios supera con creces el mínimo aumento de préstamos bancarios si se prohíben estos pagos."
  },
  {
-  "beat": "fintech",
-  "title": "Executive Conversations by The Paypers with Payplug",
-  "url": "https://thepaypers.com/fintech/interviews/executive-conversations-by-the-paypers-with-payplug-scaling-a-fintech-inside-a-bank",
-  "source": "thepaypers.com",
-  "age": "2 days ago",
-  "desc": "As merchants demand more from bundled ... combine fintech agility with bank-level scale and regulatory access will become a critical differentiator for providers competing against "
+  "beat": "blockchain",
+  "title": "Coinbase (COIN), Robinhood (HOOD), Circle (CRCL) stand to gain from SEC's tokenized-stock push: analysts",
+  "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
+  "source": "www.coindesk.com",
+  "age": "38 minutes ago",
+  "desc": "Goldman Sachs and Citizens analysts said the agency's move create new opportunities in custody, tokenization infrastructure and stablecoin settlement, while giving brokers room to "
  },
  {
-  "beat": "fintech",
-  "title": "Fintech Market (2035): Digital Payments, Artificial Intelligence & Blockchain Technology Growth in United States Expansion",
-  "url": "https://openpr.com/news/4634605/fintech-market-2035-digital-payments-artificial",
-  "source": "openpr.com",
+  "beat": "blockchain",
+  "title": "The Future of Banking: WeFi CEO Maksym on Stablecoins, Onchain Finance and Financial Infrastructure",
+  "url": "https://en.cryptonomist.ch/2026/09/19/the-future-of-banking-wefi-ceo-maksym-on-stablecoins-onchain-finance-and-financial-infrastructure/",
+  "source": "en.cryptonomist.ch",
   "age": "1 day ago",
-  "desc": "The growing shift toward digital banking, embedded finance and real-time payment solutions is expected to support market expansion throughout the forecast period. Get 20% Complimen"
+  "desc": "Tokenized deposits can be useful where bank money, institutional relationships, and account-based structures are still needed. Stablecoins can serve as portable settlement assets a"
  },
  {
-  "beat": "fintech",
-  "title": "How Agentic AI is Redefining Banking, Payments, and Fintech",
-  "url": "https://analyticsinsight.net/photo/how-agentic-ai-is-redefining-banking-payments-and-fintech",
-  "source": "analyticsinsight.net",
-  "age": "12 hours ago",
-  "desc": "Agentic AI is reshaping Banking, Payments, and Fintech with smarter fraud detection, automated finance, personalized services, and faster digital transactions."
- },
- {
-  "beat": "fintech",
-  "title": "Fintech News September 17, 2026: Markel, Ayan Capital, Tare, Universit | HIPTHER",
-  "url": "https://hipther.com/news/2026/09/17/137920/fintech-pulse-your-daily-industry-brief-september-17-2026-markel-nick-rugg-ayan-capital-triple-point",
-  "source": "hipther.com",
+  "beat": "blockchain",
+  "title": "After the approval of tokenized stocks:...",
+  "url": "https://www.chaincatcher.com/en/article/2290897",
+  "source": "www.chaincatcher.com",
   "age": "1 day ago",
-  "desc": "HIPTHER’s fintech news coverage and its analysis of payments, DLT and emerging technology provide further context. University Bancorp’s vision is compelling, but a pilot earns cred"
+  "desc": "The SEC has approved the tokenization of US stock trading, advancing onchain finance. Robinhood and Circle are making strategic moves in asset and capital ..."
  },
  {
-  "beat": "fintech",
-  "title": "Banks can connect old and new payment systems in real time with ACI Worldwide.",
-  "url": "https://stocktitan.net/news/ACIW/aci-worldwide-expands-aci-connetic-with-advanced-financial-messaging-25u364v10cpj.html",
-  "source": "stocktitan.net",
+  "beat": "blockchain",
+  "title": "European Blockchain Convention 12 (EBC12) Day 1: Institutional digital assets move into execution",
+  "url": "https://crypto-reporter.com/press-releases/european-blockchain-convention-12-ebc12-day-1-institutional-digital-assets-move-into-execution-131547",
+  "source": "crypto-reporter.com",
+  "age": "2 hours ago",
+  "desc": "Stablecoins were discussed less as a crypto-native product and more as part of the future payments and settlement stack. The conversation increasingly centred on interoperability: "
+ },
+ {
+  "beat": "blockchain",
+  "title": "Legacy banks build tokenized money for institutional walls, not everyday consumers",
+  "url": "https://coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
+  "source": "coindesk.com",
   "age": "1 day ago",
-  "desc": "The cloud-native capability translates, validates, enriches and routes payment messages across domestic and cross-border networks, supporting banks’ ISO 20022 migration."
+  "desc": "Decades-old mainframe architecture and privacy concerns have kept Wall Street's blockchain wins restricted to institutional liquidity and interbank settlement."
  },
  {
-  "beat": "fintech",
-  "title": "Financial Services Technology, Mobile Banking, Payments | Fiserv",
-  "url": "https://www.fiserv.com/en.html",
-  "source": "www.fiserv.com",
+  "beat": "blockchain",
+  "title": "How Blockchain Solves Real-World Problems Across Industries: Use Cases, Benefits",
+  "url": "https://www.analyticsinsight.net/blockchain/how-blockchain-solves-real-world-problems-across-industries-use-cases-benefits",
+  "source": "www.analyticsinsight.net",
   "age": "1 day ago",
-  "desc": "Fiserv is a global fintech and payments company with solutions for banking, global commerce, merchant acquiring, billing and payments, and point-of-sale."
+  "desc": "Blockchain is moving beyond cryptocurrency trading and increasingly being used as shared infrastructure for payments, asset ownership and supply chains. It allo"
  },
  {
-  "beat": "fintech",
-  "title": "FintechZoom.com Publishes In-Depth Guide on Agentic Payments as AI Begins Spending Money on Consumers' Behalf",
-  "url": "https://openpr.com/news/4634169/fintechzoom-com-publishes-in-depth-guide-on-agentic-payments",
-  "source": "openpr.com",
+  "beat": "blockchain",
+  "title": "Tokenizing Real-World Assets? Why the SEC’s Innovation Exemption Matters for Crypto Innovators — StartSmart Counsel",
+  "url": "https://www.startsmartcounsel.com/resource-center/tokenization-is-moving-onchain-why-the-secs-new-innovation-exemption-matters-for-crypto-innovators",
+  "source": "www.startsmartcounsel.com",
   "age": "1 day ago",
-  "desc": "New feature explores how AI agents are reshaping payments fraud prevention liability and trust in digital commerce London September 17 FintechZoom com https fintechzoom com a digit"
+  "desc": "The SEC’s Innovation Exemption opens new opportunities for tokenized stocks and onchain markets. Learn what it means for crypto founders, fintech innovators, and the future of real"
  },
  {
-  "beat": "cybersecurity",
-  "title": "Gyazo breach exposes 23.62 million user records and 490 million image records — PII and metadata exposed in huge attack | TechRadar",
-  "url": "https://techradar.com/pro/security/gyazo-breach-exposes-23-62-million-user-records-and-490-million-image-records-pii-and-metadata-exposed-in-huge-attack",
-  "source": "techradar.com",
+  "beat": "blockchain",
+  "title": "Coinbase (COIN), Robinhood (HOOD), Circle (CRCL) se benefician del impulso de la SEC hacia las acciones tokenizadas: analistas",
+  "url": "https://www.coindesk.com/es/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
+  "source": "www.coindesk.com",
+  "age": "38 minutes ago",
+  "desc": "Goldman Sachs and Citizens analysts said the agency's move create new opportunities in custody, tokenization infrastructure and stablecoin settlement, while giving brokers room to "
+ },
+ {
+  "beat": "ai",
+  "title": "Anthropic, OpenAI, SpaceXAI, Google sued over call to ‘pace’ AI development - POLITICO",
+  "url": "https://www.politico.com/news/2026/09/18/anthropic-openai-spacexai-google-sued-over-calls-to-pace-ai-development-01085023",
+  "source": "www.politico.com",
   "age": "1 day ago",
-  "desc": "A vulnerability in an image sharing service resulted in millions of records being exposed"
+  "desc": "The lawsuit alleges comments about need to “pace the frontier” of AI represent illegal coordination between competitors."
  },
  {
-  "beat": "cybersecurity",
-  "title": "Ransomware Attacks May Have Exposed Data of 12,600 in Connecticut - NewsBreak",
-  "url": "https://www.newsbreak.com/news/4891597985517-ransomware-attacks-may-have-exposed-data-of-12-600-in-connecticut",
+  "beat": "ai",
+  "title": "OpenAI Projects $278B Cash Burn: Record Round Runs Dry Before Revenue Catches Up",
+  "url": "https://techtimes.com/articles/327752/20260920/openai-projects-278b-cash-burn-record-round-runs-dry-before-revenue-catches.htm",
+  "source": "techtimes.com",
+  "age": "6 hours ago",
+  "desc": "OpenAI cash burn projections from an internal July document reveal the company expects $278 billion in negative free cash flow through 2030, exhausting its record $122 billion Marc"
+ },
+ {
+  "beat": "ai",
+  "title": "AI stocks are under pressure as top executives call for slower development, but is this really the end of the AI rally? - NewsBreak",
+  "url": "https://www.newsbreak.com/we-play-on-chain-376611620/4895577041200-ai-stocks-are-under-pressure-as-top-executives-call-for-slower-development-but-is-this-really-the-end-of-the-ai-rally",
   "source": "www.newsbreak.com",
   "age": "1 day ago",
-  "desc": "Ransomware attacks that disrupted the computer networks of New Britain and Meriden earlier this year may have exposed sensitive personal information belong"
+  "desc": "AI stocks came under pressure after Anthropic’s Dario Amodei, OpenAI’s Sam Altman and others called for greater caution around rapid AI development. The se"
  },
  {
-  "beat": "cybersecurity",
-  "title": "An Undercover Google Analyst Infiltrated a Notorious Supply Chain Hacking Gang | WIRED",
-  "url": "https://wired.com/story/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang",
-  "source": "wired.com",
-  "age": "1 hour ago",
-  "desc": "TeamPCP pulled off the worst-ever software supply chain hacking spree and breached thousands of companies. Now Google’s threat intelligence group has revealed it had a mole inside "
- },
- {
-  "beat": "cybersecurity",
-  "title": "AECOM: AECOMData Breach?",
-  "url": "https://blog.rankiteo.com/aec1789669507-aecom-breach-september-2026/",
-  "source": "blog.rankiteo.com",
-  "age": "2 days ago",
-  "desc": "AECOM Hit by Alleged Data Breach: Hacker Group Metaencryptor Claims 1.22TB of Stolen Data On September 17, 2026, the hacker group Metaencryptor claimed responsibility for a suspect"
- },
- {
-  "beat": "cybersecurity",
-  "title": "Manufacturing Accounts for 22% of all Ransomware Victims - Infosecurity Magazine",
-  "url": "https://infosecurity-magazine.com/news/manufacturing-22-ransomware-victims",
-  "source": "infosecurity-magazine.com",
-  "age": "9 hours ago",
-  "desc": "Black Kite has found that manufacturing remained the most targeted sector for ransomware attacks, and saw a big jump in incidents in H1 2026"
- },
- {
-  "beat": "cybersecurity",
-  "title": "Food distributors warn cyberattacks can quickly become supply chain disruptions - FreightWaves",
-  "url": "https://freightwaves.com/news/food-distributors-warn-cyberattacks-can-quickly-become-supply-chain-disruptions",
-  "source": "freightwaves.com",
-  "age": "4 hours ago",
-  "desc": "Cybersecurity executives are urging foodservice distributors to prepare for cyberattacks as operational disruptions that can affect warehouses, trucks,"
- },
- {
-  "beat": "cybersecurity",
-  "title": "Ransomware Attacks on Manufacturers Surge as Supply Chain Risk Grows - SecurityWeek",
-  "url": "https://securityweek.com/ransomware-attacks-on-manufacturers-surge-as-supply-chain-risk-grows",
-  "source": "securityweek.com",
+  "beat": "ai",
+  "title": "Google Gemini AI Agents hack three companies in tests similar to OpenAI, Anthropic and Meta: What the company said - The Times of India",
+  "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-gemini-ai-agents-hack-three-companies-in-tests-similar-to-openai-anthropic-and-meta-what-the-company-said/articleshow/134347195.cms",
+  "source": "timesofindia.indiatimes.com",
   "age": "1 day ago",
-  "desc": "Ransomware attacks on manufacturers rose 40% in early 2026, as threat groups target supply-chain disruption and increasingly focus on European victims."
+  "desc": "Google has disclosed that its flagship artificial intelligence (AI) model, Gemini, broke past its designated testing boundaries in May and hacked the digital infrastructure of thre"
+ },
+ {
+  "beat": "ai",
+  "title": "Anthropic weighs new AI model launch as OpenAI gains ground - Reuters By Investing.com",
+  "url": "https://investing.com/news/company-news/anthropic-weighs-new-ai-model-launch-as-openai-gains-ground--reuters-4908022",
+  "source": "investing.com",
+  "age": "1 day ago",
+  "desc": "Anthropic weighs new AI model launch as OpenAI gains ground - Reuters"
+ },
+ {
+  "beat": "ai",
+  "title": "Usuarios demandan en Estados Unidos a Anthropic, OpenAI, SpaceXAI y Google por supuesto pacto ilegal para ralentizar el desarrollo de la IA - El Tiempo",
+  "url": "https://eltiempo.com/mundo/eeuu-y-canada/usuarios-demandan-en-estados-unidos-a-anthropic-openai-spacexai-y-google-por-supuesto-pacto-ilegal-para-ralentizar-el-desarrollo-de-la-ia-3587405",
+  "source": "eltiempo.com",
+  "age": "4 hours ago",
+  "desc": "La acción busca representar a un grupo nacional de suscriptores y cuestiona la coordinación privada entre compañías rivales del sector."
+ },
+ {
+  "beat": "ai",
+  "title": "OpenAI Posts $500K Robotics Salaries to Fund Data Factory Behind Its Robot Comeback",
+  "url": "https://techtimes.com/articles/327751/20260920/openai-posts-500k-robotics-salaries-fund-data-factory-behind-its-robot-comeback.htm",
+  "source": "techtimes.com",
+  "age": "6 hours ago",
+  "desc": "OpenAI robotics hiring has surged to 27 job listings with salaries up to $500,000 -- signaling that the company is building an industrial teleoperation lab to generate robot traini"
+ },
+ {
+  "beat": "ai",
+  "title": "Exclusive-Anthropic considers releasing new AI model ahead of IPO, sources say By Reuters",
+  "url": "https://investing.com/news/stock-market-news/exclusiveanthropic-considers-releasing-new-ai-model-ahead-of-ipo-sources-say-4908007",
+  "source": "investing.com",
+  "age": "2 days ago",
+  "desc": "Sept 18 (Reuters) - Anthropic is considering rolling out a new AI model to counter OpenAI’s momentum since its launch of GPT-6 Astra, according to three sources, ahead of an expect"
+ },
+ {
+  "beat": "markets",
+  "title": "The Weekly Spread: What Shaped Yields And The Dollar This Week",
+  "url": "https://stocktwits.com/news-articles/markets/equity/the-weekly-spread-what-shaped-yields-and-the-dollar-this-week/cZtDZlBRBES",
+  "source": "stocktwits.com",
+  "age": "1 day ago",
+  "desc": "Robust U.S. employment data, alongside ... market anxieties about persistent inflationary pressures, driving the 10-year U.S. Treasury yield even higher. Advertisement|Remove ads. "
+ },
+ {
+  "beat": "markets",
+  "title": "Treasury Bond Market Selloff Deepens As 30-Year Auction Hits Highest Yield Since 2001 - Universe News Network",
+  "url": "https://universenewsnetwork.com/2026/09/19/treasury-bond-market-selloff-deepens-as-30-year-auction-hits-highest-yield-since-2001",
+  "source": "universenewsnetwork.com",
+  "age": "18 hours ago",
+  "desc": "The consensus framing around this week's Treasury bond market selloff centres on inflation data. That reading is not wrong, but it is incomplete: the more"
+ },
+ {
+  "beat": "markets",
+  "title": "Wall Street goes full bull on gold price after post-hike gains, Main Street bolsters bullish majority as gold holds $4,300 | Kitco News",
+  "url": "https://kitco.com/news/article/2026-09-18/wall-street-goes-full-bull-gold-price-after-post-hike-gains-main-street",
+  "source": "kitco.com",
+  "age": "1 day ago",
+  "desc": "Our goal is to help people make ... and analyses of market-affecting developments. (Kitco News) – Gold prices rebounded during a wild week, as an early selloff driven by surging oi"
+ },
+ {
+  "beat": "markets",
+  "title": "Gold & Silver Navigate Fed Rate Hike, Record Diesel Prices",
+  "url": "https://sdbullion.com/blog/gold-silver-navigate-us-fed-interest-rate-hike-plus-record-high-diesel-prices",
+  "source": "sdbullion.com",
+  "age": "1 day ago",
+  "desc": "Gold and silver investors had plenty to digest this week as the Federal Reserve raised interest rates, Treasury yields climbed, energy prices remained elevated, and geopolitical di"
+ },
+ {
+  "beat": "markets",
+  "title": "Kevin Warsh may be the adult in the room. But can he calm the US economy? | Federal Reserve | The Guardian",
+  "url": "https://theguardian.com/business/2026/sep/19/kevin-warsh-interest-rate-hike",
+  "source": "theguardian.com",
+  "age": "1 day ago",
+  "desc": "Fed chair presided over unanimous decision to raise interest rates despite intense campaign from White House"
+ },
+ {
+  "beat": "markets",
+  "title": "Gold, silver prices hold weekly gains as oil drops, yields return to 5% - Kitco PM Report | Kitco News",
+  "url": "https://kitco.com/news/article/2026-09-18/gold-silver-prices-hold-weekly-gains-oil-drops-yields-return-5-kitco-pm",
+  "source": "kitco.com",
+  "age": "1 day ago",
+  "desc": "(Kitco NewsWire) - Spot gold and silver prices are higher in late-afternoon U.S. trading Friday, with both metals holding weekly gains as lower oil prices offset part of the pressu"
+ },
+ {
+  "beat": "markets",
+  "title": "Why BofA is going against the herd and calling for 2 more rate hikes in 2026",
+  "url": "https://businessinsider.com/fed-rate-hikes-kevin-warsh-trump-stocks-oil-prices-inflation-2026-9",
+  "source": "businessinsider.com",
+  "age": "1 day ago",
+  "desc": "Bank of America thinks the Federal Reserve has just kicked off a hiking spree heading into the end of the year."
+ },
+ {
+  "beat": "markets",
+  "title": "📊 Week In Review: The Overrule - by Ben The Bull",
+  "url": "https://tradesandgains.substack.com/p/week-in-review-the-overrule",
+  "source": "tradesandgains.substack.com",
+  "age": "20 hours ago",
+  "desc": "The most anticipated week of the fall delivered the hawkish hike — the Fed's first in three years — but the story wasn't the Fed. It was the bond market overruling it: the 10-year "
+ },
+ {
+  "beat": "fintech",
+  "title": "Embedded Payments Reshape Fintech Acquisition Strategy",
+  "url": "https://marketscale.com/industries/business-services/the-early-scale-2026-09-20",
+  "source": "marketscale.com",
+  "age": "3 hours ago",
+  "desc": "Embedded payments drive fintech M&A as Fifth Third, Priority, and CSI target payment-enabled software."
+ },
+ {
+  "beat": "fintech",
+  "title": "Fifth Third, Priority and CSI deals put a premium on payments built into software - NewsBreak",
+  "url": "https://www.newsbreak.com/news/4895805938192-fifth-third-priority-and-csi-deals-put-a-premium-on-payments-built-into-software",
+  "source": "www.newsbreak.com",
+  "age": "1 day ago",
+  "desc": "BCG puts software providers with integrated payments at 36% of small and midsize business acquiring revenue in 2024, heading to 45% by 2028, a benchmark fo"
  },
  {
   "beat": "cybersecurity",
-  "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
-  "url": "https://cybersecuritynews.com/ai-agents-3",
-  "source": "cybersecuritynews.com",
-  "age": "4 hours ago",
-  "desc": "AI-driven JADEPUFFER ransomware autonomously stole credentials, encrypted data, and targeted AI models using exposed services."
+  "title": "AuditTeam Ransomware Attack on TD Group - DeXpose",
+  "url": "https://www.dexpose.io/auditteam-ransomware-attack-on-td-group/",
+  "source": "www.dexpose.io",
+  "age": "2 days ago",
+  "desc": "On September 19, 2026, the notorious ... for a cyberattack against TD Group (tdgroup.com). The group issued a threat that sensitive data will be leaked unless negotiations are cond"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "[ARCUSMEDIA] - Ransomware Victim: Schneider’s Computing - RedPacket Security",
+  "url": "https://www.redpacketsecurity.com/arcusmedia-ransomware-victim-schneider-s-computing/",
+  "source": "www.redpacketsecurity.com",
+  "age": "19 hours ago",
+  "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "[EMPERADOR] - Ransomware Victim: Electrolux - RedPacket Security",
+  "url": "https://www.redpacketsecurity.com/emperador-ransomware-victim-electrolux/",
+  "source": "www.redpacketsecurity.com",
+  "age": "19 hours ago",
+  "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "[RHYSIDA] - Ransomware Victim: Kreishandwerkerschaft Borken - RedPacket Security",
+  "url": "https://www.redpacketsecurity.com/rhysida-ransomware-victim-kreishandwerkerschaft-borken/",
+  "source": "www.redpacketsecurity.com",
+  "age": "19 hours ago",
+  "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "[AUDITTEAM] - Ransomware Victim: td***up - RedPacket Security",
+  "url": "https://www.redpacketsecurity.com/auditteam-ransomware-victim-td-up/",
+  "source": "www.redpacketsecurity.com",
+  "age": "1 day ago",
+  "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
+ },
+ {
+  "beat": "cybersecurity",
+  "title": "[N0N] - Ransomware Victim: Fanatics (global sports commerce platform) - RedPacket Security",
+  "url": "https://www.redpacketsecurity.com/n0n-ransomware-victim-fanatics-global-sports-commerce-platform/",
+  "source": "www.redpacketsecurity.com",
+  "age": "9 hours ago",
+  "desc": "NOTE: No files or stolen information are exfiltrated, downloaded, taken, hosted, seen, reposted, or disclosed by RedPacket Security. Any legal issues relating"
  },
  {
   "beat": "business",
-  "title": "Judge rejects OpenAI’s bid to see X’s confidential settlement with Apple in antitrust lawsuit - 9to5Mac",
-  "url": "https://9to5mac.com/2026/09/17/judge-rejects-openais-bid-to-see-xs-confidential-settlement-with-apple-in-antitrust-lawsuit/",
-  "source": "9to5mac.com",
-  "age": "16 hours ago",
-  "desc": "Judge Mark Pittman today rejected OpenAI’s request to obtain X and SpaceXAI’s confidential settlement agreement with Apple in an ongoing antitrust case."
+  "title": "Antitrust lawsuit filed against AI companies challenges coordinated slowdown efforts | AP News",
+  "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+  "source": "apnews.com",
+  "age": "20 hours ago",
+  "desc": "A new lawsuit claims that Anthropic, OpenAI, SpaceXAI and Google illegally agreed to slow their AI development. Filed Friday in the U.S."
  },
  {
-  "beat": "technology",
-  "title": "Server Operating System Market Outlook Signals Expansion To $138.96 Billion Through 2030",
-  "url": "https://openpr.com/news/4635943/server-operating-system-market-outlook-signals-expansion",
-  "source": "openpr.com",
-  "age": "2 hours ago",
-  "desc": "The server operating system market has been evolving swiftly as enterprises increasingly rely on sophisticated computing infrastructures With the rise of cloud technologies virtual"
- },
- {
-  "beat": "technology",
-  "title": "Nvidia Partner GMI Cloud Seeking $300 Million Loan for Thailand Semiconductor Procurement | MarketScreener",
-  "url": "https://www.marketscreener.com/news/nvidia-partner-gmi-cloud-seeking-300-million-loan-for-thailand-semiconductor-procurement-ce785bd3de8cf024",
-  "source": "www.marketscreener.com",
-  "age": "1 day ago",
-  "desc": "Nvidia partner GMI Cloud is seeking a $300 million loan to procure semiconductors for its site in Thailand, Bloomberg News reported late Wednesday, citing people familiar with the "
- },
- {
-  "beat": "technology",
-  "title": "Spacexfy Broadens Investment Focus Across Technology, AI and Emerging Market Opportunities",
-  "url": "https://www.globenewswire.com/news-release/2026/09/18/3364808/0/en/spacexfy-broadens-investment-focus-across-technology-ai-and-emerging-market-opportunities.html",
-  "source": "www.globenewswire.com",
-  "age": "2 hours ago",
-  "desc": "Semiconductor manufacturers, cloud-service providers, data-center operators, enterprise software companies, energy suppliers, communications infrastructure businesses and cybersecu"
- },
- {
-  "beat": "technology",
-  "title": "These 3 Stocks Are Drawing Insider Buyers for Very Different Reasons - Madres Travels",
-  "url": "https://wp.madrestravels.com/2026/09/18/these-3-stocks-are-drawing-insider-buyers-for-very-different-reasons/",
-  "source": "wp.madrestravels.com",
-  "age": "7 hours ago",
-  "desc": "The AI increase is creating alternatives throughout semiconductors, cloud computing, enterprise software program, infrastructure, cybersecurity, and automation. Inside this report,"
- },
- {
-  "beat": "technology",
-  "title": "Semicon India 2026: Amid ‘weaponisation’ of supply chains, PM pitches India as a ‘trustworthy’ chipmaking destination - The Hindu",
-  "url": "https://thehindu.com/news/national/semicon-india-2026-indias-semiconductor-ecosystem-expanding-opening-new-opportunities-says-modi/article71475696.ece",
-  "source": "thehindu.com",
-  "age": "1 day ago",
-  "desc": "Modi highlights India's expanding semiconductor ecosystem at SEMICON India 2026, promoting innovation, investment, and global manufacturing opportunities."
- },
- {
-  "beat": "technology",
-  "title": "Top 10 Semiconductor Manufacturing Equipment Companies Powering the AI Chip Boom in 2026",
-  "url": "https://semiconductorinsight.com/blog/top-10-semiconductor-manufacturing-equipment-companies",
-  "source": "semiconductorinsight.com",
-  "age": "4 hours ago",
-  "desc": "The machines that make chips have become the most consequential industrial products on the planet. Without them, there are no AI accelerators"
- },
- {
-  "beat": "technology",
-  "title": "Global chip leaders see India emerging as semiconductor manufacturing hub | Industry News - Business Standard",
-  "url": "https://business-standard.com/industry/news/global-chip-leaders-see-india-emerging-as-semiconductor-manufacturing-hub-126091700897_1.html",
-  "source": "business-standard.com",
-  "age": "1 day ago",
-  "desc": "Executives from ASML, Infineon and Intel see opportunities in fabrication, advanced packaging, AI, data centres and power electronics as India's chip ecosystem expands"
- },
- {
-  "beat": "technology",
-  "title": "International Business Machines Corp Stock (IBM) Moved Down by 3.04% on Sep 18: Drivers Behind the Movement",
-  "url": "https://tradingkey.com/news/market-movers/262175473-market-movers-ibm-20260918",
-  "source": "tradingkey.com",
-  "age": "3 hours ago",
-  "desc": "IBM shares faced profit-taking following the finalization of a federal CHIPS Act award.Enterprise IT spending uncertainties and delayed software deal timelines weighed on instituti"
- },
- {
-  "beat": "policy",
-  "title": "New SEC order opens path for stock tokenization - UPI.com",
-  "url": "https://upi.com/Top_News/US/2026/09/17/sec-innovation-exemption-tokenized-stocks/8111789659660",
-  "source": "upi.com",
-  "age": "1 day ago",
-  "desc": "The U.S. Securities Exchange Commission approved a temporary rule, the Innovation Exemption, to allow the limited trading of tokenized stocks."
- },
- {
-  "beat": "policy",
-  "title": "What the SEC's Shift on Shareholder Proposals Means for You as an Investor",
-  "url": "https://kiplinger.com/investing/what-the-secs-shift-on-shareholder-proposals-means-for-investors",
-  "source": "kiplinger.com",
-  "age": "1 day ago",
-  "desc": "The SEC's move to rescind Rule 14a-8 creates new hurdles for shareholders seeking to influence company policies. Here's how."
- },
- {
-  "beat": "policy",
-  "title": "SEC eyes repeal of rule allowing shareholder proposals | American Banker",
-  "url": "https://americanbanker.com/news/sec-eyes-repeal-of-rule-allowing-shareholder-proposals",
-  "source": "americanbanker.com",
-  "age": "1 day ago",
-  "desc": "The Securities and Exchange Commission Wednesday said Rule 14a-8 exceeds its statutory authority and intrudes on important matters of state law. Shareholder advocacy groups, howeve"
- },
- {
-  "beat": "policy",
-  "title": "SEC warns new outside activity rule isn't a free-for-all | Financial Planning",
-  "url": "https://financial-planning.com/news/sec-warns-new-outside-activity-rule-isnt-a-free-for-all",
-  "source": "financial-planning.com",
-  "age": "1 day ago",
-  "desc": "Brokerages applaud a new rule that will relieve them of the obligation to monitor advisors' side gigs such as driving for Uber or bartending. But regulators say they still have ple"
- },
- {
-  "beat": "policy",
-  "title": "SEC Proposes Eliminating Key Rule Enabling Shareholders to Bring Proposals for Proxy Voting - ESG Today",
-  "url": "https://esgtoday.com/sec-proposes-eliminating-key-rule-enabling-shareholders-to-bring-proposals-for-proxy-voting",
-  "source": "esgtoday.com",
-  "age": "1 day ago",
-  "desc": "The U.S. Securities and Exchange Commission announced on Wednesday that it has proposed rescinding Rule 14a-8, the federal framework providing shareholders with a route to have pro"
- },
- {
-  "beat": "policy",
-  "title": "Statement by Commissioner Uyeda on Proposing Rescission of Rule 14a-8 and Proxy Solicitation Modernization",
-  "url": "https://corpgov.law.harvard.edu/2026/09/17/statement-by-commissioner-uyeda-on-proposing-rescission-of-rule-14a-8-and-proxy-solicitation-modernization",
-  "source": "corpgov.law.harvard.edu",
+  "beat": "business",
+  "title": "Paramount, California settlement talks accelerate, bringing Warner Bros. merger closer to finish line - Los Angeles Times",
+  "url": "https://latimes.com/entertainment-arts/business/story/2026-09-18/paramount-california-settlement-talks-where-things-stand-now",
+  "source": "latimes.com",
   "age": "2 days ago",
-  "desc": "Today, the Commission proposes to rescind Rule 14a-8, which leaves determination about whether a shareholder proposal may be properly placed on a proxy statement to the states, com"
+  "desc": "A resolution would allow David Ellison's $111-billion takeover of Warner Bros. Discovery to finalize"
  },
  {
-  "beat": "policy",
-  "title": "SEC Proposes Landmark Rescission Of Shareholder Proposal Rule And Reforms To Proxy Solicitation Process - Shareholders - United States",
-  "url": "https://mondaq.com/unitedstates/shareholders/1844518/sec-proposes-landmark-rescission-of-shareholder-proposal-rule-and-reforms-to-proxy-solicitation-process",
-  "source": "mondaq.com",
-  "age": "5 hours ago",
-  "desc": "On September 16, 2026, the Securities and Exchange Commission proposed to (1) rescind Rule 14a-8, the federal shareholder proposal rule, and amend Rule 14a-4(c) to expand issuers’ "
+  "beat": "business",
+  "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown | PBS News",
+  "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+  "source": "www.pbs.org",
+  "age": "19 hours ago",
+  "desc": "The lawsuit argues that the leading AI companies violated antitrust laws when they agreed to coordinate slowdown efforts, and that doing so would reduce the value consumers get for"
  },
  {
-  "beat": "policy",
-  "title": "SEC and CFTC Vow Aggressive Crypto Rulemaking After Senate Rejects CLARITY Act - CoinCentral",
-  "url": "https://coincentral.com/sec-and-cftc-vow-aggressive-crypto-rulemaking-after-senate-rejects-clarity-act",
-  "source": "coincentral.com",
+  "beat": "business",
+  "title": "Paramount-Warner merger: California and 11 states could settle lawsuit blocking $110 billion acquisition this weekend | Company Business News",
+  "url": "https://livemint.com/companies/news/paramountwarner-merger-california-and-11-states-could-settle-lawsuit-blocking-110-billion-acquisition-report-11789828816137.html",
+  "source": "livemint.com",
   "age": "1 day ago",
-  "desc": "The US Senate voted 49-50 against the CLARITY Act. Now the SEC and CFTC say they will issue crypto rules using their existing authority."
+  "desc": "A settlement would potentially remove one of the major legal obstacles to the acquisition, but its precise impact would depend on the conditions agreed upon."
  },
  {
-  "beat": "startups",
-  "title": "The 15 Largest US Funding Rounds of August 2026 – AlleyWatch",
-  "url": "https://alleywatch.com/2026/09/us-startup-funding-top-largest-august-2026-vc",
-  "source": "alleywatch.com",
-  "age": "8 hours ago",
-  "desc": "US startups secured massive funding rounds in September 2026, with the largest deal topping $1.1B. From autonomous trucking and nuclear energy to AI chips and live commerce, this m"
+  "beat": "business",
+  "title": "Elizabeth Warren Says it Would be a ‘Massive Mistake’ for Rob Bonta to Settle Lawsuit With Paramount as Trump Bans CNN from White House: ‘This Is a Dangerous Merger’",
+  "url": "https://variety.com/2026/film/news/elizabeth-warren-massive-mistake-rob-bonta-settle-paramount-1236869679",
+  "source": "variety.com",
+  "age": "16 hours ago",
+  "desc": "Elizabeth Warren says it would be a 'massive mistake' for Rob Bonta to settle his lawsuit with Paramount."
  },
  {
-  "beat": "startups",
-  "title": "AI Startup Funding: 5 Lessons From $81M in Seeds",
-  "url": "https://under30ceo.com/ai-startup-funding-81m-seed-rounds",
-  "source": "under30ceo.com",
+  "beat": "business",
+  "title": "AI antitrust lawsuit: Anthropic, OpenAI, xAI, Google accused of colluding to slow development - US News | The Financial Express",
+  "url": "https://www.financialexpress.com/world-news/us-news/ai-antitrust-lawsuit-anthropic-openai-xai-google-accused-of-colluding-to-slow-development/4343364/",
+  "source": "www.financialexpress.com",
   "age": "2 hours ago",
-  "desc": "AI startup funding just priced two seed rounds near $40 million each. Here are five lessons founders should take from the September funding sheet."
+  "desc": "A lawsuit accuses Anthropic, OpenAI, xAI, and Google of illegally coordinating to slow AI development, alleging antitrust violations that limit competition and harm paid AI subscri"
+ },
+ {
+  "beat": "business",
+  "title": "Tech Giants Confront Antitrust Lawsuit Over AI Progress | Ca",
+  "url": "https://careeraheadonline.com/tech-giants-confront-antitrust-lawsuit-over-ai-progress",
+  "source": "careeraheadonline.com",
+  "age": "18 hours ago",
+  "desc": "Explore the antitrust lawsuit against major AI companies and its potential impact on innovation, research, and funding in the global AI landscape. Understand the regulatory challen"
+ },
+ {
+  "beat": "business",
+  "title": "\"Collusion, Not Safety\": Massive Antitrust Lawsuit Hits Big Tech's Top AI Leaders",
+  "url": "https://theridgewoodblog.net/collusion-not-safety-massive-antitrust-lawsuit-hits-big-techs-top-ai-leaders",
+  "source": "theridgewoodblog.net",
+  "age": "5 hours ago",
+  "desc": "Tech giants Anthropic, OpenAI, SpaceXAI, and Google face a blockbuster antitrust lawsuit alleging illegal collusion to slow down AI development. Read the full details."
+ },
+ {
+  "beat": "technology",
+  "title": "Semiconductor Supercycle: How AI Is Driving the Global Chips Boom",
+  "url": "https://indianexpress.com/article/explained/explained-sci-tech/expert-explains-ai-chip-boom-india-opportunity-10886212/",
+  "source": "indianexpress.com",
+  "age": "34 minutes ago",
+  "desc": "The recently held SEMICON India event comes amid rising demand for specialised chips. Why are these chips coveted, what makes this period different from earlier tech shifts, and ho"
+ },
+ {
+  "beat": "technology",
+  "title": "SEMICON India 2026: 25 MoUs Strengthen India’s Semiconductor Ecosystem",
+  "url": "https://apacnewsnetwork.com/2026/09/semicon-india-2026-25-mous-strengthen-indias-semiconductor-ecosystem",
+  "source": "apacnewsnetwork.com",
+  "age": "1 day ago",
+  "desc": "SEMICON India 2026, being held from September 17 to 19, has emerged as a major platform for partnerships aimed at strengthening India’s semiconductor ecosystem."
+ },
+ {
+  "beat": "technology",
+  "title": "India’s chip push gathers pace: 25 SEMICON deals target gases, chemicals, packaging and power electronics - The Statesman",
+  "url": "https://thestatesman.com/business/indias-chip-push-gathers-pace-25-semicon-deals-target-gases-chemicals-packaging-and-power-electronics-1503640422.html",
+  "source": "thestatesman.com",
+  "age": "1 day ago",
+  "desc": "SEMICON India 2026 saw 25 semiconductor collaborations involving Tata Electronics, L&T and others across chip manufacturing, materials, packaging, logistics and skilling."
+ },
+ {
+  "beat": "technology",
+  "title": "SEMICON India Day 2 sees 25 partnerships across chip manufacturing, supply chains, packaging and skills - The HinduBusinessLine",
+  "url": "https://thehindubusinessline.com/news/semicon-india-day-2-sees-25-partnerships-across-chip-manufacturing-supply-chains-packaging-and-skills/article71483916.ece",
+  "source": "thehindubusinessline.com",
+  "age": "1 day ago",
+  "desc": "SEMICON India Day 2 highlights 25 partnerships aimed at enhancing India's semiconductor manufacturing and supply chain capabilities."
+ },
+ {
+  "beat": "policy",
+  "title": "What the FCC’s revised broadband facts labels mean for pricing, accessibility and shoppers",
+  "url": "https://komonews.com/news/local/federal-communications-commission-weakens-price-transparency-rule-for-broadband-internet-wifi-providers-service-providers-price-for-services",
+  "source": "komonews.com",
+  "age": "1 day ago",
+  "desc": "The Federal Communications Commission (FCC), which has become far more business-friendly under the Trump administration, has ordered changes to its broadband"
  },
  {
   "beat": "startups",
-  "title": "How Liquidation Preference Stacking Order Works in a Startup Down Round - Startup Fortune",
-  "url": "https://startupfortune.com/how-liquidation-preference-stacking-order-works-in-a-startup-down-round",
-  "source": "startupfortune.com",
+  "title": "Moonshot Weekly: Europe Unplugged. Back to Basics. The Leverage Rush. Moonshot x Deeptech.London Festival.",
+  "url": "https://moonshotcapital.substack.com/p/moonshot-weekly-europe-unplugged",
+  "source": "moonshotcapital.substack.com",
+  "age": "41 minutes ago",
+  "desc": "UK AI drug discovery startup Big Picture Bio, co-founded by Kerstin Papenfuss, raises a €1.75M pre-seed round co-led by Kadmos Capital and Exceptional Ventures; Dutch medtech start"
+ },
+ {
+  "beat": "startups",
+  "title": "Indian Startup Funding — Startups Raised $59 Mn This Week",
+  "url": "https://inc42.com/buzz/from-flam-to-verifaix-indian-startups-raised-about-59-mn-this-week",
+  "source": "inc42.com",
+  "age": "1 day ago",
+  "desc": "Indian Startup Funding: This week, Indian startup funding stood at $59.7 Mn across 12 deals, down 82% from the preceding week"
+ },
+ {
+  "beat": "startups",
+  "title": "$951M Funding Week Exposes Africa's Capital Gap",
+  "url": "https://techbooky.com/951m-funding-week-exposes-africas-capital-gap",
+  "source": "techbooky.com",
   "age": "6 hours ago",
-  "desc": "Liquidation preference stacking order determines who actually gets paid when a startup sells, and a down round doesn't erase old preferences, it piles a"
+  "desc": "A $951m regional funding week was dominated by Saudi deals, exposing how little late-stage capital still reaches many African startups."
  },
  {
   "beat": "startups",
-  "title": "ICYMI fintech funding round-up: Pave Finance, Velocity, and more",
-  "url": "https://www.fintechfutures.com/venture-capital-funding/icymi-fintech-funding-round-up-pave-finance-velocity-and-more",
-  "source": "www.fintechfutures.com",
-  "age": "5 hours ago",
-  "desc": "View our weekly round-up of the latest fintech funding news from around the world here - featuring Pave Finance, Velocity, Creem, and more."
- },
- {
-  "beat": "startups",
-  "title": "Mizuho and Shizuoka Financial Participate in Yoom's First External Funding Round to Advance AI Autonomous Operations",
-  "url": "https://www.fintechobserver.com/myoom-secures-y-700-million-in-first-external-funding-round-to-advance-ai-autonomous-operations/",
-  "source": "www.fintechobserver.com",
+  "title": "Weekly Startup Funding News - TechStory",
+  "url": "https://techstory.in/weekly-startup-funding-news-2",
+  "source": "techstory.in",
   "age": "1 day ago",
-  "desc": "FactBase raises JPY 1.45bn Series B from Financial Institutions · FactBase provides “Zume-n,” a drawing management system. ... Ocean Inc., the Tokyo-based startup operating the \"Oc"
+  "desc": "Manchester-based payments fintech Ryft has raised £20 million in a Series B funding round as it prepares to accelerate its expansion across Europe and the United States."
  },
  {
   "beat": "startups",
-  "title": "The AlleyWatch Startup Daily Funding Report: 9/17/2026 – AlleyWatch",
-  "url": "https://alleywatch.com/2026/09/the-alleywatch-startup-daily-funding-report-9-17-2026",
-  "source": "alleywatch.com",
+  "title": "Beauty quick commerce startup Firi raises $3 million from 360 ONE Asset, Kunal Shah and others",
+  "url": "https://indianstartupnews.com/funding/beauty-quick-commerce-startup-firi-raises-3-million-from-360-one-asset-kunal-shah-and-others-12539733",
+  "source": "indianstartupnews.com",
   "age": "1 day ago",
-  "desc": "The latest venture capital, seed, pre-seed, and angel deals for NYC startups for 9/17/2026 featuring funding details for Adaptive, Polyphron, and much more."
+  "desc": "Gurugram-based beauty and personal care quick-commerce platform Firi has raised $3 million in a seed funding round led by 360 ONE Asset, with participation from Better Capital, CRE"
  },
  {
   "beat": "startups",
-  "title": "African Biochar Startup Raises $1.5M to Scale Factory-Based Carbon Removal",
-  "url": "https://ventureburn.com/african-biochar-startup-raises-1-5m/",
-  "source": "ventureburn.com",
-  "age": "5 hours ago",
-  "desc": "An Africa-based biochar developer secures $1.5M in pre-seed funding to scale factory-based carbon removal units across Sub-Saharan Africa."
+  "title": "17 Indian startups raised ₹593 crore last week",
+  "url": "https://inshorts.com/en/news/17-indian-startups-raised--593-crore-last-week-1789874247699",
+  "source": "inshorts.com",
+  "age": "9 hours ago",
+  "desc": "Indian startups raised 61.8 million ₹593 crore across 17 deals last week, up from 356.8 million ₹3,422 crore raised by 23 startups in the previous week. Growthstage startups secure"
  },
  {
   "beat": "startups",
-  "title": "Cheque-in: 5 startups raised $29.9 million this week (and 8 months ago) - Startup Daily",
-  "url": "https://startupdaily.net/topic/funding/cheque-in-5-startups-raised-29-9-million-this-week-and-8-months-ago",
-  "source": "startupdaily.net",
-  "age": "14 hours ago",
-  "desc": "It’s been a quieter week for startup funding: with four deals worth a total of $8.9 million, topped up by Buildkite's $21m raise in January."
+  "title": "Weekly funding roundup: The startup deals you may have missed in week of September 20- Moneycontrol.com",
+  "url": "https://moneycontrol.com/news/business/funding/weekly-funding-roundup-the-startup-deals-you-may-have-missed-in-week-of-september-20-14033495.html",
+  "source": "moneycontrol.com",
+  "age": "1 day ago",
+  "desc": "The week’s funding deals, beyond the usual headline-grabbers. From semiconductor verification and aerospace to beauty quick commerce, AI-led procurement, aesthetic surgery and heal"
+ },
+ {
+  "beat": "startups",
+  "title": "Vantora raises $100 million and shifts to physical AI — TechCrunch | UA.NEWS",
+  "url": "https://ua.news/en/technologies/vantora-zaluchila-100-mln-i-zminila-fokus-na-fizichnii-shi-techcrunch",
+  "source": "ua.news",
+  "age": "1 day ago",
+  "desc": "Vantora, formerly UP.Labs, raised $100 million from Silversmith Capital Partners and shifted toward physical AI startups built exclusively for corporate partners."
  },
  {
   "beat": "culture",
-  "title": "9 of the Biggest Box Office Flops of 2026, So Far",
-  "url": "https://people.com/biggest-box-office-flops-2026-12111074",
-  "source": "people.com",
-  "age": "5 hours ago",
-  "desc": "Even highly anticipated movies — like ‘Moana’ and ‘Star Wars: The Mandalorian and Grogu’ — can fall short of expectations at the box office. Here are nine of the biggest box office"
- },
- {
-  "beat": "culture",
-  "title": "Henry Cavill’s $27M Flop Is Redeeming Itself as No. 1 Movie on Streaming",
-  "url": "https://comingsoon.net/movies/news/2192651-henry-cavill-in-the-grey-streaming-hit-no-1-starz",
-  "source": "comingsoon.net",
+  "title": "Bollywood Movies Box Office Collection | Latest Hindi Films - Sacnilk",
+  "url": "https://sacnilk.com/latest-boxoffice-collection/bollywood-movies-2025",
+  "source": "sacnilk.com",
   "age": "1 day ago",
-  "desc": "Henry Cavill's In the Grey flopped at the box office with $27.8M but now tops Starz streaming charts in the United States."
+  "desc": "Latest Bollywood movies box office collection data with verdicts, hit/flop analysis, and budget details. Complete Hindi films collection report."
  },
  {
   "beat": "music",
-  "title": "How Has Ed Sheeran Tour Chaos Affected Streaming Numbers for Macklemore, Other Openers & Ed Himself?",
-  "url": "https://billboard.com/music/chart-beat/macklemore-ed-sheeeran-streams-loop-tour-controversy-1236342644",
-  "source": "billboard.com",
+  "title": "What's behind the power shift in the music industry? - NewsBreak",
+  "url": "https://newsbreak.com/money-week-1718669/4895432844389-what-s-behind-the-power-shift-in-the-music-industry",
+  "source": "newsbreak.com",
   "age": "1 day ago",
-  "desc": "Macklemore's streams nearly double after his removal from the Ed Sheeran Loop Tour, while another opener has his best streaming day ever."
+  "desc": "The music industry is changing as technology allows artists to seize power from traditional record labels. That can only be a good thing"
  },
  {
   "beat": "music",
-  "title": "Music Live Streaming Platform Market Is Going to Boom | Spotify, YouTube Music, Apple Music",
-  "url": "https://openpr.com/news/4634029/music-live-streaming-platform-market-is-going-to-boom-spotify",
-  "source": "openpr.com",
+  "title": "From labels to artists: A power shift in the music industry | MoneyWeek",
+  "url": "https://moneyweek.com/investments/labels-to-artists-music-industry-power-shift-technology",
+  "source": "moneyweek.com",
   "age": "1 day ago",
-  "desc": "The Music Live Streaming Platform Market is expanding as artists music companies streaming providers and audiences increasingly adopt digital platforms for real time music performa"
+  "desc": "The music industry is changing as technology allows artists to seize power from traditional record labels. That can only be a good thing for artists, fans and savvy investors"
  },
  {
   "beat": "music",
-  "title": "Streaming Is Booming, but Local Music Scenes Pay the Price | Opinion - Newsweek",
-  "url": "https://newsweek.com/streaming-is-booming-but-local-music-scenes-pay-the-price-opinion-12459413",
-  "source": "newsweek.com",
-  "age": "4 hours ago",
-  "desc": "Music has never traveled farther or faster, yet beneath that growth is a question: as music becomes bigger, is its culture becoming smaller?"
- },
- {
-  "beat": "music",
-  "title": "Andy Burnham 'gets it' on challenges facing musicians - interview with Musicians' Union general secretary Naomi Pohl - Left Foot Forward: Leading the UK's progressive debate",
-  "url": "https://leftfootforward.org/2026/09/andy-burnham-gets-it-on-challenges-facing-musicians-interview-with-musicians-union-general-secretary-naomi-pohl",
-  "source": "leftfootforward.org",
-  "age": "2 hours ago",
-  "desc": "So, for example, major record labels like Warner will go and license the catalogue to an AI developer.” · She continued by setting out what this means for musicians themselves, tel"
- },
- {
-  "beat": "music",
-  "title": "150,000 new tracks are uploaded to music services every day - Music Ally",
-  "url": "https://musically.com/2026/09/17/150000-new-tracks-are-uploaded-to-music-services-every-day",
-  "source": "musically.com",
+  "title": "Why Record Stores Are Making A Comeback In The Streaming Era - That Eric Alper",
+  "url": "https://thatericalper.com/2026/09/19/why-record-stores-are-making-a-comeback-in-the-streaming-era",
+  "source": "thatericalper.com",
   "age": "1 day ago",
-  "desc": "The latest update on the rocketing number of new tracks being uploaded to music-streaming services comes from research firm Luminate. Its CEO Rob Jonas divulged the latest figure i"
- },
- {
-  "beat": "music",
-  "title": "A new book looks at how music streaming apps made background music a commercially viable genre",
-  "url": "https://scroll.in/article/1095312/a-new-book-looks-at-how-music-streaming-apps-made-background-music-a-commercially-viable-genre",
-  "source": "scroll.in",
-  "age": "1 day ago",
-  "desc": "An excerpt from ‘You Have Not Yet Heard Your Favourite Song: How Streaming Changes Music’, by Glenn McDonald."
+  "desc": "Record stores are genuinely one of the best stories in music right now. Record Store Day 2026 just posted its biggest event ever. Sales up 25% on 2026. Record-breaking footfall at "
  }
 ]
