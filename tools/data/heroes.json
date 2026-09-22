@@ -1330,5 +1330,32 @@
   "alt": "The Hong Kong skyline across Victoria Harbour at golden hour, seen from Victoria Peak",
   "creditHtml": "<a href=\"https://unsplash.com/@mansonyms?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Manson</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/nscales-backlog-has-two-names-on-it": {
+  "id": "u719UbWj0us",
+  "url": "https://images.unsplash.com/photo-1509390673020-a5b2450e33f1?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "An electrical substation's steel gantries and transformers silhouetted against a low evening sun",
+  "creditHtml": "<a href=\"https://unsplash.com/@publicpowerorg?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">American Public Power Association</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "blockchain/the-ecb-puts-central-bank-money-on-the-ledger": {
+  "id": "tNW_p9KZmjA",
+  "url": "https://images.unsplash.com/photo-1701434001217-16428abc6309?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "The blue and gold euro sculpture in Frankfurt at dusk, with the Eurotower behind it",
+  "creditHtml": "<a href=\"https://unsplash.com/@masoodaslami?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Masood Aslami</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/sofi-settles-its-card-book-in-its-own-coin": {
+  "id": "-gkndM1GvSA",
+  "url": "https://images.unsplash.com/photo-1647427017067-8f33ccbae493?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A cashier's hand tapping a point-of-sale touchscreen at a shop counter while holding a printed receipt",
+  "creditHtml": "<a href=\"https://unsplash.com/@simonkadula?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Simon Kadula</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
