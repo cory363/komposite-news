@@ -33,7 +33,8 @@ const pageHead = (title, desc, url, enUrl) => head
   .replace(/(<link rel="alternate" hreflang="es" href=")[^"]*(")/, (m, o, c) => o + url + c)
   .replace(/(<link rel="alternate" hreflang="en" href=")[^"]*(")/, (m, o, c) => o + enUrl + c)
   .replace(/(<link rel="alternate" hreflang="x-default" href=")[^"]*(")/, (m, o, c) => o + enUrl + c)
-  .replace(/(<a class="knav-lang" href=")[^"]*(")/, (m, o, c) => o + enUrl.replace("https://kompositenews.com", "") + c)
+  /* The tab this is lifted from now carries data-short before href, so the attributes in between have to be allowed for or the article's own English link leaks onto every listing page. */
+  .replace(/(<a class="knav-lang"[^>]*\shref=")[^"]*(")/, (m, o, c) => o + enUrl.replace("https://kompositenews.com", "") + c)
   /* The article template carries NewsArticle and BreadcrumbList schema that
      does not describe a listing page. */
   .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>\s*/g, "");

@@ -26,6 +26,9 @@ for (const p of walk(".")) {
     h = h.replace(/(<div class="knav-utils">)/,
       (m, o) => o + `\n    <a class="knav-lang" data-short="ES" href="${target}" hreflang="es">Español</a>`);
     tabs++;
+  } else if (/knav-lang/.test(h)) {
+    /* A tab the article renderer already wrote points at the Spanish front by default, so it has to be repointed once a counterpart exists. */
+    h = h.replace(/(<a class="knav-lang"[^>]*\shref=")[^"]*(")/, (m, o, c) => o + target + c);
   }
   /* Check for the <link>, not the tab — the tab I just inserted also carries
      hreflang="es" and was matching this test. */

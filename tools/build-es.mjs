@@ -80,7 +80,8 @@ for (const a of ES) {
   h = h.replace(/(<h1[^>]*>)[\s\S]*?(<\/h1>)/, (m, o, c) => o + esc(a.title) + c);
   h = h.replace(/(<p class="artdeck">)[\s\S]*?(<\/p>)/, (m, o, c) => o + esc(a.dek) + c);
   h = h.replace(/(<span class="byrole">)[\s\S]*?(<\/span>)/, (m, o, c) => o + " &middot; " + esc(a.role) + c);
-  h = h.replace(/(<div class="bydate">)([^<]*)(<\/div>)/, (m, o, d, c) => o + esDate(d.replace(/&middot;/g, "·")).replace(/·/g, "&middot;") + c);
+  /* The article template nests <span class="readtime"> inside .bydate, so the inner match must cross tags; esDate only rewrites the date and "N min read" text, leaving that markup alone. */
+  h = h.replace(/(<div class="bydate">)([\s\S]*?)(<\/div>)/, (m, o, d, c) => o + esDate(d.replace(/&middot;/g, "·")).replace(/·/g, "&middot;") + c);
   h = h.replace(/(<figcaption>)([\s\S]*?)(<span class="ccredit">)/, (m, o, t, c) => o + esc(a.caption) + c);
   h = h.replace(/(<img[^>]*class="[^"]*illo[^"]*"[^>]*\balt=")[^"]*(")/, (m, o, c) => o + esc(a.alt) + c);
   en.paras.forEach((p, i) => { if (a.paras[i]) rep(`<p>${p}</p>`, `<p>${a.paras[i]}</p>`); });
