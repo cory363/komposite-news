@@ -2,8 +2,8 @@
  * Build the front zone in ABC News' shape.
  *
  * From their homepage: a lead unit that is a tinted panel beside a dominant
- * image, a four-across card grid beneath it, and a right rail carrying one
- * feature plus a Top Stories list. Kickers sit above headlines, every card
+ * image, a four-across card grid beneath it, and a right rail carrying a
+ * features band plus a Top Stories list. Kickers sit above headlines, every card
  * carries a relative time, and nothing carries a byline or a dek. Their front
  * page contains zero byline markup and almost no summary text; the dek
  * appears once, on the lead.
@@ -41,6 +41,18 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
     };
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));
 
+/* Which pieces sit in the rail's features band, newest first, as a list of
+   urls in tools/data/featured.json. It lives outside the articles because
+   this builder reads built HTML rather than the batch records, and because a
+   feature is an editorial choice that should be revisable without a rebuild
+   of the piece: any published url can be promoted or dropped by editing it.
+   Unknown or stale urls are ignored, so the band degrades to recency. */
+const featuredUrls = (() => {
+  try { return JSON.parse(fs.readFileSync("tools/data/featured.json", "utf8")); }
+  catch { return []; }
+})();
+const isFeatured = a => featuredUrls.includes(a.url);
+
 const now = Date.now();
 const ago = iso => {
   const mins = Math.floor((now - new Date(iso).getTime()) / 60000);
@@ -70,6 +82,20 @@ const stamp = d => {
 };
 const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 
+/* The rail carries a band of three features, not a single card. A piece is
+   put there by tools/data/featured.json, and the band is filled BEFORE the
+   lead so an editor's choice is not silently consumed by the news slots:
+   take() marks what it places, and features are usually the newest records,
+   so selecting them last would have put them in the lead and the grid and
+   left the band holding whatever was twelfth. Short bands fill by recency. */
+/* Taken in the order the list gives, not by date: the first slot renders
+   large with a dek, so which piece leads the band is an editorial choice,
+   and sorting it by recency would quietly overrule whoever wrote the list. */
+const featured = featuredUrls
+  .map(u => arts.find(a => a.url === u && photo(a) && !opinion(a)))
+  .filter(Boolean).slice(0, 3);
+featured.forEach(a => seen.add(a.url));
+
 const lead = take(1, a => photo(a) && !opinion(a))[0];
 /* CNN and ABC both hang two or three related angles under the lead. It is
    the device that makes a front read as a newsroom covering a story rather
@@ -86,7 +112,7 @@ cluster.push(...take(2 - cluster.length, a => !opinion(a)));
    eleven marked three fresher stories as placed and then never rendered
    them, which pushed the feature and Top Stories down to older items. */
 const grid = take(8, a => photo(a) && !opinion(a));
-const feature = take(1, a => photo(a) && !opinion(a))[0];
+featured.push(...take(3 - featured.length, a => photo(a) && !opinion(a)));
 const topStories = take(5, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
 /* The Divide columns have their own panel further down the page; listing
    them in the opinion rail as well put the same argument on the front twice,
@@ -140,10 +166,13 @@ const zone = `<main id="main" class="wrap abczone">
   </div>
 </div>
 <aside class="abcrail">
-  <article class="abcfeature"><a href="${feature.url}"><img src="${esc(feature.img)}" alt="${esc(feature.alt)}" loading="lazy"></a>
-    <div class="abckick">${esc(feature.kick)}</div>
-    <h3><a href="${feature.url}">${esc(feature.title)}</a></h3>
-    <time class="abctime" datetime="${feature.date}" data-ago>${ago(feature.date)}</time></article>
+  <div class="abcfeatband"><div class="abcfeatband-h">Features</div>
+  ${featured.map((f, i) => `<article class="abcfeature${i === 0 ? " abcfeature-lead" : ""}"><a href="${f.url}"><img src="${esc(f.img)}" alt="${esc(f.alt)}" loading="${i === 0 ? "eager" : "lazy"}"></a>
+    <div class="abckick">${esc(f.kick)}</div>
+    <h3><a href="${f.url}">${esc(f.title)}</a></h3>
+    ${i === 0 && f.dek ? `<p class="abcfeature-dek">${esc(f.dek)}</p>` : ""}
+    <time class="abctime" datetime="${f.date}" data-ago>${ago(f.date)}</time></article>`).join("")}
+  </div>
   <div class="abctop abctop-num abctop-thumbs"><div class="abctop-h">Top stories</div>
     <ol>${topStories.map(a => `<li><a href="${a.url}"><span class="toptx">${esc(a.title)}</span>${a.img ? `<span class="topthumb"><img src="${esc(a.img)}" alt="${esc(a.alt || "")}" loading="lazy"></span>` : ""}</a></li>`).join("")}</ol>
   </div>
@@ -197,6 +226,7 @@ fs.writeFileSync("tools/data/front-used.json", JSON.stringify([...seen], null, 1
 console.log("ABC-shaped front zone built");
 console.log("  lead:    " + lead.title);
 console.log("  grid:    " + grid.length + " cards, each with kicker and relative time");
-console.log("  feature: " + feature.title);
+console.log("  features:");
+featured.forEach((f, i) => console.log(`    ${i + 1}. ${f.title}${isFeatured(f) ? "  (featured)" : "  (by recency)"}`));
 console.log("  top:     " + topStories.length + " headlines");
 console.log("  distinct stories: " + seen.size);

@@ -673,6 +673,18 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
 .abcfeature img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#E8EDF2;border:1px solid var(--rule)}
 .abcfeature h3{font-family:var(--display);font-size:18px;line-height:1.22;font-weight:600;margin:10px 0 0}
 
+/* The features band. One card read as an afterthought beside a five-item
+   Top Stories list; three read as a section, so it carries a rule and a
+   label like the other rail modules. The first is given a taller crop and a
+   dek because a feature earns its place on the picture. */
+.abcfeatband{border-top:2px solid var(--ink);padding-top:12px}
+.abcfeatband-h{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);margin-bottom:12px}
+.abcfeatband .abcfeature + .abcfeature{margin-top:18px;padding-top:18px;border-top:1px solid var(--rule)}
+.abcfeature-lead img{aspect-ratio:4/3}
+.abcfeature-lead h3{font-size:22px;line-height:1.18;letter-spacing:-.012em}
+.abcfeature-dek{font-family:var(--serif);font-size:14px;line-height:1.45;color:var(--slate);margin:7px 0 0}
+
 .abctop{border:1px solid var(--rule)}
 .abctop-h{background:var(--ink);color:var(--paper);font-family:var(--sans);font-size:12px;font-weight:700;
   letter-spacing:.1em;text-transform:uppercase;padding:11px 14px}
@@ -2014,7 +2026,7 @@ h1,h2,h3,.lhero-tx h2,.lbig-tx h3,.lstack h3,.llist h3,.abctop li a,.seclist li 
 .divpanel{margin-top:26px;padding:32px 0 30px}
 .kfoot{margin-top:32px}
 .kfoot-top{padding-top:38px;padding-bottom:30px}
-.abcrail .abcfeature{margin-bottom:18px}
+.abcrail .abcfeatband{margin-bottom:18px}
 .railmod{margin-top:20px}
 .abctop-thumbs li a{padding:9px 14px}
 .abctop-num.abctop-thumbs li a{padding-left:36px}
