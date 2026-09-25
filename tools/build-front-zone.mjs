@@ -130,18 +130,36 @@ const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug
    arrangement while everything below it had moved to Leonard's composition,
    so the two halves of the page did not agree. Same shapes as the section
    blocks now: a frame with the headline over it, a stack of two, a list. */
+/* Ask Unsplash for the shape the slot actually renders, rather than taking
+   a 3:2 frame and letting CSS crop it. The big Latest card renders about
+   312x824, so a 3:2 hero lost roughly seven tenths of its frame to a blind
+   centre slice and came out as an abstract strip. crop=entropy picks the
+   busiest region instead of the middle, so the subject survives the crop.
+   Only images.unsplash.com is rewritten; anything else is returned as is. */
+const shaped = (url, w, h) => {
+  if (!url || !/^https:\/\/images\.unsplash\.com\//.test(url)) return url;
+  /* The src comes out of the article HTML with its ampersands already
+     escaped, so parse the decoded form or URLSearchParams reads "amp;w"
+     as a parameter name. esc() puts the entities back on the way out. */
+  const [base, qs = ""] = url.replace(/&amp;/g, "&").split("?");
+  const p = new URLSearchParams(qs);
+  p.set("w", String(w)); p.set("h", String(h));
+  p.set("fit", "crop"); p.set("crop", "entropy"); p.set("q", "80"); p.set("fm", "jpg");
+  return `${base}?${p.toString()}`;
+};
+
 const lmeta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick)}</span><span class="lsep">/</span><time class="lago" datetime="${a.date}" data-ago>${ago(a.date)}</time></div>`;
 
 const lOverlay = a => `<article class="lbig">
-<a href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy">
+<a href="${a.url}"><img src="${esc(shaped(a.img, 640, 1600))}" alt="${esc(a.alt)}" loading="lazy">
 <span class="lbig-tx">${lmeta(a)}<h3>${esc(a.title)}</h3>${a.dek ? `<p class="lbig-dek">${esc(a.dek)}</p>` : ""}</span></a></article>`;
 
 const lStack = a => `<article class="lstack">
-<a class="lstack-img" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<a class="lstack-img" href="${a.url}"><img src="${esc(shaped(a.img, 400, 1000))}" alt="${esc(a.alt)}" loading="lazy"></a>
 ${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
 
 const lList = a => `<article class="llist">
-<a class="llist-thumb" href="${a.url}"><img src="${esc(a.img)}" alt="${esc(a.alt)}" loading="lazy"></a>
+<a class="llist-thumb" href="${a.url}"><img src="${esc(shaped(a.img, 280, 210))}" alt="${esc(a.alt)}" loading="lazy"></a>
 <div class="llist-tx">${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
 
 /* The front page had no h1 at all: every headline is an h2 or h3, which
