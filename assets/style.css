@@ -680,8 +680,20 @@ h1,h2,h3,.spothead,.bbhead,.coverhead{font-weight:600}
 .abcfeatband{border-top:2px solid var(--ink);padding-top:12px}
 .abcfeatband-h{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.1em;
   text-transform:uppercase;color:var(--ink);margin-bottom:12px}
-.abcfeatband .abcfeature + .abcfeature{margin-top:18px;padding-top:18px;border-top:1px solid var(--rule)}
-.abcfeature-lead img{aspect-ratio:4/3}
+/* Only the first feature gets a picture at size. Three full cards ran the
+   rail 847px past the end of the Latest block, and because the zone is a
+   two-column grid the surplus came out as white under Latest. The rest are
+   thumbnail rows, which is also the honest hierarchy: one lead feature and
+   two more worth reading. */
+.abcfeatrow{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;
+  margin-top:14px;padding-top:14px;border-top:1px solid var(--rule)}
+.abcfeatrow-tx{flex:1;min-width:0}
+.abcfeatrow-tx .abckick{margin-bottom:5px;display:block}
+.abcfeatrow h3{font-family:var(--display);font-size:16px;line-height:1.24;font-weight:600;margin:0;letter-spacing:-.008em}
+.abcfeatrow:hover h3{color:var(--claret)}
+.abcfeatrow-thumb{flex:none;width:84px}
+.abcfeatrow-thumb img{width:84px;height:56px;object-fit:cover;display:block;background:#E8EDF2;border:1px solid var(--rule)}
+.abcfeature-lead img{aspect-ratio:16/9}
 .abcfeature-lead h3{font-size:22px;line-height:1.18;letter-spacing:-.012em}
 .abcfeature-dek{font-family:var(--serif);font-size:14px;line-height:1.45;color:var(--slate);margin:7px 0 0}
 

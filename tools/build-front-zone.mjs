@@ -108,12 +108,16 @@ const lead = take(1, a => photo(a) && !opinion(a))[0];
 const fresh = a => new Date(lead.date) - new Date(a.date) < 24 * 3600e3;
 const cluster = take(2, a => !opinion(a) && a.dir === lead.dir && fresh(a));
 cluster.push(...take(2 - cluster.length, a => !opinion(a)));
-/* 8, not 11: the grid renders grid[0], grid[1..2] and grid[3..7]. Taking
-   eleven marked three fresher stories as placed and then never rendered
-   them, which pushed the feature and Top Stories down to older items. */
-const grid = take(8, a => photo(a) && !opinion(a));
+/* 13, and every one of them rendered. The grid fills grid[0], grid[1..2]
+   and grid[3..11]; taking more than is rendered marks fresher stories as
+   placed and then drops them, which is what once pushed Top Stories down to
+   older items. The rail carries a features band now, and the zone is a two
+   column grid whose columns stretch to the taller of the two. When the rail
+   ran 847px past the end of the Latest block, that surplus rendered as a
+   band of white under Latest. The list column absorbs the difference. */
+const grid = take(11, a => photo(a) && !opinion(a));
 featured.push(...take(3 - featured.length, a => photo(a) && !opinion(a)));
-const topStories = take(5, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
+const topStories = take(4, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
 /* The Divide columns have their own panel further down the page; listing
    them in the opinion rail as well put the same argument on the front twice,
    which on a phone is two identical headlines a few screens apart. */
@@ -162,16 +166,18 @@ const zone = `<main id="main" class="wrap abczone">
   <div class="lgrid">
     <div class="lcol-big">${lOverlay(grid[0])}</div>
     <div class="lcol-stack">${grid.slice(1, 3).map(lStack).join("")}</div>
-    <div class="lcol-list">${grid.slice(3, 8).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
+    <div class="lcol-list">${grid.slice(3, 11).map(lList).join("")}<a class="lmore" href="/latest/">More latest <span aria-hidden="true">&rarr;</span></a></div>
   </div>
 </div>
 <aside class="abcrail">
   <div class="abcfeatband"><div class="abcfeatband-h">Features</div>
-  ${featured.map((f, i) => `<article class="abcfeature${i === 0 ? " abcfeature-lead" : ""}"><a href="${f.url}"><img src="${esc(f.img)}" alt="${esc(f.alt)}" loading="${i === 0 ? "eager" : "lazy"}"></a>
+  ${featured.slice(0, 1).map(f => `<article class="abcfeature abcfeature-lead"><a href="${f.url}"><img src="${esc(f.img)}" alt="${esc(f.alt)}" loading="eager"></a>
     <div class="abckick">${esc(f.kick)}</div>
     <h3><a href="${f.url}">${esc(f.title)}</a></h3>
-    ${i === 0 && f.dek ? `<p class="abcfeature-dek">${esc(f.dek)}</p>` : ""}
+    ${f.dek ? `<p class="abcfeature-dek">${esc(f.dek)}</p>` : ""}
     <time class="abctime" datetime="${f.date}" data-ago>${ago(f.date)}</time></article>`).join("")}
+  ${featured.slice(1).map(f => `<article class="abcfeatrow"><a class="abcfeatrow-tx" href="${f.url}"><span class="abckick">${esc(f.kick)}</span><h3>${esc(f.title)}</h3></a>
+    <a class="abcfeatrow-thumb" href="${f.url}"><img src="${esc(f.img)}" alt="${esc(f.alt)}" loading="lazy"></a></article>`).join("")}
   </div>
   <div class="abctop abctop-num abctop-thumbs"><div class="abctop-h">Top stories</div>
     <ol>${topStories.map(a => `<li><a href="${a.url}"><span class="toptx">${esc(a.title)}</span>${a.img ? `<span class="topthumb"><img src="${esc(a.img)}" alt="${esc(a.alt || "")}" loading="lazy"></span>` : ""}</a></li>`).join("")}</ol>
