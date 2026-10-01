@@ -1562,7 +1562,7 @@
   "width": 1400,
   "height": 1164,
   "alt": "Railway tracks seen from above in low raking light: a crossover where two rails leave the straight line and run away from it across the ballast",
-  "creditHtml": "<a href=\"https://unsplash.com/@mihai14?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Mihai Laz\u0103r</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditHtml": "<a href=\"https://unsplash.com/@mihai14?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Mihai Lazăr</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
  },
  "ai/the-dependency-runs-the-other-way": {
@@ -1671,6 +1671,33 @@
   "height": 933,
   "alt": "International banknotes scattered across a table, including US dollars, Mexican pesos and Argentine pesos",
   "creditHtml": "<a href=\"https://unsplash.com/@ninjason?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Jason Leung</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/sarbanes-oxley-without-the-filing": {
+  "id": "1RT4txDDAbM",
+  "url": "https://images.unsplash.com/photo-1571624436279-b272aff752b5?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8Mnx8Ym9hcmRyb29tJTIwdGFibGUlMjBlbXB0eSUyMGNoYWlyc3xlbnwxfDB8fHwxNzkwODYzMjA1fDA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 932,
+  "alt": "An empty boardroom with a long brown wooden table and office chairs set around it",
+  "creditHtml": "<a href=\"https://unsplash.com/@socialcut?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">S O C I A L . C U T</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/ninety-one-per-cent-on-the-chain-stripe-built": {
+  "id": "v9rZ3Yz6fSg",
+  "url": "https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZGlnaXRhbCUyMHBheW1lbnQlMjBkb2xsYXJ8ZW58MXwwfHx8MTc5MDg2MzIwNnww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Close-up of a one-dollar US banknote",
+  "creditHtml": "<a href=\"https://unsplash.com/@bartos?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Aidan Bartos</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/the-ninth-time-this-year": {
+  "id": "T-IN5o3kxyA",
+  "url": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8Mnx8bmV0d29yayUyMHN3aXRjaCUyMGNhYmxlcyUyMGRhdGElMjBjZW50ZXJ8ZW58MXwwfHx8MTc5MDg2MzIwN3ww&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 731,
+  "alt": "Bundles of network cables plugged into a server rack",
+  "creditHtml": "<a href=\"https://unsplash.com/@lightsabercollection?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Lightsaber Collection</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
  }
 }
