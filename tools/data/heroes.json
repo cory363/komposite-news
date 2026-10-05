@@ -1798,5 +1798,14 @@
   "alt": "Stack of papers marked with colorful sticky tabs",
   "creditHtml": "<a href=\"https://unsplash.com/@ttepavac?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tanja Tepavac</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "business/creator-agencies-iconify-media-platform-risk": {
+  "id": "local:asher-lara-iconify-media",
+  "url": "/assets/img/stories/asher-lara-iconify-media.jpg",
+  "width": 1600,
+  "height": 900,
+  "alt": "Asher Lara seated on a dark leather sofa in front of gray curtains",
+  "creditHtml": "Courtesy of Asher Lara",
+  "creditLine": "Courtesy of Asher Lara"
  }
 }

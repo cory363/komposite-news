@@ -67,6 +67,9 @@ export function render(a) {
   const [name, role] = AUTHORS[a.author].split("|");
   const url = articleUrl(a);
   const h = hero(a);
+  /* Site-hosted images (client-supplied photos in /assets/img/stories/) are
+     referenced root-relative on the page; social and JSON-LD need absolute. */
+  const absImg = /^\//.test(h.url) ? SITE + h.url : h.url;
   const title = esc(a.headline) + TITLE_SEP;
 
   const newsArticle = {
@@ -76,7 +79,7 @@ export function render(a) {
     description: a.metaDesc,
     datePublished: a.date,
     dateModified: a.date,
-    image: { "@type": "ImageObject", url: h.url, width: h.width, height: h.height },
+    image: { "@type": "ImageObject", url: absImg, width: h.width, height: h.height },
     author: { "@type": "Person", name: name.replace(/&amp;/g, "&"), url: `${SITE}/authors/${a.author}/` },
     publisher: {
       "@type": "NewsMediaOrganization", name: "Komposite News", url: SITE,
@@ -99,8 +102,8 @@ export function render(a) {
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#7E2231">
 <title>${title}</title><meta name="description" content="${esc(a.metaDesc)}">
 <link rel="canonical" href="${url}">
-<meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:image" content="${esc(h.url)}"><meta property="og:image:width" content="${h.width}"><meta property="og:image:height" content="${h.height}"><meta property="og:image:alt" content="${esc(h.alt)}"><meta property="article:published_time" content="${a.date}"><meta property="article:modified_time" content="${a.date}"><meta property="article:author" content="${esc(name.replace(/&amp;/g, "&"))}"><meta property="article:section" content="${esc(a.sectionLabel)}">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(h.url)}">
+<meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:image" content="${esc(absImg)}"><meta property="og:image:width" content="${h.width}"><meta property="og:image:height" content="${h.height}"><meta property="og:image:alt" content="${esc(h.alt)}"><meta property="article:published_time" content="${a.date}"><meta property="article:modified_time" content="${a.date}"><meta property="article:author" content="${esc(name.replace(/&amp;/g, "&"))}"><meta property="article:section" content="${esc(a.sectionLabel)}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(absImg)}">
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="dns-prefetch" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
@@ -108,7 +111,8 @@ export function render(a) {
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
-  const body = a.body.map(p => `<p>${p}</p>`).join("");
+  /* Body entries that are already subheads (<h2>) go in as they are. */
+  const body = a.body.map(p => /^<h2[\s>]/.test(p) ? p : `<p>${p}</p>`).join("");
   const tags = a.tags.map(t => `<a href="/tag/${t.slug}/">${esc(t.name)}</a>`).join("");
   const rel = a.related.map(r =>
     `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
