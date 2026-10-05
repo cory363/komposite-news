@@ -1780,5 +1780,23 @@
   "alt": "A small sign reading Closed hanging on a black metal gate",
   "creditHtml": "<a href=\"https://unsplash.com/@gaspanik?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Masaaki Komori</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "blockchain/sixty-three-stocks-and-no-order-book": {
+  "id": "lmV3gJSAgbo",
+  "url": "https://images.unsplash.com/photo-1648275913341-7973ae7bc9b3?ixid=M3wxMDYxNzg4fDB8MXxhbGx8fHx8fHx8fHwxNzkxMjA2MDMzfA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "A digital stock market ticker display showing SPY data with a green trend line",
+  "creditHtml": "<a href=\"https://unsplash.com/@tprahm?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tyler Prahm</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/the-bounty-that-drew-too-many-reports": {
+  "id": "81ikZZG7_AA",
+  "url": "https://images.unsplash.com/photo-1771173479042-810085465e49?ixid=M3wxMDYxNzg4fDB8MXxhbGx8fHx8fHx8fHwxNzkxMjA2MDMzfA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Stack of papers marked with colorful sticky tabs",
+  "creditHtml": "<a href=\"https://unsplash.com/@ttepavac?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tanja Tepavac</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
