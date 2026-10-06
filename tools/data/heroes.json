@@ -1807,5 +1807,23 @@
   "alt": "Asher Lara seated on a dark leather sofa in front of gray curtains",
   "creditHtml": "Courtesy of Asher Lara",
   "creditLine": "Courtesy of Asher Lara"
+ },
+ "markets/a-forty-two-per-cent-premium-a-ten-per-cent-fall": {
+  "id": "FP_DJBVtwdw",
+  "url": "https://images.unsplash.com/photo-1730584474338-aa8d9d186bf7?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 788,
+  "alt": "A welder in a protective mask working on a metal pipe in a factory",
+  "creditHtml": "<a href=\"https://unsplash.com/@cmrcn_?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Cemrecan Yurtman</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/wikipedia-went-looking-for-the-agents-itself": {
+  "id": "A5l-MowfhXU",
+  "url": "https://images.unsplash.com/photo-1775439330428-8eafc58f1807?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1074,
+  "alt": "The Wikipedia article about Wikipedia displayed on a dark screen",
+  "creditHtml": "<a href=\"https://unsplash.com/@planetvolumes?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Planet Volumes</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
