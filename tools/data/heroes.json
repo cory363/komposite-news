@@ -1825,5 +1825,95 @@
   "alt": "The Wikipedia article about Wikipedia displayed on a dark screen",
   "creditHtml": "<a href=\"https://unsplash.com/@planetvolumes?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Planet Volumes</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/two-open-models-and-no-weights-yet": {
+  "id": "5FS9ci4eHg0",
+  "url": "https://images.unsplash.com/photo-1783419231367-89bd75443ad7?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A hand adjusting circuit breakers in a lit electrical cabinet",
+  "creditHtml": "<a href=\"https://unsplash.com/@lyaptseviridi?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Aleksandr Lyaptsev</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "policy/new-york-city-wants-a-validator-for-every-model": {
+  "id": "EXZTDkrmVk0",
+  "url": "https://images.unsplash.com/photo-1721149836929-1e696d1a096d?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "New York City Hall seen through the trees of City Hall Park",
+  "creditHtml": "<a href=\"https://unsplash.com/@tomasmartinez?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tomas Martinez</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "markets/thirty-million-dollars-a-quarter": {
+  "id": "lYxQ5F9xBDM",
+  "url": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Close-up of the memory chips on a computer RAM module against a dark background",
+  "creditHtml": "<a href=\"https://unsplash.com/@liam_1?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Liam Briese</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "technology/the-forest-came-down-before-the-assessment": {
+  "id": "BkTsP32Dfnc",
+  "url": "https://images.unsplash.com/photo-1586400792375-d6b8f82db2e6?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A large tree stump in a clear-cut forest with pine trees in the distance",
+  "creditHtml": "<a href=\"https://unsplash.com/@royaannmiller?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">roya ann miller</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/the-offer-of-leverage-is-the-switch": {
+  "id": "OmPqCwX422Y",
+  "url": "https://images.unsplash.com/photo-1612178991541-b48cc8e92a4d?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A hand pointing at currency quotes on a smartphone in front of a laptop",
+  "creditHtml": "<a href=\"https://unsplash.com/@margabagus?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Marga Santoso</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/rain-applies-for-the-charter-the-community-banks-are-suing-over": {
+  "id": "fVvWxaeGJ8U",
+  "url": "https://images.unsplash.com/photo-1485113824754-09b20e02f577?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 927,
+  "alt": "Close-up of a rusty metal knob on a green strongbox",
+  "creditHtml": "<a href=\"https://unsplash.com/@bobbybo?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Bogdan Radu</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "markets/sixty-nine-per-cent-from-one-customer": {
+  "id": "g8itR3HO2GQ",
+  "url": "https://images.unsplash.com/photo-1687861717577-8ff74dd61a47?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "Dense traffic and tall buildings at the border crossing between Johor Bahru and Singapore",
+  "creditHtml": "<a href=\"https://unsplash.com/@gregchee?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Ven Jiun (Greg) Chee</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "business/half-a-million-dollars-in-a-quarter": {
+  "id": "tTurhPw9bwQ",
+  "url": "https://images.unsplash.com/photo-1675602488512-bdd631490fcb?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Close-up of an integrated circuit chip mounted on a printed circuit board",
+  "creditHtml": "<a href=\"https://unsplash.com/@bermixstudio?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Bermix Studio</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/patched-by-wednesday-rebooting-by-friday": {
+  "id": "Kqg_6JPhxRk",
+  "url": "https://images.unsplash.com/photo-1680992045563-2ab442f3feee?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 788,
+  "alt": "Network equipment with green and red indicator lights in a dark rack",
+  "creditHtml": "<a href=\"https://unsplash.com/@tylergm?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tyler</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "business/nineteen-months-three-million-texans": {
+  "id": "eqd0f78u9nI",
+  "url": "https://images.unsplash.com/photo-1680992046615-065f58bcb4d8?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 788,
+  "alt": "A close-up of a rack of computer equipment",
+  "creditHtml": "<a href=\"https://unsplash.com/@tylergm?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Tyler</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
