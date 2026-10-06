@@ -1,0 +1,42 @@
+# Komposite News
+
+> Komposite News is an independent digital publication covering artificial intelligence, blockchain, digital assets, enterprise technology, cybersecurity, fintech and capital markets. It writes for executives, founders, investors, developers and policy professionals who need to understand how technology and finance are changing each other, and prioritizes reporting and analysis over hype.
+
+- News stories, pieces labeled Analysis and pieces labeled Opinion are clearly distinguished.
+- Information is attributed to sources wherever possible and claims are verified before publication; sponsored content is always labeled.
+- Corrected articles carry a note describing what was wrong and when it was fixed.
+- The site uses AI as a production tool, not a replacement for editorial judgment (see the AI Policy).
+- A selection of coverage is also published in Spanish.
+
+## Sections
+
+- [AI](https://kompositenews.com/ai/): artificial intelligence
+- [Markets](https://kompositenews.com/markets/): capital markets
+- [Business](https://kompositenews.com/business/): companies and deals
+- [Technology](https://kompositenews.com/technology/): enterprise technology
+- [Fintech](https://kompositenews.com/fintech/): financial technology
+- [Crypto](https://kompositenews.com/crypto/): digital assets
+- [Blockchain](https://kompositenews.com/blockchain/): blockchain reporting and analysis
+- [Cybersecurity](https://kompositenews.com/cybersecurity/): security and threats
+- [Policy](https://kompositenews.com/policy/): regulation and policy
+- [Culture](https://kompositenews.com/culture/): culture
+- [Opinion](https://kompositenews.com/opinion/): labeled opinion
+- [Español](https://kompositenews.com/es/): Spanish-language edition (selected coverage)
+
+## Key pages
+
+- [About](https://kompositenews.com/about/): what Komposite News covers and for whom
+- [Editorial Standards](https://kompositenews.com/editorial-standards/): reporting, analysis, opinion and sourcing rules
+- [Corrections](https://kompositenews.com/corrections/): corrections policy and log
+- [AI Policy](https://kompositenews.com/ai-policy/): how AI is and is not used
+- [Contact](https://kompositenews.com/contact/): reaching the newsroom
+- [Tips](https://kompositenews.com/tips/): sending information to the desk
+- [Licensing & Reprints](https://kompositenews.com/licensing/): republication terms
+- [RSS feed](https://kompositenews.com/rss.xml): latest stories
+- [Sitemap index](https://kompositenews.com/sitemap-index.xml): links to the full sitemap and the news sitemap
+- [Sitemap](https://kompositenews.com/sitemap.xml): full list of pages and articles
+
+## Optional
+
+- [Latest](https://kompositenews.com/latest/): all reporting in chronological order
+- [The Divide](https://kompositenews.com/the-divide/): one major issue each edition, argued from the left and from the right
