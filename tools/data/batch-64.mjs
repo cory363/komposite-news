@@ -39,7 +39,7 @@ CR({ slug:"not-a-security-since-march", kick:"Regulation",
   headline:"Not a security since March",
   dek:"This week's headlines say US regulators have declared bitcoin, ether and XRP not securities. They did, on 17 March, in a Commission interpretation that names them among its digital commodities and says an investment contract can end. Almost everything the SEC has done on crypto since rests on it, and a future commission could withdraw it without a rulemaking.",
   metaDesc:"The SEC's 17 March interpretation, joined by the CFTC, named bitcoin, ether, XRP and 15 more digital commodities. What it says, binds and leaves open.",
-  author:"marcus-oyelaran", date:"2026-10-07T14:15:00Z",
+  author:"marcus-oyelaran", date:"2026-10-07T18:30:00Z",
   capt:"Oranges ripening on trees in an orchard. The test for an investment contract comes from a 1946 Supreme Court case about Florida citrus groves.",
   tags:[{name:"Regulation",slug:"regulation"},{name:"Digital Assets",slug:"digital-assets"},{name:"Market Structure",slug:"market-structure"}],
   related:[
