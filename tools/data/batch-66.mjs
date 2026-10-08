@@ -1,0 +1,98 @@
+/** Batch 66 — Thursday 8 October 2026. Two pieces. Lead: "Eight days after
+ *  asking for a law" (ESMA's opinion on services in non-MiCA-compliant
+ *  stablecoins), dated 15:45Z so the front zone, which leads with the newest
+ *  article, puts it first above the Firmus/Maas piece (15:30Z), and both
+ *  above batch 65's lead (7 Oct 19:15Z).
+ *
+ *  CRYPTO / ESMA STABLECOIN OPINION. Primary sources read: ESMA press release
+ *  (8 Oct, "ESMA sets out supervisory expectations on services related to
+ *  unauthorised stablecoins"); the opinion itself, ESMA75-113276571-1742,
+ *  dated 8 October 2026 (paras 2, 12-14, 16-19, 22-24, 27-28; Art. 29(1)(a)
+ *  legal basis; Art. 66(1) presumption; residual services list in para 24
+ *  includes safekeeping, para 27 lists sell-only, conversion, transfer,
+ *  withdrawal); ESMA public statement ESMA75-223375936-6099 of 17 January
+ *  2025 (trading platforms to stop by end Q1 2025; restrictions by end
+ *  January 2025; sell-only to end Q1; "mere custody and transfer ... should
+ *  remain possible", paraphrased); ESMA response to the Commission's MiCA
+ *  review consultation, ESMA75-113276571-1721, dated 30 September 2026,
+ *  section 3.2 (quoted sentence). Reporting: CoinDesk (8 Oct: names no
+ *  tokens; USDT and PYUSD not authorised; 8 January 2027 date; platforms'
+ *  instructions; NCAs decide within the three-month outer limit; MiCA
+ *  platform rules from 1 July); CryptoSlate (3 Oct: Commission page says the
+ *  review report may be accompanied by a legislative proposal). "Eight days"
+ *  is our count (30 Sep to 8 Oct).
+ *
+ *  MARKETS / FIRMUS AND MAAS. Primary: Maas Group response to ASX price query
+ *  and ASX letter, both 8 October (close A$6.39 on 7 Oct, low A$4.50; quotes);
+ *  Maas AGM address and presentation, 23 September ($41.7m uplift, $40.2m of
+ *  it Firmus per presentation footnote; $143.3m ex-uplift; ~$1.2bn electrical
+ *  work in hand incl. ~$855m August work order, customer not named). Reuters
+ *  via CNA (8 Oct: 3.2 per cent; up to 30 per cent intraday, closed down 22.4
+ *  per cent; about A$517m of market value; term sheet; A$8.25 per local
+ *  media; Datt quote and A$75m estimate; largest since Telstra 1997).
+ *  Bloomberg via CNBC-TV18 (8 Oct: books closed Thursday morning without
+ *  clear price or structure; US$5.5bn incl. greenshoe; A$11 implied A$43.7bn;
+ *  close moved up from Friday; overhang concern; Jun Bei Liu quotes; Maas
+ *  fell as much as 30 per cent, most on record; Batam with DayOne; joint lead
+ *  managers). Startup Daily (term sheet via Reuters: bidding 6-9 Oct, trading
+ *  23 Oct; August round A$2.85bn at A$15bn with Nvidia, Coatue, Blackstone,
+ *  Jane Street; 46MW operating). Motley Fool Australia (Macquarie: A$4 vs
+ *  A$1.42 per Maas share). "About seven times" is our arithmetic (517/75).
+ *
+ *  Heroes (download endpoints triggered): Alexandre Lallemand (EU flags at
+ *  La Defense, Paris), Troy Bridges (breakers in electrical switchgear). */
+const P = (dir, sectionLabel, sectionHref) => (o) => ({ dir, sectionLabel, sectionHref, ...o,
+  photo: { file:"", origW:1, origH:1, alt:"", credit:"", capt:o.capt, creditLine:"Photograph via Unsplash" } });
+const AI=P("ai","AI","ai"), PO=P("policy","Policy","policy"), MK=P("markets","Markets","markets"),
+  TE=P("technology","Technology","technology"), CR=P("crypto","Crypto","crypto"), FT=P("fintech","Fintech","fintech"),
+  BU=P("business","Business","business"), CY=P("cybersecurity","Cybersecurity","cybersecurity");
+
+export default [
+
+CR({ slug:"eight-days-after-asking-for-a-law", kick:"Stablecoins",
+  headline:"Eight days after asking for a law",
+  dek:"On 30 September Europe's securities regulator asked the Commission to rewrite MiCA so that licensed crypto firms could offer no service at all in non-compliant stablecoins. On Thursday it told national supervisors to expect that already, with three months to clear out what clients still hold.",
+  metaDesc:"ESMA tells national regulators that MiCA-licensed crypto firms should drop all services in non-compliant stablecoins, with three months to clear holdings.",
+  author:"marcus-oyelaran", date:"2026-10-08T15:45:00Z",
+  capt:"European Union flags at La Défense, the business district of Paris. ESMA, the EU's securities regulator, is based in the city.",
+  tags:[{name:"Stablecoins",slug:"stablecoins"},{name:"Regulation",slug:"regulation"}],
+  related:[
+    {href:"/fintech/ten-days-of-maturity-and-a-pile-of-gold/",kick:"Stablecoins",title:"Ten days of maturity, and a pile of gold",ago:"SEPTEMBER 24, 2026"},
+    {href:"/crypto/ninety-one-per-cent-on-the-chain-stripe-built/",kick:"Stablecoins",title:"Ninety-one per cent on the chain Stripe built",ago:"OCTOBER 1, 2026"},
+    {href:"/fintech/brazil-closes-one-door-to-stablecoins/",kick:"Payments",title:"Brazil closes one door to stablecoins",ago:"SEPTEMBER 20, 2026"},
+  ],
+  body:[
+    "The European Securities and Markets Authority published an <a href=\"https://www.esma.europa.eu/sites/default/files/2026-10/ESMA75-113276571-1742_Opinion_on_the_provision_of_crypto_asset_services_in_relation_to_non-MiCA-compliant_asset-referenced_tokens_and_e-money_tokens.pdf\" rel=\"noopener\">opinion</a> on Thursday telling national regulators what it expects of crypto firms licensed under the Markets in Crypto-Assets Regulation when clients hold stablecoins that do not comply with it. The answer is to stop. \"ESMA considers that CASPs should not provide crypto-asset services in relation to ARTs or EMTs that are not compliant with the applicable requirements under MiCA (non-MiCA compliant ARTs or EMTs),\" the opinion says, using the regulation's terms for crypto-asset service providers, asset-referenced tokens and e-money tokens. According to ESMA's <a href=\"https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised\" rel=\"noopener\">announcement</a>, that covers every service MiCA licenses, from running a trading platform and exchanging tokens to transfers, custody, advice and portfolio management, whether provided individually or in combination.",
+    "The opinion names no tokens. Tether's USDT, the largest stablecoin by market value, is the standout large example of one not authorised under MiCA, and PayPal USD, the third largest, is not authorised either, <a href=\"https://www.coindesk.com/policy/2026/10/08/eu-securities-regulator-gives-crypto-platforms-3-months-to-remove-unauthorized-stablecoins\" rel=\"noopener\">CoinDesk</a> reported. Between them, two issuers account for most of the stablecoins in circulation, and <a href=\"/fintech/ten-days-of-maturity-and-a-pile-of-gold/\">their reserves look nothing alike</a>.",
+    "What is new is the reach. ESMA's previous word on the subject, a <a href=\"https://www.esma.europa.eu/sites/default/files/2025-01/ESMA75-223375936-6099_Statement_on_stablecoins.pdf\" rel=\"noopener\">public statement</a> of 17 January 2025, asked trading platforms to stop making such tokens available by the end of the first quarter of 2025, allowed sell-only services until then, and turned on whether a given service amounted to offering the token to the public or seeking its admission to trading. In that statement ESMA said mere custody and transfer of these tokens should remain possible. The new opinion says its conclusion does not depend on whether each service, by itself, is an offer to the public. It rests instead on the duty in Article 66(1) of MiCA to act honestly, fairly and professionally in clients' best interests: a firm providing any service in a non-compliant stablecoin is presumed to breach it, because it would be knowingly exposing clients to risks that come from the missing issuer safeguards.",
+    "Eight days earlier, by our count, ESMA had asked for the same result by legislation. In its <a href=\"https://www.esma.europa.eu/sites/default/files/2026-09/ESMA75-113276571-1721_Response_to_the_EC_consultation_MiCA_regulation_review.pdf\" rel=\"noopener\">response</a> of 30 September to the Commission's consultation on reviewing MiCA, it said the current framework left uncertain how far authorised firms could keep facilitating unauthorised stablecoins. \"To achieve legal clarity, ESMA invites the Commission to amend the Regulation explicitly providing that a CASP cannot provide any licensable service under MiCA in relation to ARTs or EMTs that are not compliant with the applicable requirements under MiCA.\" Any amendment is some way off; the Commission's consultation page says the resulting review report may, if warranted, come with a legislative proposal, <a href=\"https://cryptoslate.com/esma-proposes-ending-eu-custody-and-transfer-services-for-non-compliant-stablecoins/\" rel=\"noopener\">CryptoSlate</a> noted. The opinion does not wait for it. It is issued under Article 29(1)(a) of ESMA's founding regulation, which tasks the authority with building a common supervisory culture among national regulators, and it is those regulators who apply it.",
+    "The clock is short. Where national authorities find clients still holding such tokens through licensed firms, they should require the positions to be remediated as soon as possible and no later than three months after publication, which CoinDesk puts at 8 January 2027. In the meantime national authorities may allow firms to offer only strictly limited residual services needed for an orderly wind-down: the opinion's body lists liquidation, conversion, withdrawal, transfer and safekeeping of existing holdings, and its conclusion lists sell-only, conversion, transfer and withdrawal. None of it may support new purchases, promotion, trading or continued availability, and all of it should be time-limited, clearly communicated to clients and closely supervised. Firms are also expected to put technical, contractual and organisational controls in place to stop EU clients acquiring or adding to positions.",
+    "Telling customers about the risk will not do. \"ESMA considers that reliance on warnings, disclosures or client acknowledgements would not sufficiently address the concerns identified in this Opinion.\" MiCA's protections work together, the opinion argues, so clients cannot be expected to judge what the absence of all of them means, and firms' own assessments would differ in scope and method. It gives three reasons for closing the door entirely: leaving non-compliant tokens available through licensed firms would let issuers circumvent the stablecoin rules; it would put compliant issuers, which carry redemption, reserve, governance and disclosure obligations, at a disadvantage to those that carry none; and it would undermine investor confidence in a market where tokens of the same kind face different rules.",
+    "For many users the practical change may be modest. Several platforms had already restricted USDT for European users, and MiCA's full rules for crypto platforms took effect on 1 July, CoinDesk noted. The difference is for clients who kept such tokens in custody at a licensed firm after the trading pairs were removed, which the 2025 statement allowed. They will have to follow their platform's instructions; some may be able to sell or withdraw during the wind-down, and others may face an earlier cut-off, CoinDesk reported. The opinion governs what licensed firms do. It says nothing about tokens that people hold in their own wallets.",
+    "ESMA says it will monitor, with the national authorities, how quickly the opinion is applied. National regulators will decide how individual platforms deal with remaining client balances within the three-month limit, according to CoinDesk. Whether the Commission writes the prohibition into the regulation itself is now a question about legal certainty rather than about what licensed firms in the EU are expected to do.",
+  ] }),
+
+MK({ slug:"a-firmus-price-on-someone-elses-shares", kick:"IPOs",
+  headline:"A Firmus price, on someone else's shares",
+  dek:"Firmus, the Nvidia-backed AI data centre builder, closed the books on its Australian float on Thursday without a clear price, Bloomberg reported. Maas Group, which owns 3.2 per cent of it and supplies it, lost about A$517m of market value instead.",
+  metaDesc:"Firmus closed its IPO book on Thursday without a clear price. Maas Group, a 3.2% holder and supplier, fell up to 30% and blamed IPO speculation to the ASX.",
+  author:"grace-lindqvist", date:"2026-10-08T15:30:00Z",
+  capt:"Circuit breakers and wiring inside electrical switchgear. Maas Group's electrical division designs and manufactures power distribution equipment for data centres.",
+  tags:[{name:"Capital Markets",slug:"capital-markets"},{name:"AI Infrastructure",slug:"ai-infrastructure"},{name:"Data Centers",slug:"data-centers"}],
+  related:[
+    {href:"/markets/sixty-nine-per-cent-from-one-customer/",kick:"Data Centers",title:"Sixty-nine per cent from one customer",ago:"OCTOBER 6, 2026"},
+    {href:"/markets/a-50bn-backlog-and-anthropics-35bn/",kick:"Private Markets",title:"A $50bn backlog, and Anthropic's $35bn",ago:"OCTOBER 7, 2026"},
+    {href:"/markets/the-paper-has-to-go-somewhere/",kick:"Private Credit",title:"The paper has to go somewhere",ago:"SEPTEMBER 24, 2026"},
+  ],
+  body:[
+    "Firmus Grid, the Australian AI data centre company backed by Nvidia, closed the books on its initial public offering on Thursday morning in Australia without a clear indication of the price or the structure of the deal, Bloomberg reported in a story republished by <a href=\"https://www.cnbctv18.com/world/nvidia-backed-firmus-said-to-close-books-as-mega-ipo-struggles-jp-morgan-stanley-artificial-intelligence-data-centers-bitcoin-20007247.htm\" rel=\"noopener\">CNBC-TV18</a>. It had marketed the shares at A$11, which implied a valuation of A$43.7bn, and was seeking up to US$5.5bn including an over-allotment option. A term sheet told potential investors that the bookrunners would provide further information about the offer, and the final details were still being worked out on Thursday, <a href=\"https://www.channelnewsasia.com/business/firmus-investor-stock-falls-after-reports-ai-data-centre-operator-may-cut-5-billion-ipo-6442461\" rel=\"noopener\">Reuters</a> reported. Local media reported that Firmus and its advisers were weighing a smaller offer at A$8.25 a share.",
+    "Firmus has no share price yet. Maas Group Holdings does. The Dubbo-based industrial group owns 3.2 per cent of Firmus and, through its electrical subsidiary JLE, is also one of its suppliers. Its shares fell as much as 30 per cent during Thursday's session, the most on record according to Bloomberg, and closed down 22.4 per cent, Reuters reported, wiping about A$517m off its market value. The exchange wrote to the company on Thursday, citing a fall from a close of A$6.39 on Wednesday to a low of A$4.50, and asked whether it knew of anything that had not been announced.",
+    "It did not, Maas said in its <a href=\"https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03146041-2A1702967?access_token=83ff96335c2d45a094df02a206a39ff4\" rel=\"noopener\">reply to the ASX</a>, and it offered an explanation instead. \"MGH notes that there has been significant market speculation and commentary concerning whether the proposed IPO of Firmus will be proceeding.\" The company described itself as both an investor in Firmus and a supplier to it. \"MGH considers that such speculation has influenced investor sentiment towards MGH and contributed to recent trading in its securities.\"",
+    "The arithmetic of the stake does not obviously explain a fall of that size. Emanuel Ajay Datt, managing director of fund manager Datt Group, said that cutting Firmus's price from A$11 to A$9 would reduce the value of Maas's holding by about A$75m. \"The selloff reflects a legitimate derating of the embedded value of its Firmus stake, but the magnitude is overdone,\" he said, according to Reuters. By our arithmetic, Thursday's loss in market value was about seven times his estimate. Macquarie, in research this week reported by <a href=\"https://www.fool.com.au/2026/10/08/how-the-firmus-float-just-tanked-this-companys-share-price/\" rel=\"noopener\">The Motley Fool Australia</a>, put the stake at A$4 per Maas share if Firmus were valued at A$43.7bn, but valued it at A$1.42 a share, reflecting the valuation at which Maas invested.",
+    "What the market may have been pricing is the rest of the relationship. Maas's results already lean on Firmus. At its annual meeting on 23 September the company reported an investment uplift of A$41.7m inside its underlying earnings, A$40.2m of it for its Firmus holding, according to the <a href=\"https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03139033-2A1698790?access_token=83ff96335c2d45a094df02a206a39ff4\" rel=\"noopener\">meeting presentation</a>. Its <a href=\"https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03138995-2A1698788?access_token=83ff96335c2d45a094df02a206a39ff4\" rel=\"noopener\">managing director's address</a> said the electrical business had about A$1.2bn of secured work in hand, including a work order of about A$855m received in August for the manufacture, supply and delivery of modular Power Cube units and high-voltage infrastructure over 18 months. The company said that work positioned it to help deliver infrastructure for data centres, AI factories, renewable energy and electrification. The address did not name the customer.",
+    "The doubts about Firmus itself were about price, supply and execution. Some potential investors grew cautious about existing shareholders selling soon after the debut, which added to concerns over what some saw as aggressive pricing, Bloomberg reported; the close of bookbuilding had been brought forward to Thursday from Friday after early indications of demand well above the offer size. \"I've never seen an IPO so polarising,\" Jun Bei Liu, co-founder and lead portfolio manager at Ten Cap Investment, said on Bloomberg TV. \"There was a lot of international investor interest; however, when it comes to the crunch, the demand seems like it isn't there when they were asked to put up the capital that's required.\" Other potential investors told Reuters they were cautious about the valuation, the company's ability to carry out its growth plans and its debt.",
+    "The valuation had moved fast. The A$43.7bn valuation implied by the A$11 price was nearly three times the A$15bn at which Nvidia, Coatue, Blackstone and Jane Street invested A$2.85bn two months ago, according to <a href=\"https://www.startupdaily.net/topic/asx/firmus-ipo-share-price/\" rel=\"noopener\">Startup Daily</a>, which reported that Firmus has 46MW of capacity operating in Melbourne and Singapore. The proceeds would buy graphics processors for its first project, in Batam, Indonesia, being developed with <a href=\"/markets/sixty-nine-per-cent-from-one-customer/\">DayOne</a>, which filed for its own Nasdaq listing this week. The term sheet scheduled trading on the ASX for 23 October, Startup Daily reported. The float would be Australia's largest new share sale in nearly three decades, behind only Telstra's in 1997, according to Reuters.",
+    "Bank of America, JPMorgan, Morgan Stanley and Morgans are the joint lead managers. Whether they bring Firmus to market at a lower price, with a smaller raise or not at this attempt, the first public mark on the company has already been made, in Maas's share price. Maas closed on Thursday at A$4.96, down A$1.43, according to ASX market data.",
+  ] }),
+
+];
