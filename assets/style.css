@@ -2650,3 +2650,81 @@ button,input,select,textarea{font-family:var(--mastfont)}
    shadow on the type itself as a second line of defence. */
 .lhero-img::after{background:linear-gradient(180deg,rgba(0,0,0,0) 18%,rgba(0,0,0,.38) 45%,rgba(0,0,0,.78) 70%,rgba(0,0,0,.9) 100%)}
 .lhero-tx h2,.lhero-tx .lhero-dek{text-shadow:0 1px 2px rgba(0,0,0,.45),0 2px 18px rgba(0,0,0,.35)}
+
+/* ---------------------------------------------------------------------------
+   October 2026 polish pass. Appended last so it wins over the older layers
+   above without editing them; every rule is scoped to one component.
+   ------------------------------------------------------------------------- */
+
+/* 1. Section headers. The slanted, italic black tabs centred on a hairline
+   read as a template. Replace with the newspaper convention: a heavy ink rule
+   with the section name set flush left beneath it. */
+.lsechead{text-align:left;border-top:3px solid var(--ink);padding-top:9px}
+.lsechead::before{display:none}
+.lsechead .lseclabel,.lsechead .lseclabel>*{transform:none;background:none;padding:0;
+  font-style:normal;color:var(--ink);letter-spacing:.07em;font-size:15px;font-weight:600}
+.lsechead .lseclabel a{color:var(--ink);text-decoration:none}
+.lsechead .lseclabel a:hover{color:var(--claret)}
+.lsechead .lseclabel a::after{content:"\00a0\203A";color:var(--claret)}
+
+/* 2. Kickers on photographs. Outlined boxes ("pill badges") become plain
+   small capitals, as on the rest of the page. */
+.abckick,.lbig-tx .lkick,.lhero .lkick{border:0!important;padding:0!important;background:none!important}
+
+/* 3. Article links: colour alone is not enough to mark a link (WCAG 1.4.1).
+   A quiet underline in the link colour. */
+.artbody a{border-bottom:0;text-decoration:underline;text-decoration-thickness:1px;
+  text-underline-offset:3px;text-decoration-color:rgba(214,0,28,.4)}
+.artbody a:hover{text-decoration-color:currentColor}
+
+/* 4. Section-page lead. The photo credit was positioned against the whole
+   lead block, so it floated as white text on white paper far below the
+   picture. Set it as a normal credit line under the photo, and give the lead
+   photo a 3:2 frame so it fills more of the column beside the four features. */
+.catlead .pcred{position:static;display:block;width:100%;max-width:none;box-sizing:border-box;left:auto;right:auto;bottom:auto;transform:none;text-align:right;margin:5px 0 2px;
+  color:var(--faint);text-shadow:none;background:none;padding:0;text-transform:uppercase;letter-spacing:.06em}
+.catlead .pcred a:hover{color:var(--ink)}
+@media (min-width:901px){.catlead .pwrap img{aspect-ratio:3/2;object-fit:cover;height:auto}}
+
+/* 5. Search results, which were unstyled: a kicker in the house red, a
+   display headline, a sans standfirst at a readable width, and the byline. */
+#results{max-width:760px}
+#results .story{padding:18px 0;border-bottom:1px solid var(--rule)}
+#results .kk{display:block;font-family:var(--label);font-size:11px;font-weight:500;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--claret);margin-bottom:4px}
+#results h3{font-family:var(--display);font-size:22px;line-height:1.2;margin:0 0 6px}
+#results h3 a{color:var(--ink);text-decoration:none}
+#results h3 a:hover{color:var(--claret)}
+#results .deck{font-family:var(--text);font-size:15.5px;line-height:1.55;color:var(--slate);margin:0 0 8px}
+#results .meta{font-family:var(--sans);font-size:12px;letter-spacing:.02em;color:var(--faint)}
+#results mark{background:rgba(214,0,28,.1);color:inherit;padding:0 1px}
+
+/* 6. Mobile navigation. The section list scrolls sideways but nothing said
+   so; it simply stopped at "TEC". Fade the right edge so it reads as more,
+   and bring Search back as a compact icon (it was hidden on phones). */
+@media (max-width:700px){
+  .knav-links{-webkit-mask-image:linear-gradient(90deg,#000 82%,transparent);
+    mask-image:linear-gradient(90deg,#000 82%,transparent);padding-right:22px}
+  .knav-utils .knav-search{display:inline-block;width:30px;height:30px;font-size:0;flex:0 0 30px;
+    background:no-repeat center/18px url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='m15.5 15.5 5 5'/%3E%3C/svg%3E")}
+}
+
+/* 7. Mobile homepage. Every secondary story in every section block carried a
+   full-width photograph, which made the front page some 33,000px long on a
+   phone. Below the lead of each block, secondary stories become compact rows
+   with a small thumbnail beside the headline, as news apps set them. */
+@media (max-width:700px){
+  .lsec .lcol-stack .lstack,.abcmain .lcol-stack .lstack{display:grid;grid-template-columns:1fr 112px;grid-template-rows:auto 1fr;
+    grid-template-areas:"meta img" "head img";column-gap:14px;row-gap:4px;align-items:start;
+    flex:none;min-height:0;padding:14px 0;border-bottom:1px solid var(--rule)}
+  .lsec .lcol-stack .lstack-img,.abcmain .lcol-stack .lstack-img{grid-area:img;min-height:0;margin:0;overflow:hidden}
+  .lsec .lcol-stack .lstack-img img,.abcmain .lcol-stack .lstack-img img{width:112px;height:auto;aspect-ratio:4/3;object-fit:cover}
+  .lcol-stack .lstack .lmeta{grid-area:meta;margin:0}
+  .lcol-stack .lstack h3{grid-area:head;margin:0;font-size:17px;line-height:1.22}
+  .lbig img,.abcmain .lcol-big .lbig img{aspect-ratio:3/2}
+}
+
+/* 8. Contrast. The grey used for dates, counts and credits (#78828C) was
+   3.9:1 on white, under the 4.5:1 minimum for small text. One step darker,
+   same hue. */
+:root{--faint:#5F6A75}
