@@ -2728,3 +2728,8 @@ button,input,select,textarea{font-family:var(--mastfont)}
    3.9:1 on white, under the 4.5:1 minimum for small text. One step darker,
    same hue. */
 :root{--faint:#5F6A75}
+/* 9 Oct 2026: keep stand-alone section headers (e.g. Opinion) inside the content column on wide screens; keep the pre-footer rule within the page width */
+.lsechead{max-width:1176px;margin-left:auto;margin-right:auto}
+.band:empty{display:none}
+.opband+.band:empty+footer,.band:empty+.kfoot{margin-top:40px}
+@media (max-width:1219px){body>.lsechead,main>.lsechead,.lsechead:has(+ .opband){margin-left:22px;margin-right:22px}}
