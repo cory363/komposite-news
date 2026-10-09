@@ -2122,5 +2122,50 @@
   "alt": "The US Treasury Building in Washington seen from above, with the Washington Monument in the background",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Us-treasury-building.jpg\" rel=\"noopener\">MeanieHyaena</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/lumentums-sold-out-date-moves-to-2029": {
+  "id": "8oR7XykOjk4",
+  "url": "https://images.unsplash.com/photo-1702822903693-0a18874d881e?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Yellow fibre-optic patch cables plugged into rows of green connectors on a distribution panel",
+  "creditHtml": "<a href=\"https://unsplash.com/@ronaldacrow?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Ronald Crow</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "markets/a-second-hundred-billion-from-the-gulf": {
+  "id": "commons:Henna_Virkkunen_is_shaking_hands_with_Masayoshi_Son,_SoftBank_Group_Chairman_(P066533-522034).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Henna_Virkkunen_is_shaking_hands_with_Masayoshi_Son%2C_SoftBank_Group_Chairman_%28P066533-522034%29.jpg/1280px-Henna_Virkkunen_is_shaking_hands_with_Masayoshi_Son%2C_SoftBank_Group_Chairman_%28P066533-522034%29.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Masayoshi Son shaking hands with Henna Virkkunen in front of a gold folding screen at SoftBank's Tokyo headquarters",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Henna_Virkkunen_is_shaking_hands_with_Masayoshi_Son,_SoftBank_Group_Chairman_(P066533-522034).jpg\" rel=\"noopener\">European Communities, 2025 / EC - Audiovisual Service</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/two-coins-one-exchange-no-margin": {
+  "id": "g5Uh7nP60FA",
+  "url": "https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Downtown Bangkok at dusk, with lit office towers and apartment blocks under a cloudy sky",
+  "creditHtml": "<a href=\"https://unsplash.com/@andreasbruecker?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Andreas Brücker</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/revolut-points-its-listing-at-the-us": {
+  "id": "50qn8LkEK00",
+  "url": "https://images.unsplash.com/photo-1786237863263-04c2fd018342?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A metal Revolut payment card resting on blue denim",
+  "creditHtml": "<a href=\"https://unsplash.com/@juliangojani?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Julian Gojani</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "startups/augment-code-sells-its-software-factory": {
+  "id": "commons:TechCrunch_Disrupt_2024_D2_From_Seed_To_Success-4_(54103885654).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/TechCrunch_Disrupt_2024_D2_From_Seed_To_Success-4_%2854103885654%29.jpg/1280px-TechCrunch_Disrupt_2024_D2_From_Seed_To_Success-4_%2854103885654%29.jpg",
+  "width": 1280,
+  "height": 854,
+  "alt": "Jyoti Bansal, in glasses and a dark sweater, holding a microphone on stage at TechCrunch Disrupt",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2024_D2_From_Seed_To_Success-4_(54103885654).jpg\" rel=\"noopener\">TechCrunch (photo by Katelyn Tucker/Slava Blazer Photography)</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
