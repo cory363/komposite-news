@@ -16,7 +16,7 @@ export default [
     capt:"An asset class whose stability is partly a property of its own valuation method.",
     creditLine:"Photograph via Wikimedia Commons"},
   body:[
-    `A private credit fund does not have a price. It has a valuation, produced quarterly, built from discounted cash flow models informed by the manager's own assessment of how its borrowers are doing. For most of the asset class's growth that distinction was academic.`,
+    `A <a href="/blockchain/private-credit-moves-onchain/">private credit</a> fund does not have a price. It has a valuation, produced quarterly, built from discounted cash flow models informed by the manager's own assessment of how its borrowers are doing. For most of the asset class's growth that distinction was academic.`,
     `The distinction is no longer academic. Practitioners describe the sector entering <a href="https://www.withintelligence.com/insights/private-credits-live-test-can-managers-prove-the-marks/" rel="noopener">a live test of whether managers can prove the values inside their portfolios</a>, which is a question that only becomes urgent when someone needs the answer.`,
     `The structural criticism is old and simple. Where publicly traded credit moves sharply on news, reported valuations in private vehicles move by a fraction of that, and the smoothness is a property of the valuation method rather than of the loans.`,
     `Investors bought that smoothness on purpose. A portfolio whose reported value does not swing is easier to hold, easier to report to a board, and easier to lever against, and for a decade the absence of volatility was treated as a characteristic of the asset rather than of its measurement.`,
@@ -121,7 +121,7 @@ export default [
     capt:"The top of the live business is setting records. The developmental tier is not sharing in them.",
     creditLine:"Photograph via Wikimedia Commons"},
   body:[
-    `The live music business is having its best years by revenue and its worst by structure. Both statements are true because they describe different rooms, and the money is not moving between them.`,
+    `The live <a href="/music/the-festival-middle-disappears/">music business</a> is having its best years by revenue and its worst by structure. Both statements are true because they describe different rooms, and the money is not moving between them.`,
     `The tier that matters for careers is the club: roughly two hundred to eight hundred capacity, the rooms where an artist learns to hold an audience that did not come specifically for them. It is also the tier closing.`,
     `Reporting on the sector describes <a href="https://www.rollingstone.com/music/music-features/indie-rock-live-music-tour-affordability-crisis-1235501703/" rel="noopener">an affordability crisis for touring at that scale</a>, in which the costs of moving a band between cities have risen faster than what those cities will pay to see them.`,
     `The arithmetic is unforgiving in a specific way. A club tour is a fixed-cost business with variable attendance: the van, the fuel, the crew and the hotels are committed before the first ticket sells, and the difference between a profitable month and a loss is a few dozen people a night.`,

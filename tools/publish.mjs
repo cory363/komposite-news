@@ -19,3 +19,7 @@ for (const a of articles) {
   fs.writeFileSync(path.join(dir, "index.html"), html);
   console.log(`  wrote ${dir}/index.html  (${(html.length / 1024).toFixed(1)} KB)`);
 }
+
+/* Phase 6: print (never apply) internal-link suggestions for each article just written. */
+const { suggest } = await import("./suggest-links.mjs");
+for (const a of articles) suggest(`${a.dir}/${a.slug}`.replace(/^\.?\//, ""));

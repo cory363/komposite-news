@@ -56,7 +56,7 @@ DV({ slug:"divide-ticket-pricing-left", kick:"Opinion", opinion:true,
     {href:"/divide/divide-wealth-tax-left/",kick:"Opinion",title:"Tax fortunes, not just paychecks",ago:"AUGUST 2026"},
   ],
   body:[
-    `Ordinary pricing asks what a thing is worth. Dynamic pricing asks how badly you want it, which is a different question, and the person who has waited eleven years to see this band answers it worst.`,
+    `Ordinary pricing asks what a thing is worth. <a href="/divide/divide-ticket-pricing-right/">Dynamic pricing</a> asks how badly you want it, which is a different question, and the person who has waited eleven years to see this band answers it worst.`,
     `The mechanism is designed to find exactly that person. Demand surges at the moment of sale, the price follows it upward in real time, and the fan who cared enough to be in the queue at ten in the morning is the one the system identifies as willing to pay more. Indifference is rewarded with a cheaper seat later.`,
     `What makes it feel like a trick is the sequencing. The decision to queue is made against an advertised price; the price that appears at checkout is a different one, arrived at after you had already spent the morning. <a href="/music/all-in-pricing-comes-to-tickets/">All-in pricing fixed the fees</a>, which was worth doing, and left the swing untouched.`,
     `None of this requires banning anything. Publish the ceiling before the sale opens, cap the movement within a single on-sale, and hold a fixed allocation at the advertised price. A fan should be able to find out what a night out costs before deciding to want it.`,
@@ -76,7 +76,7 @@ DV({ slug:"divide-ticket-pricing-right", kick:"Opinion", opinion:true,
   body:[
     `Hold the anger about the price for one moment and ask where the money used to go. A sold-out show priced below what the room would bear does not stay cheap. It gets bought in bulk within seconds and sold on at the real price by somebody who will never attend a concert in their life.`,
     `That gap has existed for as long as ticketed music has, and for decades it was collected entirely by brokers. The face value was a polite fiction, and the fan who paid it was mostly the fan who got lucky, not the fan who cared most.`,
-    `Dynamic pricing is the promoter declining to keep donating that difference. Whatever else is wrong with it, the money ends up with the people who built the show rather than with an intermediary who added a browser script. That is a better destination, and pretending otherwise requires nostalgia for a system that was quietly worse.`,
+    `<a href="/divide/divide-ticket-pricing-left/">Dynamic pricing</a> is the promoter declining to keep donating that difference. Whatever else is wrong with it, the money ends up with the people who built the show rather than with an intermediary who added a browser script. That is a better destination, and pretending otherwise requires nostalgia for a system that was quietly worse.`,
     `A cap does not remove the gap; it relocates it. Hold the price below clearing and the difference reappears on the resale market within the hour, which is precisely where it was before anyone objected to the practice. You cannot legislate away the fact that more people want the room than fit in it.`,
     `The real grievance is not the price but the surprise, and that is fixable without price control. Say the range in the announcement, show the all-in figure from the first click, and let people decide. Treat the audience as adults and most of the argument goes away.`]}),
 
