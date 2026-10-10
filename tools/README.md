@@ -15,6 +15,7 @@ they write files into the repo, and the committed result is what ships.
   index, /latest/, author page, tag pages, rss.xml, sitemap.xml and
   search-index.json. Idempotent and ordered oldest-first so the newest piece
   leads.
+- `rebalance-related.mjs` — re-picks the cards in every existing MORE ON THIS STORY box (same card count) by tag/keyword relatedness so each article is linked from at least two others. Idempotent; run after `wire.mjs`, then `validate.mjs`.
 - `suggest-links.mjs` — prints 2-4 contextual internal links (target URL + an anchor phrase that already appears in the text) and up to 3 older articles that could link back. `publish.mjs` runs it after writing each article; suggestions are printed only, nothing is inserted. Wrap the existing words in `<a href="/section/slug/">` in the batch file and re-publish. Usage: `node tools/suggest-links.mjs <section>/<slug>`.
 - `data/batch-*.mjs` — the article records themselves.
 
