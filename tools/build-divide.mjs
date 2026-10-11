@@ -19,6 +19,9 @@ const QUESTIONS = {
   "divide-ticket-pricing":        "Should dynamic ticket pricing be capped?",
   "divide-ai-pacing":             "Should rival AI labs be allowed to agree to slow down?",
   "divide-shareholder-proposals": "Should shareholders keep the federal right to file proposals?",
+  "divide-sports-event-contracts": "Should states be able to police sports prediction markets?",
+  "divide-crypto-trust-charters":  "Should crypto firms be able to get national trust bank charters?",
+  "divide-city-ai-laws":           "Should cities write their own AI safety laws?",
 };
 
 const ROLE = { "ruth-calloway": "Ruth Calloway", "grant-whitmore": "Grant Whitmore" };

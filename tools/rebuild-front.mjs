@@ -137,8 +137,14 @@ console.log("  distinct stories above the fold: " + seen.size);
   const left = divides.find(a => /-left$/.test(a.url.replace(/\/$/, "")));
   const right = divides.find(a => /-right$/.test(a.url.replace(/\/$/, "")));
   if (left && right) {
-    const issue = { "divide-crypto-retirement": "Should retirement plans be allowed to hold crypto?" }[
-      left.url.replace(/\/$/, "").split("/").pop().replace(/-left$/, "")] || "One issue. Two arguments.";
+    /* The question lives in build-divide.mjs's QUESTIONS map and is printed
+       on /the-divide/; read it from there so this panel cannot fall back to
+       the tagline while the section page names the edition. */
+    const sec = fs.existsSync("the-divide/index.html") ? fs.readFileSync("the-divide/index.html", "utf8") : "";
+    const at = sec.indexOf(`href="${left.url}"`);
+    const ed = at < 0 ? "" : sec.slice(sec.lastIndexOf('<div class="divissue-h">', at), at);
+    const issue = ((ed.match(/<div class="divissue-h">([^<]*)</) || [])[1] || "").trim().replace(/&amp;/g, "&")
+      || "One issue. Two arguments.";
     let g = f.replace(/(<h2 class="divpanel-issue">)[\s\S]*?(<\/h2>)/, `$1${esc(issue)}$2`);
     const col = (a, side) =>
       `<article class="divcol"><span class="chip chip-${side === "left" ? "l" : "r"}">From the ${side === "left" ? "Left" : "Right"}</span><h3><a href="${a.url}">${esc(a.title)}</a></h3><p class="deck">${esc(a.dek)}</p>${byline(a)}</article>`;

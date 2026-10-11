@@ -110,7 +110,11 @@ export function wire(a, log = console.log) {
   // 2. Section index: lead, feature grid, feed
   {
     const f = `${a.sectionHref}/index.html`;
-    if (fs.existsSync(f)) {
+    /* /the-divide/ has no catlead or feed; it is rebuilt whole by
+       build-divide.mjs. Splicing a lead card into it here wrote 9KB of
+       markup after </html>, twice. */
+    if (a.sectionHref === "the-divide") done.push("section(build-divide.mjs)");
+    else if (fs.existsSync(f)) {
       let h = read(f);
       if (!h.includes(`href="${url}"`)) {
         const ls = h.indexOf('<div class="catlead">');
