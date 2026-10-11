@@ -39,8 +39,9 @@
  *  Oracle, MGX has yet to yield material progress; OpenAI seeking $30bn at
  *  ~$1.4tn, talks with MGX; Roze US listing; SB Energy 8.8GW Ohio, Nasdaq.
  *  Our arithmetic: 100/65 = ~1.5x.
- *  Hero: Wikimedia Commons, EC Audiovisual Service, CC BY 4.0 (Son with
- *  Henna Virkkunen, SoftBank HQ, Tokyo, 12 May 2025).
+ *  Hero: Wikimedia Commons, File:Masayoshi_Son.jpg, nobihaya, CC BY 2.0
+ *  (Son on stage, SoftBank Mobile Summit, 9 Sept 2008). Replaced 11 Oct 2026:
+ *  the earlier handshake photo showed Henna Virkkunen, who is not in the story.
  *
  *  CRYPTO / THAILAND ETFs. Cointelegraph (9 Oct, 03:08Z, updated 13:10Z):
  *  finalised Thursday; effective 16 Oct 2026; SET only; no DRs on foreign
@@ -160,7 +161,7 @@ MK({ slug: "a-second-hundred-billion-from-the-gulf", kick: "Capital",
   dek: "Masayoshi Son is seeking as much as $100bn from Gulf investors for a fund that would buy companies and run them with AI, the FT reports. He raised nearly that much for the first Vision Fund in 2017. This time SoftBank already has almost $65bn in OpenAI.",
   metaDesc: "SoftBank's Masayoshi Son is seeking up to $100bn from Gulf investors for a fund to buy companies and run them with AI, the FT reports. SoftBank gave no comment.",
   author: "priya-raghavan", date: "2026-10-09T13:45:00Z",
-  capt: "Masayoshi Son, left, with Henna Virkkunen of the European Commission at SoftBank's headquarters in Tokyo in May 2025.",
+  capt: "Masayoshi Son, SoftBank's founder, at the SoftBank Mobile Summit in 2008.",
   tags: [
     { name: "Private Capital", slug: "private-capital" },
     { name: "Capital Markets", slug: "capital-markets" },
