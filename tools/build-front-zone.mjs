@@ -135,7 +135,11 @@ const byline = a => a.author ? `<div class="cardby">By <a href="/authors/${aslug
    312x824, so a 3:2 hero lost roughly seven tenths of its frame to a blind
    centre slice and came out as an abstract strip. crop=entropy picks the
    busiest region instead of the middle, so the subject survives the crop.
-   Only images.unsplash.com is rewritten; anything else is returned as is. */
+   Only images.unsplash.com is rewritten; anything else is returned as is.
+   October 2026: the zone was re-laid out (frame and stack share the top row,
+   the list runs two-up beneath), and the frame renders near-square on a
+   desktop, 16:9 on a tablet and 3:2 on a phone, so it is cut square; the
+   stack renders about 3:2 everywhere; the list thumbnails are square. */
 const shaped = (url, w, h) => {
   if (!url || !/^https:\/\/images\.unsplash\.com\//.test(url)) return url;
   /* The src comes out of the article HTML with its ampersands already
@@ -151,15 +155,15 @@ const shaped = (url, w, h) => {
 const lmeta = a => `<div class="lmeta"><span class="lkick">${esc(a.kick)}</span><span class="lsep">/</span><time class="lago" datetime="${a.date}" data-ago>${ago(a.date)}</time></div>`;
 
 const lOverlay = a => `<article class="lbig">
-<a href="${a.url}"><img src="${esc(shaped(a.img, 640, 1600))}" alt="${esc(a.alt)}" loading="lazy">
+<a href="${a.url}"><img src="${esc(shaped(a.img, 800, 800))}" alt="${esc(a.alt)}" loading="lazy">
 <span class="lbig-tx">${lmeta(a)}<h3>${esc(a.title)}</h3>${a.dek ? `<p class="lbig-dek">${esc(a.dek)}</p>` : ""}</span></a></article>`;
 
 const lStack = a => `<article class="lstack">
-<a class="lstack-img" href="${a.url}"><img src="${esc(shaped(a.img, 400, 1000))}" alt="${esc(a.alt)}" loading="lazy"></a>
+<a class="lstack-img" href="${a.url}"><img src="${esc(shaped(a.img, 600, 400))}" alt="${esc(a.alt)}" loading="lazy"></a>
 ${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></article>`;
 
 const lList = a => `<article class="llist">
-<a class="llist-thumb" href="${a.url}"><img src="${esc(shaped(a.img, 280, 210))}" alt="${esc(a.alt)}" loading="lazy"></a>
+<a class="llist-thumb" href="${a.url}"><img src="${esc(shaped(a.img, 240, 240))}" alt="${esc(a.alt)}" loading="lazy"></a>
 <div class="llist-tx">${lmeta(a)}<h3><a href="${a.url}">${esc(a.title)}</a></h3></div></article>`;
 
 /* The front page had no h1 at all: every headline is an h2 or h3, which

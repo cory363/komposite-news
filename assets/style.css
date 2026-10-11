@@ -2733,3 +2733,109 @@ button,input,select,textarea{font-family:var(--mastfont)}
 .band:empty{display:none}
 .opband+.band:empty+footer,.band:empty+.kfoot{margin-top:40px}
 @media (max-width:1219px){body>.lsechead,main>.lsechead,.lsechead:has(+ .opband){margin-left:22px;margin-right:22px}}
+
+/* ======================================================================
+   Design polish, 11 October 2026
+   ====================================================================== */
+
+/* 1. Homepage Latest zone, desktop. The three columns sat in the 2.1fr main
+   track, so the frame was ~310px wide and the stack ~150px, and both were
+   stretched to the height of a nine-row list: a 1:2 portrait lead and two
+   1:2 slivers of code screenshots. Frame and stack now share the top row at
+   usable widths and the list runs in two columns beneath them. */
+@media (min-width:901px){
+  .abcmain .lgrid{grid-template-columns:1.45fr 1fr;align-items:stretch}
+  .abcmain .lcol-big{padding-right:22px}
+  .abcmain .lcol-stack{padding:0 0 0 22px!important;border-left:1px solid var(--rule);border-right:0}
+  /* The photographs no longer set the row height (their files are cut
+     portrait); the row is set by the stack and the frames fill it. */
+  .abcmain .lcol-big .lbig > a{position:relative;min-height:0}
+  .abcmain .lcol-big .lbig img{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto}
+  .abcmain .lcol-stack .lstack{flex:1 1 auto}
+  .abcmain .lcol-stack .lstack-img{position:relative;flex:1 1 auto;min-height:190px}
+  .abcmain .lcol-stack .lstack-img img{position:absolute;inset:0;width:100%;height:100%}
+  .abcmain .lcol-list{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:22px;
+    padding:6px 0 0;margin-top:20px;border-top:1px solid var(--rule)}
+  .abcmain .lcol-list .llist{padding:12px 0;border-bottom:1px solid var(--rule);border-top:0}
+  .abcmain .lcol-list .llist:first-child{padding-top:12px}
+  .abcmain .lcol-list .lmore{grid-column:1/-1;margin-top:10px}
+}
+
+/* 2. Tablet (701-900px). Everything collapsed to one column at 900px, so an
+   820px tablet got a phone layout drawn twice the size: every secondary
+   story carried a 776px photograph and the front page ran to ~45,000px.
+   Leads stay full width; secondary stories pair up two across. */
+@media (min-width:701px) and (max-width:900px){
+  /* Section blocks and the Latest zone: lead across the top, then the stack
+     two-up, then the list two-up. */
+  .lgrid,.lsec-mirror .lgrid{grid-template-columns:1fr 1fr!important;column-gap:22px!important;row-gap:18px!important}
+  .lsec-mirror .lcol-big{order:-1}
+  .lgrid .lcol-big,.lsec-mirror .lgrid .lcol-big{grid-column:1/-1}
+  .lbig img,.abcmain .lcol-big .lbig img,.lsec .lcol-big .lbig img{aspect-ratio:16/9!important;height:auto}
+  .lgrid .lcol-stack,.lsec .lcol-stack,.abcmain .lcol-stack{grid-column:1/-1;display:grid!important;
+    grid-template-columns:1fr 1fr;column-gap:22px}
+  .lgrid .lcol-stack{overflow:visible}
+  .lgrid .lcol-stack .lstack{display:block;flex:none;min-height:0;border-top:0;padding:0}
+  .lgrid .lcol-stack .lstack-img{display:block;min-height:0;margin-bottom:8px}
+  .lsec .lcol-stack .lstack-img img,.abcmain .lcol-stack .lstack-img img{height:auto;aspect-ratio:3/2}
+  .lgrid .lcol-list{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:22px}
+  .lgrid .lcol-list .llist{border-bottom:1px solid var(--rule)}
+  .lgrid .lcol-list .lmore{grid-column:1/-1}
+  .lhero-img img{aspect-ratio:16/9}
+  /* Right rail: features beside top stories and opinion. */
+  .abcrail{display:grid;grid-template-columns:1fr 1fr;column-gap:26px;align-items:start}
+  .abcrail > * + *{margin-top:0}
+  .abcrail > :nth-child(n+3){grid-column:2}
+  .abcrail > :first-child{grid-row:1/span 3}
+  /* Card grids two-up rather than one. */
+  .abcgrid,.secgrid,.recogrid,.toprow{grid-template-columns:1fr 1fr!important;column-gap:22px!important}
+  .toprow .topcell{border-bottom:1px solid var(--rule)}
+  .inpix-g{grid-template-columns:repeat(3,1fr)!important;gap:16px!important}
+  /* Section pages: the two feature cards side by side, rows two-up. */
+  .wfeatrow{grid-template-columns:1fr 1fr!important}
+  .wfeatrow>.wfeat:first-child{padding:0 20px 0 0;margin:0;border-bottom:0;border-right:1px solid var(--rule)}
+  .wfeatrow>.wfeat:last-child{padding-left:20px}
+  .wrowgrid{grid-template-columns:1fr 1fr!important;column-gap:26px!important}
+  .wrow{grid-template-columns:84px 1fr}
+}
+
+/* 3. Section pages: the feature pair. The left card set a 132px portrait
+   beside its text, the right a 16:9 frame under it, so the left half ended
+   ~300px short and left a white hole beside the right picture. Both now
+   take the same shape: text, then a landscape frame. */
+.wfeat-side{display:flex;flex-direction:column;align-items:stretch}
+.wfeat-side .wfeat-img{order:2;margin-top:14px}
+.wfeat-side .wfeat-img img{aspect-ratio:16/9}
+.wfeat-side .wfeat-tx,.wfeat-side > div{order:1}
+.wfeat-side h3{font-size:22px;line-height:1.18}
+.wfeatrow{grid-template-columns:1fr 1fr}
+
+/* 4. Articles. The hero and body were 680px inside a 700px column whose
+   rules, byline row and share row ran the full 700, so every picture
+   stopped 20px short of the line above it. One measure for all of it. */
+.art .arthero,.art .artbody{max-width:none}
+/* The newer "More on this story" band rendered as an indented label on a
+   dashed cream rule; the older pages use the solid section rule. Same
+   treatment for both. */
+.art .band{display:block;margin:34px 0 14px;padding:9px 0 0;border-top:3px solid var(--ink);text-align:left}
+.art .band::before,.art .band::after{display:none}
+.art .band span{display:inline-block;padding:0;background:none;font-family:var(--label,Oswald),"Helvetica Neue",Arial,sans-serif;
+  font-size:15px;font-weight:600;letter-spacing:.07em;line-height:24px;text-transform:uppercase;color:var(--ink)}
+.art .band + .relblock,.art .band + section{margin-top:0}
+
+/* 5. Interviews placeholder: the box drew its own short rule under the
+   page title's rule, a double line that stopped at 60ch. */
+.soonbox{border-top:0;margin-top:0;padding-top:4px}
+
+/* 6. Latest, author and tag feeds: the list stopped at 820px under a title
+   rule that runs the full width, leaving the dates hanging in mid-page. */
+@media (min-width:901px){main > .feedlist,.aumast ~ .feedlist,.catpage .feedlist{max-width:none}}
+
+/* 7. Section pages, tablet: the "Latest in" header sits inside main.wrap,
+   which already carries the 22px gutter, so the stand-alone-header gutter
+   added on 9 October indented it a second time and its rule stopped short
+   of the grid. */
+@media (max-width:1219px){main.wrap > .lsechead{margin-left:0;margin-right:0}}
+/* The header's own rule and the feature row's 2px top border ran as two
+   heavy lines 50px apart. */
+.lsechead + .secpage-grid .wfeatrow,.lsechead + .wfeatrow{border-top:0;padding-top:4px}

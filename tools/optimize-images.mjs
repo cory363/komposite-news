@@ -21,12 +21,25 @@ import path from "node:path";
 const WIDTHS = [160, 320, 480, 640, 960, 1280, 1600];
 
 /* Rendered widths by the wrapper an image sits in, keyed by class name.
-   Phone widths are ~84% of the viewport; 92vw leaves headroom for 414px. */
+   Measured in Chrome at 390, 820, 1024, 1280 and 1440px (October 2026).
+   Every wrapper that holds a photograph is listed: the lookup walks back
+   through the preceding markup, so an unlisted wrapper used to inherit the
+   class of whatever came before it - the rail's 341px opinion picture took
+   the 104px of the Top Stories thumbnails above it and rendered blurred. */
 const SIZES = {
   "llist-thumb": "104px", "topthumb": "104px", "recothumb": "104px", "wrow-thumb": "104px",
-  "wfeat-side": "132px",
-  "lhero-img": "(max-width: 700px) 92vw, 760px",
-  "arthero": "(max-width: 700px) 92vw, 680px",
+  "abcfeatrow-thumb": "104px",
+  "railfeat-img": "(max-width: 700px) 92vw, (max-width: 900px) 46vw, 345px",
+  "abcfeature": "(max-width: 700px) 92vw, (max-width: 900px) 46vw, 345px",
+  "lbig": "(max-width: 900px) 96vw, 510px",
+  "lstack-img": "(max-width: 700px) 120px, (max-width: 900px) 46vw, 380px",
+  "wfeat-img": "(max-width: 700px) 92vw, (max-width: 900px) 46vw, 570px",
+  "topcell": "(max-width: 700px) 92vw, (max-width: 1100px) 46vw, 260px",
+  "bbr": "(max-width: 900px) 96vw, 480px",
+  "spotc": "(max-width: 700px) 92vw, 610px",
+  "inpix-c": "(max-width: 700px) 92vw, (max-width: 900px) 31vw, 230px",
+  "lhero-img": "(max-width: 900px) 96vw, 760px",
+  "arthero": "(max-width: 1000px) 96vw, 700px",
   "catlead": "(max-width: 700px) 92vw, 650px",
 };
 const DEFAULT_SIZES = "(max-width: 700px) 92vw, 540px";
@@ -52,9 +65,20 @@ export function optimizeHtml(html, file = "") {
     const classes = [...before.matchAll(/class="([^"]+)"/g)].map(m => m[1].split(/\s+/)).reverse().slice(0, 6);
     let sizes = DEFAULT_SIZES, key = null;
     outer: for (const list of classes) for (const c of list) if (SIZES[c]) { sizes = SIZES[c]; key = c; break outer; }
-    if (key === "lhero-img" && isEsFront) sizes = "(max-width: 700px) 92vw, 1180px";
+    if (key === "lhero-img" && isEsFront) sizes = "(max-width: 900px) 96vw, 1180px";
+    /* The Spanish front sets its stack cards three across at full size. */
+    if (key === "lstack-img" && classes.some(l => l.includes("lgrid-es"))) sizes = "(max-width: 560px) 92vw, (max-width: 900px) 46vw, 380px";
 
-    const srcset = WIDTHS.map(w => `${src.replace(/([?&](?:amp;)?)w=\d+/, `$1w=${w}`)} ${w}w`).join(", ");
+    /* A fixed h= (the front zone asks Unsplash for an exact crop) has to
+       scale with w, or each width in the set is a different shape. */
+    const w0 = +(src.match(/[?&](?:amp;)?w=(\d+)/) || [])[1];
+    const h0 = +(src.match(/[?&](?:amp;)?h=(\d+)/) || [])[1];
+    const at = w => {
+      let u = src.replace(/([?&](?:amp;)?)w=\d+/, `$1w=${w}`);
+      if (w0 && h0) u = u.replace(/([?&](?:amp;)?)h=\d+/, `$1h=${Math.round(h0 * w / w0)}`);
+      return u;
+    };
+    const srcset = WIDTHS.map(w => `${at(w)} ${w}w`).join(", ");
     let out = dropAttr(dropAttr(dropAttr(tag, "srcset"), "sizes"), "decoding");
     out = out.replace(/\ssrc="[^"]*"/, m => `${m} srcset="${srcset}" sizes="${sizes}"`);
 
