@@ -12,13 +12,11 @@ const SECS = [["ai","AI"],["blockchain","Blockchain"],["crypto","Crypto"],["busi
   ["startups","Startups"],["policy","Policy"],["culture","Culture"],["music","Music"]];
 const imgId = u => { const m = String(u).match(/photo-([A-Za-z0-9_-]{6,})/) || String(u).match(/FilePath\/([^?"]+)/); return m ? decodeURIComponent(m[1]) : String(u).split("?")[0]; };
 
+/* A relative age baked into static HTML is wrong the morning after the build
+   (an August story still read "6 HOURS AGO" in October), so the date is printed
+   instead. See tools/absolute-dates.mjs. */
 function ago(d) {
-  const hrs = (Date.now() - new Date(d)) / 36e5;
-  if (hrs < 1) return "Just now";
-  if (hrs < 24) return Math.round(hrs) + " hours ago";
-  const days = Math.round(hrs / 24);
-  return days === 1 ? "1 day ago" : days < 8 ? days + " days ago"
-    : new Date(d).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  return new Date(d).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
 function articles(sec) {

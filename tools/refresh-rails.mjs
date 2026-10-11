@@ -32,15 +32,11 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));
 
 const now = Date.now();
+/* A relative age baked into static HTML is wrong the morning after the build
+   (an August story still read "6 HOURS AGO" in October), so the date is printed
+   instead. See tools/absolute-dates.mjs. */
 function ago(iso) {
-  const mins = Math.floor((now - new Date(iso).getTime()) / 60000);
-  if (mins < 60) return "JUST NOW";
-  const hrs = Math.floor(mins / 60);
-  if (hrs < 24) return `${hrs} HOUR${hrs === 1 ? "" : "S"} AGO`;
-  const days = Math.floor(hrs / 24);
-  if (days <= 6) return `${days} DAY${days === 1 ? "" : "S"} AGO`;
-  const d = new Date(iso);
-  return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).toUpperCase();
+  return new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).toUpperCase();
 }
 
 const latest = arts.slice(0, 5);

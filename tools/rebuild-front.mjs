@@ -40,13 +40,10 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));
 
 const now = Date.now();
-const ago = iso => {
-  const mins = Math.floor((now - new Date(iso).getTime()) / 60000);
-  if (mins < 60) return "JUST NOW";
-  const hrs = Math.floor(mins / 60); if (hrs < 24) return `${hrs} HOUR${hrs === 1 ? "" : "S"} AGO`;
-  const d = Math.floor(hrs / 24); if (d <= 6) return `${d} DAY${d === 1 ? "" : "S"} AGO`;
-  return new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).toUpperCase();
-};
+/* A relative age baked into static HTML is wrong the morning after the build
+   (an August story still read "6 HOURS AGO" in October), so the date is printed
+   instead. See tools/absolute-dates.mjs. */
+const ago = iso => new Date(iso).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).toUpperCase();
 
 // Stories already carried by the ABC-shaped zone above; the band below must
 // not repeat them, and it is labelled "More news" now that the zone owns the
