@@ -2839,3 +2839,6 @@ button,input,select,textarea{font-family:var(--mastfont)}
 /* The header's own rule and the feature row's 2px top border ran as two
    heavy lines 50px apart. */
 .lsechead + .secpage-grid .wfeatrow,.lsechead + .wfeatrow{border-top:0;padding-top:4px}
+/* 8. Phone footer: one column of 30-odd short links ran ~1,100px. Two
+   columns halve it; the longest label ("Licensing & reprints") fits at 320px. */
+@media (max-width:560px){.kfoot-cols{grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:18px;row-gap:22px}}

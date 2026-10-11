@@ -67,7 +67,7 @@ export function optimizeHtml(html, file = "") {
     outer: for (const list of classes) for (const c of list) if (SIZES[c]) { sizes = SIZES[c]; key = c; break outer; }
     if (key === "lhero-img" && isEsFront) sizes = "(max-width: 900px) 96vw, 1180px";
     /* The Spanish front sets its stack cards three across at full size. */
-    if (key === "lstack-img" && classes.some(l => l.includes("lgrid-es"))) sizes = "(max-width: 560px) 92vw, (max-width: 900px) 46vw, 380px";
+    if (key === "lstack-img" && (/^(\.\/)?es\//.test(file) || classes.some(l => l.includes("lgrid-es")))) sizes = "(max-width: 560px) 92vw, (max-width: 900px) 46vw, 380px";
 
     /* A fixed h= (the front zone asks Unsplash for an exact crop) has to
        scale with w, or each width in the set is a different shape. */
