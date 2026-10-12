@@ -58,11 +58,19 @@ export function optimizeHtml(html, file = "") {
   let leadDone = false;
   return html.replace(/<img\b[^>]*>/g, (tag, offset) => {
     const src = attr(tag, "src") || "";
-    if (!/^https:\/\/images\.unsplash\.com\//.test(src) || !/[?&](amp;)?w=\d+/.test(src)) return tag;
-
     /* Nearest classes first: the image's own wrapper, then its ancestors. */
     const before = html.slice(Math.max(0, offset - 1500), offset);
     const classes = [...before.matchAll(/class="([^"]+)"/g)].map(m => m[1].split(/\s+/)).reverse().slice(0, 6);
+    if (!/^https:\/\/images\.unsplash\.com\//.test(src) || !/[?&](amp;)?w=\d+/.test(src)) {
+      /* A non-Unsplash lead (a Wikimedia Commons photograph) gets no srcset,
+         but it is still the page's largest paint and must load first. */
+      const isLead = classes.length && ["lhero-img", "catlead", "arthero"].includes(classes[0].find(c => SIZES[c]));
+      if (!leadDone && /^https:\/\//.test(src) && isLead) {
+        leadDone = true;
+        return dropAttr(dropAttr(tag, "loading"), "fetchpriority").replace(/<img\b/, '<img loading="eager" fetchpriority="high"');
+      }
+      return tag;
+    }
     let sizes = DEFAULT_SIZES, key = null;
     outer: for (const list of classes) for (const c of list) if (SIZES[c]) { sizes = SIZES[c]; key = c; break outer; }
     if (key === "lhero-img" && isEsFront) sizes = "(max-width: 900px) 96vw, 1180px";
