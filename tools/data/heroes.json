@@ -2365,5 +2365,41 @@
   "alt": "The entrance to Meta headquarters at 1 Hacker Way in Menlo Park, California, with the Meta sign under a cloudy sky",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Meta_Platforms_Headquarters_Menlo_Park_California.jpg\" rel=\"noopener\">LPS.1</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" rel=\"noopener\">CC0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/three-researchers-fired-two-accounts": {
+  "id": "OdZKDo7Oqx0",
+  "url": "https://images.unsplash.com/photo-1671376354115-36486e3101f9?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1203,
+  "alt": "A grey lanyard beside an empty identity-card holder on a white surface",
+  "creditHtml": "<a href=\"https://unsplash.com/@skill01?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">jim</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/the-third-netscaler-patch-in-eleven-days": {
+  "id": "uWaRsN-CqY0",
+  "url": "https://images.unsplash.com/photo-1531668383211-64743e924c66?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1075,
+  "alt": "Network cables plugged into a rack of networking equipment",
+  "creditHtml": "<a href=\"https://unsplash.com/@possessedphotography?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Franck V.</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/the-fsb-says-stablecoins-are-untested-in-a-crisis": {
+  "id": "NinErebCHWU",
+  "url": "https://images.unsplash.com/photo-1778454288658-45ab209ec151?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A red sign reading Money Exchange mounted on a building facade",
+  "creditHtml": "<a href=\"https://unsplash.com/@youssmub?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Youssef Mubarak</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "policy/baileys-g20-letter-names-bonds-private-credit-and-ai": {
+  "id": "AOjmfr3ofSY",
+  "url": "https://images.unsplash.com/photo-1669251921941-ae3645715017?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "The Royal Exchange at Bank junction in the City of London, with the Bank of England at left",
+  "creditHtml": "<a href=\"https://unsplash.com/@alicja_photos?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Alicja Ziajowska</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
