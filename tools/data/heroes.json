@@ -2401,5 +2401,32 @@
   "alt": "The Royal Exchange at Bank junction in the City of London, with the Bank of England at left",
   "creditHtml": "<a href=\"https://unsplash.com/@alicja_photos?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Alicja Ziajowska</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/twenty-million-for-the-licence-not-the-app": {
+  "id": "commons:Disney_studios_burbank_entrance_gate_buena_vista.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Disney_studios_burbank_entrance_gate_buena_vista.jpg/1280px-Disney_studios_burbank_entrance_gate_buena_vista.jpg",
+  "width": 1280,
+  "height": 913,
+  "alt": "The brick entrance gate of The Walt Disney Studios in Burbank, California, with the studio water tower behind trees",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Disney_studios_burbank_entrance_gate_buena_vista.jpg\" rel=\"noopener\">Junkyardsparkle</a>, Public domain, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/amazon-weighs-7bn-for-decart": {
+  "id": "commons:Amazon_Spheres_from_6th_Avenue,_April_2020.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Amazon_Spheres_from_6th_Avenue%2C_April_2020.jpg/1280px-Amazon_Spheres_from_6th_Avenue%2C_April_2020.jpg",
+  "width": 1280,
+  "height": 849,
+  "alt": "The glass-and-steel Amazon Spheres between office towers in downtown Seattle",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Amazon_Spheres_from_6th_Avenue,_April_2020.jpg\" rel=\"noopener\">SounderBruce</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/three-yandex-data-centres-in-a-week": {
+  "id": "commons:Яндекс_ночью.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E.jpg/1280px-%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E.jpg",
+  "width": 1280,
+  "height": 852,
+  "alt": "The glass entrance of Yandex's head office in Moscow lit up at night, with a Yandex sign in Russian",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E.jpg\" rel=\"noopener\">Ralf Smallkaa</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
