@@ -63,12 +63,12 @@
   "creditLine": "Photograph via Unsplash"
  },
  "startups/tender-offers-reach-the-rank-and-file": {
-  "id": "fiXLQXAhCfk",
-  "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=M3wxMDMxMjcwfDB8MXxzZWFyY2h8MXx8c3RvY2slMjBjaGFydCUyMHNjcmVlbiUyMHRyYWRpbmd8ZW58MXwwfHx8MTc4ODU2MTg3MHww&ixlib=rb-4.1.0&w=800&q=80&fm=jpg",
-  "width": 800,
-  "height": 533,
-  "alt": "A candlestick price chart on a dark trading screen",
-  "creditHtml": "<a href=\"https://unsplash.com/@nampoh?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Maxim Hopman</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "id": "unsplash:1758520144705-71d4813b0e0e",
+  "url": "https://images.unsplash.com/photo-1758520144705-71d4813b0e0e?ixid=M3wxMDYxNzg4fDB8MXxzZWFyY2h8MXx8ZW1wbG95ZWVzJTIwd2Fsa2luZyUyMG9mZmljZSUyMGxvYmJ5fGVufDF8MHx8fDE3ODkyMjg3OTl8MA&ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 788,
+  "alt": "People walking into an office building",
+  "creditHtml": "<a href=\"https://unsplash.com/@silverkblack?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Vitaly Gariev</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
  },
  "startups/design-partners-replace-the-free-trial": {
@@ -2472,6 +2472,33 @@
   "height": 720,
   "alt": "Two bitcoin mining machines with large cooling fans, seen from the side and the back, on a pale surface",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Canaan_AvalonMiner_A10_Bitcoin_Mining_Machines.jpg\" rel=\"noopener\">Canaan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/a-fully-patched-vpn-and-root-in-three-steps": {
+  "id": "DX9X0g0Cg88",
+  "url": "https://images.unsplash.com/photo-1528845922818-cc5462be9a63?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "A handheld network tester connected by a yellow cable to a switch in a rack of networking equipment",
+  "creditHtml": "<a href=\"https://unsplash.com/@i_m_polo?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Ildefonso Polo</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "startups/fifteen-times-run-rate-for-modal": {
+  "id": "i_JUAdanGH0",
+  "url": "https://images.unsplash.com/photo-1597138768744-9f97be8cdd64?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 934,
+  "alt": "Dell EMC server nameplates on the front of rack-mounted servers, lit in blue",
+  "creditHtml": "<a href=\"https://unsplash.com/@fennings?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Marc PEZIN</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/the-record-penalty-comes-after-the-order": {
+  "id": "commons:One_South_at_the_Plaza,_Omni_Hotel,_Bank_of_America_Corporate_Center,_Truist_Center,_Ritz-Carlton.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/One_South_at_the_Plaza%2C_Omni_Hotel%2C_Bank_of_America_Corporate_Center%2C_Truist_Center%2C_Ritz-Carlton.jpg/1280px-One_South_at_the_Plaza%2C_Omni_Hotel%2C_Bank_of_America_Corporate_Center%2C_Truist_Center%2C_Ritz-Carlton.jpg",
+  "width": 1280,
+  "height": 720,
+  "alt": "Bank of America Corporate Center rising between glass office towers in uptown Charlotte, seen from street level under a clear blue sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:One_South_at_the_Plaza,_Omni_Hotel,_Bank_of_America_Corporate_Center,_Truist_Center,_Ritz-Carlton.jpg\" rel=\"noopener\">Kiran891</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
  }
 }
