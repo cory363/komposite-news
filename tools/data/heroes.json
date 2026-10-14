@@ -2437,5 +2437,41 @@
   "alt": "The entrance to the Commodity Futures Trading Commission in Washington, with the agency's seal and a CFTC plaque on a brick pillar",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Commodity_Futures_Trading_Commission_entrance_Washington_DC_2026-03-15_08-47-48.jpg\" rel=\"noopener\">G. Edward Johnson</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/an-option-that-pays-on-a-metric": {
+  "id": "commons:United_States_Post_Office-Chicago_(6039060300).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/United_States_Post_Office-Chicago_%286039060300%29.jpg/1280px-United_States_Post_Office-Chicago_%286039060300%29.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "The Old Post Office building on West Van Buren Street in Chicago, a limestone tower under a blue sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:United_States_Post_Office-Chicago_(6039060300).jpg\" rel=\"noopener\">Teemu008</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" rel=\"noopener\">CC BY-SA 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/a-wallet-that-passed-the-genuine-check": {
+  "id": "commons:Ledger_Nano_S_-_Hard_Wallet_-_Cold_Storage_for_Cryptocurrency_03.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ledger_Nano_S_-_Hard_Wallet_-_Cold_Storage_for_Cryptocurrency_03.jpg/1280px-Ledger_Nano_S_-_Hard_Wallet_-_Cold_Storage_for_Cryptocurrency_03.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A Ledger Nano S hardware wallet with its metal cover swung open to show the screen, on a wooden table",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Ledger_Nano_S_-_Hard_Wallet_-_Cold_Storage_for_Cryptocurrency_03.jpg\" rel=\"noopener\">Motokoka</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/forty-per-cent-more-tokens-against-an-unnamed-gpu": {
+  "id": "commons:Wenatchee_washington_azure_datacenter_aerial_1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Wenatchee_washington_azure_datacenter_aerial_1.jpg/1280px-Wenatchee_washington_azure_datacenter_aerial_1.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "Aerial view of long white Microsoft Azure data centre halls and an electrical substation near Wenatchee, Washington",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Wenatchee_washington_azure_datacenter_aerial_1.jpg\" rel=\"noopener\">Tedder</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/binance-gives-miners-four-weeks": {
+  "id": "commons:Canaan_AvalonMiner_A10_Bitcoin_Mining_Machines.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Canaan_AvalonMiner_A10_Bitcoin_Mining_Machines.jpg/1280px-Canaan_AvalonMiner_A10_Bitcoin_Mining_Machines.jpg",
+  "width": 1280,
+  "height": 720,
+  "alt": "Two bitcoin mining machines with large cooling fans, seen from the side and the back, on a pale surface",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Canaan_AvalonMiner_A10_Bitcoin_Mining_Machines.jpg\" rel=\"noopener\">Canaan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
