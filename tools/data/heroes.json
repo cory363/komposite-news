@@ -2545,5 +2545,41 @@
   "alt": "The glass-fronted west entrance of Constitution Center in Washington, with the building's name in steel letters above a row of doors",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Constitution_Center_-_400_7th_St_SW_Washington_DC_-_west_facade_entrance.jpg\" rel=\"noopener\">Tim1965</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener\">CC BY-SA 3.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/an-ad-network-that-delivered-spyware": {
+  "id": "w33-zg-dNL4",
+  "url": "https://images.unsplash.com/photo-1480694313141-fce5e697ee25?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "App icons glowing on the screen of an Android smartphone lying at an angle against a dark background",
+  "creditHtml": "<a href=\"https://unsplash.com/@rami_alzayat?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Rami Al-zayat</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/usdc-becomes-the-eus-first-significant-token": {
+  "id": "l4pKqse7pz0",
+  "url": "https://images.unsplash.com/photo-1788999422740-0509d82dcb2f?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 962,
+  "alt": "Lit office towers of the La Défense business district near Paris at night, with the Grande Arche low in the centre",
+  "creditHtml": "<a href=\"https://unsplash.com/@thealiaziz?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Ali Aziz</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "startups/sixty-billion-four-months-after-forty-four": {
+  "id": "Vs6ip7fsld8",
+  "url": "https://images.unsplash.com/photo-1648201637025-1c77b9be3013?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A graphing calculator and a mechanical pencil resting on a sheet of handwritten figures",
+  "creditHtml": "<a href=\"https://unsplash.com/@alefler?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Aaron Lefler</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/a-root-flaw-in-the-firewall-management-page": {
+  "id": "commons:The_Gathering_2019_-_Juniper_and_Palo_Alto_equipment_(46813726495).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Gathering_2019_-_Juniper_and_Palo_Alto_equipment_%2846813726495%29.jpg/1280px-The_Gathering_2019_-_Juniper_and_Palo_Alto_equipment_%2846813726495%29.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "Four blue Palo Alto Networks PA-220 firewalls with labelled ports and grey network cables, beneath a small Juniper Networks VPN gateway, in an equipment rack",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Gathering_2019_-_Juniper_and_Palo_Alto_equipment_(46813726495).jpg\" rel=\"noopener\">DiFronzo</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
