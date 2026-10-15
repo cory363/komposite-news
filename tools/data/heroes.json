@@ -2500,5 +2500,41 @@
   "alt": "Bank of America Corporate Center rising between glass office towers in uptown Charlotte, seen from street level under a clear blue sky",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:One_South_at_the_Plaza,_Omni_Hotel,_Bank_of_America_Corporate_Center,_Truist_Center,_Ritz-Carlton.jpg\" rel=\"noopener\">Kiran891</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/the-bonds-say-fifteen-the-backlog-says-104bn": {
+  "id": "commons:Le_Centre_Datarmor,_les_coulisses_(Ifremer_00957-106840_-_54954).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Le_Centre_Datarmor%2C_les_coulisses_%28Ifremer_00957-106840_-_54954%29.jpg/1280px-Le_Centre_Datarmor%2C_les_coulisses_%28Ifremer_00957-106840_-_54954%29.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Servers and green-lit cabling inside an open supercomputer rack, seen through a wide-angle lens, at Ifremer's Datarmor computing centre in Brest",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Le_Centre_Datarmor,_les_coulisses_(Ifremer_00957-106840_-_54954).jpg\" rel=\"noopener\">Gregory Rocher / Ifremer</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/the-replicator-that-would-need-fifteen-tv-boxes": {
+  "id": "MPKQiDpMyqU",
+  "url": "https://images.unsplash.com/photo-1608742213509-815b97c30b36?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Green text from a software installation scrolling on a dark computer screen",
+  "creditHtml": "<a href=\"https://unsplash.com/@jakewalker?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Jake Walker</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/krakens-parent-buys-a-lithuanian-bank": {
+  "id": "hflI7EJtKmc",
+  "url": "https://images.unsplash.com/photo-1620480012482-71e8db98bfea?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "The rooftops and church towers of Vilnius, Lithuania, under an orange sky at dusk, seen from a wooded hillside",
+  "creditHtml": "<a href=\"https://unsplash.com/@gantas?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Gantas Vaičiulėnas</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/half-price-until-30-november": {
+  "id": "commons:Googleplex_HQ_(cropped).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Googleplex_HQ_%28cropped%29.jpg/1280px-Googleplex_HQ_%28cropped%29.jpg",
+  "width": 1280,
+  "height": 936,
+  "alt": "The curved glass facade of a Google headquarters building in Mountain View, California, with the Google logo, behind trees and tall grass",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg\" rel=\"noopener\">Asoundd</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
