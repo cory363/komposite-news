@@ -2581,5 +2581,41 @@
   "alt": "Four blue Palo Alto Networks PA-220 firewalls with labelled ports and grey network cables, beneath a small Juniper Networks VPN gateway, in an equipment rack",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Gathering_2019_-_Juniper_and_Palo_Alto_equipment_(46813726495).jpg\" rel=\"noopener\">DiFronzo</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/china-registers-its-ai-exports": {
+  "id": "commons:MOFCOM_中华人民共和国商务部_英文标识.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/MOFCOM_%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%95%86%E5%8A%A1%E9%83%A8_%E8%8B%B1%E6%96%87%E6%A0%87%E8%AF%86.jpg/1280px-MOFCOM_%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%95%86%E5%8A%A1%E9%83%A8_%E8%8B%B1%E6%96%87%E6%A0%87%E8%AF%86.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "The letters MOFCOM in steel on the grey granite facade of China's Ministry of Commerce building",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:MOFCOM_%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%95%86%E5%8A%A1%E9%83%A8_%E8%8B%B1%E6%96%87%E6%A0%87%E8%AF%86.jpg\" rel=\"noopener\">維基小霸王</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "policy/eight-attorneys-general-one-chatbot": {
+  "id": "commons:Polk_County_Courthouse_-_Des_Moines_01.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polk_County_Courthouse_-_Des_Moines_01.jpg/1280px-Polk_County_Courthouse_-_Des_Moines_01.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "The stone facade and clock tower of the Polk County Courthouse in Des Moines, Iowa, under a blue sky, with an American flag on a pole in front",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Polk_County_Courthouse_-_Des_Moines_01.jpg\" rel=\"noopener\">Farragutful</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/fourteen-hundred-fixes-in-one-month": {
+  "id": "Y5PSyMm8nMk",
+  "url": "https://images.unsplash.com/photo-1642783327432-d269921e0f20?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A Windows Security notification reading Threats found on the dark screen of a laptop",
+  "creditHtml": "<a href=\"https://unsplash.com/@edhardie?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Ed Hardie</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/one-api-for-fiat-and-stablecoins": {
+  "id": "xkArbdUcUeE",
+  "url": "https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 934,
+  "alt": "A black handheld card payment terminal trailing a long curl of white receipt paper on an orange surface",
+  "creditHtml": "<a href=\"https://unsplash.com/@towfiqu999999?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Towfiqu barbhuiya</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
