@@ -2617,5 +2617,41 @@
   "alt": "A black handheld card payment terminal trailing a long curl of white receipt paper on an orange surface",
   "creditHtml": "<a href=\"https://unsplash.com/@towfiqu999999?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Towfiqu barbhuiya</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/the-ftc-asks-two-labs-for-their-incident-files": {
+  "id": "commons:The_Apex_Building,_headquarters_of_the_Federal_Trade_Commission,_on_Constitution_Avenue_and_7th_Streets_in_Washington,_D.C.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Apex_Building%2C_headquarters_of_the_Federal_Trade_Commission%2C_on_Constitution_Avenue_and_7th_Streets_in_Washington%2C_D.C.jpg/1280px-The_Apex_Building%2C_headquarters_of_the_Federal_Trade_Commission%2C_on_Constitution_Avenue_and_7th_Streets_in_Washington%2C_D.C.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "The Apex Building, the Federal Trade Commission's headquarters, seen from above in evening light, with a wide avenue running beside it",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Apex_Building%2C_headquarters_of_the_Federal_Trade_Commission%2C_on_Constitution_Avenue_and_7th_Streets_in_Washington%2C_D.C.jpg\" rel=\"noopener\">Harrison Keely</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "fintech/deutsche-bank-is-weeks-from-holding-bitcoin": {
+  "id": "commons:Deutsche_Bank_tower_Frankfurt_am_Main_2019-09-15_03.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Deutsche_Bank_tower_Frankfurt_am_Main_2019-09-15_03.jpg/1280px-Deutsche_Bank_tower_Frankfurt_am_Main_2019-09-15_03.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "The twin mirrored-glass towers of Deutsche Bank's Frankfurt headquarters against a clear blue sky, with the bank's logo near the top",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Deutsche_Bank_tower_Frankfurt_am_Main_2019-09-15_03.jpg\" rel=\"noopener\">Leonhard Lenz</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" rel=\"noopener\">CC0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/meta-opens-the-weights-on-816-billion-parameters": {
+  "id": "3l9lH2GtgBU",
+  "url": "https://images.unsplash.com/photo-1658154476020-61778eb53b29?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A silver Mac Studio desktop computer on a dark wooden desk beneath a monitor",
+  "creditHtml": "<a href=\"https://unsplash.com/@joeyabanks?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Joey Banks</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/anthropics-first-canadian-lease-is-for-95-megawatts": {
+  "id": "oCSfh_mp8UM",
+  "url": "https://images.unsplash.com/photo-1762006221148-b9684cff7c66?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Two white wind turbines beside a sandy track through dune grass under a blue sky with large white clouds",
+  "creditHtml": "<a href=\"https://unsplash.com/@hamburgmeinefreundin?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Wolfgang Weiser</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
