@@ -23,7 +23,7 @@ const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(
 
 /* The tip confirmation page is noindex and reachable only after a POST,
    so it does not belong in the sitemap or the orphan audit. */
-const pages = walk(".").filter(f => !/^(saved|tips\/thanks|subscribe\/thanks)\//.test(f.replace(/^\.\//, "")))
+const pages = walk(".").filter(f => !/^(saved|tips\/thanks|subscribe\/thanks|contact\/thanks)\//.test(f.replace(/^\.\//, "")))
   /* Any page that declares itself noindex (e.g. ai/pipeline-test-article) stays out of the sitemap. */
   .filter(f => !/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(fs.readFileSync(f, "utf8"))).map(f => {
   const h = fs.readFileSync(f, "utf8");
