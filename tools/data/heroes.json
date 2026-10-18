@@ -2662,5 +2662,41 @@
   "alt": "Rows of servers in a rack with blue network cables plugged into them",
   "creditHtml": "<a href=\"https://unsplash.com/@imgix?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">imgix</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/none-of-the-organisations-noticed": {
+  "id": "zAhAUSdRLJ8",
+  "url": "https://images.unsplash.com/photo-1618060932014-4deda4932554?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 934,
+  "alt": "An open padlock among scattered black computer keyboard keys under red and green light",
+  "creditHtml": "<a href=\"https://unsplash.com/@flyd2069?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">FlyD</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/the-support-tool-that-held-the-keys": {
+  "id": "SwVkmowt7qA",
+  "url": "https://images.unsplash.com/photo-1546124404-9e7e3cac2ec1?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 788,
+  "alt": "Grey network patch cables plugged into the ports of a switch",
+  "creditHtml": "<a href=\"https://unsplash.com/@jonathanlei0?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Jonathan</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/replit-changes-its-default-not-its-menu": {
+  "id": "5NM32v14n6M",
+  "url": "https://images.unsplash.com/photo-1540397106260-e24a507a08ea?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 920,
+  "alt": "A laptop showing lines of code on a desk beside potted plants and a mug",
+  "creditHtml": "<a href=\"https://unsplash.com/@mattyfours?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Matthew Fournier</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/circle-wants-forty-more-countries": {
+  "id": "Q2gcswjLhS8",
+  "url": "https://images.unsplash.com/photo-1531169628939-e84f860fa5d6?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Bangkok's skyline and the Chao Phraya river at night, seen from above",
+  "creditHtml": "<a href=\"https://unsplash.com/@jarvisphoto?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Braden Jarvis</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
