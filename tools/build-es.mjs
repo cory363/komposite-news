@@ -5,6 +5,7 @@
    stories, not all thirteen. */
 import fs from "node:fs";
 import path from "node:path";
+import { applyBreadcrumbs } from "./add-breadcrumbs.mjs";
 
 const S = JSON.parse(fs.readFileSync("tools/data/es-strings.json", "utf8"));
 const ES = JSON.parse(fs.readFileSync("tools/data/es-articles.json", "utf8"));
@@ -129,6 +130,8 @@ for (const a of ES) {
 
   const dir = path.join("es", a.slug);
   fs.mkdirSync(dir, { recursive: true });
+  /* The English trail came across with the page; rebuild it in Spanish. */
+  h = applyBreadcrumbs(h, path.join(dir, "index.html"));
   fs.writeFileSync(path.join(dir, "index.html"), h);
   built++;
 }

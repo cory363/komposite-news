@@ -9,6 +9,7 @@
 
    Usage: node tools/add-section-schema.mjs */
 import fs from "node:fs";
+import { applyBreadcrumbs } from "./add-breadcrumbs.mjs";
 
 const SITE = "https://kompositenews.com";
 const SECTIONS = ["ai", "blockchain", "business", "crypto", "culture", "cybersecurity", "fintech",
@@ -38,7 +39,8 @@ for (const sec of SECTIONS) {
   };
   const tag = `<script type="application/ld+json" id="kn-section-ld">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>`;
   const re = /<script type="application\/ld\+json" id="kn-section-ld">[\s\S]*?<\/script>/;
-  const out = re.test(h) ? h.replace(re, tag) : h.replace("</head>", tag + "</head>");
+  /* The visible trail is rendered from this block, so it follows it. */
+  const out = applyBreadcrumbs(re.test(h) ? h.replace(re, tag) : h.replace("</head>", tag + "</head>"), f);
   if (out !== h) { fs.writeFileSync(f, out); n++; }
 }
 console.log(`section schema: ${n} page(s) updated`);

@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import { optimizeHtml } from "./optimize-images.mjs";
 import path from "node:path";
+import { applyBreadcrumbs } from "./add-breadcrumbs.mjs";
 const S = JSON.parse(fs.readFileSync("tools/data/es-strings.json", "utf8"));
 const ES = JSON.parse(fs.readFileSync("tools/data/es-articles.json", "utf8"));
 const esc = s => String(s).replace(/&(?!#?\w+;)/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -88,7 +89,7 @@ ${items.map(card).join("\n")}
 </main>
 `;
   fs.mkdirSync("es/" + sec, { recursive: true });
-  fs.writeFileSync(`es/${sec}/index.html`, optimizeHtml(p + tail, `es/${sec}/index.html`));
+  fs.writeFileSync(`es/${sec}/index.html`, applyBreadcrumbs(optimizeHtml(p + tail, `es/${sec}/index.html`), `es/${sec}/index.html`));
   n++;
 }
 console.log(`  Spanish front page + ${n} section pages built`);

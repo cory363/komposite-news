@@ -2842,3 +2842,14 @@ button,input,select,textarea{font-family:var(--mastfont)}
 /* 8. Phone footer: one column of 30-odd short links ran ~1,100px. Two
    columns halve it; the longest label ("Licensing & reprints") fits at 320px. */
 @media (max-width:560px){.kfoot-cols{grid-template-columns:repeat(2,minmax(0,1fr))!important;column-gap:18px;row-gap:22px}}
+
+/* ── breadcrumbs (matches the BreadcrumbList JSON-LD; tools/add-breadcrumbs.mjs) ── */
+.breadcrumb{font-family:var(--sans);font-size:12px;line-height:1.4;color:var(--faint);margin:0 0 12px;min-width:0}
+.breadcrumb ol{list-style:none;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0;margin:0;padding:0}
+.breadcrumb li{display:flex;align-items:baseline;min-width:0}
+.breadcrumb li+li::before{content:"/";padding:0 7px;color:var(--rule-dark);opacity:.35}
+.breadcrumb a{color:var(--slate);font-weight:500}
+.breadcrumb a:hover{color:var(--claret);text-decoration:underline;text-underline-offset:2px}
+.breadcrumb li:last-child{flex:1 1 9em}
+.breadcrumb [aria-current="page"]{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--faint)}
+.catpage>.breadcrumb{margin-bottom:10px}

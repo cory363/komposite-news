@@ -13,6 +13,7 @@
 import fs from "node:fs";
 import { furniture, SITE, esc, TITLE_SEP, prettyDate, readTime, commonsUrl } from "./lib-template.mjs";
 import { shareRow } from "./add-share.mjs";
+import { breadcrumbNav } from "./add-breadcrumbs.mjs";
 
 const HEROES = fs.existsSync("tools/data/heroes.json")
   ? JSON.parse(fs.readFileSync("tools/data/heroes.json", "utf8")) : {};
@@ -107,7 +108,7 @@ export function render(a) {
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="dns-prefetch" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Libre+Franklin:ital,wght@0,400..800;1,400..700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css?v=116"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
+<link rel="stylesheet" href="/assets/style.css?v=117"><script type="application/ld+json">${JSON.stringify(newsArticle)}</script>
 <script type="application/ld+json">${JSON.stringify(crumbs)}</script></head>`;
 
   const mins = readTime(wordCount(a));
@@ -118,6 +119,7 @@ export function render(a) {
     `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
 
   const main = `<main id="main" class="wrap artgrid"><article class="art">
+${breadcrumbNav(crumbs.itemListElement).trimEnd()}
 <span class="kick${a.opinion ? " k-op" : ""}">${esc(a.kick)}</span>
 <h1>${esc(a.headline)}</h1><p class="artdeck">${esc(a.dek)}</p>
 <div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>
