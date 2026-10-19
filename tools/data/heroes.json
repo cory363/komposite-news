@@ -2716,5 +2716,41 @@
   "alt": "A young green shoot growing out of dark tilled soil",
   "creditHtml": "<a href=\"https://unsplash.com/@synkevych?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Roman Synkevych</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "technology/the-army-promises-a-green-check-in-minutes": {
+  "id": "local:dvids-9745700",
+  "url": "/assets/img/stories/dvids-9745700-laptop-network-cable.jpg",
+  "width": 2000,
+  "height": 1600,
+  "alt": "A hand resting on a silver laptop keyboard, with a red network cable plugged into the laptop's side",
+  "creditHtml": "<a href=\"https://www.dvidshub.net/image/9745700/service-members-conduct-network-and-assessment-during-irts-cyber-guam-2026\" rel=\"noopener\">Photo by Senior Airman Jahnae Holmes, 439th Airlift Wing</a> via <a href=\"https://www.dvidshub.net/\" rel=\"noopener\">DVIDS</a>",
+  "creditLine": "Photograph via DVIDS"
+ },
+ "ai/a-cyber-protection-team-made-of-agents": {
+  "id": "local:dvids-9656494",
+  "url": "/assets/img/stories/dvids-9656494-server-rack-cables.jpg",
+  "width": 2000,
+  "height": 1333,
+  "alt": "Blue and yellow network cables plugged into a labelled switch in a server rack",
+  "creditHtml": "<a href=\"https://www.dvidshub.net/image/9656494/march-takes-one-base-one-network\" rel=\"noopener\">U.S. Air National Guard photo by Staff Sgt. Bridgitte Taylor</a> via <a href=\"https://www.dvidshub.net/\" rel=\"noopener\">DVIDS</a>",
+  "creditLine": "Photograph via DVIDS"
+ },
+ "cybersecurity/a-missile-defence-task-force-takes-on-cyber": {
+  "id": "local:dvids-9819408",
+  "url": "/assets/img/stories/dvids-9819408-radar-dome-guam.jpg",
+  "width": 2000,
+  "height": 1125,
+  "alt": "The top of a large white radar dome with antennas against a grey sky",
+  "creditHtml": "<a href=\"https://www.dvidshub.net/image/9819408/golden-dome-leaders-visit-guam\" rel=\"noopener\">U.S. Navy photo by William J. Busby III</a> via <a href=\"https://www.dvidshub.net/\" rel=\"noopener\">DVIDS</a>",
+  "creditLine": "Photograph via DVIDS"
+ },
+ "policy/fifty-five-billion-for-autonomy-minus-congress": {
+  "id": "local:dvids-10010678",
+  "url": "/assets/img/stories/dvids-10010678-drone-model-ship.jpg",
+  "width": 2000,
+  "height": 1333,
+  "alt": "A small quadcopter hovering over a grey scale model of a navy patrol boat inside a netted test area",
+  "creditHtml": "<a href=\"https://www.dvidshub.net/image/10010678/navy-flies-drones-without-gps-lands-autonomously-moving-ships\" rel=\"noopener\">U.S. Navy photo by Chuck Regner</a> via <a href=\"https://www.dvidshub.net/\" rel=\"noopener\">DVIDS</a>",
+  "creditLine": "Photograph via DVIDS"
  }
 }

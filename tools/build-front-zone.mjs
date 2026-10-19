@@ -91,12 +91,29 @@ const opinion = a => a.dir === "divide" || /opinion/i.test(a.kick);
 /* Taken in the order the list gives, not by date: the first slot renders
    large with a dek, so which piece leads the band is an editorial choice,
    and sorting it by recency would quietly overrule whoever wrote the list. */
-const featured = featuredUrls
+/* The band holds three, or four when the list names four live pieces: a
+   round of four features should not push one of them off the band. */
+const featuredLive = featuredUrls
   .map(u => arts.find(a => a.url === u && photo(a) && !opinion(a)))
-  .filter(Boolean).slice(0, 3);
+  .filter(Boolean);
+const BAND = featuredLive.length >= 4 ? 4 : 3;
+const featured = featuredLive.slice(0, BAND);
 featured.forEach(a => seen.add(a.url));
 
-const lead = take(1, a => photo(a) && !opinion(a))[0];
+/* Optional lead pin, tools/data/lead.json: {"url": "...", "until": ISO}.
+   The lead is otherwise the newest photo story not in the band, so a later
+   batch of features would take the lead from the day's main story. The pin
+   is ignored once "until" has passed or if the url is not a live story. */
+const leadPin = (() => {
+  try {
+    const p = JSON.parse(fs.readFileSync("tools/data/lead.json", "utf8"));
+    if (p.until && Date.now() > Date.parse(p.until)) return null;
+    const a = arts.find(x => x.url === p.url && photo(x) && !opinion(x) && !seen.has(x.url));
+    return a || null;
+  } catch { return null; }
+})();
+if (leadPin) seen.add(leadPin.url);
+const lead = leadPin || take(1, a => photo(a) && !opinion(a))[0];
 /* CNN and ABC both hang two or three related angles under the lead. It is
    the device that makes a front read as a newsroom covering a story rather
    than a list of unrelated items. Prefer same-section follow-ons. */
@@ -116,7 +133,7 @@ cluster.push(...take(2 - cluster.length, a => !opinion(a)));
    ran 847px past the end of the Latest block, that surplus rendered as a
    band of white under Latest. The list column absorbs the difference. */
 const grid = take(11, a => photo(a) && !opinion(a));
-featured.push(...take(3 - featured.length, a => photo(a) && !opinion(a)));
+featured.push(...take(BAND - featured.length, a => photo(a) && !opinion(a)));
 const topStories = take(4, a => !opinion(a));   // 11 made the hero zone 1,600px tall; 7 left the rail taller than the main column, which showed as white under the latest band
 /* The Divide columns have their own panel further down the page; listing
    them in the opinion rail as well put the same argument on the front twice,
