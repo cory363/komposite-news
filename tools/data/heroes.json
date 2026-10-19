@@ -2752,5 +2752,41 @@
   "alt": "A small quadcopter hovering over a grey scale model of a navy patrol boat inside a netted test area",
   "creditHtml": "<a href=\"https://www.dvidshub.net/image/10010678/navy-flies-drones-without-gps-lands-autonomously-moving-ships\" rel=\"noopener\">U.S. Navy photo by Chuck Regner</a> via <a href=\"https://www.dvidshub.net/\" rel=\"noopener\">DVIDS</a>",
   "creditLine": "Photograph via DVIDS"
+ },
+ "startups/tenstorrent-more-than-doubles-to-6-2bn": {
+  "id": "bN5XdU-bap4",
+  "url": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 935,
+  "alt": "A green computer circuit board with mounted chips, photographed close up with a shallow focus",
+  "creditHtml": "<a href=\"https://unsplash.com/@cdr6934?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Chris Ried</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "fintech/jpmorgans-deposit-token-now-on-the-main-chain": {
+  "id": "7cmA9ZL5dDk",
+  "url": "https://images.unsplash.com/photo-1622790698141-94e30457ef12?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 931,
+  "alt": "A gold-coloured souvenir coin bearing the Ethereum logo resting on a computer circuit board",
+  "creditHtml": "<a href=\"https://unsplash.com/@kanchanara?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Kanchanara</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/nvidias-open-models-from-server-to-laptop": {
+  "id": "G78c3DPmD_A",
+  "url": "https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A half-open laptop with a keyboard lit in pink and green light on a dark background",
+  "creditHtml": "<a href=\"https://unsplash.com/@martinsanchez?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Martin Sanchez</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal": {
+  "id": "1cSFxRmuUMk",
+  "url": "https://images.unsplash.com/photo-1709000724284-c38463263d59?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "An empty meeting room with a long wooden table, office chairs and a wall-mounted television",
+  "creditHtml": "<a href=\"https://unsplash.com/@malcolm_choong?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Malcolm Choong</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
