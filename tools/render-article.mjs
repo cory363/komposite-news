@@ -115,7 +115,7 @@ export function render(a) {
 
   const mins = readTime(wordCount(a));
   /* Body entries that are already subheads (<h2>) go in as they are. */
-  const body = a.body.map(p => /^<h2[\s>]/.test(p) ? p : `<p>${p}</p>`).join("");
+  const body = a.body.map(p => /^<(h2|div)[\s>]/.test(p) ? p : `<p>${p}</p>`).join("");
   const tags = a.tags.map(t => `<a href="/tag/${t.slug}/">${esc(t.name)}</a>`).join("");
   const rel = a.related.map(r =>
     `<article class="hl"><span class="kick">${esc(r.kick)}</span><h2><a href="${r.href}">${esc(realHeadline(r.href, r.title))}</a></h2><div class="tago">${esc(r.ago)}</div></article>`).join("");
