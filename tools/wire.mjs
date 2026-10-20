@@ -223,4 +223,6 @@ if (batch) {
   const articles = (await import(path.resolve(batch))).default
     .slice().sort((x, y) => x.date.localeCompare(y.date));
   for (const a of articles) wire(a);
+  /* Schema freshness/language fields, image dimensions, llms.txt. */
+  (await import("./geo.mjs")).runGeo();
 }

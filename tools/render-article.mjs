@@ -79,7 +79,7 @@ export function render(a) {
     headline: a.headline,
     description: a.metaDesc,
     datePublished: a.date,
-    dateModified: a.date,
+    dateModified: a.updated || a.date,
     image: { "@type": "ImageObject", url: absImg, width: h.width, height: h.height },
     author: { "@type": "Person", name: name.replace(/&amp;/g, "&"), url: `${SITE}/authors/${a.author}/` },
     publisher: {
@@ -89,6 +89,8 @@ export function render(a) {
     mainEntityOfPage: url,
     articleSection: a.sectionLabel,
     keywords: a.tags.map(t => t.name).join(", "),
+    inLanguage: "en",
+    isAccessibleForFree: true,
   };
   const crumbs = {
     "@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -103,7 +105,7 @@ export function render(a) {
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><meta name="theme-color" content="#7E2231">
 <title>${title}</title><meta name="description" content="${esc(a.metaDesc)}">
 <link rel="canonical" href="${url}">
-<meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:image" content="${esc(absImg)}"><meta property="og:image:width" content="${h.width}"><meta property="og:image:height" content="${h.height}"><meta property="og:image:alt" content="${esc(h.alt)}"><meta property="article:published_time" content="${a.date}"><meta property="article:modified_time" content="${a.date}"><meta property="article:author" content="${esc(name.replace(/&amp;/g, "&"))}"><meta property="article:section" content="${esc(a.sectionLabel)}">
+<meta property="og:site_name" content="Komposite News"><meta property="og:title" content="${title}"><meta property="og:description" content="${esc(a.metaDesc)}"><meta property="og:url" content="${url}"><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:image" content="${esc(absImg)}"><meta property="og:image:width" content="${h.width}"><meta property="og:image:height" content="${h.height}"><meta property="og:image:alt" content="${esc(h.alt)}"><meta property="article:published_time" content="${a.date}"><meta property="article:modified_time" content="${a.updated || a.date}"><meta property="article:author" content="${esc(name.replace(/&amp;/g, "&"))}"><meta property="article:section" content="${esc(a.sectionLabel)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${title}"><meta name="twitter:description" content="${esc(a.metaDesc)}"><meta name="twitter:image" content="${esc(absImg)}">
 <link rel="alternate" type="application/rss+xml" title="Komposite News" href="${SITE}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://images.unsplash.com" crossorigin><link rel="dns-prefetch" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

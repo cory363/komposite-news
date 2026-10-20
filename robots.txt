@@ -7,6 +7,17 @@
 # generate unlimited near-duplicate pages. Every article, section, author and
 # topic page remains open.
 
+# Search and AI crawlers, named explicitly. Each gets the same rules as *.
+User-agent: Googlebot
+User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Applebot-Extended
+User-agent: Bingbot
 User-agent: *
 Allow: /
 

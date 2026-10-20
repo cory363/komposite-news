@@ -6,37 +6,72 @@
 - Information is attributed to sources wherever possible and claims are verified before publication; sponsored content is always labeled.
 - Corrected articles carry a note describing what was wrong and when it was fixed.
 - The site uses AI as a production tool, not a replacement for editorial judgment (see the AI Policy).
-- A selection of coverage is also published in Spanish.
+- A selection of coverage is also published in Spanish under /es/.
+- All articles are free to read. A plain-text copy of the key stories is at https://kompositenews.com/llms-full.txt.
 
 ## Sections
 
-- [AI](https://kompositenews.com/ai/): artificial intelligence
-- [Markets](https://kompositenews.com/markets/): capital markets
-- [Business](https://kompositenews.com/business/): companies and deals
-- [Technology](https://kompositenews.com/technology/): enterprise technology
-- [Fintech](https://kompositenews.com/fintech/): financial technology
-- [Crypto](https://kompositenews.com/crypto/): digital assets
-- [Blockchain](https://kompositenews.com/blockchain/): blockchain reporting and analysis
-- [Cybersecurity](https://kompositenews.com/cybersecurity/): security and threats
-- [Policy](https://kompositenews.com/policy/): regulation and policy
-- [Culture](https://kompositenews.com/culture/): culture
-- [Opinion](https://kompositenews.com/opinion/): labeled opinion
+- [AI](https://kompositenews.com/ai/): artificial intelligence: models, labs, enterprise adoption and AI policy
+- [Markets](https://kompositenews.com/markets/): capital markets, rates and market structure
+- [Business](https://kompositenews.com/business/): companies, deals and corporate strategy
+- [Technology](https://kompositenews.com/technology/): enterprise technology and infrastructure
+- [Startups](https://kompositenews.com/startups/): venture funding and startup companies
+- [Fintech](https://kompositenews.com/fintech/): payments, banking technology and financial infrastructure
+- [Crypto](https://kompositenews.com/crypto/): digital assets, stablecoins and crypto markets
+- [Blockchain](https://kompositenews.com/blockchain/): blockchain infrastructure reporting and analysis
+- [Cybersecurity](https://kompositenews.com/cybersecurity/): breaches, threats and security practice
+- [Policy](https://kompositenews.com/policy/): regulation, legislation and policy
+- [Culture](https://kompositenews.com/culture/): culture and media
+- [Music](https://kompositenews.com/music/): music coverage
+- [Opinion](https://kompositenews.com/opinion/): labeled opinion and columns
+- [The Divide](https://kompositenews.com/the-divide/): one major issue each edition, argued from the left and from the right
+- [Latest](https://kompositenews.com/latest/): all reporting in chronological order
+- [Authors](https://kompositenews.com/authors/): the newsroom and contributors
 - [Español](https://kompositenews.com/es/): Spanish-language edition (selected coverage)
 
-## Key pages
+## Key guides and analysis
+
+- [What buyers actually do with an SBOM](https://kompositenews.com/cybersecurity/sbom-what-buyers-do-with-it/): Software bills of materials are now routinely produced and routinely ignored, and the gap between generating one and acting on it is where the risk sits.
+- [What an attestation must prove](https://kompositenews.com/crypto/what-an-attestation-must-prove/): Stablecoin law requires monthly examination of reserves, and the open rulemaking question is what level of assurance that examination must actually deliver.
+- [What a seed round now requires](https://kompositenews.com/startups/what-a-seed-round-now-requires/): Seed rounds now arrive after revenue and retention evidence that once belonged to Series A, and the gap between rounds has stretched past two years.
+- [AI in the order flow: what machine trading is doing to volatility](https://kompositenews.com/markets/volatility-market-structure-ai-trading/): Adaptive execution and model-driven strategies are changing intraday dynamics in ways researchers are only beginning to measure.
+- [Machine identity sprawl becomes security's biggest inventory problem](https://kompositenews.com/cybersecurity/identity-machine-workloads/): Service accounts, API keys, and agent credentials now outnumber human identities many times over, and governance is racing the growth.
+- [Enterprises write the rulebook for AI-generated code](https://kompositenews.com/ai/ai-coding-tools-enterprise-standards/): Provenance tracking, review gates, and dependency policies are turning AI coding assistance from a developer perk into governed infrastructure.
+- [Synthetic data moves from workaround to standard practice](https://kompositenews.com/ai/synthetic-data-enterprise-training/): Where privacy rules and data scarcity block model training, generated datasets are filling the gap, and auditors are learning to evaluate them.
+- [AI evaluation grows from afterthought to budget line](https://kompositenews.com/ai/ai-evaluation-becomes-budget-line/): Enterprises deploying models at scale are formalizing evaluation the way they once formalized QA, and a vendor category is forming around it.
+- [Power availability becomes the master constraint on computing](https://kompositenews.com/technology/power-constraints-shape-computing/): Grid interconnection queues, not chip supply, now set the timeline for new capacity, and the industry is reorganizing around electrons.
+- [Shadow AI becomes the new shadow IT](https://kompositenews.com/business/shadow-ai-governance-problem/): Employees are routing work through unsanctioned AI tools faster than policies can name them, and enterprises are choosing between control and visibility.
+- [Instant payments become table stakes in B2B](https://kompositenews.com/fintech/instant-payments-b2b-standard/): Real-time rails are moving from consumer novelty to supplier expectation, and the software layer on top is where the margin lives.
+- [Stablecoin Reserve reporting converges on common standards](https://kompositenews.com/crypto/stablecoin-reserve-transparency-standards/): Monthly attestations are giving way to standardized disclosures that let treasurers compare issuers the way they compare money market funds.
+- [Stablecoin law meets its implementation year](https://kompositenews.com/policy/stablecoin-law-implementation-year/): With frameworks enacted, the action has moved to licensing queues, reserve examinations, and the fine print of redemption.
+- [Incident reporting clocks start ticking for critical infrastructure](https://kompositenews.com/cybersecurity/critical-infrastructure-reporting-rules/): Mandatory disclosure windows are standardizing how fast operators must tell regulators, and readiness has become a drill.
+- [Interoperability standards take shape for institutional chains](https://kompositenews.com/blockchain/interoperability-standards-institutional-chains/): Messaging standards bodies and blockchain consortia are converging on formats that let regulated ledgers talk to each other, and to the systems banks already run.
+- [The secondary market becomes startups' pressure valve](https://kompositenews.com/startups/secondaries-startup-liquidity/): Structured tenders for employees and early investors are normalizing partial liquidity, changing when companies must exit at all.
+
+## Newest stories
+
+- [A hidden recorder, a Saudi royal and a bail fight](https://kompositenews.com/ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal/): Prosecutors allege ex-OpenAI engineer Abdulrahman Alfozan, charged over a hidden recorder, was courted by a Saudi royal; his lawyers say he is no flight risk.
+- [Nvidia's open models, from server to laptop](https://kompositenews.com/ai/nvidias-open-models-from-server-to-laptop/): Nvidia released open-weight Nemotron 3.5 Super VL (120bn parameters) and Bolt 74B-A9B for local agents on 15 October; Bolt E4B follows on 23 October.
+- [JPMorgan's deposit token, now on the main chain](https://kompositenews.com/fintech/jpmorgans-deposit-token-now-on-the-main-chain/): JPMorgan's Kinexys said on Monday its JPM Coin deposit token (JPMD) is live on Ethereum for institutional clients, after launching on Base in November 2025.
+- [Tenstorrent more than doubles to $6.2bn](https://kompositenews.com/startups/tenstorrent-more-than-doubles-to-6-2bn/): Tenstorrent said on Monday it raised a $1.5bn Series E at a $6.2bn post-money valuation, led by Trace Capital and Innovation X, up from about $2.6bn in December 2024.
+- [Fifty-five billion for autonomy, minus Congress](https://kompositenews.com/policy/fifty-five-billion-for-autonomy-minus-congress/): The Pentagon plans nearly $55bn for its Defense Autonomous Warfare Group and a four-star Autonomous Warfare Command, but Congress has approved neither.
+- [A missile-defence task force takes on cyber](https://kompositenews.com/cybersecurity/a-missile-defence-task-force-takes-on-cyber/): Northern Command's Joint Task Force-Gold, which coordinates Golden Dome missile defence, has a new cyber mission that its deputy commander says is defensive only.
+- [A cyber protection team made of agents](https://kompositenews.com/ai/a-cyber-protection-team-made-of-agents/): Army Cyber Command has mapped out a Cyber Protection Team of AI agents under human oversight; Project Griffin awards due 16 October were not announced by Sunday.
+- [The Army promises a green check in minutes](https://kompositenews.com/technology/the-army-promises-a-green-check-in-minutes/): The US Army opens Project Gatekeeper on 23 October, an isolated platform where companies can submit code for automated security vetting without a contract.
+
+## About, standards and contact
 
 - [About](https://kompositenews.com/about/): what Komposite News covers and for whom
 - [Editorial Standards](https://kompositenews.com/editorial-standards/): reporting, analysis, opinion and sourcing rules
 - [Corrections](https://kompositenews.com/corrections/): corrections policy and log
-- [AI Policy](https://kompositenews.com/ai-policy/): how AI is and is not used
+- [AI Policy](https://kompositenews.com/ai-policy/): how AI is and is not used in the newsroom
 - [Contact](https://kompositenews.com/contact/): reaching the newsroom
 - [Tips](https://kompositenews.com/tips/): sending information to the desk
 - [Licensing & Reprints](https://kompositenews.com/licensing/): republication terms
+
+## Feeds and sitemaps
+
 - [RSS feed](https://kompositenews.com/rss.xml): latest stories
 - [Sitemap index](https://kompositenews.com/sitemap-index.xml): links to the full sitemap and the news sitemap
-- [Sitemap](https://kompositenews.com/sitemap.xml): full list of pages and articles
-
-## Optional
-
-- [Latest](https://kompositenews.com/latest/): all reporting in chronological order
-- [The Divide](https://kompositenews.com/the-divide/): one major issue each edition, argued from the left and from the right
+- [Sitemap](https://kompositenews.com/sitemap.xml): every page and article
+- [News sitemap](https://kompositenews.com/news-sitemap.xml): articles from the last 48 hours

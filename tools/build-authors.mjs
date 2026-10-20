@@ -50,10 +50,11 @@ function ensurePage(p) {
     .replace(/(<meta name="twitter:title" content=")[^"]*(")/, (m, o, c) => o + esc(p.name) + " &mdash; Komposite News" + c)
     .replace(/(<meta property="og:url" content=")[^"]*(")/, (m, o, c) => o + url + c)
     .replace(/(<link rel="canonical" href=")[^"]*(")/, (m, o, c) => o + url + c)
-    .replace(/\{"@context":"https:\/\/schema\.org","@type":"Person"[\s\S]*?\}<\/script>/,
-      JSON.stringify({ "@context": "https://schema.org", "@type": "Person", name: p.name,
-        jobTitle: p.role, worksFor: { "@type": "NewsMediaOrganization", name: "Komposite News" },
-        url, description: p.bio }) + "</script>");
+    .replace(/\{"@context":"https:\/\/schema\.org","@type":"(?:Person|ProfilePage)"[\s\S]*?\}<\/script>/,
+      JSON.stringify({ "@context": "https://schema.org", "@type": "ProfilePage", url,
+        mainEntity: { "@type": "Person", name: p.name,
+          jobTitle: p.role, worksFor: { "@type": "NewsMediaOrganization", name: "Komposite News" },
+          url, description: p.bio } }) + "</script>");
   /* No byline feed: an editor with no filed stories should not carry an empty
      "Latest by" rail pretending there is one. */
   const main = `<main id="main" class="wrap catpage">

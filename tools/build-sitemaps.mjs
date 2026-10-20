@@ -1,14 +1,30 @@
 /**
  * Regenerate sitemap.xml, news-sitemap.xml and sitemap-index.xml.
  *
- * Every URL carries a lastmod. Articles use their publication date; standing
- * pages use the file's modification time. The news sitemap follows Google's
+ * Every URL carries a lastmod. Articles use dateModified (else datePublished);
+ * standing pages use their last git commit date. The news sitemap follows Google's
  * schema and holds only articles published in the last 48 hours, which is the
  * window Google News reads — a news sitemap listing everything is ignored.
  */
 import fs from "node:fs";
 import path from "node:path";
+import { execSync } from "node:child_process";
 import { SITE } from "./lib-template.mjs";
+
+/* Standing pages (sections, about, authors) take the date of the last commit
+   that touched them: file mtimes reset on every checkout and would stamp the
+   whole site "today". An uncommitted page falls back to its mtime. */
+const gitDate = new Map();
+try {
+  let cur = null;
+  for (const line of execSync("git log --format=@%cs --name-only -- '*.html'", { encoding: "utf8", maxBuffer: 1 << 28 }).split("\n")) {
+    if (line.startsWith("@")) cur = line.slice(1);
+    else if (line && !gitDate.has(line)) gitDate.set(line, cur);
+  }
+} catch {}
+const dirty = new Set();
+try { for (const l of execSync("git status --porcelain", { encoding: "utf8" }).split("\n")) if (l) dirty.add(l.slice(3)); } catch {}
+const standingDate = f => { const r = f.replace(/^\.\//, ""); return (!dirty.has(r) && gitDate.get(r)) || fs.statSync(f).mtime.toISOString(); };
 
 const SKIP = new Set([".git", "node_modules", "tools"]);
 function walk(d, out = []) {
@@ -29,10 +45,12 @@ const pages = walk(".").filter(f => !/^(saved|tips\/thanks|subscribe\/thanks|con
   const h = fs.readFileSync(f, "utf8");
   const loc = SITE + "/" + f.replace(/^\.\//, "").replace(/index\.html$/, "");
   const pub = (h.match(/"datePublished":"([^"]+)"/) || [])[1];
+  /* lastmod is the last real change: dateModified when the article has one. */
+  const mod = (h.match(/"dateModified":"([^"]+)"/) || [])[1];
   const isArticle = f.split("/").length === 3 && !/^(authors|tag)\//.test(f);
   return {
     loc, isArticle,
-    lastmod: (pub || fs.statSync(f).mtime.toISOString()).slice(0, 10),
+    lastmod: (mod || pub || standingDate(f)).slice(0, 10),
     pub,
     title: ((h.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
     keywords: (h.match(/"keywords":"([^"]*)"/) || [])[1] || "",

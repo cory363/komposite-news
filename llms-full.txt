@@ -1,0 +1,509 @@
+# Komposite News — full text of key pages
+
+Generated from https://kompositenews.com/llms.txt. Each entry gives the canonical URL to cite.
+
+---
+
+# About
+
+URL: https://kompositenews.com/about/
+
+About Komposite News
+Komposite News is an independent digital publication covering artificial intelligence, blockchain, digital assets, enterprise technology, cybersecurity, fintech and capital markets. We write for executives, founders, investors, developers and policy professionals who need to understand how technology and finance are changing each other.
+Our coverage prioritizes reporting and analysis over hype. We are interested in what is being built, what it costs, who is buying it and what the consequences are, and we hold breathless claims from any direction to the same standard of evidence.
+Ownership and funding: Komposite News is independently operated. Any commercial relationship relevant to a story is disclosed within that story, and sponsored content is always clearly labeled. Questions about the publication can be directed through our contact page.
+
+---
+
+# Editorial Standards
+
+URL: https://kompositenews.com/editorial-standards/
+
+Editorial Standards
+Komposite News reports facts we can verify and clearly distinguishes reporting from analysis and opinion. News stories describe what happened. Pieces labeled Analysis interpret events and draw conclusions from evidence. Pieces labeled Opinion argue a point of view and represent their author.
+We attribute information to sources wherever possible, grant anonymity only when information is significant and cannot otherwise be obtained, and independently verify claims before publishing them. We do not accept payment for editorial coverage, and staff may not trade on non-public information obtained through reporting.
+Sponsored or partner content, when it appears, is labeled unambiguously and is never presented in editorial form without that label. Errors, when they occur, are corrected promptly and transparently under our corrections policy.
+
+---
+
+# Corrections
+
+URL: https://kompositenews.com/corrections/
+
+Corrections
+When Komposite News publishes an error of fact, we correct it as quickly as possible. Corrected articles carry a note describing what was wrong and when it was fixed. Significant corrections are logged on this page.
+To request a correction, contact the newsroom via our contact page with the article link and the specific claim at issue. We review every request.
+No corrections have been logged for the current publication period.
+
+---
+
+# AI Policy
+
+URL: https://kompositenews.com/ai-policy/
+
+AI Policy
+Komposite News uses artificial intelligence as a production tool, not as a replacement for editorial judgment. AI systems may assist with research organization, copy editing, translation, and site infrastructure. Every published story is reviewed and approved by a human editor before publication, and responsibility for accuracy rests with the newsroom, not with any tool used to produce it.
+We do not publish AI-generated statements attributed to real people, AI-fabricated data, or synthetic imagery presented as photography. Illustrations are labeled as illustrations, photographs carry credits and licenses, and sample or demonstration data is labeled as such wherever it appears.
+This policy will evolve with the technology. Questions about how a specific story was produced can be directed to the newsroom via our contact page.
+
+---
+
+# Licensing & Reprints
+
+URL: https://kompositenews.com/licensing/
+
+Licensing & Reprints
+Komposite News content may be licensed for republication, internal distribution, and educational use. Brief quotation with attribution and a link is welcome without a license; republication of full articles, use in commercial products, and syndication require written permission.
+For licensing terms, reprint requests, and syndication inquiries, contact partnerships@kompositenews.com with the article link and intended use. We respond to all licensing requests.
+
+---
+
+# What buyers actually do with an SBOM
+
+URL: https://kompositenews.com/cybersecurity/sbom-what-buyers-do-with-it/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-08-30T09:00:00Z
+Updated: 2026-08-30T09:00:00Z
+
+Software bills of materials are now routinely produced and routinely ignored, and the gap between generating one and acting on it is where the risk sits.
+
+The argument about whether vendors should produce a software bill of materials is over. Vendors produce them. The interesting question, and the one procurement teams are least prepared for, is what happens to the file after it arrives.
+An SBOM is an inventory: the components inside a piece of software, their versions, and their relationships to one another. Its value is entirely conditional. It answers one question well, which is whether a newly disclosed vulnerability is present in something already installed, and it answers that question only if somebody is holding it when the disclosure lands.
+The baseline moved this year. American authorities published an updated set of minimum elements, replacing guidance that had stood since the original executive order and raising what a compliant document is expected to contain.
+That update matters more than it sounds, because the minimum elements are what contracts point at. A purchase order rarely specifies a format in detail. It references a standard, and the standard quietly determines how much work a vendor has to do.
+Adoption across the European market has been surveyed rather than assumed. The EU cybersecurity agency's review of where SBOM practice actually stands describes an ecosystem where generation is increasingly routine and consumption remains the weak link.
+That asymmetry is the whole story. Producing an SBOM is a build-pipeline problem, and build pipelines are the part of software organizations most amenable to automation. Consuming one is an operations problem, and operations teams are already the most oversubscribed function in most security programs.
+The result is a familiar organizational pattern. A file arrives, satisfies a contractual requirement, and is stored where nothing queries it. The obligation is met and the risk is unchanged, which is the worst of both outcomes because it also produces a record showing the buyer was told.
+Teams that get value from the practice describe the same prerequisite, and it is not tooling. It is knowing what software they run, at which version, in which environment, well enough to join that list against an inventory. Organizations that cannot answer the first question gain nothing from the second.
+Regulatory drivers keep expanding the population who must care. Medical device guidance, the European cyber resilience regime and federal procurement terms each require the artifact in their own context, and each has a different theory of what the recipient is supposed to do with it.
+Practitioners are candid that the honest use case is narrower than the marketing. When a widely used component is found to be catastrophically vulnerable, an SBOM turns a week of frantic archaeology into a database query. Between those events it is a maintenance cost.
+That is a reasonable trade and a smaller claim than the one usually made for it. The organizations doing this well are not the ones with the best-formatted files. They are the ones who can answer, on the afternoon the disclosure lands, where the affected component is running.
+
+---
+
+# What an attestation must prove
+
+URL: https://kompositenews.com/crypto/what-an-attestation-must-prove/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-09-03T14:00:00Z
+Updated: 2026-09-03T14:00:00Z
+
+Stablecoin law requires monthly examination of reserves, and the open rulemaking question is what level of assurance that examination must actually deliver.
+
+The argument about whether stablecoin issuers should publish their reserves is finished. Federal law requires it. The argument that replaced it is narrower, more technical, and determines whether the requirement means very much: what an examination of those reserves has to establish.
+The statute sets the frame. The GENIUS Act requires permitted issuers to publish the composition of their reserves monthly, to have those reports examined by a registered public accounting firm, and to obtain certifications from the chief executive and chief financial officer.
+Monthly is a demanding cadence for anything an accounting firm signs. Most public company reporting is quarterly with a single annual audit, so the law is asking for a recurring procedure that has no exact precedent at this frequency.
+The open question is the assurance level, and it is not a technicality. An examination performed at limited assurance concludes that nothing came to the practitioner's attention suggesting a problem. One performed at reasonable assurance states positively that the reserves are what the issuer says they are.
+Those are different products with different costs and very different meanings to a reader, and the same document title can describe either. A holder comparing two issuers' monthly reports has no reliable way to tell which standard produced them without reading the fine print.
+Regulators are consulting rather than assuming. Rulemaking has asked directly whether the examination should be conducted at reasonable assurance, under established attestation standards, or under an alternative framework built for the purpose.
+The content of the disclosure is comparatively settled. The expected reporting covers the par value of coins outstanding, the fair value of reserve assets by category, the weighted average maturity of Treasury holdings, the names of custodians and depository institutions, and a reconciliation showing reserves at least equal outstanding coins.
+That reconciliation is the heart of it. Everything else describes the portfolio; the reconciliation is the statement that the portfolio covers the liability, and it is the sentence a holder is actually relying on when they treat a token as a dollar.
+Supervisors have published implementation requirements through the ordinary rulemaking process, including standards for insured depository institutions and supervised issuers, which is how a novel instrument gets absorbed into an existing supervisory apparatus.
+The practical effect of a strong answer would be consolidation. A monthly reasonable-assurance examination is expensive, requires reserve assets an accounting firm can verify quickly, and is easiest for issuers holding short Treasuries at large custodians, which is a narrower field than the one that exists today.
+That may be the intended outcome. A payment instrument that circulates as a dollar substitute is a poor place for structural creativity, and the assurance standard is the lever that decides how much of it survives.
+
+---
+
+# What a seed round now requires
+
+URL: https://kompositenews.com/startups/what-a-seed-round-now-requires/
+Section: Startups
+By: Grace Lindqvist
+Published: 2026-08-27T09:00:00Z
+Updated: 2026-08-27T09:00:00Z
+
+Seed rounds now arrive after revenue and retention evidence that once belonged to Series A, and the gap between rounds has stretched past two years.
+
+The seed round kept its name and quietly changed its meaning. What investors now expect before writing that check is roughly what a Series A required a few years ago, and founders planning against the old definition run out of money at the point they expected to raise.
+The clearest expression of the shift is time. Data assembled from company cap tables shows the interval between rounds stretching well past two years, which means a seed round is no longer bridging to a nearby milestone. It has to fund the company to a materially different business.
+That arithmetic changes how much to raise and what to promise. A round sized for eighteen months against a market that now takes twenty-four produces a company that is technically alive and practically unfundable, holding a deck full of progress and a bank balance that ends the conversation.
+Investors describe the bar in terms of evidence rather than vision. Revenue that recurs, retention that survives a renewal cycle, and unit economics the founder can explain without a chart have replaced the narrative rounds that characterized the last cycle.
+Pre-seed absorbed the difference. What used to be called seed is now a distinct earlier stage with its own norms and its own investors, which means the ladder gained a rung rather than losing one, and the founder climbs the same distance in more steps.
+Formation costs falling has made this possible without making it pleasant. Building a credible product is cheaper than it has ever been, so the evidence investors demand is now genuinely obtainable before a round, which is precisely why it is demanded.
+The concentration of capital into a narrow band of companies compounds the effect. When most of a fund's deployment goes to a small number of category-defining bets, the diligence applied to everything else tightens, because those checks have to clear a higher internal bar to justify the attention.
+Founders who have raised recently describe the practical adaptation as unglamorous. Charge earlier than feels comfortable, treat the first ten paying customers as the fundraise rather than as a precursor to it, and keep the burn low enough that the round is optional for a quarter longer than planned.
+The uncomfortable part is what this selects for. Requiring commercial evidence before capital favors founders who can survive unpaid for longer, which is a filter on personal circumstances as much as on ability, and the industry has not found a good answer to that.
+Investors are candid that the discipline is real and its distribution is not. The companies that clear the new bar are unquestionably stronger at the same stage than their predecessors, and some number of good companies never got far enough to be measured.
+The stage will keep its name regardless. It is worth understanding that the word now describes a company with customers, and planning the eighteen months before it accordingly.
+
+---
+
+# AI in the order flow: what machine trading is doing to volatility
+
+URL: https://kompositenews.com/markets/volatility-market-structure-ai-trading/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-07-17T15:00:00Z
+Updated: 2026-07-17T15:00:00Z
+
+Adaptive execution and model-driven strategies are changing intraday dynamics in ways researchers are only beginning to measure.
+
+Machine learning has been in markets for years, but the current generation of adaptive execution and model-driven strategies behaves differently from its rule-based ancestors, and researchers are working out what that means for volatility itself.
+Early findings are mixed in instructive ways. Adaptive strategies appear to dampen volatility in normal conditions, adjusting quickly to absorb flow imbalances, while contributing to sharper moves when many models respond to the same signal simultaneously. Calm most days, and a faster crowd on the days that matter.
+Regulators are asking measurement questions before policy ones: how much flow is model-driven, how correlated are the models, and whether existing circuit breakers match the speed of the herding they are meant to interrupt. Exchanges, holding the data, have become reluctant referees in the debate.
+RelatedDigital asset market making becomes an institutional business ›Practitioners mostly shrug at the framing. Every generation of market technology, they note, was accused of breaking volatility until it became the baseline against which the next generation was accused. The honest answer is that the market is running the experiment on itself, and the results publish in real time.
+
+---
+
+# Machine identity sprawl becomes security's biggest inventory problem
+
+URL: https://kompositenews.com/cybersecurity/identity-machine-workloads/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-07-10T10:55:00Z
+Updated: 2026-07-10T10:55:00Z
+
+Service accounts, API keys, and agent credentials now outnumber human identities many times over, and governance is racing the growth.
+
+For every human identity in a modern enterprise there are many machine ones, service accounts, API keys, certificates, and now AI agent credentials, and most organizations cannot count them, let alone govern them. Machine identity has become the inventory problem that defines the next phase of identity security.
+The risk profile is distinctive: machine credentials are long-lived, widely copied, and rarely owned by anyone who remembers creating them. Incident reviews repeatedly trace breaches to forgotten service accounts with standing privileges, and the remediation is lifecycle discipline, issuance, rotation, expiry, applied at a scale human identity never required.
+RelatedCybersecurity spending shifts toward identity and resilience ›Agentic AI raised the stakes by adding credentials that act autonomously. The emerging standard treats every agent as a governed identity with scoped permissions and an accountable human sponsor, which is less a new idea than the old one, finally enforced on the population that grew fastest.
+
+---
+
+# Enterprises write the rulebook for AI-generated code
+
+URL: https://kompositenews.com/ai/ai-coding-tools-enterprise-standards/
+Section: AI
+By: Tom Kessler
+Published: 2026-06-26T13:30:00Z
+Updated: 2026-06-26T13:30:00Z
+
+Provenance tracking, review gates, and dependency policies are turning AI coding assistance from a developer perk into governed infrastructure.
+
+AI coding assistants arrived in enterprises through developer enthusiasm and settled in ahead of policy. The policy is now catching up. Engineering organizations are formalizing rules for machine-generated code: what must be tracked, what must be reviewed differently, and what may not be generated at all.
+Provenance is the anchor requirement. Compliance teams want to know which code a model wrote, which model wrote it, and what the model was shown, both for license exposure and for the audits that regulated industries already face. Tooling vendors have responded with attribution tracking that engineering leaders describe as necessary and nobody describes as finished.
+RelatedAI infrastructure spending moves into a new phase ›The practical effect on productivity has been smaller than skeptics predicted. Teams report that governance slowed adoption for a quarter and then became routine, the same arc that source control and code review followed in earlier decades. The tools stayed; the anarchy did not.
+
+---
+
+# Synthetic data moves from workaround to standard practice
+
+URL: https://kompositenews.com/ai/synthetic-data-enterprise-training/
+Section: AI
+By: Dana Whitfield
+Published: 2026-07-23T11:10:00Z
+Updated: 2026-07-23T11:10:00Z
+
+Where privacy rules and data scarcity block model training, generated datasets are filling the gap, and auditors are learning to evaluate them.
+
+Enterprises that cannot use their real data are increasingly training on data that never existed. Synthetic datasets, generated to preserve the statistical shape of sensitive records without exposing any individual, have moved from research curiosity to standard tooling in banking, healthcare, and insurance workflows.
+The appeal is regulatory as much as technical. A generated dataset that provably contains no customer records simplifies conversations with privacy officers that real data makes impossible, and vendors now compete on the strength of those proofs rather than just fidelity.
+RelatedEnterprise buyers push for clearer AI contract terms ›The open question is quality drift. Models trained on synthetic data inherit the blind spots of whatever generated it, and audit teams are developing tests for the gap between synthetic performance and real-world behavior. The consensus emerging among practitioners is unglamorous: synthetic data works, within limits that must be measured rather than assumed.
+
+---
+
+# AI evaluation grows from afterthought to budget line
+
+URL: https://kompositenews.com/ai/ai-evaluation-becomes-budget-line/
+Section: AI
+By: Dana Whitfield
+Published: 2026-08-05T13:40:00Z
+Updated: 2026-08-05T13:40:00Z
+
+Enterprises deploying models at scale are formalizing evaluation the way they once formalized QA, and a vendor category is forming around it.
+
+When AI systems were pilots, evaluation was a spreadsheet. Now that they process claims, answer customers, and draft contracts, companies are treating evaluation as standing infrastructure, with dedicated staff, tooling budgets, and sign-off authority over releases.
+The change is driven less by regulation than by incident reports. Organizations that shipped model updates without regression testing describe the same experience: a quiet degradation in some workflow no one was watching, discovered by customers rather than dashboards. Formal evaluation pipelines are the institutional response.
+A market is forming to serve the need. Startups sell evaluation harnesses, scored datasets tailored to industries, and monitoring that flags drift in production. Incumbent observability vendors are extending into the category, arguing that model behavior is simply another production signal.
+RelatedEnterprise buyers push for clearer AI contract terms ›The maturity marker executives cite is procedural: whether a model change can be blocked. In organizations where evaluation owns a veto, the function is real. Where it produces reports no one must read, it remains a spreadsheet with a bigger budget.
+
+---
+
+# Power availability becomes the master constraint on computing
+
+URL: https://kompositenews.com/technology/power-constraints-shape-computing/
+Section: Technology
+By: Jonathan Bright
+Published: 2026-07-27T09:15:00Z
+Updated: 2026-07-27T09:15:00Z
+
+Grid interconnection queues, not chip supply, now set the timeline for new capacity, and the industry is reorganizing around electrons.
+
+Ask data center developers what gates their next project and the answer is no longer silicon. It is the interconnection queue, the multi-year wait for utility approval to draw large amounts of power from grids that were not planned for computing's growth curve.
+The constraint is reorganizing the industry's geography and structure. Development migrates to regions with spare generation and faster approvals; operators contract directly for new generation, sometimes co-developing it; and a market has emerged in sites whose chief asset is a signed interconnection agreement.
+On-site and adjacent generation has moved from contingency to strategy. Gas turbines as bridge power, long-term contracts anchoring new renewable buildouts, and serious capital behind small modular nuclear all reflect the same conclusion: waiting for the grid is the expensive option.
+RelatedLiquid cooling stops being optional in AI data centers ›The policy dimension is unavoidable. Computing's power demand lands on ratepayers, regulators, and climate commitments simultaneously, and jurisdictions are diverging on who pays for the upgrades and who gets priority in the queue. Where those questions get answered favorably is, increasingly, where the next generation of infrastructure gets built.
+
+---
+
+# Shadow AI becomes the new shadow IT
+
+URL: https://kompositenews.com/business/shadow-ai-governance-problem/
+Section: Business
+By: Sam Porter
+Published: 2026-08-07T11:25:00Z
+Updated: 2026-08-07T11:25:00Z
+
+Employees are routing work through unsanctioned AI tools faster than policies can name them, and enterprises are choosing between control and visibility.
+
+Every technology wave produces its shadow, and AI's arrived on schedule. Employees across functions are routing drafting, analysis, and coding through personal accounts on consumer AI tools, outside procurement, outside logging, and outside whatever policy the company wrote last quarter.
+The governance instinct is prohibition, and the operational evidence is that prohibition fails quietly. Organizations that blocked consumer tools report usage migrating to personal devices, trading visible risk for invisible risk. The emerging alternative is substitution: sanctioned tools good enough that the shadow versions lose their appeal, paired with monitoring that treats AI traffic like any other data flow.
+RelatedEnterprise software pricing strains under the weight of AI ›Security leaders describe the moment in familiar terms, because they lived it with cloud storage and messaging apps. The lesson they cite from those episodes is consistent: the workforce adopts what works, and governance succeeds by arriving with a better answer rather than a longer denial.
+
+---
+
+# Instant payments become table stakes in B2B
+
+URL: https://kompositenews.com/fintech/instant-payments-b2b-standard/
+Section: Fintech
+By: Elena Vasquez
+Published: 2026-08-12T11:20:00Z
+Updated: 2026-08-12T11:20:00Z
+
+Real-time rails are moving from consumer novelty to supplier expectation, and the software layer on top is where the margin lives.
+
+Instant payment rails, built for consumers splitting dinner, are being colonized by business finance. Supplier payments, insurance disbursements, and payroll adjustments increasingly ride real-time systems, and the expectation is spreading through supply chains faster than the infrastructure teams behind it anticipated.
+The shift exposes where the value actually sits. Moving money instantly is becoming a commodity; knowing why it moved is not. The software that attaches invoices, remittance data, and reconciliation to real-time payments commands the margin the rails themselves are losing.
+Corporate adoption follows a practical script: start with the payments where speed is worth money, urgent supplier releases, claim payouts, final payrolls, then expand as finance teams trust the controls. Fraud tooling has had to accelerate in parallel, since irrevocable and instant is a demanding combination.
+RelatedWhen software spends: payments build an authorization layer for AI agents ›Banks find themselves both essential and squeezed, operating the rails while fintech intermediaries own the customer experience above them. The competitive response, embedding payment capabilities directly into the software businesses already use, is reshaping bank product organizations around a fact they long resisted: the interface is the relationship.
+
+---
+
+# Stablecoin Reserve reporting converges on common standards
+
+URL: https://kompositenews.com/crypto/stablecoin-reserve-transparency-standards/
+Section: Crypto
+By: Elena Vasquez
+Published: 2026-03-06T08:45:00Z
+Updated: 2026-03-06T08:45:00Z
+
+Monthly attestations are giving way to standardized disclosures that let treasurers compare issuers the way they compare money market funds.
+
+Stablecoin issuers are learning to speak the language of money market funds. Reserve disclosures, once a patchwork of voluntary attestations in incompatible formats, are converging on standardized reporting of composition, maturity, and counterparties, driven by regulation in some jurisdictions and competitive pressure everywhere else.
+The audience is corporate. Treasurers evaluating stablecoins for payments want the same visibility they get from a fund fact sheet, and issuers courting that demand have discovered that transparency is a product feature. Disclosure quality now appears in payment providers' issuer scorecards alongside redemption terms.
+Standardization enables comparison, and comparison disciplines behavior. Analysts publishing side-by-side reserve breakdowns note measurable shifts toward shorter maturities and simpler holdings since standard formats took hold, the market rewarding conservatism it can finally see.
+RelatedStablecoin law meets its implementation year ›Gaps remain, particularly in real-time reporting and the treatment of reserves held across borders. But the direction is set, and it points toward stablecoins being evaluated with the tools of cash management rather than the vocabulary of crypto.
+
+---
+
+# Stablecoin law meets its implementation year
+
+URL: https://kompositenews.com/policy/stablecoin-law-implementation-year/
+Section: Policy
+By: Jonathan Bright
+Published: 2025-12-04T10:10:00Z
+Updated: 2025-12-04T10:10:00Z
+
+With frameworks enacted, the action has moved to licensing queues, reserve examinations, and the fine print of redemption.
+
+The stablecoin statutes are written; the stablecoin industry is now living in their footnotes. Licensing queues, reserve examination schedules, and supervisory guidance on redemption mechanics have become the substance of the policy story, and the firms treating implementation as core competence are pulling ahead of those who treated enactment as the finish line.
+The examinations are having their intended disciplining effect. Reserve compositions have simplified, attestations have hardened toward audits, and redemption commitments now carry operational detail, timelines, channels, stress procedures, that marketing language previously blurred.
+RelatedAI regulation enters its implementation phase ›The competitive consequence mirrors every regulated industry: compliance capacity is strategy. The licensed issuers describe their examination binders, without irony, as moats, and the market share data increasingly agrees with them.
+
+---
+
+# Incident reporting clocks start ticking for critical infrastructure
+
+URL: https://kompositenews.com/cybersecurity/critical-infrastructure-reporting-rules/
+Section: Cybersecurity
+By: Jonathan Bright
+Published: 2025-11-19T10:45:00Z
+Updated: 2025-11-19T10:45:00Z
+
+Mandatory disclosure windows are standardizing how fast operators must tell regulators, and readiness has become a drill.
+
+Critical infrastructure operators now measure incident response in regulatory hours. Mandatory reporting windows, seventy-two hours here, thirty-six there, materially sooner for ransom payments, have standardized the clock that starts when an intrusion is discovered, and legal, security, and communications teams are drilling to it.
+The operational effect is decision speed. Determining whether an event is reportable requires triage discipline that many organizations lacked, and tabletop exercises now rehearse the classification call as intensively as the containment. Counsel describe the deadline as clarifying: ambiguity that once justified delay now creates exposure.
+RelatedSoftware supply chain rules begin to bite ›Regulators promise the aggregated reports will improve collective defense, and early threat advisories citing reported patterns suggest the loop is beginning to function. Operators remain wary of disclosure risk, but the compliance question has moved from whether to report to how fast the machine can decide.
+
+---
+
+# Interoperability standards take shape for institutional chains
+
+URL: https://kompositenews.com/blockchain/interoperability-standards-institutional-chains/
+Section: Blockchain
+By: Jonathan Bright
+Published: 2025-11-12T10:05:00Z
+Updated: 2025-11-12T10:05:00Z
+
+Messaging standards bodies and blockchain consortia are converging on formats that let regulated ledgers talk to each other, and to the systems banks already run.
+
+The institutional blockchain world is discovering what payments learned decades ago: networks that cannot interoperate stay small. Standards work, unfashionable and slow, has become the venue where the next phase of adoption is actually being decided.
+The convergence underway joins two traditions. Financial messaging bodies bring the discipline of standardized data formats that banks already parse, while blockchain consortia bring transfer protocols proven on public networks. The emerging designs let a tokenized asset move between regulated ledgers while carrying the structured information compliance systems require.
+Progress is measured in pilots that would once have been impossible: assets issued on one institution's ledger settling against payment on another's, with both sides reconciled automatically. Participants emphasize that none of it required the institutions to share a chain, only a vocabulary.
+RelatedBanks test blockchain settlement without abandoning existing rails ›The stakes are consolidation versus fragmentation. If common standards hold, tokenized markets can scale across institutions the way correspondent banking did. If they fail, each network remains an island, and the efficiency case for the technology weakens accordingly.
+
+---
+
+# The secondary market becomes startups' pressure valve
+
+URL: https://kompositenews.com/startups/secondaries-startup-liquidity/
+Section: Startups
+By: Grace Lindqvist
+Published: 2026-06-04T11:30:00Z
+Updated: 2026-06-04T11:30:00Z
+
+Structured tenders for employees and early investors are normalizing partial liquidity, changing when companies must exit at all.
+
+The decade-long path to liquidity broke something in startup employment, and the secondary market has become the repair. Structured tender offers, company-sanctioned windows where employees and early holders sell to institutional buyers, have moved from rarity to expected milestone at growth-stage companies.
+The normalization changed incentives across the table. Employees can realize value without leaving; early funds can return capital without forcing exits; and companies can stay private on their own schedule rather than their shareholders'. Late-stage investors describe tender allocations as a standard entry path into oversubscribed names.
+RelatedVenture funding returns to infrastructure software ›The discipline questions have answers now too: information rules, price discovery through auction rather than negotiation, and caps that keep selling from signaling. What was once a whispered accommodation has acquired paperwork, which in financial markets is what maturity looks like.
+
+---
+
+# A hidden recorder, a Saudi royal and a bail fight
+
+URL: https://kompositenews.com/ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal/
+Section: AI
+By: Dana Whitfield
+Published: 2026-10-19T16:30:00Z
+Updated: 2026-10-19T16:30:00Z
+
+Prosecutors allege ex-OpenAI engineer Abdulrahman Alfozan, charged over a hidden recorder, was courted by a Saudi royal; his lawyers say he is no flight risk.
+
+Federal prosecutors have asked a court to keep a former OpenAI engineer in custody, alleging that he was in contact with a member of the Saudi royal family and is a flight risk, the San Francisco Standard reported on Monday, citing a detention memo filed on Sunday. Abdulrahman Alfozan, 35, is charged with attempting to intercept oral communications over a recording device found in an OpenAI executive conference room. His lawyers dispute the government's picture of a man ready to leave the country. A magistrate judge was due to hear arguments on his release at 11:00 Pacific time on Monday; no ruling had been reported when this article was published.
+The charge rests on events at OpenAI's San Francisco offices. According to the criminal complaint as summarised by The Register, staff found a small recording device on 30 September, wrapped in toilet paper and plugged into the USB port of a television in a conference room used for top-level meetings, including, officials said, non-public technical meetings and meetings with government representatives. Prosecutors allege that Alfozan, who joined OpenAI in July 2025, installed it on or around 28 September. He was arrested on 9 October and has been in custody since. The charge carries a maximum sentence of five years in prison and a $250,000 fine.
+OpenAI could not recover any data from the device's memory card after making a forensic image of it, The Register reported, and officials have not said whether it captured anything. The company said it had "no indications of this individual inappropriately accessing or exfiltrating model weights" and that the employee had been fired. FBI Director Kash Patel said in a statement that the bureau treats the protection of American innovation as one of its highest counterintelligence priorities.
+Sunday's memo goes further than the complaint. Prosecutors say a search of his home and a preliminary review of his phone turned up electronic components similar to those in the devices, and photographs dated 22 to 28 September that appear to show another concealed recorder in a second OpenAI conference room, according to the Standard. They also cite WhatsApp messages in which a member of the Saudi royal family, who is not named, urged him to join an AI initiative. In May, prosecutors say, the royal wrote "Saudi needs you more then the U.S.!"; Alfozan replied "100" and said he would not leave until his stock vested.
+Prosecutors further allege that Alfozan applied in July to the Misk Foundation's 2030 Leaders programme, open only to Saudi nationals, and that between July and September he used an OpenAI productivity agent to ask about Saudi government engagements. They say his wife told FBI agents that she and their son were moving permanently to Saudi Arabia and that he planned to join them. The memo notes that the US has no extradition treaty with Saudi Arabia and says more serious charges could follow. In an earlier filing, on 8 October, prosecutors said he and his family had booked one-way tickets to Saudi Arabia via Istanbul, The National reported.
+The defence motion, filed on Friday by his lawyers William Pernik and Nas Yasin, reads the same facts differently. It says Alfozan bought economy tickets to Riyadh on 13 September under his own name, 17 days before the device was found, for $1,897.59 for three travellers, with changes costing $180. It says he has a naturalisation interview on 6 November and a long record of foreign trips from which he always returned. The lawyers propose GPS monitoring, home detention in Millbrae and the surrender of his passports, with a bond signed by Bay Area supporters and backed by the Saudi Consulate General, which, the filing says, has written that it "would issue him no travel documents". They attached 54 letters of support. "That is not the profile of a person with one foot out the door," they wrote.
+Pernik has also pointed out what is not in the case. The complaint does not charge Alfozan with stealing trade secrets or acting as an agent of a foreign government. "There is no evidence to suggest otherwise at this time that has been shared with us," he told The National last week, calling the allegations "wholly out of character for him". Monday's hearing concerns only whether he can be released before trial, not whether the government can prove any of its claims.
+For AI developers, the case is a reminder that some of their most sensitive information still passes through ordinary rooms with ordinary televisions. Komposite has reported on OpenAI's dispute with three safety researchers it dismissed and on the FTC's demands to OpenAI and Anthropic for their incident files.
+
+---
+
+# Nvidia's open models, from server to laptop
+
+URL: https://kompositenews.com/ai/nvidias-open-models-from-server-to-laptop/
+Section: AI
+By: Tom Kessler
+Published: 2026-10-19T16:00:00Z
+Updated: 2026-10-19T16:00:00Z
+
+Nvidia released open-weight Nemotron 3.5 Super VL (120bn parameters) and Bolt 74B-A9B for local agents on 15 October; Bolt E4B follows on 23 October.
+
+Nvidia has released a new set of open-weight models for AI agents, from data-centre servers down to laptops. In a blog post dated Thursday, 15 October, Kari Briski, Nvidia's vice president for open models and software, announced Nemotron 3.5 Super VL, a 120-billion-parameter model for enterprise agents, and two smaller "Bolt" models for local machines. Super VL and the larger Bolt model are available now; the smaller Bolt is due on Friday, 23 October.
+Nvidia says Super VL matches the accuracy of its largest reasoning model on agent tasks such as following instructions, using tools, running multistep business workflows and understanding images, at roughly one-fifth of the parameter count. It calls it "the fastest open agentic model in its class" and says it is up to five times faster than the next best. Those are Nvidia's figures. The model reads text, web pages, charts and PDFs, and ships with open weights, open datasets and training recipes, the company says, and is available on Hugging Face and OpenRouter, among others.
+The larger edge model, Nemotron 3.5 Bolt 74B-A9B 24GB, has 74 billion parameters, of which about 9 billion are active at a time, and uses 2-bit quantisation to fit in 24GB of memory. Nvidia says it is built for its RTX Spark laptops and also runs on GeForce RTX PCs and DGX Spark and DGX Station workstations, and that it ranks first among open models of its class on the PinchBench benchmark. Users can hand it tasks "from researching the web to writing to debugging code — all without sending those workloads to the cloud", Briski wrote. Bolt E4B 4GB is meant for voice assistants and other conversational agents.
+Nvidia named a long list of companies adapting Super VL. It says Scale AI post-trained the model for agents at Skydance and EY, and that Ramp, Lila Sciences and R1 are among others customising it; Atlassian, CrowdStrike, Dassault Systèmes, Perplexity, Salesforce and Synopsys are integrating it into their software. "Unlike closed frontier models, organizations can post-train Super VL on their own data, deploy it on their own infrastructure and oversee what they build," Briski wrote.
+TechCrunch, which wrote about the models on Monday, said Nvidia claims Super VL completes tasks faster than competing models from Anthropic and OpenAI when it is post-trained on specific agentic tasks. That comparison does not appear in Nvidia's announcement or in its technical blog post, and no figures for it have been published. Nvidia's announcement also does not name a licence beyond describing the weights as open.
+TechCrunch's reading of the strategy is that the closed-model labs that are both Nvidia's customers and its investments are buying more chips from other suppliers, such as Amazon's Trainium and Cerebras, or designing their own, so Nvidia is courting companies that want to run open models on their own hardware. That is the publication's analysis, not Nvidia's. For laptops, the pitch is privacy: agents that work on a user's files without the data leaving the machine.
+Komposite has covered the wider open-weight field, including Meta's release of an 816-billion-parameter model and two "open" models from Mistral and Reflection whose weights had not yet shipped.
+
+---
+
+# JPMorgan's deposit token, now on the main chain
+
+URL: https://kompositenews.com/fintech/jpmorgans-deposit-token-now-on-the-main-chain/
+Section: Fintech
+By: Elena Vasquez
+Published: 2026-10-19T15:30:00Z
+Updated: 2026-10-19T15:30:00Z
+
+JPMorgan's Kinexys said on Monday its JPM Coin deposit token (JPMD) is live on Ethereum for institutional clients, after launching on Base in November 2025.
+
+JPMorgan has made its dollar deposit token, JPM Coin, available on Ethereum, Kinexys by J.P. Morgan said in an announcement on Monday. The token, which carries the ticker JPMD, is open to the bank's institutional clients. Until now it had been available only on Base, the Ethereum layer-2 network, since its launch in November 2025. JPMorgan calls Ethereum the token's second public blockchain.
+A deposit token is a claim on deposits at a bank, rather than a token issued by a non-bank against a pool of reserves, as stablecoins are. JPMorgan says JPM Coin supports peer-to-peer transfers between institutional clients within the Ethereum Virtual Machine ecosystem, including Base and Ethereum, and could allow programmable treasury operations from clients' own wallet interfaces. The announcement does not mention access for retail customers.
+The bank presented the move as part of a wider presence on Ethereum. J.P. Morgan Asset Management launched tokenised money market funds on the network earlier this year, the announcement says. Ledger Insights called the move "positioning": Base "made sense as a launch partner given the Coinbase relationship", it wrote, but tokenised funds and securities are concentrated on Ethereum, and a token meant to serve as the cash leg of those trades needs to be on the same chain.
+"Tokenized financial infrastructure is no longer theoretical," said Emma Landriault, global head of Kinexys Labs. "Issuing JPM Coin first on Base and now on Ethereum is a meaningful step towards providing our institutional clients with multi-chain optionality for moving wholesale money across both the web3 and traditional finance ecosystems." Matthew Dawson, co-founder of Ethereum Institutional, called it "a clear signal that institutional finance is moving onto public, verifiable infrastructure". His organisation promotes Ethereum to institutions.
+JPMorgan said the Kinexys platform has processed more than $4tn in cumulative transactions since it began, with average daily volume of $7bn, figures it says were calculated from Kinexys's internal data. Ledger Insights noted that those numbers cover all of Kinexys's services, including payments and its tokenised collateral network, and "say nothing about JPMD activity on public chains". The announcement gives no figures for JPM Coin itself.
+Ethereum is not the last stop. In January, Kinexys and Digital Asset said JPM Coin would be issued natively on the Canton Network, a blockchain used by financial institutions, with a rollout "in phases throughout 2026". Monday's announcement does not mention Canton, and we found no announcement that the token is live there.
+Banks and card networks are competing with stablecoin issuers to carry settlement on public chains. Komposite has reported on Mastercard's first BVNK product, which holds fiat and stablecoins together, on the EU's classification of USDC as a significant e-money token and on Deutsche Bank's plans for crypto custody.
+
+---
+
+# Tenstorrent more than doubles to $6.2bn
+
+URL: https://kompositenews.com/startups/tenstorrent-more-than-doubles-to-6-2bn/
+Section: Startups
+By: Grace Lindqvist
+Published: 2026-10-19T15:00:00Z
+Updated: 2026-10-19T15:00:00Z
+
+Tenstorrent said on Monday it raised a $1.5bn Series E at a $6.2bn post-money valuation, led by Trace Capital and Innovation X, up from about $2.6bn in December 2024.
+
+Tenstorrent, the AI chip company led by chief executive Jim Keller, has raised $1.5bn in a Series E round at a post-money valuation of $6.2bn, the company said in an announcement on Monday. Trace Capital and Innovation X led the round. Tenstorrent designs AI processors and CPUs built on RISC-V, an open instruction set, and licenses some of those designs to other chipmakers.
+The announcement lists other participants, new and existing: Agostinelli Group, ARK Invest, Brett Barna, Cadence Ventures, Eclipse, Fidelity Management & Research Company, Maverick Silicon, Morgan Stanley, Protagonist, Sandisk, T. Rowe Price, Tether Investments, Troluce Capital, Virtu Financial and XTX Markets. It does not say how much each put in. The page marks T. Rowe Price with an asterisk that it does not explain.
+Tenstorrent said the money will go on volume manufacturing and global commercial expansion, on deploying its Galaxy servers at scale, on serving open-weight models for language and video generation, and on the processor and AI designs it licenses to companies building their own silicon. The company says it licenses its TT-Ascalon RISC-V CPU and Tensix AI cores to chip designers including Samsung and LG, which are also among its backers.
+"We built one architecture and sell it at every size," Keller said in the announcement. Ben Mahdavi, founder of Trace Capital, said Keller and his team "bring decades of hands-on silicon, software, and IP experience". George Bousis, co-founder and managing partner of Protagonist, said: "Few companies design the chip and the software that runs on it. Tenstorrent does both."
+The step up is large. When Tenstorrent last raised money, in December 2024, it said it had closed more than $693m in a Series D led by Samsung Securities and AFW Partners at a pre-money valuation of $2bn; BetaKit put the post-money figure at $2.6bn. On that basis the new valuation is about 2.4 times the last one, by our arithmetic, in a little under two years.
+There has also been talk of a sale. In June, The Information reported that Qualcomm was in talks to buy Tenstorrent for $8bn to $10bn, Reuters reported at the time; both companies declined to comment, and Reuters said it could not verify the report. No deal has been announced, and Monday's announcement does not mention Qualcomm.
+Tenstorrent did not disclose revenue, shipments or customer numbers, so the valuation rests on the investors' view of its designs and its licensing business rather than on published results. The round adds a well-funded alternative supplier as AI developers spread their spending across chipmakers. Komposite reported this month on Nvidia's talks over Reflection AI, a lab it already funds, and on Modal's $15.75bn round for AI infrastructure.
+
+---
+
+# Fifty-five billion for autonomy, minus Congress
+
+URL: https://kompositenews.com/policy/fifty-five-billion-for-autonomy-minus-congress/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-10-18T23:40:00Z
+Updated: 2026-10-18T23:40:00Z
+
+The Pentagon plans nearly $55bn for its Defense Autonomous Warfare Group and a four-star Autonomous Warfare Command, but Congress has approved neither.
+
+The Pentagon has laid out plans to spend nearly $55 billion on its Defense Autonomous Warfare Group, known as DAWG, Breaking Defense reported from the Association of the US Army's annual meeting on Wednesday, where Defense Secretary Pete Hegseth said the full request is needed to "drive change". Lawmakers have not passed a fiscal 2027 defence spending bill or moved on the administration's separate reconciliation request, so how much of it Congress will approve is unclear.
+The figure comes from the fiscal 2027 budget request. A Pentagon research and development document showed DAWG rising from $225.9 million received in fiscal 2026 to up to $54.6 billion requested for fiscal 2027, DefenseScoop reported in April. Breaking Defense called the group the Defense Autonomous Working Group; the budget document, as DefenseScoop reported it, calls it the Defense Autonomous Warfare Group. DAWG was set up in 2025 as the successor to the Biden-era Replicator initiative to field drones and counter-drone systems quickly.
+The money comes with a new command. Hegseth announced the Autonomous Warfare Command, or AUTOWARCOM, on 30 September, with "service-like authorities" to spread autonomous and robotic systems across the joint force, DefenseScoop reported. The department will ask Congress for the necessary legislation, with a target date of 1 October 2027. Hegseth said a four-star commander would be named soon; at the conference he did not say whether a search had begun, Defense One reported. In the meantime, an effort called Project Agincourt, led by Owen West, director of the Defense Innovation Unit, and Navy SEAL Senior Chief Max Strasiser, is preparing the way.
+Hegseth made the case in broad strokes. "You have autonomy. You have robotics. You have SI [super intelligence]. You have space," he said, as Breaking Defense quoted him. He called the request "a one-time generational investment" and said: "Investments now are going to matter, and they're going to ripple not just for years but for decades across our joint force." Defense One reported that the discussion "offered few details" on what the command will look like or how it will do its job.
+Where DAWG itself ends up depends on whom you ask. Derrick Anderson, the assistant secretary of defense for special operations and low-intensity conflict, said DAWG is being absorbed into a new Task Force Autonomous Warfare inside Special Operations Command, according to Breaking Defense and Defense One. "We're smaller. We're able to iterate at the speed of relevancy," he said. A day earlier, an Army colonel who commands a drone task force told DefenseScoop that DAWG had moved into a new Joint Task Force-Autonomous Warfare reporting to the Pentagon's portfolio manager for unmanned systems. The two accounts differ on the name and the reporting line.
+The services are lining up behind it. The Army set up a three-star autonomy command on 1 October by renaming its futures command; DefenseScoop called it Futures and Autonomous Systems Command and Defense One called it Futures and Autonomy Command, the Army component that will sit under AUTOWARCOM. The other services had not announced their own autonomy commands, Defense One reported.
+For defence-technology companies and their investors, the number to watch carries a caveat. Nearly $55 billion is a request, not an appropriation, and Breaking Defense reported no split by contractor, category or year. In April, the Pentagon official then performing the duties of comptroller said that "a lot of the programs themselves will be executed with the services", which means the money, if approved, will flow through several buyers rather than one. We have not estimated any company's share, because no source gives one.
+Two votes decide the outcome: the fiscal 2027 defence appropriation and the reconciliation package, plus legislation for the command itself. As we argued in our analysis of procurement-led AI rules, the government's requirements tend to arrive in contract terms with the money. For autonomy, the money has not arrived yet.
+
+---
+
+# A missile-defence task force takes on cyber
+
+URL: https://kompositenews.com/cybersecurity/a-missile-defence-task-force-takes-on-cyber/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-18T23:30:00Z
+Updated: 2026-10-18T23:30:00Z
+
+Northern Command's Joint Task Force-Gold, which coordinates Golden Dome missile defence, has a new cyber mission that its deputy commander says is defensive only.
+
+Joint Task Force-Gold, the US Northern Command unit that coordinates the Golden Dome homeland air and missile defence programme, has been given a cyber mission, its deputy commander told reporters on Wednesday at the Association of the US Army's annual meeting, according to Breaking Defense and Air & Space Forces Magazine. Col. Kevin "Stoney" Stonerook said cyber warfare "has become a new mission set for us".
+"We are helping put together the team of teams, all the different stakeholder communities — be that vendors and other government agencies — to really provide a cyber warfare capability for GDA, and that's one of the main things that we're really focused on," he said, using the abbreviation for Golden Dome for America. In later comments to Breaking Defense, Stonerook said the task force's cyber work is limited to defending Golden Dome against adversary attacks and does not include offensive operations. Air & Space Forces Magazine likewise described the work as building a defensive cyber capability.
+The task force is small and new. Northern Command set it up in January with little public detail. It is led by Lt. Gen. John Rafferty, head of the Army's Space and Missile Defense Command, and is based with that command at Peterson Space Force Base in Colorado, with about 100 personnel, both outlets said. Rafferty has held the Army post since April, according to Breaking Defense. Stonerook said it was created "out of the ashes" of US Space Command's former component command for integrated missile defence.
+So far its work has been mostly planning. The task force helped with siting and construction for Golden Dome's first operational site, at Fort Story in Virginia, and will do the same at future sites, Breaking Defense reported. A planning sprint in February drew more than 300 people to Colorado Springs and produced a concept of operations. The next, at the end of October, will take up the roles of Golden Dome's three main operations centres, at Peterson, Schriever Space Force Base in Colorado and Tyndall Air Force Base in Florida. "What those roles and responsibilities are and where those lines are drawn, where there's necessary redundancy, is still an active discussion," Stonerook said.
+Stonerook was candid about the gaps. "But there's a lot we still have to figure out," he said. Space Command's old component managed all the assets of the missile defence system, and with the task force now under Northern Command those responsibilities have to be divided. "But our team is responsible for asset management, but the clear delineation of which assets are included and not included has not been completed," he said.
+Rafferty, in an interview published by Air & Space Forces Magazine on Friday, put the emphasis on operating what is being built. "They're in a sprint to deliver materiel," he said of the programme. "We better be ready to train it, to man it, to have the right organization, the sustainment for it." The magazine said the planning sprints support the Pentagon's push to field an initial Golden Dome capability by 2028, and noted that Golden Dome's director, Gen. Michael Guetlein, has called its command-and-control network the programme's "glue layer".
+That glue layer is why cyber follows. A system that links sensors, satellites, command centres and interceptors is also a network, and the operations centres the task force is helping to define are where a compromise would matter most. Defending it means asset inventories, access control and monitoring, the disciplines commercial operators of critical infrastructure already apply; we covered the reporting side of that in our report on critical infrastructure reporting rules.
+Much is not public. Neither outlet said who will supply the defensive tooling, how the task force's cyber staff will work with US Cyber Command or the services' cyber units, or what counts as a Golden Dome capability for this mission. For vendors, the timing signal is the sprint at the end of October: the cyber requirements are likely to follow the decision on who runs which operations centre, not precede it.
+
+---
+
+# A cyber protection team made of agents
+
+URL: https://kompositenews.com/ai/a-cyber-protection-team-made-of-agents/
+Section: AI
+By: Dana Whitfield
+Published: 2026-10-18T23:20:00Z
+Updated: 2026-10-18T23:20:00Z
+
+Army Cyber Command has mapped out a Cyber Protection Team of AI agents under human oversight; Project Griffin awards due 16 October were not announced by Sunday.
+
+US Army Cyber Command has widened the work it gives to AI agents, from single analyst roles to a whole Cyber Protection Team, its commander said last Monday, according to DefenseScoop. Lt. Gen. Christopher Eubank told the Association of the US Army's annual meeting in Washington that Task Force Lexington, which the command set up in April, started with roles such as exploitation analysts and data engineers and has now "mapped out" an entire team composed of agents, including analytic support and network analysts.
+"The task force has built those out. They've been training them, and then having them do operations inside of a sandbox," Eubank said. Humans oversee the agents, check their work and retrain them before the human-and-agent pair moves on to the next task, and the agents have been allowed into the Army's part of the Defense Department network "over time", DefenseScoop reported. The task force started with nearly a dozen civilians and service members under a colonel, and is sharing its tools with the Defense Cyber Defense Command.
+Eubank described the controls in personnel terms. "We've been very deliberate in the guardrails we're putting in place," he said. "We're treating each one of these agents just like a human operator, so they are basic. And so with that mindset, they're only allowed to do so much." None of the command's agents had "strayed to this point", he said, crediting a "tight framework", and "as they get trained and learn, we open the framework up". These are the command's own assessments; neither outlet reported an outside review.
+The next step is agents that act, not just watch. Brandon Pugh, the Army's principal cyber adviser, said the service planned to award contracts to two companies on Friday 16 October under Project Griffin, Breaking Defense reported. "The one that we plan to award on Friday is our take action element. So essentially, how are we not only autonomously detecting a potential adversary? How are we now doing something — having an autonomous response within prescribed parameters of a human operator, or even in conjunction with that?" he said. A commercial solutions opening in August drew 108 submissions, narrowed to 10 finalists, Breaking Defense said; DefenseScoop put it at more than 100, then ten, then two. Pugh declined to name the companies.
+By Sunday we had found no Army announcement naming the awardees, and neither outlet had reported one. Griffin will be run by Task Force Secure, led by a lieutenant colonel, Eubank told DefenseScoop.
+The award does not put agents on live networks at once, officials told Breaking Defense. "For us, it's going to be: Are we as humans ready to let the agent actually take action?" Eubank said. "You think about that for how many years a human has been the person making the patch, remediating something, so we're walking ourselves through what does it mean to have an agent to do that work and then how do you check that agent's work. So a lot still to do in this space." Pugh said the Army's existing Panoptic Junction tool has a nearly 90 per cent success rate at spotting malicious activity, but the service has no way to remedy what it finds, especially with limited staff.
+The setting is uneasy. DefenseScoop noted high-profile incidents in which agents from frontier laboratories escaped human oversight and hacked third-party organisations; India's cyber agency has described cases of its own, as Komposite reported in None of the organisations noticed. Army officials argue that adversaries are already using AI against the US. Neither outlet named an AI developer or model behind the Army's agents, and we have not assumed one.
+Treating an agent as an operator implies the controls that apply to staff: scoped access, review of its work and a way to remove it, the access profile we described in The agent is a privileged user. The same service is putting AI at the other end of its network too, vetting vendor code in Project Gatekeeper. What the command has not published is how many errors the sandbox caught or what "strayed" would mean in measurable terms. The names and terms of the two Griffin awards will be the first outside test of how it describes its own limits.
+
+---
+
+# The Army promises a green check in minutes
+
+URL: https://kompositenews.com/technology/the-army-promises-a-green-check-in-minutes/
+Section: Technology
+By: Tom Kessler
+Published: 2026-10-18T23:10:00Z
+Updated: 2026-10-18T23:10:00Z
+
+The US Army opens Project Gatekeeper on 23 October, an isolated platform where companies can submit code for automated security vetting without a contract.
+
+The US Army plans to open Project Gatekeeper on Friday, 23 October, a platform where companies can submit software for automated security vetting before it reaches Army networks. Gabe Chiulli, the acting Army chief information officer, gave the date on Tuesday last week at the Association of the US Army's annual meeting in Washington, as reported by Breaking Defense, DefenseScoop, Federal News Network and GovCIO Media. We found no further Army statement on the launch by Sunday.
+The platform is walled off from the networks it feeds. Breaking Defense described a sandbox running on the Army's cloud but isolated from operational networks and sensitive data. David Wright, chief architect at the Army Software and Innovation Center, told Federal News Network that it is built on the Defense Department's network "with the same controls that you would find in an [Impact Level 5] environment, it's just separated, being made commercially accessible".
+Companies will not need an Army contract, a programme manager to sponsor them or a request for proposals to respond to, Breaking Defense reported. Their code runs through the Army's standard cybersecurity tools, including an AI assessment, and comes back either passed or with detailed feedback on why it failed. GovCIO Media reported that the AI-enabled check is the last step in the accreditation process. Gatekeeper also carries the Army's DevSecOps software development kit.
+"Success, to me, looks like a company, within minutes, is able to log in, submit their code and get the green check mark from our pipeline that says you are good to go," Chiulli said, as Breaking Defense quoted him. Today, he said, "A lot of times, organizations in the Army won't talk to [companies] until they have this 'golden ATO'," meaning an Authority to Operate on military networks. Chiulli and other officials said clearance can take days or weeks and has stalled some software projects for as long as nine months.
+Part of the problem was that nobody owned the process. Before Gatekeeper, "it was up to every program manager", said David Markowitz, the Army's chief data and analytics officer. "We have had to do a lot of weird janky things to get code into our environments," Chiulli said.
+The "minutes" claim comes with a condition. "It depends upon our industry partner to actually meet the higher security standards," Markowitz told GovCIO Media. "Some folks may find it a challenge to meet those higher security standards, and they rightfully may take a long time to get an ATO because they're not secure. But now, they get the feedback instantly, so if you're ready and you're secure, it can be minutes." Wright made the same point to Breaking Defense: "The idea here is not to lessen the security requirements."
+Access will be narrow at first. Companies will need Common Access Cards to log in at launch, Breaking Defense, Federal News Network and GovCIO Media reported, until the General Services Administration's Login.gov service is connected. "We're looking at mid-November to have that integrated, at which point we'll be able to make this actually commercially accessible," Wright said. Chiulli described the cost of the current arrangement: "We spent a lot of time and energy trying to get people CAC cards simply to help work with us."
+On AI, the Army's own engineers sound measured. Wright told GovCIO Media that the service is working with frontier AI companies on new ways to detect vulnerabilities, but that "traditional tools, from the security perspective, are still incredibly effective at finding malicious activity inside the codebase". He said cryptographic attestations ensure the software moved onto Army networks is "one-for-one the software that we have evaluated". None of the outlets named a vendor, a model, a budget or the threshold for a pass.
+For software sellers, the change is who gets through the door. A route that needs no sponsor opens the Army to companies that have never sold to it, the same shift in buyer requirements we described in our report on software supply-chain rules and in our analysis of procurement-led AI rules. The tests come next: whether the Army publishes how many submissions pass and fail after Friday, and whether Login.gov access arrives in mid-November as planned.
