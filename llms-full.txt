@@ -344,6 +344,35 @@ RelatedVenture funding returns to infrastructure software ›The discipline ques
 
 ---
 
+# Thirty billion, ahead of Anthropic's listing
+
+URL: https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/
+Section: AI
+By: Dana Whitfield
+Published: 2026-10-20T20:45:00Z
+Updated: 2026-10-20T20:45:00Z
+
+OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.
+
+OpenAI is trying to secure investor commitments for a round of about $30bn that could value it at more than $1.4tn before Anthropic's expected stock market debut in mid-November, Reuters reported on Monday, citing people familiar with the matter. No terms have been announced.
+Reuters attributed the valuation and the timetable to two people, and the size of the round to one of them. OpenAI and SoftBank Group declined to comment to Reuters, and Anthropic and MGX, the Abu Dhabi investment firm, did not immediately respond. We found no public statement from either OpenAI or Anthropic on the report by Tuesday afternoon. The mid-November date is Reuters' description of an expected debut; none of the sources we read gives a date announced by Anthropic.
+SoftBank, MGX and other existing OpenAI backers are in talks to join the round, one of the people told Reuters. OpenAI met long-only funds and sovereign wealth funds last week while Anthropic was hosting its own investor day, and the round is expected to move faster than is usual for a raise of its size, the people said. SoftBank had already completed a $30bn investment in OpenAI's previous round, Komposite reported on 9 October, citing Bloomberg, which had described OpenAI's talks at about $1.4tn.
+Why the hurry? According to Reuters' sources, the fast timetable partly reflects a wish to get ahead of Anthropic, because the two labs increasingly draw on the same investors, and to make use of OpenAI's recent revenue growth. One person said OpenAI wants to finish before Anthropic's financial disclosures give investors a fuller picture of its business and invite comparisons. Some investors see the push as an attempt to lock in money that might otherwise go to Anthropic's offering, the people said. Investors familiar with OpenAI told Reuters it also needs capital for its infrastructure commitments and its balance sheet, in case a weaker IPO market delays its planned 2027 listing. OpenAI has not stated any of these reasons itself.
+What is OpenAI telling investors? That growth sped up after the launch of its GPT-6 Astra model, taking annualised revenue, the current monthly rate multiplied by twelve, to $50bn, with $70bn expected by the end of the year, according to one person. It has also cut prices on its cheaper models, which it says has lifted usage. These are the company's own figures as relayed by a source, not audited results. Earlier this month OpenAI told investors its run rate was near $50bn, not the roughly $70bn that had been reported.
+Anthropic's numbers come from the same report. Its annualised revenue reached roughly $65bn by July, Reuters previously reported, and it told investors that third-quarter revenue rose to $16.8bn from $11.6bn in the second quarter. Reuters said slowing month-to-month growth had raised concerns among investors about Anthropic's valuation, and reported last week that some existing and prospective investors argued for a debut valuation closer to $1.5tn than the $2tn the company wants, after third-quarter results fell short of expectations. Those are investors' views as reported, not the company's.
+As reported by ReutersOpenAIAnthropic
+Valuation soughtMore than $1.4tn, in a round of about $30bn (people familiar)$2tn desired at listing; some investors argued for about $1.5tn
+Last private mark$852bn in March, after a $122bn roundNot given in the report
+Revenue claim$50bn annualised; $70bn expected by year-end (company pitch, per one person)About $65bn annualised by July; Q3 revenue $16.8bn, up from $11.6bn in Q2 (told investors)
+How revenue is bookedNet: partners' shares subtracted upfrontOpenAI says gross; Anthropic says it follows established accounting practices
+ListingPlanned for 2027Debut expected in mid-November
+The two companies count revenue differently, and each defends its own method. OpenAI records revenue net, subtracting partners' shares upfront, and has accused Anthropic of inflating its revenue by counting the full, gross value of contracts sold through third-party cloud providers, Reuters reported. Anthropic told Reuters earlier that it follows established accounting practices. Until both publish audited accounts on a common basis, the headline figures above are not directly comparable. One person told Reuters that Anthropic's disclosures could lead investors to press OpenAI's chief financial officer, Sarah Friar, for more detail on its growth and outlook.
+"OpenAI could want to set its own valuation and not have to worry about a comp (comparison)," Edward Best, co-chair of capital markets at the law firm Willkie Farr & Gallagher, told Reuters. "It's really a two-horse race in terms of being public." Reuters noted that Best is not working on the deal and spoke hypothetically.
+The price has moved quickly. OpenAI was last valued at $852bn in March, after a $122bn round that included Amazon's agreement to invest up to $50bn, Reuters said; in September it was in early talks at more than $1.2tn. By our arithmetic, $1.4tn is about 64 per cent above the March mark, 28 times the $50bn run rate and 20 times the $70bn OpenAI expects.
+The backdrop is less friendly than it was. Bankers and investors told Reuters that several companies preparing to list have chosen to wait until after Anthropic's IPO, and that some late-stage companies are timing private rounds to avoid it. AirTrunk REIT, Firmus and SB Energy have pulled or paused listings, and members of the Philadelphia Semiconductor Index have lost $1.6tn in market value in less than two weeks, Reuters said. Anthropic, which plans to list as a public benefit corporation, said on Sunday that it will commit five per cent of its shares to a public benefit fund, subject to stockholder approval.
+
+---
+
 # Seventy-two hours to report an AI incident
 
 URL: https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/
@@ -502,23 +531,3 @@ The bank presented the move as part of a wider presence on Ethereum. J.P. Morgan
 JPMorgan said the Kinexys platform has processed more than $4tn in cumulative transactions since it began, with average daily volume of $7bn, figures it says were calculated from Kinexys's internal data. Ledger Insights noted that those numbers cover all of Kinexys's services, including payments and its tokenised collateral network, and "say nothing about JPMD activity on public chains". The announcement gives no figures for JPM Coin itself.
 Ethereum is not the last stop. In January, Kinexys and Digital Asset said JPM Coin would be issued natively on the Canton Network, a blockchain used by financial institutions, with a rollout "in phases throughout 2026". Monday's announcement does not mention Canton, and we found no announcement that the token is live there.
 Banks and card networks are competing with stablecoin issuers to carry settlement on public chains. Komposite has reported on Mastercard's first BVNK product, which holds fiat and stablecoins together, on the EU's classification of USDC as a significant e-money token and on Deutsche Bank's plans for crypto custody.
-
----
-
-# Tenstorrent more than doubles to $6.2bn
-
-URL: https://kompositenews.com/startups/tenstorrent-more-than-doubles-to-6-2bn/
-Section: Startups
-By: Grace Lindqvist
-Published: 2026-10-19T15:00:00Z
-Updated: 2026-10-19T15:00:00Z
-
-Tenstorrent said on Monday it raised a $1.5bn Series E at a $6.2bn post-money valuation, led by Trace Capital and Innovation X, up from about $2.6bn in December 2024.
-
-Tenstorrent, the AI chip company led by chief executive Jim Keller, has raised $1.5bn in a Series E round at a post-money valuation of $6.2bn, the company said in an announcement on Monday. Trace Capital and Innovation X led the round. Tenstorrent designs AI processors and CPUs built on RISC-V, an open instruction set, and licenses some of those designs to other chipmakers.
-The announcement lists other participants, new and existing: Agostinelli Group, ARK Invest, Brett Barna, Cadence Ventures, Eclipse, Fidelity Management & Research Company, Maverick Silicon, Morgan Stanley, Protagonist, Sandisk, T. Rowe Price, Tether Investments, Troluce Capital, Virtu Financial and XTX Markets. It does not say how much each put in. The page marks T. Rowe Price with an asterisk that it does not explain.
-Tenstorrent said the money will go on volume manufacturing and global commercial expansion, on deploying its Galaxy servers at scale, on serving open-weight models for language and video generation, and on the processor and AI designs it licenses to companies building their own silicon. The company says it licenses its TT-Ascalon RISC-V CPU and Tensix AI cores to chip designers including Samsung and LG, which are also among its backers.
-"We built one architecture and sell it at every size," Keller said in the announcement. Ben Mahdavi, founder of Trace Capital, said Keller and his team "bring decades of hands-on silicon, software, and IP experience". George Bousis, co-founder and managing partner of Protagonist, said: "Few companies design the chip and the software that runs on it. Tenstorrent does both."
-The step up is large. When Tenstorrent last raised money, in December 2024, it said it had closed more than $693m in a Series D led by Samsung Securities and AFW Partners at a pre-money valuation of $2bn; BetaKit put the post-money figure at $2.6bn. On that basis the new valuation is about 2.4 times the last one, by our arithmetic, in a little under two years.
-There has also been talk of a sale. In June, The Information reported that Qualcomm was in talks to buy Tenstorrent for $8bn to $10bn, Reuters reported at the time; both companies declined to comment, and Reuters said it could not verify the report. No deal has been announced, and Monday's announcement does not mention Qualcomm.
-Tenstorrent did not disclose revenue, shipments or customer numbers, so the valuation rests on the investors' view of its designs and its licensing business rather than on published results. The round adds a well-funded alternative supplier as AI developers spread their spending across chipmakers. Komposite reported this month on Nvidia's talks over Reflection AI, a lab it already funds, and on Modal's $15.75bn round for AI infrastructure.

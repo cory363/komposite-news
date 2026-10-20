@@ -50,6 +50,7 @@
 
 ## Newest stories
 
+- [Thirty billion, ahead of Anthropic's listing](https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/): OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.
 - [Seventy-two hours to report an AI incident](https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/): GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.
 - [Washington orders DeepSeek out of civilian agencies](https://kompositenews.com/policy/washington-orders-deepseek-out-of-civilian-agencies/): A DHS order dated 24 July and published on 20 October bars federal civilian agencies from buying DeepSeek products and orders their removal, with exceptions via CISA.
 - [The CFTC says CME cannot have it both ways](https://kompositenews.com/crypto/the-cftc-says-cme-cannot-have-it-both-ways/): The CFTC's 16 October reply brief says CME lacks standing to fight its approval of Kalshi's bitcoin perpetual future, citing CME's own volumes and earnings call.
@@ -57,7 +58,6 @@
 - [A hidden recorder, a Saudi royal and a bail fight](https://kompositenews.com/ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal/): Prosecutors allege ex-OpenAI engineer Abdulrahman Alfozan, charged over a hidden recorder, was courted by a Saudi royal; his lawyers say he is no flight risk.
 - [Nvidia's open models, from server to laptop](https://kompositenews.com/ai/nvidias-open-models-from-server-to-laptop/): Nvidia released open-weight Nemotron 3.5 Super VL (120bn parameters) and Bolt 74B-A9B for local agents on 15 October; Bolt E4B follows on 23 October.
 - [JPMorgan's deposit token, now on the main chain](https://kompositenews.com/fintech/jpmorgans-deposit-token-now-on-the-main-chain/): JPMorgan's Kinexys said on Monday its JPM Coin deposit token (JPMD) is live on Ethereum for institutional clients, after launching on Base in November 2025.
-- [Tenstorrent more than doubles to $6.2bn](https://kompositenews.com/startups/tenstorrent-more-than-doubles-to-6-2bn/): Tenstorrent said on Monday it raised a $1.5bn Series E at a $6.2bn post-money valuation, led by Trace Capital and Innovation X, up from about $2.6bn in December 2024.
 
 ## About, standards and contact
 
