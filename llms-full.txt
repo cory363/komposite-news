@@ -344,6 +344,36 @@ RelatedVenture funding returns to infrastructure software ›The discipline ques
 
 ---
 
+# Seventy-two hours to report an AI incident
+
+URL: https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-10-20T19:00:00Z
+Updated: 2026-10-20T19:00:00Z
+
+GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.
+
+AI vendors whose US General Services Administration (GSA) contracts carry a new clause, GSAR 552.239-7001, must report security incidents within 72 hours. The clause took effect on Monday 19 October. It sets data, reporting and model-change terms for large language models (LLMs), the systems behind chatbots and AI assistants.
+GSA, the federal government's main buying agency, issued the clause as a class deviation, a change that applies to its contracting staff before formal rulemaking. The clause text, titled "Basic Safeguarding of Data within Large Language Model Artificial Intelligence Systems", is part of the agency's rewritten acquisition rules posted on acquisition.gov. The 19 October start date was reported by FedScoop and the law firm Wiley Rein. Contracting officers may add it to existing contracts at their discretion, FedScoop said.
+It applies when the government buys an LLM, "generative assistant, chatbot, agentic system, LLM-enabled document or productivity tool, or similar system" where LLM functionality is a material feature and government data goes into or comes out of the model, the text says. It does not apply to a contractor's internal tools that are not delivered to or accessed by the government, or where AI is incidental to a product bought for another purpose.
+The clause sets several separate clocks. A vendor must notify the contracting officer within 72 hours of discovering a security incident that may affect government data, then send daily updates until it is resolved, and separately within 72 hours of learning of a material violation of the clause. It needs 30 calendar days' written notice before adding, replacing or materially changing a model or provider, unless it lets the government use the old and new models side by side. That overlap must last at least 30 days for a major version and 15 for a minor one. If an outside model provider retires a version, the vendor has five business days to tell the government. A change that materially increases output bias, weakens safety guardrails or degrades truthfulness must be reported within seven calendar days. Incident logs and forensic material must be kept for at least 90 days.
+DeadlineWhat triggers itClause paragraph
+72 hoursSecurity incident affecting an LLM that may affect government data (then daily updates)(f)(5)
+72 hoursVendor learns of a material violation of the clause(d)(2)
+5 business daysA third-party provider the vendor does not control deprecates a model(i)(2)
+7 calendar daysA material change that raises output bias, weakens guardrails or degrades truthfulness(i)(3)
+15 / 30 calendar daysMinimum overlap with a successor model, minor / major versions(i)(2)
+30 calendar days (in advance)Adding, replacing or materially changing a model or provider, unless overlap access is given(i)(1)
+30 daysDisclosing that a model was modified for, or to comply with the rules of, a non-US government (after award or after learning of it)(f)(3)
+120 daysDisclosing which LLMs process government data, if the contract sets no date(f)(1)
+Government data may not be used to train, fine-tune or otherwise improve any LLM, including third-party models, or to inform a vendor's marketing, sales or business decisions. At the end of a contract the vendor must permanently delete government data and any custom work, "including fine-tuned model weights, embeddings, indexes, and caches", unless the contracting officer directs otherwise in writing. LLM services must let the government export its data in open or standard formats.
+The clause also overrides vendors' own paperwork. Where it conflicts with a company's "terms of service, click-wrap, browse-wrap, or other commercial agreements", the clause takes precedence, though it does not replace the standard commercial-items clause. The government may run its own automated tests of a deployed model at any time, for bias, truthfulness, safety and "unsolicited ideological content", and "retains the right to suspend use of the LLM at any time". If a contract is ended for cause after a vendor fails to fix a problem it was warned about in writing, the vendor pays reasonable decommissioning costs, capped at 25 per cent of the affected task or delivery order.
+The final text is softer than the drafts that industry fought over this summer. At a July listening session reported by FedScoop, Menaka Kalaskar, who leads Palantir's US government legal and contracting team, said GSA "seems to be taking a lot of risk with this initiative, and it's not obvious why", and called the material-change notice "unworkable" for software-as-a-service companies. GSA received over 75 comments, FedScoop reported. The earlier "unbiased AI principles" language was largely dropped in favour of a duty to use "reasonable efforts" to prioritise accuracy and acknowledge uncertainty. Nvidia's chief external affairs officer, Bruce Andrews, had argued that "obligations should follow the data, not the model's authorship"; the final clause exempts fully open models, which publish their architecture, weights, code and data, from its foreign-control flowdowns. Models that publish only their weights do not qualify.
+GSA plans to add the clause to its Multiple Award Schedule, the catalogue of pre-approved vendors, in Refresh 34, which Wiley put at 6 November, with a GSA webinar on 26 October. It also arrives as the agency moves to paid AI deals: on 10 September GSA announced a 27-month, consumption-based OneGov offer for OpenAI's ChatGPT models from 1 October, at a 50 per cent discount on token-based use, the first agreement in the next phase of its OneGov AI strategy. Komposite covered an earlier draft of the clause in September, and the private-sector version of these fights in enterprise buyers' AI contract terms.
+
+---
+
 # Washington orders DeepSeek out of civilian agencies
 
 URL: https://kompositenews.com/policy/washington-orders-deepseek-out-of-civilian-agencies/
@@ -492,24 +522,3 @@ Tenstorrent said the money will go on volume manufacturing and global commercial
 The step up is large. When Tenstorrent last raised money, in December 2024, it said it had closed more than $693m in a Series D led by Samsung Securities and AFW Partners at a pre-money valuation of $2bn; BetaKit put the post-money figure at $2.6bn. On that basis the new valuation is about 2.4 times the last one, by our arithmetic, in a little under two years.
 There has also been talk of a sale. In June, The Information reported that Qualcomm was in talks to buy Tenstorrent for $8bn to $10bn, Reuters reported at the time; both companies declined to comment, and Reuters said it could not verify the report. No deal has been announced, and Monday's announcement does not mention Qualcomm.
 Tenstorrent did not disclose revenue, shipments or customer numbers, so the valuation rests on the investors' view of its designs and its licensing business rather than on published results. The round adds a well-funded alternative supplier as AI developers spread their spending across chipmakers. Komposite reported this month on Nvidia's talks over Reflection AI, a lab it already funds, and on Modal's $15.75bn round for AI infrastructure.
-
----
-
-# Fifty-five billion for autonomy, minus Congress
-
-URL: https://kompositenews.com/policy/fifty-five-billion-for-autonomy-minus-congress/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-10-18T23:40:00Z
-Updated: 2026-10-18T23:40:00Z
-
-The Pentagon plans nearly $55bn for its Defense Autonomous Warfare Group and a four-star Autonomous Warfare Command, but Congress has approved neither.
-
-The Pentagon has laid out plans to spend nearly $55 billion on its Defense Autonomous Warfare Group, known as DAWG, Breaking Defense reported from the Association of the US Army's annual meeting on Wednesday, where Defense Secretary Pete Hegseth said the full request is needed to "drive change". Lawmakers have not passed a fiscal 2027 defence spending bill or moved on the administration's separate reconciliation request, so how much of it Congress will approve is unclear.
-The figure comes from the fiscal 2027 budget request. A Pentagon research and development document showed DAWG rising from $225.9 million received in fiscal 2026 to up to $54.6 billion requested for fiscal 2027, DefenseScoop reported in April. Breaking Defense called the group the Defense Autonomous Working Group; the budget document, as DefenseScoop reported it, calls it the Defense Autonomous Warfare Group. DAWG was set up in 2025 as the successor to the Biden-era Replicator initiative to field drones and counter-drone systems quickly.
-The money comes with a new command. Hegseth announced the Autonomous Warfare Command, or AUTOWARCOM, on 30 September, with "service-like authorities" to spread autonomous and robotic systems across the joint force, DefenseScoop reported. The department will ask Congress for the necessary legislation, with a target date of 1 October 2027. Hegseth said a four-star commander would be named soon; at the conference he did not say whether a search had begun, Defense One reported. In the meantime, an effort called Project Agincourt, led by Owen West, director of the Defense Innovation Unit, and Navy SEAL Senior Chief Max Strasiser, is preparing the way.
-Hegseth made the case in broad strokes. "You have autonomy. You have robotics. You have SI [super intelligence]. You have space," he said, as Breaking Defense quoted him. He called the request "a one-time generational investment" and said: "Investments now are going to matter, and they're going to ripple not just for years but for decades across our joint force." Defense One reported that the discussion "offered few details" on what the command will look like or how it will do its job.
-Where DAWG itself ends up depends on whom you ask. Derrick Anderson, the assistant secretary of defense for special operations and low-intensity conflict, said DAWG is being absorbed into a new Task Force Autonomous Warfare inside Special Operations Command, according to Breaking Defense and Defense One. "We're smaller. We're able to iterate at the speed of relevancy," he said. A day earlier, an Army colonel who commands a drone task force told DefenseScoop that DAWG had moved into a new Joint Task Force-Autonomous Warfare reporting to the Pentagon's portfolio manager for unmanned systems. The two accounts differ on the name and the reporting line.
-The services are lining up behind it. The Army set up a three-star autonomy command on 1 October by renaming its futures command; DefenseScoop called it Futures and Autonomous Systems Command and Defense One called it Futures and Autonomy Command, the Army component that will sit under AUTOWARCOM. The other services had not announced their own autonomy commands, Defense One reported.
-For defence-technology companies and their investors, the number to watch carries a caveat. Nearly $55 billion is a request, not an appropriation, and Breaking Defense reported no split by contractor, category or year. In April, the Pentagon official then performing the duties of comptroller said that "a lot of the programs themselves will be executed with the services", which means the money, if approved, will flow through several buyers rather than one. We have not estimated any company's share, because no source gives one.
-Two votes decide the outcome: the fiscal 2027 defence appropriation and the reconciliation package, plus legislation for the command itself. As we argued in our analysis of procurement-led AI rules, the government's requirements tend to arrive in contract terms with the money. For autonomy, the money has not arrived yet.
