@@ -50,14 +50,14 @@
 
 ## Newest stories
 
+- [Two special committees, one conflicted chief executive](https://kompositenews.com/business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend/): Elon Musk said SpaceX and Tesla have formed special committees to weigh a merger, with no terms agreed, as SpaceX reported $14.6bn in third-quarter revenue.
+- [The stablecoin rule that will not say what a reward is](https://kompositenews.com/policy/the-occ-finalises-its-stablecoin-rule-and-keeps-rewards-open/): The OCC finalised its GENIUS Act stablecoin rule on Wednesday, effective 18 January 2027, dropping a presumption against rewards and leaving yield undefined.
+- [Eight certificate keys that were tiny numbers](https://kompositenews.com/cybersecurity/eight-certificate-authority-keys-were-tiny-numbers/): Mozilla blocked eight eMudhra intermediate certificates whose private keys were integers below 256; eMudhra blames a flawed key-ceremony script.
+- [Solana takes its votes off the chain](https://kompositenews.com/blockchain/solana-takes-its-votes-off-the-chain/): Solana's Alpenglow consensus upgrade went live on 21 October, Anza said, replacing on-chain votes with aggregated certificates and targeting 150ms finality.
 - [Thirty billion, ahead of Anthropic's listing](https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/): OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.
 - [Seventy-two hours to report an AI incident](https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/): GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.
 - [Washington orders DeepSeek out of civilian agencies](https://kompositenews.com/policy/washington-orders-deepseek-out-of-civilian-agencies/): A DHS order dated 24 July and published on 20 October bars federal civilian agencies from buying DeepSeek products and orders their removal, with exceptions via CISA.
 - [The CFTC says CME cannot have it both ways](https://kompositenews.com/crypto/the-cftc-says-cme-cannot-have-it-both-ways/): The CFTC's 16 October reply brief says CME lacks standing to fight its approval of Kalshi's bitcoin perpetual future, citing CME's own volumes and earnings call.
-- [Sixteen issuers opt out of the tokenised stock venue](https://kompositenews.com/markets/sixteen-issuers-opt-out-of-the-tokenised-stock-venue/): OKXICE's public notice of 19 October lists 16 issuers objecting to tokenised trading of their shares, including Microsoft, Alphabet, Goldman Sachs and Qualcomm.
-- [A hidden recorder, a Saudi royal and a bail fight](https://kompositenews.com/ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal/): Prosecutors allege ex-OpenAI engineer Abdulrahman Alfozan, charged over a hidden recorder, was courted by a Saudi royal; his lawyers say he is no flight risk.
-- [Nvidia's open models, from server to laptop](https://kompositenews.com/ai/nvidias-open-models-from-server-to-laptop/): Nvidia released open-weight Nemotron 3.5 Super VL (120bn parameters) and Bolt 74B-A9B for local agents on 15 October; Bolt E4B follows on 23 October.
-- [JPMorgan's deposit token, now on the main chain](https://kompositenews.com/fintech/jpmorgans-deposit-token-now-on-the-main-chain/): JPMorgan's Kinexys said on Monday its JPM Coin deposit token (JPMD) is live on Ethereum for institutional clients, after launching on Base in November 2025.
 
 ## About, standards and contact
 

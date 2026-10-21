@@ -344,6 +344,102 @@ RelatedVenture funding returns to infrastructure software ›The discipline ques
 
 ---
 
+# Two special committees, one conflicted chief executive
+
+URL: https://kompositenews.com/business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend/
+Section: Business
+By: Tom Kessler
+Published: 2026-10-21T15:50:00Z
+Updated: 2026-10-21T15:50:00Z
+
+Elon Musk said SpaceX and Tesla have formed special committees to weigh a merger, with no terms agreed, as SpaceX reported $14.6bn in third-quarter revenue.
+
+SpaceX and Tesla have each formed a special committee of independent directors to consider combining the two companies, Elon Musk, chief executive of both, said on SpaceX's third-quarter earnings call on Tuesday, according to a transcript of the call. He said the committees have not agreed terms and that he is excluded from their talks.
+"So both SpaceX and Tesla have formed special committees to discuss this idea at the request of shareholders," Musk said. "Because I'm a conflicted party, I can't actually be in the discussions of the special committees." He said "the special committees have not reached agreement on the terms of any transaction", adding: "there's no guarantee that they will." He said: "Do I think it would be a good idea, yes," but added that "it's really up to the special committees of both companies".
+He also set out the bar. "Some people out there assume that a SpaceX and Tesla merger is a certainty," he said. On the Tesla side, "we will need a 50% vote of all shares, not just those who vote, but of all shareholders." Neither company has filed details of the committees. Tesla's proxy statement for its 3 December annual meeting, filed on Monday, does not mention them; it does disclose that Tesla's agreed $2bn investment in xAI became a right to SpaceX shares when SpaceX acquired xAI in February.
+Musk sits on both sides at scale. His Schedule 13G on SpaceX, filed in August as of 30 June, reports beneficial ownership of 6.42 billion Class A shares, or 48.4 per cent, counting Class B shares held by his trusts, restricted Class B shares subject to performance conditions and 350 million options, all convertible into Class A. Class B shares carry ten votes each. Tesla's proxy gives him 699.6 million Tesla shares, or 19.8 per cent.
+The results framed the call. SpaceX reported revenue of $14.6bn for the quarter to 30 September, up 161 per cent from $5.6bn a year earlier, and net income of $4.4bn against a net loss of $1.1bn, according to its earnings release. Diluted earnings were 35 cents a share against a loss of 36 cents. Income from operations was $2.8bn and adjusted EBITDA, a non-GAAP measure, $8.8bn. The company's numbers are its own.
+SpaceX, quarter to 30 September20262025
+Total revenue$14,575m$5,576m
+Super Intelligence (AI) revenue$7,560m$813m
+Connectivity (Starlink) revenue$5,248m$3,097m
+Space revenue$1,767m$1,666m
+Net income (loss)$4,404m($1,054m)
+Capital expenditure$19,593m$6,880m
+Source: SpaceX earnings release, Exhibit 99.1 to its Form 8-K of 20 October 2026. Unaudited; the company's own figures.
+The AI business drove the jump. Revenue in the Super Intelligence segment, which includes xAI's Grok models and the coding company Cursor, rose to $7.6bn from $813m, about 9.3 times by our arithmetic; Cursor, acquired on 14 August at an implied equity value of $60bn, contributed $608m. The segment accounted for $16.4bn of the quarter's $19.6bn capital spending, about 84 per cent by our arithmetic, as nameplate compute reached 1.7 gigawatts. Starlink's Connectivity segment brought in $5.2bn, up 69 per cent, with 13.6 million consumer subscribers paying an average $69 a month.
+The guidance is steeper still. Bret Johnsen, the chief financial officer, said SpaceX expects fourth-quarter capital expenditure of "$35 billion to $40 billion", roughly 1.8 to 2 times the third quarter's by our arithmetic, and "total company revenues in the range of $33 billion to $37 billion for Q1 of 2027", a midpoint about 2.4 times the quarter just reported. He put the backlog at $63bn at 30 September, about $42bn of it expected to be recognised within a year.
+Why it matters: with Musk on both sides, the decision rests with independent directors at each company, and Tesla's threshold of a majority of all shares outstanding, rather than of votes cast, is the figure to watch. Neither company has given a timetable. Komposite has followed SpaceX's spending, including its $40bn chip financing and its 800 MHz spectrum purchase.
+
+---
+
+# The stablecoin rule that will not say what a reward is
+
+URL: https://kompositenews.com/policy/the-occ-finalises-its-stablecoin-rule-and-keeps-rewards-open/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-10-21T15:30:00Z
+Updated: 2026-10-21T15:30:00Z
+
+The OCC finalised its GENIUS Act stablecoin rule on Wednesday, effective 18 January 2027, dropping a presumption against rewards and leaving yield undefined.
+
+The Office of the Comptroller of the Currency (OCC), the federal regulator of national banks, on Wednesday finalised its rule implementing the GENIUS Act for payment stablecoin issuers, dropping a proposed presumption against reward arrangements. The rule and the Act take effect on 18 January 2027, the agency said in its announcement.
+The rule covers permitted payment stablecoin issuers and foreign issuers under the OCC's jurisdiction, and custody by the banks it supervises. Bulletin 2026-50 says most of it sits in a new Part 15 of Title 12 of the Code of Federal Regulations, covering activities, reserve assets, redemption, risk management, audits, custody, applications, revocation and a capital and operational backstop. Anti-money-laundering, Bank Secrecy Act and sanctions rules are left to a separate rulemaking with the Treasury.
+"Today's final rule advances President Trump and Secretary Bessent's vision for American leadership in digital assets," said Jonathan Gould, the Comptroller. "We are providing a clear, practical framework for payment stablecoin innovation, with strong standards for reserve backing, redemption, and risk management." Scott Bessent, the Treasury Secretary, compared the Act to the National Currency Act of 1863 in the same release.
+The contested point is yield. The Act bars issuers from paying holders "any form of interest or yield" solely in connection with holding, using or retaining a stablecoin. The OCC's proposal, published on 2 March, would have presumed that certain arrangements with affiliates and related third parties broke that ban. The final rule says the OCC "has determined to eliminate the rebuttable presumption", and that it "will apply principles of statutory interpretation" to the terms "in light of the facts and circumstances before it", rather than define interest or yield.
+The word "solely" carries much of the weight. The rule says it "is best read under its plain terms to exclude payments made in connection with reasons other than holding, using, or retaining a payment stablecoin", so "payments made for other purposes are not barred". Transaction-based payments that are not interest or yield, or not made solely for holding or use, "would not be prohibited", it says, while the OCC will look through payments made "only nominally for another purpose" to evade the ban.
+It gives no safe harbours. The OCC "declines to presume that rewards programs that predated the GENIUS Act comply", and will judge them the same as later ones. It declined a safe harbour for white-label partners, whose payments "may be more likely to be made on behalf of" an issuer. Payments for bona fide services "generally would not be prohibited". On pending legislation, it says: "Unless and until such legislation passes, the OCC must implement the GENIUS Act's yield prohibition, as enacted."
+The banks' argument is recorded but not adopted. Commenters favouring a strict ban cited reports that deposits "could be reduced by trillions of dollars", the rule notes, particularly at community banks. American Banker read the final text as leaving room for yield manoeuvres, and CoinDesk as a fresh start for weighing rewards programmes against the ban.
+The OCC is one of several agencies writing rules under the Act. Treasury proposed its rules on 18 August and the Federal Reserve on 24 September; CoinDesk reported that the OCC's is the first final rule from a federal banking regulator. The OCC said it will announce separately when it begins accepting applications and waiver requests.
+Why it matters: by declining to define a reward in advance, the OCC has left exchanges, wallet providers and issuers to design programmes at their own risk, with supervision and enforcement setting the boundary case by case. Komposite compared the agencies' proposals in "The charter picks the arithmetic", which noted that none was final at the time.
+
+---
+
+# Eight certificate keys that were tiny numbers
+
+URL: https://kompositenews.com/cybersecurity/eight-certificate-authority-keys-were-tiny-numbers/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-21T15:10:00Z
+Updated: 2026-10-21T15:10:00Z
+
+Mozilla blocked eight eMudhra intermediate certificates whose private keys were integers below 256; eMudhra blames a flawed key-ceremony script.
+
+Eight intermediate certificates issued by eMudhra, an Indian certificate authority, had private keys so small that anyone could recover them, letting an attacker issue trusted HTTPS certificates for any website, Mozilla said on Tuesday. A certificate authority vouches for websites' identities; its private key is what makes that vouching unforgeable.
+The keys were integers below 256. "The private keys are effectively all-zeroes apart from the last byte," Dennis Jackson of Mozilla wrote on Mozilla's public bug tracker; a P-384 key should be a random number of up to 384 bits. He added that local AI agents he tested "were able to recover the private key on their first attempt with a simplistic prompt". Six of the certificates are for web (TLS) traffic and trusted by Chrome, Mozilla, Microsoft and Apple; two are for code signing and trusted by Microsoft.
+Security researcher Scott Helme wrote that he recovered all eight on his laptop, including one that is simply the number 4, by trying at most 255 candidates. The certificates were created on 30 April 2025, which Helme called "a 17 month window" in which anyone examining them could have done the same. Mozilla's post does not report any misuse, and CoinDesk said no crypto attacks had been reported.
+The response was fast. Mozilla received the report, forwarded by Chrome's root programme, at 20:06 UTC on Saturday 17 October, and had pushed a block through OneCRL, its central revocation list, by 22:59 UTC. It released NSS 3.131.1, its certificate library, removing the root that signed the intermediates, and Firefox 158.0.1 with ESR 115.43.1 and 153.5.1; a further Android release followed at 08:29 UTC on Wednesday. Chrome blocked the certificates the same day, Apple on 19 October and Microsoft on 20 October, CoinDesk reported.
+eMudhra's account is on the same bug. It revoked the eight on 18 October and said the B and C series, built for its US and European operations, "were not put into production except" one, from which no end-entity certificates were issued. On Monday it said a preliminary review found "a flaw in the KGC script", its key-generation ceremony, which created a second, weaker key pair that was used "by mistake" because the key labels were similar. "There were human errors in multiple steps of the process," it wrote. The Register said eMudhra, which says it has issued more than 60 million certificates, had not answered its questions.
+Mozilla then went further. Citing multiple people recovering the keys independently, it announced the emergency removal of trust in eMudhra's emSign ECC Root CA - G3 to protect software that cannot use revocation. eMudhra replied on the bug that it had ceased issuance under that root, and that about 30,000 certificates, about 97 per cent of them obtained through the automated ACME protocol, need migrating to its RSA root.
+The remaining exposure is outside browsers. Helme wrote that most non-browser clients trust a certificate bundle stored on disk and do not check revocation by default; in his tests curl, Python and Node accepted a forged certificate for api.stripe.com on every Linux and macOS machine he tried, and Windows accepted the chain unless revocation checking was switched on. Devices with frozen firmware, such as routers and printers, "will trust these certificates until expiry, which is July 2039," he wrote.
+Cloudflare, quoted by The Register, said "an attacker can create a forged certificate for any domain", though the attacker would still need to sit between the user and the server. CoinDesk noted that exchange bots, trading scripts and wallet back ends often run on Python, Node or Go. "This is not a crypto-specific issue," Mudit Gupta, chief technology officer of Polygon Labs, told the outlet. "It is a generic issue that can be exploited for man-in-the-middle attacks."
+Why it matters: the browser programmes closed the hole within hours, but revocation only protects software that checks it, so the fix elsewhere is updating certificate bundles and rebuilding container images. Komposite has covered how quickly attackers move on exposed keys and tools, including the BeyondTrust support tool, and the enterprise shift to managed browsers.
+
+---
+
+# Solana takes its votes off the chain
+
+URL: https://kompositenews.com/blockchain/solana-takes-its-votes-off-the-chain/
+Section: Blockchain
+By: Marcus Oyelaran
+Published: 2026-10-21T14:50:00Z
+Updated: 2026-10-21T14:50:00Z
+
+Solana's Alpenglow consensus upgrade went live on 21 October, Anza said, replacing on-chain votes with aggregated certificates and targeting 150ms finality.
+
+Solana's Alpenglow upgrade went live on Wednesday, moving validator votes off the blockchain and targeting transaction finality of about 150 milliseconds, according to Anza, the developer that built it. Anza said the new consensus protocol reached mainnet-beta at slot 459,653,000 at about 14:00 UTC, The Block reported. Finality is the point after which a transaction cannot be reversed.
+The switch came early in epoch 1064. By our reading of a public Solana node, that epoch began at slot 459,648,000 at 13:36 UTC, so the handover came 5,000 slots later. At 15:44 UTC the node listed 666 vote accounts as current and 11 as delinquent. Brennan Watt, Anza's chief executive, called it "the largest, most ambitious blockchain upgrade since 'The Merge'", Ethereum's 2022 switch to proof of stake, according to The Block.
+The two accounts of the starting point differ. Anza put finality before the upgrade at 12.8 seconds, The Block reported, while CoinDesk, writing before the switch, said it took about six seconds and that the new target would be roughly 40 times faster. The 150 millisecond figure is Anza's target; The Block reported no measured figure after the switch.
+The mechanism changes how agreement is recorded. Votes are now signed with BLS signatures, a scheme that lets many signatures be combined into one, and aggregated into compact certificates rather than written to the chain as ordinary transactions, Galaxy said in a report on its experience running a validator on the test network. Proof of History, Solana's built-in clock, retires once the migration completes. Slashing for double voting is "well defined but deliberately not enabled in the first iteration", Galaxy wrote.
+The fault model shifts as well. Galaxy said Alpenglow is built for "20 plus 20": up to 20 per cent of stake acting maliciously plus a further 20 per cent offline. The previous protocol, TowerBFT, tolerated up to 33 per cent malicious stake. Galaxy, one of the larger Solana validator operators, sells staking services, and its account is its own.
+Costs for validators change too. Galaxy estimated that voting cost about 1 SOL a day at 400 millisecond slots and about 2 SOL a day at the current 200 milliseconds; Alpenglow replaces that with a flat validator admission ticket of 0.8 SOL per epoch, which runs about a day. By our arithmetic that is 60 per cent less than 2 SOL a day, the saving CoinDesk also gave. A vote account that cannot cover the ticket at an epoch boundary "is excluded from consensus for that entire epoch", Galaxy said.
+The test network was uneven. It launched in early May with around 50 independent operators and grew to roughly 100, Galaxy said, and was restarted from a fresh genesis block six times. Galaxy describes a migration that failed network-wide and a rollback, though its text is not consistent on the order of events. Validators were asked to run the Agave client for the switch; Firedancer's 26.10 release supports Alpenglow, and the Frankendancer hybrid will not be supported now that it is active.
+The validator base has thinned. CoinDesk, citing Bitwise's staking report, said active validators fell to 659 at the end of September from 696 three months earlier, about 30 per cent fewer than a year before; by our subtraction that is 37 fewer in a quarter. Citing Solana Compass data, it said 69 per cent of SOL's supply was staked, that the smallest group of validators controlling more than a third of stake fell to 18 from 20 over the past year, and that the top ten's share rose to 24.5 per cent from 22.2 per cent.
+Robin Nordnes, chief executive and founder of Raiku, which builds trading infrastructure on Solana, told CoinDesk: "Most of what got counted before was validators voting, and that's off-chain now." His point is that vote transactions, which made up most of Solana's counted activity, no longer appear on chain, so activity figures from before and after the switch are not like for like.
+Why it matters: a flat, lower cost of taking part should help smaller operators, but the concentration figures show where the network starts from, and the first epochs will show how many vote accounts clear the new ticket. Komposite has looked at the economics of running validators in institutional staking, and at how regulators now classify the assets on top, in the SEC's March interpretation.
+
+---
+
 # Thirty billion, ahead of Anthropic's listing
 
 URL: https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/
@@ -450,84 +546,3 @@ Source: the CFTC's reply brief of 16 October, tabulating CME Group's monthly vol
 This is the agency's second attempt to end the case early. It moved to dismiss on 2 September, calling the dispute "much ado about nothing", CoinDesk reported. CME filed its opposition on 2 October. The judge, Colleen Kollar-Kotelly, has refused the CFTC's request to withhold the administrative record until the dismissal motion is decided, and, according to the brief, also denied the agency's request for limited discovery on standing. The Hyperliquid Policy Center has filed a brief in the case, which the CFTC cites.
 Not everyone thinks the agency is ahead. Jaret Seiberg, a policy analyst at TD Cowen, wrote in a Monday client note that CME may still have the edge on standing and on its argument that perpetuals are swaps, CoinDesk reported. "What increasingly concerns us is the growth in perps while the litigation is playing out," he wrote, adding that unwinding the market could become complicated if CME won.
 The stakes reach beyond one contract: the policy covers perpetuals on other digital commodities, and exchanges have filed for perpetuals on individual stocks. Komposite has reported on those equity perpetual filings and on the CFTC's separate attempt to define event contracts as swaps.
-
----
-
-# Sixteen issuers opt out of the tokenised stock venue
-
-URL: https://kompositenews.com/markets/sixteen-issuers-opt-out-of-the-tokenised-stock-venue/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-20T16:20:00Z
-Updated: 2026-10-20T16:20:00Z
-
-OKXICE's public notice of 19 October lists 16 issuers objecting to tokenised trading of their shares, including Microsoft, Alphabet, Goldman Sachs and Qualcomm.
-
-Sixteen companies, among them Microsoft, Alphabet and Goldman Sachs, have objected to having tokenised versions of their shares traded on OKXICE, according to the venue's public notice dated Monday, 19 October. OKXICE is a joint venture, owned 50-50, of Intercontinental Exchange (ICE), the owner of the New York Stock Exchange, and a holding company of the crypto exchange OKX. A tokenised stock is a blockchain token that represents one share held in custody.
-The notice lists the objectors by name and ticker: Cerebras Systems, AppLovin, Applied Digital, Rocket Lab, CoreWeave, Verizon, Applied Optoelectronics, Broadcom, UnitedHealth, Goldman Sachs, Microsoft, Qualcomm, Caterpillar, McDonald's, Western Digital and Alphabet, whose two share classes are listed together. Seven of them are new since the previous week's notice, which showed nine, CoinDesk reported: Microsoft, Alphabet, Goldman Sachs, Qualcomm, Caterpillar, McDonald's and Western Digital.
-The objections carry weight under the Securities and Exchange Commission's rules. The SEC's exemptive order of 17 September lets a "Tokenized Securities Venue" trade tokens of US-listed shares without registering as an exchange. When a third party rather than the company makes the tokens, the venue must notify the company and wait at least 30 days, and if the company objects in that time the stock cannot be listed, as Komposite reported when OKXICE published its first notice. OKXICE's notice says that no member of the venue or its affiliates tokenises any of the stocks; a third-party "Tokenizer" holds the shares one for one through a registered broker-dealer.
-The venue's first notice, dated 4 October, listed 63 stocks. CoinDesk counts them as 63 tickers for 62 companies, with Alphabet appearing twice. Fifteen of those 62 have now objected, which leaves 47 without a disclosed objection, by our subtraction. The sixteenth objector, Cerebras, was not on the original list; it had objected by the time of the first notice.
-The notice does not say why any company objected or when each objection arrived, and none of the companies is quoted in it or in CoinDesk's report. Companies have obvious reasons to be wary. The notice says the venue's prices are set by Uniswap liquidity pools on OKX's X Layer network, without reference to the market for the underlying share, and that holders' rights to dividends and votes rest on the tokenizer's representations. Whether those are the reasons in this case, the companies have not said.
-The list reads as a cross-section of the large-cap market rather than a single sector: two of the biggest technology companies, a bank, a chipmaker, an industrial group, a restaurant chain and a health insurer, alongside several AI infrastructure names. The notice still gives no launch date.
-The SEC's framework lets a venue list a company's shares without asking first and leaves it to the company to say no. Two weeks after the first notice, 16 have done so. The notice does not say when the companies were notified, so it is not clear how long the rest have left to object. Komposite has followed the tokenisation of US markets, including filings for perpetual futures on individual stocks and the race to accept tokenised collateral.
-
----
-
-# A hidden recorder, a Saudi royal and a bail fight
-
-URL: https://kompositenews.com/ai/prosecutors-tie-the-openai-recorder-case-to-a-saudi-royal/
-Section: AI
-By: Dana Whitfield
-Published: 2026-10-19T16:30:00Z
-Updated: 2026-10-19T16:30:00Z
-
-Prosecutors allege ex-OpenAI engineer Abdulrahman Alfozan, charged over a hidden recorder, was courted by a Saudi royal; his lawyers say he is no flight risk.
-
-Federal prosecutors have asked a court to keep a former OpenAI engineer in custody, alleging that he was in contact with a member of the Saudi royal family and is a flight risk, the San Francisco Standard reported on Monday, citing a detention memo filed on Sunday. Abdulrahman Alfozan, 35, is charged with attempting to intercept oral communications over a recording device found in an OpenAI executive conference room. His lawyers dispute the government's picture of a man ready to leave the country. A magistrate judge was due to hear arguments on his release at 11:00 Pacific time on Monday; no ruling had been reported when this article was published.
-The charge rests on events at OpenAI's San Francisco offices. According to the criminal complaint as summarised by The Register, staff found a small recording device on 30 September, wrapped in toilet paper and plugged into the USB port of a television in a conference room used for top-level meetings, including, officials said, non-public technical meetings and meetings with government representatives. Prosecutors allege that Alfozan, who joined OpenAI in July 2025, installed it on or around 28 September. He was arrested on 9 October and has been in custody since. The charge carries a maximum sentence of five years in prison and a $250,000 fine.
-OpenAI could not recover any data from the device's memory card after making a forensic image of it, The Register reported, and officials have not said whether it captured anything. The company said it had "no indications of this individual inappropriately accessing or exfiltrating model weights" and that the employee had been fired. FBI Director Kash Patel said in a statement that the bureau treats the protection of American innovation as one of its highest counterintelligence priorities.
-Sunday's memo goes further than the complaint. Prosecutors say a search of his home and a preliminary review of his phone turned up electronic components similar to those in the devices, and photographs dated 22 to 28 September that appear to show another concealed recorder in a second OpenAI conference room, according to the Standard. They also cite WhatsApp messages in which a member of the Saudi royal family, who is not named, urged him to join an AI initiative. In May, prosecutors say, the royal wrote "Saudi needs you more then the U.S.!"; Alfozan replied "100" and said he would not leave until his stock vested.
-Prosecutors further allege that Alfozan applied in July to the Misk Foundation's 2030 Leaders programme, open only to Saudi nationals, and that between July and September he used an OpenAI productivity agent to ask about Saudi government engagements. They say his wife told FBI agents that she and their son were moving permanently to Saudi Arabia and that he planned to join them. The memo notes that the US has no extradition treaty with Saudi Arabia and says more serious charges could follow. In an earlier filing, on 8 October, prosecutors said he and his family had booked one-way tickets to Saudi Arabia via Istanbul, The National reported.
-The defence motion, filed on Friday by his lawyers William Pernik and Nas Yasin, reads the same facts differently. It says Alfozan bought economy tickets to Riyadh on 13 September under his own name, 17 days before the device was found, for $1,897.59 for three travellers, with changes costing $180. It says he has a naturalisation interview on 6 November and a long record of foreign trips from which he always returned. The lawyers propose GPS monitoring, home detention in Millbrae and the surrender of his passports, with a bond signed by Bay Area supporters and backed by the Saudi Consulate General, which, the filing says, has written that it "would issue him no travel documents". They attached 54 letters of support. "That is not the profile of a person with one foot out the door," they wrote.
-Pernik has also pointed out what is not in the case. The complaint does not charge Alfozan with stealing trade secrets or acting as an agent of a foreign government. "There is no evidence to suggest otherwise at this time that has been shared with us," he told The National last week, calling the allegations "wholly out of character for him". Monday's hearing concerns only whether he can be released before trial, not whether the government can prove any of its claims.
-For AI developers, the case is a reminder that some of their most sensitive information still passes through ordinary rooms with ordinary televisions. Komposite has reported on OpenAI's dispute with three safety researchers it dismissed and on the FTC's demands to OpenAI and Anthropic for their incident files.
-
----
-
-# Nvidia's open models, from server to laptop
-
-URL: https://kompositenews.com/ai/nvidias-open-models-from-server-to-laptop/
-Section: AI
-By: Tom Kessler
-Published: 2026-10-19T16:00:00Z
-Updated: 2026-10-19T16:00:00Z
-
-Nvidia released open-weight Nemotron 3.5 Super VL (120bn parameters) and Bolt 74B-A9B for local agents on 15 October; Bolt E4B follows on 23 October.
-
-Nvidia has released a new set of open-weight models for AI agents, from data-centre servers down to laptops. In a blog post dated Thursday, 15 October, Kari Briski, Nvidia's vice president for open models and software, announced Nemotron 3.5 Super VL, a 120-billion-parameter model for enterprise agents, and two smaller "Bolt" models for local machines. Super VL and the larger Bolt model are available now; the smaller Bolt is due on Friday, 23 October.
-Nvidia says Super VL matches the accuracy of its largest reasoning model on agent tasks such as following instructions, using tools, running multistep business workflows and understanding images, at roughly one-fifth of the parameter count. It calls it "the fastest open agentic model in its class" and says it is up to five times faster than the next best. Those are Nvidia's figures. The model reads text, web pages, charts and PDFs, and ships with open weights, open datasets and training recipes, the company says, and is available on Hugging Face and OpenRouter, among others.
-The larger edge model, Nemotron 3.5 Bolt 74B-A9B 24GB, has 74 billion parameters, of which about 9 billion are active at a time, and uses 2-bit quantisation to fit in 24GB of memory. Nvidia says it is built for its RTX Spark laptops and also runs on GeForce RTX PCs and DGX Spark and DGX Station workstations, and that it ranks first among open models of its class on the PinchBench benchmark. Users can hand it tasks "from researching the web to writing to debugging code — all without sending those workloads to the cloud", Briski wrote. Bolt E4B 4GB is meant for voice assistants and other conversational agents.
-Nvidia named a long list of companies adapting Super VL. It says Scale AI post-trained the model for agents at Skydance and EY, and that Ramp, Lila Sciences and R1 are among others customising it; Atlassian, CrowdStrike, Dassault Systèmes, Perplexity, Salesforce and Synopsys are integrating it into their software. "Unlike closed frontier models, organizations can post-train Super VL on their own data, deploy it on their own infrastructure and oversee what they build," Briski wrote.
-TechCrunch, which wrote about the models on Monday, said Nvidia claims Super VL completes tasks faster than competing models from Anthropic and OpenAI when it is post-trained on specific agentic tasks. That comparison does not appear in Nvidia's announcement or in its technical blog post, and no figures for it have been published. Nvidia's announcement also does not name a licence beyond describing the weights as open.
-TechCrunch's reading of the strategy is that the closed-model labs that are both Nvidia's customers and its investments are buying more chips from other suppliers, such as Amazon's Trainium and Cerebras, or designing their own, so Nvidia is courting companies that want to run open models on their own hardware. That is the publication's analysis, not Nvidia's. For laptops, the pitch is privacy: agents that work on a user's files without the data leaving the machine.
-Komposite has covered the wider open-weight field, including Meta's release of an 816-billion-parameter model and two "open" models from Mistral and Reflection whose weights had not yet shipped.
-
----
-
-# JPMorgan's deposit token, now on the main chain
-
-URL: https://kompositenews.com/fintech/jpmorgans-deposit-token-now-on-the-main-chain/
-Section: Fintech
-By: Elena Vasquez
-Published: 2026-10-19T15:30:00Z
-Updated: 2026-10-19T15:30:00Z
-
-JPMorgan's Kinexys said on Monday its JPM Coin deposit token (JPMD) is live on Ethereum for institutional clients, after launching on Base in November 2025.
-
-JPMorgan has made its dollar deposit token, JPM Coin, available on Ethereum, Kinexys by J.P. Morgan said in an announcement on Monday. The token, which carries the ticker JPMD, is open to the bank's institutional clients. Until now it had been available only on Base, the Ethereum layer-2 network, since its launch in November 2025. JPMorgan calls Ethereum the token's second public blockchain.
-A deposit token is a claim on deposits at a bank, rather than a token issued by a non-bank against a pool of reserves, as stablecoins are. JPMorgan says JPM Coin supports peer-to-peer transfers between institutional clients within the Ethereum Virtual Machine ecosystem, including Base and Ethereum, and could allow programmable treasury operations from clients' own wallet interfaces. The announcement does not mention access for retail customers.
-The bank presented the move as part of a wider presence on Ethereum. J.P. Morgan Asset Management launched tokenised money market funds on the network earlier this year, the announcement says. Ledger Insights called the move "positioning": Base "made sense as a launch partner given the Coinbase relationship", it wrote, but tokenised funds and securities are concentrated on Ethereum, and a token meant to serve as the cash leg of those trades needs to be on the same chain.
-"Tokenized financial infrastructure is no longer theoretical," said Emma Landriault, global head of Kinexys Labs. "Issuing JPM Coin first on Base and now on Ethereum is a meaningful step towards providing our institutional clients with multi-chain optionality for moving wholesale money across both the web3 and traditional finance ecosystems." Matthew Dawson, co-founder of Ethereum Institutional, called it "a clear signal that institutional finance is moving onto public, verifiable infrastructure". His organisation promotes Ethereum to institutions.
-JPMorgan said the Kinexys platform has processed more than $4tn in cumulative transactions since it began, with average daily volume of $7bn, figures it says were calculated from Kinexys's internal data. Ledger Insights noted that those numbers cover all of Kinexys's services, including payments and its tokenised collateral network, and "say nothing about JPMD activity on public chains". The announcement gives no figures for JPM Coin itself.
-Ethereum is not the last stop. In January, Kinexys and Digital Asset said JPM Coin would be issued natively on the Canton Network, a blockchain used by financial institutions, with a rollout "in phases throughout 2026". Monday's announcement does not mention Canton, and we found no announcement that the token is live there.
-Banks and card networks are competing with stablecoin issuers to carry settlement on public chains. Komposite has reported on Mastercard's first BVNK product, which holds fiat and stablecoins together, on the EU's classification of USDC as a significant e-money token and on Deutsche Bank's plans for crypto custody.

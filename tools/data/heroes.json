@@ -2833,5 +2833,41 @@
   "alt": "A ChatGPT billboard on top of an older building in San Francisco against a blue sky",
   "creditHtml": "<a href=\"https://unsplash.com/@samtakespictures?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Sam</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend": {
+  "id": "Ptd-iTdrCJM",
+  "url": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "A SpaceX Falcon Heavy rocket lifting off in a cloud of exhaust beside a hangar bearing the SpaceX logo",
+  "creditHtml": "<a href=\"https://unsplash.com/@spacex?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">SpaceX</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "policy/the-occ-finalises-its-stablecoin-rule-and-keeps-rewards-open": {
+  "id": "WyxqQpyFNk8",
+  "url": "https://images.unsplash.com/photo-1593672715438-d88a70629abe?ixlib=rb-4.1.0&w=1400&h=933&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "United States hundred-dollar notes fanned out in a pile",
+  "creditHtml": "<a href=\"https://unsplash.com/@giorgiotrovato?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Giorgio Trovato</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/eight-certificate-authority-keys-were-tiny-numbers": {
+  "id": "pY_AZJfdbHQ",
+  "url": "https://images.unsplash.com/photo-1503792243040-7ce7f5f06085?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 978,
+  "alt": "A single metal key on a black background",
+  "creditHtml": "<a href=\"https://unsplash.com/@mattartz?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Matt Artz</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "blockchain/solana-takes-its-votes-off-the-chain": {
+  "id": "oZPwn40zCK4",
+  "url": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 935,
+  "alt": "The rear of a server chassis with cooling fan panels and network cables, in black and white",
+  "creditHtml": "<a href=\"https://unsplash.com/@freeche?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Kvistholt Photography</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }
