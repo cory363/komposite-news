@@ -344,6 +344,130 @@ RelatedVenture funding returns to infrastructure software ›The discipline ques
 
 ---
 
+# A second Meta share, without the vote
+
+URL: https://kompositenews.com/markets/a-second-meta-share-without-the-vote/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-22T14:00:00Z
+Updated: 2026-10-22T14:00:00Z
+
+Meta will issue one non-voting Class C share per share held from 19 January 2027, filings show, letting it raise equity without diluting Mark Zuckerberg's control.
+
+Meta Platforms will give shareholders one non-voting Class C share for every Class A or Class B share they hold once its new charter takes effect on 19 January 2027, an 8-K filing shows. The company said the stock can be used to raise capital, pay employees and fund acquisitions without diluting anyone's vote.
+The board approved the restated charter on Monday 19 October on the unanimous recommendation of a special committee of disinterested and independent directors, the filing says. The next day, seven holding entities linked to Mark Zuckerberg (CZI Holdings and six Chan Zuckerberg Holdings companies), which together held 56.1 per cent of the voting power, approved it by written consent, according to Meta's preliminary information statement. Record and payment dates for the share dividend will be set later; payment is due no later than the fifth business day after the charter takes effect. Meta expects the Class A price to reflect a two-for-one split once the dividend is paid, and intends to list the Class C shares on Nasdaq.
+By our arithmetic, the dividend would create about 2.56bn Class C shares. Meta's quarterly report shows 2,214,472,367 Class A and 341,768,886 Class B shares outstanding on 16 October, which sum to 2,556,241,253, assuming no change before the record date.
+The point is control. As of 1 October, Mr Zuckerberg, Meta's founder, chairman and chief executive, beneficially owned 1,220,703 Class A and 341,215,148 Class B shares, about 60.6 per cent of total voting power and about 13.4 per cent of the economic interest, the information statement says. The special committee noted he "is not on the verge of losing voting control". It also recorded that he "would not support a significant equity financing that would have the effect of reducing his voting power", and that its adviser, Moelis, estimated Meta could raise at most about $700bn in equity over several years under the current structure before his voting power fell below 50 per cent.
+The more unusual terms sit in a Founder Alignment Agreement signed on 20 October. Twenty per cent of the Class C shares Mr Zuckerberg and his permitted transferees receive will be freely saleable, which the information statement says represents 10 per cent of his overall economic stake. The other 80 per cent are "Stapled Class C Shares": for each one sold, he must within two business days sell a Class A or Class B share, convert a Class B share to Class A, or apply credits from earlier sales. A sale that breaks the rule is treated as an automatic conversion of Class B shares into Class A, which carry one vote rather than ten.
+The staple loosens on a schedule. At the end of each calendar quarter in which he stays on the executive team or as executive chair full time, 2.5 per cent of his dividend shares are released; after the 32nd such quarter, the rest go. By our arithmetic, 32 quarters at 2.5 per cent is the full 80 per cent, so eight years of qualifying service unstaples everything. He has also committed, for eight years and absent "material unforeseen circumstances", to live in California or wherever Meta has its headquarters.
+The filing is plain about why. If California's Proposition 40, a one-time wealth tax on the 3 November ballot, becomes law, Mr Zuckerberg "could become liable for a significant, multi-billion dollar tax payment", and he told the committee he was evaluating moving his primary residence out of California, the information statement says. The freely saleable shares let him pay "his potential tax liability under California Proposition 40, if enacted into law, without affecting his majority voting control". In a July conversation with the lead independent director, he said that paying the tax by selling Class B shares could cut his voting interest to about 53 per cent.
+Further one-for-one Class C dividends follow "Doubling Events", when the 30-day volume-weighted Class C price reaches two, four, eight times and so on the $580.60 Class A price of 10 September, provided the compound annual shareholder return since then is at least 10 per cent. In a merger or tender offer, Mr Zuckerberg and his holder group may not take more, or different, consideration than other holders of the same class. After the dividend, if Meta buys back Class A shares, it must use best efforts to buy back at least as many Class C shares.
+Meta, quarter to 30 September20262025
+Revenue$64,601m$51,242m
+Costs and expenses$51,613m$30,707m
+Income from operations$12,988m$20,535m
+Operating margin20%40%
+Net income$9,860m$2,709m
+Diluted EPS$3.83$1.05
+Source: Meta's third-quarter release, Exhibit 99.1 to its Form 8-K filed 21 October 2026. Unaudited; the company's own figures. 2026 costs include a $9.89bn legal charge.
+The plan came with the third-quarter results. Revenue rose 26 per cent to $64.60bn while costs and expenses rose 68 per cent to $51.61bn, including a $9.89bn charge for an August agreement with 52 attorneys general over teen mental health, according to Meta's results release. Capital expenditure, including finance lease principal, was $34.91bn in the quarter, free cash flow was negative $2.12bn, and Meta guided full-year capital expenditure to $135bn-$145bn.
+Susan Li, the chief financial officer, told analysts on Wednesday's call: "We believe this share class will maintain our founder led structure. It will expand our funding tools and give us flexibility to invest behind the unprecedented momentum we are seeing across every part of our business, driven by AI. We do not have any specific financing plans to announce at this time," according to a transcript of the call. Analysts want the shares out quickly. "The sooner the better in our view as it would remove the overhang," Doug Anmuth, an analyst at JPMorgan, said, Yahoo Finance reported; Meta shares fell 2 per cent in premarket trading on Thursday, it said.
+There is also a large legal bill. On 25 September a New Mexico jury found Meta liable for more than 43 million violations of the state's Unfair Practices Act in a case brought by the state attorney general, and on Wednesday the court imposed a civil penalty of $25bn with 15 per cent post-judgment interest, the company's 10-Q says. Meta says it has accrued an amount for the matter, intends to appeal and may need to post a bond. Raúl Torrez, New Mexico's attorney general, said: "We may have paid for the construction of schools for the next 100 years," TechCrunch reported, while C.J. Mahoney, Meta's chief legal officer, said the ruling "makes it all but impossible to do business in the state of New Mexico".
+Why it matters: Meta has so far paid for its AI build-out from operating cash and debt, and with free cash flow now negative it has created a third route, a tradable equity that costs Mr Zuckerberg no votes. Outside shareholders take all the economic dilution from future issuance, and the stapling terms are what they get in return. Komposite has followed the same funding race in OpenAI's search for $30bn and in the SpaceX and Tesla merger talks.
+
+---
+
+# Twice the capex, less than half the operating profit
+
+URL: https://kompositenews.com/business/teslas-operating-margin-halves-as-capital-spending-doubles/
+Section: Business
+By: Priya Raghavan
+Published: 2026-10-22T13:40:00Z
+Updated: 2026-10-22T13:40:00Z
+
+Tesla's third-quarter operating income fell to $718m on flat $28.05bn revenue as capital spending reached $4.73bn and Optimus robot production began in Fremont.
+
+Tesla's third-quarter operating income fell 56 per cent to $718m while its capital spending more than doubled to $4.73bn, according to its quarterly update filed with the Securities and Exchange Commission on Wednesday. Revenue was flat at $28.05bn, and net income attributable to shareholders fell to $787m from $1.37bn.
+Revenue was $28,046m against $28,095m a year earlier, down 0.2 per cent by our arithmetic. Gross profit rose to $5,494m, a GAAP gross margin of about 19.6 per cent against 18.0 per cent, so the squeeze came lower down: operating expenses rose 39 per cent to $4,776m by our arithmetic. The operating margin was about 2.6 per cent against 5.8 per cent, a fall of 322 basis points by the company's count. Non-GAAP net income was $1,697m.
+Tesla, quarter to 30 September20262025
+Total revenue$28,046m$28,095m
+Gross profit$5,494m$5,054m
+Operating expenses$4,776m$3,430m
+Income from operations$718m$1,624m
+Net income (GAAP, to common)$787m$1,373m
+Capital expenditure$4,732m$2,248m
+Free cash flow$1,531m$3,990m
+Source: Tesla Q3 2026 Update, Exhibit 99.1 to its Form 8-K filed 21 October 2026. Unaudited; the company's own figures.
+Capital expenditure was $4,732m against $2,248m, or 2.1 times by our arithmetic, though below the $5,789m of the second quarter. Operating cash flow was $6,263m and free cash flow $1,531m, and cash and short-term investments rose to $45,447m. On the call, chief financial officer Vaibhav Taneja said Tesla was "revising our CapEx guidance to be approximately $20 billion for the current year", to be funded "primarily from our cash flows from operations", and that it had "secured capacity to borrow up to $30 billion" with no plans to draw on it this year, according to a transcript of the call.
+The update explains the revenue mix. Energy generation and storage revenue fell to $2,881m from $3,415m, "partially due to tariff-related customer refunds", Tesla said, and regulatory credit revenue fell to $113m from $417m. Services and other revenue rose to $4,605m from $3,475m, with what the company called record gross profit of $734m. Deliveries fell 2 per cent to 486,532 vehicles while production rose 4 per cent to 464,391.
+"Optimus production began in Fremont on our high-volume lines," Tesla said, describing the units as "the first production-quality bots that we have manufactured." On the call, Elon Musk, the chief executive, called it "what I'd call early production" and said the early part of the ramp "has a shallow slope and is somewhat bumpy because it is such a radically new product." He said it would take "at least a year, maybe a little longer" to reach a rate of 20,000 units a week. TechCrunch reported the target as 20,000 a week by the end of 2027. It is a goal, not an order book.
+On autonomy, Tesla said it began giving Robotaxi rides in Cybercabs in Austin on 3 September, and that the service reached nearly two million cumulative unsupervised miles by the end of the quarter. Active Full Self-Driving (Supervised) customers, a measure that counts upfront purchases and subscriptions for software that still needs a watching driver, rose to 1.74m from 1.04m. Ashok Elluswamy, Tesla's vice president of AI software, said on the call: "We suspect somewhere around Q2 next year is when we can turn on some of the first customer vehicles to be part of the Robotaxi fleet."
+Why it matters: Tesla is spending about twice as much on capital projects while earning less than half as much from operations, and its case now rests on robots, robotaxis and compute rather than on car volumes. Tesla says it will not draw on its new $30bn of borrowing capacity this year. The company's numbers are its own. Komposite reported on Wednesday on the special committees weighing a SpaceX and Tesla merger, which Mr Musk cannot attend.
+
+---
+
+# Two PHP flaws, and no fix but the patch
+
+URL: https://kompositenews.com/cybersecurity/two-critical-php-flaws-have-no-complete-mitigation/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-22T13:20:00Z
+Updated: 2026-10-22T13:20:00Z
+
+PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical remote code execution flaws rated CVSS 9.2; the project says only updating is a complete fix.
+
+PHP's maintainers on Wednesday released PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 to fix two critical flaws that can let an unauthenticated attacker run code on a web server, according to the project's security advisory. "There are no complete mitigations, updating is the only safe choice," each release note says.
+The flaws are CVE-2026-109618, remote code execution through out-of-memory corruption, and CVE-2026-109619, remote code execution through stale global state. Both are rated 9.2 under version 4.0 of the Common Vulnerability Scoring System, according to the project's GitHub advisories and the US National Vulnerability Database. The project gave advance notice on Tuesday, scheduling the release for 14:00 UTC on Wednesday.
+In the first flaw, PHP's handling of an out-of-memory error can interrupt a request while internal data is only partly set up, and the clean-up that follows may then treat that invalid data as valid. In the second, the advisory says, state belonging to one request can survive after its memory is freed, and a later request on the same worker may use it before normal initialisation resets it. The advisory names PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed as exposed, and puts the risk highest for mod_php, citing "a demonstrated exploit where an unauthenticated request can trigger the attack before any application code runs."
+The stop-gaps are partial. For the memory flaw, the project suggests removing PHP's memory limit in a way applications cannot override and lowering request-size limits, including at the web server or proxy. For the stale-state flaw, it suggests disabling session upload progress and restarting every worker, and warns against relying on ini_set() or .user.ini files. These measures "reduce exposure to specific attack paths but do not make an installation safe," it says.
+Support is uneven. Linux distributions and long-term-support vendors received the patches in advance, the advisory says. PHP 8.1 and older no longer receive updates from the project, though its security team published minimal source backports for 7.4, 8.0 and 8.1. The 8.2 branch reaches end of life on 31 December 2026.
+Among those credited with reporting the bugs is Wiz Research, the research arm of the cloud security company Wiz, which published its own account on Wednesday. Wiz said it found the first flaw on 19 August "using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol", confirmed unauthenticated code execution against Drupal and WordPress within two days, and reported to PHP on 24 August. "Frontier AI models substantially reduced that barrier, turning a longstanding flaw into an exploit," it wrote, adding that the vulnerable code had been present for more than a decade. Wiz credited the PHP team, the security firm Calif and OpenAI for work on discovery, coordination and patch verification. Wiz's claim that PHP runs 70 per cent of websites is its own.
+It was a crowded day. TechCrunch reported that Node.js patched four high-severity flaws, one allowing remote code execution, and that the LiteLLM proxy project said an attacker had published malicious packages to PyPI, Docker Hub and GitHub's container registry.
+Why it matters: a pre-authentication code-execution bug in the language beneath a large share of the web, with no configuration that fully closes it, leaves patching as the only control. Wiz's timeline also shows how far AI tools compress the work: one day, by its account, from the first bug to a working exploit against Drupal. As we reported on Wednesday, eight certificate authority keys were the week's other infrastructure scare, and Railway has told every customer to rotate its keys.
+
+---
+
+# Railway tells every customer to rotate its keys
+
+URL: https://kompositenews.com/cybersecurity/railway-tells-every-customer-to-rotate-its-keys/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-22T13:00:00Z
+Updated: 2026-10-22T13:00:00Z
+
+Railway said on Wednesday that an unauthorised party may have decrypted some customer environment variables, paused deployments and told all users to rotate keys.
+
+Railway, a cloud platform for hosting applications, has told all users to rotate their API keys and credentials because an unauthorised party may have decrypted customer secrets, it said on Wednesday. It has paused all deployments while it investigates.
+"Earlier this morning, Railway detected anomalous activity involving systems that store customer environment variables," the company wrote in the post, signed by Jacob Cooper. "Our investigation to date indicates that an unauthorized third party may have accessed encrypted environment variables and, for some of them, obtained the decrypted contents." Environment variables, it said, "may contain secrets such as API keys or database and registry credentials".
+The scope is unclear. "While our initial analysis suggests the impact may be limited to a subset of users, we are nevertheless recommending that all users take the actions described below as a precaution," Railway said. It asked customers to "immediately roll all environment variables, including any API keys, stored in Railway, as well as any private registry credentials, and review logs for those services for unusual activity." It said it would email affected customers once it confirms which accounts were hit.
+The pause is the operational cost. "All deployments are paused while we investigate. Until builds are restored, you will not be able to roll out new versions," the post said. TechCrunch reported that the pause effectively froze customers' websites and apps, and that anyone holding the stolen secrets could log in to linked services as the rightful owner. Railway later published separate guidance on checking for anomalous Google Cloud access and anomalous AWS access.
+Railway has not said how many users were affected, how the intruder got in or which systems were compromised. It did not respond to TechCrunch's questions, including whether it had received a ransom demand, the outlet said. The company offered its own explanation: "We believe this is part of a series of attacks recently targeting platform companies with the aim of compromising AI inference providers. We have notified these upstream providers to revoke all keys proactively." That claim is Railway's and has not been independently verified.
+There is a recent case of the kind Railway describes. OpenCode, an open-source AI coding tool, said on Saturday 17 October that attackers broke into an older system and reached stored provider keys belonging to 1.4 per cent of users of its OpenCode Console product, TechCrunch reported. OpenCode called it a "large-scale distillation attack", a label some observers disputed. Anthropic and Google blocked keys they believed were exposed, and OpenAI said it worked with OpenCode to refund API customers, according to TechCrunch. Nothing published links the two incidents beyond Railway's own description.
+Why it matters: a platform that stores other companies' secrets turns one intrusion into many, and rotating keys is harder while deployments are frozen. For developers who keep model-provider keys in such platforms, the exposure is also a bill, since stolen keys can run up usage charges. Komposite reported this week on eight certificate authority keys and, earlier this month, on a support tool that held the keys.
+
+---
+
+# China asks a court for the bitcoin Britain holds
+
+URL: https://kompositenews.com/crypto/china-asks-a-court-for-the-bitcoin-britain-holds/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-10-22T12:40:00Z
+Updated: 2026-10-22T12:40:00Z
+
+A Tianjin court has accepted a prosecution request to confiscate nearly 62,000 bitcoin from the Qian Zhimin fraud case, though British authorities hold the coins.
+
+Chinese prosecutors have asked a court in Tianjin to confiscate nearly 62,000 bitcoin that British authorities seized from Qian Zhimin, a fugitive fraud suspect, Yicai Global reported, setting a Chinese claim against coins held in the UK. Yicai valued the bitcoin at about $5.1bn at mid-October prices.
+The Tianjin No. 2 Intermediate People's Court said on 13 October that it had accepted the case on 28 September, according to Yicai's account of the court's announcement. CoinDesk reported, citing the Chinese outlet The Paper, that the court has opened a six-month period for victims and other interested parties to join. Investors who choose not to take part will keep their right to compensation from the recovered assets, the court said, according to Yicai.
+Prosecutors allege that Qian, as the actual controller of Tianjin Lantian Gerui Electronic Technology, sold wealth-management products across China between April 2014 and August 2017 without a licence. The scheme raised nearly 40.4bn yuan from more than 102,000 investors, who lost over 19.9bn yuan, Yicai said. Yicai converted the total to about $6bn; CoinDesk put it at roughly $5.7bn. The prosecution says the money repaid earlier investors, paid for fake investment projects and bought bitcoin, property, cars and jewellery.
+According to Yicai, Qian fled China in July 2017 with a computer holding a bitcoin wallet and later reached Britain. A district prosecutor in Tianjin approved her arrest in January 2018, and Interpol issued a Red Notice the following month. British authorities arrested her in April 2024, and she is now serving a prison sentence in the UK for cryptocurrency money laundering.
+The assets at issue are the ones British authorities seized. The court's announcement lists more than 61,800 bitcoin, over 72,700 bitcoin cash and more than 3.6m XRP tokens, along with cash and jewellery, Yicai reported. Prosecutors argue that the proceeds, assets bought with them and any income they produced should be confiscated, except for amounts returned to victims under Chinese law.
+The English courts have already narrowed the victims' route. The High Court in London ruled on Monday 12 October that Chinese law, not English law, governs victims' claims to the coins, Decrypt reported. Justice Mark Turner found that the fraud, the payments and the contracts all took place in China, and left the content of Chinese law to a later hearing. Fieldfisher, the law firm for the claimants, is pursuing an appeal, according to Decrypt, which cited the Financial Times.
+The Crown Prosecution Service said: "There will be a further hearing to determine the application of the law and if any of the victims are able to establish an interest in the bitcoin." Prosecutors in Britain have previously said victims could be compensated through a scheme run from China, Yicai and Decrypt both reported.
+Why it matters: the coins have risen far in value since Qian bought them, and the open question is who keeps that gain, whether victims, the Chinese state through confiscation, or Britain. A confiscation order from Tianjin would not by itself move coins held in Britain, and no Chinese ruling has yet been reported. Komposite has covered Britain's approach to crypto in its five-month authorisation window.
+
+---
+
 # Two special committees, one conflicted chief executive
 
 URL: https://kompositenews.com/business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend/
@@ -414,135 +538,3 @@ Mozilla then went further. Citing multiple people recovering the keys independen
 The remaining exposure is outside browsers. Helme wrote that most non-browser clients trust a certificate bundle stored on disk and do not check revocation by default; in his tests curl, Python and Node accepted a forged certificate for api.stripe.com on every Linux and macOS machine he tried, and Windows accepted the chain unless revocation checking was switched on. Devices with frozen firmware, such as routers and printers, "will trust these certificates until expiry, which is July 2039," he wrote.
 Cloudflare, quoted by The Register, said "an attacker can create a forged certificate for any domain", though the attacker would still need to sit between the user and the server. CoinDesk noted that exchange bots, trading scripts and wallet back ends often run on Python, Node or Go. "This is not a crypto-specific issue," Mudit Gupta, chief technology officer of Polygon Labs, told the outlet. "It is a generic issue that can be exploited for man-in-the-middle attacks."
 Why it matters: the browser programmes closed the hole within hours, but revocation only protects software that checks it, so the fix elsewhere is updating certificate bundles and rebuilding container images. Komposite has covered how quickly attackers move on exposed keys and tools, including the BeyondTrust support tool, and the enterprise shift to managed browsers.
-
----
-
-# Solana takes its votes off the chain
-
-URL: https://kompositenews.com/blockchain/solana-takes-its-votes-off-the-chain/
-Section: Blockchain
-By: Marcus Oyelaran
-Published: 2026-10-21T14:50:00Z
-Updated: 2026-10-21T14:50:00Z
-
-Solana's Alpenglow consensus upgrade went live on 21 October, Anza said, replacing on-chain votes with aggregated certificates and targeting 150ms finality.
-
-Solana's Alpenglow upgrade went live on Wednesday, moving validator votes off the blockchain and targeting transaction finality of about 150 milliseconds, according to Anza, the developer that built it. Anza said the new consensus protocol reached mainnet-beta at slot 459,653,000 at about 14:00 UTC, The Block reported. Finality is the point after which a transaction cannot be reversed.
-The switch came early in epoch 1064. By our reading of a public Solana node, that epoch began at slot 459,648,000 at 13:36 UTC, so the handover came 5,000 slots later. At 15:44 UTC the node listed 666 vote accounts as current and 11 as delinquent. Brennan Watt, Anza's chief executive, called it "the largest, most ambitious blockchain upgrade since 'The Merge'", Ethereum's 2022 switch to proof of stake, according to The Block.
-The two accounts of the starting point differ. Anza put finality before the upgrade at 12.8 seconds, The Block reported, while CoinDesk, writing before the switch, said it took about six seconds and that the new target would be roughly 40 times faster. The 150 millisecond figure is Anza's target; The Block reported no measured figure after the switch.
-The mechanism changes how agreement is recorded. Votes are now signed with BLS signatures, a scheme that lets many signatures be combined into one, and aggregated into compact certificates rather than written to the chain as ordinary transactions, Galaxy said in a report on its experience running a validator on the test network. Proof of History, Solana's built-in clock, retires once the migration completes. Slashing for double voting is "well defined but deliberately not enabled in the first iteration", Galaxy wrote.
-The fault model shifts as well. Galaxy said Alpenglow is built for "20 plus 20": up to 20 per cent of stake acting maliciously plus a further 20 per cent offline. The previous protocol, TowerBFT, tolerated up to 33 per cent malicious stake. Galaxy, one of the larger Solana validator operators, sells staking services, and its account is its own.
-Costs for validators change too. Galaxy estimated that voting cost about 1 SOL a day at 400 millisecond slots and about 2 SOL a day at the current 200 milliseconds; Alpenglow replaces that with a flat validator admission ticket of 0.8 SOL per epoch, which runs about a day. By our arithmetic that is 60 per cent less than 2 SOL a day, the saving CoinDesk also gave. A vote account that cannot cover the ticket at an epoch boundary "is excluded from consensus for that entire epoch", Galaxy said.
-The test network was uneven. It launched in early May with around 50 independent operators and grew to roughly 100, Galaxy said, and was restarted from a fresh genesis block six times. Galaxy describes a migration that failed network-wide and a rollback, though its text is not consistent on the order of events. Validators were asked to run the Agave client for the switch; Firedancer's 26.10 release supports Alpenglow, and the Frankendancer hybrid will not be supported now that it is active.
-The validator base has thinned. CoinDesk, citing Bitwise's staking report, said active validators fell to 659 at the end of September from 696 three months earlier, about 30 per cent fewer than a year before; by our subtraction that is 37 fewer in a quarter. Citing Solana Compass data, it said 69 per cent of SOL's supply was staked, that the smallest group of validators controlling more than a third of stake fell to 18 from 20 over the past year, and that the top ten's share rose to 24.5 per cent from 22.2 per cent.
-Robin Nordnes, chief executive and founder of Raiku, which builds trading infrastructure on Solana, told CoinDesk: "Most of what got counted before was validators voting, and that's off-chain now." His point is that vote transactions, which made up most of Solana's counted activity, no longer appear on chain, so activity figures from before and after the switch are not like for like.
-Why it matters: a flat, lower cost of taking part should help smaller operators, but the concentration figures show where the network starts from, and the first epochs will show how many vote accounts clear the new ticket. Komposite has looked at the economics of running validators in institutional staking, and at how regulators now classify the assets on top, in the SEC's March interpretation.
-
----
-
-# Thirty billion, ahead of Anthropic's listing
-
-URL: https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/
-Section: AI
-By: Dana Whitfield
-Published: 2026-10-20T20:45:00Z
-Updated: 2026-10-20T20:45:00Z
-
-OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.
-
-OpenAI is trying to secure investor commitments for a round of about $30bn that could value it at more than $1.4tn before Anthropic's expected stock market debut in mid-November, Reuters reported on Monday, citing people familiar with the matter. No terms have been announced.
-Reuters attributed the valuation and the timetable to two people, and the size of the round to one of them. OpenAI and SoftBank Group declined to comment to Reuters, and Anthropic and MGX, the Abu Dhabi investment firm, did not immediately respond. We found no public statement from either OpenAI or Anthropic on the report by Tuesday afternoon. The mid-November date is Reuters' description of an expected debut; none of the sources we read gives a date announced by Anthropic.
-SoftBank, MGX and other existing OpenAI backers are in talks to join the round, one of the people told Reuters. OpenAI met long-only funds and sovereign wealth funds last week while Anthropic was hosting its own investor day, and the round is expected to move faster than is usual for a raise of its size, the people said. SoftBank had already completed a $30bn investment in OpenAI's previous round, Komposite reported on 9 October, citing Bloomberg, which had described OpenAI's talks at about $1.4tn.
-Why the hurry? According to Reuters' sources, the fast timetable partly reflects a wish to get ahead of Anthropic, because the two labs increasingly draw on the same investors, and to make use of OpenAI's recent revenue growth. One person said OpenAI wants to finish before Anthropic's financial disclosures give investors a fuller picture of its business and invite comparisons. Some investors see the push as an attempt to lock in money that might otherwise go to Anthropic's offering, the people said. Investors familiar with OpenAI told Reuters it also needs capital for its infrastructure commitments and its balance sheet, in case a weaker IPO market delays its planned 2027 listing. OpenAI has not stated any of these reasons itself.
-What is OpenAI telling investors? That growth sped up after the launch of its GPT-6 Astra model, taking annualised revenue, the current monthly rate multiplied by twelve, to $50bn, with $70bn expected by the end of the year, according to one person. It has also cut prices on its cheaper models, which it says has lifted usage. These are the company's own figures as relayed by a source, not audited results. Earlier this month OpenAI told investors its run rate was near $50bn, not the roughly $70bn that had been reported.
-Anthropic's numbers come from the same report. Its annualised revenue reached roughly $65bn by July, Reuters previously reported, and it told investors that third-quarter revenue rose to $16.8bn from $11.6bn in the second quarter. Reuters said slowing month-to-month growth had raised concerns among investors about Anthropic's valuation, and reported last week that some existing and prospective investors argued for a debut valuation closer to $1.5tn than the $2tn the company wants, after third-quarter results fell short of expectations. Those are investors' views as reported, not the company's.
-As reported by ReutersOpenAIAnthropic
-Valuation soughtMore than $1.4tn, in a round of about $30bn (people familiar)$2tn desired at listing; some investors argued for about $1.5tn
-Last private mark$852bn in March, after a $122bn roundNot given in the report
-Revenue claim$50bn annualised; $70bn expected by year-end (company pitch, per one person)About $65bn annualised by July; Q3 revenue $16.8bn, up from $11.6bn in Q2 (told investors)
-How revenue is bookedNet: partners' shares subtracted upfrontOpenAI says gross; Anthropic says it follows established accounting practices
-ListingPlanned for 2027Debut expected in mid-November
-The two companies count revenue differently, and each defends its own method. OpenAI records revenue net, subtracting partners' shares upfront, and has accused Anthropic of inflating its revenue by counting the full, gross value of contracts sold through third-party cloud providers, Reuters reported. Anthropic told Reuters earlier that it follows established accounting practices. Until both publish audited accounts on a common basis, the headline figures above are not directly comparable. One person told Reuters that Anthropic's disclosures could lead investors to press OpenAI's chief financial officer, Sarah Friar, for more detail on its growth and outlook.
-"OpenAI could want to set its own valuation and not have to worry about a comp (comparison)," Edward Best, co-chair of capital markets at the law firm Willkie Farr & Gallagher, told Reuters. "It's really a two-horse race in terms of being public." Reuters noted that Best is not working on the deal and spoke hypothetically.
-The price has moved quickly. OpenAI was last valued at $852bn in March, after a $122bn round that included Amazon's agreement to invest up to $50bn, Reuters said; in September it was in early talks at more than $1.2tn. By our arithmetic, $1.4tn is about 64 per cent above the March mark, 28 times the $50bn run rate and 20 times the $70bn OpenAI expects.
-The backdrop is less friendly than it was. Bankers and investors told Reuters that several companies preparing to list have chosen to wait until after Anthropic's IPO, and that some late-stage companies are timing private rounds to avoid it. AirTrunk REIT, Firmus and SB Energy have pulled or paused listings, and members of the Philadelphia Semiconductor Index have lost $1.6tn in market value in less than two weeks, Reuters said. Anthropic, which plans to list as a public benefit corporation, said on Sunday that it will commit five per cent of its shares to a public benefit fund, subject to stockholder approval.
-
----
-
-# Seventy-two hours to report an AI incident
-
-URL: https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-10-20T19:00:00Z
-Updated: 2026-10-20T19:00:00Z
-
-GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.
-
-AI vendors whose US General Services Administration (GSA) contracts carry a new clause, GSAR 552.239-7001, must report security incidents within 72 hours. The clause took effect on Monday 19 October. It sets data, reporting and model-change terms for large language models (LLMs), the systems behind chatbots and AI assistants.
-GSA, the federal government's main buying agency, issued the clause as a class deviation, a change that applies to its contracting staff before formal rulemaking. The clause text, titled "Basic Safeguarding of Data within Large Language Model Artificial Intelligence Systems", is part of the agency's rewritten acquisition rules posted on acquisition.gov. The 19 October start date was reported by FedScoop and the law firm Wiley Rein. Contracting officers may add it to existing contracts at their discretion, FedScoop said.
-It applies when the government buys an LLM, "generative assistant, chatbot, agentic system, LLM-enabled document or productivity tool, or similar system" where LLM functionality is a material feature and government data goes into or comes out of the model, the text says. It does not apply to a contractor's internal tools that are not delivered to or accessed by the government, or where AI is incidental to a product bought for another purpose.
-The clause sets several separate clocks. A vendor must notify the contracting officer within 72 hours of discovering a security incident that may affect government data, then send daily updates until it is resolved, and separately within 72 hours of learning of a material violation of the clause. It needs 30 calendar days' written notice before adding, replacing or materially changing a model or provider, unless it lets the government use the old and new models side by side. That overlap must last at least 30 days for a major version and 15 for a minor one. If an outside model provider retires a version, the vendor has five business days to tell the government. A change that materially increases output bias, weakens safety guardrails or degrades truthfulness must be reported within seven calendar days. Incident logs and forensic material must be kept for at least 90 days.
-DeadlineWhat triggers itClause paragraph
-72 hoursSecurity incident affecting an LLM that may affect government data (then daily updates)(f)(5)
-72 hoursVendor learns of a material violation of the clause(d)(2)
-5 business daysA third-party provider the vendor does not control deprecates a model(i)(2)
-7 calendar daysA material change that raises output bias, weakens guardrails or degrades truthfulness(i)(3)
-15 / 30 calendar daysMinimum overlap with a successor model, minor / major versions(i)(2)
-30 calendar days (in advance)Adding, replacing or materially changing a model or provider, unless overlap access is given(i)(1)
-30 daysDisclosing that a model was modified for, or to comply with the rules of, a non-US government (after award or after learning of it)(f)(3)
-120 daysDisclosing which LLMs process government data, if the contract sets no date(f)(1)
-Government data may not be used to train, fine-tune or otherwise improve any LLM, including third-party models, or to inform a vendor's marketing, sales or business decisions. At the end of a contract the vendor must permanently delete government data and any custom work, "including fine-tuned model weights, embeddings, indexes, and caches", unless the contracting officer directs otherwise in writing. LLM services must let the government export its data in open or standard formats.
-The clause also overrides vendors' own paperwork. Where it conflicts with a company's "terms of service, click-wrap, browse-wrap, or other commercial agreements", the clause takes precedence, though it does not replace the standard commercial-items clause. The government may run its own automated tests of a deployed model at any time, for bias, truthfulness, safety and "unsolicited ideological content", and "retains the right to suspend use of the LLM at any time". If a contract is ended for cause after a vendor fails to fix a problem it was warned about in writing, the vendor pays reasonable decommissioning costs, capped at 25 per cent of the affected task or delivery order.
-The final text is softer than the drafts that industry fought over this summer. At a July listening session reported by FedScoop, Menaka Kalaskar, who leads Palantir's US government legal and contracting team, said GSA "seems to be taking a lot of risk with this initiative, and it's not obvious why", and called the material-change notice "unworkable" for software-as-a-service companies. GSA received over 75 comments, FedScoop reported. The earlier "unbiased AI principles" language was largely dropped in favour of a duty to use "reasonable efforts" to prioritise accuracy and acknowledge uncertainty. Nvidia's chief external affairs officer, Bruce Andrews, had argued that "obligations should follow the data, not the model's authorship"; the final clause exempts fully open models, which publish their architecture, weights, code and data, from its foreign-control flowdowns. Models that publish only their weights do not qualify.
-GSA plans to add the clause to its Multiple Award Schedule, the catalogue of pre-approved vendors, in Refresh 34, which Wiley put at 6 November, with a GSA webinar on 26 October. It also arrives as the agency moves to paid AI deals: on 10 September GSA announced a 27-month, consumption-based OneGov offer for OpenAI's ChatGPT models from 1 October, at a 50 per cent discount on token-based use, the first agreement in the next phase of its OneGov AI strategy. Komposite covered an earlier draft of the clause in September, and the private-sector version of these fights in enterprise buyers' AI contract terms.
-
----
-
-# Washington orders DeepSeek out of civilian agencies
-
-URL: https://kompositenews.com/policy/washington-orders-deepseek-out-of-civilian-agencies/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-10-20T17:00:00Z
-Updated: 2026-10-20T17:00:00Z
-
-A DHS order dated 24 July and published on 20 October bars federal civilian agencies from buying DeepSeek products and orders their removal, with exceptions via CISA.
-
-The US Department of Homeland Security (DHS) has ordered federal civilian agencies to stop buying DeepSeek products and to remove them from their IT systems, according to a notice in the Federal Register on Tuesday, 20 October. The signed order, attached to the notice, is dated 24 July 2026. DeepSeek is the Hangzhou-based AI developer whose R1 reasoning model unsettled markets in January 2025.
-The order, "Exclusion and Removal Order #2026-01", is signed by the Secretary of Homeland Security, Markwayne Mullin. It is made under the Federal Acquisition Supply Chain Security Act of 2018, a law that lets the secretary bar risky technology from civilian agencies on the recommendation of the Federal Acquisition Security Council, an interagency body. The notice says the secretary acted "following review of the Federal Acquisition Security Council Recommendation and affiliated evidence". It does not explain why publication came almost three months after the order was released.
-The order has two parts. Agencies must exclude DeepSeek, its affiliates and their products from procurement, "effective immediately after issuance of this Order", including approved-product lists and e-commerce marketplaces. And they must remove products from DeepSeek, its affiliates, and "third-party products and services developed using DeepSeek implementations" from their systems immediately, or seek an exception. Until removal is complete, agencies are encouraged to monitor traffic, step up logging and controls on data leaving their networks, and flag anomalous activity.
-Exceptions must be requested in writing "within 60 days of the issuance of this order", with a justification and any mitigations, and the Cybersecurity and Infrastructure Security Agency (CISA) will approve or refuse them. By our arithmetic, 60 days from 24 July was 22 September. The notice does not say whether agencies get a new window from Tuesday's publication. CISA may also give technical help to agencies that cannot comply on their own, and the secretary must review the order within a year and every year after.
-The order states its reasons briefly. It says DeepSeek's servers are in China, where "the PRC legal system permits extensive authority to government cyber and intelligence functions to access private company infrastructure"; that its account sign-up collects personal information and may track and fingerprint users; and that prompts from US government employees or vendors could send sensitive data to China. "The models themselves may contain malware or other security vulnerabilities," it adds, citing a February 2025 NowSecure report that found critical flaws in DeepSeek's iOS app.
-The reach is limited. The order applies to federal civilian agencies "except for their national security systems and secure compartmented information systems", which fall to the Pentagon and the Director of National Intelligence. BleepingComputer noted that it "is not a general ban on private or consumer use". TechCrunch said it extends to civilian agencies restrictions that a law passed in December 2025 placed on DeepSeek in intelligence agencies' national-security systems. Neither report carried a statement from DeepSeek.
-Beijing objected. Foreign Ministry spokesperson Mao Ning said China opposes "overstretching the concept of national security and politicizing technology and trade issues", according to TechCrunch, and added: "We will resolutely safeguard the legitimate rights and interests of Chinese enterprises." China is tightening its own controls: Komposite reported last week that Beijing proposed adding 40 technologies, 23 of them in AI, to its export-control catalogue.
-The order lands in a wider dispute over Chinese labs. TechCrunch cited a September report accusing DeepSeek and five other Chinese AI companies, including Alibaba and Moonshot AI, of large-scale distillation, training on the outputs of US systems. It said OpenAI told US lawmakers it had seen suspected DeepSeek distillation attempts and that Anthropic said it had found unauthorised attempts by DeepSeek and other Chinese labs to collect outputs from Claude. Those are the companies' claims; DeepSeek has not responded in the reports we read.
-The clause with the widest effect is the one on third-party products. A vendor that sells agencies software built on DeepSeek's open-weight models now falls inside the order, and the notice does not say how agencies are to find such products. Komposite has followed US scrutiny of AI developers, including the FTC's request to two labs for their incident files and eight state attorneys general's action on a single chatbot.
-
----
-
-# The CFTC says CME cannot have it both ways
-
-URL: https://kompositenews.com/crypto/the-cftc-says-cme-cannot-have-it-both-ways/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-10-20T16:40:00Z
-Updated: 2026-10-20T16:40:00Z
-
-The CFTC's 16 October reply brief says CME lacks standing to fight its approval of Kalshi's bitcoin perpetual future, citing CME's own volumes and earnings call.
-
-The Commodity Futures Trading Commission (CFTC) has told a federal court that CME Group cannot show any financial harm from the agency's approval of perpetual futures, and so has no standing to sue. The argument is in a reply brief filed on Friday, 16 October, in the US District Court for the District of Columbia. A perpetual future is a leveraged derivative with no expiry date that tracks an asset's current price.
-The case is over a CFTC order of 29 May that approved BTCPERP, a cash-settled bitcoin perpetual contract from the prediction-market operator Kalshi, CoinDesk reported, together with a policy statement that the agency will treat such products as futures, case by case. CME, the largest US futures exchange operator, sued on 18 June. It argues that perpetuals have no expiry or delivery obligation and involve funding payments between traders, so they are swaps rather than futures, and that the CFTC did not explain its break from enforcement cases that treated crypto perpetuals as swaps.
-The brief's central line is that competition alone is not an injury. "Everyone agrees on at least this much: CME must plausibly allege an actual or imminent increase in competition. CME has not even done that," the CFTC wrote. "Allegations of increased competition, without any plausible inference of an imminent financial injury, therefore do not meet basic Article III standards." The agency says CME has conceded that any added competition is limited to its retail business, not its institutional clients.
-Its sharpest argument uses CME's own words. In CME's second-quarter earnings script of 22 July, the brief says, its chief executive said the exchange has "the full technical and operational capabilities to launch perpetual futures" but has "not heard demand from our customers". "CME cannot have it one way with the Court and another way with the investing public on earnings calls," the CFTC wrote. CME did not immediately respond to a request for comment, CoinDesk reported on Monday.
-The brief also sets out CME's own crypto volumes, from the exchange's monthly reports, to argue that perpetuals have done it no harm. On the CFTC's figures, CME's twelve crypto futures traded 3.28 million contracts in September, against 2.66 million in May, the month of the approval. The table also shows a dip in July, to 2.52 million, below the May level. Only one product, Chainlink futures, remained lower than in May, by 340 contracts.
-CME crypto futures (contracts)May 2026July 2026Sept 2026May to Sept
-Bitcoin259,329246,072267,693+8,364
-Micro Bitcoin1,113,7191,117,8161,354,088+240,369
-Ether326,981320,040378,292+51,311
-Micro Ether735,326674,601911,822+176,496
-All twelve products2,660,9602,523,6993,282,530+621,570
-Source: the CFTC's reply brief of 16 October, tabulating CME Group's monthly volume reports. The other eight products are Solana, XRP, Chainlink and Sui futures and their micro versions.
-This is the agency's second attempt to end the case early. It moved to dismiss on 2 September, calling the dispute "much ado about nothing", CoinDesk reported. CME filed its opposition on 2 October. The judge, Colleen Kollar-Kotelly, has refused the CFTC's request to withhold the administrative record until the dismissal motion is decided, and, according to the brief, also denied the agency's request for limited discovery on standing. The Hyperliquid Policy Center has filed a brief in the case, which the CFTC cites.
-Not everyone thinks the agency is ahead. Jaret Seiberg, a policy analyst at TD Cowen, wrote in a Monday client note that CME may still have the edge on standing and on its argument that perpetuals are swaps, CoinDesk reported. "What increasingly concerns us is the growth in perps while the litigation is playing out," he wrote, adding that unwinding the market could become complicated if CME won.
-The stakes reach beyond one contract: the policy covers perpetuals on other digital commodities, and exchanges have filed for perpetuals on individual stocks. Komposite has reported on those equity perpetual filings and on the CFTC's separate attempt to define event contracts as swaps.

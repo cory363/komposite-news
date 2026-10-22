@@ -50,14 +50,14 @@
 
 ## Newest stories
 
+- [A second Meta share, without the vote](https://kompositenews.com/markets/a-second-meta-share-without-the-vote/): Meta will issue one non-voting Class C share per share held from 19 January 2027, filings show, letting it raise equity without diluting Mark Zuckerberg's control.
+- [Twice the capex, less than half the operating profit](https://kompositenews.com/business/teslas-operating-margin-halves-as-capital-spending-doubles/): Tesla's third-quarter operating income fell to $718m on flat $28.05bn revenue as capital spending reached $4.73bn and Optimus robot production began in Fremont.
+- [Two PHP flaws, and no fix but the patch](https://kompositenews.com/cybersecurity/two-critical-php-flaws-have-no-complete-mitigation/): PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical remote code execution flaws rated CVSS 9.2; the project says only updating is a complete fix.
+- [Railway tells every customer to rotate its keys](https://kompositenews.com/cybersecurity/railway-tells-every-customer-to-rotate-its-keys/): Railway said on Wednesday that an unauthorised party may have decrypted some customer environment variables, paused deployments and told all users to rotate keys.
+- [China asks a court for the bitcoin Britain holds](https://kompositenews.com/crypto/china-asks-a-court-for-the-bitcoin-britain-holds/): A Tianjin court has accepted a prosecution request to confiscate nearly 62,000 bitcoin from the Qian Zhimin fraud case, though British authorities hold the coins.
 - [Two special committees, one conflicted chief executive](https://kompositenews.com/business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend/): Elon Musk said SpaceX and Tesla have formed special committees to weigh a merger, with no terms agreed, as SpaceX reported $14.6bn in third-quarter revenue.
 - [The stablecoin rule that will not say what a reward is](https://kompositenews.com/policy/the-occ-finalises-its-stablecoin-rule-and-keeps-rewards-open/): The OCC finalised its GENIUS Act stablecoin rule on Wednesday, effective 18 January 2027, dropping a presumption against rewards and leaving yield undefined.
 - [Eight certificate keys that were tiny numbers](https://kompositenews.com/cybersecurity/eight-certificate-authority-keys-were-tiny-numbers/): Mozilla blocked eight eMudhra intermediate certificates whose private keys were integers below 256; eMudhra blames a flawed key-ceremony script.
-- [Solana takes its votes off the chain](https://kompositenews.com/blockchain/solana-takes-its-votes-off-the-chain/): Solana's Alpenglow consensus upgrade went live on 21 October, Anza said, replacing on-chain votes with aggregated certificates and targeting 150ms finality.
-- [Thirty billion, ahead of Anthropic's listing](https://kompositenews.com/ai/openai-seeks-thirty-billion-before-anthropic-lists/): OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.
-- [Seventy-two hours to report an AI incident](https://kompositenews.com/policy/seventy-two-hours-to-report-an-ai-incident/): GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.
-- [Washington orders DeepSeek out of civilian agencies](https://kompositenews.com/policy/washington-orders-deepseek-out-of-civilian-agencies/): A DHS order dated 24 July and published on 20 October bars federal civilian agencies from buying DeepSeek products and orders their removal, with exceptions via CISA.
-- [The CFTC says CME cannot have it both ways](https://kompositenews.com/crypto/the-cftc-says-cme-cannot-have-it-both-ways/): The CFTC's 16 October reply brief says CME lacks standing to fight its approval of Kalshi's bitcoin perpetual future, citing CME's own volumes and earnings call.
 
 ## About, standards and contact
 
