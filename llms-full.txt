@@ -365,7 +365,7 @@ Why it matters: the entry route, a vendor's stored credentials, is familiar; the
 
 ---
 
-# The collar can find the dog, not train it
+# The collar can find the dog. Cinnante Canine trains it
 
 URL: https://kompositenews.com/technology/the-collar-can-find-the-dog-not-train-it/
 Section: Technology
