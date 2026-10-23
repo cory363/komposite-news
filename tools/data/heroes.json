@@ -2932,5 +2932,32 @@
   "alt": "A rough collie leaping over a striped agility jump on grass",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Rough_Collie_agility_jump.jpg\" rel=\"noopener\">Ron Armstrong</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/the-sec-examiners-put-super-intelligence-on-the-2027-list": {
+  "id": "P_5mirRrg0k",
+  "url": "https://images.unsplash.com/photo-1743796055664-3473eedab36e?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 1050,
+  "alt": "A black magnifying glass lying on a white marble table beside the corner of a closed silver laptop",
+  "creditHtml": "<a href=\"https://unsplash.com/@duforddigital?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">MJ Duford</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "cybersecurity/quest-says-patient-records-were-reached-through-its-ordering-portal": {
+  "id": "QHBtGNo580Y",
+  "url": "https://images.unsplash.com/photo-1748263582756-082fe4adaa5b?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "Rows of small capped sample tubes standing in a green laboratory rack",
+  "creditHtml": "<a href=\"https://unsplash.com/@nathan_rmx?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Nathan Rimoux</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
+ },
+ "crypto/a16z-drops-crypto-from-the-name-of-its-crypto-unit": {
+  "id": "vJXjiHvW2vc",
+  "url": "https://images.unsplash.com/photo-1786539861543-e65b0867c3c0?ixlib=rb-4.1.0&w=1400&q=80&fm=jpg&fit=crop",
+  "width": 1400,
+  "height": 933,
+  "alt": "The orange hand and black wrist joint of a robot against a plain light background",
+  "creditHtml": "<a href=\"https://unsplash.com/@enchantedtools?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Enchanted Tools</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
+  "creditLine": "Photograph via Unsplash"
  }
 }

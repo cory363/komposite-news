@@ -344,6 +344,67 @@ RelatedVenture funding returns to infrastructure software ›The discipline ques
 
 ---
 
+# The SEC's examiners put super intelligence on the 2027 list
+
+URL: https://kompositenews.com/markets/the-sec-examiners-put-super-intelligence-on-the-2027-list/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-23T15:20:00Z
+Updated: 2026-10-23T15:20:00Z
+
+The SEC's Division of Examinations on Friday set its fiscal 2027 priorities, naming registrants' use of super intelligence, cyber resilience, private credit and tokenisation.
+
+The Securities and Exchange Commission's Division of Examinations on Friday published its fiscal year 2027 examination priorities, naming registrants' use of what it calls "super intelligence" (SI), cybersecurity and customer data, private credit and tokenisation among the areas it considers higher risk, the SEC said. The priorities apply across what the release calls "the Division's more than 34,000 registrants".
+The priorities document is a staff statement. A disclaimer on its first page says it is not a rule, regulation or statement of the Commission, which has neither approved nor disapproved it, and that it creates no new or additional obligations. The release says the list is not exhaustive and that the division may adjust its focus in response to market events and new developments.
+SI appears in the leadership message before the priorities themselves. The division says registrants are "increasingly incorporating super intelligence (SI) into their businesses", using generative tools for research, drafting, coding and client communications, as well as advisory and portfolio management functions and compliance monitoring. It says it is "intensifying its efforts" to understand how the technologies influence outcomes and whether firms continue to comply with existing, technology-neutral obligations. The division adds that it is working to bring SI into its own examinations and risk assessment "without displacing examiner judgment".
+The section on emerging financial technology is more specific. It says threat actors are using SI to automate and accelerate cyberattacks, and that examiners will review registrants' preparation for SI-related threats such as SI-generated phishing messages and synthetic or deepfake voice and video used for social engineering. The division will also prioritise policies for monitoring SI used in fraud prevention and detection, back-office operations, anti-money-laundering and Regulation Best Interest compliance, and trading. For automated investment tools, it will test whether representations are fair and accurate, whether operations and controls match what investors were told, and whether algorithms produce advice consistent with investors' investment profiles or stated strategies.
+Cybersecurity and operational resilience remain a priority, with examiners reviewing governance, data loss prevention, access controls, and response and recovery protocols, including for ransomware. The division says it will assess the risks of registrants' increased use of third-party service providers and shared technologies. Under the amended Regulation S-P, staff will evaluate incident-response policies, customer notification procedures and oversight of service providers. For investment advisers, the document also flags firms that use third parties to access clients' accounts, where existing controls "may be insufficient to protect client assets and data".
+On products, the division says it will prioritise advisers that recommend investments that are difficult to trade, have unusual features or are illiquid. Its examples include loans provided by private funds or business development companies, stakes in private companies held through special purpose vehicles, and higher-risk products such as exchange-traded funds based on less liquid assets, option-based funds, inverse and single-stock ETFs, and zero-days-to-expiration options. For private fund advisers, examiners will check disclosures on debt, fund-level lines of credit, affiliated service providers and the accuracy of fee and expense calculations.
+Market infrastructure gets its own entries. Examinations of clearing agencies will focus on areas including risk management of defaults, recovery and wind-down, securities lending, operations and tokenisation, and on compliance with new rules including those on expanded Treasury clearing. Under Regulation Systems Compliance and Integrity, examiners will look at emerging trends including SI, tokenisation of securities, extended trading hours and quantum computing. The document does not mention crypto assets; tokenisation is the nearest it comes.
+Paul S. Atkins, the SEC's chairman, said in the release: "Examinations are one of the Commission's most important tools for promoting compliance with the federal securities laws." Keith Cassidy, the division's director, said: "The markets we oversee continue to evolve rapidly, and the examination program must evolve with them." The document says a central focus this year is strengthening how registrants get access to the observations examiners gather, and it notes an enhanced memorandum of understanding with the Commodity Futures Trading Commission that deepens coordination between the two agencies.
+Why it matters: the priorities are not rules, but they tell regulated firms where examiners will ask questions in the coming year. For firms that have put generative tools into research, client communications or compliance, the document signals that disclosures, controls and monitoring around those tools will be examined under existing law. It also arrives as the SEC works on other plans for funds, including the cross-trading proposal Komposite covered this month, and as incidents such as Railway's key-rotation warning keep third-party risk in view.
+
+---
+
+# Quest says patient records were reached through its ordering portal
+
+URL: https://kompositenews.com/cybersecurity/quest-says-patient-records-were-reached-through-its-ordering-portal/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-23T15:00:00Z
+Updated: 2026-10-23T15:00:00Z
+
+Quest Diagnostics said in an SEC filing that an unauthorised party accessed patient records in its Quanum LSM ordering system; it has not said how many people are affected.
+
+Quest Diagnostics, the US laboratory-testing company, said in a filing with the Securities and Exchange Commission dated Thursday that it learned on Wednesday of unauthorised access to its Quanum LSM system and believes an unauthorised party accessed certain patient records. The filing does not say how many patients are affected.
+The 8-K describes Quanum LSM as a system "which certain clients use to place test orders, receive and look up results". Quest said it started its incident-response procedures to contain the activity, notified federal law enforcement and engaged outside cybersecurity experts. The full scope remains under investigation, the filing says, and the incident has not materially disrupted the company's operations or its ability to serve patients.
+A notice on Quest's website, marked as of 08:00 Eastern on Friday, says the company paused access to Quanum Lab Services Manager on discovering the incident. Providers that order through direct laboratory-system interfaces or electronic medical records can carry on, and Quanum LSM customers can use paper requisitions or Quanum eLabs in the meantime. The notice says Quest anticipated restoring full service "as soon as" 23 October. Two other products, Essential Insights and LabHQ, were paused as a precaution; Quest says no data was accessed in them. It says it believes "some patient data within Quanum LSM was accessed" and is working to determine which data, and that the incident is not related to this week's PHP programming-language flaws.
+Quest says it will notify affected patients, providers and health plans as the law requires, and that letters to patients will describe the resources available, including credit and identity monitoring. TechCrunch reported that Quest did not say when the intrusion began or whether attackers have demanded payment, and that a spokesperson, Amanda Rivera, did not answer its questions and pointed to the notice. TechCrunch also noted that the notice page carries code telling search engines not to list it.
+It is not Quest's first exposure of patient data. In June 2019 the company disclosed that a breach at American Medical Collection Agency, a billing collections vendor, had reached information on about 11.9 million Quest patients; it said then that laboratory results were not affected. This time the system involved is Quest's own.
+TechCrunch placed the incident in a run of healthcare attacks this year, including those at Stryker, Boston Scientific, CareCloud, Craneware and McKesson.
+Why it matters: a laboratory ordering portal holds names, test orders and results for many practices at once, so one point of access can reach many providers' patients. So far the 8-K is the only source with a firm date and the company's own scope language. Komposite has reported on similar single-vendor exposure in the ConnectWise intrusions and Railway's call to rotate keys.
+
+---
+
+# a16z drops 'crypto' from the name of its crypto unit
+
+URL: https://kompositenews.com/crypto/a16z-drops-crypto-from-the-name-of-its-crypto-unit/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-10-23T14:40:00Z
+Updated: 2026-10-23T14:40:00Z
+
+Andreessen Horowitz renamed a16z Crypto as a16z Frontier, widening its new fund beyond crypto start-ups to frontier technology while saying it will keep investing in crypto.
+
+Andreessen Horowitz (a16z) has renamed its digital-asset unit from a16z Crypto to a16z Frontier and is widening the scope of its new fund beyond crypto start-ups, according to an announcement signed by Chris Dixon, the unit's managing partner. TechCrunch reported that the firm announced the change on Thursday.
+"We're renaming a16z Crypto to a16z Frontier," the post says. It describes the change as "an expansion" towards "frontier startups", which it defines as companies building new technologies and creating markets that may take years to develop, and says the firm "will continue to invest in crypto and related ventures and advocate for sensible crypto regulation". Mr Dixon argues that as blockchains have become more widely used the label matters less, and that it makes more sense to define companies by what they do than by the technology they use.
+The new focus is the current wave of AI. The post names brand-new uses of AI rather than faster versions of old tasks, a proliferation of new devices including autonomous machines that can act in the physical world, advances in biology and medicine, and networks built for machines and AI agents rather than people. It says blockchains will play "a significant role" in that, through stablecoins, programmable financial services and machine-to-machine transactions. Mr Dixon writes that he will lead the fund with the firm's founders, Marc Andreessen and Ben Horowitz, and general partners Eddy Lazzarin and Guy Wuollet, and that operating teams will keep supporting existing and future portfolio companies. The post gives no fund size or date.
+TechCrunch said the unit has raised nearly $10bn across five funds since it launched in 2018, and backed Coinbase among other companies; Komposite has not verified those figures. The outlet framed the rename as "a sign that crypto and blockchain-focused investing has receded in importance", and said a16z and rival firms had struggled for years to push crypto's usefulness beyond financial rails, trading applications and speculative assets. That is TechCrunch's reading; a16z's post presents the change as a widening of scope, not a retreat.
+TechCrunch also reported, citing The Information, that Ali Yahya, who joined the crypto strategy as its first investor in 2017, has left the firm. Komposite has not confirmed his departure with a16z; he is not among the leaders named in Mr Dixon's post.
+Why it matters: a16z is one of the largest backers of digital-asset start-ups, so the name over its door is a signal to founders deciding whom to approach. A rename does not change existing holdings, and the post does not say how the new fund's capital will be split between crypto and everything else. The policy backdrop is in our report on the Senate's stalled market-structure bill, and the AI money flowing elsewhere in Tenstorrent's doubled valuation.
+
+---
+
 # AI agents tried 2,250 tenants through one backup vendor
 
 URL: https://kompositenews.com/cybersecurity/microsoft-says-agents-hit-2250-tenants-through-connectwise/
@@ -471,73 +532,3 @@ Support is uneven. Linux distributions and long-term-support vendors received th
 Among those credited with reporting the bugs is Wiz Research, the research arm of the cloud security company Wiz, which published its own account on Wednesday. Wiz said it found the first flaw on 19 August "using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol", confirmed unauthenticated code execution against Drupal and WordPress within two days, and reported to PHP on 24 August. "Frontier AI models substantially reduced that barrier, turning a longstanding flaw into an exploit," it wrote, adding that the vulnerable code had been present for more than a decade. Wiz credited the PHP team, the security firm Calif and OpenAI for work on discovery, coordination and patch verification. Wiz's claim that PHP runs 70 per cent of websites is its own.
 It was a crowded day. TechCrunch reported that Node.js patched four high-severity flaws, one allowing remote code execution, and that the LiteLLM proxy project said an attacker had published malicious packages to PyPI, Docker Hub and GitHub's container registry.
 Why it matters: a pre-authentication code-execution bug in the language beneath a large share of the web, with no configuration that fully closes it, leaves patching as the only control. Wiz's timeline also shows how far AI tools compress the work: one day, by its account, from the first bug to a working exploit against Drupal. As we reported on Wednesday, eight certificate authority keys were the week's other infrastructure scare, and Railway has told every customer to rotate its keys.
-
----
-
-# Railway tells every customer to rotate its keys
-
-URL: https://kompositenews.com/cybersecurity/railway-tells-every-customer-to-rotate-its-keys/
-Section: Cybersecurity
-By: Sam Porter
-Published: 2026-10-22T13:00:00Z
-Updated: 2026-10-22T13:00:00Z
-
-Railway said on Wednesday that an unauthorised party may have decrypted some customer environment variables, paused deployments and told all users to rotate keys.
-
-Railway, a cloud platform for hosting applications, has told all users to rotate their API keys and credentials because an unauthorised party may have decrypted customer secrets, it said on Wednesday. It has paused all deployments while it investigates.
-"Earlier this morning, Railway detected anomalous activity involving systems that store customer environment variables," the company wrote in the post, signed by Jacob Cooper. "Our investigation to date indicates that an unauthorized third party may have accessed encrypted environment variables and, for some of them, obtained the decrypted contents." Environment variables, it said, "may contain secrets such as API keys or database and registry credentials".
-The scope is unclear. "While our initial analysis suggests the impact may be limited to a subset of users, we are nevertheless recommending that all users take the actions described below as a precaution," Railway said. It asked customers to "immediately roll all environment variables, including any API keys, stored in Railway, as well as any private registry credentials, and review logs for those services for unusual activity." It said it would email affected customers once it confirms which accounts were hit.
-The pause is the operational cost. "All deployments are paused while we investigate. Until builds are restored, you will not be able to roll out new versions," the post said. TechCrunch reported that the pause effectively froze customers' websites and apps, and that anyone holding the stolen secrets could log in to linked services as the rightful owner. Railway later published separate guidance on checking for anomalous Google Cloud access and anomalous AWS access.
-Railway has not said how many users were affected, how the intruder got in or which systems were compromised. It did not respond to TechCrunch's questions, including whether it had received a ransom demand, the outlet said. The company offered its own explanation: "We believe this is part of a series of attacks recently targeting platform companies with the aim of compromising AI inference providers. We have notified these upstream providers to revoke all keys proactively." That claim is Railway's and has not been independently verified.
-There is a recent case of the kind Railway describes. OpenCode, an open-source AI coding tool, said on Saturday 17 October that attackers broke into an older system and reached stored provider keys belonging to 1.4 per cent of users of its OpenCode Console product, TechCrunch reported. OpenCode called it a "large-scale distillation attack", a label some observers disputed. Anthropic and Google blocked keys they believed were exposed, and OpenAI said it worked with OpenCode to refund API customers, according to TechCrunch. Nothing published links the two incidents beyond Railway's own description.
-Why it matters: a platform that stores other companies' secrets turns one intrusion into many, and rotating keys is harder while deployments are frozen. For developers who keep model-provider keys in such platforms, the exposure is also a bill, since stolen keys can run up usage charges. Komposite reported this week on eight certificate authority keys and, earlier this month, on a support tool that held the keys.
-
----
-
-# China asks a court for the bitcoin Britain holds
-
-URL: https://kompositenews.com/crypto/china-asks-a-court-for-the-bitcoin-britain-holds/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-10-22T12:40:00Z
-Updated: 2026-10-22T12:40:00Z
-
-A Tianjin court has accepted a prosecution request to confiscate nearly 62,000 bitcoin from the Qian Zhimin fraud case, though British authorities hold the coins.
-
-Chinese prosecutors have asked a court in Tianjin to confiscate nearly 62,000 bitcoin that British authorities seized from Qian Zhimin, a fugitive fraud suspect, Yicai Global reported, setting a Chinese claim against coins held in the UK. Yicai valued the bitcoin at about $5.1bn at mid-October prices.
-The Tianjin No. 2 Intermediate People's Court said on 13 October that it had accepted the case on 28 September, according to Yicai's account of the court's announcement. CoinDesk reported, citing the Chinese outlet The Paper, that the court has opened a six-month period for victims and other interested parties to join. Investors who choose not to take part will keep their right to compensation from the recovered assets, the court said, according to Yicai.
-Prosecutors allege that Qian, as the actual controller of Tianjin Lantian Gerui Electronic Technology, sold wealth-management products across China between April 2014 and August 2017 without a licence. The scheme raised nearly 40.4bn yuan from more than 102,000 investors, who lost over 19.9bn yuan, Yicai said. Yicai converted the total to about $6bn; CoinDesk put it at roughly $5.7bn. The prosecution says the money repaid earlier investors, paid for fake investment projects and bought bitcoin, property, cars and jewellery.
-According to Yicai, Qian fled China in July 2017 with a computer holding a bitcoin wallet and later reached Britain. A district prosecutor in Tianjin approved her arrest in January 2018, and Interpol issued a Red Notice the following month. British authorities arrested her in April 2024, and she is now serving a prison sentence in the UK for cryptocurrency money laundering.
-The assets at issue are the ones British authorities seized. The court's announcement lists more than 61,800 bitcoin, over 72,700 bitcoin cash and more than 3.6m XRP tokens, along with cash and jewellery, Yicai reported. Prosecutors argue that the proceeds, assets bought with them and any income they produced should be confiscated, except for amounts returned to victims under Chinese law.
-The English courts have already narrowed the victims' route. The High Court in London ruled on Monday 12 October that Chinese law, not English law, governs victims' claims to the coins, Decrypt reported. Justice Mark Turner found that the fraud, the payments and the contracts all took place in China, and left the content of Chinese law to a later hearing. Fieldfisher, the law firm for the claimants, is pursuing an appeal, according to Decrypt, which cited the Financial Times.
-The Crown Prosecution Service said: "There will be a further hearing to determine the application of the law and if any of the victims are able to establish an interest in the bitcoin." Prosecutors in Britain have previously said victims could be compensated through a scheme run from China, Yicai and Decrypt both reported.
-Why it matters: the coins have risen far in value since Qian bought them, and the open question is who keeps that gain, whether victims, the Chinese state through confiscation, or Britain. A confiscation order from Tianjin would not by itself move coins held in Britain, and no Chinese ruling has yet been reported. Komposite has covered Britain's approach to crypto in its five-month authorisation window.
-
----
-
-# Two special committees, one conflicted chief executive
-
-URL: https://kompositenews.com/business/spacex-and-tesla-weigh-a-merger-musk-cannot-attend/
-Section: Business
-By: Tom Kessler
-Published: 2026-10-21T15:50:00Z
-Updated: 2026-10-21T15:50:00Z
-
-Elon Musk said SpaceX and Tesla have formed special committees to weigh a merger, with no terms agreed, as SpaceX reported $14.6bn in third-quarter revenue.
-
-SpaceX and Tesla have each formed a special committee of independent directors to consider combining the two companies, Elon Musk, chief executive of both, said on SpaceX's third-quarter earnings call on Tuesday, according to a transcript of the call. He said the committees have not agreed terms and that he is excluded from their talks.
-"So both SpaceX and Tesla have formed special committees to discuss this idea at the request of shareholders," Musk said. "Because I'm a conflicted party, I can't actually be in the discussions of the special committees." He said "the special committees have not reached agreement on the terms of any transaction", adding: "there's no guarantee that they will." He said: "Do I think it would be a good idea, yes," but added that "it's really up to the special committees of both companies".
-He also set out the bar. "Some people out there assume that a SpaceX and Tesla merger is a certainty," he said. On the Tesla side, "we will need a 50% vote of all shares, not just those who vote, but of all shareholders." Neither company has filed details of the committees. Tesla's proxy statement for its 3 December annual meeting, filed on Monday, does not mention them; it does disclose that Tesla's agreed $2bn investment in xAI became a right to SpaceX shares when SpaceX acquired xAI in February.
-Musk sits on both sides at scale. His Schedule 13G on SpaceX, filed in August as of 30 June, reports beneficial ownership of 6.42 billion Class A shares, or 48.4 per cent, counting Class B shares held by his trusts, restricted Class B shares subject to performance conditions and 350 million options, all convertible into Class A. Class B shares carry ten votes each. Tesla's proxy gives him 699.6 million Tesla shares, or 19.8 per cent.
-The results framed the call. SpaceX reported revenue of $14.6bn for the quarter to 30 September, up 161 per cent from $5.6bn a year earlier, and net income of $4.4bn against a net loss of $1.1bn, according to its earnings release. Diluted earnings were 35 cents a share against a loss of 36 cents. Income from operations was $2.8bn and adjusted EBITDA, a non-GAAP measure, $8.8bn. The company's numbers are its own.
-SpaceX, quarter to 30 September20262025
-Total revenue$14,575m$5,576m
-Super Intelligence (AI) revenue$7,560m$813m
-Connectivity (Starlink) revenue$5,248m$3,097m
-Space revenue$1,767m$1,666m
-Net income (loss)$4,404m($1,054m)
-Capital expenditure$19,593m$6,880m
-Source: SpaceX earnings release, Exhibit 99.1 to its Form 8-K of 20 October 2026. Unaudited; the company's own figures.
-The AI business drove the jump. Revenue in the Super Intelligence segment, which includes xAI's Grok models and the coding company Cursor, rose to $7.6bn from $813m, about 9.3 times by our arithmetic; Cursor, acquired on 14 August at an implied equity value of $60bn, contributed $608m. The segment accounted for $16.4bn of the quarter's $19.6bn capital spending, about 84 per cent by our arithmetic, as nameplate compute reached 1.7 gigawatts. Starlink's Connectivity segment brought in $5.2bn, up 69 per cent, with 13.6 million consumer subscribers paying an average $69 a month.
-The guidance is steeper still. Bret Johnsen, the chief financial officer, said SpaceX expects fourth-quarter capital expenditure of "$35 billion to $40 billion", roughly 1.8 to 2 times the third quarter's by our arithmetic, and "total company revenues in the range of $33 billion to $37 billion for Q1 of 2027", a midpoint about 2.4 times the quarter just reported. He put the backlog at $63bn at 30 September, about $42bn of it expected to be recognised within a year.
-Why it matters: with Musk on both sides, the decision rests with independent directors at each company, and Tesla's threshold of a majority of all shares outstanding, rather than of votes cast, is the figure to watch. Neither company has given a timetable. Komposite has followed SpaceX's spending, including its $40bn chip financing and its 800 MHz spectrum purchase.
