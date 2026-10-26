@@ -5,7 +5,7 @@
 - News stories, pieces labeled Analysis and pieces labeled Opinion are clearly distinguished.
 - Information is attributed to sources wherever possible and claims are verified before publication; sponsored content is always labeled.
 - Corrected articles carry a note describing what was wrong and when it was fixed.
-- The site uses AI as a production tool, not a replacement for editorial judgment (see the AI Policy).
+- Komposite News uses AI tools to help research, draft and edit stories; every story is checked against its listed sources and approved by an editor before it goes live. Bylines name the desk or house byline responsible; they are not always individual reporters (see https://kompositenews.com/editorial-standards/#how-we-use-ai).
 - A selection of coverage is also published in Spanish under /es/.
 - All articles are free to read. A plain-text copy of the key stories is at https://kompositenews.com/llms-full.txt.
 
@@ -37,16 +37,12 @@
 - [AI in the order flow: what machine trading is doing to volatility](https://kompositenews.com/markets/volatility-market-structure-ai-trading/): Adaptive execution and model-driven strategies are changing intraday dynamics in ways researchers are only beginning to measure.
 - [Machine identity sprawl becomes security's biggest inventory problem](https://kompositenews.com/cybersecurity/identity-machine-workloads/): Service accounts, API keys, and agent credentials now outnumber human identities many times over, and governance is racing the growth.
 - [Enterprises write the rulebook for AI-generated code](https://kompositenews.com/ai/ai-coding-tools-enterprise-standards/): Provenance tracking, review gates, and dependency policies are turning AI coding assistance from a developer perk into governed infrastructure.
-- [Synthetic data moves from workaround to standard practice](https://kompositenews.com/ai/synthetic-data-enterprise-training/): Where privacy rules and data scarcity block model training, generated datasets are filling the gap, and auditors are learning to evaluate them.
 - [AI evaluation grows from afterthought to budget line](https://kompositenews.com/ai/ai-evaluation-becomes-budget-line/): Enterprises deploying models at scale are formalizing evaluation the way they once formalized QA, and a vendor category is forming around it.
 - [Power availability becomes the master constraint on computing](https://kompositenews.com/technology/power-constraints-shape-computing/): Grid interconnection queues, not chip supply, now set the timeline for new capacity, and the industry is reorganizing around electrons.
 - [Shadow AI becomes the new shadow IT](https://kompositenews.com/business/shadow-ai-governance-problem/): Employees are routing work through unsanctioned AI tools faster than policies can name them, and enterprises are choosing between control and visibility.
 - [Instant payments become table stakes in B2B](https://kompositenews.com/fintech/instant-payments-b2b-standard/): Real-time rails are moving from consumer novelty to supplier expectation, and the software layer on top is where the margin lives.
 - [Stablecoin Reserve reporting converges on common standards](https://kompositenews.com/crypto/stablecoin-reserve-transparency-standards/): Monthly attestations are giving way to standardized disclosures that let treasurers compare issuers the way they compare money market funds.
-- [Stablecoin law meets its implementation year](https://kompositenews.com/policy/stablecoin-law-implementation-year/): With frameworks enacted, the action has moved to licensing queues, reserve examinations, and the fine print of redemption.
-- [Incident reporting clocks start ticking for critical infrastructure](https://kompositenews.com/cybersecurity/critical-infrastructure-reporting-rules/): Mandatory disclosure windows are standardizing how fast operators must tell regulators, and readiness has become a drill.
 - [Interoperability standards take shape for institutional chains](https://kompositenews.com/blockchain/interoperability-standards-institutional-chains/): Messaging standards bodies and blockchain consortia are converging on formats that let regulated ledgers talk to each other, and to the systems banks already run.
-- [The secondary market becomes startups' pressure valve](https://kompositenews.com/startups/secondaries-startup-liquidity/): Structured tenders for employees and early investors are normalizing partial liquidity, changing when companies must exit at all.
 
 ## Newest stories
 

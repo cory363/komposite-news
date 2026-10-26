@@ -23,6 +23,8 @@ Editorial Standards
 Komposite News reports facts we can verify and clearly distinguishes reporting from analysis and opinion. News stories describe what happened. Pieces labeled Analysis interpret events and draw conclusions from evidence. Pieces labeled Opinion argue a point of view and represent their author.
 We attribute information to sources wherever possible, grant anonymity only when information is significant and cannot otherwise be obtained, and independently verify claims before publishing them. We do not accept payment for editorial coverage, and staff may not trade on non-public information obtained through reporting.
 Sponsored or partner content, when it appears, is labeled unambiguously and is never presented in editorial form without that label. Errors, when they occur, are corrected promptly and transparently under our corrections policy.
+How we use AI
+Komposite News uses AI tools to help research, draft and edit stories. Every story is checked against the sources listed with it before publication, and quotes are published only when we can match them to a source or the person approved them. An editor approves each story before it goes live. Bylines name the desk or house byline responsible for a story; they are not always individual reporters. Corrections: contact the newsroom via our contact page with the article link and the specific claim at issue, as set out in our corrections policy.
 
 ---
 
@@ -42,8 +44,8 @@ No corrections have been logged for the current publication period.
 URL: https://kompositenews.com/ai-policy/
 
 AI Policy
-Komposite News uses artificial intelligence as a production tool, not as a replacement for editorial judgment. AI systems may assist with research organization, copy editing, translation, and site infrastructure. Every published story is reviewed and approved by a human editor before publication, and responsibility for accuracy rests with the newsroom, not with any tool used to produce it.
-We do not publish AI-generated statements attributed to real people, AI-fabricated data, or synthetic imagery presented as photography. Illustrations are labeled as illustrations, photographs carry credits and licenses, and sample or demonstration data is labeled as such wherever it appears.
+Komposite News uses AI tools to help research, draft and edit stories, and to assist with translation and site infrastructure. AI is not a replacement for editorial judgment: every story is checked against the sources listed with it, and an editor approves each story before it goes live. Responsibility for accuracy rests with the newsroom, not with any tool used to produce it. Bylines name the desk or house byline responsible for a story; they are not always individual reporters. The full statement is in How we use AI.
+Quotes are published only when we can match them to a source or the person approved them. We do not publish AI-generated statements attributed to real people, AI-fabricated data, or synthetic imagery presented as photography. Illustrations are labeled as illustrations, photographs carry credits and licenses, and sample or demonstration data is labeled as such wherever it appears.
 This policy will evolve with the technology. Questions about how a specific story was produced can be directed to the newsroom via our contact page.
 
 ---
@@ -179,22 +181,6 @@ RelatedAI infrastructure spending moves into a new phase ›The practical effect
 
 ---
 
-# Synthetic data moves from workaround to standard practice
-
-URL: https://kompositenews.com/ai/synthetic-data-enterprise-training/
-Section: AI
-By: Dana Whitfield
-Published: 2026-07-23T11:10:00Z
-Updated: 2026-07-23T11:10:00Z
-
-Where privacy rules and data scarcity block model training, generated datasets are filling the gap, and auditors are learning to evaluate them.
-
-Enterprises that cannot use their real data are increasingly training on data that never existed. Synthetic datasets, generated to preserve the statistical shape of sensitive records without exposing any individual, have moved from research curiosity to standard tooling in banking, healthcare, and insurance workflows.
-The appeal is regulatory as much as technical. A generated dataset that provably contains no customer records simplifies conversations with privacy officers that real data makes impossible, and vendors now compete on the strength of those proofs rather than just fidelity.
-RelatedEnterprise buyers push for clearer AI contract terms ›The open question is quality drift. Models trained on synthetic data inherit the blind spots of whatever generated it, and audit teams are developing tests for the gap between synthetic performance and real-world behavior. The consensus emerging among practitioners is unglamorous: synthetic data works, within limits that must be measured rather than assumed.
-
----
-
 # AI evaluation grows from afterthought to budget line
 
 URL: https://kompositenews.com/ai/ai-evaluation-becomes-budget-line/
@@ -279,38 +265,6 @@ RelatedStablecoin law meets its implementation year ›Gaps remain, particularly
 
 ---
 
-# Stablecoin law meets its implementation year
-
-URL: https://kompositenews.com/policy/stablecoin-law-implementation-year/
-Section: Policy
-By: Jonathan Bright
-Published: 2025-12-04T10:10:00Z
-Updated: 2025-12-04T10:10:00Z
-
-With frameworks enacted, the action has moved to licensing queues, reserve examinations, and the fine print of redemption.
-
-The stablecoin statutes are written; the stablecoin industry is now living in their footnotes. Licensing queues, reserve examination schedules, and supervisory guidance on redemption mechanics have become the substance of the policy story, and the firms treating implementation as core competence are pulling ahead of those who treated enactment as the finish line.
-The examinations are having their intended disciplining effect. Reserve compositions have simplified, attestations have hardened toward audits, and redemption commitments now carry operational detail, timelines, channels, stress procedures, that marketing language previously blurred.
-RelatedAI regulation enters its implementation phase ›The competitive consequence mirrors every regulated industry: compliance capacity is strategy. The licensed issuers describe their examination binders, without irony, as moats, and the market share data increasingly agrees with them.
-
----
-
-# Incident reporting clocks start ticking for critical infrastructure
-
-URL: https://kompositenews.com/cybersecurity/critical-infrastructure-reporting-rules/
-Section: Cybersecurity
-By: Jonathan Bright
-Published: 2025-11-19T10:45:00Z
-Updated: 2025-11-19T10:45:00Z
-
-Mandatory disclosure windows are standardizing how fast operators must tell regulators, and readiness has become a drill.
-
-Critical infrastructure operators now measure incident response in regulatory hours. Mandatory reporting windows, seventy-two hours here, thirty-six there, materially sooner for ransom payments, have standardized the clock that starts when an intrusion is discovered, and legal, security, and communications teams are drilling to it.
-The operational effect is decision speed. Determining whether an event is reportable requires triage discipline that many organizations lacked, and tabletop exercises now rehearse the classification call as intensively as the containment. Counsel describe the deadline as clarifying: ambiguity that once justified delay now creates exposure.
-RelatedSoftware supply chain rules begin to bite ›Regulators promise the aggregated reports will improve collective defense, and early threat advisories citing reported patterns suggest the loop is beginning to function. Operators remain wary of disclosure risk, but the compliance question has moved from whether to report to how fast the machine can decide.
-
----
-
 # Interoperability standards take shape for institutional chains
 
 URL: https://kompositenews.com/blockchain/interoperability-standards-institutional-chains/
@@ -325,22 +279,6 @@ The institutional blockchain world is discovering what payments learned decades 
 The convergence underway joins two traditions. Financial messaging bodies bring the discipline of standardized data formats that banks already parse, while blockchain consortia bring transfer protocols proven on public networks. The emerging designs let a tokenized asset move between regulated ledgers while carrying the structured information compliance systems require.
 Progress is measured in pilots that would once have been impossible: assets issued on one institution's ledger settling against payment on another's, with both sides reconciled automatically. Participants emphasize that none of it required the institutions to share a chain, only a vocabulary.
 RelatedBanks test blockchain settlement without abandoning existing rails ›The stakes are consolidation versus fragmentation. If common standards hold, tokenized markets can scale across institutions the way correspondent banking did. If they fail, each network remains an island, and the efficiency case for the technology weakens accordingly.
-
----
-
-# The secondary market becomes startups' pressure valve
-
-URL: https://kompositenews.com/startups/secondaries-startup-liquidity/
-Section: Startups
-By: Grace Lindqvist
-Published: 2026-06-04T11:30:00Z
-Updated: 2026-06-04T11:30:00Z
-
-Structured tenders for employees and early investors are normalizing partial liquidity, changing when companies must exit at all.
-
-The decade-long path to liquidity broke something in startup employment, and the secondary market has become the repair. Structured tender offers, company-sanctioned windows where employees and early holders sell to institutional buyers, have moved from rarity to expected milestone at growth-stage companies.
-The normalization changed incentives across the table. Employees can realize value without leaving; early funds can return capital without forcing exits; and companies can stay private on their own schedule rather than their shareholders'. Late-stage investors describe tender allocations as a standard entry path into oversubscribed names.
-RelatedVenture funding returns to infrastructure software ›The discipline questions have answers now too: information rules, price discovery through auction rather than negotiation, and caps that keep selling from signaling. What was once a whispered accommodation has acquired paperwork, which in financial markets is what maturity looks like.
 
 ---
 

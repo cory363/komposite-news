@@ -103,11 +103,11 @@ const page = "authors/index.html";
 let h = fs.readFileSync(page, "utf8");
 const main = `<main id="main" class="wrap catpage aumast">
 <h1 class="catname">Authors &amp; contributors</h1>
-<p class="aubio">Everyone who writes for Komposite News. Reporting is done from primary documents and named sources; where a fact originates with another outlet, that outlet is named and linked in the story.</p>
+<p class="aubio">Everyone who writes for Komposite News. Newsroom and Divide bylines are house bylines used by our desks, not always individual reporters; see <a href="/editorial-standards/#how-we-use-ai">How we use AI</a>. Where a fact originates with another outlet, that outlet is named and linked in the story.</p>
 ${groups}
 </main>`;
 h = h.slice(0, h.indexOf("<main")) + main + h.slice(h.indexOf("</main>") + 7);
 h = h.replace(/(<title>)[\s\S]*?(<\/title>)/, "$1Authors &amp; contributors &mdash; Komposite News$2")
-     .replace(/(<meta name="description" content=")[^"]*(")/, "$1The editors, reporters and contributors who write for Komposite News.$2");
+     .replace(/(<meta name="description" content=")[^"]*(")/, "$1The editors, house bylines and contributors who write for Komposite News.$2");
 fs.writeFileSync(page, h);
 console.log(`  /authors/ rebuilt: ${people} people in ${ROSTER.length} groups`);

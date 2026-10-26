@@ -71,7 +71,7 @@ CR({ slug:"thailand-writes-rules-for-the-plumbing", kick:"Regulation",
     {href:"/crypto/clarity-act-draws-a-line-around-control/",kick:"Regulation",title:"The CLARITY Act draws its line around control",ago:"SEPTEMBER 2026"},
   ],
   body:[
-    `Most crypto regulation has been written about instruments: what a token is, whether it is a security, who may issue it. Thailand's securities regulator has gone at the problem from the other end, and the result is more intrusive than a classification rule.`,
+    `Most crypto regulation has been written about instruments: what a token is, whether it is a security, who may issue it. <a href="/crypto/two-coins-one-exchange-no-margin/">Thailand's securities regulator</a> has gone at the problem from the other end, and the result is more intrusive than a classification rule.`,
     `<a href="https://crypto.news/thailand-sec-proposes-151k-stablecoin-transfer-cap" rel="noopener">The consultation proposes a cap of roughly $151,000 on stablecoin transfers</a>, alongside a set of conduct requirements aimed at the firms that supply liquidity to digital asset brokers rather than at the assets being traded.`,
     `Exchange operators would have to monitor and periodically review the conduct of their market makers. The regulator's stated concern is that liquidity arrangements can become channels for moving illicit funds, which is a description of how market-making actually works when nobody is checking.`,
     `A market maker sits on both sides of a trade by design. That makes it the natural place to disguise a transfer as a transaction, and the natural place for a supervisor to look if it wants to see flows rather than balances.`,

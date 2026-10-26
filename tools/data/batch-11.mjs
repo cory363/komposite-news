@@ -47,7 +47,7 @@ T({ slug:"the-dependency-nobody-funds", kick:"Open Source",
     `Money is also not the only ask, which companies consistently underweight. Maintainers describe the heavier burden as the volume of low-quality issues, security disclosures they are not equipped to triage, and compliance questionnaires from firms that have never contributed anything.`,
     `Artificial intelligence has sharpened both problems at once. Generated pull requests arrive in volume and require review by the same unpaid person, and the models producing them were trained on the very code whose maintenance nobody is funding.`,
     `The counterargument from companies is that they contribute engineering rather than cash, and for large projects that is genuinely true. It is least true precisely where the risk is highest, which is small libraries with one maintainer and enormous download counts.`,
-    `What would change the picture is treating a critical dependency as a supplier, with a contract, a contact and a renewal date. That is unglamorous, it is how every other input is procured, and it remains rare.`,
+    `What would change the picture is <a href="/cybersecurity/everyone-shares-the-same-vendors/">treating a critical dependency as a supplier</a>, with a contract, a contact and a renewal date. That is unglamorous, it is how every other input is procured, and it remains rare.`,
   ],
   related:[
     {href:"/cybersecurity/software-supply-chain-rules-bite/",kick:"Software Supply Chain",title:"Software Supply Chain Rules Begin to Bite",ago:"JULY 23, 2026"},

@@ -210,7 +210,7 @@ export function buildLlms(files) {
 - News stories, pieces labeled Analysis and pieces labeled Opinion are clearly distinguished.
 - Information is attributed to sources wherever possible and claims are verified before publication; sponsored content is always labeled.
 - Corrected articles carry a note describing what was wrong and when it was fixed.
-- The site uses AI as a production tool, not a replacement for editorial judgment (see the AI Policy).
+- Komposite News uses AI tools to help research, draft and edit stories; every story is checked against its listed sources and approved by an editor before it goes live. Bylines name the desk or house byline responsible; they are not always individual reporters (see ${SITE}/editorial-standards/#how-we-use-ai).
 - A selection of coverage is also published in Spanish under /es/.
 - All articles are free to read. A plain-text copy of the key stories is at ${SITE}/llms-full.txt.
 

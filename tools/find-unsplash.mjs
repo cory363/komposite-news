@@ -7,19 +7,18 @@
  *   - the credit carries our UTM parameters
  *   - the download endpoint is triggered when a photo is actually used
  *
- * The key is read from KEYS.rtf or the environment and never printed.
+ * The key is read from the UNSPLASH_ACCESS_KEY environment variable and never printed.
  *
  *   node tools/find-unsplash.mjs "search terms" [--limit 3]
  *   node tools/find-unsplash.mjs --download <photo_id>
  */
-import { execSync } from "node:child_process";
-
 function key() {
-  if (process.env.UNSPLASH_ACCESS_KEY) return process.env.UNSPLASH_ACCESS_KEY.trim();
-  const txt = execSync('textutil -convert txt -stdout "/Users/corychamberlain/Downloads/KEYS.rtf"', { encoding: "utf8" });
-  const m = txt.split("\n").find(l => /^unsplash/i.test(l.trim()));
-  if (!m) throw new Error("Unsplash key not found");
-  return m.replace(/^unsplash[-: ]*/i, "").trim();
+  const k = (process.env.UNSPLASH_ACCESS_KEY || "").trim();
+  if (!k) {
+    console.error("UNSPLASH_ACCESS_KEY is not set. Export your Unsplash access key first, e.g.\n  UNSPLASH_ACCESS_KEY=... node tools/find-unsplash.mjs \"search terms\"");
+    process.exit(1);
+  }
+  return k;
 }
 const K = key();
 const H = { Authorization: `Client-ID ${K}`, "Accept-Version": "v1" };
