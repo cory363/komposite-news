@@ -26,6 +26,12 @@ function walk(d, out = []) {
 const SECTION_LABEL = { divide: "The Divide", "the-divide": "The Divide", recipes: "Recipes", opinion: "Opinion" };
 
 const grab = (h, re) => { const m = h.match(re); return m ? m[1] : null; };
+// Values grabbed from the HTML are already entity-encoded; decode them before esc()
+// so the feed does not print "&amp;amp;" or "&amp;mdash;".
+const NAMED = { amp: "&", quot: '"', lt: "<", gt: ">", apos: "'", nbsp: "\u00a0", mdash: "\u2014", ndash: "\u2013",
+  rsquo: "\u2019", lsquo: "\u2018", rdquo: "\u201d", ldquo: "\u201c", hellip: "\u2026" };
+const dec = s => s == null ? s : s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) =>
+  e[0] === "#" ? String.fromCodePoint(e[1].toLowerCase() === "x" ? parseInt(e.slice(2), 16) : +e.slice(1)) : (NAMED[e] ?? m));
 
 const items = [];
 for (const f of walk(".")) {
@@ -52,7 +58,7 @@ for (const f of walk(".")) {
   const img = grab(h, /property="og:image" content="([^"]*)"/)
     || grab(region, /<img\b[^>]*\ssrc="([^"]*)"/);
     const dir = f.split("/")[0];
-  items.push({ title, link: canonical, desc, date, section: ld?.articleSection || SECTION_LABEL[dir] || dir.charAt(0).toUpperCase() + dir.slice(1), img });
+  items.push({ title: dec(title), link: canonical, desc: dec(desc), date, section: ld?.articleSection || SECTION_LABEL[dir] || dir.charAt(0).toUpperCase() + dir.slice(1), img: dec(img) });
 }
 
 items.sort((a, b) => b.date.localeCompare(a.date));

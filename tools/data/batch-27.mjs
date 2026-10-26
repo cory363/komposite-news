@@ -10,7 +10,7 @@ export default [
 BC({ slug:"everyone-who-needs-the-price-bought-the-same-vendor", kick:"Market Data",
   headline:"Everyone who needs the price bought the same vendor",
   dek:"S&amp;P Global led $110m into Kaiko, with Nasdaq, Broadridge, BNP Paribas, RBC and two trading firms alongside it. A round with that many competitors in it is closer to a standards committee than an investment.",
-  metaDesc:"Kaiko raised a $110 million Series B extension led by S&amp;P Global, with Nasdaq Ventures, Broadridge, BNP Paribas, RBC, DRW and Coinbase Ventures participating.",
+  metaDesc:"Kaiko raised a $110 million Series B extension led by S&P Global, with Nasdaq Ventures, Broadridge, BNP Paribas, RBC, DRW and Coinbase Ventures participating.",
   author:"marcus-oyelaran", date:"2026-09-14T16:45:00Z",
   capt:"A ledger records who owns a thing. It does not say what the thing is worth.",
   tags:[{name:"Tokenization",slug:"tokenization"},{name:"Market Structure",slug:"market-structure"},{name:"Digital Assets",slug:"digital-assets"}],
