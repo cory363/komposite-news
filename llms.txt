@@ -46,6 +46,7 @@
 
 ## Newest stories
 
+- [SpaceX takes its forty billion as a lease](https://kompositenews.com/markets/spacex-takes-its-forty-billion-as-a-lease/): SpaceX signed a binding commitment on 24 October for a $40bn GPU finance lease from an Apollo-managed entity, not the loans and bonds first reported.
 - [NBA signs CFTC pact and picks Kalshi and Polymarket](https://kompositenews.com/policy/nba-signs-cftc-pact-and-picks-kalshi-and-polymarket/): The NBA signed an information-sharing MOU with the CFTC on Monday and named Kalshi and Polymarket its preferred prediction-market exchanges.
 - [Microsoft offers buyouts to about 60,000 staff](https://kompositenews.com/business/microsoft-offers-buyouts-to-about-60000-staff/): Microsoft offered voluntary buyouts to about 60,000 employees on Monday, about 27 per cent of the 223,000 full-time staff it reported in June.
 - [Anthropic files with $16.3bn of revenue and an $80.7bn loss](https://kompositenews.com/markets/anthropic-files-with-16-3bn-of-revenue-and-an-80-7bn-loss/): Anthropic's S-1 shows $16.3bn of revenue and an $80.7bn net loss for the first half of 2026, $72.4bn of it from a fair-value charge on convertible notes.
@@ -53,7 +54,6 @@
 - [Canada plans for five stablecoin issuers, and no yield](https://kompositenews.com/fintech/canada-plans-for-five-stablecoin-issuers-and-no-yield/): Canada's draft stablecoin regulations would bar issuers from paying yield, require one-to-one reserves held with a Canadian custodian and cap redemption fees at 1 per cent.
 - [The father who published his own court file](https://kompositenews.com/policy/the-father-who-published-his-own-court-file/): J.C. Ruffier, separated from his son for nearly nine years after a cross-border custody fight, has turned the case into a memoir, an album and a public archive of court papers.
 - [OpenAI takes frontier training off the live internet](https://kompositenews.com/ai/openai-takes-frontier-training-off-the-live-internet/): OpenAI said on Friday it will train frontier models with no live internet access after a September breach, and that red-team agents found gaps in its containment.
-- [The AI payoff stops at seven companies](https://kompositenews.com/markets/the-ai-payoff-stops-at-seven-companies/): Apollo chief economist Torsten Slok says AI has lifted margins and revenue per worker at the Magnificent Seven but not at the other 493 companies in the S&P 500.
 
 ## About, standards and contact
 
