@@ -50,14 +50,14 @@
 
 ## Newest stories
 
+- [OpenAI takes frontier training off the live internet](https://kompositenews.com/ai/openai-takes-frontier-training-off-the-live-internet/): OpenAI said on Friday it will train frontier models with no live internet access after a September breach, and that red-team agents found gaps in its containment.
+- [The AI payoff stops at seven companies](https://kompositenews.com/markets/the-ai-payoff-stops-at-seven-companies/): Apollo chief economist Torsten Slok says AI has lifted margins and revenue per worker at the Magnificent Seven but not at the other 493 companies in the S&P 500.
+- [Block trains a voice model on sound alone](https://kompositenews.com/ai/block-trains-a-voice-model-on-sound-alone/): Block unveiled Dessa, a full-duplex voice model it says learned only from human speech with no text, trained on one Nvidia rack. It is not yet publicly available.
 - [The SEC's examiners put super intelligence on the 2027 list](https://kompositenews.com/markets/the-sec-examiners-put-super-intelligence-on-the-2027-list/): The SEC's Division of Examinations on Friday set its fiscal 2027 priorities, naming registrants' use of super intelligence, cyber resilience, private credit and tokenisation.
 - [Quest says patient records were reached through its ordering portal](https://kompositenews.com/cybersecurity/quest-says-patient-records-were-reached-through-its-ordering-portal/): Quest Diagnostics said in an SEC filing that an unauthorised party accessed patient records in its Quanum LSM ordering system; it has not said how many people are affected.
 - [a16z drops 'crypto' from the name of its crypto unit](https://kompositenews.com/crypto/a16z-drops-crypto-from-the-name-of-its-crypto-unit/): Andreessen Horowitz renamed a16z Crypto as a16z Frontier, widening its new fund beyond crypto start-ups to frontier technology while saying it will keep investing in crypto.
 - [AI agents tried 2,250 tenants through one backup vendor](https://kompositenews.com/cybersecurity/microsoft-says-agents-hit-2250-tenants-through-connectwise/): Microsoft said China state-aligned Storm-0940 used the ARTEX AI agent framework after compromising ConnectWise Cloud Backup to try sign-ins at over 2,250 tenants.
 - [The collar can find the dog. Cinnante Canine trains it](https://kompositenews.com/technology/the-collar-can-find-the-dog-not-train-it/): Fi, Halo and Tractive sell GPS dog collars with health tracking and virtual fences; Cinnante Canine argues expert in-house trainers, not gadgets, produce results.
-- [A second Meta share, without the vote](https://kompositenews.com/markets/a-second-meta-share-without-the-vote/): Meta will issue one non-voting Class C share per share held from 19 January 2027, filings show, letting it raise equity without diluting Mark Zuckerberg's control.
-- [Twice the capex, less than half the operating profit](https://kompositenews.com/business/teslas-operating-margin-halves-as-capital-spending-doubles/): Tesla's third-quarter operating income fell to $718m on flat $28.05bn revenue as capital spending reached $4.73bn and Optimus robot production began in Fremont.
-- [Two PHP flaws, and no fix but the patch](https://kompositenews.com/cybersecurity/two-critical-php-flaws-have-no-complete-mitigation/): PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical remote code execution flaws rated CVSS 9.2; the project says only updating is a complete fix.
 
 ## About, standards and contact
 
