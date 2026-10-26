@@ -63,7 +63,7 @@ const col = (c, side, { h = "h2", leftChip = "chip" } = {}) => `  <article class
 <span class="${side === "right" ? "chip chip-r" : leftChip}">From the ${side === "right" ? "Right" : "Left"}</span>
 <${h}><a href="${c.url}">${esc(c.title)}</a></${h}>
 <p class="deck">${esc(c.dek)}</p>
-<div class="byrow">By <a href="/authors/${c.author}/">${esc(c.name)}</a>, <span>Contributing Columnist</span></div>
+<div class="byrow">By <a href="/authors/${c.author}/">${esc(c.name)}</a>, <span>House byline</span></div>
 </article>`;
 const PANEL = { h: "h3", leftChip: "chip chip-l" };
 

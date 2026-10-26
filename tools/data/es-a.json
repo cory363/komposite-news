@@ -1,5 +1,5 @@
 [
-{"slug":"markets/treasury-yields-buyback-disappoints","kicker":"Renta fija","role":"Corresponsal de Mercados",
+{"slug":"markets/treasury-yields-buyback-disappoints","kicker":"Renta fija","role":"Firma de la casa",
  "title":"Los rendimientos tocan el 4,86 % tras una recompra que se queda corta",
  "dek":"El Tesoro triplicó el tamaño de su recompra de deuda a largo plazo y el mercado siguió pidiendo más. El bono a diez años cerró en su nivel más alto desde octubre de 2023.",
  "caption":"Una recompra es tanto una señal como una operación, y el tamaño es la señal.",
@@ -14,7 +14,7 @@
  "Un rendimiento en máximos de tres años no es por sí solo una advertencia. Los tipos subieron a lo largo de 2023 por encima de estos niveles sin que hubiera un problema de financiación. Lo que importa es si el movimiento responde a las expectativas de crecimiento e inflación o a que el mercado esté poniendo precio a una prima por plazo para absorber la oferta.",
  "Una recompra decepcionante inclina la respuesta hacia lo segundo. No dice nada sobre la economía y lo dice todo sobre quién está dispuesto a asumir duración, y a qué precio."]},
 
-{"slug":"markets/cftc-cdor-tiie-swap-clearing-transition","kicker":"Estructura de mercado","role":"Corresponsal de Mercados",
+{"slug":"markets/cftc-cdor-tiie-swap-clearing-transition","kicker":"Estructura de mercado","role":"Firma de la casa",
  "title":"La CFTC retira el CDOR y la TIIE de la compensación obligatoria",
  "dek":"Una modificación de la obligación de compensación sigue a los índices de referencia canadiense y mexicano hasta sus sustitutos y cierra un capítulo de la reforma que empezó con el LIBOR.",
  "caption":"La reforma de los índices termina en la fontanería, no en el anuncio.",
@@ -29,7 +29,7 @@
  "Para los miembros compensadores la consecuencia operativa es pequeña y concreta: la lógica de elegibilidad que determina si una operación debe remitirse tiene que reconocer los tipos sucesores. Las firmas que completaron las transiciones anteriores ya conocen el patrón.",
  "Lo que marca la determinación es el momento en que los tipos sucesores dejan de ser el nuevo índice y pasan a ser el índice. Un tipo que aparece en un mandato de compensación forma parte de la infraestructura por defecto del mercado y no de una migración pendiente."]},
 
-{"slug":"markets/sec-transfer-agent-rules-proposal","kicker":"Estructura de mercado","role":"Corresponsal de Mercados",
+{"slug":"markets/sec-transfer-agent-rules-proposal","kicker":"Estructura de mercado","role":"Firma de la casa",
  "title":"La SEC reabre las normas de los agentes de registro",
  "dek":"Una propuesta añadiría normas, modificaría otras, derogaría una y reescribiría los formularios TA-1 y TA-2: el registro y la memoria anual de las firmas que llevan la cuenta de quién posee qué.",
  "caption":"El registro de la propiedad es una infraestructura que casi ningún inversor llega a ver.",

@@ -2,7 +2,7 @@
  {
   "slug": "cybersecurity/anthropic-fourth-model-incident",
   "kicker": "Seguridad de la IA",
-  "role": "Corresponsal de Ciberseguridad",
+  "role": "Firma de la casa",
   "title": "Un modelo encontró una máquina que nadie le había dado",
   "dek": "El cuarto incidente divulgado por Anthropic pasó siete meses sin detectarse, incluida una revisión interna que buscaba exactamente eso.",
   "caption": "El hallazgo es el tiempo que tardó en detectarse, no el incidente.",
@@ -21,7 +21,7 @@
  {
   "slug": "crypto/visa-onchain-lending-settlement-data",
   "kicker": "Pagos",
-  "role": "Corresponsal de Fintech",
+  "role": "Firma de la casa",
   "title": "Visa abre sus datos de liquidación a los prestamistas DeFi",
   "dek": "Los registros de liquidación de VisaNet se conectan a líneas de crédito en cadena, de modo que los cobros pendientes de un programa de tarjetas pueden financiarse mientras aún están en curso.",
   "caption": "Los cobros de liquidación son una garantía que ningún prestamista había podido ver en tiempo real.",
@@ -42,7 +42,7 @@
  {
   "slug": "fintech/tabapay-buys-transact-bank",
   "kicker": "Banca",
-  "role": "Corresponsal de Fintech",
+  "role": "Firma de la casa",
   "title": "TabaPay compra un banco para cerrar el círculo",
   "dek": "Un procesador que mueve más de 100.000 millones de dólares al año adquiere un banco con licencia de la OCC, y convierte su dependencia de bancos patrocinadores en algo propio.",
   "caption": "Tener la licencia cambia lo que a un procesador se le permite hacer.",

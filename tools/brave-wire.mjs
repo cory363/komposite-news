@@ -3,12 +3,11 @@
    fact that originates with another outlet gets named and linked. Rewriting
    someone else's copy is not an option — it is their work. */
 import fs from "node:fs";
-import { execFileSync } from "node:child_process";
-
-const KEY = execFileSync("bash", ["-lc",
-  "textutil -convert txt -stdout ~/Downloads/KEYS.rtf 2>/dev/null | grep -i '^Brave' | grep -oE '[A-Za-z0-9_-]{20,}' | head -1"],
-  { encoding: "utf8" }).trim();
-if (!KEY) { console.error("  no Brave key"); process.exit(1); }
+const KEY = (process.env.BRAVE_API_KEY || "").trim();
+if (!KEY) {
+  console.error("BRAVE_API_KEY is not set. Export your Brave Search API key first, e.g.\n  BRAVE_API_KEY=... node tools/brave-wire.mjs");
+  process.exit(1);
+}
 
 const BEATS = {
   crypto:        "stablecoin OR bitcoin ETF OR crypto exchange regulation",
