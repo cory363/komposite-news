@@ -282,6 +282,93 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# A hundred trillion won, and short until 2030
+
+URL: https://kompositenews.com/technology/a-hundred-trillion-won-and-short-until-2030/
+Section: Technology
+By: Tom Kessler
+Published: 2026-10-28T13:20:00Z
+Updated: 2026-10-28T13:20:00Z
+
+SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.
+
+SK hynix, the South Korean memory maker, reported record third-quarter revenue of ₩104.6tn on Wednesday, its first quarter above ₩100tn, and said demand for memory chips would exceed supply through 2030, according to its results release.
+The release gives revenue of ₩104,615.5bn for the three months to September, up 32 per cent on the second quarter and 328 per cent on a year earlier. Operating profit was ₩83,333.8bn, up 38 per cent on the quarter and 632 per cent on the year, for an operating margin of 80 per cent, against 76 per cent in the second quarter and 47 per cent a year ago. Net income was ₩39,775.6bn, a net margin of 38 per cent. The figures are preliminary and prepared under Korean IFRS, the company said.
+Net income fell 58 per cent from the second quarter, when it was ₩93,922.6bn, even as operating profit rose. By our subtraction, second-quarter net income exceeded operating profit by ₩33.4tn, while third-quarter net income was ₩43.6tn below it. The results release does not explain either gap; on the operating line, every measure rose.
+QuarterRevenue (₩bn)Operating profit (₩bn)Operating marginNet income (₩bn)
+Q3 202524,448.911,383.447%12,597.5
+Q2 202679,318.760,542.676%93,922.6
+Q3 2026104,615.583,333.880%39,775.6
+Source: SK hynix results release, 28 October 2026; preliminary, K-IFRS. Margins are the company's, checked by our arithmetic (83,333.8 / 104,615.5 = 79.7 per cent).The outlook is the part customers will read most closely. The company said it "expects the structure in which demand exceeds supply to persist through 2030", citing the technical difficulty of new products and the long lead times for new fabrication plants. It has signed long-term agreements (LTAs), contracts that commit volumes for several years, with 14 major customers including global cloud providers. The release says the volume secured so far corresponds to "more than 50% of total production capacity for 2027 and 2028"; the contracts typically run five years and use a price range that moves with market conditions, and some customers are discussing extensions.
+On products, SK hynix said server DDR5 and the start of HBM4 shipments drove DRAM sales. HBM, or high-bandwidth memory, is stacked DRAM packaged next to AI accelerators. The company expects HBM4 to pass the previous generation, HBM3E, in both shipments and revenue in the fourth quarter, and said its M15X fab will reach full capacity by the end of the year, with the first phase of its Yongin cluster entering full operation next year. It gave no capital expenditure figure, saying only that infrastructure investment will rise significantly and that it will adjust its scale and timing flexibly.
+The cash is going back to shareholders at a pace that matches the margins. The company has a 2026 target of about ₩100tn in total returns, including at least ₩30tn of dividends and at least ₩60tn of buybacks and cancellations. It declared a third-quarter dividend of ₩20,000 a share, about ₩14tn in total, half of it a special dividend sharing gains from its investment in Kioxia, and a ₩20tn buyback, of which about ₩10tn will fund employee compensation and is excluded from the returns total. Net cash stood at ₩98.7tn at the end of September: ₩114.5tn of cash against ₩15.8tn of borrowings. The company also said it had stopped reviewing an initial public offering of its Solidigm subsidiary. "The IPO was intended to raise external capital for the expansion of Solidigm's production facilities," said Kwak Noh-Jung, the chief executive.
+What the release says and how it was reported part in one place. The Register reported operating profit of ₩87.68tn, up 486 per cent on a year earlier. The company's own table gives ₩83,333.8bn and 632 per cent, and its numbers are internally consistent: ₩11,383.4bn a year earlier multiplied by 7.32 gives the third-quarter figure, by our arithmetic. We use the company's figures. The Register also reported that Kim Woo-hyun, the chief financial officer, said PC and mobile shipment volumes "are expected to decrease", a remark not in the release, and that the shares rose about 3 per cent in after-hours trading.
+For scale, Samsung Electronics guided on 8 October to about ₩107.4tn of third-quarter operating profit on about ₩195tn of sales across all of its businesses, a margin of about 55 per cent by our arithmetic. SK hynix, which makes only memory, earned nearly four-fifths as much operating profit on a little over half the sales.
+Why it matters: the shortage statement is a supplier's forecast, and a supplier has reason to describe its market as tight while it negotiates five-year contracts. But it is backed by contracts rather than adjectives: more than half of two years of future capacity has been committed to 14 buyers before some of the plants that will produce it are finished. For the cloud companies building AI data centres, memory is being priced in advance and in ranges; for PC and phone makers outside those agreements, it means competing for what is left.
+The figures extend a pattern Komposite has tracked across the memory industry. In September we reported that Micron's gross margin had reached 84.6 per cent on almost flat bit shipments, with customers paying deposits in advance. Korea's export-credit researchers have put the data centre AI chip market at $860bn by 2030, the same year SK hynix now gives for the end of the shortage.
+
+---
+
+# Jio lists a fifth higher, on three per cent of its shares
+
+URL: https://kompositenews.com/markets/jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-28T13:00:00Z
+Updated: 2026-10-28T13:00:00Z
+
+Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.
+
+Jio Platforms, Reliance Industries' telecoms and digital arm, opened at ₹1,358 on its debut on Wednesday, 21.36 per cent above its ₹1,119 offer price, after raising ₹30,213 crore in India's largest initial public offering, according to Upstox's listing-day coverage.
+The shares, which trade on the National Stock Exchange (NSE) under the symbol JPL and on BSE, moved between ₹1,357 and ₹1,374.50 in the morning before rising in the afternoon and settling at ₹1,419 on the NSE, up 4.49 per cent on the opening price and, by our arithmetic, 26.8 per cent above the offer price. Upstox put the closing market value at ₹13,05,380.12 crore, or about ₹13.05 lakh crore (₹13.05tn). TechCrunch reported that the opening price valued Jio at about $131.9bn, making it India's second-most valuable listed company after its parent.
+The offering was entirely new shares, 27 crore of them, priced at the top of a ₹1,065 to ₹1,119 range, with no existing investor selling. It opened on Wednesday 21 October and closed on Friday 23 October, Upstox reported, and was subscribed 22.19 times. TechCrunch put investor bids at more than $77bn from more than 13.8 million applicants. The issue surpassed Hyundai Motor India's 2024 offering as the country's largest, according to Upstox and Business Today. Anchor investors, Upstox reported, included LIC, BlackRock, Fidelity, J.P. Morgan, Capital Group and the Government of Singapore.
+Most of the money is earmarked for debt. Up to ₹275bn, about 91 per cent of the proceeds by our arithmetic, will repay borrowings at the subsidiary Reliance Jio Infocomm, TechCrunch reported, against total borrowings of ₹613.7bn at the end of June. If all of it is used that way, that would retire about 45 per cent of the borrowings, by our arithmetic.
+Akash Ambani, Jio's managing director, told employees the listing "is not our destination" but "a new beginning", according to Upstox. TechCrunch quoted him saying: "My dream is that one day, when the world counts its great technology companies, one of them will be from India." He said the platforms serve more than 540 million customers.
+The float is the detail the headline numbers leave out. Dividing the closing market value by the closing price gives about 920 crore shares in issue, by our arithmetic; the 27 crore new shares are about 2.9 per cent of that. An offering that drew more than $77bn of bids was, in other words, a sale of less than a thirtieth of the company, and the first-day price was set by trading in that sliver.
+MeasureFigureBasis
+Offer price₹1,119Top of the ₹1,065–₹1,119 range
+Opening price (NSE)₹1,358+21.36% on the offer price
+Closing price (NSE)₹1,419+26.8% on the offer price, our arithmetic
+Market value at close₹13.05 lakh croreUpstox
+Shares in issue (implied)about 920 croreOur arithmetic: market value / closing price
+New shares sold27 crore (about 2.9%)Our arithmetic
+Trailing price/earningsabout 43xOur arithmetic: ₹13.05tn / FY2026 profit of ₹300.5bn (TechCrunch)
+Value in 2020up to ₹4.91tnTechCrunch; about 2.7x since, our arithmetic
+Sources: Upstox listing-day coverage, TechCrunch. Implied share count and multiples are Komposite's arithmetic, not company figures.Why it matters: Jio is now a listed comparator for telecoms and digital-services valuations in India, and its first-day price is a test of what the domestic market will pay for the Reliance group's technology businesses separately from the parent. At about 43 times last year's profit, on TechCrunch's figures, buyers are paying for growth rather than current earnings; revenue and profit each rose about 15 per cent in the year to March, TechCrunch reported. Jio reports second-quarter results on Friday, according to Upstox.
+The debut contrasts with the reception for other large listings this autumn. In London, the biggest listing in five years opened below its price, and Komposite has reported that the reopened IPO window favours a few very large deals while most of the pipeline waits.
+
+---
+
+# Guidewire pays $1.7bn for an underwriting start-up
+
+URL: https://kompositenews.com/fintech/guidewire-pays-1-7bn-for-an-underwriting-start-up/
+Section: Fintech
+By: Elena Vasquez
+Published: 2026-10-28T12:40:00Z
+Updated: 2026-10-28T12:40:00Z
+
+Guidewire agreed to buy London underwriting-software firm hyperexponential for $1.7bn in cash plus up to $400m, funded partly by a $1bn loan.
+
+Guidewire, a US maker of software for property and casualty insurers, agreed on Tuesday to buy hyperexponential, a London developer of AI underwriting software, for $1.7bn in cash plus up to $400m if revenue targets are met, the company said.
+According to the announcement, made at Guidewire's Connections conference in Las Vegas, the base price is subject to adjustments, and the contingent payment of up to $400m depends on specified recurring revenue targets. Guidewire will fund the deal with $1.0bn of new term loan financing, committed by Bank of America and Citibank, and cash on hand. It expects the deal to close in the second quarter of its 2027 fiscal year. Centerview Partners advised Guidewire and J.P. Morgan advised hyperexponential.
+Hyperexponential, known as hx, sells software that commercial insurers use to build pricing models and make underwriting decisions. The company says its platform has supported underwriting across more than $75bn of annual commercial premium, and names Aviva, Allianz, Sompo, Beazley, Markel, HDI and Cincinnati Financial among its customers. It was already a Guidewire technology partner. TechCrunch reported that hx was founded in 2017, has raised nearly $90m, according to PitchBook, from investors including Andreessen Horowitz and Battery Ventures, and that nearly 600 insurers in 40 countries use its software.
+Amrit Santhirasenan, hx's chief executive and co-founder, said in the release that the company was founded "on the conviction that underwriting judgment is the highest-leverage work insurers do". Mike Rosenbaum, Guidewire's chief executive, said: "We're delighted to welcome Amrit Santhirasenan and the team at hyperexponential to Guidewire." TechCrunch described the aim as putting AI agents to work alongside human underwriters on analysis and pricing decisions.
+Guidewire did not disclose hx's revenue, but its guidance allows an estimate. It said the deal will add at least 650 basis points to its fiscal 2027 growth in annual recurring revenue (ARR), the yearly value of subscription contracts, on an inorganic basis, and at least 150 basis points a year to organic growth from fiscal 2028. Guidewire ended fiscal 2026 with ARR of $1,242m, or $1,237m at July 2026 exchange rates, its results release says. Applying 6.5 percentage points to that base implies about $80m of ARR from hx, by our arithmetic. On that estimate the base price is about 21 times hx's recurring revenue, and about 26 times if the full earnout is paid.
+MeasureFigureSource
+Base price$1.7bn cashGuidewire
+Earnoutup to $400mGuidewire
+New term loan$1.0bnGuidewire
+Guidewire cash and investments, 31 July$1,215.3mGuidewire FY2026 results
+Guidewire ARR, fiscal 2026$1,237m (July 2026 exchange rates)Guidewire FY2026 results
+Implied hx ARRabout $80mOur arithmetic: 6.5% x $1,237m
+Price / implied ARRabout 21x (26x with full earnout)Our arithmetic
+hx capital raisednearly $90mPitchBook, via TechCrunch
+Sources: Guidewire's announcement and fiscal 2026 results; TechCrunch. The implied ARR uses Guidewire's floor of 650 basis points and is an estimate, not a disclosed figure.The estimate has limits: 650 basis points is a floor, the ARR may be counted on Guidewire's definition rather than hx's, and the timing of the close will affect how much lands in fiscal 2027. The deal also changes Guidewire's balance sheet. By our subtraction, the cash portion of the base price is about $700m, more than half of the $1,215.3m in cash and investments Guidewire held at the end of July. The company said the deal will not affect its first-quarter guidance and that it will update its full-year forecast on its December earnings call.
+Why it matters: underwriting and pricing are where insurers make or lose money, and the deal puts a specialist pricing tool inside software that many carriers already use to run policies and claims. For hx's investors, TechCrunch noted, it is a large return; by our arithmetic the base price is about 19 times the capital the company has raised.
+Komposite has reported on how claims processing and other back-office work became a proving ground for agentic software, and on the spread of parametric insurance, where payouts follow measured events rather than adjusted claims. Guidewire's offer puts a price on the underwriting end of the same shift.
+
+---
+
 # The model said no tools, then called Beijing
 
 URL: https://kompositenews.com/ai/the-model-said-no-tools-then-called-beijing/
@@ -421,77 +508,3 @@ National Hockey LeagueThursday 21 May 2026 (release 9235-26)63
 National Basketball AssociationMonday 26 October 2026 (release 9314-26)158
 Sources: CFTC press releases and the NBA's announcement. Day counts are Komposite's.Not every league has joined. The National Football League has rejected a similar arrangement and sided with states arguing that their gambling laws should govern sports contracts, CoinDesk reported. Komposite reported this month that the NFL asked the Supreme Court to hear New Jersey's case against Kalshi, describing the approach of the CFTC and the exchanges as "laissez-faire". Kalshi's response in that case is due on 9 November.
 Why it matters: three federal appeals courts have split on whether sports event contracts fall under the CFTC or state gaming regulators, and the NBA has now paired a federal information channel with commercial deals with the exchanges that list its games. The CFTC has meanwhile proposed defining sports and other event contracts as swaps, which would put them more firmly inside its jurisdiction. A memorandum with no duty to share is a modest tool; the NBA's contracts with Kalshi and Polymarket are where its integrity terms will be tested.
-
----
-
-# Microsoft offers buyouts to about 60,000 staff
-
-URL: https://kompositenews.com/business/microsoft-offers-buyouts-to-about-60000-staff/
-Section: Business
-By: Tom Kessler
-Published: 2026-10-26T19:00:00Z
-Updated: 2026-10-26T19:00:00Z
-
-Microsoft offered voluntary buyouts to about 60,000 employees on Monday, about 27 per cent of the 223,000 full-time staff it reported in June.
-
-Microsoft is offering voluntary buyouts to about 60,000 employees, roughly 27 per cent of its full-time workforce by our arithmetic, the company confirmed to TechCrunch on Monday. The programme, called the Voluntary Exit Offer, was announced to staff by Amy Coleman, Microsoft's executive vice president and chief people officer, in a memo the company published on its official blog. Eligible employees were told they would receive an email with the details of their offer within hours.
-The memo sets out the scope but not the size. It says the offer is available to eligible employees "in participating teams in Canada, India, the United Kingdom and the United States at level 70 and below", and describes it as "a time-limited, voluntary program" offering "financial support and career planning resources". It adds: "Some organizations are providing the Voluntary Exit Offer, and some are not." Participation, it says, varies with each business's priorities, customer commitments and workforce needs. The memo gives no headcount, deadline or payment terms; the 60,000 figure comes from Microsoft's confirmation to reporters.
-Ms Coleman wrote that the offer "gives eligible employees who may be considering a future outside the company a new choice to make that transition now with support", and that it "also gives participating organizations another way to adapt their workforce to changing needs". She tied it to a retirement offer made in the spring: "This builds on what we learned earlier this year through the Voluntary Retirement Program." And she was candid about its novelty: "The Voluntary Exit Offer is new for us. We'll learn from it."
-Some details reported on Monday go beyond the memo. TechCrunch and KIRO 7 in Seattle described eligibility as reaching the vice-president level and below; the memo itself says "level 70 and below", and Microsoft does not publish how its internal levels map to titles. Bloomberg reported, according to TechCrunch, that teams including Xbox, Windows, Copilot and Finance are taking part, and that some employees, including those in data centres and in sales and marketing, are excluded. TechCrunch said the terms would be similar to Microsoft's standard severance. Those details were not independently verified.
-Microsoft's own filing gives the denominator. Its annual report for the year to 30 June says it employed about 223,000 people full-time, split between functions as follows.
-Microsoft full-time staff, 30 June 2026EmployeesShare of total
-Total223,000100 per cent
-United States121,00054.3 per cent
-International102,00045.7 per cent
-Operations (incl. support, consulting, datacentre operations)89,00039.9 per cent
-Product research and development77,00034.5 per cent
-Sales and marketing43,00019.3 per cent
-General and administration14,0006.3 per cent
-Source: Microsoft Form 10-K for fiscal 2026. Headcounts are the company's; percentage shares are Komposite's arithmetic. The Voluntary Exit Offer covers about 60,000 of these employees, by Microsoft's count.By our arithmetic, 60,000 is 26.9 per cent of that total. If sales and marketing staff are excluded, as Bloomberg reported, the remaining pool is 180,000, and the offer reaches one in three of them. The 10-K counts data-centre staff inside its 89,000 operations figure, so they cannot be removed from the calculation separately. The headcount is four months old, and an offer is not a departure; the memo gives no expected take-up.
-The spring programme was much narrower. In April Microsoft offered voluntary retirement to about 8,750 US employees whose age and years of service added up to 70 or more, about 7 per cent of its US staff, TechCrunch reported at the time, citing CNBC and Bloomberg. More than 30 per cent of those eligible accepted, according to Bloomberg as relayed by TechCrunch, which by our arithmetic is more than 2,600 people. Monday's offer is open to about 6.9 times as many employees, across four countries rather than one.
-Why it matters: a voluntary offer lets a company shrink teams without the disruption of compulsory layoffs, and Microsoft is making it at a time when investors are asking where the returns from AI spending show up. Komposite reported on Sunday that Apollo's chief economist found the AI payoff concentrated in seven companies, of which Microsoft is one. In September Komposite reported that Microsoft's new Copilot app splits its pricing between per-user licences and metered credits. How many of the 60,000 take the offer will be the measure of whether it changes the workforce or only tests it.
-
----
-
-# Anthropic files with $16.3bn of revenue and an $80.7bn loss
-
-URL: https://kompositenews.com/markets/anthropic-files-with-16-3bn-of-revenue-and-an-80-7bn-loss/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-26T14:42:00Z
-Updated: 2026-10-26T14:42:00Z
-
-Anthropic's S-1 shows $16.3bn of revenue and an $80.7bn net loss for the first half of 2026, $72.4bn of it from a fair-value charge on convertible notes.
-
-Anthropic, the developer of the Claude AI models, reported a net loss of $80.7bn on revenue of $16.3bn for the first six months of 2026, according to the registration statement it filed with the Securities and Exchange Commission on Monday. Of that loss, $72.4bn came from a single line: the change in the fair value of its convertible notes and related instruments, which the company attributes to the rise in its own valuation. The filing is the first public set of audited annual and unaudited half-year accounts for the company.
-Anthropic has applied to list its Class A common stock on the Nasdaq Global Select Market under the symbol "ANT", the prospectus says, and the company said in a statement that the number of shares and the price range had not been set. The prospectus leaves those figures blank, as it does the proceeds and the size of the underwriters' option. Some shares will be sold by existing stockholders, from whom the company will receive nothing. Goldman Sachs and Morgan Stanley head a cover page that lists 22 banks by our count, including J.P. Morgan, Citigroup, Barclays and Wells Fargo. The filing gives no date for the offering.
-The fair-value line is the largest item in the accounts. Headed "change in fair value of convertible notes, derivative liabilities, and SAFEs", it cost $72.4bn in the half, a movement the filing says was "primarily driven by an increase in the fair value of our outstanding convertible promissory notes resulting from an increase in our enterprise valuation". A further $8.8bn of other expense arose mainly from fair-value accounting on assets and liabilities under note purchase agreements, the filing says. These are remeasurements rather than cash payments: the notes outstanding at 30 June were all held by Amazon and are to convert into non-voting Class N shares immediately before the offering. The higher the company's valuation, the more those shares are worth, and the larger the charge.
-Below that line, the operating business lost less. The operating loss narrowed to $693m in the first half from $2.1bn a year earlier, an operating margin of minus 4 per cent, while $1.1bn of interest income came in on the company's cash. Anthropic also reports its own non-GAAP measures. Adjusted operating income, which excludes $2.2bn of stock-based compensation and a $126m non-cash charge for an employee donation-matching programme, was $1.6bn, a 10 per cent margin. Adjusted net income, which also excludes the fair-value charges, was $2.7bn. Those measures are the company's own, and the half-year accounts are unaudited.
-Revenue rose 1,300 per cent from $1.2bn in the first half of 2025, the filing says. Consumption-based revenue, mainly usage of its models, accounted for $12.1bn of the increase and subscriptions for $3.0bn. Full-year revenue was $41m in 2023, $386m in 2024 and $4.6bn in 2025. Customers paying at least $100,000 a year rose from more than 600 to more than 6,000 between June 2025 and June 2026 and accounted for about 74 per cent of first-half revenue. By 30 September the company counted more than 11,900 such customers, more than 1,900 paying at least $1m and about 250 paying at least $10m.
-Compute is the largest cost. Compute and infrastructure expenses rose 283 per cent to $8.9bn in the half but fell to 55 per cent of revenue from 201 per cent a year earlier, because, the filing says, revenue grew "against a compute base that was primarily committed in advance and did not fluctuate with in-period demand". Sales, marketing and partnerships spending rose to $3.2bn, driven by a $2.7bn increase in fees paid to channel partners. The company has also signed purchase commitments and leases, substantially all for compute and infrastructure, running to 2045; the total is left blank in this version of the prospectus.
-Anthropic said it had raised $141.1bn of capital in aggregate by 30 June and held $112.4bn of cash and cash equivalents and $19.3bn of short-term investments, or $131.7bn combined by our addition, with a further $3.2bn available under a credit facility. Earlier years show the same pattern in the accounts: of the $42.0bn net loss in 2025, $34.3bn came from the fair-value change on the same instruments. The 2025 accounts also carry a $1.5bn charge for the settlement of Bartz, a copyright class action, which the filing says a district court approved in July 2026.
-Public shareholders will buy economic rights with limited control. Anthropic is a public benefit corporation, required to balance shareholder returns with its stated purpose of "the responsible development and maintenance of advanced AI for the long-term benefit of humanity". Its Long-Term Benefit Trust, described in the filing as a body of "financially disinterested trustees", will hold Class T shares that let it elect directors who make up a majority of the board. A single Class F share, held by a company owned by the seven co-founders, including chief executive Dario Amodei and president Daniela Amodei, will carry 50.1 per cent of votes on other matters. Neither class has economic rights. Employees will receive Class E shares with limited votes, and strategic partners hold non-voting Class N stock. The company says it will be a "controlled company" under Nasdaq rules.
-Two of those partners will be large holders. After its preferred stock and convertible notes convert, Amazon and Google will each hold more than 5 per cent of Anthropic's capital stock, the filing says. Amazon's notes are capped so that no portion converts if Amazon would then hold more than 12 per cent of the company's capitalisation on the filing's measure, unless Amazon waives the limit.
-The risk factors run from page 26 to page 119. Among them, the company says concerns have been raised "both within our organization and by other researchers, regulators, policymakers, and industry participants" that sufficiently advanced AI systems could, without appropriate safeguards, "pose catastrophic or existential risks to humanity". It adds that it has observed that its models "are contributing to the pace of our own research".
-Traders reacted before the shares exist. On Hyperliquid, a crypto derivatives venue that lists a contract tracking Anthropic's expected share price, the "ANTH" contract rose to about $1,980 around 09:00 EDT, when the filing was due, before falling about 6 per cent to roughly $1,857 within minutes, CoinDesk reported. The contract is a derivative, not a share, and its price is not a valuation set by the company or its underwriters.
-Why it matters: this is the first full public set of accounts from one of the frontier AI developers, and it lets investors check claims about AI economics against a regulatory filing rather than press reports. The filing shows revenue growing faster than compute costs and an operating loss that has narrowed, alongside compute commitments running to 2045 whose total is not yet disclosed, a net loss dominated by note revaluations and a share structure that gives public holders a limited vote. Komposite reported last week that OpenAI was seeking about $30bn before Anthropic's listing, and earlier that Anthropic plans to commit 5 per cent of its shares to a public benefit fund, subject to stockholder approval.
-
----
-
-# Musk closes a loophole Kyiv says never existed
-
-URL: https://kompositenews.com/technology/musk-closes-a-loophole-kyiv-says-never-existed/
-Section: Technology
-By: Tom Kessler
-Published: 2026-10-26T14:15:00Z
-Updated: 2026-10-26T14:15:00Z
-
-Elon Musk says SpaceX limited Starlink in Ukraine over terms-of-service breaches by drone units; Kyiv denies it and says full speeds returned on Saturday.
-
-Elon Musk said SpaceX restricted Starlink in Ukraine last week because Ukraine's military had broken the satellite service's terms by using it for offensive drone strikes, NBC News reported, a claim Ukrainian officials said was technically impossible. In posts on X from Saturday night into Sunday, the SpaceX chief executive wrote that "That loophole was closed last week" and that "We simply enforced our terms of service when they were bypassed."
-The posts came after Ukraine said its service was back to normal. Ukraine's Defence Ministry said on Saturday that connections were stable again at more than 400 kilometres per hour, the Kyiv Independent reported, after speeds on Starshield, the military version of the network, had been capped at about 161 km/h since mid-October. President Volodymyr Zelensky said: "The speeds are now where they need to be." The cap matters because drones and interceptors fly faster than that. Ukrainian officials said the restrictions were imposed without warning, hampered drone interception and forced some operations to be cancelled, according to NBC.
-Mr Musk wrote that Ukraine's military "violated Starlink terms of service and used it for offensive drone strikes to kill people", and that "Were Starlink to be turned off, the Ukrainian front line would collapse immediately." He also said SpaceX had done more than any other company to help Ukraine, the Kyiv Independent reported. Earlier in the dispute he had written that for Starshield "any limits on speed or usage are decided by the US military and ultimately POTUS", according to NBC. SpaceX did not immediately respond to NBC's request for comment.
-Kyiv's rebuttal rests on how the civilian network is already configured. Serhii Beskrestnov, a defence technology adviser to Mr Zelensky, said civilian Starlink in Ukraine is limited to speeds of 70 to 90 km/h and does not work over Russian territory. "Therefore, we physically cannot use commercial Starlink for deep strikes or medium-range strikes," he wrote on Telegram, the Associated Press reported. Serhii Sternenko, a former adviser to the Defence Ministry on drones, said such use was "technically impossible" and that Ukraine "did not violate the terms of use", according to NBC. In a post on X reported by the Kyiv Independent, he said whitelists introduced in February meant any terminal used on the move had to be registered and connected to Starshield.
-That leaves the two sides describing different systems. Mr Musk's terms-of-service argument concerns commercial Starlink, which SpaceX controls. Ukraine says the cap that hit its operations was on Starshield, which Mr Musk has said is for the US government to limit. Which network was throttled, and on whose instruction, has not been independently established. The Wall Street Journal reported that President Donald Trump told Mr Musk on 21 October to lift the restrictions, according to the Kyiv Independent. Asked whether he had spoken to Mr Musk on Thursday, Mr Trump said: "The bottom line — he put it back," NBC reported. Senator Richard Blumenthal opened an inquiry on Friday asking the Pentagon who ordered the limits.
-For governments the episode is a lesson in single-vendor dependence. Moritz Brake, a senior fellow at the Center for Advanced Security, a Washington think tank, said Mr Musk's ability to limit the network gives him "enormous leverage", according to NBC. Ukraine's Defence Ministry announced last week a partnership with Nokia, the Finnish telecoms equipment maker, and ICEYE, a Finnish satellite imagery company, to develop what it called a "sovereign satellite communications" system, NBC reported. No timetable or cost was given in the reports. It is not the first interruption: NBC noted that service also dropped during a Ukrainian push to retake territory in September 2022.
-Why it matters: low-earth-orbit connectivity has become infrastructure for armies as well as businesses, and this episode shows how one operator's terms of service, or a government's instruction to that operator, can change what a customer can do overnight. Procurement teams buying satellite links, which carriers now resell alongside wireline as a standard option, have reason to read the terms closely. Komposite reported last week that SpaceX and Tesla had formed special committees to weigh a merger, as SpaceX reported $14.6bn of third-quarter revenue.

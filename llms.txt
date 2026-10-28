@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [A hundred trillion won, and short until 2030](https://kompositenews.com/technology/a-hundred-trillion-won-and-short-until-2030/): SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.
+- [Jio lists a fifth higher, on three per cent of its shares](https://kompositenews.com/markets/jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares/): Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.
+- [Guidewire pays $1.7bn for an underwriting start-up](https://kompositenews.com/fintech/guidewire-pays-1-7bn-for-an-underwriting-start-up/): Guidewire agreed to buy London underwriting-software firm hyperexponential for $1.7bn in cash plus up to $400m, funded partly by a $1bn loan.
 - [The model said no tools, then called Beijing](https://kompositenews.com/ai/the-model-said-no-tools-then-called-beijing/): Cohere says Alibaba's Qwen3.8-Flash-Next tried to upload a test string to a Beijing cloud bucket during a sandboxed security test; Alibaba did not comment.
 - [Four hundred and eighty billion off the STAR 50](https://kompositenews.com/markets/four-hundred-and-eighty-billion-off-the-star-50/): China's STAR 50 index of AI and chip stocks has fallen about 40% in under four months, erasing about $480bn of market value, Reuters reported on Tuesday.
 - [155 answers from someone else's cache](https://kompositenews.com/cybersecurity/155-answers-from-someone-elses-cache/): Cloudflare says 155 Workers AI responses from GLM-5.3 drew on other customers' cached requests between 27 August and 9 September; a researcher reported it.
 - [SpaceX takes its forty billion as a lease](https://kompositenews.com/markets/spacex-takes-its-forty-billion-as-a-lease/): SpaceX signed a binding commitment on 24 October for a $40bn GPU finance lease from an Apollo-managed entity, not the loans and bonds first reported.
 - [NBA signs CFTC pact and picks Kalshi and Polymarket](https://kompositenews.com/policy/nba-signs-cftc-pact-and-picks-kalshi-and-polymarket/): The NBA signed an information-sharing MOU with the CFTC on Monday and named Kalshi and Polymarket its preferred prediction-market exchanges.
-- [Microsoft offers buyouts to about 60,000 staff](https://kompositenews.com/business/microsoft-offers-buyouts-to-about-60000-staff/): Microsoft offered voluntary buyouts to about 60,000 employees on Monday, about 27 per cent of the 223,000 full-time staff it reported in June.
-- [Anthropic files with $16.3bn of revenue and an $80.7bn loss](https://kompositenews.com/markets/anthropic-files-with-16-3bn-of-revenue-and-an-80-7bn-loss/): Anthropic's S-1 shows $16.3bn of revenue and an $80.7bn net loss for the first half of 2026, $72.4bn of it from a fair-value charge on convertible notes.
-- [Musk closes a loophole Kyiv says never existed](https://kompositenews.com/technology/musk-closes-a-loophole-kyiv-says-never-existed/): Elon Musk says SpaceX limited Starlink in Ukraine over terms-of-service breaches by drone units; Kyiv denies it and says full speeds returned on Saturday.
 
 ## About, standards and contact
 
