@@ -49,3 +49,9 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "SAMEORIGIN"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+
+[[redirects]]
+  from = "/technology/three-defense-lawyers-read-the-weeks-cases/*"
+  to = "/technology/ai-gets-the-law-wrong-a-podcast-bets-on-chapters/"
+  status = 301
+  force = true

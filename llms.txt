@@ -46,7 +46,7 @@
 
 ## Newest stories
 
-- [Three defense lawyers read the week's cases](https://kompositenews.com/technology/three-defense-lawyers-read-the-weeks-cases/): Two Taps and Friends has defense lawyers explain the Omar search, Mangione's double jeopardy question and grand juries, then packages it for search.
+- [AI gets the law wrong. A podcast bets on chapters](https://kompositenews.com/technology/ai-gets-the-law-wrong-a-podcast-bets-on-chapters/): AI assistants still garble legal detail. Two Taps and Friends, a defense lawyers' podcast, uses chapters, transcripts and clip markup to be found instead.
 - [A hundred trillion won, and short until 2030](https://kompositenews.com/technology/a-hundred-trillion-won-and-short-until-2030/): SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.
 - [Jio lists a fifth higher, on three per cent of its shares](https://kompositenews.com/markets/jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares/): Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.
 - [Guidewire pays $1.7bn for an underwriting start-up](https://kompositenews.com/fintech/guidewire-pays-1-7bn-for-an-underwriting-start-up/): Guidewire agreed to buy London underwriting-software firm hyperexponential for $1.7bn in cash plus up to $400m, funded partly by a $1bn loan.
