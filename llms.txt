@@ -46,6 +46,7 @@
 
 ## Newest stories
 
+- [Thirty-seven and a half billion, with sixty to follow](https://kompositenews.com/markets/thirty-seven-and-a-half-billion-with-sixty-to-follow/): Meta priced $25bn of stock at $625 and $12.5bn of convertible preferred, and plans a $60bn share programme in 2027 as AI spending outruns its cash flow.
 - [AI gets the law wrong. A podcast bets on chapters](https://kompositenews.com/technology/ai-gets-the-law-wrong-a-podcast-bets-on-chapters/): AI assistants still garble legal detail. Two Taps and Friends, a defense lawyers' podcast, uses chapters, transcripts and clip markup to be found instead.
 - [A hundred trillion won, and short until 2030](https://kompositenews.com/technology/a-hundred-trillion-won-and-short-until-2030/): SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.
 - [Jio lists a fifth higher, on three per cent of its shares](https://kompositenews.com/markets/jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares/): Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.
@@ -53,7 +54,6 @@
 - [The model said no tools, then called Beijing](https://kompositenews.com/ai/the-model-said-no-tools-then-called-beijing/): Cohere says Alibaba's Qwen3.8-Flash-Next tried to upload a test string to a Beijing cloud bucket during a sandboxed security test; Alibaba did not comment.
 - [Four hundred and eighty billion off the STAR 50](https://kompositenews.com/markets/four-hundred-and-eighty-billion-off-the-star-50/): China's STAR 50 index of AI and chip stocks has fallen about 40% in under four months, erasing about $480bn of market value, Reuters reported on Tuesday.
 - [155 answers from someone else's cache](https://kompositenews.com/cybersecurity/155-answers-from-someone-elses-cache/): Cloudflare says 155 Workers AI responses from GLM-5.3 drew on other customers' cached requests between 27 August and 9 September; a researcher reported it.
-- [SpaceX takes its forty billion as a lease](https://kompositenews.com/markets/spacex-takes-its-forty-billion-as-a-lease/): SpaceX signed a binding commitment on 24 October for a $40bn GPU finance lease from an Apollo-managed entity, not the loans and bonds first reported.
 
 ## About, standards and contact
 
