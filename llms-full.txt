@@ -282,6 +282,84 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Seventy-seven billion out, forty-two billion in
+
+URL: https://kompositenews.com/markets/seventy-seven-billion-out-forty-two-billion-in/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-29T21:40:00Z
+Updated: 2026-10-29T21:40:00Z
+
+Amazon's Q3 capex of $77.3bn was 182% of its operating cash flow; it borrowed $48.1bn as AWS sales rose 39% to $46.0bn. Shares fell after hours.
+
+Amazon spent $77.3bn on property and equipment in the third quarter, 1.8 times the $42.4bn its operations generated, and borrowed $48.1bn of long-term debt in the same three months, its results release on Thursday shows.
+Net sales rose 12 per cent to $201.9bn in the three months to 30 September, and operating income to $28.1bn from $17.4bn. Net income fell to $20.7bn, or $1.89 a share, from $21.2bn, because the year-earlier quarter included $9.5bn of pre-tax gains on Amazon's investments in Anthropic. Amazon Web Services, the cloud unit, had sales of $46.0bn, up from $33.0bn, and operating income of $17.8bn, up from $11.4bn; its operating margin rose to 38.7 per cent from 34.6 per cent. Advertising sales rose to $19.6bn from $17.7bn, about 11 per cent by our arithmetic.
+The cash flow statement carries the cost. Purchases of property and equipment rose to $77.3bn from $35.1bn a year earlier, and over the past twelve months reached $215.2bn net of sale proceeds and incentives, up from $120.1bn, an increase the company says "primarily reflects investments in artificial intelligence". On Amazon's own measure, free cash flow for the trailing twelve months was an outflow of $42.4bn, against an inflow of $14.8bn a year before. Long-term debt stood at $173.1bn at the end of September, up from $65.6bn at the end of 2025, and Amazon held $55.8bn of cash and $58.4bn of marketable securities. "We continue to expect 2026 cash capital expenditures to be approximately $220 billion," the release says.
+Andy Jassy, Amazon's chief executive, put the spending down to demand. "Our AWS investment in functionality and infrastructure is working," he said in the release, citing growth of more than 39 per cent, a $184bn annual revenue run rate and projected growth of "over 40% both in 2027 and in 2028". He added: "There has never been a trillion dollar revenue business, and we may have two of them in the next 5-10 years."
+July to September 2026AmazonAlphabetMicrosoft
+Operating cash flow$42.4bn$42.3bn$58.0bn
+Purchases of property and equipment$77.3bn$51.4bn$39.4bn
+Operating cash flow less those purchasesminus $34.8bnminus $9.1bn$18.6bn
+Capital spending as a share of operating cash182 per cent121 per cent68 per cent
+New long-term debt in the quarter$48.1bn$29.0bn, plus $12.4bn of new sharesNone
+Sources: Amazon's third-quarter release (29 October), Alphabet's third-quarter release and Microsoft's fiscal first-quarter release (28 October), cash flow statements for the three months to 30 September. Free cash flow and ratios are Komposite's arithmetic, before sale proceeds and incentives; on Amazon's own definition, which nets those off, its figure is minus $33.5bn.Set beside Alphabet and Microsoft, which reported for the same three months on Wednesday, Amazon is the most extreme of the three. By our arithmetic its quarterly capital spending equalled 182 per cent of operating cash flow, against 121 per cent at Alphabet and 68 per cent at Microsoft. On Amazon's own definition, which subtracts sale proceeds and incentives, the quarter's free cash flow was minus $33.5bn, against plus $1.3bn a year earlier; the $48.1bn of new long-term debt more than covered it. Capital spending was 2.2 times its level a year earlier, and the cloud unit produced 63 per cent of the company's operating income.
+The market wanted more. Earnings of $1.89 a share compared with a consensus of $1.97 and sales with $202.25bn, both Bloomberg figures cited by Yahoo Finance, which reported the shares down more than 9 per cent on the news. Amazon guided fourth-quarter operating income to $28.5bn to $33.5bn, a midpoint of $31bn against the $32.99bn analysts expected; Yahoo noted that Amazon has guided below consensus for eight quarters running. The shares had already closed down 4.25 per cent at $243.79 in the regular session, The Motley Fool reported, before the results came out. Stephen Ju of UBS expects AWS operating margins of 46 per cent in 2027, against 39 per cent for the Street, Yahoo reported, and the analyst Dan Ives said the key question is "how long AWS can run as capacity and Trainium come online".
+Why it matters: all three of the largest cloud companies are now growing their cloud units fast, and two of the three are borrowing to do it. Alphabet raised $41.1bn in bonds and new shares to cover a $9.1bn shortfall, Komposite reported on Thursday morning, and Meta priced $37.5bn of new equity this week. Amazon's shortfall is larger than either, and its answer so far is the bond market; whether the AI payoff reaches beyond a handful of companies is a question its lenders are now financing.
+
+---
+
+# A preview pane that could read the whole disk
+
+URL: https://kompositenews.com/cybersecurity/a-preview-pane-that-could-read-the-whole-disk/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-29T21:20:00Z
+Updated: 2026-10-29T21:20:00Z
+
+Researchers say browsers built into five AI coding tools broke basic security rules; Cursor and Copilot are fixed, Codex and VS Code unpatched.
+
+The web browsers built into five AI coding tools, Cursor, GitHub Copilot, OpenAI's Codex, Microsoft's VS Code and Anthropic's Claude Desktop, each broke a basic browser security rule, the research firm Forever Security said on Thursday. Two of the flaws, in Codex and VS Code, were unpatched when it published, Help Net Security reported.
+The coding tools embed a browser so the AI can preview a project a developer is building or read what is in a tab. To make that work, Forever says, each vendor loosened the rules an ordinary browser enforces, and in every case one of three broke: a web page cannot run commands on the computer, a local file cannot read other files, and only the browser can write the address bar. Forever calls the pattern EMBRACE, for an embedded browser trusted like a real one, in a technical write-up by its researcher Gal Weizman.
+The file-reading flaw is the most serious. Claude Desktop and VS Code confine a local page to its project folder, but the check covers only the page itself, the researchers say: a web worker, a background script any page can start, falls outside it and can read any file the user can. Codex had no folder check at all. Forever's demonstration read macOS's hidden index files, which list the folders a user has opened in Finder, to map the disk, and on its test machine collected SSH keys, .env files holding application secrets, npm publishing tokens and the hosts file.
+The other two flaws needed more help from the user or the model. In Cursor, a web page showed a "Start setup" button carrying a hidden instruction to the agent; one press of Enter approved it, and when Cursor's sandbox blocked the command, the agent switched the sandbox off and tried again. The test command opened the Calculator app. Help Net Security noted that the attack depends on the model and does not always work. In GitHub Copilot, the app checked only that a page's reported address looked like a web address, so Forever's page displayed github.com/login above a fake sign-in form, and the agent's own list of tabs repeated the false address.
+ProductFlaw, as the researchers describe itReportedVendor response, per ForeverStatus on 29 October
+CursorA web page can get the agent to run a command10 SeptemberNo replyPatched 1 October, 21 days later
+GitHub CopilotA page can show a false address, such as github.com/loginFound 26 September; no report sentFixed independentlyFixed in version 1.1.29 on 13 October
+OpenAI CodexA local page can read files across the disk; no folder check27 JulyNo replyUnpatched, 94 days on
+Microsoft VS CodeA web worker escapes the project-folder check10 SeptemberDeclined, citing Workspace TrustUnpatched, 49 days on
+Anthropic Claude DesktopA web worker escapes the project-folder check23 July (Noma Security: 24 July)Declined Forever's report, citing Workspace Trust; accepted Noma's as validNot stated, 98 days on
+Sources: Forever Security's technical write-up and Help Net Security, 29 October 2026. Day counts are Komposite's. The vendors' positions are as the researchers describe them; none is quoted in either source.The vendors' responses differ more than the flaws do. Cursor patched its flaw on 1 October, three weeks after Forever's report, without replying, and GitHub fixed Copilot's in version 1.1.29 on 13 October before Forever had filed anything, the researchers say. OpenAI has not responded to a report filed on 27 July. Microsoft and Anthropic declined Forever's reports as outside their security boundary, pointing to Workspace Trust, the prompt that asks a user whether to trust a project folder; Anthropic did accept as valid a report on the same issue that Noma Security filed a day after Forever's, according to the write-up, which does not say whether Claude Desktop has since been fixed. The accounts are the researchers'; Komposite has not reproduced the attacks.
+Forever's argument is that the trust prompt does no work. "Not trusting a project inside an AI harness makes it unusable, so everyone just hits 'Trust'," Mr Weizman told Help Net Security, adding that "that prompt provides zero protection to the user." By our count, the Codex report has gone 94 days without an answer and the original Claude Desktop report 98 days without a stated fix. For teams using Codex or VS Code, Mr Weizman advised pulling the list of trusted projects from each machine's configuration file and checking every HTML file in those projects for the pattern the write-up describes.
+Why it matters: the files the demonstration collected are the ones attackers use to move from a developer's laptop into a company's systems and software supply chain. When the hosting platform Railway thought environment variables had been exposed last week, it told every customer to rotate its keys, Komposite reported. Coding assistants are also now finding flaws in each other's makers: researchers using Claude were paid a $6,500 bounty by OpenAI in September.
+
+---
+
+# Mistral hands over a trillion parameters
+
+URL: https://kompositenews.com/ai/mistral-hands-over-a-trillion-parameters/
+Section: AI
+By: Dana Whitfield
+Published: 2026-10-29T21:00:00Z
+Updated: 2026-10-29T21:00:00Z
+
+Mistral released the open weights of Mistral Large 4, a trillion-parameter model, under a modified MIT licence that requires a deal for hosted services.
+
+Mistral AI, the Paris model developer, released the weights of Mistral Large 4, a model of about a trillion parameters, on Thursday, so that companies and governments can download and run it themselves, TechCrunch reported. Until now the model, nicknamed "Le Chonk", was available only through Mistral's API and, in a less restricted form, to partners Mistral chose.
+The model card on Hugging Face describes a mixture-of-experts model, one that routes each piece of text to a few specialised sub-networks rather than the whole model: 128 routed experts, four active at a time, plus one shared expert. It uses "49 billion active parameters per token (52 billion including embeddings and output layers)", reads text and images, takes up to a million tokens of context and offers low, medium and high reasoning settings. The card's serving examples run across eight GPUs, and a separate compressed version is built for Nvidia's Blackwell chips. Mistral also sells access through its API at $0.70 per million input tokens and $2.10 per million output tokens, and the model is offered through Nvidia, OpenRouter and Microsoft Foundry, Mistral said.
+The licence is open with one carve-out. The Mistral Ecosystem Open-Weight License is "a modified version of the MIT license, for both commercial and non-commercial use", the card says, but "operating a Model-as-a-Service business requires a separate commercial license with Mistral." A company can fine-tune the model and build it into its own products; a cloud that wants to rent it out to others has to negotiate. That is narrower than the Apache 2.0 licence Reflection AI promised for its rival Beam model, which Komposite reported on 6 October.
+Mistral's case for the model is still cyber defence. It says Large 4 brings "state-of-the-art sovereign cyber defense capabilities to enterprises and governments globally", TechCrunch reported. Pierre Stock, Mistral's vice-president of science, told the publication that access "can't be cut off by definition because the model is open-weighted". Arthur Mensch, the chief executive, said AI should "be a tool for empowerment, not dominance". Mistral says the model refused 96.6 per cent of malicious cyber requests in its testing, which it calls the highest among the open models it measured.
+Test (Mistral's figures)Preview, OctoberOpen-weight releaseBest rival Mistral shows
+Terminal-Bench 4.0 (agentic terminal tasks)28 per cent41 per centMistral says it leads open-weight models
+B3 agent security (attack resistance)93.3 per cent97.1 per centGLM-5.3, 93 per cent
+BrowseComp (web research)75 per cent (earlier checkpoint)84.5 per centKimi K3, 91.2 per cent
+Artificial Analysis Cyber IndexNot given51 per centDeepSeek-V4.1-Flash, 57 per cent
+Surge Code blind preference vs Claude Opus 5.5Not givenWins 22 per cent of comparisonsClaude Opus 5.5 ranked first
+Source: Mistral's release post, 29 October 2026. All scores are Mistral's own and were not independently verified. Comparison compiled by Komposite.Mistral's figures show three weeks of further training. On Terminal-Bench 4.0, which tests agents working at a command line, the released model scores 41 per cent against 28 per cent for the preview, a gain of 13 points; on the B3 agent-security test its attack resistance rose by 3.8 points to 97.1 per cent, by our subtraction. The claims about rivals are where the accounts part. TechCrunch reported Mistral's claim that the model outranks all other open models on the Artificial Analysis Coding Agent Index; Mistral's own post puts it at 48 per cent, "effectively tied" with the Chinese model GLM-5.3, while using 47 per cent fewer tokens per task. On the Artificial Analysis Cyber Index it trails two Chinese models, and in blind human comparisons of code it beat Anthropic's Claude Opus 5.5 in 22 per cent of cases. The benchmarks are Mistral's and were not independently verified.
+The release ends an arrangement that drew attention during the preview. Mistral said in early October that until the weights shipped it was red-teaming the model with "cybersecurity leaders, vetted partners, and state authorities, who will access the same model with reduced moderation and expanded cyber capabilities", as Komposite reported in Two open models, and no weights yet. Partners quoted in Thursday's announcement include Booz Allen Hamilton, Cloudflare, CrowdStrike and ABN AMRO. Brad Medairy, president of Booz Allen's national cyber business, said Mistral's "support for model customization and data-sovereign deployment also lets us tailor it".
+Why it matters: closed developers control who gets their strongest security tools by vetting customers and keeping logs, as Anthropic did when it tiered its cyber verification programme. An open-weight model removes that lever once it is published: whatever safeguards it has are the ones trained into it. Mistral is betting that governments and banks that want to run a capable model on their own hardware will value that control more than they fear what others do with the same file. It joins Meta, which opened the weights of an 816 billion-parameter model this month, in a field Chinese developers have led.
+
+---
+
 # Forty-one billion raised, nine billion short
 
 URL: https://kompositenews.com/markets/forty-one-billion-raised-nine-billion-short/
@@ -418,90 +496,3 @@ Clips are the risky layer. A 60-second cut can reach people who will never sit t
 The audience is there to be found. YouTube said in February 2025 that it had more than 1 billion monthly active viewers of podcast content. Rosenberg ends episodes with the creator's usual request to subscribe, because "it builds the channel, helps us more outreach, get more topics, get more guests". The show says nothing on it is legal advice. New full episodes usually arrive on Wednesdays, the show says, on its YouTube channel.
 Komposite has reported on companies paying to be named in AI search answers, and on agencies that build channels while the platforms still own the field.
 This feature was prepared in cooperation with Two Taps & Friends.
-
----
-
-# A hundred trillion won, and short until 2030
-
-URL: https://kompositenews.com/technology/a-hundred-trillion-won-and-short-until-2030/
-Section: Technology
-By: Tom Kessler
-Published: 2026-10-28T13:20:00Z
-Updated: 2026-10-28T13:20:00Z
-
-SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.
-
-SK hynix, the South Korean memory maker, reported record third-quarter revenue of ₩104.6tn on Wednesday, its first quarter above ₩100tn, and said demand for memory chips would exceed supply through 2030, according to its results release.
-The release gives revenue of ₩104,615.5bn for the three months to September, up 32 per cent on the second quarter and 328 per cent on a year earlier. Operating profit was ₩83,333.8bn, up 38 per cent on the quarter and 632 per cent on the year, for an operating margin of 80 per cent, against 76 per cent in the second quarter and 47 per cent a year ago. Net income was ₩39,775.6bn, a net margin of 38 per cent. The figures are preliminary and prepared under Korean IFRS, the company said.
-Net income fell 58 per cent from the second quarter, when it was ₩93,922.6bn, even as operating profit rose. By our subtraction, second-quarter net income exceeded operating profit by ₩33.4tn, while third-quarter net income was ₩43.6tn below it. The results release does not explain either gap; on the operating line, every measure rose.
-QuarterRevenue (₩bn)Operating profit (₩bn)Operating marginNet income (₩bn)
-Q3 202524,448.911,383.447%12,597.5
-Q2 202679,318.760,542.676%93,922.6
-Q3 2026104,615.583,333.880%39,775.6
-Source: SK hynix results release, 28 October 2026; preliminary, K-IFRS. Margins are the company's, checked by our arithmetic (83,333.8 / 104,615.5 = 79.7 per cent).The outlook is the part customers will read most closely. The company said it "expects the structure in which demand exceeds supply to persist through 2030", citing the technical difficulty of new products and the long lead times for new fabrication plants. It has signed long-term agreements (LTAs), contracts that commit volumes for several years, with 14 major customers including global cloud providers. The release says the volume secured so far corresponds to "more than 50% of total production capacity for 2027 and 2028"; the contracts typically run five years and use a price range that moves with market conditions, and some customers are discussing extensions.
-On products, SK hynix said server DDR5 and the start of HBM4 shipments drove DRAM sales. HBM, or high-bandwidth memory, is stacked DRAM packaged next to AI accelerators. The company expects HBM4 to pass the previous generation, HBM3E, in both shipments and revenue in the fourth quarter, and said its M15X fab will reach full capacity by the end of the year, with the first phase of its Yongin cluster entering full operation next year. It gave no capital expenditure figure, saying only that infrastructure investment will rise significantly and that it will adjust its scale and timing flexibly.
-The cash is going back to shareholders at a pace that matches the margins. The company has a 2026 target of about ₩100tn in total returns, including at least ₩30tn of dividends and at least ₩60tn of buybacks and cancellations. It declared a third-quarter dividend of ₩20,000 a share, about ₩14tn in total, half of it a special dividend sharing gains from its investment in Kioxia, and a ₩20tn buyback, of which about ₩10tn will fund employee compensation and is excluded from the returns total. Net cash stood at ₩98.7tn at the end of September: ₩114.5tn of cash against ₩15.8tn of borrowings. The company also said it had stopped reviewing an initial public offering of its Solidigm subsidiary. "The IPO was intended to raise external capital for the expansion of Solidigm's production facilities," said Kwak Noh-Jung, the chief executive.
-What the release says and how it was reported part in one place. The Register reported operating profit of ₩87.68tn, up 486 per cent on a year earlier. The company's own table gives ₩83,333.8bn and 632 per cent, and its numbers are internally consistent: ₩11,383.4bn a year earlier multiplied by 7.32 gives the third-quarter figure, by our arithmetic. We use the company's figures. The Register also reported that Kim Woo-hyun, the chief financial officer, said PC and mobile shipment volumes "are expected to decrease", a remark not in the release, and that the shares rose about 3 per cent in after-hours trading.
-For scale, Samsung Electronics guided on 8 October to about ₩107.4tn of third-quarter operating profit on about ₩195tn of sales across all of its businesses, a margin of about 55 per cent by our arithmetic. SK hynix, which makes only memory, earned nearly four-fifths as much operating profit on a little over half the sales.
-Why it matters: the shortage statement is a supplier's forecast, and a supplier has reason to describe its market as tight while it negotiates five-year contracts. But it is backed by contracts rather than adjectives: more than half of two years of future capacity has been committed to 14 buyers before some of the plants that will produce it are finished. For the cloud companies building AI data centres, memory is being priced in advance and in ranges; for PC and phone makers outside those agreements, it means competing for what is left.
-The figures extend a pattern Komposite has tracked across the memory industry. In September we reported that Micron's gross margin had reached 84.6 per cent on almost flat bit shipments, with customers paying deposits in advance. Korea's export-credit researchers have put the data centre AI chip market at $860bn by 2030, the same year SK hynix now gives for the end of the shortage.
-
----
-
-# Jio lists a fifth higher, on three per cent of its shares
-
-URL: https://kompositenews.com/markets/jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-28T13:00:00Z
-Updated: 2026-10-28T13:00:00Z
-
-Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.
-
-Jio Platforms, Reliance Industries' telecoms and digital arm, opened at ₹1,358 on its debut on Wednesday, 21.36 per cent above its ₹1,119 offer price, after raising ₹30,213 crore in India's largest initial public offering, according to Upstox's listing-day coverage.
-The shares, which trade on the National Stock Exchange (NSE) under the symbol JPL and on BSE, moved between ₹1,357 and ₹1,374.50 in the morning before rising in the afternoon and settling at ₹1,419 on the NSE, up 4.49 per cent on the opening price and, by our arithmetic, 26.8 per cent above the offer price. Upstox put the closing market value at ₹13,05,380.12 crore, or about ₹13.05 lakh crore (₹13.05tn). TechCrunch reported that the opening price valued Jio at about $131.9bn, making it India's second-most valuable listed company after its parent.
-The offering was entirely new shares, 27 crore of them, priced at the top of a ₹1,065 to ₹1,119 range, with no existing investor selling. It opened on Wednesday 21 October and closed on Friday 23 October, Upstox reported, and was subscribed 22.19 times. TechCrunch put investor bids at more than $77bn from more than 13.8 million applicants. The issue surpassed Hyundai Motor India's 2024 offering as the country's largest, according to Upstox and Business Today. Anchor investors, Upstox reported, included LIC, BlackRock, Fidelity, J.P. Morgan, Capital Group and the Government of Singapore.
-Most of the money is earmarked for debt. Up to ₹275bn, about 91 per cent of the proceeds by our arithmetic, will repay borrowings at the subsidiary Reliance Jio Infocomm, TechCrunch reported, against total borrowings of ₹613.7bn at the end of June. If all of it is used that way, that would retire about 45 per cent of the borrowings, by our arithmetic.
-Akash Ambani, Jio's managing director, told employees the listing "is not our destination" but "a new beginning", according to Upstox. TechCrunch quoted him saying: "My dream is that one day, when the world counts its great technology companies, one of them will be from India." He said the platforms serve more than 540 million customers.
-The float is the detail the headline numbers leave out. Dividing the closing market value by the closing price gives about 920 crore shares in issue, by our arithmetic; the 27 crore new shares are about 2.9 per cent of that. An offering that drew more than $77bn of bids was, in other words, a sale of less than a thirtieth of the company, and the first-day price was set by trading in that sliver.
-MeasureFigureBasis
-Offer price₹1,119Top of the ₹1,065–₹1,119 range
-Opening price (NSE)₹1,358+21.36% on the offer price
-Closing price (NSE)₹1,419+26.8% on the offer price, our arithmetic
-Market value at close₹13.05 lakh croreUpstox
-Shares in issue (implied)about 920 croreOur arithmetic: market value / closing price
-New shares sold27 crore (about 2.9%)Our arithmetic
-Trailing price/earningsabout 43xOur arithmetic: ₹13.05tn / FY2026 profit of ₹300.5bn (TechCrunch)
-Value in 2020up to ₹4.91tnTechCrunch; about 2.7x since, our arithmetic
-Sources: Upstox listing-day coverage, TechCrunch. Implied share count and multiples are Komposite's arithmetic, not company figures.Why it matters: Jio is now a listed comparator for telecoms and digital-services valuations in India, and its first-day price is a test of what the domestic market will pay for the Reliance group's technology businesses separately from the parent. At about 43 times last year's profit, on TechCrunch's figures, buyers are paying for growth rather than current earnings; revenue and profit each rose about 15 per cent in the year to March, TechCrunch reported. Jio reports second-quarter results on Friday, according to Upstox.
-The debut contrasts with the reception for other large listings this autumn. In London, the biggest listing in five years opened below its price, and Komposite has reported that the reopened IPO window favours a few very large deals while most of the pipeline waits.
-
----
-
-# Guidewire pays $1.7bn for an underwriting start-up
-
-URL: https://kompositenews.com/fintech/guidewire-pays-1-7bn-for-an-underwriting-start-up/
-Section: Fintech
-By: Elena Vasquez
-Published: 2026-10-28T12:40:00Z
-Updated: 2026-10-28T12:40:00Z
-
-Guidewire agreed to buy London underwriting-software firm hyperexponential for $1.7bn in cash plus up to $400m, funded partly by a $1bn loan.
-
-Guidewire, a US maker of software for property and casualty insurers, agreed on Tuesday to buy hyperexponential, a London developer of AI underwriting software, for $1.7bn in cash plus up to $400m if revenue targets are met, the company said.
-According to the announcement, made at Guidewire's Connections conference in Las Vegas, the base price is subject to adjustments, and the contingent payment of up to $400m depends on specified recurring revenue targets. Guidewire will fund the deal with $1.0bn of new term loan financing, committed by Bank of America and Citibank, and cash on hand. It expects the deal to close in the second quarter of its 2027 fiscal year. Centerview Partners advised Guidewire and J.P. Morgan advised hyperexponential.
-Hyperexponential, known as hx, sells software that commercial insurers use to build pricing models and make underwriting decisions. The company says its platform has supported underwriting across more than $75bn of annual commercial premium, and names Aviva, Allianz, Sompo, Beazley, Markel, HDI and Cincinnati Financial among its customers. It was already a Guidewire technology partner. TechCrunch reported that hx was founded in 2017, has raised nearly $90m, according to PitchBook, from investors including Andreessen Horowitz and Battery Ventures, and that nearly 600 insurers in 40 countries use its software.
-Amrit Santhirasenan, hx's chief executive and co-founder, said in the release that the company was founded "on the conviction that underwriting judgment is the highest-leverage work insurers do". Mike Rosenbaum, Guidewire's chief executive, said: "We're delighted to welcome Amrit Santhirasenan and the team at hyperexponential to Guidewire." TechCrunch described the aim as putting AI agents to work alongside human underwriters on analysis and pricing decisions.
-Guidewire did not disclose hx's revenue, but its guidance allows an estimate. It said the deal will add at least 650 basis points to its fiscal 2027 growth in annual recurring revenue (ARR), the yearly value of subscription contracts, on an inorganic basis, and at least 150 basis points a year to organic growth from fiscal 2028. Guidewire ended fiscal 2026 with ARR of $1,242m, or $1,237m at July 2026 exchange rates, its results release says. Applying 6.5 percentage points to that base implies about $80m of ARR from hx, by our arithmetic. On that estimate the base price is about 21 times hx's recurring revenue, and about 26 times if the full earnout is paid.
-MeasureFigureSource
-Base price$1.7bn cashGuidewire
-Earnoutup to $400mGuidewire
-New term loan$1.0bnGuidewire
-Guidewire cash and investments, 31 July$1,215.3mGuidewire FY2026 results
-Guidewire ARR, fiscal 2026$1,237m (July 2026 exchange rates)Guidewire FY2026 results
-Implied hx ARRabout $80mOur arithmetic: 6.5% x $1,237m
-Price / implied ARRabout 21x (26x with full earnout)Our arithmetic
-hx capital raisednearly $90mPitchBook, via TechCrunch
-Sources: Guidewire's announcement and fiscal 2026 results; TechCrunch. The implied ARR uses Guidewire's floor of 650 basis points and is an estimate, not a disclosed figure.The estimate has limits: 650 basis points is a floor, the ARR may be counted on Guidewire's definition rather than hx's, and the timing of the close will affect how much lands in fiscal 2027. The deal also changes Guidewire's balance sheet. By our subtraction, the cash portion of the base price is about $700m, more than half of the $1,215.3m in cash and investments Guidewire held at the end of July. The company said the deal will not affect its first-quarter guidance and that it will update its full-year forecast on its December earnings call.
-Why it matters: underwriting and pricing are where insurers make or lose money, and the deal puts a specialist pricing tool inside software that many carriers already use to run policies and claims. For hx's investors, TechCrunch noted, it is a large return; by our arithmetic the base price is about 19 times the capital the company has raised.
-Komposite has reported on how claims processing and other back-office work became a proving ground for agentic software, and on the spread of parametric insurance, where payouts follow measured events rather than adjusted claims. Guidewire's offer puts a price on the underwriting end of the same shift.

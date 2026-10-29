@@ -3148,5 +3148,32 @@
   "alt": "A tall brick-red office tower with rows of narrow windows, seen from below past bare-leafed trees against a blue sky",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Den_Haag_-_Ministerie_van_Binnenlandse_Zaken_en_Koninkrijksrelaties_%28BZK%29_%2839835416501%29.jpg\" rel=\"noopener\">Fred Romero</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/seventy-seven-billion-out-forty-two-billion-in": {
+  "id": "commons:AWS_-_Amazon_Web_Services_Office_in_Houston,_Texas_(46600198075).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/AWS_-_Amazon_Web_Services_Office_in_Houston%2C_Texas_%2846600198075%29.jpg/1280px-AWS_-_Amazon_Web_Services_Office_in_Houston%2C_Texas_%2846600198075%29.jpg",
+  "width": 1280,
+  "height": 854,
+  "alt": "The grey AWS lettering and an orange curved arrow mounted on the top floor of a glass-fronted office building against a white sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:AWS_-_Amazon_Web_Services_Office_in_Houston%2C_Texas_%2846600198075%29.jpg\" rel=\"noopener\">Tony Webster</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/a-preview-pane-that-could-read-the-whole-disk": {
+  "id": "commons:Hard_disk_platters_and_head.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hard_disk_platters_and_head.jpg/1280px-Hard_disk_platters_and_head.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Close-up of an opened hard disk drive showing its mirrored platter, the read head on its actuator arm and an amber ribbon cable",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Hard_disk_platters_and_head.jpg\" rel=\"noopener\">Matthew Field</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/mistral-hands-over-a-trillion-parameters": {
+  "id": "commons:CSIRO_ScienceImage_11313_The_CSIRO_GPU_cluster_at_the_data_centre.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/CSIRO_ScienceImage_11313_The_CSIRO_GPU_cluster_at_the_data_centre.jpg/1280px-CSIRO_ScienceImage_11313_The_CSIRO_GPU_cluster_at_the_data_centre.jpg",
+  "width": 1280,
+  "height": 850,
+  "alt": "A row of black server cabinets with perforated doors, large circular cooling fans and small status displays under yellow overhead cable trays",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11313_The_CSIRO_GPU_cluster_at_the_data_centre.jpg\" rel=\"noopener\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" rel=\"noopener\">CC BY 3.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
