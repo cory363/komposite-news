@@ -282,6 +282,57 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# A million fewer search visits a week
+
+URL: https://kompositenews.com/ai/a-million-fewer-search-visits-a-week/
+Section: AI
+By: Dana Whitfield
+Published: 2026-10-30T16:40:00Z
+Updated: 2026-10-30T16:40:00Z
+
+Reddit said search referrals fell sharply as search turns to AI, warned daily users could drop in Q4 and guided below forecasts. Shares fell about 25%.
+
+Reddit said on Thursday that visits from search engines fell "meaningfully" in the third quarter as search becomes an AI-powered destination, and that its daily users could fall by a low-double-digit percentage this quarter, according to its letter to shareholders. Its shares fell about a quarter on Friday.
+The quarter itself was strong. Revenue rose 53 per cent to $895m, advertising revenue 54 per cent to $847m and net income 74 per cent to $283m, or $1.40 a diluted share, the results release shows. Adjusted EBITDA was $402m, a margin of 44.9 per cent. Daily active uniques, the company's main user measure, rose 12 per cent to 130.3m, but fell 2 per cent in the United States to 50.7m. For the fourth quarter Reddit guided revenue of $1,000m to $1,030m and adjusted EBITDA of $480m to $510m.
+The letter is unusually direct. "Our search referral traffic was down meaningfully in Q3, with the decline accelerating later in the quarter," it says. "During October, we have seen that search traffic has dropped by more than 1 million referrals on average per week." The biggest effect was on logged-out and web visitors, Reddit said, though some flowed through to logged-in and app users, since "search referral is a common source of reengagement for users". It added: "If this rate of decline continues, current trends would suggest that total DAUqs could fall in Q4, by a low-double-digit percentage from our current base of 130 million DAUqs."
+Reddit daily active uniques, Q3 2026United StatesInternationalGlobal
+Logged-in23.4m (up 1 per cent)30.1m (up 11 per cent)53.5m (up 7 per cent)
+Logged-out27.3m (down 4 per cent)49.5m (up 33 per cent)76.8m (up 17 per cent)
+Total50.7m (down 2 per cent)79.6m (up 24 per cent)130.3m (up 12 per cent)
+Average revenue per user$13.82 (up 53 per cent)$2.43 (up 32 per cent)$6.87 (up 36 per cent)
+Source: Reddit's third-quarter release and shareholder letter, 29 October 2026; changes are year on year. By our arithmetic, logged-out users are 59 per cent of the global total and 54 per cent of the US total.The letter does not name Google. It describes the change in general terms: "Web search is evolving from a gateway to the web to becoming an AI-powered destination itself." Reddit's answer is to depend less on visitors who never sign in. "In Q4 we'll begin fully testing this in select markets outside the U.S.," the letter says of a logged-in-only Reddit, adding that "it is better for our business because we will have more signals for ads targeting". Steve Huffman, the founder and chief executive, said in the release that "the Reddit experience captures the human experience in a way that no other platform can replicate".
+Investors looked past the quarter. Analysts had expected fourth-quarter revenue of $1.05bn, Investing.com reported, and the shares fell about 22 per cent shortly after Friday's open. KeyBanc cut the stock to Sector Weight, writing that "our thesis is not playing out; search traffic is a larger headwind than envisioned", and Citizens cut it to Market Perform. John Colantuoni of Jefferies wrote that "delivery of strong Revenue/EBITDA growth (53%/70%) was overshadowed by worsening U.S. DAU declines". The fall reached 25 per cent, Yahoo Finance reported, which noted the shares had closed on Thursday at about 15 times forward earnings against a one-year average of 26.
+By our arithmetic, the guidance midpoint of $1,015m is 3.3 per cent below that consensus but still 13.4 per cent above the third quarter, at an implied adjusted EBITDA margin of about 49 per cent. Logged-out users, the group most exposed to search, are 59 per cent of daily users worldwide and 54 per cent in the United States. Reading "low-double-digit" as 10 to 13 per cent, the warning implies 113m to 117m daily users if the October trend holds. Revenue per US user, $13.82, is 5.7 times the international figure, which is why a 2 per cent fall at home weighs more than a 24 per cent rise abroad.
+Why it matters: Reddit has now put a weekly number on the traffic it is losing as search changes, in a document filed with its regulator. Alphabet's search revenue rose 12 per cent to $63.4bn in the quarter, Yahoo Finance noted, even as Alphabet's own shares fell on spending that ran ahead of its cash. The visits that once followed a search result are increasingly kept inside the answer, which is the market a new class of start-ups is trying to sell into, as Komposite reported when Profound raised $180m to get brands named in AI answers.
+
+---
+
+# Eighty-five per cent margins, and an eight-for-one split
+
+URL: https://kompositenews.com/markets/eighty-five-per-cent-margins-and-an-eight-for-one-split/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-30T16:20:00Z
+Updated: 2026-10-30T16:20:00Z
+
+Sandisk's fiscal Q1 revenue rose 378% to $11.0bn at an 85% gross margin. It guided to $12.4bn and set an 8-for-1 stock split from 20 November.
+
+Sandisk, the flash memory maker, reported revenue of $11.0bn for its fiscal first quarter on Thursday, up 378 per cent from a year earlier, at a gross margin of 85 per cent, according to its results release. It also announced an eight-for-one stock split.
+Revenue for the quarter to 2 October was $11,031m, against $8,965m in the previous quarter and $2,308m a year earlier. GAAP operating income was $8,780m, up from $176m, and GAAP net income was $8,101m, or $52.60 a diluted share; on Sandisk's non-GAAP measure, earnings were $49.51 a share. The GAAP gross margin was 85.0 per cent, against 29.8 per cent a year before. Operating cash flow was $6,363m and free cash flow $6,309m. For the second quarter Sandisk guided revenue of $12.2bn to $12.6bn, a non-GAAP gross margin of 84.5 to 85.5 per cent and non-GAAP earnings of $55 to $57 a share before the split.
+"We have started fiscal year 2027 with another quarter of strong performance, with robust and growing demand for our products driving outpaced growth in our data center business," David Goeckeler, the chairman and chief executive, said in the release. Datacenter revenue rose 61 per cent from the previous quarter to $4,802m. Edge, which covers flash sold into phones, PCs and other devices, rose 7 per cent to $5,832m. Consumer products fell 29 per cent to $397m.
+Sandisk revenue by marketQ1 fiscal 2026Q1 fiscal 2027Share of revenue now, by our arithmetic
+Datacenter$269m$4,802m43.5 per cent (11.7 per cent a year earlier)
+Edge (phones, PCs and other devices)$1,387m$5,832m52.9 per cent
+Consumer$652m$397m3.6 per cent
+Total$2,308m$11,031m4.8 times the year-earlier quarter
+Source: Sandisk's fiscal first-quarter release, 29 October 2026; quarter ended 2 October 2026. Shares and multiples are Komposite's arithmetic.On the call, Goeckeler said customers "have underestimated the amount of NAND they need", and that "we have multiple customers coming back for a second round", 24/7 Wall St. reported. Sandisk calls its long-term supply contracts, which include customer prepayments, its "new business model". It had signed eight by its August investor day, covering about half of fiscal 2027 output and about two-thirds of fiscal 2028, and closed two more in the quarter, the report said. Management told analysts: "Our NBM pipeline exceeds our supply throughout the end of the decade." Luis Visoso, the chief financial officer, said pricing was expected to rise only "modestly".
+Analysts had expected revenue of $10.7bn, according to S&P Global Market Intelligence figures cited by Yahoo Finance, and the midpoints of both revenue and earnings guidance were above Street forecasts of $12.23bn and $53.30 a share. The shares had closed Thursday's regular session at $1,330.05, down 5.3 per cent, before the release. Yahoo Finance noted that the stock was up more than 460 per cent this year but had "largely treaded water since July".
+The split is mechanical but not trivial. Holders of record at the close on Monday 9 November receive seven additional shares for each share held after the close on Thursday 19 November, and the stock trades on a split-adjusted basis from Friday 20 November. By our arithmetic, Thursday's close becomes about $166 a share, and the guidance midpoint of $56 becomes about $7.00 a share on the new count. The split comes after a quarter in which Sandisk spent $5.0bn repurchasing about 3.2m shares, 79 per cent of its free cash flow by our arithmetic, and 6.0m shares, about 4 per cent of its stock, over two quarters.
+By our arithmetic, the datacenter business has gone from 11.7 per cent of revenue to 43.5 per cent in a year, and is 18 times its size a year ago. GAAP operating income was 79.6 per cent of revenue. Guidance implies another 12 per cent of sequential growth at the midpoint, with no margin give-back. The guidance is the company's own, and its support is contractual rather than cyclical: the long-term agreements already cover about half of this fiscal year's output and about two-thirds of next year's, on 24/7 Wall St.'s account of the call.
+Why it matters: the memory shortage has two sides. For the makers of memory it is the best market in their history, as Samsung's record quarterly profit forecast showed this month. For those who buy it, it is a cost: Intel on Thursday blamed "the unprecedented memory crunch" for a shrinking PC market, and its shares fell by about a fifth after hours, as Komposite reported on Friday. Sandisk's own consumer revenue fell 39 per cent from a year earlier.
+
+---
+
 # Six billion dollars out of Binance's hot wallets
 
 URL: https://kompositenews.com/crypto/six-billion-dollars-out-of-binances-hot-wallets/
@@ -445,59 +496,3 @@ Surge Code blind preference vs Claude Opus 5.5Not givenWins 22 per cent of compa
 Source: Mistral's release post, 29 October 2026. All scores are Mistral's own and were not independently verified. Comparison compiled by Komposite.Mistral's figures show three weeks of further training. On Terminal-Bench 4.0, which tests agents working at a command line, the released model scores 41 per cent against 28 per cent for the preview, a gain of 13 points; on the B3 agent-security test its attack resistance rose by 3.8 points to 97.1 per cent, by our subtraction. The claims about rivals are where the accounts part. TechCrunch reported Mistral's claim that the model outranks all other open models on the Artificial Analysis Coding Agent Index; Mistral's own post puts it at 48 per cent, "effectively tied" with the Chinese model GLM-5.3, while using 47 per cent fewer tokens per task. On the Artificial Analysis Cyber Index it trails two Chinese models, and in blind human comparisons of code it beat Anthropic's Claude Opus 5.5 in 22 per cent of cases. The benchmarks are Mistral's and were not independently verified.
 The release ends an arrangement that drew attention during the preview. Mistral said in early October that until the weights shipped it was red-teaming the model with "cybersecurity leaders, vetted partners, and state authorities, who will access the same model with reduced moderation and expanded cyber capabilities", as Komposite reported in Two open models, and no weights yet. Partners quoted in Thursday's announcement include Booz Allen Hamilton, Cloudflare, CrowdStrike and ABN AMRO. Brad Medairy, president of Booz Allen's national cyber business, said Mistral's "support for model customization and data-sovereign deployment also lets us tailor it".
 Why it matters: closed developers control who gets their strongest security tools by vetting customers and keeping logs, as Anthropic did when it tiered its cyber verification programme. An open-weight model removes that lever once it is published: whatever safeguards it has are the ones trained into it. Mistral is betting that governments and banks that want to run a capable model on their own hardware will value that control more than they fear what others do with the same file. It joins Meta, which opened the weights of an 816 billion-parameter model this month, in a field Chinese developers have led.
-
----
-
-# Forty-one billion raised, nine billion short
-
-URL: https://kompositenews.com/markets/forty-one-billion-raised-nine-billion-short/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-29T14:00:00Z
-Updated: 2026-10-29T14:00:00Z
-
-Alphabet's free cash flow was minus $9.1bn in Q3 as capex hit $51.4bn; it raised $41.1bn in debt and stock. Microsoft's stayed positive at $18.6bn.
-
-Alphabet's free cash flow was minus $9.1bn in the third quarter after it spent $51.4bn on property and equipment, a gap it covered with $28.7bn of bonds and $12.4bn of new shares, its results release on Wednesday shows. Microsoft, reporting the same evening, doubled its own spending and still generated $18.6bn of free cash.
-Alphabet's revenue rose 25 per cent to $127.6bn in the three months to 30 September. Operating cash flow fell to $42.3bn from $48.4bn a year earlier, while purchases of property and equipment rose to $51.4bn from $24.0bn. The company made no share buybacks in the quarter, against $11.5bn a year earlier, and paid $2.9bn in dividends. It issued $28.7bn of senior unsecured notes and sold 12m Class A and 24m Class C shares through an at-the-market programme for $12.4bn, with $27.6bn of that programme still available at the end of September. Long-term debt stood at $125.1bn, up from $46.5bn at the end of 2025.
-It is the second quarter running in which Alphabet has spent more than it generated. Free cash flow was minus $5.9bn in the second quarter, the first negative quarter since the company listed in 2004, InvestingCube reported at the time. On the release's own measure, trailing twelve-month free cash flow has fallen to $19.7bn. The company kept its 2026 capital spending forecast at $195bn to $205bn and said spending in 2027 will "increase significantly", The Motley Fool reported.
-July to September 2026AlphabetMicrosoft
-Operating cash flow$42.3bn (down from $48.4bn)$58.0bn (up from $45.1bn)
-Purchases of property and equipment$51.4bn (from $24.0bn)$39.4bn (from $19.4bn)
-Free cash flowminus $9.1bn (from plus $24.5bn)$18.6bn (from $25.7bn)
-Capital spending as a share of operating cash121 per cent68 per cent
-Share buybacksNone (from $11.5bn)$4.4bn
-New debt, net of costs$29.0bnNone
-New shares sold$12.4bnNone
-Sources: Alphabet's third-quarter release and Microsoft's first-quarter release, 28 October 2026, cash flow statements for the three months to 30 September. Free cash flow and ratios are Komposite's arithmetic (operating cash flow less purchases of property and equipment).Microsoft's numbers show the other way to pay for the same thing. Its fiscal first-quarter release shows revenue up 19 per cent to $92.3bn, Azure cloud revenue up 48 per cent and additions to property and equipment of $39.4bn, up from $19.4bn. Operating cash flow rose to $58.0bn, so free cash flow, by our arithmetic, was $18.6bn, down 27 per cent from $25.7bn a year earlier but positive. Microsoft issued no debt, repaid $4.9bn and bought back $4.4bn of its shares. Including finance leases, its capital spending was $45.2bn, The Motley Fool reported.
-"We had a strong quarter and are now on a half-trillion dollar revenue run rate," Sundar Pichai, Alphabet's chief executive, said in the release. Investors read it differently. Alphabet's shares were down 10.3 per cent at $291.50 before the open on Thursday, Investing.com reported, and were down about 13 per cent later in the session, putting the stock on course for its worst day since its 2004 listing and nearly $500bn of market value at stake, Yahoo Finance reported. Microsoft "held up better", Yahoo said, and the Nasdaq Composite fell more than 1 per cent.
-The earnings line was weaker too. Diluted earnings per share fell to $2.12 from $2.87, against an analyst consensus of roughly $3.02 cited by Investing.com, partly because of an $8.7bn loss on equity securities, which Investing.com attributed mainly to Alphabet's stake in SpaceX. Google Cloud was the exception: revenue rose 103 per cent to $30.7bn and operating income to $11.1bn. Brent Thill, an analyst at Jefferies, said cloud was "the only business that beat" and "everything else missed", according to Investing.com.
-The share sales came at higher prices than Thursday's. By our arithmetic, Alphabet's at-the-market sales raised an average of roughly $358 for each Class A share and $338 for each Class C share, net of costs, against $291.50 before Thursday's open. A year earlier, Alphabet was spending $11.5bn a quarter buying its shares back; in the third quarter it was a net seller. Capital spending equal to 121 per cent of operating cash flow, against 68 per cent at Microsoft, is the gap the market priced on Thursday.
-Why it matters: the largest AI builders are now splitting into those that can fund data centres from operations and those that need the capital markets. Meta priced $37.5bn of new equity on Monday after its own free cash flow turned negative, Komposite reported, and Apollo's chief economist has argued that the financial payoff from AI stops at seven companies. Alphabet's cloud business, which is now renting its chips through Oracle, is the part of the company growing fast enough to justify the spending; the question its shareholders asked on Thursday is how long the rest has to pay for it.
-
----
-
-# Google's chips go to work in Oracle's cloud
-
-URL: https://kompositenews.com/ai/googles-chips-go-to-work-in-oracles-cloud/
-Section: AI
-By: Dana Whitfield
-Published: 2026-10-29T13:40:00Z
-Updated: 2026-10-29T13:40:00Z
-
-Oracle will rent out Google's TPU AI chips in its cloud from 2027, and OpenAI reportedly plans to buy them, as Google's chips move beyond Google Cloud.
-
-Oracle will offer Google's tensor processing units, the custom AI chips Google designs for its own data centres, to customers of Oracle Cloud Infrastructure from 2027, the company said on Tuesday at its AI World conference in Las Vegas. Oracle says that makes it the first hyperscale cloud outside Google's own to offer the chips, The Register reported.
-The chips will be selectable in Oracle's cloud from 2027, with capacity growing over several years, but Oracle did not say how many it will deploy. Oracle will house them in its own data centres and supply the power, cooling and networking, TNW reported. Google's eighth generation comes in two versions, the TPU 8t for training and the TPU 8i for inference; Google says the 8t delivers nearly three times the compute per pod of its predecessor. Karan Batta, a senior vice-president at Oracle's cloud unit, described a "multi-year, multi-gigawatt partnership", according to TNW's account of his remarks to DatacenterDynamics.
-"Different AI workloads have different compute needs," Mahesh Thiagarajan, president of Oracle Cloud Infrastructure, said in the announcement, as quoted by The Register. "Bringing Google TPUs to OCI gives customers ... the flexibility to choose the right infrastructure," he added. Oracle announced on the same day that Nvidia's Vera Rubin NVL72 systems were generally available in its cloud, and it has Nvidia commitments The Register put at "tens of billions" of dollars, so the TPUs arrive as an addition rather than a replacement.
-The second report is less firm. The Information reported on Tuesday that OpenAI plans to buy Google's TPUs, citing one person familiar with the matter, and gave no price, volume or timing. OpenAI declined to comment to Reuters and Google did not immediately respond, TNW said; Komposite has not been able to confirm the report. OpenAI is one of the largest buyers of Nvidia's processors, and unveiled its first custom chip, designed with Broadcom, in June.
-WhenWhoWhatStatus
-June 2025OpenAIBegan renting Google's TPUsReported by Reuters; OpenAI then said it had no active plans to use them in its products
-April 2026GoogleSaid it would sell TPU hardware directly to a small group of customers to run in their own data centresCompany statement
-By September 2026Anthropic5GW of Google TPU capacity coming through BroadcomAnnounced; reported by Komposite on 18 September
-27 October 2026OracleTPUs selectable in Oracle Cloud Infrastructure from 2027, in Oracle's own data centresAnnounced; volumes not disclosed
-27 October 2026OpenAIPlans to buy Google's TPUsReported by The Information from one source; not confirmed
-Sources: TNW, TNW, The Register and Komposite's earlier reporting. Timeline compiled by Komposite.The pattern is a chip that used to stay at home. Google said in April that it would sell TPU hardware directly to a small group of customers who could run it in their own data centres, and Anat Ashkenazi, Alphabet's chief financial officer, has said she expects a small share of TPU sales revenue to be booked this year with most of it in 2027, according to TNW. Demand from customers including Anthropic, which has 5GW of Google TPU capacity coming through Broadcom, has been strong enough that Google's own researchers have had to wait for access, TNW reported.
-It is also showing in Google's numbers. Alphabet's third-quarter results, published on Wednesday, show Google Cloud revenue up 103 per cent to $30.7bn, "powered by huge demand for our AI infrastructure and AI solutions", and cloud operating income of $11.1bn. By our arithmetic, that is an operating margin of 36 per cent, against 24 per cent a year earlier. The same results showed Alphabet spending more on data centres than it took in from operations, which is the subject of Komposite's lead story today.
-Why it matters: Nvidia's position in AI computing rests partly on the fact that its chips can be rented from all the large clouds, while Google's could be rented mainly from Google. Oracle's deal and, if confirmed, an OpenAI purchase would make TPUs a second chip that can be bought or rented outside the company that designs it. Oracle's shares rose nearly 5 per cent on Tuesday, TNW reported, citing CNBC, but are down more than 30 per cent this year on investor concern about how it will pay for its data centres. The Register's Brandon Vigliarolo called much of the week's news "circular spending" among the largest AI companies.
-OpenAI has been widening its suppliers for months: it was seeking thirty billion dollars of new funding this month, Komposite reported, and the chip start-up Tenstorrent more than doubled its valuation on the same demand for alternatives to Nvidia.

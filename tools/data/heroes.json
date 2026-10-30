@@ -3202,5 +3202,23 @@
   "alt": "A black T-shirt with the Binance logo embroidered in gold beside a yellow tote bag printed with the word Binance, on a white sheet",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg\" rel=\"noopener\">Bretwa</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/eighty-five-per-cent-margins-and-an-eight-for-one-split": {
+  "id": "commons:SanDisk_Fusion_ioMemory_PX600-5200_PCI-E_SSD.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/SanDisk_Fusion_ioMemory_PX600-5200_PCI-E_SSD.jpg/1280px-SanDisk_Fusion_ioMemory_PX600-5200_PCI-E_SSD.jpg",
+  "width": 1280,
+  "height": 813,
+  "alt": "A server flash storage card with two rows of black memory chips, a black finned heatsink and a metal mounting bracket, on a white background",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:SanDisk_Fusion_ioMemory_PX600-5200_PCI-E_SSD.jpg\" rel=\"noopener\">Dmitry Nosachev</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/a-million-fewer-search-visits-a-week": {
+  "id": "commons:Reddit_account_registration_options_(Create_an_account_to_continue)_2020.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Reddit_account_registration_options_%28%27Create_an_account_to_continue%27%29_2020.png",
+  "width": 1080,
+  "height": 1070,
+  "alt": "A Reddit sign-up screen headed Create an account to continue, with buttons to continue with Google, Apple or email",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Reddit_account_registration_options_(%27Create_an_account_to_continue%27)_2020.png\" rel=\"noopener\">Reddit, Inc.</a>, public domain, via Wikimedia Commons",
+  "creditLine": "Screenshot via Wikimedia Commons"
  }
 }
