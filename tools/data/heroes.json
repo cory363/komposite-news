@@ -3175,5 +3175,32 @@
   "alt": "A row of black server cabinets with perforated doors, large circular cooling fans and small status displays under yellow overhead cable trays",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11313_The_CSIRO_GPU_cluster_at_the_data_centre.jpg\" rel=\"noopener\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" rel=\"noopener\">CC BY 3.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/one-operator-two-hundred-targets": {
+  "id": "commons:HK_石塘咀市政大廈_Shek_Tong_Tsui_Municipal_Services_Building_電腦鍵盤_Chinese_input_keyboard_Jan-2012.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/HK_%E7%9F%B3%E5%A1%98%E5%92%80%E5%B8%82%E6%94%BF%E5%A4%A7%E5%BB%88_Shek_Tong_Tsui_Municipal_Services_Building_%E9%9B%BB%E8%85%A6%E9%8D%B5%E7%9B%A4_Chinese_input_keyboard_Jan-2012.jpg/1280px-HK_%E7%9F%B3%E5%A1%98%E5%92%80%E5%B8%82%E6%94%BF%E5%A4%A7%E5%BB%88_Shek_Tong_Tsui_Municipal_Services_Building_%E9%9B%BB%E8%85%A6%E9%8D%B5%E7%9B%A4_Chinese_input_keyboard_Jan-2012.jpg",
+  "width": 1280,
+  "height": 956,
+  "alt": "A grey public-terminal keyboard whose dark keys carry Latin letters alongside Chinese input characters, below a yellow-framed screen",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:HK_%E7%9F%B3%E5%A1%98%E5%92%80%E5%B8%82%E6%94%BF%E5%A4%A7%E5%BB%88_Shek_Tong_Tsui_Municipal_Services_Building_%E9%9B%BB%E8%85%A6%E9%8D%B5%E7%9B%A4_Chinese_input_keyboard_Jan-2012.jpg\" rel=\"noopener\">Poa Mosyuen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/data-centres-up-78-per-cent-pcs-down-12": {
+  "id": "commons:Intel_HQ_exterior_1.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Intel_HQ_exterior_1.JPG/1280px-Intel_HQ_exterior_1.JPG",
+  "width": 1280,
+  "height": 719,
+  "alt": "A six-storey office building with a blue glass curtain wall and pale panels, behind bare trees and a row of parked cars under a grey sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Intel_HQ_exterior_1.JPG\" rel=\"noopener\">BrokenSphere</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/six-billion-dollars-out-of-binances-hot-wallets": {
+  "id": "commons:Binance_t-shirt_and_bag_-_2022-07-09.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Binance_t-shirt_and_bag_-_2022-07-09.jpg/1280px-Binance_t-shirt_and_bag_-_2022-07-09.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A black T-shirt with the Binance logo embroidered in gold beside a yellow tote bag printed with the word Binance, on a white sheet",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Binance_t-shirt_and_bag_-_2022-07-09.jpg\" rel=\"noopener\">Bretwa</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }

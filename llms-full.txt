@@ -282,6 +282,94 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Six billion dollars out of Binance's hot wallets
+
+URL: https://kompositenews.com/crypto/six-billion-dollars-out-of-binances-hot-wallets/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-10-30T14:20:00Z
+Updated: 2026-10-30T14:20:00Z
+
+About $6.3bn was taken from Binance's hot wallets on Thursday, the biggest crypto theft on record. About $2.7bn is frozen; TRM blames North Korea.
+
+About $6.3bn in crypto was taken from Binance, the world's largest exchange, on Thursday in what is the largest theft in the industry's history, the company said in an update on Friday. Binance said it would cover all losses, that "user funds are safe" and that withdrawals were suspended while it completed security checks.
+Binance's update says an initial investigation suggests "a compromised DevOps engineer's laptop" allowed an attacker to reach a service container and submit unauthorised withdrawal transactions. "We have found no evidence of any wallet private key leak," it says. The exchange said about $3bn had been frozen on-chain with partners, that "Binance will cover all losses from the SAFU fund and the company's funds", referring to its emergency reserve, and that it would publish a technical post-mortem and an updated proof of reserves. Deposits are unaffected. The update gives no date for withdrawals to resume.
+TRM Labs, a blockchain analytics firm, counts $6.36bn moved out of Binance wallets on ten blockchains, most of it in about 20 minutes from 20:05 UTC on Thursday. It attributes the theft "with high confidence" to TraderTraitor, a North Korean unit that the FBI blamed for the theft of about $1.5bn from the exchange Bybit in February 2025. Ari Redbord, TRM's global head of policy, called the attack "unprecedented", Al Jazeera reported. Binance has not named a culprit; it said it was working with law enforcement.
+ChainTaken, at the time of each transferShare of the total
+Ethereum (ether, USDT, USDC, RLUSD and 185 other tokens)About $3.79bn60 per cent
+Bitcoin (18,270 BTC)About $1.47bn23 per cent
+Tron (612.7m USDT and 46.4m TRX)About $628m10 per cent
+XRP Ledger (233.46m XRP)About $296m5 per cent
+Solana, Arbitrum, Optimism, Base, Avalanche and PolygonAbout $173m3 per cent
+TotalAbout $6.36bn
+Source: TRM Labs, on-chain data to 00:30 UTC on 30 October. Shares are Komposite's arithmetic and are rounded.The two accounts of how it happened are not yet the same. Binance points to one engineer's laptop. TRM says the attacker produced valid signatures on chains with different key types and signing schemes within about half an hour, which "a simple phishing explanation" does not cover, and that on Ethereum it used 50 pre-signed authorisations under EIP-7702, a 2025 feature that lets an ordinary wallet hand control to a smart contract, prepared so that one would match whatever the hot wallet's transaction count was at the time. TRM's assessment is that the attacker could direct Binance's hot-wallet signing system across chains. Binance has not published a root cause.
+Who froze or moved fundsAmountWhen (UTC)
+Tether (USDT on several chains)About $1.77bnFirst 971.1m USDT at 21:01 on 29 October
+Circle (USDC), with law enforcementAbout $825m823m USDC at 21:04
+Ripple (RLUSD)$40.5m22:01
+Arbitrum Security Council (forced transfers of ETH and ARB)About $30m00:08 on 30 October
+World Liberty Financial (USD1)$27.8m22:10 and 22:26
+TotalAbout $2.7bn, or 42 per cent of the $6.36bn
+Source: TRM Labs. Binance's own update puts the frozen total at about $3bn. The sum and percentage are Komposite's arithmetic.The freezes came quickly. Tether froze 971.1m USDT 37 minutes after the main sweep and Circle froze 823m USDC three minutes later, working with law enforcement, according to TRM. The attacker still controls about $2.4bn, including more than 420,000 ether and the 18,270 bitcoin, which it is moving through a chain of small transfers. TRM says it sold about 325m USDT to market makers for roughly 122,300 ether at an implied price of about $2,650, when ether traded at $2,300 to $2,350, giving up more than 10 per cent to convert tokens that could be frozen into one that cannot.
+By our arithmetic, the theft is 4.2 times the Bybit loss and 2.2 times the $2.87bn that TRM says was stolen in nearly 150 crypto hacks in the whole of 2025. Binance told ABC News it had reserved more than $6.34bn of company funds for the incident, $5bn of it in the same tokens that were taken, which would cover the gross loss before any recovery. That figure is the company's own and has not been independently verified. Bitcoin fell about 5 per cent to below $77,000 after the news, Al Jazeera reported.
+Binance confirmed the incident to TechCrunch on Thursday after users reported funds draining from its wallets; hours earlier Changpeng Zhao, the founder and largest shareholder, who no longer runs the exchange, had posted that it had probably been hacked. Sean Foley of Macquarie University told Al Jazeera: "Any assets held at a centralised exchange are only as safe as the exchange itself."
+Why it matters: by our arithmetic from TRM's breakdown, about $3.4bn of the stolen value, more than half, was in dollar stablecoins, and those were the easiest to stop because their issuers can freeze them; nearly all of the $2.7bn frozen so far is stablecoins. The ether and bitcoin cannot be frozen that way. Hacken, a security firm, had already attributed most third-quarter crypto hack losses to suppliers, unapplied fixes and systems left out of security reviews, as Komposite reported this month, rather than to flaws in audited code. Binance accounts have also figured in American enforcement: prosecutors were seeking to seize $61m from two of them in September.
+
+---
+
+# Data centres up 78 per cent, PCs down 12
+
+URL: https://kompositenews.com/markets/data-centres-up-78-per-cent-pcs-down-12/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-30T14:00:00Z
+Updated: 2026-10-30T14:00:00Z
+
+Intel's data centre revenue rose 78% in Q3, but it guided Q4 revenue and margins lower on a PC slump and memory shortages. Shares fell about a fifth.
+
+Intel's data centre and AI revenue rose 78 per cent to $7.3bn in the third quarter, but the company forecast lower fourth-quarter revenue and margins on Thursday because of a shrinking PC market, according to its results release. The shares fell about 21 per cent in after-hours trading.
+Total revenue was $16.5bn, up 21 per cent from $13.7bn a year earlier, and non-GAAP earnings were 52 cents a share against 23 cents. The non-GAAP gross margin rose to 44.1 per cent from 40.0 per cent. Intel Foundry, the manufacturing arm, reported $6.7bn, up 58 per cent. Client computing, the PC business, fell 5 per cent to $8.1bn. For the fourth quarter Intel guided revenue of $15.0bn to $16.0bn, a non-GAAP gross margin of 38.0 per cent and earnings of 25 cents a share.
+"Despite near-term headwinds across the PC industry, demand for our CPUs remains robust," Lip-Bu Tan, the chief executive, said in the release, adding that the "immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family". David Zinsner, the chief financial officer, said: "we see the PC slowdown continuing at least through the first half of next year."
+Intel, non-GAAP unless statedThird quarter 2026Fourth-quarter guidanceChange, by our arithmetic
+Revenue$16.5bn (up 21 per cent)$15.0bn to $16.0bnMinus 6 per cent at the $15.5bn midpoint
+Gross margin44.1 per cent38.0 per centMinus 6.1 points, about 2 of them from the Israel plant
+Earnings per share$0.52$0.25Minus 52 per cent
+Data centre and AI revenue$7.3bn (up 78 per cent)Not guidedAbout $4.1bn a year earlier
+PC (client) revenue$8.1bn (down 5 per cent)Not guidedAbout $8.5bn a year earlier
+Sources: Intel's third-quarter release and the earnings call, 29 October 2026. Year-earlier segment figures and changes are Komposite's arithmetic from the growth rates Intel gives.On the call, Zinsner put a number on the slowdown. "We expect the 2026 PC unit TAM to decline approximately 12%, with second-half units down more than 20%," he said, according to the transcript. Tan blamed "the unprecedented memory crunch", as prices and shortages of memory chips push up the cost of PCs. Zinsner also said Intel's Fab 28 in Israel had been shut for about two weeks, adding: "I think the current thinking is that we will have about a $300 million impact to the fourth quarter." He put the cost at about two points of gross margin.
+The market weighed the guidance over the beat. Analysts had expected 40 cents a share on revenue of $16.48bn, Investing.com reported, so Intel beat on profit by 12 cents. The stock closed the regular session at $92.07 and traded at $72.85 after hours, down $19.22. On Friday morning the fall in premarket trading was more than 25 per cent, Fox News reported, citing Tan's remark that "the pace of this PC correction has accelerated over the last two months".
+By our arithmetic, the guidance midpoint of $15.5bn is 6 per cent below the third quarter, and the margin guide is 6.1 points lower, of which the Israel plant explains about 2. The rest comes from the PC mix and supply costs Intel describes. Cash was thinner than the headline profit: operating cash flow of $5.1bn less $4.2bn of gross capital spending leaves $0.9bn, against the $1.6bn of adjusted free cash flow Intel reports after its own adjustments.
+Why it matters: the memory shortage that is lifting chipmakers such as Samsung, which forecast a record quarterly profit on AI memory demand this month, is a cost for companies that sell into PCs. Intel's server business is growing as fast as it can be supplied, but the PC business is still the larger of the two. The fall came a day after Alphabet's class A shares dropped 12.64 per cent, about $500bn of market value, Fox News reported, following results that showed capital spending running ahead of operating cash.
+
+---
+
+# One operator, two hundred targets
+
+URL: https://kompositenews.com/cybersecurity/one-operator-two-hundred-targets/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-30T13:40:00Z
+Updated: 2026-10-30T13:40:00Z
+
+CrowdStrike says China-linked Vapor Panda used the ARTEX AI agent framework and DeepSeek against 200+ organisations in 11 days, breaching at least nine.
+
+A China-linked hacking group used an AI agent framework called ARTEX, running mainly on DeepSeek's model, to target more than 200 organisations in at least 14 countries over 11 days from 17 October, CrowdStrike said in a report on Thursday. The security company confirmed hands-on intrusions at nine of them.
+CrowdStrike calls the group Vapor Panda and describes it as a "China-nexus" adversary active since 2021, mostly against governments, think tanks and energy and extractive companies. ARTEX, the report says, runs a main agent that directs planner and worker agents through a shared map of facts and goals, taking each target from first access through reconnaissance to moving across the network. The second model was a subscription commercial one that CrowdStrike "could not confirm"; it does not name it. In a single intrusion, the planning agents consumed about 1.4bn input tokens.
+The human role was small and visible. CrowdStrike says it recovered transcripts of an operator giving the agents instructions in Chinese, labelled "human instruction" and time-stamped in China Standard Time, asking for web shells, domain administrator passwords and an inventory of security software. At one pharmaceutical company, the operator told the agents to find Windows machines "without Falcon", CrowdStrike's own endpoint sensor. Adam Meyers, CrowdStrike's vice president of threat intelligence, told NBC News, as Fox News reported: "This is the first time we've seen them using an AI or agentic capability at scale."
+Victim type, as CrowdStrike describes itWhat CrowdStrike says happened
+Foreign ministries of two Latin American countriesExtensive intrusion; BLOODALCHEMY backdoor at one
+An interior ministry in the Middle EastCompromised; BLOODALCHEMY deployed
+Telecoms providers in the US, Belgium and the PhilippinesCompromised
+Two US pharmaceutical organisationsCompromised, from an engagement aimed at 19 US organisations
+A Greek government entityMailboxes read using unrotated 2022 keys and a VPN key from a 2024 email leak
+US think tanks and European government bodiesPassword spraying and credential scanning, at least 12 organisations
+Source: CrowdStrike's report, 29 October 2026. CrowdStrike names no victims. Table compiled by Komposite.The techniques were not new; the throughput was. Agents chained an unsigned SAML login assertion with an XML flaw to reach a cloud metadata service and take over a role that could command thousands of servers, according to the report. Against the Greek target, the operator supplied directory-export keys from 2022 that had probably never been rotated, and the agents used a VPN key from a May 2024 email leak to get inside. The agents tried several paths at once and switched when one failed.
+By our arithmetic, more than 200 organisations in an 11-day window is about 18 a day, and nine confirmed intrusions is fewer than one in twenty of the targets. Adding the 12 organisations hit with password spraying gives 21 with confirmed hostile activity, about one in ten. AI lets such groups "operate on a scale that previously required far more human effort", NBC News reported. Neither CrowdStrike nor NBC carried a response from DeepSeek.
+This is the second ARTEX campaign made public in little more than a week. Microsoft said last week that a different China state-aligned group, Storm-0940, used the same framework after compromising a backup vendor to try sign-ins at more than 2,250 customer tenants, as Komposite reported on 22 October. CrowdStrike says the Vapor Panda activity is separate, and that it has also seen ARTEX used by criminal and unattributed actors.
+Why it matters: an AI agent that holds credentials behaves like any other privileged account, a point Komposite made in September: the agent is a privileged user. What changes is the arithmetic for defenders, since one operator can now run many intrusions in parallel. CrowdStrike assesses that China-nexus groups will "highly likely" keep adopting such frameworks over the next 12 months, and its first recommendation is unglamorous: rotate signing keys and service credentials, including those sitting in old backups.
+
+---
+
 # Seventy-seven billion out, forty-two billion in
 
 URL: https://kompositenews.com/markets/seventy-seven-billion-out-forty-two-billion-in/
@@ -413,86 +501,3 @@ Sources: TNW, TNW, The Register and Komposite's earlier reporting. Timeline comp
 It is also showing in Google's numbers. Alphabet's third-quarter results, published on Wednesday, show Google Cloud revenue up 103 per cent to $30.7bn, "powered by huge demand for our AI infrastructure and AI solutions", and cloud operating income of $11.1bn. By our arithmetic, that is an operating margin of 36 per cent, against 24 per cent a year earlier. The same results showed Alphabet spending more on data centres than it took in from operations, which is the subject of Komposite's lead story today.
 Why it matters: Nvidia's position in AI computing rests partly on the fact that its chips can be rented from all the large clouds, while Google's could be rented mainly from Google. Oracle's deal and, if confirmed, an OpenAI purchase would make TPUs a second chip that can be bought or rented outside the company that designs it. Oracle's shares rose nearly 5 per cent on Tuesday, TNW reported, citing CNBC, but are down more than 30 per cent this year on investor concern about how it will pay for its data centres. The Register's Brandon Vigliarolo called much of the week's news "circular spending" among the largest AI companies.
 OpenAI has been widening its suppliers for months: it was seeking thirty billion dollars of new funding this month, Komposite reported, and the chip start-up Tenstorrent more than doubled its valuation on the same demand for alternatives to Nvidia.
-
----
-
-# Twenty-five thousand posts, and no number for AI
-
-URL: https://kompositenews.com/policy/twenty-five-thousand-posts-and-no-number-for-ai/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-10-29T13:20:00Z
-Updated: 2026-10-29T13:20:00Z
-
-The Netherlands plans to cut 25,000 civil-service posts by 2035 to save €3.5bn a year, but its letter says not to overestimate AI and gives it no number.
-
-The Dutch government plans to cut about 25,000 full-time posts from its central civil service by 2035, but the letter announcing it on Monday puts no figure on how many jobs artificial intelligence will replace. State Secretary Eric van der Burg sent it to parliament. The cut, about one post in six, is meant to save €900m in 2027, rising to €3.5bn a year from 2035, the public broadcaster NOS reported.
-The letter, a progress report on the cabinet's "Slagvaardige Overheid" (effective government) programme sent to the lower house on 26 October, counts 160,016 full-time equivalents in central government and calls the 25,000 figure a rough estimate, according to AI Insider, a Dutch trade site that published extracts. Police and Defence are exempt, as are the prison service, the Public Prosecution Service and the security services. The benefits agency UWV, the immigration service IND and the tax administration were not exempted in advance, NOS said. Many organisations face cuts of about 20 per cent, some about 45 per cent and one about 60 per cent.
-The international framing was simpler. Bloomberg described an "AI-led efficiency drive" and quoted Mr van der Burg: "We cannot keep doing what we have been doing," and the goal is a central government that is "simpler, smarter, and smaller". Bloomberg also reported that parliament had passed non-binding motions calling for a 20 per cent productivity increase through AI, and that the cabinet would present plans for deploying the technology early next year.
-The letter is more cautious than the headlines. "Overschat de formatieve effecten van digitalisering en AI niet," it says, as quoted by AI Insider: do not overestimate the staffing effects of digitalisation and AI. It sets no AI target until the first quarter of 2027, when the house has asked for one, and says security, data quality and sovereignty must be in order, infrastructure adapted and work processes fundamentally revised first. Earlier rounds of digitisation, it notes, did not deliver the promised lower costs and smaller staff; they produced new tasks, more capacity and more hired-in workers.
-PointWhat the letter saysHow it was widely reported
-Size of the cutAbout 25,000 fte of 160,016, which Mr van der Burg calls a rough estimate25,000 jobs
-Role of AI"Do not overestimate" the staffing effects of digitalisation and AI; no AI figure until the first quarter of 2027An "AI-led" overhaul
-Where the savings come fromGeneral efficiency of at most 0.5 per cent a year covers about a third; the rest from dropping tasksAI productivity gains
-Who is sparedPolice and Defence, the prison service, the Public Prosecution Service and the security servicesPolice and the military
-Money&euro;900m in 2027, rising to &euro;3.5bn a year from 2035&euro;3.5bn a year
-Sources: AI Insider's reading of the letter, NOS and Bloomberg. Comparison compiled by Komposite.Most of the saving is meant to come from doing less. AI Insider reports that general efficiency of at most 0.5 per cent a year, the figure used by the CPB, the government's economic forecaster, covers about a third of the target, and that the remainder must come from dropping tasks. By our arithmetic, 0.5 per cent a year compounded over the nine years from 2027 to 2035 comes to about 4.4 per cent of 160,016, or roughly 7,100 posts, a little short of a third of 25,000 (about 8,300). NOS lists the measures as leaner facilities at ministries, standardised IT systems and efficiency measures "including with AI", plus cuts to 28 advisory councils and about 150 advisory committees.
-The baseline has moved the other way for years. Central government grew by about 41 per cent, or 46,500 full-time equivalents, between 2018 and 2025, according to the letter as AI Insider reports it, and Bloomberg put the number of officials at a record 160,000 at the end of last year. By our subtraction, a cut of 25,000 would leave about 135,000 posts, still roughly 21,500 more than in 2018. The €3.5bn target works out at about €140,000 a year for each post removed, by our arithmetic, which suggests the figure covers more than salaries alone.
-Why it matters: governments are starting to book AI into budgets before they have measured it. The Dutch plan fixes the saving now and leaves the AI contribution to a later document, which means the technology's share will be judged against a target already set. Parliament's 20 per cent productivity motion and the letter's own caution now point in different directions, and the first-quarter AI plan will have to reconcile them. Mr van der Burg said he hoped to complete much of the detail within six months, NOS reported; the precise allocation is due in the spring budget memorandum, according to the letter as AI Insider reports it.
-The Dutch state has moved carefully on technology before: its tax administration said this month it would run its mail on its own servers rather than finish a move to Microsoft 365, Komposite reported. In the United States, the federal government has taken the procurement route, ordering DeepSeek out of civilian agencies, while in the private sector Microsoft has offered buyouts to about 60,000 staff as it raises AI spending.
-
----
-
-# Thirty-seven and a half billion, with sixty to follow
-
-URL: https://kompositenews.com/markets/thirty-seven-and-a-half-billion-with-sixty-to-follow/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-28T23:40:00Z
-Updated: 2026-10-28T23:40:00Z
-
-Meta priced $25bn of stock at $625 and $12.5bn of convertible preferred, and plans a $60bn share programme in 2027 as AI spending outruns its cash flow.
-
-Meta Platforms priced $37.5bn of new equity late on Monday, selling $25bn of Class A common stock at $625 a share and $12.5bn of mandatory convertible preferred stock, the company said in its pricing announcement. It also said it plans to sell about $60bn more stock through an at-the-market programme from next year.
-The common stock sale was upsized to $25.0bn from $22.5bn and is structured as a forward sale. Affiliates of Morgan Stanley and Goldman Sachs, the two lead bookrunners, will borrow and sell 40m Class A shares now; Meta will deliver new shares and collect about $24.9bn, at an initial forward price of about $622.92, on dates of its choosing on or before 19 November 2027. Meta expects no proceeds from that initial sale of borrowed shares, the release said. The preferred stock is sold as 250m depositary shares at $50, each a twentieth of a share carrying a 6.50 per cent annual dividend, and converts into Class A stock around 15 August 2029. Both offerings are expected to close on Thursday, and the proceeds are for "general corporate purposes".
-The third piece is not yet a deal. In a free writing prospectus filed with the SEC, Meta said it "plans to launch an approximately $60 billion at-the-market ('ATM') program" once its new non-voting Class C shares begin trading, and that the programme "is not expected to commence until the first quarter of 2027". It added that it "has not entered into any agreement" and that "the timing, size and terms of any such program, if established, have not been determined." An at-the-market programme lets a company sell shares into the market in small amounts over time rather than in one underwritten block.
-PieceSizeTermsStatus
-Class A common stock, forward sale$25.0bn (40m shares at $625); up to $3.75bn moreMorgan Stanley and Goldman Sachs affiliates sell borrowed shares now; Meta delivers shares and takes about $24.9bn on or before 19 Nov 2027Priced 26 Oct; closes 29 Oct
-Mandatory convertible preferred (depositary shares)$12.5bn (250m at $50); up to 37.5m more6.50% dividend; converts around 15 Aug 2029 into 0.0681 to 0.0800 Class A shares per depositary sharePriced 26 Oct; closes 29 Oct
-At-the-market programme, Class C stockAbout $60bnSold from time to time through a manager; no agreement signed; timing, size and terms not determinedNot before the first quarter of 2027
-Total$37.5bn priced; $97.5bn including the planned programmeOur arithmetic, before over-allotment options
-Sources: Meta's pricing announcement, free writing prospectus and prospectus supplement, all 26 October 2026. Totals are Komposite's arithmetic.Three chipmakers are on the buy side. The prospectus supplement names NVIDIA, AMD and Broadcom as "Cornerstone Investors" that "indicated an interest in purchasing up to an aggregate of $5.0 billion" of the common stock, about a fifth of the offering by our arithmetic, and says the indications are "not binding agreements or commitments to purchase". The Motley Fool reported that Nvidia said it would invest $3bn; Komposite has not seen that figure in a filing. The price of $625 was about 0.9 per cent below the last sale of $630.56 on Monday, by our arithmetic from that report, and the shares closed at $612.49 on Wednesday, down 1.24 per cent.
-The reason is in the cash flow statement. Meta's third-quarter results, published on 21 October, show capital expenditure, including finance-lease principal, of $34.91bn in the quarter and free cash flow of minus $2.12bn. The company kept its 2026 capital spending forecast at $135bn to $145bn and made no share buybacks in the quarter. It ended September with $82.45bn of cash and marketable securities, and the preliminary prospectus puts total consolidated indebtedness at $83.7bn. Investing.com described the negative free cash flow as the first in more than a decade.
-The dilution is modest on its own. By our arithmetic, the 40m new common shares equal 1.6 per cent of the 2,556m Class A and Class B shares outstanding on 30 September, and the preferred will convert into between 17.0m and 20.0m more, so the two priced deals add 2.2 to 2.3 per cent before over-allotment options, or up to 2.7 per cent if both are exercised in full. The full $60bn programme, at Monday's price, would be roughly another 3.8 per cent. At $625 a share, the $37.5bn priced is about 2.3 per cent of Meta's market value of roughly $1.6tn. The preferred dividend costs about $812.5m a year.
-The order of the deals matters for control. Meta created the Class C shares, which carry no votes, so that it could raise equity without diluting Mark Zuckerberg, who held about 60.6 per cent of the voting power, as Komposite reported last week. Monday's sale, however, is of voting Class A shares, because the Class C stock does not take effect until 19 January. By our arithmetic from the prospectus share counts, 40m new Class A votes take Mr Zuckerberg's share to about 60.2 per cent, and conversion of the preferred into Class A would take it to about 59.9 per cent. The filings allow the forward sales and the preferred to be settled in Class C stock in some circumstances, which would avoid that.
-Why it matters: Meta has paid for its data centres from operating cash and, increasingly, from bonds; The Motley Fool counts $29.9bn of long-term borrowing in the fourth quarter of 2025 and $24.9bn in the second quarter of 2026. It is now adding equity, with chipmakers among the would-be buyers. Against the midpoint of its 2026 spending forecast, the $37.5bn priced this week would cover about 27 per cent of a single year's capital expenditure, by our arithmetic, and the cash from the common stock is not due until as late as November 2027.
-Other capital-intensive AI builders have reached for different structures. SpaceX took $40bn of GPU financing as a lease from an Apollo-managed vehicle, Komposite reported on Monday, and Apollo's chief economist argued at the weekend that the financial payoff from AI has so far stopped at seven companies, Meta among them. Meta has now asked public shareholders to fund more of the bet directly.
-
----
-
-# AI gets the law wrong. A podcast bets on chapters
-
-URL: https://kompositenews.com/technology/ai-gets-the-law-wrong-a-podcast-bets-on-chapters/
-Section: Technology
-By: Tom Kessler
-Published: 2026-10-28T15:00:00Z
-Updated: 2026-10-28T15:00:00Z
-
-AI assistants still garble legal detail. Two Taps and Friends, a defense lawyers' podcast, uses chapters, transcripts and clip markup to be found instead.
-
-Studies keep finding that AI assistants get legal and news detail wrong, and one podcast hosted by criminal defense lawyers is answering with metadata. Two Taps and Friends marks up its episodes with chapters, transcripts and clip data so that search engines point people to the lawyers' explanation itself.
-The accuracy problem is well documented. Researchers writing for Stanford's Institute for Human-Centered AI reported hallucination rates of 69% to 88% when they put specific legal queries to GPT 3.5, Llama 2 and PaLM 2, in a study published in January 2024. Those models have since been replaced, but the pattern has carried into news. A study of more than 3,000 answers from ChatGPT, Copilot, Gemini and Perplexity, coordinated by the European Broadcasting Union and led by the BBC, found that "45% of all AI answers had at least one significant issue", VRT reported in October 2025. In criminal law the detail that gets dropped is often the one that matters: whether a charge came by information or by indictment, or whether a federal count was dismissed rather than tried.
-Two Taps and Friends is a weekly show on YouTube and the podcast apps. Daniel Rosenberg, who runs a criminal defense practice in Fort Lauderdale, Florida, hosts it with fellow defense attorneys Michael Dye and Lloyd Golburgh. Its Legal Panel episodes explain trials "the way working defense lawyers see them", the show's site says.
-Komposite analysis: how one episode is packaged for machines. We counted the layers the show publishes around its audio, using its public catalogue, its episode pages and its podcast host.
-LayerWhat the show publishesWhat a machine can read
-Chapters95 of 98 catalogue entries, 1,338 markers, a median of 14 an episodeTimestamped titles, often naming the legal rule at issue
-Clip markupEpisode 94's page lists its 16 chapters as schema.org Clip objectsStart and end times a search engine can link to directly
-TranscriptsFull text on the Buzzsprout pages for episodes 84 and 94The lawyers' exact words, quotable and searchable
-Written explainers114 Two Taps News stories that link back to episodesA crawlable article for each case
-Clips and Shorts925 listed in the catalogueShort entry points that lead back to the full episode
-Google says creators can steer this. Its video guidance states: "We will prioritize key moments set by you, either through structured data or the YouTube description." Two Taps titles many of its chapters after the rule in dispute rather than the headline. On episode 94, about the search of Representative Ilhan Omar's home, the chapters cover probable cause, how far a warrant for phones reaches and grand jury subpoenas. On episode 84, about Luigi Mangione, they cover state versus federal charges and New York's double jeopardy rule. Someone searching for either rule can land on the minute where a lawyer explains it.
-The transcripts carry the reasoning verbatim. "Now, what I will say is to get a search warrant is not so easy, right?" Rosenberg says in the episode 94 transcript. "The standard is not the same as of a conviction. Conviction is beyond a reasonable doubt. The standard is probable cause for a search warrant, right?"
-Clips are the risky layer. A 60-second cut can reach people who will never sit through 48 minutes, and it can also lose the caveat. The chapters and transcripts work as the backstop, because each clip points back to a full episode where the argument is on the record. "People search for a case, not for a podcast. When someone looks up a trial, we want a defense lawyer's explanation to be what they find," Rosenberg said. "A headline can tell you someone was charged. It can't tell you whether the charge was brought the right way, and that is often where a case is won or lost," he added.
-The audience is there to be found. YouTube said in February 2025 that it had more than 1 billion monthly active viewers of podcast content. Rosenberg ends episodes with the creator's usual request to subscribe, because "it builds the channel, helps us more outreach, get more topics, get more guests". The show says nothing on it is legal advice. New full episodes usually arrive on Wednesdays, the show says, on its YouTube channel.
-Komposite has reported on companies paying to be named in AI search answers, and on agencies that build channels while the platforms still own the field.
-This feature was prepared in cooperation with Two Taps & Friends.

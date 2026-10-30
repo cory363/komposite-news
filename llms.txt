@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [Six billion dollars out of Binance's hot wallets](https://kompositenews.com/crypto/six-billion-dollars-out-of-binances-hot-wallets/): About $6.3bn was taken from Binance's hot wallets on Thursday, the biggest crypto theft on record. About $2.7bn is frozen; TRM blames North Korea.
+- [Data centres up 78 per cent, PCs down 12](https://kompositenews.com/markets/data-centres-up-78-per-cent-pcs-down-12/): Intel's data centre revenue rose 78% in Q3, but it guided Q4 revenue and margins lower on a PC slump and memory shortages. Shares fell about a fifth.
+- [One operator, two hundred targets](https://kompositenews.com/cybersecurity/one-operator-two-hundred-targets/): CrowdStrike says China-linked Vapor Panda used the ARTEX AI agent framework and DeepSeek against 200+ organisations in 11 days, breaching at least nine.
 - [Seventy-seven billion out, forty-two billion in](https://kompositenews.com/markets/seventy-seven-billion-out-forty-two-billion-in/): Amazon's Q3 capex of $77.3bn was 182% of its operating cash flow; it borrowed $48.1bn as AWS sales rose 39% to $46.0bn. Shares fell after hours.
 - [A preview pane that could read the whole disk](https://kompositenews.com/cybersecurity/a-preview-pane-that-could-read-the-whole-disk/): Researchers say browsers built into five AI coding tools broke basic security rules; Cursor and Copilot are fixed, Codex and VS Code unpatched.
 - [Mistral hands over a trillion parameters](https://kompositenews.com/ai/mistral-hands-over-a-trillion-parameters/): Mistral released the open weights of Mistral Large 4, a trillion-parameter model, under a modified MIT licence that requires a deal for hosted services.
 - [Forty-one billion raised, nine billion short](https://kompositenews.com/markets/forty-one-billion-raised-nine-billion-short/): Alphabet's free cash flow was minus $9.1bn in Q3 as capex hit $51.4bn; it raised $41.1bn in debt and stock. Microsoft's stayed positive at $18.6bn.
 - [Google's chips go to work in Oracle's cloud](https://kompositenews.com/ai/googles-chips-go-to-work-in-oracles-cloud/): Oracle will rent out Google's TPU AI chips in its cloud from 2027, and OpenAI reportedly plans to buy them, as Google's chips move beyond Google Cloud.
-- [Twenty-five thousand posts, and no number for AI](https://kompositenews.com/policy/twenty-five-thousand-posts-and-no-number-for-ai/): The Netherlands plans to cut 25,000 civil-service posts by 2035 to save €3.5bn a year, but its letter says not to overestimate AI and gives it no number.
-- [Thirty-seven and a half billion, with sixty to follow](https://kompositenews.com/markets/thirty-seven-and-a-half-billion-with-sixty-to-follow/): Meta priced $25bn of stock at $625 and $12.5bn of convertible preferred, and plans a $60bn share programme in 2027 as AI spending outruns its cash flow.
-- [AI gets the law wrong. A podcast bets on chapters](https://kompositenews.com/technology/ai-gets-the-law-wrong-a-podcast-bets-on-chapters/): AI assistants still garble legal detail. Two Taps and Friends, a defense lawyers' podcast, uses chapters, transcripts and clip markup to be found instead.
 
 ## About, standards and contact
 
