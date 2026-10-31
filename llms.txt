@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [A third off the round, a tenth off the price](https://kompositenews.com/markets/a-third-off-the-round-a-tenth-off-the-price/): OpenAI cut its round to about $20bn at a $1.25tn valuation, from $30bn at $1.4tn, the FT reported, as the Nasdaq fell 2.9% on Friday and 5.3% in October.
+- [Chainalysis reports its own intruder](https://kompositenews.com/cybersecurity/chainalysis-reports-its-own-intruder/): Chainalysis said an attacker using agentic techniques reached internal tools and customer names, emails and roles, but not investigation data or credentials.
+- [Offshore perps, an onshore operator](https://kompositenews.com/crypto/offshore-perps-an-onshore-operator/): ICE agreed to operate US-regulated versions of Trade[XYZ]'s Hyperliquid perpetual futures and take a minority stake, pending approval and with no date.
 - [A million fewer search visits a week](https://kompositenews.com/ai/a-million-fewer-search-visits-a-week/): Reddit said search referrals fell sharply as search turns to AI, warned daily users could drop in Q4 and guided below forecasts. Shares fell about 25%.
 - [Eighty-five per cent margins, and an eight-for-one split](https://kompositenews.com/markets/eighty-five-per-cent-margins-and-an-eight-for-one-split/): Sandisk's fiscal Q1 revenue rose 378% to $11.0bn at an 85% gross margin. It guided to $12.4bn and set an 8-for-1 stock split from 20 November.
 - [Six billion dollars out of Binance's hot wallets](https://kompositenews.com/crypto/six-billion-dollars-out-of-binances-hot-wallets/): About $6.3bn was taken from Binance's hot wallets on Thursday, the biggest crypto theft on record. About $2.7bn is frozen; TRM blames North Korea.
 - [Data centres up 78 per cent, PCs down 12](https://kompositenews.com/markets/data-centres-up-78-per-cent-pcs-down-12/): Intel's data centre revenue rose 78% in Q3, but it guided Q4 revenue and margins lower on a PC slump and memory shortages. Shares fell about a fifth.
 - [One operator, two hundred targets](https://kompositenews.com/cybersecurity/one-operator-two-hundred-targets/): CrowdStrike says China-linked Vapor Panda used the ARTEX AI agent framework and DeepSeek against 200+ organisations in 11 days, breaching at least nine.
-- [Seventy-seven billion out, forty-two billion in](https://kompositenews.com/markets/seventy-seven-billion-out-forty-two-billion-in/): Amazon's Q3 capex of $77.3bn was 182% of its operating cash flow; it borrowed $48.1bn as AWS sales rose 39% to $46.0bn. Shares fell after hours.
-- [A preview pane that could read the whole disk](https://kompositenews.com/cybersecurity/a-preview-pane-that-could-read-the-whole-disk/): Researchers say browsers built into five AI coding tools broke basic security rules; Cursor and Copilot are fixed, Codex and VS Code unpatched.
-- [Mistral hands over a trillion parameters](https://kompositenews.com/ai/mistral-hands-over-a-trillion-parameters/): Mistral released the open weights of Mistral Large 4, a trillion-parameter model, under a modified MIT licence that requires a deal for hosted services.
 
 ## About, standards and contact
 

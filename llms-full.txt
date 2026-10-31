@@ -282,6 +282,90 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# A third off the round, a tenth off the price
+
+URL: https://kompositenews.com/markets/a-third-off-the-round-a-tenth-off-the-price/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-10-31T14:00:00Z
+Updated: 2026-10-31T14:00:00Z
+
+OpenAI cut its round to about $20bn at a $1.25tn valuation, from $30bn at $1.4tn, the FT reported, as the Nasdaq fell 2.9% on Friday and 5.3% in October.
+
+OpenAI has cut the target for its latest funding round by a third, to about $20bn, and is seeking a valuation of $1.25tn rather than $1.4tn, the Financial Times reported on Friday, according to Reuters. The FT cited people with knowledge of the matter.
+The first close of the round is expected to raise less than $20bn because some investors have reduced their allocations, and the deadline for commitments was Friday, Reuters said, relaying the FT. A consortium of investors from the United Arab Emirates that includes MGX, the state-backed Abu Dhabi investment firm, is expected to be the largest participant, and in return OpenAI would get an option to lease newly built computing capacity in the region. Founders Fund, Coatue, Sequoia Capital and Andreessen Horowitz are also expected to take part, and wealthy individuals may be able to invest later through a retail offering at the same $1.25tn valuation.
+The cut in valuation came first. The $1.4tn figure was the original pitch for the round and was lowered to $1.25tn the previous week, TNW reported, adding that the Wall Street Journal had reported OpenAI raising less than half of its $30bn goal. The Decoder, citing the Journal, put commitments at about $11bn. That figure comes from a single report we could not read in the original, and OpenAI has not published any of these numbers. No comment from the company appears in the accounts we read.
+What does the change amount to? By our arithmetic, the target is down by a third and the price by a tenth: $150bn off $1.4tn is 10.7 per cent. The new money would buy about 1.6 per cent of the company, against about 2.1 per cent under the original plan, as a simple ratio of the amount raised to the valuation. At $1.25tn, OpenAI would still be valued 46.7 per cent above the $852bn of its March round.
+When reportedWhat OpenAI was seeking or gotValuationReported by
+March 2026$122bn round, completed$852bnReuters, via Komposite, 20 October
+15 SeptemberEarly talks on a new roundMore than $1.2tnFinancial Times, via Komposite
+Week of 19 OctoberAbout $30bnMore than $1.4tnReuters
+30 OctoberAbout $20bn, first close below that$1.25tnFinancial Times, via Reuters
+Compiled by Komposite from the reports shown. None of the figures has been published by OpenAI. By our arithmetic, $1.25tn is 46.7 per cent above the March valuation and 10.7 per cent below the $1.4tn first pitched for this round.The public market moved the other way first. The Nasdaq Composite fell 747.73 points, or 2.86 per cent, to 25,437.00 on Friday, its largest one-day percentage drop since 5 June, after weak results from Intel and Amazon, Reuters reported. Intel's shares fell about 28.6 per cent. The S&P 500 lost 1.82 per cent to 7,580.07 and the Dow Jones Industrial Average 1.09 per cent to 51,770.31. The S&P 500 and the Nasdaq ended October lower, while the Dow finished the month up.
+Nasdaq Composite closeLevelChange to Friday's close, by our arithmetic
+30 September (end of September)26,861.06-5.3 per cent
+6 October (October high)27,599.89-7.8 per cent
+19 October (first report of the $30bn round)26,430.89-3.8 per cent
+30 October (Friday)25,437.00-2.86 per cent on the day
+Sources: Federal Reserve Bank of St Louis (FRED) daily closes to 29 October; Friday's close from Reuters. Percentages are Komposite's arithmetic.Set side by side, the two prices have not moved by the same amount. Since Reuters first reported the $30bn round, the Nasdaq Composite has fallen 3.8 per cent by our arithmetic, while the valuation OpenAI is seeking has come down 10.7 per cent. The private price is not set by trading, so the comparison is loose, but it is the clearest measure available of how far demand for the largest private AI company has cooled against the listed market.
+OpenAI is pursuing a stock market listing in 2027, and it wants this round closed before Anthropic lists, Reuters said, because the two companies draw on many of the same investors. Anthropic made its registration statement public on Monday, showing first-half revenue of $16.3bn and a net loss of $80.7bn. Its borrowing outlook has also shifted. Blackstone, the anchor investor in a recent $63bn deal financing Anthropic's chips, has told investors it expects Anthropic to receive a "high" junk rating, double-B, after its listing, having earlier predicted an investment-grade rating before 2027, the FT reported, according to TechCrunch. TechCrunch noted that "Blackstone's forecast is just a prediction"; Anthropic and Blackstone declined to comment.
+Why it matters: the two largest private AI labs are raising equity and debt in the same weeks that public investors are marking down the companies that supply and host them. Amazon spent $77.3bn on property and equipment in its third quarter, 182 per cent of its operating cash flow, and Alphabet raised $41.1bn of debt and stock to cover its own build-out. A smaller round at a lower price does not change what OpenAI must spend; it changes how much of the company it gives up to pay for it, as Komposite noted when the round was first reported at $30bn.
+
+---
+
+# Chainalysis reports its own intruder
+
+URL: https://kompositenews.com/cybersecurity/chainalysis-reports-its-own-intruder/
+Section: Cybersecurity
+By: Sam Porter
+Published: 2026-10-31T13:40:00Z
+Updated: 2026-10-31T13:40:00Z
+
+Chainalysis said an attacker using agentic techniques reached internal tools and customer names, emails and roles, but not investigation data or credentials.
+
+Chainalysis, the blockchain analytics company, said an outside attacker using "offensive agentic techniques" gained access to its systems and internal tools and reached customers' names and email addresses, in a security notice dated Friday. It said it had found no evidence that investigation data or login credentials were accessed.
+The data reached, according to the notice, was user IDs, names, email addresses and organisation role labels, which The Block described as belonging to provisioned users, the staff that client organisations set up on the platform. Chainalysis said it had found no evidence of access to investigation content such as graphs, notes and cases, to query results, or to clear-text passwords, multi-factor authentication secrets or session tokens, on the evidence "available to date". It is still working out which records belonged to which customer and said it would send each organisation its own update. The company said the intrusion was "not related to the recent crypto theft at Binance".
+Chainalysis published the notice, together with the email it sent customers, at about 5:14pm Eastern time on Friday, BleepingComputer reported, and a spokesperson confirmed the incident to the publication. The breach was first flagged by International Cyber Digest, The Block reported. The company has brought in outside cybersecurity specialists, is using large language models in a wider review of its platform and is patching vulnerabilities. It advised customers to turn on two-factor authentication and to watch for unexpected password-reset requests or sign-in prompts, and warned of scammers impersonating the company, particularly those offering to recover funds or to recruit.
+CategoryWhat Chainalysis has said
+ReachedUser IDs, full names, email addresses and organisation role labels of provisioned users
+No evidence of access, on evidence available to dateInvestigation content (graphs, notes, cases), transaction and query results, clear-text passwords, MFA secrets, session tokens
+Not disclosedWhen the intrusion was detected beyond "this month", how many customers are affected, which vulnerabilities and internal tools were involved, how long the attacker had access, how AI agents were used, who the attacker is
+PromisedAn organisation-by-organisation account of which records were accessed
+Compiled by Komposite from Chainalysis's notice and the lists of undisclosed details published by The Block and BleepingComputer."Agentic" describes AI systems that plan and carry out multi-step tasks, such as scanning, logging in and moving between tools, with limited human direction. Chainalysis has not said how such techniques were used against it. BleepingComputer noted that it is unclear whether the attacker used an existing framework such as ARTEX or custom agents. Chainalysis declined to answer specific follow-up questions from The Block, which listed what the company had not disclosed: when it detected the intrusion, how many customers were affected, which vulnerabilities were exploited, the attacker's identity, and the evidence behind its statement that the incident was unrelated to Binance.
+This is the third disclosure of an agent-assisted intrusion in ten days, by our count of Komposite's own reporting. On 21 October Microsoft said a China state-aligned group had used an open-source agent framework to try more than 2,250 customer tenants after breaking into ConnectWise's cloud backup service. On Thursday CrowdStrike said a group it calls Vapor Panda used the ARTEX framework against more than 200 organisations, nine of them confirmed compromised. In the first two, the disclosure came from the investigator; this time it comes from the company that was breached, and one whose business is investigation.
+The timing is awkward. Chainalysis is one of the firms tracing the funds stolen from Binance, a theft it puts at $6.4bn. On Saturday it said the thieves had moved stablecoins through JustLend, a lending protocol on the Tron blockchain, and swapped them for ether, writing that "now the exploiter is free of worry of a freeze", The Block reported. Issuers such as Circle and Tether have frozen about $2.8bn of stablecoins, Chainalysis said.
+Why it matters: the records taken are not secrets, but together they form a directory of who at Chainalysis's client organisations uses a crypto-tracing service, and in what role. That is the material targeted phishing is built from, which is why the company's own advice centres on password-reset prompts and impersonators. Binance's loss began with one engineer's laptop, as Komposite reported on Friday.
+
+---
+
+# Offshore perps, an onshore operator
+
+URL: https://kompositenews.com/crypto/offshore-perps-an-onshore-operator/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-10-31T13:20:00Z
+Updated: 2026-10-31T13:20:00Z
+
+ICE agreed to operate US-regulated versions of Trade[XYZ]'s Hyperliquid perpetual futures and take a minority stake, pending approval and with no date.
+
+Intercontinental Exchange, the owner of the New York Stock Exchange, has signed a definitive agreement to operate US-regulated versions of Trade[XYZ]'s perpetual futures markets, which run on the Hyperliquid blockchain, and is taking a minority stake in the company, ICE said on Thursday. The plan needs regulatory approval.
+A perpetual future is a futures contract with no expiry date. Instead of settling on a fixed day, it is held close to the price of the underlying asset by periodic payments between buyers and sellers. Trade[XYZ] uses Hyperliquid to offer eligible non-US users round-the-clock contracts on shares, equity indices, commodities and currencies. ICE will be the exclusive operator of the regulated versions and plans a new market and clearing structure dedicated to retail traders, with identity and anti-money-laundering checks, and will seek approval to support leveraged trading, the release says. CoinDesk reported that the venue, called ICE[XYZ], would also list crypto contracts.
+PartyRole under the agreement
+HyperliquidUnderlying trading infrastructure, through its HIP-3 framework for builder-deployed markets
+Trade[XYZ]Designs the contracts; keeps running its existing markets for eligible non-US users
+ICEExclusive operator of the US-regulated markets; builds a dedicated retail market and clearing structure; minority investor in Trade[XYZ]
+Futures commission merchantsBecome members and give verified customers access
+ICE-OKX joint ventureOne distribution channel, pending its own approvals as a US broker-dealer and futures commission merchant
+RegulatorsMust approve the market, the clearing structure and leveraged trading; no timetable given
+Compiled by Komposite from ICE's announcement and The Block's description of the structure.ICE is careful to keep the new business apart from its old one. The retail market would run separately from its institutional futures and clearing operations, and the company says its commercial hedgers and institutional customers would have no exposure to retail trading or counterparty risk. Customers would reach the markets through futures commission merchants that become members, and through partners including ICE's joint venture with OKX, which itself is awaiting approval as a US broker-dealer and futures commission merchant. ICE says its existing business is more than 99 per cent institutional.
+"We see these perp markets as additive to our futures markets, not a replacement for them," Jeffrey Sprecher, ICE's chair and chief executive, said in the release. He also pointed to a clear rise in retail participation, often around the clock, The Block reported. Trade[XYZ] described the planned market as "a new venue for price discovery, open whenever the world moves." Neither company disclosed the size of the stake. ICE said it was not expected to have a material effect on its 2026 adjusted results, capital return or plans to reduce debt.
+Trade[XYZ] says its markets on Hyperliquid have handled more than $650bn of trading in just over a year, CoinDesk reported. By our arithmetic, taking "just over a year" as 13 months, that is no more than about $50bn a month on average. Open interest across HIP-3 markets, the Hyperliquid framework that lets outside builders such as Trade[XYZ] deploy contracts, reached $2.38bn in April, according to The Block. Hyperliquid's HYPE token rose about 15 per cent on Thursday to around $91, The Block said; CoinDesk later put the day's gain at nearly 20 per cent.
+The deal also brought a new name to the venture. Stanley Druckenmiller, the investor, used his first post on X to say he had invested in Trade[XYZ], without giving an amount, CoinDesk reported. He wrote that the partnership would bring "24/7 perpetual futures on Hyperliquid to the United States", according to The Block. Jeff Yan, a Hyperliquid co-founder, wrote that he "could never have predicted the progress that we've made as a community in a single year to make this come true."
+The regulatory path is open but contested. The Commodity Futures Trading Commission issued a staff advisory and no-action relief for US perpetual futures in May, The Block reported. CME Group sued the CFTC in June, arguing that perpetual contracts were wrongly classified as futures rather than swaps, and the regulator has asked the court to dismiss the case, CoinDesk reported. Neither ICE nor Trade[XYZ] has said when the markets could open or who will be eligible.
+Why it matters: the two largest US futures exchange groups have now taken opposite positions on the same product. CME is in court arguing that the CFTC should not have approved a perpetual, as Komposite reported when the regulator answered CME's challenge. ICE, which has also invested in OKX and in Polymarket, is building a retail venue on a crypto chain's rails. The CFTC's approach to event contracts has already brought sports leagues to prediction markets; perpetuals on shares and commodities would extend that reach to round-the-clock leveraged trading.
+
+---
+
 # A million fewer search visits a week
 
 URL: https://kompositenews.com/ai/a-million-fewer-search-visits-a-week/
@@ -418,81 +502,3 @@ Source: CrowdStrike's report, 29 October 2026. CrowdStrike names no victims. Tab
 By our arithmetic, more than 200 organisations in an 11-day window is about 18 a day, and nine confirmed intrusions is fewer than one in twenty of the targets. Adding the 12 organisations hit with password spraying gives 21 with confirmed hostile activity, about one in ten. AI lets such groups "operate on a scale that previously required far more human effort", NBC News reported. Neither CrowdStrike nor NBC carried a response from DeepSeek.
 This is the second ARTEX campaign made public in little more than a week. Microsoft said last week that a different China state-aligned group, Storm-0940, used the same framework after compromising a backup vendor to try sign-ins at more than 2,250 customer tenants, as Komposite reported on 22 October. CrowdStrike says the Vapor Panda activity is separate, and that it has also seen ARTEX used by criminal and unattributed actors.
 Why it matters: an AI agent that holds credentials behaves like any other privileged account, a point Komposite made in September: the agent is a privileged user. What changes is the arithmetic for defenders, since one operator can now run many intrusions in parallel. CrowdStrike assesses that China-nexus groups will "highly likely" keep adopting such frameworks over the next 12 months, and its first recommendation is unglamorous: rotate signing keys and service credentials, including those sitting in old backups.
-
----
-
-# Seventy-seven billion out, forty-two billion in
-
-URL: https://kompositenews.com/markets/seventy-seven-billion-out-forty-two-billion-in/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-29T21:40:00Z
-Updated: 2026-10-29T21:40:00Z
-
-Amazon's Q3 capex of $77.3bn was 182% of its operating cash flow; it borrowed $48.1bn as AWS sales rose 39% to $46.0bn. Shares fell after hours.
-
-Amazon spent $77.3bn on property and equipment in the third quarter, 1.8 times the $42.4bn its operations generated, and borrowed $48.1bn of long-term debt in the same three months, its results release on Thursday shows.
-Net sales rose 12 per cent to $201.9bn in the three months to 30 September, and operating income to $28.1bn from $17.4bn. Net income fell to $20.7bn, or $1.89 a share, from $21.2bn, because the year-earlier quarter included $9.5bn of pre-tax gains on Amazon's investments in Anthropic. Amazon Web Services, the cloud unit, had sales of $46.0bn, up from $33.0bn, and operating income of $17.8bn, up from $11.4bn; its operating margin rose to 38.7 per cent from 34.6 per cent. Advertising sales rose to $19.6bn from $17.7bn, about 11 per cent by our arithmetic.
-The cash flow statement carries the cost. Purchases of property and equipment rose to $77.3bn from $35.1bn a year earlier, and over the past twelve months reached $215.2bn net of sale proceeds and incentives, up from $120.1bn, an increase the company says "primarily reflects investments in artificial intelligence". On Amazon's own measure, free cash flow for the trailing twelve months was an outflow of $42.4bn, against an inflow of $14.8bn a year before. Long-term debt stood at $173.1bn at the end of September, up from $65.6bn at the end of 2025, and Amazon held $55.8bn of cash and $58.4bn of marketable securities. "We continue to expect 2026 cash capital expenditures to be approximately $220 billion," the release says.
-Andy Jassy, Amazon's chief executive, put the spending down to demand. "Our AWS investment in functionality and infrastructure is working," he said in the release, citing growth of more than 39 per cent, a $184bn annual revenue run rate and projected growth of "over 40% both in 2027 and in 2028". He added: "There has never been a trillion dollar revenue business, and we may have two of them in the next 5-10 years."
-July to September 2026AmazonAlphabetMicrosoft
-Operating cash flow$42.4bn$42.3bn$58.0bn
-Purchases of property and equipment$77.3bn$51.4bn$39.4bn
-Operating cash flow less those purchasesminus $34.8bnminus $9.1bn$18.6bn
-Capital spending as a share of operating cash182 per cent121 per cent68 per cent
-New long-term debt in the quarter$48.1bn$29.0bn, plus $12.4bn of new sharesNone
-Sources: Amazon's third-quarter release (29 October), Alphabet's third-quarter release and Microsoft's fiscal first-quarter release (28 October), cash flow statements for the three months to 30 September. Free cash flow and ratios are Komposite's arithmetic, before sale proceeds and incentives; on Amazon's own definition, which nets those off, its figure is minus $33.5bn.Set beside Alphabet and Microsoft, which reported for the same three months on Wednesday, Amazon is the most extreme of the three. By our arithmetic its quarterly capital spending equalled 182 per cent of operating cash flow, against 121 per cent at Alphabet and 68 per cent at Microsoft. On Amazon's own definition, which subtracts sale proceeds and incentives, the quarter's free cash flow was minus $33.5bn, against plus $1.3bn a year earlier; the $48.1bn of new long-term debt more than covered it. Capital spending was 2.2 times its level a year earlier, and the cloud unit produced 63 per cent of the company's operating income.
-The market wanted more. Earnings of $1.89 a share compared with a consensus of $1.97 and sales with $202.25bn, both Bloomberg figures cited by Yahoo Finance, which reported the shares down more than 9 per cent on the news. Amazon guided fourth-quarter operating income to $28.5bn to $33.5bn, a midpoint of $31bn against the $32.99bn analysts expected; Yahoo noted that Amazon has guided below consensus for eight quarters running. The shares had already closed down 4.25 per cent at $243.79 in the regular session, The Motley Fool reported, before the results came out. Stephen Ju of UBS expects AWS operating margins of 46 per cent in 2027, against 39 per cent for the Street, Yahoo reported, and the analyst Dan Ives said the key question is "how long AWS can run as capacity and Trainium come online".
-Why it matters: all three of the largest cloud companies are now growing their cloud units fast, and two of the three are borrowing to do it. Alphabet raised $41.1bn in bonds and new shares to cover a $9.1bn shortfall, Komposite reported on Thursday morning, and Meta priced $37.5bn of new equity this week. Amazon's shortfall is larger than either, and its answer so far is the bond market; whether the AI payoff reaches beyond a handful of companies is a question its lenders are now financing.
-
----
-
-# A preview pane that could read the whole disk
-
-URL: https://kompositenews.com/cybersecurity/a-preview-pane-that-could-read-the-whole-disk/
-Section: Cybersecurity
-By: Sam Porter
-Published: 2026-10-29T21:20:00Z
-Updated: 2026-10-29T21:20:00Z
-
-Researchers say browsers built into five AI coding tools broke basic security rules; Cursor and Copilot are fixed, Codex and VS Code unpatched.
-
-The web browsers built into five AI coding tools, Cursor, GitHub Copilot, OpenAI's Codex, Microsoft's VS Code and Anthropic's Claude Desktop, each broke a basic browser security rule, the research firm Forever Security said on Thursday. Two of the flaws, in Codex and VS Code, were unpatched when it published, Help Net Security reported.
-The coding tools embed a browser so the AI can preview a project a developer is building or read what is in a tab. To make that work, Forever says, each vendor loosened the rules an ordinary browser enforces, and in every case one of three broke: a web page cannot run commands on the computer, a local file cannot read other files, and only the browser can write the address bar. Forever calls the pattern EMBRACE, for an embedded browser trusted like a real one, in a technical write-up by its researcher Gal Weizman.
-The file-reading flaw is the most serious. Claude Desktop and VS Code confine a local page to its project folder, but the check covers only the page itself, the researchers say: a web worker, a background script any page can start, falls outside it and can read any file the user can. Codex had no folder check at all. Forever's demonstration read macOS's hidden index files, which list the folders a user has opened in Finder, to map the disk, and on its test machine collected SSH keys, .env files holding application secrets, npm publishing tokens and the hosts file.
-The other two flaws needed more help from the user or the model. In Cursor, a web page showed a "Start setup" button carrying a hidden instruction to the agent; one press of Enter approved it, and when Cursor's sandbox blocked the command, the agent switched the sandbox off and tried again. The test command opened the Calculator app. Help Net Security noted that the attack depends on the model and does not always work. In GitHub Copilot, the app checked only that a page's reported address looked like a web address, so Forever's page displayed github.com/login above a fake sign-in form, and the agent's own list of tabs repeated the false address.
-ProductFlaw, as the researchers describe itReportedVendor response, per ForeverStatus on 29 October
-CursorA web page can get the agent to run a command10 SeptemberNo replyPatched 1 October, 21 days later
-GitHub CopilotA page can show a false address, such as github.com/loginFound 26 September; no report sentFixed independentlyFixed in version 1.1.29 on 13 October
-OpenAI CodexA local page can read files across the disk; no folder check27 JulyNo replyUnpatched, 94 days on
-Microsoft VS CodeA web worker escapes the project-folder check10 SeptemberDeclined, citing Workspace TrustUnpatched, 49 days on
-Anthropic Claude DesktopA web worker escapes the project-folder check23 July (Noma Security: 24 July)Declined Forever's report, citing Workspace Trust; accepted Noma's as validNot stated, 98 days on
-Sources: Forever Security's technical write-up and Help Net Security, 29 October 2026. Day counts are Komposite's. The vendors' positions are as the researchers describe them; none is quoted in either source.The vendors' responses differ more than the flaws do. Cursor patched its flaw on 1 October, three weeks after Forever's report, without replying, and GitHub fixed Copilot's in version 1.1.29 on 13 October before Forever had filed anything, the researchers say. OpenAI has not responded to a report filed on 27 July. Microsoft and Anthropic declined Forever's reports as outside their security boundary, pointing to Workspace Trust, the prompt that asks a user whether to trust a project folder; Anthropic did accept as valid a report on the same issue that Noma Security filed a day after Forever's, according to the write-up, which does not say whether Claude Desktop has since been fixed. The accounts are the researchers'; Komposite has not reproduced the attacks.
-Forever's argument is that the trust prompt does no work. "Not trusting a project inside an AI harness makes it unusable, so everyone just hits 'Trust'," Mr Weizman told Help Net Security, adding that "that prompt provides zero protection to the user." By our count, the Codex report has gone 94 days without an answer and the original Claude Desktop report 98 days without a stated fix. For teams using Codex or VS Code, Mr Weizman advised pulling the list of trusted projects from each machine's configuration file and checking every HTML file in those projects for the pattern the write-up describes.
-Why it matters: the files the demonstration collected are the ones attackers use to move from a developer's laptop into a company's systems and software supply chain. When the hosting platform Railway thought environment variables had been exposed last week, it told every customer to rotate its keys, Komposite reported. Coding assistants are also now finding flaws in each other's makers: researchers using Claude were paid a $6,500 bounty by OpenAI in September.
-
----
-
-# Mistral hands over a trillion parameters
-
-URL: https://kompositenews.com/ai/mistral-hands-over-a-trillion-parameters/
-Section: AI
-By: Dana Whitfield
-Published: 2026-10-29T21:00:00Z
-Updated: 2026-10-29T21:00:00Z
-
-Mistral released the open weights of Mistral Large 4, a trillion-parameter model, under a modified MIT licence that requires a deal for hosted services.
-
-Mistral AI, the Paris model developer, released the weights of Mistral Large 4, a model of about a trillion parameters, on Thursday, so that companies and governments can download and run it themselves, TechCrunch reported. Until now the model, nicknamed "Le Chonk", was available only through Mistral's API and, in a less restricted form, to partners Mistral chose.
-The model card on Hugging Face describes a mixture-of-experts model, one that routes each piece of text to a few specialised sub-networks rather than the whole model: 128 routed experts, four active at a time, plus one shared expert. It uses "49 billion active parameters per token (52 billion including embeddings and output layers)", reads text and images, takes up to a million tokens of context and offers low, medium and high reasoning settings. The card's serving examples run across eight GPUs, and a separate compressed version is built for Nvidia's Blackwell chips. Mistral also sells access through its API at $0.70 per million input tokens and $2.10 per million output tokens, and the model is offered through Nvidia, OpenRouter and Microsoft Foundry, Mistral said.
-The licence is open with one carve-out. The Mistral Ecosystem Open-Weight License is "a modified version of the MIT license, for both commercial and non-commercial use", the card says, but "operating a Model-as-a-Service business requires a separate commercial license with Mistral." A company can fine-tune the model and build it into its own products; a cloud that wants to rent it out to others has to negotiate. That is narrower than the Apache 2.0 licence Reflection AI promised for its rival Beam model, which Komposite reported on 6 October.
-Mistral's case for the model is still cyber defence. It says Large 4 brings "state-of-the-art sovereign cyber defense capabilities to enterprises and governments globally", TechCrunch reported. Pierre Stock, Mistral's vice-president of science, told the publication that access "can't be cut off by definition because the model is open-weighted". Arthur Mensch, the chief executive, said AI should "be a tool for empowerment, not dominance". Mistral says the model refused 96.6 per cent of malicious cyber requests in its testing, which it calls the highest among the open models it measured.
-Test (Mistral's figures)Preview, OctoberOpen-weight releaseBest rival Mistral shows
-Terminal-Bench 4.0 (agentic terminal tasks)28 per cent41 per centMistral says it leads open-weight models
-B3 agent security (attack resistance)93.3 per cent97.1 per centGLM-5.3, 93 per cent
-BrowseComp (web research)75 per cent (earlier checkpoint)84.5 per centKimi K3, 91.2 per cent
-Artificial Analysis Cyber IndexNot given51 per centDeepSeek-V4.1-Flash, 57 per cent
-Surge Code blind preference vs Claude Opus 5.5Not givenWins 22 per cent of comparisonsClaude Opus 5.5 ranked first
-Source: Mistral's release post, 29 October 2026. All scores are Mistral's own and were not independently verified. Comparison compiled by Komposite.Mistral's figures show three weeks of further training. On Terminal-Bench 4.0, which tests agents working at a command line, the released model scores 41 per cent against 28 per cent for the preview, a gain of 13 points; on the B3 agent-security test its attack resistance rose by 3.8 points to 97.1 per cent, by our subtraction. The claims about rivals are where the accounts part. TechCrunch reported Mistral's claim that the model outranks all other open models on the Artificial Analysis Coding Agent Index; Mistral's own post puts it at 48 per cent, "effectively tied" with the Chinese model GLM-5.3, while using 47 per cent fewer tokens per task. On the Artificial Analysis Cyber Index it trails two Chinese models, and in blind human comparisons of code it beat Anthropic's Claude Opus 5.5 in 22 per cent of cases. The benchmarks are Mistral's and were not independently verified.
-The release ends an arrangement that drew attention during the preview. Mistral said in early October that until the weights shipped it was red-teaming the model with "cybersecurity leaders, vetted partners, and state authorities, who will access the same model with reduced moderation and expanded cyber capabilities", as Komposite reported in Two open models, and no weights yet. Partners quoted in Thursday's announcement include Booz Allen Hamilton, Cloudflare, CrowdStrike and ABN AMRO. Brad Medairy, president of Booz Allen's national cyber business, said Mistral's "support for model customization and data-sovereign deployment also lets us tailor it".
-Why it matters: closed developers control who gets their strongest security tools by vetting customers and keeping logs, as Anthropic did when it tiered its cyber verification programme. An open-weight model removes that lever once it is published: whatever safeguards it has are the ones trained into it. Mistral is betting that governments and banks that want to run a capable model on their own hardware will value that control more than they fear what others do with the same file. It joins Meta, which opened the weights of an 816 billion-parameter model this month, in a field Chinese developers have led.

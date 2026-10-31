@@ -3220,5 +3220,32 @@
   "alt": "A Reddit sign-up screen headed Create an account to continue, with buttons to continue with Google, Apple or email",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Reddit_account_registration_options_(%27Create_an_account_to_continue%27)_2020.png\" rel=\"noopener\">Reddit, Inc.</a>, public domain, via Wikimedia Commons",
   "creditLine": "Screenshot via Wikimedia Commons"
+ },
+ "markets/a-third-off-the-round-a-tenth-off-the-price": {
+  "id": "commons:1515_Third_Street.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1280px-1515_Third_Street.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "A glass office building with bronze vertical fins on a street corner in San Francisco's Mission Bay, with palm trees and traffic lights in front, under a clear blue sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg\" rel=\"noopener\">Coolcaesar</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/chainalysis-reports-its-own-intruder": {
+  "id": "commons:Homepage_of_CHAINALYSIS_Website_magnified_on_logo_with_magnifying_glass_(53146955436).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Homepage_of_CHAINALYSIS_Website_magnified_on_logo_with_magnifying_glass_%2853146955436%29.jpg/1280px-Homepage_of_CHAINALYSIS_Website_magnified_on_logo_with_magnifying_glass_%2853146955436%29.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "A magnifying glass held over a computer screen, enlarging the orange Chainalysis logo and the chainalysis.com address bar on the company's website",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Homepage_of_CHAINALYSIS_Website_magnified_on_logo_with_magnifying_glass_(53146955436).jpg\" rel=\"noopener\">Jernej Furman</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/offshore-perps-an-onshore-operator": {
+  "id": "local:commons-LIFFE_Trader_Statue,_Dowgate_Hill_(01)",
+  "url": "/assets/img/stories/liffe-trader-statue-dowgate-hill.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "A bronze statue of a young futures trader in a jacket and tie, holding a phone to his ear, on a stone plinth on a City of London pavement",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:LIFFE_Trader_Statue,_Dowgate_Hill_(01).jpg\" rel=\"noopener\">Doyle of London</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons (cropped)",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
