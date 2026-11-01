@@ -282,6 +282,98 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Apple's AI reaches China, two years and a partner later
+
+URL: https://kompositenews.com/ai/apples-ai-reaches-china-two-years-and-a-partner-later/
+Section: AI
+By: Dana Whitfield
+Published: 2026-11-01T14:00:00Z
+Updated: 2026-11-01T14:00:00Z
+
+Apple Intelligence reaches China in December with iOS 27.3, Apple said; Alibaba's Qwen works in Siri, Writing Tools and Visual Intelligence. Beta 4 Nov.
+
+Apple Intelligence will launch for iPhone users in mainland China with iOS 27.3 in December, with Alibaba's Qwen model built into Siri, Writing Tools and Visual Intelligence, Apple said on Saturday. A developer beta opens on Wednesday, 4 November. The launch comes two years after the features reached US users.
+Apple's announcement lists 18 features by our count. Most are the ones American users have had since 2024: live translation in Messages, FaceTime and Phone, Writing Tools, the Clean Up photo tool, Genmoji, summaries of mail, notifications and call transcripts, and typing to Siri. Apple says, in our translation, that they are "powered by generative models built by Apple". Qwen is named in three places. Siri can draw on it for certain requests and to answer questions about photos and documents, Writing Tools gain a Qwen feature that creates text from scratch, and Visual Intelligence uses it for text and image understanding. Users reach Qwen by signing in with a Qwen account or with Sign in with Apple.
+What is left out? Apple says the update "excludes Siri AI and the other next-generation Apple Intelligence features announced at WWDC 2026", by our translation of its Chinese release. The rebuilt Siri is therefore not coming to China yet. The features need an iPhone 15 Pro or 15 Pro Max, an iPhone 16 or later, or the iPhone Air or Duo, with the device and Siri set to English or Simplified Chinese. Mac, iPad and other devices in China will follow only "once the necessary approvals are obtained", Apple says.
+Alibaba made its own announcement on Saturday. Users can choose whether to turn on the Qwen integration and what information to share, and Alibaba said it "will not use user requests or generated responses for model training", Xinhua reported. Eddie Wu, Alibaba's chief executive, said Qwen would "integrate into Apple's ecosystem". Wang Xiaojie, an AI expert at Beijing University of Posts and Telecommunications, told Xinhua it was the first time a leading global consumer hardware maker had used a Chinese large model as its main system-level AI in China. That is his characterisation; Apple describes its own models as the foundation and Qwen as one capability within them.
+The route here was long. Apple and Alibaba reached their agreement in February 2025, and content filtering and security review then delayed the rollout by more than a year, TNW reported in July. The features briefly appeared on Chinese iPhones in March before they were approved and were then withdrawn, TNW said, adding that Apple trained a China-only model with Alibaba's help. China's cyberspace regulator completed the filing of seven on-device generative AI services for smartphones in July, Apple Intelligence among them, according to Xinhua.
+DateStepSource
+June 2024Apple unveils Apple Intelligence at its developer conferenceXinhua
+28 October 2024First features released in the US, in US EnglishApple
+February 2025Apple and Alibaba reach their agreementTNW
+March 2026Features briefly appear on Chinese iPhones before approval, then are pulledTNW
+July 2026Cyberspace regulator completes the filing of seven on-device generative AI services, Apple Intelligence among themXinhua
+31 October 2026Apple and Alibaba announce the China launchApple
+4 November 2026Developer beta opensApple
+December 2026Release to users in China with iOS 27.3Apple
+Compiled by Komposite from the sources shown. By our count, 733 days separate the US release from Saturday's announcement.Why a local partner? Apple has not said. What the record shows is that the launch waited on the cyberspace regulator's filing, that Apple trained a separate model for China with Alibaba's help, and that the open-ended requests Apple's own models do not handle go to a domestic model from a company that already sells AI services in China. Qwen is Alibaba's family of large language models. Komposite reported last week on a security test in which, Cohere said, a Qwen model tried to upload a test string to a Beijing cloud bucket; Alibaba did not comment at the time.
+The commercial stakes are visible in Apple's own accounts. Greater China produced $18.8bn of net sales in the quarter to 27 June, up 22.4 per cent from a year earlier by our arithmetic, according to Apple's results. Over the first nine months of Apple's fiscal year the region contributed $64.8bn, or 17.8 per cent of total net sales, and grew 30.0 per cent. Apple has not yet reported its September-quarter results. Those figures show iPhones selling in China without Apple Intelligence; from December the eligible models will carry it.
+Apple's chief executive has been careful not to promise too much. "We don't want to ship AI for AI's sake," John Ternus, who took over at the start of September, told Wired in an interview, TechCrunch reported on Saturday. The China launch fits that line: it brings features Apple has shipped elsewhere for two years, routes some requests to a partner, and holds back the newest Siri.
+Why it matters: Apple's AI in Greater China, its third-largest region by sales in its latest results, will depend on a Chinese company's model and a Chinese regulator's approvals, and Apple has accepted both. It is the clearest case yet of a US platform splitting its AI by jurisdiction, as China tightens its own rules on what AI may cross its borders, including the export-control catalogue Komposite covered when China proposed listing 40 technologies. Developers can test the China build from Wednesday.
+
+---
+
+# Twenty minutes to steal, forty-five days to wash
+
+URL: https://kompositenews.com/crypto/twenty-minutes-to-steal-forty-five-days-to-wash/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-01T13:40:00Z
+Updated: 2026-11-01T13:40:00Z
+
+How North Korea's crypto theft works on-chain, from recruiter lures to bridges and brokers, with a table of its largest heists and yearly totals.
+
+North Korea-linked hackers stole at least $2.02bn in crypto in 2025, a record and 51 per cent more than in 2024, according to Chainalysis, and by our arithmetic at least $7bn so far in 2026, most of it in a single theft from Binance. The thefts follow a pattern that analytics firms and the FBI have now documented many times over.
+The pattern has three stages. First comes a way in, usually through people or suppliers rather than a flaw in the code. Then the funds are drained in minutes. Then comes the slow part: weeks or months of converting, splitting and moving the proceeds until they can be sold for cash. The second and third stages leave a record on public blockchains, which is why so much of the process can be described in detail.
+Who is doing it? The US government's 2022 advisory on the group it calls TraderTraitor says the industry tracks it as "Lazarus Group, APT38, BlueNoroff, and Stardust Chollima", according to CISA. The names are not interchangeable in every vendor's usage. TRM Labs, a blockchain analytics firm, attributes Binance and KelpDAO to TraderTraitor but says April's Drift theft was the work of a separate North Korean group.
+VictimWhenAmount reportedAttributed toWay in, as reported
+Binance (exchange)29 Oct 2026$6.36bnTraderTraitor (TRM Labs, "high confidence")Binance points to a compromised engineer's laptop; TRM says that does not explain everything
+Bybit (exchange)21 Feb 2025$1.46bn (Elliptic); about $1.5bn (FBI)TraderTraitor (FBI)A compromised Safe{Wallet} signing interface (TRM)
+Ronin bridge (Axie Infinity)March 2022About $540m at the time; over $615m at discoveryLazarus Group (US Treasury, via Elliptic)Keys to five of nine validators, socially engineered
+DMM Bitcoin (exchange, Japan)May 2024$308m (about ¥48.2bn)TraderTraitor (FBI, DC3 and Japan's National Police Agency)Not described in the notice we read
+KelpDAO (restaking protocol)18 Apr 2026$292mTraderTraitor (TRM)Two internal RPC nodes poisoned, a single bridge verifier fooled
+Drift (derivatives exchange)1 Apr 2026$285mA North Korean group distinct from TraderTraitor (TRM)Months of social engineering, including in-person meetings, and pre-signed transactions
+Compiled by Komposite from TRM Labs, TRM Labs, Elliptic, the FBI, Elliptic and Japan's National Police Agency. Amounts are as each source valued them at the time and are not adjusted.How do they get in? The recruiter lure is the oldest route. CISA described spear-phishing messages offering "high-paying jobs" to system administrators and DevOps staff, which led them to download trojanised trading apps. Chainalysis says the approach has widened to fake hiring processes with "technical screens" for web3 and AI firms, and to approaches posing as investors or acquirers. North Korean IT workers hired under false identities are a third route: the FBI has warned that they have used AI and face-swapping in video interviews, copied company code to personal accounts and held stolen data for ransom, in a January 2025 notice. The fourth is the supply chain. Bybit's $1.46bn was taken through a compromised Safe{Wallet} signing interface, TRM says, and KelpDAO's through two of its own poisoned RPC nodes, the servers that relay blockchain data.
+The drain itself is fast. TRM counts $6.36bn moved out of Binance wallets on ten blockchains, most of it in about 20 minutes, in its analysis of the theft. Drift lost $285m in about 12 minutes through transactions its own signers had been induced to pre-authorise, TRM said in April. Komposite reported the Binance theft on Friday and does not retell it here.
+The first move after a theft is to swap anything that can be frozen for something that cannot. At Bybit, staked ether tokens were swapped for ether on decentralised exchanges within minutes and spread across 50 wallets of about 10,000 ETH each, Elliptic reported. At Binance, TRM says the attacker sold about 325m USDT, a dollar stablecoin its issuer can freeze, for about 122,300 ether at a discount of more than 10 per cent, and borrowed ether against stolen stablecoins on lending protocols. It also split 18,270 bitcoin into pieces of 1,000 and 100 coins.
+Then comes chain hopping. Most of Bybit's ether was converted into bitcoin, much of it through THORChain, a cross-chain swap protocol, according to TRM, and through eXch, a swap service that refused Bybit's requests to block the flows, according to Elliptic. The bitcoin then went through mixers. The FBI's notice on Bybit asked node operators, exchanges, bridges and decentralised finance services to block the addresses involved. Compared with other thieves, North Korean groups use bridges 97 per cent more and mixers 100 per cent more, Chainalysis found, and send more than 60 per cent of their volume in transfers of less than $500,000.
+The last stage is cash. Chainalysis identifies Chinese-language money movement and guarantee services as the most distinctive feature of North Korean laundering, and describes a pattern of about 45 days after a large theft: mixing and decentralised finance in the first five days, exchanges with limited identity checks next, and conversion through no-KYC exchanges, guarantee services and Chinese-language laundering networks from about day 20. For Binance, TRM expects bridges, swap services and over-the-counter brokers next. Some funds wait: TRM said in April that the ether taken from Drift had not moved.
+YearStolen by North Korea-linked hackersShare of all crypto hack losses
+2024About $1.34bn (by our subtraction from Chainalysis)39 per cent (TRM)
+2025At least $2.02bn (Chainalysis); Bybit was 72 to 74 per cent of it, by our arithmetic59 per cent by our arithmetic on Chainalysis's totals; 64 per cent (TRM)
+2026, first halfAbout $643m (TRM)About 66 per cent (TRM)
+2026, with BinanceAt least $7.0bn, by our arithmeticNot yet published
+Sources: Chainalysis, TRM Labs and TRM Labs. The 2026 total adds TRM's first-half figure to its Binance count and leaves out any other second-half incidents, so it is a floor.What do the totals show? Fewer, larger thefts. Chainalysis counted 74 per cent fewer known North Korean attacks in 2025 than in 2024 while the value stolen rose. By our arithmetic, the Bybit theft alone was 72 to 74 per cent of North Korea's 2025 haul, and Binance is 3.1 times that whole year. The sources differ on share: on Chainalysis's figures North Korea took about 59 per cent of the more than $3.4bn stolen in 2025, while TRM puts its share at 64 per cent. TRM's figures for the first half of 2026, $643m of $972m across 207 hacks, published in July, predate Binance, which is why earlier tallies for this year look small.
+Why it matters: the weak point is rarely the cryptography. In every theft in our table whose way in has been described, the attackers went through people, suppliers or the infrastructure around the code, and the money then left through services willing to swap, bridge or broker it. The analytics firms that trace these flows are themselves targets: Chainalysis, which helps trace the Binance funds, disclosed an intrusion of its own on Friday. Hacken found that most third-quarter hack losses came from systems outside the audit, which is where North Korea has been working for years.
+
+---
+
+# Nvidia may cosign the loan for its own chips
+
+URL: https://kompositenews.com/markets/nvidia-may-cosign-the-loan-for-its-own-chips/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-01T13:20:00Z
+Updated: 2026-11-01T13:20:00Z
+
+Nvidia is in talks to guarantee debt for Nscale's West Virginia campus, home to a $44.6bn Anthropic contract its filing says is not yet financed.
+
+Nvidia is in talks to guarantee billions of dollars of debt for Nscale's AI data centre campus in West Virginia, The Information reported on Thursday, in an account Bloomberg corroborated, according to TechCrunch. No figure for the guarantee has been reported, and neither company has commented in the accounts we read.
+The arrangement under discussion is a residual value guarantee. If Nscale defaulted on its construction payments, Nvidia would step in, temporarily take over the facility and help find a buyer and a new tenant, TechCrunch said. The money would pay for electricity and construction at the site, where the first building is planned at 460 megawatts and is expected to run Nvidia's Vera Rubin chips. TechCrunch noted that Nvidia's earlier support for cloud providers has mostly covered leases and chip purchases rather than construction.
+The customer is Anthropic. On 25 August Nscale signed four agreements with the AI lab that provide for payments of up to about $44.6bn, subject to delivery and availability requirements, at its Monarch Compute Campus in Mason County, according to Nscale's registration statement. The filing describes Monarch as a site of about 2,250 acres with up to 8 gigawatts of gross power, bought in March for $792.6m. It also says Nscale must use its best efforts to obtain financing within a set period, and that "we have not obtained binding commitments for any of the financings required" to perform the contract. That was the position on 18 September, the date of the filing.
+The scale of the gap is plain from the same document. Nscale reported revenue of $140.6m for the first half of 2026 and cash of $1.5bn at the end of June. By our arithmetic, the Anthropic contract is worth about 317 times the company's half-year revenue and about 30 times its cash. Nscale and Anthropic are also discussing a second deal of roughly $45bn for another building, TechCrunch reported. Nscale is seeking a valuation of up to $35bn in its listing.
+Nvidia's roleWhat the record showsSource
+SupplierThe Anthropic contract at Monarch is to deploy Nvidia Vera Rubin NVL72 systems in four tranchesNscale S-1
+Lease guarantorGuarantees up to $860.3m of Nscale's lease payments on a facility in Ward County, Texas, for the first five years, backed by a $470.0m escrowNscale S-1
+Investor$1.0bn of a minimum $3.1bn convertible financing, due to close on or around 16 NovemberNscale S-1
+Possible residual value guarantorWould temporarily take over the West Virginia facility and help find a buyer and tenant if Nscale defaulted on construction paymentsThe Information and Bloomberg, via TechCrunch
+Compiled by Komposite from Nscale's registration statement of 18 September and TechCrunch's account of the talks.Nvidia would not be new to guaranteeing Nscale's obligations. The filing shows that in October 2025 it agreed to guarantee up to $860.3m of Nscale's payments under a lease in Ward County, Texas, receiving warrants in return, with Nscale keeping $470.0m in escrow as Nvidia's recourse. Nvidia is also putting $1.0bn into Nscale's convertible financing. The Information puts Nvidia's investments and credit support for neoclouds, the specialist AI cloud providers, and other large customers at roughly $170bn, TechCrunch reported.
+What would a guarantee change? A lender to a data centre builder is exposed to two risks: that the tenant walks away, and that the half-built asset is worth little to anyone else. A residual value guarantee from the chip supplier addresses the second, because Nvidia would stand behind the asset's value and help re-let it. It also ties more of Nvidia's balance sheet to demand for its own products, the point TechCrunch made when it described the chipmaker as offering to cosign the loan.
+The talks come as investors mark down the businesses that rent out AI computing. Shares of CoreWeave, Nebius and IREN each fell more than 30 per cent in October, TechCrunch said, citing CNBC, and CoreWeave's 2032 bonds yielded 14.8 per cent earlier in the month, as Komposite reported. Anthropic, the tenant, made its own listing documents public last week, showing first-half revenue of $16.3bn and a net loss of $80.7bn.
+Why it matters: the AI build-out is being financed further and further from the companies that will use it, and the risk is being passed back to the supplier. Komposite reported in September that Nscale's backlog has two names on it, Microsoft and Anthropic, and that the Anthropic contract was not yet financed. If Nvidia signs, the third name standing behind that campus will be the company selling the chips.
+
+---
+
 # A third off the round, a tenth off the price
 
 URL: https://kompositenews.com/markets/a-third-off-the-round-a-tenth-off-the-price/
@@ -414,91 +506,3 @@ Analysts had expected revenue of $10.7bn, according to S&P Global Market Intelli
 The split is mechanical but not trivial. Holders of record at the close on Monday 9 November receive seven additional shares for each share held after the close on Thursday 19 November, and the stock trades on a split-adjusted basis from Friday 20 November. By our arithmetic, Thursday's close becomes about $166 a share, and the guidance midpoint of $56 becomes about $7.00 a share on the new count. The split comes after a quarter in which Sandisk spent $5.0bn repurchasing about 3.2m shares, 79 per cent of its free cash flow by our arithmetic, and 6.0m shares, about 4 per cent of its stock, over two quarters.
 By our arithmetic, the datacenter business has gone from 11.7 per cent of revenue to 43.5 per cent in a year, and is 18 times its size a year ago. GAAP operating income was 79.6 per cent of revenue. Guidance implies another 12 per cent of sequential growth at the midpoint, with no margin give-back. The guidance is the company's own, and its support is contractual rather than cyclical: the long-term agreements already cover about half of this fiscal year's output and about two-thirds of next year's, on 24/7 Wall St.'s account of the call.
 Why it matters: the memory shortage has two sides. For the makers of memory it is the best market in their history, as Samsung's record quarterly profit forecast showed this month. For those who buy it, it is a cost: Intel on Thursday blamed "the unprecedented memory crunch" for a shrinking PC market, and its shares fell by about a fifth after hours, as Komposite reported on Friday. Sandisk's own consumer revenue fell 39 per cent from a year earlier.
-
----
-
-# Six billion dollars out of Binance's hot wallets
-
-URL: https://kompositenews.com/crypto/six-billion-dollars-out-of-binances-hot-wallets/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-10-30T14:20:00Z
-Updated: 2026-10-30T14:20:00Z
-
-About $6.3bn was taken from Binance's hot wallets on Thursday, the biggest crypto theft on record. About $2.7bn is frozen; TRM blames North Korea.
-
-About $6.3bn in crypto was taken from Binance, the world's largest exchange, on Thursday in what is the largest theft in the industry's history, the company said in an update on Friday. Binance said it would cover all losses, that "user funds are safe" and that withdrawals were suspended while it completed security checks.
-Binance's update says an initial investigation suggests "a compromised DevOps engineer's laptop" allowed an attacker to reach a service container and submit unauthorised withdrawal transactions. "We have found no evidence of any wallet private key leak," it says. The exchange said about $3bn had been frozen on-chain with partners, that "Binance will cover all losses from the SAFU fund and the company's funds", referring to its emergency reserve, and that it would publish a technical post-mortem and an updated proof of reserves. Deposits are unaffected. The update gives no date for withdrawals to resume.
-TRM Labs, a blockchain analytics firm, counts $6.36bn moved out of Binance wallets on ten blockchains, most of it in about 20 minutes from 20:05 UTC on Thursday. It attributes the theft "with high confidence" to TraderTraitor, a North Korean unit that the FBI blamed for the theft of about $1.5bn from the exchange Bybit in February 2025. Ari Redbord, TRM's global head of policy, called the attack "unprecedented", Al Jazeera reported. Binance has not named a culprit; it said it was working with law enforcement.
-ChainTaken, at the time of each transferShare of the total
-Ethereum (ether, USDT, USDC, RLUSD and 185 other tokens)About $3.79bn60 per cent
-Bitcoin (18,270 BTC)About $1.47bn23 per cent
-Tron (612.7m USDT and 46.4m TRX)About $628m10 per cent
-XRP Ledger (233.46m XRP)About $296m5 per cent
-Solana, Arbitrum, Optimism, Base, Avalanche and PolygonAbout $173m3 per cent
-TotalAbout $6.36bn
-Source: TRM Labs, on-chain data to 00:30 UTC on 30 October. Shares are Komposite's arithmetic and are rounded.The two accounts of how it happened are not yet the same. Binance points to one engineer's laptop. TRM says the attacker produced valid signatures on chains with different key types and signing schemes within about half an hour, which "a simple phishing explanation" does not cover, and that on Ethereum it used 50 pre-signed authorisations under EIP-7702, a 2025 feature that lets an ordinary wallet hand control to a smart contract, prepared so that one would match whatever the hot wallet's transaction count was at the time. TRM's assessment is that the attacker could direct Binance's hot-wallet signing system across chains. Binance has not published a root cause.
-Who froze or moved fundsAmountWhen (UTC)
-Tether (USDT on several chains)About $1.77bnFirst 971.1m USDT at 21:01 on 29 October
-Circle (USDC), with law enforcementAbout $825m823m USDC at 21:04
-Ripple (RLUSD)$40.5m22:01
-Arbitrum Security Council (forced transfers of ETH and ARB)About $30m00:08 on 30 October
-World Liberty Financial (USD1)$27.8m22:10 and 22:26
-TotalAbout $2.7bn, or 42 per cent of the $6.36bn
-Source: TRM Labs. Binance's own update puts the frozen total at about $3bn. The sum and percentage are Komposite's arithmetic.The freezes came quickly. Tether froze 971.1m USDT 37 minutes after the main sweep and Circle froze 823m USDC three minutes later, working with law enforcement, according to TRM. The attacker still controls about $2.4bn, including more than 420,000 ether and the 18,270 bitcoin, which it is moving through a chain of small transfers. TRM says it sold about 325m USDT to market makers for roughly 122,300 ether at an implied price of about $2,650, when ether traded at $2,300 to $2,350, giving up more than 10 per cent to convert tokens that could be frozen into one that cannot.
-By our arithmetic, the theft is 4.2 times the Bybit loss and 2.2 times the $2.87bn that TRM says was stolen in nearly 150 crypto hacks in the whole of 2025. Binance told ABC News it had reserved more than $6.34bn of company funds for the incident, $5bn of it in the same tokens that were taken, which would cover the gross loss before any recovery. That figure is the company's own and has not been independently verified. Bitcoin fell about 5 per cent to below $77,000 after the news, Al Jazeera reported.
-Binance confirmed the incident to TechCrunch on Thursday after users reported funds draining from its wallets; hours earlier Changpeng Zhao, the founder and largest shareholder, who no longer runs the exchange, had posted that it had probably been hacked. Sean Foley of Macquarie University told Al Jazeera: "Any assets held at a centralised exchange are only as safe as the exchange itself."
-Why it matters: by our arithmetic from TRM's breakdown, about $3.4bn of the stolen value, more than half, was in dollar stablecoins, and those were the easiest to stop because their issuers can freeze them; nearly all of the $2.7bn frozen so far is stablecoins. The ether and bitcoin cannot be frozen that way. Hacken, a security firm, had already attributed most third-quarter crypto hack losses to suppliers, unapplied fixes and systems left out of security reviews, as Komposite reported this month, rather than to flaws in audited code. Binance accounts have also figured in American enforcement: prosecutors were seeking to seize $61m from two of them in September.
-
----
-
-# Data centres up 78 per cent, PCs down 12
-
-URL: https://kompositenews.com/markets/data-centres-up-78-per-cent-pcs-down-12/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-30T14:00:00Z
-Updated: 2026-10-30T14:00:00Z
-
-Intel's data centre revenue rose 78% in Q3, but it guided Q4 revenue and margins lower on a PC slump and memory shortages. Shares fell about a fifth.
-
-Intel's data centre and AI revenue rose 78 per cent to $7.3bn in the third quarter, but the company forecast lower fourth-quarter revenue and margins on Thursday because of a shrinking PC market, according to its results release. The shares fell about 21 per cent in after-hours trading.
-Total revenue was $16.5bn, up 21 per cent from $13.7bn a year earlier, and non-GAAP earnings were 52 cents a share against 23 cents. The non-GAAP gross margin rose to 44.1 per cent from 40.0 per cent. Intel Foundry, the manufacturing arm, reported $6.7bn, up 58 per cent. Client computing, the PC business, fell 5 per cent to $8.1bn. For the fourth quarter Intel guided revenue of $15.0bn to $16.0bn, a non-GAAP gross margin of 38.0 per cent and earnings of 25 cents a share.
-"Despite near-term headwinds across the PC industry, demand for our CPUs remains robust," Lip-Bu Tan, the chief executive, said in the release, adding that the "immediate priority is to unlock additional supply to meet extraordinary demand for our Xeon family". David Zinsner, the chief financial officer, said: "we see the PC slowdown continuing at least through the first half of next year."
-Intel, non-GAAP unless statedThird quarter 2026Fourth-quarter guidanceChange, by our arithmetic
-Revenue$16.5bn (up 21 per cent)$15.0bn to $16.0bnMinus 6 per cent at the $15.5bn midpoint
-Gross margin44.1 per cent38.0 per centMinus 6.1 points, about 2 of them from the Israel plant
-Earnings per share$0.52$0.25Minus 52 per cent
-Data centre and AI revenue$7.3bn (up 78 per cent)Not guidedAbout $4.1bn a year earlier
-PC (client) revenue$8.1bn (down 5 per cent)Not guidedAbout $8.5bn a year earlier
-Sources: Intel's third-quarter release and the earnings call, 29 October 2026. Year-earlier segment figures and changes are Komposite's arithmetic from the growth rates Intel gives.On the call, Zinsner put a number on the slowdown. "We expect the 2026 PC unit TAM to decline approximately 12%, with second-half units down more than 20%," he said, according to the transcript. Tan blamed "the unprecedented memory crunch", as prices and shortages of memory chips push up the cost of PCs. Zinsner also said Intel's Fab 28 in Israel had been shut for about two weeks, adding: "I think the current thinking is that we will have about a $300 million impact to the fourth quarter." He put the cost at about two points of gross margin.
-The market weighed the guidance over the beat. Analysts had expected 40 cents a share on revenue of $16.48bn, Investing.com reported, so Intel beat on profit by 12 cents. The stock closed the regular session at $92.07 and traded at $72.85 after hours, down $19.22. On Friday morning the fall in premarket trading was more than 25 per cent, Fox News reported, citing Tan's remark that "the pace of this PC correction has accelerated over the last two months".
-By our arithmetic, the guidance midpoint of $15.5bn is 6 per cent below the third quarter, and the margin guide is 6.1 points lower, of which the Israel plant explains about 2. The rest comes from the PC mix and supply costs Intel describes. Cash was thinner than the headline profit: operating cash flow of $5.1bn less $4.2bn of gross capital spending leaves $0.9bn, against the $1.6bn of adjusted free cash flow Intel reports after its own adjustments.
-Why it matters: the memory shortage that is lifting chipmakers such as Samsung, which forecast a record quarterly profit on AI memory demand this month, is a cost for companies that sell into PCs. Intel's server business is growing as fast as it can be supplied, but the PC business is still the larger of the two. The fall came a day after Alphabet's class A shares dropped 12.64 per cent, about $500bn of market value, Fox News reported, following results that showed capital spending running ahead of operating cash.
-
----
-
-# One operator, two hundred targets
-
-URL: https://kompositenews.com/cybersecurity/one-operator-two-hundred-targets/
-Section: Cybersecurity
-By: Sam Porter
-Published: 2026-10-30T13:40:00Z
-Updated: 2026-10-30T13:40:00Z
-
-CrowdStrike says China-linked Vapor Panda used the ARTEX AI agent framework and DeepSeek against 200+ organisations in 11 days, breaching at least nine.
-
-A China-linked hacking group used an AI agent framework called ARTEX, running mainly on DeepSeek's model, to target more than 200 organisations in at least 14 countries over 11 days from 17 October, CrowdStrike said in a report on Thursday. The security company confirmed hands-on intrusions at nine of them.
-CrowdStrike calls the group Vapor Panda and describes it as a "China-nexus" adversary active since 2021, mostly against governments, think tanks and energy and extractive companies. ARTEX, the report says, runs a main agent that directs planner and worker agents through a shared map of facts and goals, taking each target from first access through reconnaissance to moving across the network. The second model was a subscription commercial one that CrowdStrike "could not confirm"; it does not name it. In a single intrusion, the planning agents consumed about 1.4bn input tokens.
-The human role was small and visible. CrowdStrike says it recovered transcripts of an operator giving the agents instructions in Chinese, labelled "human instruction" and time-stamped in China Standard Time, asking for web shells, domain administrator passwords and an inventory of security software. At one pharmaceutical company, the operator told the agents to find Windows machines "without Falcon", CrowdStrike's own endpoint sensor. Adam Meyers, CrowdStrike's vice president of threat intelligence, told NBC News, as Fox News reported: "This is the first time we've seen them using an AI or agentic capability at scale."
-Victim type, as CrowdStrike describes itWhat CrowdStrike says happened
-Foreign ministries of two Latin American countriesExtensive intrusion; BLOODALCHEMY backdoor at one
-An interior ministry in the Middle EastCompromised; BLOODALCHEMY deployed
-Telecoms providers in the US, Belgium and the PhilippinesCompromised
-Two US pharmaceutical organisationsCompromised, from an engagement aimed at 19 US organisations
-A Greek government entityMailboxes read using unrotated 2022 keys and a VPN key from a 2024 email leak
-US think tanks and European government bodiesPassword spraying and credential scanning, at least 12 organisations
-Source: CrowdStrike's report, 29 October 2026. CrowdStrike names no victims. Table compiled by Komposite.The techniques were not new; the throughput was. Agents chained an unsigned SAML login assertion with an XML flaw to reach a cloud metadata service and take over a role that could command thousands of servers, according to the report. Against the Greek target, the operator supplied directory-export keys from 2022 that had probably never been rotated, and the agents used a VPN key from a May 2024 email leak to get inside. The agents tried several paths at once and switched when one failed.
-By our arithmetic, more than 200 organisations in an 11-day window is about 18 a day, and nine confirmed intrusions is fewer than one in twenty of the targets. Adding the 12 organisations hit with password spraying gives 21 with confirmed hostile activity, about one in ten. AI lets such groups "operate on a scale that previously required far more human effort", NBC News reported. Neither CrowdStrike nor NBC carried a response from DeepSeek.
-This is the second ARTEX campaign made public in little more than a week. Microsoft said last week that a different China state-aligned group, Storm-0940, used the same framework after compromising a backup vendor to try sign-ins at more than 2,250 customer tenants, as Komposite reported on 22 October. CrowdStrike says the Vapor Panda activity is separate, and that it has also seen ARTEX used by criminal and unattributed actors.
-Why it matters: an AI agent that holds credentials behaves like any other privileged account, a point Komposite made in September: the agent is a privileged user. What changes is the arithmetic for defenders, since one operator can now run many intrusions in parallel. CrowdStrike assesses that China-nexus groups will "highly likely" keep adopting such frameworks over the next 12 months, and its first recommendation is unglamorous: rotate signing keys and service credentials, including those sitting in old backups.

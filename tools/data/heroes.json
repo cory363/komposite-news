@@ -3247,5 +3247,32 @@
   "alt": "A bronze statue of a young futures trader in a jacket and tie, holding a phone to his ear, on a stone plinth on a City of London pavement",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:LIFFE_Trader_Statue,_Dowgate_Hill_(01).jpg\" rel=\"noopener\">Doyle of London</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons (cropped)",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/apples-ai-reaches-china-two-years-and-a-partner-later": {
+  "id": "commons:Hangzhou_West_Lake_Apple_Store.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Hangzhou_West_Lake_Apple_Store.jpg/1280px-Hangzhou_West_Lake_Apple_Store.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A large white wall covered in black Chinese calligraphy with a red Apple logo, in front of a new store building on a wide street in Hangzhou, with small groups of pedestrians on the pavement",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Hangzhou_West_Lake_Apple_Store.jpg\" rel=\"noopener\">Simon Wade</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/twenty-minutes-to-steal-forty-five-days-to-wash": {
+  "id": "commons:DMZ_-_Eulji_Observatory_highly_guarded_fences.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/DMZ_-_Eulji_Observatory_highly_guarded_fences.jpg/1280px-DMZ_-_Eulji_Observatory_highly_guarded_fences.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "Lines of tall wire fencing running down a green hillside towards forested mountains under a hazy sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:DMZ_-_Eulji_Observatory_highly_guarded_fences.jpg\" rel=\"noopener\">Friar&#x27;s Balsam</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/nvidia-may-cosign-the-loan-for-its-own-chips": {
+  "id": "commons:Kanawha_Ohio_confluence.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kanawha_Ohio_confluence.jpg/1280px-Kanawha_Ohio_confluence.jpg",
+  "width": 1280,
+  "height": 1022,
+  "alt": "An aerial view of two rivers meeting, crossed by two steel truss bridges, with a small town and green fields along the banks",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Kanawha_Ohio_confluence.jpg\" rel=\"noopener\">Charles Johnson, U.S. Army Corps of Engineers</a>, public domain, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
