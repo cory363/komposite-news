@@ -3274,5 +3274,32 @@
   "alt": "An aerial view of two rivers meeting, crossed by two steel truss bridges, with a small town and green fields along the banks",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Kanawha_Ohio_confluence.jpg\" rel=\"noopener\">Charles Johnson, U.S. Army Corps of Engineers</a>, public domain, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/marvell-to-buy-lumentum-for-115bn-in-stock": {
+  "id": "commons:Lumentum,_Westfield_Business_Park_-_geograph.org.uk_-_7296980.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Lumentum%2C_Westfield_Business_Park_-_geograph.org.uk_-_7296980.jpg/1280px-Lumentum%2C_Westfield_Business_Park_-_geograph.org.uk_-_7296980.jpg",
+  "width": 1280,
+  "height": 850,
+  "alt": "A two-storey white and blue office building with Lumentum signs, cars parked in front, trees on either side and a road in the foreground",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Lumentum,_Westfield_Business_Park_-_geograph.org.uk_-_7296980.jpg\" rel=\"noopener\">Derek Harper</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" rel=\"noopener\">CC BY-SA 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "cybersecurity/a-tampered-claude-code-extension-sat-on-cursors-marketplace-for-eleven-hours": {
+  "id": "commons:CSS_code_on_a_screen_(Unsplash).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS_code_on_a_screen_%28Unsplash%29.jpg/1280px-CSS_code_on_a_screen_%28Unsplash%29.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Lines of colour-highlighted HTML markup on a dark code editor screen, shot at an angle with a second screen blurred at the right",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg\" rel=\"noopener\">Sai Kiran Anagani</a>, CC0, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/adnoc-signs-openai-and-g42-to-run-frontier-agents-on-its-oilfields": {
+  "id": "commons:\"Sagadril-1\"_Oil_rig_@_Corniche_@_Abu_Dhabi_(16044160715).jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/%22Sagadril-1%22_Oil_rig_%40_Corniche_%40_Abu_Dhabi_%2816044160715%29.jpg/1280px-%22Sagadril-1%22_Oil_rig_%40_Corniche_%40_Abu_Dhabi_%2816044160715%29.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A jack-up drilling rig with three tall lattice legs and an orange hull on calm water, beside an orange offshore supply vessel, under a clear sky",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:%22Sagadril-1%22_Oil_rig_@_Corniche_@_Abu_Dhabi_(16044160715).jpg\" rel=\"noopener\">Guilhem Vellut</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
