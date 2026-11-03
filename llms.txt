@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [$30.6m in reserve against $1.8m](https://kompositenews.com/policy/ai-super-pacs-enter-election-day-with-30-6m-against-1-8m/): FEC filings show the Leading the Future super PACs held $30.6m in cash on 14 October; the Public First group held $1.8m on 30 September.
+- [Thirty-one states, three courtrooms](https://kompositenews.com/ai/thirty-one-states-have-election-deepfake-laws-on-polling-day/): By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.
 - [A hundred and fifteen billion, paid in shares](https://kompositenews.com/markets/marvell-to-buy-lumentum-for-115bn-in-stock/): Marvell will buy Lumentum in an all-stock deal valuing it at $115bn, 4.5 shares each. Marvell owes $3.2bn if regulators block it. Close due H1 2028.
 - [Eleven hours on someone else's shelf](https://kompositenews.com/cybersecurity/a-tampered-claude-code-extension-sat-on-cursors-marketplace-for-eleven-hours/): A tampered Claude Code extension sat on Cursor's marketplace for 11 hours on 29 October, trying to plant an SSH backdoor. Its origin is unexplained.
 - [OpenAI's agents go to the oilfield](https://kompositenews.com/ai/adnoc-signs-openai-and-g42-to-run-frontier-agents-on-its-oilfields/): ADNOC signed a multi-year deal with OpenAI and G42 on 2 November to use OpenAI Frontier for field planning and barrel valuation. No value was disclosed.
 - [Apple's AI reaches China, two years and a partner later](https://kompositenews.com/ai/apples-ai-reaches-china-two-years-and-a-partner-later/): Apple Intelligence reaches China in December with iOS 27.3, Apple said; Alibaba's Qwen works in Siri, Writing Tools and Visual Intelligence. Beta 4 Nov.
 - [Twenty minutes to steal, forty-five days to wash](https://kompositenews.com/crypto/twenty-minutes-to-steal-forty-five-days-to-wash/): How North Korea's crypto theft works on-chain, from recruiter lures to bridges and brokers, with a table of its largest heists and yearly totals.
 - [Nvidia may cosign the loan for its own chips](https://kompositenews.com/markets/nvidia-may-cosign-the-loan-for-its-own-chips/): Nvidia is in talks to guarantee debt for Nscale's West Virginia campus, home to a $44.6bn Anthropic contract its filing says is not yet financed.
-- [A third off the round, a tenth off the price](https://kompositenews.com/markets/a-third-off-the-round-a-tenth-off-the-price/): OpenAI cut its round to about $20bn at a $1.25tn valuation, from $30bn at $1.4tn, the FT reported, as the Nasdaq fell 2.9% on Friday and 5.3% in October.
-- [Chainalysis reports its own intruder](https://kompositenews.com/cybersecurity/chainalysis-reports-its-own-intruder/): Chainalysis said an attacker using agentic techniques reached internal tools and customer names, emails and roles, but not investigation data or credentials.
 
 ## About, standards and contact
 

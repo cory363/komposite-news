@@ -282,6 +282,71 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# $30.6m in reserve against $1.8m
+
+URL: https://kompositenews.com/policy/ai-super-pacs-enter-election-day-with-30-6m-against-1-8m/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-03T14:20:00Z
+Updated: 2026-11-03T14:20:00Z
+
+FEC filings show the Leading the Future super PACs held $30.6m in cash on 14 October; the Public First group held $1.8m on 30 September.
+
+The super PAC network funded by AI investors including Andreessen Horowitz's founders and OpenAI's president held $30.6m in cash in mid-October, while the Anthropic-backed network that opposes it held $1.8m at the end of September, by Komposite's arithmetic on Federal Election Commission filings. Voters cast ballots in the US midterm elections on Tuesday. Between them, the two networks had reported $59.8m of independent expenditures, the advertising and other spending a super PAC makes for or against candidates without coordinating with them.
+The larger network is built around Leading the Future, a super PAC registered in Nevada. Its pre-general report, which runs to 14 October, shows $76.0m of receipts, almost all of it $75.1m in contributions, and no independent expenditures of its own. Instead it passed $47.0m to two affiliated super PACs, Think Big and American Mission, which received $24.5m and $22.5m from other committees and spent $18.5m and $16.1m on independent expenditures. By our arithmetic, 61.9 per cent of what Leading the Future took in has gone to the two, and the three committees between them held $30.6m on 14 October, of which $23.8m sat with Leading the Future itself.
+CommitteeReport used (period end)ReceiptsIndependent expendituresCash on hand
+Leading the Future network
+Leading the FuturePre-general (14 Oct)$75.98m$0 (passes money on)$23.82m
+Think BigPre-general (14 Oct)$25.03m$18.46m$1.94m
+American MissionPre-general (14 Oct)$23.98m$16.06m$4.83m
+Network total*$34.51m$30.59m
+Public First network
+Public FirstOctober quarterly (30 Sep)$4.91m$0 (passes money on)$0.48m
+Jobs and Democracy PACThrough 30 Sep$20.74m$17.88m$0.67m
+Defending Our Values PACThrough 30 Sep$8.41m$7.37m$0.63m
+Network total*$25.24m$1.78m
+* Komposite's arithmetic on Federal Election Commission data read on 3 November 2026. Receipts are not added up because money passed from one committee to another would be counted twice. The two networks' figures run to different dates, 14 October and 30 September, so the comparison is not like for like. Independent expenditures reported after those dates, including in 24-hour reports, are not included.The rival network is smaller in cash and less visible in its funding. Anthropic said in February that it was giving $20m to Public First Action, which it described as "a new bipartisan 501(c)(4)" that would "support public education about AI, promote safeguards, and ensure America leads the AI race". A 501(c)(4) is a nonprofit that may engage in some political activity and does not have to disclose its donors. Its affiliated super PACs do file with the FEC: Public First, which took in $4.9m in 2026 and passed $4.34m to other committees; Jobs and Democracy PAC, which reported $17.9m of independent expenditures through September; and Defending Our Values PAC, with $7.4m. Defending Our Values would run ads supporting Senator Pete Ricketts of Nebraska, who is seeking re-election, Bloomberg reported in February.
+Who funds Leading the Future is a matter of record. Greg Brockman, OpenAI's president, and his wife each gave $12.5m in 2025, as did Marc Andreessen and Ben Horowitz, the co-founders of the venture firm Andreessen Horowitz, The Washington Sun reported from the committee's filings; the investor Joe Lonsdale, the investor Ron Conway and the AI search company Perplexity were also donors. The network said in January that it had raised $125m in the second half of 2025, while its super PAC's filing showed $50.3m. Its contributions have reached $75.1m since, so by our subtraction it has reported $24.8m of new contributions in 2026. Leading the Future also gave $5m to a nonprofit arm, Build American AI, which does not have to disclose its donors, the paper reported.
+The Leading the Future group's spending is also the subject of a complaint. The Campaign Legal Center, a campaign-finance watchdog, told the FEC in May that Think Big and American Mission paid virtually all of their funds to newly formed companies, and that "neither LLC appears to be a bona fide commercial vendor operating at arm's length", according to its complaint. Komposite found no public FEC ruling on the complaint.
+The figures carry two caveats. First, the dates differ: the Leading the Future committees' pre-general reports run to 14 October, while the Public First committees' latest reports on the FEC's site run to 30 September. Second, super PACs report independent expenditures of $1,000 or more within 24 hours in the last 20 days before an election, so both networks have spent money since that is not in these totals. The cash figures are the best public measure of what each side had left for the final weeks, not of what it held on Tuesday.
+What the networks want is on record too. Leading the Future's stated goal is a "national regulatory framework for AI", which The Washington Sun described as a way to block state enforcement. Anthropic listed opposing the pre-emption of state laws without stronger federal safeguards among the priorities of the group it funds, and said it would work with "Republicans, Democrats, and Independents". Public First Action had not disclosed what it raised beyond Anthropic's $20m, Bloomberg reported in February. The question of who writes AI rules has run through Komposite's coverage this autumn, from eight state attorneys general suing OpenAI to the AI companies testifying before New York's city council.
+Why it matters: both networks were set up to fight over how AI is regulated, and the disclosed money behind each comes largely from a handful of AI companies, investors and founders. The outcomes of the races they spent on are not yet known. When they are, the filings will show how much each side spent per race, and what it kept back. The rules each state already applies to AI in campaigns are set out in our count of election deepfake laws.
+
+---
+
+# Thirty-one states, three courtrooms
+
+URL: https://kompositenews.com/ai/thirty-one-states-have-election-deepfake-laws-on-polling-day/
+Section: AI
+By: Dana Whitfield
+Published: 2026-11-03T14:00:00Z
+Updated: 2026-11-03T14:00:00Z
+
+By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.
+
+Thirty-one states have a law on the books regulating AI-generated deepfakes in election communications as voters cast ballots in the US midterm elections on Tuesday, by Komposite's count of Public Citizen's legislative tracker, last updated on 21 October. Thirty-three states have passed such a law at some point. Massachusetts let its law lapse in February 2025, and a federal judge struck down Hawaii's in January.
+A deepfake, in these statutes, is audio, video or an image altered or generated with digital tools so that it shows a real person saying or doing something they did not. The laws differ in scope and penalty. Minnesota's makes it a crime to spread one within a set period before an election, without the depicted person's consent and with intent to injure a candidate or influence the result. Most of the laws are recent. By our count, only five states had one before 2024; sixteen added a law that year, seven in 2025 and five so far in 2026, the most recent Louisiana in June. When Maryland's law was signed in May, Public Citizen counted it as the 30th, and said that "the need for the remaining 20 states to enact protections has never been greater". By our arithmetic, 19 states now have none.
+First law enactedStatesCount
+2019 to 2023California, Texas (2019); Michigan, Minnesota, Washington (2023)5
+2024Alabama, Arizona, Colorado, Delaware, Florida, Hawaii, Idaho, Indiana, Massachusetts, Mississippi, New Hampshire, New Mexico, New York, Oregon, Utah, Wisconsin16
+2025Kentucky, Montana, Nevada, North Dakota, Pennsylvania, Rhode Island, South Dakota7
+2026Tennessee, Maine, Vermont, Maryland, Louisiana5
+Enacted at some point33
+Less: lapsed or struck downMassachusetts (sunset February 2025); Hawaii (struck down January 2026)&minus;2
+On the books on 3 November31
+Komposite's count from Public Citizen's tracker of state election-deepfake legislation, last updated 21 October 2026, by the year each state's first listed law was enacted. It matches Public Citizen's own count of 30 states in May plus Louisiana in June. We have not checked each law's effective date, and some laws, such as California's AB 2839, survive on the books but have been blocked in court.The laws have fared poorly when tested in court. Hawaii's Act 191 barred the reckless distribution of "materially deceptive media" that risked harming a candidate or changing how people voted, from the first working day of February in every even-numbered year through the general election. A disclaimer shown throughout a video or read at the start and end of audio was a safe harbour. On 30 January Judge Shanlyn Park of the US District Court for Hawaii held in a case brought by the satirical site the Babylon Bee that the law failed strict scrutiny and was unconstitutionally vague, The Volokh Conspiracy reported. Counter-speech, voter education and existing defamation and election-fraud laws were less restrictive options, she wrote, adding: "The First Amendment does not permit the State to sacrifice speech for efficiency."
+California's 2024 law fared no better. A federal judge granted a preliminary injunction against AB 2839 in October 2024, two weeks after it was signed, and on 29 August 2025 granted the challengers summary judgment, holding the statute unconstitutional in its entirety, according to the case record kept by the Hamilton Lincoln Law Institute, which represents one of the challengers. The court did not rule on a companion law, AB 2655, because California had agreed not to enforce it. The state appealed to the Ninth Circuit on 19 September 2025; the briefs were filed in January and March, and no decision has been reported. By our arithmetic, the appeal has been pending for 410 days.
+State and lawCaseWhat the court didWhere it stands
+Hawaii, Act 191 (SB 2687, 2024)Babylon Bee v. Lopez, US District Court for HawaiiJudge Shanlyn Park held on 30 January 2026 that the law fails strict scrutiny and is unconstitutionally vague, and rejected its disclaimer safe harbourStruck down
+California, AB 2839 (2024)Kohls v. Bonta, US District Court for the Eastern District of CaliforniaPreliminary injunction on 2 October 2024; summary judgment for the challengers on 29 August 2025, finding the statute unconstitutional in its entiretyBlocked; California's appeal to the Ninth Circuit pending since 19 September 2025
+California, AB 2655 (2024)Kohls v. BontaNot ruled on: California had agreed not to enforce itNot enforced; part of the same appeal
+Minnesota, 2023 law as amended in 2024Kohls v. Ellison, Eighth CircuitOn 9 February 2026 upheld the refusal of a preliminary injunction, on standing and delay, without deciding the constitutional questionIn force; the challenge continues in the district court
+Compiled by Komposite from the Hawaii order as reported by The Volokh Conspiracy (31 January 2026), the Hamilton Lincoln Law Institute's case record for Kohls v. Bonta, and the Eighth Circuit opinion as reported by The Volokh Conspiracy (9 February 2026). These are the challenges we reviewed, not every case filed.Minnesota's law is the exception so far. On 9 February the Eighth Circuit upheld a lower court's refusal to block it, The Volokh Conspiracy reported. The court found that one challenger, whose videos were labelled as parody, lacked standing because labelled parodies are not deepfakes under the statute, and that the other had waited 16 months to sue. It expressly did not decide whether the law is constitutional, and the case continues. Its penalties include one aimed at candidates: one who breaks the law forfeits the nomination or office.
+What this means for the technology industry is narrower than the headline count suggests. The laws we reviewed are aimed at whoever distributes a deepfake, not at the AI companies whose tools can produce one. The court record so far points in one direction: of the three states whose laws we found tested on the merits or close to it, two have lost, and the third has won only on procedure. A disclaimer, which many states treat as the safe option, did not save Hawaii's law or California's.
+Why it matters: election deepfake rules are set state by state, so a clip that is lawful to share in one state can break the law in its neighbour. Deepfakes are already a fraud problem for companies, which have rebuilt payment verification around cloned voices, and state officials have been willing to act on AI on their own, as when eight attorneys general sued OpenAI last month over ChatGPT's safety. On the money behind the election, Komposite reports separately on the two networks of AI-funded super PACs.
+
+---
+
 # A hundred and fifteen billion, paid in shares
 
 URL: https://kompositenews.com/markets/marvell-to-buy-lumentum-for-115bn-in-stock/
@@ -459,59 +524,3 @@ Compiled by Komposite from Nscale's registration statement of 18 September and T
 What would a guarantee change? A lender to a data centre builder is exposed to two risks: that the tenant walks away, and that the half-built asset is worth little to anyone else. A residual value guarantee from the chip supplier addresses the second, because Nvidia would stand behind the asset's value and help re-let it. It also ties more of Nvidia's balance sheet to demand for its own products, the point TechCrunch made when it described the chipmaker as offering to cosign the loan.
 The talks come as investors mark down the businesses that rent out AI computing. Shares of CoreWeave, Nebius and IREN each fell more than 30 per cent in October, TechCrunch said, citing CNBC, and CoreWeave's 2032 bonds yielded 14.8 per cent earlier in the month, as Komposite reported. Anthropic, the tenant, made its own listing documents public last week, showing first-half revenue of $16.3bn and a net loss of $80.7bn.
 Why it matters: the AI build-out is being financed further and further from the companies that will use it, and the risk is being passed back to the supplier. Komposite reported in September that Nscale's backlog has two names on it, Microsoft and Anthropic, and that the Anthropic contract was not yet financed. If Nvidia signs, the third name standing behind that campus will be the company selling the chips.
-
----
-
-# A third off the round, a tenth off the price
-
-URL: https://kompositenews.com/markets/a-third-off-the-round-a-tenth-off-the-price/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-10-31T14:00:00Z
-Updated: 2026-10-31T14:00:00Z
-
-OpenAI cut its round to about $20bn at a $1.25tn valuation, from $30bn at $1.4tn, the FT reported, as the Nasdaq fell 2.9% on Friday and 5.3% in October.
-
-OpenAI has cut the target for its latest funding round by a third, to about $20bn, and is seeking a valuation of $1.25tn rather than $1.4tn, the Financial Times reported on Friday, according to Reuters. The FT cited people with knowledge of the matter.
-The first close of the round is expected to raise less than $20bn because some investors have reduced their allocations, and the deadline for commitments was Friday, Reuters said, relaying the FT. A consortium of investors from the United Arab Emirates that includes MGX, the state-backed Abu Dhabi investment firm, is expected to be the largest participant, and in return OpenAI would get an option to lease newly built computing capacity in the region. Founders Fund, Coatue, Sequoia Capital and Andreessen Horowitz are also expected to take part, and wealthy individuals may be able to invest later through a retail offering at the same $1.25tn valuation.
-The cut in valuation came first. The $1.4tn figure was the original pitch for the round and was lowered to $1.25tn the previous week, TNW reported, adding that the Wall Street Journal had reported OpenAI raising less than half of its $30bn goal. The Decoder, citing the Journal, put commitments at about $11bn. That figure comes from a single report we could not read in the original, and OpenAI has not published any of these numbers. No comment from the company appears in the accounts we read.
-What does the change amount to? By our arithmetic, the target is down by a third and the price by a tenth: $150bn off $1.4tn is 10.7 per cent. The new money would buy about 1.6 per cent of the company, against about 2.1 per cent under the original plan, as a simple ratio of the amount raised to the valuation. At $1.25tn, OpenAI would still be valued 46.7 per cent above the $852bn of its March round.
-When reportedWhat OpenAI was seeking or gotValuationReported by
-March 2026$122bn round, completed$852bnReuters, via Komposite, 20 October
-15 SeptemberEarly talks on a new roundMore than $1.2tnFinancial Times, via Komposite
-Week of 19 OctoberAbout $30bnMore than $1.4tnReuters
-30 OctoberAbout $20bn, first close below that$1.25tnFinancial Times, via Reuters
-Compiled by Komposite from the reports shown. None of the figures has been published by OpenAI. By our arithmetic, $1.25tn is 46.7 per cent above the March valuation and 10.7 per cent below the $1.4tn first pitched for this round.The public market moved the other way first. The Nasdaq Composite fell 747.73 points, or 2.86 per cent, to 25,437.00 on Friday, its largest one-day percentage drop since 5 June, after weak results from Intel and Amazon, Reuters reported. Intel's shares fell about 28.6 per cent. The S&P 500 lost 1.82 per cent to 7,580.07 and the Dow Jones Industrial Average 1.09 per cent to 51,770.31. The S&P 500 and the Nasdaq ended October lower, while the Dow finished the month up.
-Nasdaq Composite closeLevelChange to Friday's close, by our arithmetic
-30 September (end of September)26,861.06-5.3 per cent
-6 October (October high)27,599.89-7.8 per cent
-19 October (first report of the $30bn round)26,430.89-3.8 per cent
-30 October (Friday)25,437.00-2.86 per cent on the day
-Sources: Federal Reserve Bank of St Louis (FRED) daily closes to 29 October; Friday's close from Reuters. Percentages are Komposite's arithmetic.Set side by side, the two prices have not moved by the same amount. Since Reuters first reported the $30bn round, the Nasdaq Composite has fallen 3.8 per cent by our arithmetic, while the valuation OpenAI is seeking has come down 10.7 per cent. The private price is not set by trading, so the comparison is loose, but it is the clearest measure available of how far demand for the largest private AI company has cooled against the listed market.
-OpenAI is pursuing a stock market listing in 2027, and it wants this round closed before Anthropic lists, Reuters said, because the two companies draw on many of the same investors. Anthropic made its registration statement public on Monday, showing first-half revenue of $16.3bn and a net loss of $80.7bn. Its borrowing outlook has also shifted. Blackstone, the anchor investor in a recent $63bn deal financing Anthropic's chips, has told investors it expects Anthropic to receive a "high" junk rating, double-B, after its listing, having earlier predicted an investment-grade rating before 2027, the FT reported, according to TechCrunch. TechCrunch noted that "Blackstone's forecast is just a prediction"; Anthropic and Blackstone declined to comment.
-Why it matters: the two largest private AI labs are raising equity and debt in the same weeks that public investors are marking down the companies that supply and host them. Amazon spent $77.3bn on property and equipment in its third quarter, 182 per cent of its operating cash flow, and Alphabet raised $41.1bn of debt and stock to cover its own build-out. A smaller round at a lower price does not change what OpenAI must spend; it changes how much of the company it gives up to pay for it, as Komposite noted when the round was first reported at $30bn.
-
----
-
-# Chainalysis reports its own intruder
-
-URL: https://kompositenews.com/cybersecurity/chainalysis-reports-its-own-intruder/
-Section: Cybersecurity
-By: Sam Porter
-Published: 2026-10-31T13:40:00Z
-Updated: 2026-10-31T13:40:00Z
-
-Chainalysis said an attacker using agentic techniques reached internal tools and customer names, emails and roles, but not investigation data or credentials.
-
-Chainalysis, the blockchain analytics company, said an outside attacker using "offensive agentic techniques" gained access to its systems and internal tools and reached customers' names and email addresses, in a security notice dated Friday. It said it had found no evidence that investigation data or login credentials were accessed.
-The data reached, according to the notice, was user IDs, names, email addresses and organisation role labels, which The Block described as belonging to provisioned users, the staff that client organisations set up on the platform. Chainalysis said it had found no evidence of access to investigation content such as graphs, notes and cases, to query results, or to clear-text passwords, multi-factor authentication secrets or session tokens, on the evidence "available to date". It is still working out which records belonged to which customer and said it would send each organisation its own update. The company said the intrusion was "not related to the recent crypto theft at Binance".
-Chainalysis published the notice, together with the email it sent customers, at about 5:14pm Eastern time on Friday, BleepingComputer reported, and a spokesperson confirmed the incident to the publication. The breach was first flagged by International Cyber Digest, The Block reported. The company has brought in outside cybersecurity specialists, is using large language models in a wider review of its platform and is patching vulnerabilities. It advised customers to turn on two-factor authentication and to watch for unexpected password-reset requests or sign-in prompts, and warned of scammers impersonating the company, particularly those offering to recover funds or to recruit.
-CategoryWhat Chainalysis has said
-ReachedUser IDs, full names, email addresses and organisation role labels of provisioned users
-No evidence of access, on evidence available to dateInvestigation content (graphs, notes, cases), transaction and query results, clear-text passwords, MFA secrets, session tokens
-Not disclosedWhen the intrusion was detected beyond "this month", how many customers are affected, which vulnerabilities and internal tools were involved, how long the attacker had access, how AI agents were used, who the attacker is
-PromisedAn organisation-by-organisation account of which records were accessed
-Compiled by Komposite from Chainalysis's notice and the lists of undisclosed details published by The Block and BleepingComputer."Agentic" describes AI systems that plan and carry out multi-step tasks, such as scanning, logging in and moving between tools, with limited human direction. Chainalysis has not said how such techniques were used against it. BleepingComputer noted that it is unclear whether the attacker used an existing framework such as ARTEX or custom agents. Chainalysis declined to answer specific follow-up questions from The Block, which listed what the company had not disclosed: when it detected the intrusion, how many customers were affected, which vulnerabilities were exploited, the attacker's identity, and the evidence behind its statement that the incident was unrelated to Binance.
-This is the third disclosure of an agent-assisted intrusion in ten days, by our count of Komposite's own reporting. On 21 October Microsoft said a China state-aligned group had used an open-source agent framework to try more than 2,250 customer tenants after breaking into ConnectWise's cloud backup service. On Thursday CrowdStrike said a group it calls Vapor Panda used the ARTEX framework against more than 200 organisations, nine of them confirmed compromised. In the first two, the disclosure came from the investigator; this time it comes from the company that was breached, and one whose business is investigation.
-The timing is awkward. Chainalysis is one of the firms tracing the funds stolen from Binance, a theft it puts at $6.4bn. On Saturday it said the thieves had moved stablecoins through JustLend, a lending protocol on the Tron blockchain, and swapped them for ether, writing that "now the exploiter is free of worry of a freeze", The Block reported. Issuers such as Circle and Tether have frozen about $2.8bn of stablecoins, Chainalysis said.
-Why it matters: the records taken are not secrets, but together they form a directory of who at Chainalysis's client organisations uses a crypto-tracing service, and in what role. That is the material targeted phishing is built from, which is why the company's own advice centres on password-reset prompts and impersonators. Binance's loss began with one engineer's laptop, as Komposite reported on Friday.
