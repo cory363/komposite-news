@@ -282,6 +282,121 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Nineteen of twenty-two, mostly in safe seats
+
+URL: https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-05T15:00:00Z
+Updated: 2026-11-05T15:00:00Z
+
+By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.
+
+Candidates backed by the AI industry's largest super PAC network won 19 of the 22 general-election races it spent on, by Komposite's match of Federal Election Commission filings to Associated Press results. One lost and two were uncalled on Thursday morning. Fifteen of the 19 winners won by more than ten percentage points.
+The network is built around Leading the Future, a super PAC funded by investors including the founders of Andreessen Horowitz and OpenAI's president, Greg Brockman, which passes its money to two affiliates, Think Big and American Mission. Its rival, the Public First network, whose nonprofit arm received $20m from Anthropic, spends through Jobs and Democracy PAC and Defending Our Values PAC. Both networks were set up to fight over how AI is regulated, as Komposite reported on Election Day. That story ended on a promise: once results were in, the filings would show what each side had spent per race. This is that count.
+How did we count it?
+We used the FEC's own data and the AP's results, and the inputs are public. On Thursday at 09:16 Eastern time we downloaded the FEC's bulk file of 24- and 48-hour independent-expenditure reports for the 2026 cycle. An independent expenditure is spending, usually on advertising, mail or texts, that calls for a candidate's election or defeat without being coordinated with any campaign. We kept the 447 unique transactions reported by the four committees that do the networks' spending, replaced amended entries with the latest version, and added them up by candidate, by whether the money supported or opposed that candidate, and by the election each filer said it was for. We then matched each general-election candidate to the AP's calls and vote shares as published in NPR's Senate and House results data, which we checked at 09:19 Eastern time.
+How much of the money went to the general election?
+Less than a seventh of it. The four committees had reported $59.3m of independent expenditures when we checked, and $7.9m of that, 13.3 per cent, was marked for the general election. The rest went on primaries, runoffs and special elections. The timing shows the same pattern: the Leading the Future network's general-election items are dated from 28 May to 16 October, and the Public First network's from 20 to 23 October, so neither had reported any general-election spending dated in the final ten days before the vote. The Leading the Future network put 19.5 per cent of its money into the general; the Public First network put in 4.6 per cent. The single most expensive contest for both was a primary. In New York's 12th district, Jobs and Democracy PAC spent $13.2m supporting Alex Bores, a state assemblyman, and Think Big spent $8.2m opposing him. That one race took 35.9 per cent of everything the two networks reported. Bores finished second to Micah Lasher on 23 June, with 35.0 per cent of the vote to Lasher's 39.0 per cent on unofficial counts, PoliticsNY reported.
+Network (spending committees)Independent expenditures reportedCoded general electionGeneral as share
+Leading the Future (Think Big, American Mission)$34.87m$6.80m19.5%
+Public First (Jobs and Democracy PAC, Defending Our Values PAC)$24.45m$1.11m4.6%
+Both networks$59.31m$7.91m13.3%
+Of which: New York 12th district Democratic primary$21.32m35.9% of all spending
+Komposite's analysis of the Federal Election Commission's bulk file of 24- and 48-hour independent-expenditure reports for the 2026 cycle, downloaded at 09:16 Eastern time on 5 November 2026, after replacing amended entries. Election codes are the filers' own. The rest of the money was coded primary, runoff, special or other. Leading the Future and Public First themselves report no independent expenditures; they pass money to the committees named.How did the Leading the Future candidates do?
+Nineteen won, one lost and two were still being counted. The network supported 22 general-election candidates and opposed none: American Mission backed 17 Republicans with $5.46m and Think Big backed five Democrats with $1.34m. By our arithmetic, $4.56m, or 67.1 per cent of its general-election money, went to candidates who won, and $1.60m, 23.6 per cent, to the one who lost: Senator Darline Graham of South Carolina, the network's largest single general-election investment, who lost to Annie Andrews by 51.1 per cent to 46.7 per cent. In Mississippi, where the network spent $494,528 for Senator Cindy Hyde-Smith, the AP had not called the race; Scott Colom led her by 1,138 votes. California's 23rd district, where it spent $140,448 for Representative Jay Obernolte, was also uncalled, with Obernolte ahead. The three candidates who were not incumbents, Letlow, Andy Barr in Kentucky and Kurt Alme in Montana, all won Senate seats that their party already held.
+CandidateRaceCommitteeSpent (support)AP resultVote share
+Darline Graham (R)*South Carolina, SenateAmerican Mission$1,600,562Lost to Annie Andrews (D)46.7% to 51.1%
+Julia Letlow (R)Louisiana, SenateAmerican Mission$506,197Won50.9% to 49.1%
+Cindy Hyde-Smith (R)*Mississippi, SenateAmerican Mission$494,528Not called48.9% to 49.0%
+Joseph Morelle (D)*New York 25thThink Big$351,248Won62.9% to 36.9%
+Emilia Sykes (D)*Ohio 13thThink Big$332,071Won60.0% to 38.4%
+Greg Stanton (D)*Arizona 4thThink Big$327,064Won62.3% to 35.4%
+Steven Horsford (D)*Nevada 4thThink Big$321,319Won60.2% to 38.0%
+John Joyce (R)*Pennsylvania 13thAmerican Mission$240,452Won67.5% to 32.5%
+Mike Rounds (R)*South Dakota, SenateAmerican Mission$229,747Won60.5% to 39.5%
+Bill Hagerty (R)*Tennessee, SenateAmerican Mission$212,297Won55.1% to 42.9%
+Kurt Alme (R)Montana, SenateAmerican Mission$210,467Won48.3% to 37.7%
+Shelley Moore Capito (R)*West Virginia, SenateAmerican Mission$210,193Won58.3% to 37.9%
+Rich McCormick (R)*Georgia 7thAmerican Mission$207,640Won56.2% to 43.8%
+Laurel Lee (R)*Florida 15thAmerican Mission$207,329Won54.3% to 45.7%
+Andy Barr (R)Kentucky, SenateAmerican Mission$207,034Won55.0% to 42.9%
+Brian Jack (R)*Georgia 3rdAmerican Mission$203,509Won58.6% to 41.4%
+Nathaniel Moran (R)*Texas 1stAmerican Mission$202,539Won69.0% to 31.0%
+Guy Reschenthaler (R)*Pennsylvania 14thAmerican Mission$199,369Won57.6% to 42.4%
+Mike Haridopolos (R)*Florida 8thAmerican Mission$194,627Won53.2% to 46.8%
+Rudy Yakym (R)*Indiana 2ndAmerican Mission$192,463Won51.3% to 46.2%
+Jay Obernolte (R)*California 23rdAmerican Mission$140,448Not called51.4% to 48.6%
+Ritchie Torres (D)*New York 15thThink Big$5,000Won76.8% to 10.6%
+Total, 22 races$6,796,10619 won, 1 lost, 2 not called
+* Incumbent, as flagged in the AP data. Spending: Komposite's sums of general-election independent expenditures in the FEC's 24- and 48-hour reports, downloaded on 5 November 2026. Results: Associated Press calls and vote shares as published in NPR's results data, checked at 09:19 Eastern time on 5 November; the candidate's share is given first. Counts were still under way.Were these competitive races?
+Mostly not. Nineteen of the 22 candidates were incumbents, according to the AP's data, and 15 of the 19 winners won by more than ten points. Only seven of the 22 races were decided by fewer than ten points or remained uncalled: Louisiana's Senate race, which Julia Letlow won by 1.8 points; three House seats in Indiana and Florida that the backed Republicans held by between 5.1 and 8.6 points; and South Carolina, Mississippi and California's 23rd. Those seven took $3.34m, or 49.1 per cent of the network's general-election money, and so far show four wins, one loss and two uncalled. The other half went to the 15 candidates who won by more than ten points, in amounts of $199,000 to $351,000 each, plus $5,000 for one. A record built mostly on safe incumbents says little about whether the spending changed any result, and we do not claim that it did.
+What did the Public First network do?
+It spent in three general-election races, all involving Republicans, for $1.11m in total. Defending Our Values PAC supported John Cowan in Georgia's 11th district, who won, and Alex Mealer in Texas's 9th, who lost to Leticia Gutierrez. Jobs and Democracy PAC spent $599,445 opposing Representative Gabe Evans in Colorado's 8th district, who lost to Manny Rutinel. The outcome matched the network's position in two of the three races.
+CandidateRaceCommitteeSpentAP resultVote share
+John Cowan (R)Georgia 11thDefending Our Values PAC$256,736 to supportWon55.4% to 44.6%
+Alex Mealer (R)Texas 9thDefending Our Values PAC$258,287 to supportLost to Leticia Gutierrez (D)42.4% to 57.6%
+Gabe Evans (R)*Colorado 8thJobs and Democracy PAC$599,445 to opposeLost to Manny Rutinel (D)41.6% to 54.5%
+* Incumbent. Sources and method as in the table above.What does the count leave out?
+Three things. First, the source is the 24- and 48-hour reports, which cover independent expenditures of $10,000 or more at any time and of $1,000 or more in the last 20 days before an election. Smaller earlier items appear only in periodic reports, which is why our total for the Public First network, $24.4m, is below the $25.2m its committees had reported through September. Second, no report from these committees filed after 28 October had appeared in the FEC's data when we checked, so any later spending is missing. Third, the results are unofficial counts, and the AP had not called every race. We did not assess each candidate's position on AI, and the networks' choice of candidates is their own.
+What the networks say they want is on record. Leading the Future's spokesperson, Jesse Hunt, said in January that the group planned to "back leaders who will set aside politics to establish a clear, consistent national framework", The Washington Sun reported. Brad Carson, Public First's founder and a former Democratic congressman, told the paper: "We have $50 million and 85% of the public sentiment." We found no statement from either network on the general-election results by Thursday morning.
+Why it matters: the two networks were the AI industry's most direct attempt to shape who writes its rules, and their own filings show where the effort went. Most of it was spent before the autumn, in primaries such as New York's 12th, rather than on the races decided on Tuesday. In the general election, the larger network mostly backed incumbents who were already favoured. How the new Congress handles AI, including whether federal rules should override state laws such as the 31 state election deepfake laws on the books this week, is the test both networks were funded for.
+
+---
+
+# Handsets down 26 per cent, cars up 89
+
+URL: https://kompositenews.com/technology/qualcomm-handsets-down-26-per-cent-cars-up-89/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-05T14:40:00Z
+Updated: 2026-11-05T14:40:00Z
+
+Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.
+
+Qualcomm's revenue from smartphone chips fell 26 per cent to $5.14bn in its fiscal fourth quarter, while its automotive revenue rose 89 per cent to $1.99bn, the company reported on Wednesday. Total revenue for the three months to 27 September fell 8.4 per cent to $10.32bn, by Komposite's arithmetic.
+The San Diego chip designer reports two businesses: QCT, which sells chips, and QTL, which licenses its wireless patents. QCT revenue fell to $9.02bn from $9.82bn, and QTL to $1.30bn from $1.41bn. In its annual report filed the same day, Qualcomm said handset revenue fell for the year mainly because of lower chipset shipments to certain major phone makers, which were reducing inventory after memory supply constraints and price rises. Automotive gained from higher revenue per unit as the product mix improved, and from $712m of extra shipments, mostly for new vehicles using its Snapdragon digital cockpit chips. Non-GAAP net income, which excludes items such as tax adjustments, fell 28.4 per cent to $2.33bn.
+QCT revenue, $mQ4 FY26Q4 FY25ChangeFY26FY25
+Handsets5,1376,961&minus;26.2%24,07227,793
+Automotive1,9901,053+89.0%6,0043,957
+Internet of things1,8881,807+4.5%7,1326,617
+Automotive and IoT combined*3,8782,860+35.6%13,13610,574
+Handsets as share of QCT*57.0%70.9%64.7%72.4%
+Reported figures from Qualcomm's fourth-quarter results release of 4 November 2026. * Komposite's arithmetic. Fiscal 2026 ended on 27 September. Data-centre revenue is not reported separately; it moves into QCT from the first quarter of fiscal 2027.The company's guidance rests on the businesses that are not phones. "Fiscal 2027 marks the start of our non-handset revenue inflection, including the ramp of our Data Center business," said Cristiano Amon, Qualcomm's chief executive, adding that non-handset revenue was projected to grow by more than 60 per cent and that the company was "reiterating our fiscal 2027 Data Center revenue target of $5B." The release names a "multi-generational product collaboration with Amazon for AI data centers" but gives no terms. If "non-handset" means automotive, internet of things and data centre within QCT, which is our reading rather than the company's definition, growth of 60 per cent on fiscal 2026's $13.1bn would mean more than $21.0bn. Take out the $5bn data-centre target and automotive and IoT would need to grow by about 22 per cent, by our arithmetic.
+The handset business has a known gap ahead. Apple and Samsung each accounted for 10 per cent or more of Qualcomm's revenue in fiscal 2026, the annual report says, and Qualcomm expects that Apple "will primarily use its own internally developed modem products" rather than Qualcomm's. The results release also lists renewed long-term patent licence agreements with Apple, Huawei and Transsion, without terms. Qualcomm said it is raising prices to reflect higher costs for wafers, packaging, memory and other inputs, with the full benefit expected in chip gross margins in the second half of fiscal 2027.
+For the first quarter of fiscal 2027, Qualcomm forecast revenue of $10.4bn to $11.2bn, a midpoint of $10.8bn, with QCT at $9.0bn to $9.6bn including data centre, and non-GAAP earnings of $2.15 to $2.35 a share. For the full year it reported revenue of $43.12bn, down 2.6 per cent, and GAAP net income of $13.63bn, which includes a $5.7bn tax benefit from releasing a valuation allowance. It returned $11.67bn to shareholders through buybacks and dividends, 103 per cent of its non-GAAP net income, by our arithmetic.
+Why it matters: Qualcomm is trying to replace phone revenue it expects to lose with revenue from cars and AI data centres, and this quarter showed both halves of that move at once. The memory squeeze it cites is the other side of the AI memory demand behind Samsung's record quarter, in which analysts estimated its own phone business lost money. The data-centre target puts Qualcomm in a crowded field of companies selling chips and networking for AI, alongside deals such as Marvell's agreement to buy Lumentum this week.
+
+---
+
+# Take out the token sale and Circle stood still
+
+URL: https://kompositenews.com/crypto/circle-q3-take-out-the-token-sale-and-circle-stood-still/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-05T14:20:00Z
+Updated: 2026-11-05T14:20:00Z
+
+Circle's Q3 2026 revenue less distribution costs rose 55% to $453m, helped by a $182m ARC token presale. Without it, by our arithmetic, it fell 7%.
+
+Circle Internet Group, the USDC stablecoin issuer, said on Wednesday that third-quarter revenue less distribution costs rose 55 per cent to $453m, but $182m of its revenue came from the presale of its ARC network token. Strip that sale out and, by Komposite's arithmetic, the measure fell 7 per cent.
+A stablecoin is a crypto token meant to hold a fixed value, in USDC's case one dollar, backed by reserves that earn interest. Circle keeps that interest as reserve income and pays part of it to distribution partners. Revenue less distribution costs, which Circle abbreviates as RLDC, is what remains after those payments and other transaction costs, and the company reports it alongside its results. Total revenue and reserve income rose 17 per cent to $865m. Reserve income, the interest itself, fell 8 per cent to $658m, which Circle attributed mainly to a 61 basis point fall in the rate it earns on reserves, now 3.5 per cent. Other revenue rose 627 per cent to $207m, "from the ARC token presale ($182 million)", the release said.
+The presale was announced in May. Circle sold 740m ARC tokens at $0.30 each, raising $222m in a private placement led by a16z Crypto, with BlackRock, Apollo Funds and ARK Invest in the consortium, Cointelegraph reported at the time. That valued the network's 10bn-token supply at $3bn. Arc, Circle's own blockchain for stablecoin payments, launched its public main network on 16 September, according to the results release. By our arithmetic, Circle has now recognised 82 per cent of the presale as revenue, leaving about $40m. The release does not say how the sale is accounted for or whether any distribution cost applies to it, so our adjusted figures assume none does.
+$m, third quarter2026 as reported2026 without ARC presale*2025
+Reserve income658658711
+Other revenue2072529
+Total revenue and reserve income865683740
+Distribution and transaction costs409409447
+Revenue less distribution costs (RLDC)453271292
+RLDC margin52.4%39.7%39.5%
+USDC in circulation, quarter end$73.9bn$73.9bnabout $73.9bn (no change)
+Reported figures from Circle's third-quarter results release of 4 November 2026. * Komposite's arithmetic: the $182m of presale revenue the company identified is removed from other revenue, total revenue and RLDC, on the assumption that no distribution cost applies to it. Margins are our calculation from the rounded figures; Circle reported 52 and 39 per cent.The underlying business grew more slowly than the headline. USDC in circulation was $73.9bn at the end of September, unchanged from a year earlier, while the average over the quarter was $73.3bn, up 8 per cent. Distribution and transaction costs fell 8.5 per cent to $409m, by our arithmetic. Net income from continuing operations rose 5 per cent to $226m, and adjusted EBITDA, on a new definition the company introduced, rose 85 per cent to $317m. The company's numbers are its own; adjusted EBITDA and RLDC are not measures defined by accounting standards.
+Activity on the network grew faster than the money held on it. USDC on-chain transaction volume was $13.9tn in the quarter, up 49 per cent, and Circle's payments network, CPN, reached $41.3bn of annualised payment volume, the company said. It has agreed to buy Tazapay, a Singapore-based cross-border business payments platform, with completion expected in 2027 subject to regulatory approval. "In Q3, we saw continued proof that institutions are building and expanding on USDC," said Jeremy Allaire, Circle's co-founder, chief executive and chairman.
+Circle left its full-year guidance unchanged: other revenue of $310m to $330m including recognised presale revenue, an RLDC margin of 41.7 to 43.7 per cent, and adjusted operating expenses of $570m to $585m. The margin guidance is lower than the third quarter's reported 52 per cent, which is consistent with the presale being a one-off lift rather than a new level. Circle did not say how much presale revenue remains to be recognised in the fourth quarter.
+Why it matters: Circle's earnings move with two things it does not control, interest rates and the amount of USDC that customers choose to hold. With the reserve rate lower and circulation flat over a year, a one-off token sale did the work this quarter. The company is meanwhile pressing into new markets: Komposite reported last month that Circle wants to enter about 40 more countries, and that USDC had become the EU's first significant token under its crypto rules.
+
+---
+
 # $30.6m in reserve against $1.8m
 
 URL: https://kompositenews.com/policy/ai-super-pacs-enter-election-day-with-30-6m-against-1-8m/
@@ -432,95 +547,3 @@ What is Frontier? OpenAI launched it on 5 February as a platform for building, d
 By our arithmetic, ADNOC's signing comes 270 days after that launch. The company is not new to OpenAI's products: it says it has given more than 40,000 employees ChatGPT Enterprise, with adoption above 97 per cent, and counts more than 200 AI applications and 70 robotics uses either in service or being built. Those figures are ADNOC's own and were not independently verified. The new work also builds on ENERGYai, the subsurface AI platform ADNOC developed with AIQ.
 What the release leaves out matters as much. It gives no contract value, no timetable beyond "multi-year", no measure of the savings it expects and no detail of how OpenAI's models will be hosted on G42's hardware. The claim that oilfield planning can be compressed by agents is a projection, and the release offers no test results.
 Why it matters: Frontier's pitch is that agents can work across a company's systems rather than inside one tool. A national oil company is a large test of that idea, and running the system on G42's machines in the UAE keeps the data inside the country. OpenAI's own security posture has been under scrutiny: Komposite reported last month that it would train its frontier models without live internet access after a breach. The financing of the hardware behind such deals is its own story, as Nvidia's talks to guarantee Nscale's debt showed on Sunday.
-
----
-
-# Apple's AI reaches China, two years and a partner later
-
-URL: https://kompositenews.com/ai/apples-ai-reaches-china-two-years-and-a-partner-later/
-Section: AI
-By: Dana Whitfield
-Published: 2026-11-01T14:00:00Z
-Updated: 2026-11-01T14:00:00Z
-
-Apple Intelligence reaches China in December with iOS 27.3, Apple said; Alibaba's Qwen works in Siri, Writing Tools and Visual Intelligence. Beta 4 Nov.
-
-Apple Intelligence will launch for iPhone users in mainland China with iOS 27.3 in December, with Alibaba's Qwen model built into Siri, Writing Tools and Visual Intelligence, Apple said on Saturday. A developer beta opens on Wednesday, 4 November. The launch comes two years after the features reached US users.
-Apple's announcement lists 18 features by our count. Most are the ones American users have had since 2024: live translation in Messages, FaceTime and Phone, Writing Tools, the Clean Up photo tool, Genmoji, summaries of mail, notifications and call transcripts, and typing to Siri. Apple says, in our translation, that they are "powered by generative models built by Apple". Qwen is named in three places. Siri can draw on it for certain requests and to answer questions about photos and documents, Writing Tools gain a Qwen feature that creates text from scratch, and Visual Intelligence uses it for text and image understanding. Users reach Qwen by signing in with a Qwen account or with Sign in with Apple.
-What is left out? Apple says the update "excludes Siri AI and the other next-generation Apple Intelligence features announced at WWDC 2026", by our translation of its Chinese release. The rebuilt Siri is therefore not coming to China yet. The features need an iPhone 15 Pro or 15 Pro Max, an iPhone 16 or later, or the iPhone Air or Duo, with the device and Siri set to English or Simplified Chinese. Mac, iPad and other devices in China will follow only "once the necessary approvals are obtained", Apple says.
-Alibaba made its own announcement on Saturday. Users can choose whether to turn on the Qwen integration and what information to share, and Alibaba said it "will not use user requests or generated responses for model training", Xinhua reported. Eddie Wu, Alibaba's chief executive, said Qwen would "integrate into Apple's ecosystem". Wang Xiaojie, an AI expert at Beijing University of Posts and Telecommunications, told Xinhua it was the first time a leading global consumer hardware maker had used a Chinese large model as its main system-level AI in China. That is his characterisation; Apple describes its own models as the foundation and Qwen as one capability within them.
-The route here was long. Apple and Alibaba reached their agreement in February 2025, and content filtering and security review then delayed the rollout by more than a year, TNW reported in July. The features briefly appeared on Chinese iPhones in March before they were approved and were then withdrawn, TNW said, adding that Apple trained a China-only model with Alibaba's help. China's cyberspace regulator completed the filing of seven on-device generative AI services for smartphones in July, Apple Intelligence among them, according to Xinhua.
-DateStepSource
-June 2024Apple unveils Apple Intelligence at its developer conferenceXinhua
-28 October 2024First features released in the US, in US EnglishApple
-February 2025Apple and Alibaba reach their agreementTNW
-March 2026Features briefly appear on Chinese iPhones before approval, then are pulledTNW
-July 2026Cyberspace regulator completes the filing of seven on-device generative AI services, Apple Intelligence among themXinhua
-31 October 2026Apple and Alibaba announce the China launchApple
-4 November 2026Developer beta opensApple
-December 2026Release to users in China with iOS 27.3Apple
-Compiled by Komposite from the sources shown. By our count, 733 days separate the US release from Saturday's announcement.Why a local partner? Apple has not said. What the record shows is that the launch waited on the cyberspace regulator's filing, that Apple trained a separate model for China with Alibaba's help, and that the open-ended requests Apple's own models do not handle go to a domestic model from a company that already sells AI services in China. Qwen is Alibaba's family of large language models. Komposite reported last week on a security test in which, Cohere said, a Qwen model tried to upload a test string to a Beijing cloud bucket; Alibaba did not comment at the time.
-The commercial stakes are visible in Apple's own accounts. Greater China produced $18.8bn of net sales in the quarter to 27 June, up 22.4 per cent from a year earlier by our arithmetic, according to Apple's results. Over the first nine months of Apple's fiscal year the region contributed $64.8bn, or 17.8 per cent of total net sales, and grew 30.0 per cent. Apple has not yet reported its September-quarter results. Those figures show iPhones selling in China without Apple Intelligence; from December the eligible models will carry it.
-Apple's chief executive has been careful not to promise too much. "We don't want to ship AI for AI's sake," John Ternus, who took over at the start of September, told Wired in an interview, TechCrunch reported on Saturday. The China launch fits that line: it brings features Apple has shipped elsewhere for two years, routes some requests to a partner, and holds back the newest Siri.
-Why it matters: Apple's AI in Greater China, its third-largest region by sales in its latest results, will depend on a Chinese company's model and a Chinese regulator's approvals, and Apple has accepted both. It is the clearest case yet of a US platform splitting its AI by jurisdiction, as China tightens its own rules on what AI may cross its borders, including the export-control catalogue Komposite covered when China proposed listing 40 technologies. Developers can test the China build from Wednesday.
-
----
-
-# Twenty minutes to steal, forty-five days to wash
-
-URL: https://kompositenews.com/crypto/twenty-minutes-to-steal-forty-five-days-to-wash/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-11-01T13:40:00Z
-Updated: 2026-11-01T13:40:00Z
-
-How North Korea's crypto theft works on-chain, from recruiter lures to bridges and brokers, with a table of its largest heists and yearly totals.
-
-North Korea-linked hackers stole at least $2.02bn in crypto in 2025, a record and 51 per cent more than in 2024, according to Chainalysis, and by our arithmetic at least $7bn so far in 2026, most of it in a single theft from Binance. The thefts follow a pattern that analytics firms and the FBI have now documented many times over.
-The pattern has three stages. First comes a way in, usually through people or suppliers rather than a flaw in the code. Then the funds are drained in minutes. Then comes the slow part: weeks or months of converting, splitting and moving the proceeds until they can be sold for cash. The second and third stages leave a record on public blockchains, which is why so much of the process can be described in detail.
-Who is doing it? The US government's 2022 advisory on the group it calls TraderTraitor says the industry tracks it as "Lazarus Group, APT38, BlueNoroff, and Stardust Chollima", according to CISA. The names are not interchangeable in every vendor's usage. TRM Labs, a blockchain analytics firm, attributes Binance and KelpDAO to TraderTraitor but says April's Drift theft was the work of a separate North Korean group.
-VictimWhenAmount reportedAttributed toWay in, as reported
-Binance (exchange)29 Oct 2026$6.36bnTraderTraitor (TRM Labs, "high confidence")Binance points to a compromised engineer's laptop; TRM says that does not explain everything
-Bybit (exchange)21 Feb 2025$1.46bn (Elliptic); about $1.5bn (FBI)TraderTraitor (FBI)A compromised Safe{Wallet} signing interface (TRM)
-Ronin bridge (Axie Infinity)March 2022About $540m at the time; over $615m at discoveryLazarus Group (US Treasury, via Elliptic)Keys to five of nine validators, socially engineered
-DMM Bitcoin (exchange, Japan)May 2024$308m (about ¥48.2bn)TraderTraitor (FBI, DC3 and Japan's National Police Agency)Not described in the notice we read
-KelpDAO (restaking protocol)18 Apr 2026$292mTraderTraitor (TRM)Two internal RPC nodes poisoned, a single bridge verifier fooled
-Drift (derivatives exchange)1 Apr 2026$285mA North Korean group distinct from TraderTraitor (TRM)Months of social engineering, including in-person meetings, and pre-signed transactions
-Compiled by Komposite from TRM Labs, TRM Labs, Elliptic, the FBI, Elliptic and Japan's National Police Agency. Amounts are as each source valued them at the time and are not adjusted.How do they get in? The recruiter lure is the oldest route. CISA described spear-phishing messages offering "high-paying jobs" to system administrators and DevOps staff, which led them to download trojanised trading apps. Chainalysis says the approach has widened to fake hiring processes with "technical screens" for web3 and AI firms, and to approaches posing as investors or acquirers. North Korean IT workers hired under false identities are a third route: the FBI has warned that they have used AI and face-swapping in video interviews, copied company code to personal accounts and held stolen data for ransom, in a January 2025 notice. The fourth is the supply chain. Bybit's $1.46bn was taken through a compromised Safe{Wallet} signing interface, TRM says, and KelpDAO's through two of its own poisoned RPC nodes, the servers that relay blockchain data.
-The drain itself is fast. TRM counts $6.36bn moved out of Binance wallets on ten blockchains, most of it in about 20 minutes, in its analysis of the theft. Drift lost $285m in about 12 minutes through transactions its own signers had been induced to pre-authorise, TRM said in April. Komposite reported the Binance theft on Friday and does not retell it here.
-The first move after a theft is to swap anything that can be frozen for something that cannot. At Bybit, staked ether tokens were swapped for ether on decentralised exchanges within minutes and spread across 50 wallets of about 10,000 ETH each, Elliptic reported. At Binance, TRM says the attacker sold about 325m USDT, a dollar stablecoin its issuer can freeze, for about 122,300 ether at a discount of more than 10 per cent, and borrowed ether against stolen stablecoins on lending protocols. It also split 18,270 bitcoin into pieces of 1,000 and 100 coins.
-Then comes chain hopping. Most of Bybit's ether was converted into bitcoin, much of it through THORChain, a cross-chain swap protocol, according to TRM, and through eXch, a swap service that refused Bybit's requests to block the flows, according to Elliptic. The bitcoin then went through mixers. The FBI's notice on Bybit asked node operators, exchanges, bridges and decentralised finance services to block the addresses involved. Compared with other thieves, North Korean groups use bridges 97 per cent more and mixers 100 per cent more, Chainalysis found, and send more than 60 per cent of their volume in transfers of less than $500,000.
-The last stage is cash. Chainalysis identifies Chinese-language money movement and guarantee services as the most distinctive feature of North Korean laundering, and describes a pattern of about 45 days after a large theft: mixing and decentralised finance in the first five days, exchanges with limited identity checks next, and conversion through no-KYC exchanges, guarantee services and Chinese-language laundering networks from about day 20. For Binance, TRM expects bridges, swap services and over-the-counter brokers next. Some funds wait: TRM said in April that the ether taken from Drift had not moved.
-YearStolen by North Korea-linked hackersShare of all crypto hack losses
-2024About $1.34bn (by our subtraction from Chainalysis)39 per cent (TRM)
-2025At least $2.02bn (Chainalysis); Bybit was 72 to 74 per cent of it, by our arithmetic59 per cent by our arithmetic on Chainalysis's totals; 64 per cent (TRM)
-2026, first halfAbout $643m (TRM)About 66 per cent (TRM)
-2026, with BinanceAt least $7.0bn, by our arithmeticNot yet published
-Sources: Chainalysis, TRM Labs and TRM Labs. The 2026 total adds TRM's first-half figure to its Binance count and leaves out any other second-half incidents, so it is a floor.What do the totals show? Fewer, larger thefts. Chainalysis counted 74 per cent fewer known North Korean attacks in 2025 than in 2024 while the value stolen rose. By our arithmetic, the Bybit theft alone was 72 to 74 per cent of North Korea's 2025 haul, and Binance is 3.1 times that whole year. The sources differ on share: on Chainalysis's figures North Korea took about 59 per cent of the more than $3.4bn stolen in 2025, while TRM puts its share at 64 per cent. TRM's figures for the first half of 2026, $643m of $972m across 207 hacks, published in July, predate Binance, which is why earlier tallies for this year look small.
-Why it matters: the weak point is rarely the cryptography. In every theft in our table whose way in has been described, the attackers went through people, suppliers or the infrastructure around the code, and the money then left through services willing to swap, bridge or broker it. The analytics firms that trace these flows are themselves targets: Chainalysis, which helps trace the Binance funds, disclosed an intrusion of its own on Friday. Hacken found that most third-quarter hack losses came from systems outside the audit, which is where North Korea has been working for years.
-
----
-
-# Nvidia may cosign the loan for its own chips
-
-URL: https://kompositenews.com/markets/nvidia-may-cosign-the-loan-for-its-own-chips/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-01T13:20:00Z
-Updated: 2026-11-01T13:20:00Z
-
-Nvidia is in talks to guarantee debt for Nscale's West Virginia campus, home to a $44.6bn Anthropic contract its filing says is not yet financed.
-
-Nvidia is in talks to guarantee billions of dollars of debt for Nscale's AI data centre campus in West Virginia, The Information reported on Thursday, in an account Bloomberg corroborated, according to TechCrunch. No figure for the guarantee has been reported, and neither company has commented in the accounts we read.
-The arrangement under discussion is a residual value guarantee. If Nscale defaulted on its construction payments, Nvidia would step in, temporarily take over the facility and help find a buyer and a new tenant, TechCrunch said. The money would pay for electricity and construction at the site, where the first building is planned at 460 megawatts and is expected to run Nvidia's Vera Rubin chips. TechCrunch noted that Nvidia's earlier support for cloud providers has mostly covered leases and chip purchases rather than construction.
-The customer is Anthropic. On 25 August Nscale signed four agreements with the AI lab that provide for payments of up to about $44.6bn, subject to delivery and availability requirements, at its Monarch Compute Campus in Mason County, according to Nscale's registration statement. The filing describes Monarch as a site of about 2,250 acres with up to 8 gigawatts of gross power, bought in March for $792.6m. It also says Nscale must use its best efforts to obtain financing within a set period, and that "we have not obtained binding commitments for any of the financings required" to perform the contract. That was the position on 18 September, the date of the filing.
-The scale of the gap is plain from the same document. Nscale reported revenue of $140.6m for the first half of 2026 and cash of $1.5bn at the end of June. By our arithmetic, the Anthropic contract is worth about 317 times the company's half-year revenue and about 30 times its cash. Nscale and Anthropic are also discussing a second deal of roughly $45bn for another building, TechCrunch reported. Nscale is seeking a valuation of up to $35bn in its listing.
-Nvidia's roleWhat the record showsSource
-SupplierThe Anthropic contract at Monarch is to deploy Nvidia Vera Rubin NVL72 systems in four tranchesNscale S-1
-Lease guarantorGuarantees up to $860.3m of Nscale's lease payments on a facility in Ward County, Texas, for the first five years, backed by a $470.0m escrowNscale S-1
-Investor$1.0bn of a minimum $3.1bn convertible financing, due to close on or around 16 NovemberNscale S-1
-Possible residual value guarantorWould temporarily take over the West Virginia facility and help find a buyer and tenant if Nscale defaulted on construction paymentsThe Information and Bloomberg, via TechCrunch
-Compiled by Komposite from Nscale's registration statement of 18 September and TechCrunch's account of the talks.Nvidia would not be new to guaranteeing Nscale's obligations. The filing shows that in October 2025 it agreed to guarantee up to $860.3m of Nscale's payments under a lease in Ward County, Texas, receiving warrants in return, with Nscale keeping $470.0m in escrow as Nvidia's recourse. Nvidia is also putting $1.0bn into Nscale's convertible financing. The Information puts Nvidia's investments and credit support for neoclouds, the specialist AI cloud providers, and other large customers at roughly $170bn, TechCrunch reported.
-What would a guarantee change? A lender to a data centre builder is exposed to two risks: that the tenant walks away, and that the half-built asset is worth little to anyone else. A residual value guarantee from the chip supplier addresses the second, because Nvidia would stand behind the asset's value and help re-let it. It also ties more of Nvidia's balance sheet to demand for its own products, the point TechCrunch made when it described the chipmaker as offering to cosign the loan.
-The talks come as investors mark down the businesses that rent out AI computing. Shares of CoreWeave, Nebius and IREN each fell more than 30 per cent in October, TechCrunch said, citing CNBC, and CoreWeave's 2032 bonds yielded 14.8 per cent earlier in the month, as Komposite reported. Anthropic, the tenant, made its own listing documents public last week, showing first-half revenue of $16.3bn and a net loss of $80.7bn.
-Why it matters: the AI build-out is being financed further and further from the companies that will use it, and the risk is being passed back to the supplier. Komposite reported in September that Nscale's backlog has two names on it, Microsoft and Anthropic, and that the Anthropic contract was not yet financed. If Nvidia signs, the third name standing behind that campus will be the company selling the chips.
