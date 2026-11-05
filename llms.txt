@@ -46,6 +46,7 @@
 
 ## Newest stories
 
+- [Six hundred patients and a text thread](https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/): An Ohio direct primary care practice caps panels at 600 and answers by text and video. What it runs on, where AI fits and how employers come in.
 - [Nineteen of twenty-two, mostly in safe seats](https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/): By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.
 - [Handsets down 26 per cent, cars up 89](https://kompositenews.com/technology/qualcomm-handsets-down-26-per-cent-cars-up-89/): Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.
 - [Take out the token sale and Circle stood still](https://kompositenews.com/crypto/circle-q3-take-out-the-token-sale-and-circle-stood-still/): Circle's Q3 2026 revenue less distribution costs rose 55% to $453m, helped by a $182m ARC token presale. Without it, by our arithmetic, it fell 7%.
@@ -53,7 +54,6 @@
 - [Thirty-one states, three courtrooms](https://kompositenews.com/ai/thirty-one-states-have-election-deepfake-laws-on-polling-day/): By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.
 - [A hundred and fifteen billion, paid in shares](https://kompositenews.com/markets/marvell-to-buy-lumentum-for-115bn-in-stock/): Marvell will buy Lumentum in an all-stock deal valuing it at $115bn, 4.5 shares each. Marvell owes $3.2bn if regulators block it. Close due H1 2028.
 - [Eleven hours on someone else's shelf](https://kompositenews.com/cybersecurity/a-tampered-claude-code-extension-sat-on-cursors-marketplace-for-eleven-hours/): A tampered Claude Code extension sat on Cursor's marketplace for 11 hours on 29 October, trying to plant an SSH backdoor. Its origin is unexplained.
-- [OpenAI's agents go to the oilfield](https://kompositenews.com/ai/adnoc-signs-openai-and-g42-to-run-frontier-agents-on-its-oilfields/): ADNOC signed a multi-year deal with OpenAI and G42 on 2 November to use OpenAI Frontier for field planning and barrel valuation. No value was disclosed.
 
 ## About, standards and contact
 

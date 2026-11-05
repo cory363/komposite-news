@@ -282,6 +282,45 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Six hundred patients and a text thread
+
+URL: https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/
+Section: Business
+By: Dana Whitfield
+Published: 2026-11-05T19:55:00Z
+Updated: 2026-11-05T19:55:00Z
+
+An Ohio direct primary care practice caps panels at 600 and answers by text and video. What it runs on, where AI fits and how employers come in.
+
+Patients at Maple Health can reach their care team by text, video, phone or email at any hour. Each clinician keeps no more than 600 of them, the practice's website says, against the "2,000 to 3,000 patients per clinician" it calls usual in traditional care.
+The Mentor, Ohio, practice runs on direct primary care, a membership model. Patients pay a flat monthly fee, and the practice does not bill an insurer for each visit.
+That model sets technology a different test. In a fee-for-service clinic, software tends to justify itself by helping a practice bill more encounters. When the fee covers the relationship, a tool earns its place only by giving clinicians time back for patients.
+Dr. Richard Berry, a family physician, founded the practice in 2022 and is its owner and chief executive. He spent six years in the British Royal Marines, he says, including tours in Afghanistan and Iraq, before training at Leicester Medical School in England and completing his family medicine residency at MetroHealth in Cleveland.
+Since then the practice has built its care around round-the-clock access, a small panel and a collaborative team. Direct primary care can restore "time, continuity, communication, and a stronger focus on prevention rather than simply reacting to illness," Dr. Berry said.
+Members choose their clinician. Memberships with one of the practice's physician assistants run $70 to $90 a month, depending on age. Membership with Dr. Berry costs $125, according to the practice's plans page. Two new doctors join the practice in April, which Dr. Berry said will give it more than enough room to take on new patients. "Physician assistants at Maple Health manage their own patient panels within a collaborative clinical team rather than functioning simply as a way to increase visit volume," he said.
+He sees a broader shift under way. "Primary care is shifting from transactions to subscriptions," he said. A membership practice, in his view, "is paid to keep a patient cared for over time, whether the work happens in the office, by phone, by message, or through proactive follow-up."
+What it runs on
+Maple Health's home page promises "complete 24/7 access to your care team" in the clinic and by video, voice, text and email, with same-day and next-day appointments. Its "Enroll Now" button opens a sign-up page hosted by Atlas.md, which calls itself "EMR Software for Direct Care Medicine" and offers subscription billing, self-booking, video visits and text messages filed to the patient's chart. Atlas.md was the records system most used by respondents to the American Academy of Family Physicians' 2026 direct primary care data brief, at 26 per cent.
+The brief drew on 313 family physicians who had engaged with the academy's direct primary care material, a 9.3 per cent response rate. Of those, 167 were practising in the model.
+Direct primary care practices202220242025
+Share with employer contracts65%63%55%
+Average e-visits a week71113
+Average patient paneln/a402504
+Practices using AI-enabled toolsn/an/a66%
+Komposite analysis. The AAFP figures show care moving online. The average practice logged 13 e-visits a week in 2025, almost double the 2022 figure.
+Where AI fits
+Dr. Berry's test for AI is simple. "AI should increase the amount of doctor-patient interaction, not replace doctors," he said. Two in three AAFP respondents said their practices had adopted AI-enabled tools, and 49 per cent used AI for clinical purposes. His broader goal is a system "with fewer administrative barriers between patients and their clinicians," he said.
+The employer market
+Maple Health is expanding direct primary care to employers, an extension of the model it already runs. Its employer page offers a business membership at $90 a month per adult with a $60 joining fee, open to groups as small as two. Companies with 60 or more employees also get a physician assistant on site one full day a month. The page pairs the membership with insurance meant mainly for larger medical expenses.
+Employer contracts are familiar territory nationally. In the AAFP brief, 55 per cent of practising respondents had them in 2025, down from 63 per cent in 2024. Most clients are small. Among practices with contracts, 69 per cent worked with employers of fewer than 10 people and 59 per cent with employers of 10 to 25. Twenty-two per cent had clients with more than 250 workers.
+Those employers mostly want visit counts. About a quarter of practices with employer contracts said clients asked for data, and 95 per cent of those requests were for visit counts. Only 23 per cent sought quality measures. A practice whose care happens in text threads and video calls will need records that show employers that work too.
+Large employers are looking for ways to manage rising costs. In Business Group on Health's 2027 employer survey of 127 companies, respondents projected a median rise of 9.2 per cent in health care costs for 2027, or 8 per cent after plan design changes, and 60 per cent said they were elevating prevention and primary care, according to the group's announcement. In last year's survey, 35 per cent said they would provide primary care at on-site health centres, InsuranceNewsNet reported.
+What comes next
+Dr. Berry described the access promise to DPC News in 2023. "When I say access, that means you can text, call, or email, and you'll get a response right away, around the clock," he said. Maple Health has run on individual memberships since 2022, with a small panel and a collaborative clinical team. The open question is whether that model can scale from individual memberships into employer-sponsored primary care.
+For Dr. Berry, the measure of any new tool, AI included, is whether it gives that team more time with patients it already knows well.
+
+---
+
 # Nineteen of twenty-two, mostly in safe seats
 
 URL: https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/
@@ -518,32 +557,3 @@ Timeline compiled by Komposite from Cursor's security notice (29 October, update
 The numbers are thinner than the coverage. Up to 5,000 users may have been exposed, heise reported, citing Reuters, and BleepingComputer and StepSecurity both describe that as Cursor's initial upper bound. Cursor's own notice gives no figure. Early reports also said the tampered build had reached npm, the Open VSX registry and Microsoft's marketplace. That was ruled out: Cursor was the only distribution point, and StepSecurity verified the 2.1.312 build on Open VSX as clean.
 Anthropic says its own systems were not breached. Felix Rieseberg of Anthropic said "it wasn't a compromise of Anthropic's systems or employee laptops", and that the versions on its official channels were unaffected, StepSecurity recorded. David Dworken of Anthropic confirmed that 2.1.313 was never published to Open VSX, Microsoft's marketplace or its other official hosts, and the company moved straight to version 2.1.314, which users should now be on. Cursor's advice for anyone who installed during the window is to look for the svc-telemetry key, remove the persistence and tunnel processes, and rotate credentials from a trusted machine. "Uninstalling the extension may not be sufficient," it said.
 Why it matters: a developer's machine holds the keys to everything else, and an extension runs with the developer's rights. Here the publisher's code was clean and its official channels were untouched; the weak point was a third-party store that redistributes its work, and that store has not yet explained how it was used. Cursor has had other security questions in recent days: researchers said last week that browsers built into five AI coding tools, Cursor's among them, broke basic security rules; Cursor's has since been fixed. Railway's customers were told this month to rotate every key after an unauthorised party may have decrypted some of their environment variables, the same class of material a reverse tunnel into a developer's laptop could reach.
-
----
-
-# OpenAI's agents go to the oilfield
-
-URL: https://kompositenews.com/ai/adnoc-signs-openai-and-g42-to-run-frontier-agents-on-its-oilfields/
-Section: AI
-By: Dana Whitfield
-Published: 2026-11-02T13:00:00Z
-Updated: 2026-11-02T13:00:00Z
-
-ADNOC signed a multi-year deal with OpenAI and G42 on 2 November to use OpenAI Frontier for field planning and barrel valuation. No value was disclosed.
-
-Abu Dhabi National Oil Company has signed OpenAI and G42 to a multi-year partnership to run OpenAI's Frontier agent platform on its oilfield planning and crude valuation, ADNOC said on Monday. The agreement was signed at ADIPEC, the oil and gas conference in Abu Dhabi, and its value was not disclosed.
-What does the release commit to? The three companies will build a custom "decision intelligence" capability that combines OpenAI's models with ADNOC's own industrial data, and it will run on hardware operated by G42 inside the UAE, according to the release. G42 is an Abu Dhabi AI group, and the release says it has worked with ADNOC for years through AIQ. ADNOC says human experts will keep oversight of consequential decisions. The release says no other energy company has yet deployed OpenAI Frontier. That is ADNOC's description, and it could not be independently verified.
-Two uses come first. The first is field master planning, which ADNOC says will merge reservoir, facility and economic studies into a single decision, drawing on data from thousands of wells, several reservoirs layered on one another and hundreds of installations above ground. The second is what it calls barrel valuation: connected agents would forecast supply, demand, prices and margins across production, refining, logistics, sales and trading, so that each barrel is valued before it is produced. The release also mentions cyber defence support through an OpenAI initiative called Daybreak Blue, without detail.
-QuestionWhat ADNOC's release says
-What is being built?A custom "decision intelligence" capability on OpenAI Frontier, using OpenAI's models and ADNOC's industrial data
-Where does it run?On G42's sovereign AI infrastructure in the UAE
-First usesField master planning and valuing each barrel before it is produced
-Who decides?Human experts keep oversight of consequential decisions
-What it builds onChatGPT Enterprise for more than 40,000 staff; more than 200 AI applications and 70 robotics use cases
-Value of the dealNot disclosed
-TimetableNot disclosed beyond "multi-year"
-Komposite's summary of ADNOC's release of 2 November 2026. ADNOC's figures are its own and were not independently verified.The executives spoke in the release. "This is industrial AI at scale, pioneered here in Abu Dhabi," said Dr Sultan Ahmed Al Jaber, the UAE's Minister of Industry and Advanced Technology and ADNOC's managing director and group chief executive. "Together, we're shaping the future of AI-enabled energy," said Sam Altman, OpenAI's chief executive. Mansoor Al Mansoori, chief executive of G42 International, said: "You should not have to use AI to benefit from it." Al Jaber said the partnership would change ADNOC's field development, asset management and commercial operations, Gulf News reported. Sheikh Khaled bin Mohamed bin Zayed Al Nahyan, Abu Dhabi's crown prince, witnessed the signing.
-What is Frontier? OpenAI launched it on 5 February as a platform for building, deploying and managing AI agents, including agents made by Google, Microsoft and Anthropic, CNBC reported at the time. It opened to a small set of customers first. The four that CNBC named were Uber, State Farm, Intuit and Thermo Fisher Scientific, none of them an energy company. OpenAI did not give pricing. Its chief financial officer, Sarah Friar, told CNBC then that business customers made up about 40 per cent of OpenAI's business and that she expected the share to approach 50 per cent by the end of the year.
-By our arithmetic, ADNOC's signing comes 270 days after that launch. The company is not new to OpenAI's products: it says it has given more than 40,000 employees ChatGPT Enterprise, with adoption above 97 per cent, and counts more than 200 AI applications and 70 robotics uses either in service or being built. Those figures are ADNOC's own and were not independently verified. The new work also builds on ENERGYai, the subsurface AI platform ADNOC developed with AIQ.
-What the release leaves out matters as much. It gives no contract value, no timetable beyond "multi-year", no measure of the savings it expects and no detail of how OpenAI's models will be hosted on G42's hardware. The claim that oilfield planning can be compressed by agents is a projection, and the release offers no test results.
-Why it matters: Frontier's pitch is that agents can work across a company's systems rather than inside one tool. A national oil company is a large test of that idea, and running the system on G42's machines in the UAE keeps the data inside the country. OpenAI's own security posture has been under scrutiny: Komposite reported last month that it would train its frontier models without live internet access after a breach. The financing of the hardware behind such deals is its own story, as Nvidia's talks to guarantee Nscale's debt showed on Sunday.
