@@ -46,6 +46,7 @@
 
 ## Newest stories
 
+- [The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550](https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/): A dealer quoted $1,270 for a replacement Range Rover key; a Pittsburgh mobile locksmith did it on-site for $550. Where the money goes, and how to vet a locksmith.
 - [Six hundred patients and a text thread](https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/): An Ohio direct primary care practice caps panels at 600 and answers by text and video. What it runs on, where AI fits and how employers come in.
 - [Nineteen of twenty-two, mostly in safe seats](https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/): By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.
 - [Handsets down 26 per cent, cars up 89](https://kompositenews.com/technology/qualcomm-handsets-down-26-per-cent-cars-up-89/): Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.
@@ -53,7 +54,6 @@
 - [$30.6m in reserve against $1.8m](https://kompositenews.com/policy/ai-super-pacs-enter-election-day-with-30-6m-against-1-8m/): FEC filings show the Leading the Future super PACs held $30.6m in cash on 14 October; the Public First group held $1.8m on 30 September.
 - [Thirty-one states, three courtrooms](https://kompositenews.com/ai/thirty-one-states-have-election-deepfake-laws-on-polling-day/): By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.
 - [A hundred and fifteen billion, paid in shares](https://kompositenews.com/markets/marvell-to-buy-lumentum-for-115bn-in-stock/): Marvell will buy Lumentum in an all-stock deal valuing it at $115bn, 4.5 shares each. Marvell owes $3.2bn if regulators block it. Close due H1 2028.
-- [Eleven hours on someone else's shelf](https://kompositenews.com/cybersecurity/a-tampered-claude-code-extension-sat-on-cursors-marketplace-for-eleven-hours/): A tampered Claude Code extension sat on Cursor's marketplace for 11 hours on 29 October, trying to plant an SSH backdoor. Its origin is unexplained.
 
 ## About, standards and contact
 

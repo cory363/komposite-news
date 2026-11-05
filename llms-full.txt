@@ -282,6 +282,43 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550
+
+URL: https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/
+Section: Business
+By: Cory Chamberlain
+Published: 2026-11-05T20:22:00Z
+Updated: 2026-11-05T20:22:00Z
+
+A dealer quoted $1,270 for a replacement Range Rover key; a Pittsburgh mobile locksmith did it on-site for $550. Where the money goes, and how to vet a locksmith.
+
+A Land Rover dealership quoted me $1,270 to replace the key to my Range Rover. LocKey Locksmith, a mobile locksmith in Pittsburgh, cut and programmed a new one in my driveway for $550. That is $720, or 57 per cent, less than the dealer's price.
+I paid the locksmith's bill myself, and I am reporting the numbers because few owners know a cheaper option exists until they need it. The gap between the two prices comes almost entirely from labour and programming. The key itself is cheap.
+Why does a Land Rover key cost so much to replace?
+Most of the price pays for programming, not for the key. Land Rover's current models, the Range Rover, Range Rover Sport, Evoque, Discovery, Discovery Sport and Defender, use keys that carry a transponder chip or work as a proximity fob. A transponder is a small chip that sends a coded signal to the car's immobiliser, the anti-theft system that stops the engine from starting without a recognised key. A cut blade with no matching code will open a door but will not start the car.
+Matching a new key to the car takes diagnostic equipment and software that can talk to the vehicle's security modules. Dealers charge a premium for that work. A growing number of independent automotive locksmiths have bought comparable tools and do the same job at the car.
+ItemApproximate cost
+Key blank or fob shell$20 to $30
+Coding the chip and programming the key to the carabout $200
+Mobile call-out (travel, equipment, on-site labour)about $100
+Paid to LocKey Locksmith, in my driveway$550
+Land Rover dealership quote$1,270
+Difference$720 (57 per cent less)
+Component costs are typical trade prices gathered for this article, not an itemised invoice. The $550 and $1,270 figures are the author's own payment and quote for the same Range Rover key. Percentage is Komposite's arithmetic.What does the dealer's price leave out?
+The dealer's quote did not include the cost of getting the car there. An owner who has lost every key cannot drive to the service department, so a tow comes first. Dealer service departments often book days ahead and may have to order the fob, and someone has to arrange rides to and from the dealership. Pittsburgh owners also have few dealers to choose between, which leaves little competition on price.
+The locksmith's visit avoided all of that. The car did not move, the technician brought the cutting and programming equipment, and the job took a single call-out.
+What does a mobile locksmith actually do?
+LocKey, which dispatches from Pittsburgh's 15217 ZIP code and operates around the clock, describes a five-step process on its website. The technician verifies that the customer owns the vehicle, cuts the blade, programs the key to the immobiliser, tests the locks, ignition and remote, and hands over the key. The firm says it gives a price before starting, and that the total depends on the key type, the model and year, how complex the programming is, and whether the call comes after hours.
+The ownership check matters. A locksmith willing to program a key to a luxury SUV without confirming who owns it is also willing to do it for a thief.
+How do you check a locksmith in Pennsylvania?
+Pennsylvania does not license locksmiths statewide, unlike states such as New Jersey and Texas, so the checking falls to the customer. LocKey trades as LocKey LockSmith LLC and lists Pennsylvania Home Improvement Contractor registration PA175243, which can be looked up in the Attorney General's contractor search. That is a registration with the state, not a locksmith's licence.
+The common complaint against bad operators is a low price on the phone and a much larger bill once the car is open. Ask for the full price, including programming and the call-out, before work begins, and get it in writing.
+Is there a cheaper way?
+Yes: replace a key before the last one is gone. "All keys lost" is the most expensive version of the job because there is no working key to copy. Adding a spare while one still works costs a fraction of that. Keeping the spare at home rather than in the car, changing the fob battery when range weakens, and keeping fobs away from water and heat all lower the odds of ending up there.
+Why it matters: car keys have become small computers, and replacing one is now an electronics job priced like a repair. For owners of luxury models, the dealer is the default but not the only choice. In my case the alternative came to the driveway and cost $720 less.
+
+---
+
 # Six hundred patients and a text thread
 
 URL: https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/
@@ -531,29 +568,3 @@ Price paid per dollar of revenue*22.8x annualised last quarter; 18.0x annualised
 By our arithmetic, $115bn is 22.8 times Lumentum's annualised September-quarter revenue, and 18.0 times the annualised midpoint of its guidance. The companies' figures also imply a Marvell share price of about $251.6 and an unaffected Lumentum price of about $914, though both are derived from rounded numbers. In return, the companies promise more than $1bn a year of cost savings at full run rate and say the deal will add to Marvell's adjusted earnings per share in its first year after closing. Those are forecasts. Marvell said its revenue for the quarter now under way would be consistent with its earlier guidance, narrowing the range to plus or minus 2 per cent from 5 per cent, without giving a figure.
 Lumentum's pitch to buyers has been scarcity. Its chief executive said last month that its AI optical parts were sold out to early 2029, a year later than he had said in the spring. Because the price is paid in shares, no cash changes hands for Lumentum's stock, at a time when other parts of the AI supply chain are leaning on borrowed money, as Nvidia's talks to guarantee Nscale's financing showed on Sunday.
 Why it matters: an AI data centre is increasingly limited by how fast chips can talk to each other, and the companies argue that copper is reaching its physical limits. Combining Marvell's chip design with Lumentum's lasers and its indium phosphide manufacturing would put more of that link under one roof. That is also what antitrust reviewers will look at, and the contract gives them until August 2028 before Marvell's $3.2bn fee comes into play.
-
----
-
-# Eleven hours on someone else's shelf
-
-URL: https://kompositenews.com/cybersecurity/a-tampered-claude-code-extension-sat-on-cursors-marketplace-for-eleven-hours/
-Section: Cybersecurity
-By: Sam Porter
-Published: 2026-11-02T13:20:00Z
-Updated: 2026-11-02T13:20:00Z
-
-A tampered Claude Code extension sat on Cursor's marketplace for 11 hours on 29 October, trying to plant an SSH backdoor. Its origin is unexplained.
-
-A tampered copy of Anthropic's Claude Code extension was available on Cursor's extension marketplace for about 11 hours on 29 October and tried to install a hidden SSH backdoor on developers' machines, Cursor said in a security notice. Versions 2.1.312 and 2.1.313 for macOS and Windows were affected. Cursor said the builds "were not developed by Anthropic".
-Cursor is an AI code editor built on Microsoft's open-source VS Code, and it runs its own marketplace for the extensions its users install. Claude Code, Anthropic's coding agent, is offered there as an extension. The malicious builds were live from about 2:27am to 1:35pm Pacific time, Cursor said. Cursor removed them on detection, audited access, rotated its keys, rebuilt the marketplace and brought it back online, and it worked with the hosting provider to take the attacker's server offline. It said it found no other tampered extensions. Its notice does not say how many people installed the builds, or how the attacker obtained the access to publish them.
-What did the code do? A loader added to the top of the extension's main file ran as soon as the extension loaded, BleepingComputer reported, citing the researchers at Phorion and OpenSourceMalware who found it. According to a static analysis by StepSecurity, it added an attacker's key named "svc-telemetry" to the machine's list of authorised SSH keys, tried to switch on the SSH server, and every 60 seconds tried to open a reverse tunnel to a server at 134.209.82.225. It set itself to survive a restart through a LaunchAgent on macOS and a scheduled task or startup script on Windows. It also sent the machine's name, user name, Git email address and the names, but not the values, of up to 40 environment variables that looked like credentials.
-When (UTC)What happenedSource
-29 Oct, about 09:27Tampered builds 2.1.312 and 2.1.313 appear on Cursor's extension marketplace for macOS and WindowsCursor; StepSecurity
-29 Oct, 20:35Cursor removes the builds, takes the marketplace offline and rotates keysCursor; StepSecurity
-30 OctThe attacker's server is taken offline with the hosting provider; Cursor updates its indicators and the affected versionsCursor
-30 OctEarly claims that npm, Open VSX and Microsoft's marketplace were hit are ruled out; Cursor was the only sourceBleepingComputer; StepSecurity
-1 NovStepSecurity publishes a static analysis of the recovered extension codeStepSecurity
-Timeline compiled by Komposite from Cursor's security notice (29 October, updated 30 October), StepSecurity's analysis (30 October, updated 1 November) and BleepingComputer (30 October). Cursor gave its times in Pacific time; StepSecurity's UTC conversion is used. The window was 11 hours 8 minutes by our arithmetic.How far did it get? Less far than it tried. Cursor said the step that switches on SSH "would fail" outside highly unusual circumstances, but that the extension still added the key, installed its persistence and sent host details. BleepingComputer traced the failures to coding errors: on macOS the remote-login check needs administrator rights it did not have, and on Windows the setup ran through a Unix shell that standard Windows machines do not have. StepSecurity found no second-stage download and no access to Claude or editor data, and stressed that installing an affected version does not by itself prove a machine was compromised.
-The numbers are thinner than the coverage. Up to 5,000 users may have been exposed, heise reported, citing Reuters, and BleepingComputer and StepSecurity both describe that as Cursor's initial upper bound. Cursor's own notice gives no figure. Early reports also said the tampered build had reached npm, the Open VSX registry and Microsoft's marketplace. That was ruled out: Cursor was the only distribution point, and StepSecurity verified the 2.1.312 build on Open VSX as clean.
-Anthropic says its own systems were not breached. Felix Rieseberg of Anthropic said "it wasn't a compromise of Anthropic's systems or employee laptops", and that the versions on its official channels were unaffected, StepSecurity recorded. David Dworken of Anthropic confirmed that 2.1.313 was never published to Open VSX, Microsoft's marketplace or its other official hosts, and the company moved straight to version 2.1.314, which users should now be on. Cursor's advice for anyone who installed during the window is to look for the svc-telemetry key, remove the persistence and tunnel processes, and rotate credentials from a trusted machine. "Uninstalling the extension may not be sufficient," it said.
-Why it matters: a developer's machine holds the keys to everything else, and an extension runs with the developer's rights. Here the publisher's code was clean and its official channels were untouched; the weak point was a third-party store that redistributes its work, and that store has not yet explained how it was used. Cursor has had other security questions in recent days: researchers said last week that browsers built into five AI coding tools, Cursor's among them, broke basic security rules; Cursor's has since been fixed. Railway's customers were told this month to rotate every key after an unauthorised party may have decrypted some of their environment variables, the same class of material a reverse tunnel into a developer's laptop could reach.
