@@ -30,7 +30,7 @@ const AUTHORS = {
   "julio-rojas": ["Julio Rojas", "Contributor"],
   "irene-spiegel": ["Irene Spiegel", "Contributor"],
   "cory-chamberlain": ["Cory Chamberlain", "Chief Editor"],
-  "noam-krasniansky": ["Noam Krasniansky", "Chief Content Officer"],
+  "noam-krasniansky": ["Noam Krasniansky", "Co-Editor and Chief Content Officer"],
 };
 
 const read = f => fs.readFileSync(f, "utf8");

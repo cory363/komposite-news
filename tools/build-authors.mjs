@@ -18,8 +18,9 @@ const ROSTER = [
     /* Peer to the chief editor, not beneath one. Biography stays to a single
        factual sentence: nothing is asserted about a real person that they have
        not said themselves. */
-    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Chief Content Officer",
-      bio: "Noam Krasniansky is chief content officer of Komposite News." },
+    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Co-Editor and Chief Content Officer",
+      bio: "Noam Krasniansky is co-editor and chief content officer of Komposite News, and shares editorial direction of the publication with chief editor Cory Chamberlain.",
+      beats: "Editorial direction and content strategy" },
   ]],
   ["Newsroom", [
     { slug: "jonathan-bright" }, { slug: "marcus-oyelaran" }, { slug: "colin-abernathy" },

@@ -42,7 +42,7 @@ const AUTHORS = {
   "julio-rojas": "Julio Rojas|Contributor",
   "irene-spiegel": "Irene Spiegel|Contributor",
   "cory-chamberlain": "Cory Chamberlain|Chief Editor",
-  "noam-krasniansky": "Noam Krasniansky|Chief Content Officer",
+  "noam-krasniansky": "Noam Krasniansky|Co-Editor and Chief Content Officer",
 };
 
 export const heroKey = a => `${a.dir}/${a.slug}`;
