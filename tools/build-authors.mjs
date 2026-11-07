@@ -12,13 +12,13 @@ const initials = n => n.split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpper
 /* Order inside a group is editorial, not alphabetical: desk editors first. */
 const ROSTER = [
   ["Leadership", [
-    { slug: "cory-chamberlain", name: "Cory Chamberlain", role: "Chief Editor",
+    { slug: "cory-chamberlain", name: "Cory Chamberlain", role: "Chief Editor and Contributor",
       bio: "Cory Chamberlain is the chief editor of Komposite News. He comes to the newsroom from a media executive background and works as an author and journalist.",
       beats: "Editorial direction and standards" },
     /* Peer to the chief editor, not beneath one. Biography stays to a single
        factual sentence: nothing is asserted about a real person that they have
        not said themselves. */
-    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Co-Editor and Chief Content Officer",
+    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Co-Editor, Chief Content Officer and Contributor",
       bio: "Noam Krasniansky is co-editor and chief content officer of Komposite News, and shares editorial direction of the publication with chief editor Cory Chamberlain.",
       beats: "Editorial direction and content strategy" },
   ]],

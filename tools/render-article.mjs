@@ -41,8 +41,8 @@ const AUTHORS = {
   "grant-whitmore": "Grant Whitmore|House byline",
   "julio-rojas": "Julio Rojas|Contributor",
   "irene-spiegel": "Irene Spiegel|Contributor",
-  "cory-chamberlain": "Cory Chamberlain|Chief Editor",
-  "noam-krasniansky": "Noam Krasniansky|Co-Editor and Chief Content Officer",
+  "cory-chamberlain": "Cory Chamberlain|Chief Editor and Contributor",
+  "noam-krasniansky": "Noam Krasniansky|Co-Editor, Chief Content Officer and Contributor",
 };
 
 export const heroKey = a => `${a.dir}/${a.slug}`;
