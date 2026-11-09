@@ -11,6 +11,7 @@ URL: https://kompositenews.com/about/
 About Komposite News
 Komposite News is an independent digital publication covering artificial intelligence, blockchain, digital assets, enterprise technology, cybersecurity, fintech and capital markets. We write for executives, founders, investors, developers and policy professionals who need to understand how technology and finance are changing each other.
 Our coverage prioritizes reporting and analysis over hype. We are interested in what is being built, what it costs, who is buying it and what the consequences are, and we hold breathless claims from any direction to the same standard of evidence.
+Komposite News is edited by Cory Chamberlain, chief editor, and Noam Krasniansky, co-editor and chief content officer.
 Ownership and funding: Komposite News is independently operated. Any commercial relationship relevant to a story is disclosed within that story, and sponsored content is always clearly labeled. Questions about the publication can be directed through our contact page.
 
 ---
@@ -282,6 +283,122 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Nvidia's board opens an inquiry, 394 days after Megaspeed
+
+URL: https://kompositenews.com/ai/nvidia-board-opens-inquiry-394-days-after-megaspeed/
+Section: AI
+By: Dana Whitfield
+Published: 2026-11-09T16:00:00Z
+Updated: 2026-11-09T16:00:00Z
+
+Nvidia's board opened an independent inquiry on 8 Nov into reports Jensen Huang was targeted by foreign intelligence. Our timeline and filing analysis.
+
+Nvidia's board said on Sunday that a committee of its independent directors, with outside counsel, will investigate reports that Jensen Huang, the company's founder and chief executive, "has been the target of a foreign intelligence effort". The statement names neither the directors nor the law firm, and says the board has confidence in Huang.
+Its central sentence is a careful one: "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information." It does not mention Megaspeed, the Singapore-based cloud company at the centre of the reports, or Alice Huang, the Megaspeed executive whom US intelligence agencies suspect of passing information to Beijing, according to reports cited by CNBC.
+Huang's own email to staff, posted on Nvidia's newsroom the same day, names neither of them either. "I was unfaithful to my wife," he wrote. "My actions hurt her and our children. There is no excuse for what I did." CNBC reported that the affair was with Alice Huang. On the security question, the email says only that the board has begun an investigation and that he will "cooperate fully". Nvidia told CNBC: "Jensen is committed to continuing to lead NVIDIA as CEO without interruption."
+How long have the questions been public?
+More than a year. By our count, 394 days passed between the first public confirmation of an official inquiry into Megaspeed and the board's statement. On 10 October 2025, Singapore's police told CNBC that "investigations are ongoing into Megaspeed for suspected breaches of our domestic laws", after reports that the company had helped Chinese firms get around US chip export controls. Nvidia said at the time that it had visited "multiple Megaspeed sites" and that Megaspeed was "running a small commercial cloud, like many other companies throughout the world, as allowed by U.S. export control rules", CNBC reported.
+When the intelligence reports about Alice Huang appeared on 29 October this year, the company's line had not changed. "The diversion allegations against this regional cloud were thoroughly investigated and debunked last year," an Nvidia spokesperson told CNBC, adding: "We're confident that if the U.S. government believes that any person is a threat to American industry, it would let us know." Ten days later the board opened its inquiry. Megaspeed has said that inspections by the Commerce Department's Bureau of Industry and Security, Malaysia's trade ministry and Nvidia found "no evidence of any violations concerning the illicit transfer of chips or any illegal activities", CNBC reported on Monday. Singapore's government has said it did not investigate Alice Huang's alleged intelligence ties.
+DateWhat happenedSourceDays before the board's statement
+10 Oct 2025Singapore police confirm an investigation into Megaspeed. Nvidia says Megaspeed runs "a small commercial cloud" allowed by US export rulesCNBC394
+19 Nov 2025Nvidia's quarterly report stops showing revenue billed to Singapore and moves to customers' headquartersForm 10-Q354
+29 Oct 2026Reports that US intelligence suspected a Megaspeed executive, Alice Huang. Nvidia says the diversion claims were "debunked last year"CNBC10
+5 Nov 2026Three House committee chairmen ask Huang to brief them on 18 November and to reply by 11 NovemberHouse Foreign Affairs Committee3
+8 Nov 2026The board opens an independent investigation. Huang tells staff he was unfaithful to his wifeNvidia board, Huang's email0
+17 Nov 2026Third-quarter results and conference call, 2 p.m. PacificNvidia8 days from today
+18 Nov 2026Date requested for Huang's closed-door briefingHouse letter9 days from today
+Komposite's timeline from the documents linked. Day counts are calendar days, counted by Komposite, back from the board's statement of 8 November 2026 or forward from Monday 9 November.What do Nvidia's accounts show about Singapore?
+Less than they used to. Until the autumn of 2025, Nvidia's financial statements broke out revenue by the country where customers were billed, and Singapore was the second-largest line after the United States. In the year to January 2025 it was $23.68bn, 18 per cent of revenue, according to the 10-K. In the quarter to July 2025 it was $10.16bn, or 22 per cent. Nvidia said repeatedly that this was an invoicing address, not a destination: "Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere." In its August 2025 quarterly report, it added that over 99 per cent of export-controlled data-centre compute revenue billed to Singapore was "for orders from U.S.-based customers".
+PeriodBilled to SingaporeTotal revenueSingapore share
+Year to Jan 2023$2.29bn$26.97bn8.5%
+Year to Jan 2024$6.83bn$60.92bn11.2%
+Year to Jan 2025$23.68bn$130.50bn18.1%
+Quarter to Apr 2025$9.02bn$44.06bn20.5%
+Quarter to Jul 2025$10.16bn$46.74bn21.7%
+Quarter to Oct 2025 onwardNot disclosedLine removed
+Source: Nvidia's 10-K for fiscal 2025 and 10-Q for the quarter to 27 July 2025, geographic revenue by customer billing location. The April 2025 quarter is Komposite's subtraction of the second quarter from the first-half figures. Shares are Komposite's arithmetic.Then the line went. In the quarterly report filed on 19 November 2025, 40 days after the Singapore police confirmed their inquiry, Nvidia began reporting revenue by the location of customers' headquarters instead. It explained the change in its own terms: billing locations "often reflected a customer's centralized invoicing location, even though our products were almost always shipped elsewhere", and it believed headquarters "provides a better representation of the geographic profile of our revenue". The filing does not mention Megaspeed, and we do not suggest the change was connected to it. Its effect is that a reader of the accounts can no longer see how much is invoiced through Singapore.
+What changed when the old figures were restated?
+Most of the Singapore revenue became American. Nvidia restates prior periods under the new method, so the same quarter can be read both ways. Comparing the July 2025 quarter as first reported with the version printed as a comparative a year later, US revenue rises by $9.43bn and Singapore's $10.16bn disappears, which fits the company's account of where its Singapore-billed customers were based. Revenue from customers headquartered in China, including Hong Kong, is also $1.22bn higher on the new basis than the China line on the old one, and "Other" is $0.86bn lower. Since the change, all customers outside the United States, Taiwan and China have accounted for between 1.3 and 2.0 per cent of revenue in each period reported, the filings show. Megaspeed is based in Singapore, so any revenue from it as a direct customer would now sit in that small line, which the filings do not break down further.
+Quarter to 27 July 2025As first reported (billing location)As restated (customer headquarters)Change
+United States$23.47bn$32.90bn+$9.43bn
+Singapore$10.16bnNot shown&minus;$10.16bn
+Taiwan$8.53bn$8.90bn+$0.37bn
+China (including Hong Kong)$2.77bn$3.99bn+$1.22bn
+Other$1.82bn$0.96bn&minus;$0.86bn
+Total$46.74bn$46.74bn0
+Source: Nvidia's 10-Q for the quarter to 27 July 2025 (first column) and the prior-year comparatives in its 10-Q for the quarter to 26 July 2026 (second column). Differences are Komposite's arithmetic.What happens next?
+Two dates are already fixed. Nvidia reports third-quarter results on Tuesday 17 November, with a call at 2 p.m. Pacific time. The following day is the date that three Republican committee chairmen, Brian Mast of Foreign Affairs, John Moolenaar of the Select Committee on China and Rick Crawford of Intelligence, have asked Huang to brief their committees behind closed doors. Their letter of 5 November asked him to accept that date or propose another by Wednesday, and said: "It is vital that Congress determines the extent to which U.S. national security has been placed at risk." Nvidia has not said whether he will attend. Democrats have pressed separately. Senator Chris Coons, in line to chair the Senate Foreign Relations Committee from January, wrote that "Congress will investigate and get answers", and Representative Seth Magaziner asked for the commerce secretary, Howard Lutnick, to testify alongside Huang, CNBC reported.
+As of 09:55 Eastern time on Monday, Nvidia had filed no Form 8-K about the inquiry with the Securities and Exchange Commission, by our check of EDGAR; its most recent filing was a director's routine report of a gift of shares. The board's statement promises "further updates as appropriate" and sets no timetable. A board inquiry run by independent directors reports to the board, and nothing in the statement commits it to publishing findings.
+Why it matters: Nvidia's chips are central to US export policy toward China, and its chief executive has argued for broader chip exports there. The company's defence on Megaspeed has rested for a year on its own site visits and on export rules that allow remote cloud services. Its board is now examining the same relationship from a different angle, the security of the company's own information. The export-control system has been shifting from rule-writing to enforcement through penalties and settlements, and Nvidia's role in financing its own customers has drawn questions of its own, as when it considered guaranteeing debt for chips it sells. The results on 17 November will be the first chance for analysts to ask the company about any of it.
+
+---
+
+# A Microsoft redesign that earns IREN no delay credits
+
+URL: https://kompositenews.com/markets/a-microsoft-redesign-that-earns-iren-no-delay-credits/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-09T15:40:00Z
+Updated: 2026-11-09T15:40:00Z
+
+IREN's 10-Q says a Microsoft-requested network change pushes delivery dates with no delay credits. Its $4bn ARR target moves to January or February.
+
+"At Microsoft's request, we are implementing a network design change across the Horizon deployments," IREN told investors in its quarterly report filed on Thursday. The next sentence sets the terms. Under its contract with Microsoft, "delivery dates are extended, without delay credits, for delays resulting from a Microsoft-requested change". The Nasdaq-listed company, which turned from bitcoin mining to renting out AI computing, has four 50-megawatt Horizon deployments for Microsoft at Childress, Texas.
+A delay credit is a payment or discount a supplier owes when it misses a delivery date. The clause means Microsoft cannot claim one for the delay it asked for. It does not say who pays for the redesign itself. The filing says the change "is being implemented in parallel with discussions regarding delivery dates and the application and payment of fees, credits and cost reimbursements". Those discussions are not finished, and IREN does not say what it has asked for.
+What has slipped?
+The date for IREN's headline target. In its August results, IREN said more than $4bn of annualised run-rate revenue, or ARR, was "targeted to be operational by December 31, 2026". ARR is the company's own measure: contracted hourly GPU prices for machines in service, multiplied by the 8,760 hours in a year. Thursday's release moves the target to 31 January 2027 "following a customer-requested change and supplier timing", adding that it "may extend to February 2027". By our count that is a slip of 31 to 59 days. The 10-Q's risk factors give a third cause, saying the capacity is now expected the following quarter "as a result of a customer-requested design change, supply timing and third-party delays".
+The descriptions of the Horizons have also moved. In August, Horizon 1 had been delivered, Horizon 2 was in commissioning and Horizons 3 and 4 were in late-stage construction for delivery in the fourth quarter. In November, Horizon 1 is in service and Horizons 2 to 4 are all described as in late-stage construction. Daniel Roberts, IREN's co-founder and co-chief executive, said in the release that the contracted ARR "is funded and now targeted for January, after a customer-requested design change and supplier timing moved it from year-end".
+27 August 20265 November 2026
+Target date for more than $4bn of ARR31 December 202631 January 2027, possibly end of February
+Operating ARR$1bn (26 August)"a billion"
+Horizon 2 for MicrosoftCommissioning under wayLate-stage construction
+Horizons 3 and 4Late-stage construction, delivery in Q4 2026Late-stage construction
+Capital commitments$13.81bn (30 June)$18.95bn (30 September)
+Funding position$14bn of cash, committed financing and prepayments$9bn of the $15bn remaining FY27 capex covered; $6bn targeted
+Source: IREN's FY26 results release, its Q1 FY27 results release and its 10-Q. Komposite's side-by-side comparison; ARR is IREN's own operating metric, not revenue.What does waiting cost IREN?
+The filing points to at least one running cost: interest on money it cannot yet spend. A financing subsidiary arranged $3,645m for the GPUs and infrastructure at Horizons 1 to 4: a $1,545m delayed-draw term loan and $2,100m of senior secured notes sold in a US private placement at 5.96 per cent. Note proceeds sit in escrow until release conditions are met. At 30 September, $1,050m was held there, and the notes "bear interest from their respective issue dates, including while the proceeds remain in escrow". One $525m tranche was released on 1 October. By our subtraction, that leaves $525m in escrow on the filing's account. Repayments on the first tranche began in September, after Microsoft accepted Horizon 1.
+The quarter itself was IREN's largest yet. Revenue rose to $228m from $137m in the June quarter, and AI Cloud revenue reached $200m, of which $65m was lease revenue that the 10-Q says includes the Microsoft contract. Bitcoin mining brought in $28m, from 402 coins mined against 2,039 a year earlier, a fall of 80 per cent by our arithmetic. The net loss was $263m. The company put its revenue backlog at $20.3bn, up 22 per cent, with about two-thirds owed by investment-grade counterparties.
+Is the rest of the build-out paid for?
+Not all of it. IREN says the programme behind the $4bn target is "fully funded", a term its release defines to include undrawn facilities and prepayments not yet received, subject to conditions. Its wider plan is larger. Of $15bn of capital spending it still plans for the year to June 2027, $9bn is covered by cash and committed financing and $6bn is "target" financing, subject to market conditions: 40 per cent of the remainder, by our arithmetic. Contracted capital commitments rose 37 per cent in the quarter, to $18.95bn from $13.81bn. The August figure of $14bn in cash and committed funding, less the $5.1bn the company spent on investments during the quarter, comes to about the $9bn it now reports, so the two releases agree.
+Why it matters: the AI infrastructure trade rests on delivery dates. Investors in neoclouds, the specialist GPU landlords, have been pricing in more risk, as Komposite reported when CoreWeave's bond yields neared 15 per cent, and much of the sector's debt is tied to contracts with a few large tenants. IREN's filing shows how much leverage a tenant like Microsoft has inside such a contract: it can change the design, and the supplier absorbs the wait. Who pays for the redesign is still being negotiated.
+The next markers are delivery dates. IREN expects the Horizons to be handed over in the coming quarter, and its January target date for the ARR is 83 days away. The company owns the land and power under its sites, a legacy of its bitcoin-mining years, and says that gives it more ways to fund growth.
+
+---
+
+# Strategy sells common stock to buy back its preferred
+
+URL: https://kompositenews.com/crypto/strategy-sells-common-stock-to-buy-back-its-preferred/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-09T15:20:00Z
+Updated: 2026-11-09T15:20:00Z
+
+Strategy's 9 Nov filing shows $188.3m of new-share money went to STRC buybacks and $81.9m to bitcoin. Our six-week tally: $1.16bn of buybacks.
+
+Two dollars in three that Strategy raised from new common shares last week went to buying back its own preferred stock, its Form 8-K filed on Monday shows. The company sold 2,051,348 class A shares for net proceeds of $283.8m between 2 and 8 November. It spent $188.3m repurchasing 1,887,464 shares of its STRC preferred, $81.9m on 1,036 bitcoin and put the remaining $13.6m into cash.
+Strategy, formerly MicroStrategy, describes itself as the largest institutional holder of bitcoin. It held 850,364 coins as of Sunday, bought for $64.16bn at an average of $75,456 each, fees included. Its weekly filings usually lead with bitcoin bought with new money. Lately the larger figure has been in the repurchase table. STRC, which Strategy calls Stretch, is a perpetual preferred share with a variable dividend, and the company has been buying it back every week since the end of September.
+How much has gone into buybacks?
+By our tally, $1.16bn in six weeks. Komposite added up the repurchase and bitcoin tables in each weekly filing from 5 October to Monday's. Strategy bought back $1,163.2m of STRC over that stretch and bought 2,698 bitcoin for $219.7m, so the buybacks were about 5.3 times the bitcoin purchases. In one week, 19 to 25 October, it bought no bitcoin at all and spent $204.9m on STRC.
+Week (Strategy's reporting period)STRC bought backPaid fromBitcoin boughtUSD Cash at period end
+28 Sep to 4 Oct (8-K)$176.3mUSD Cash, interest334 BTC, $28.7m$833.4m
+5 to 11 Oct (release)$192.4mNot stated250 BTC, $21.5m$640.5m
+12 to 18 Oct (8-K)$193.1mUSD Cash267 BTC, $22.1m$447.3m
+19 to 25 Oct (8-K)$204.9mUSD CashNone$242.4m
+26 Oct to 1 Nov (8-K)$208.2mUSD Cash811 BTC, $65.5m$132.7m
+2 to 8 Nov (8-K)$188.3mNew MSTR shares1,036 BTC, $81.9m$146.2m
+Six weeks$1,163.2m2,698 BTC, $219.7m
+Komposite's tally of Strategy's weekly Forms 8-K. The first row combines the two short periods in the 5 October filing ($102.6m for 28 to 30 September and $73.7m for 1 to 4 October). The 12 October release says only that the week's bitcoin was bought with share proceeds and $0.5m of USD Cash; it does not say what paid for the STRC repurchases.Why did the source of the money change?
+Because the cash pile it had been using was nearly spent. Strategy keeps two pots of dollars: a USD Reserve, which it says is meant to cover preferred dividends and interest on its debt, and "USD Cash", which management can use for wider purposes including buybacks. Until last week the STRC repurchases came out of USD Cash, which fell from $833.4m on 4 October to $132.7m on 1 November, a drop of $700.7m by our subtraction. Last week was the first in the run in which the filing says new common shares paid for them. The reserve itself has barely moved: $4.77bn on Sunday, against $4.88bn in early October.
+The board has twice made room for the purchases. On 19 October, Strategy said its directors had raised the authorisation under what it calls its digital credit securities repurchase programme from $2.0bn to $3.0bn. After last week, $560.3m of that remains, so roughly $2.44bn of the $3.0bn has been used, by our arithmetic. A separate $1.0bn authorisation to buy back MSTR common stock has not been touched.
+What price is Strategy paying?
+Just under $100 a share, every week. Dividing each week's aggregate purchase price by the shares repurchased gives averages between $99.06 and $99.76. That matters because STRC is meant to trade near $100. In a filing on 15 October, Strategy set the STRC dividend at 12.00 per cent a year for November and said management would recommend keeping it there "until STRC has demonstrated sustained, healthy trading near $100 per share". From 1 November the dividend is declared for every calendar day. The company has not said in these filings why it is buying the shares back, and the repurchases' effect on the price is not something the filings measure.
+Where does that leave the bitcoin?
+Below its cost, at Monday's price. Bitcoin traded at $74,812 at 14:58 GMT, according to CoinGecko, $644 below Strategy's average purchase price. At that price, by our arithmetic, the 850,364 coins were worth about $63.62bn, some $540m less than Strategy paid. Its last three purchases cost between $79,012 and $82,900 a coin, above the average, so each recent purchase has nudged the average up by a few dollars, from $75,446 on 18 October to $75,456 now. The common shares Strategy sold last week went for an average of $138.35 net, by our division, against $139.15 the week before.
+Why it matters: Strategy's model depends on selling securities to investors who want exposure to bitcoin, and its preferred shares are the part of that machine that promises a fixed-looking income. When the company sells common stock to support the price of its preferred, it is moving value between its own classes of investor rather than adding bitcoin. Holders of MSTR are absorbing the dilution, and holders of STRC are getting a buyer near par. Neither shows up in the bitcoin count. Bitcoin holders elsewhere have had their own reminders of where the price thresholds sit, as Komposite found when Bitget's user fund was measured in coins rather than dollars.
+Strategy has filed these updates on Mondays, which would make the next one due on 16 November. It will show whether the buybacks continue with $560.3m of authorisation left, and whether last week's switch to new common shares was a one-off. Strategy is not the only company leaning on preferred stock this autumn: Meta sold $12.5bn of mandatory convertible preferred alongside its common stock last month, as Komposite reported. That money was raised, not spent retiring an earlier issue.
+
+---
+
 # The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550
 
 URL: https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/
@@ -470,101 +587,3 @@ Reported figures from Circle's third-quarter results release of 4 November 2026.
 Activity on the network grew faster than the money held on it. USDC on-chain transaction volume was $13.9tn in the quarter, up 49 per cent, and Circle's payments network, CPN, reached $41.3bn of annualised payment volume, the company said. It has agreed to buy Tazapay, a Singapore-based cross-border business payments platform, with completion expected in 2027 subject to regulatory approval. "In Q3, we saw continued proof that institutions are building and expanding on USDC," said Jeremy Allaire, Circle's co-founder, chief executive and chairman.
 Circle left its full-year guidance unchanged: other revenue of $310m to $330m including recognised presale revenue, an RLDC margin of 41.7 to 43.7 per cent, and adjusted operating expenses of $570m to $585m. The margin guidance is lower than the third quarter's reported 52 per cent, which is consistent with the presale being a one-off lift rather than a new level. Circle did not say how much presale revenue remains to be recognised in the fourth quarter.
 Why it matters: Circle's earnings move with two things it does not control, interest rates and the amount of USDC that customers choose to hold. With the reserve rate lower and circulation flat over a year, a one-off token sale did the work this quarter. The company is meanwhile pressing into new markets: Komposite reported last month that Circle wants to enter about 40 more countries, and that USDC had become the EU's first significant token under its crypto rules.
-
----
-
-# $30.6m in reserve against $1.8m
-
-URL: https://kompositenews.com/policy/ai-super-pacs-enter-election-day-with-30-6m-against-1-8m/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-11-03T14:20:00Z
-Updated: 2026-11-03T14:20:00Z
-
-FEC filings show the Leading the Future super PACs held $30.6m in cash on 14 October; the Public First group held $1.8m on 30 September.
-
-The super PAC network funded by AI investors including Andreessen Horowitz's founders and OpenAI's president held $30.6m in cash in mid-October, while the Anthropic-backed network that opposes it held $1.8m at the end of September, by Komposite's arithmetic on Federal Election Commission filings. Voters cast ballots in the US midterm elections on Tuesday. Between them, the two networks had reported $59.8m of independent expenditures, the advertising and other spending a super PAC makes for or against candidates without coordinating with them.
-The larger network is built around Leading the Future, a super PAC registered in Nevada. Its pre-general report, which runs to 14 October, shows $76.0m of receipts, almost all of it $75.1m in contributions, and no independent expenditures of its own. Instead it passed $47.0m to two affiliated super PACs, Think Big and American Mission, which received $24.5m and $22.5m from other committees and spent $18.5m and $16.1m on independent expenditures. By our arithmetic, 61.9 per cent of what Leading the Future took in has gone to the two, and the three committees between them held $30.6m on 14 October, of which $23.8m sat with Leading the Future itself.
-CommitteeReport used (period end)ReceiptsIndependent expendituresCash on hand
-Leading the Future network
-Leading the FuturePre-general (14 Oct)$75.98m$0 (passes money on)$23.82m
-Think BigPre-general (14 Oct)$25.03m$18.46m$1.94m
-American MissionPre-general (14 Oct)$23.98m$16.06m$4.83m
-Network total*$34.51m$30.59m
-Public First network
-Public FirstOctober quarterly (30 Sep)$4.91m$0 (passes money on)$0.48m
-Jobs and Democracy PACThrough 30 Sep$20.74m$17.88m$0.67m
-Defending Our Values PACThrough 30 Sep$8.41m$7.37m$0.63m
-Network total*$25.24m$1.78m
-* Komposite's arithmetic on Federal Election Commission data read on 3 November 2026. Receipts are not added up because money passed from one committee to another would be counted twice. The two networks' figures run to different dates, 14 October and 30 September, so the comparison is not like for like. Independent expenditures reported after those dates, including in 24-hour reports, are not included.The rival network is smaller in cash and less visible in its funding. Anthropic said in February that it was giving $20m to Public First Action, which it described as "a new bipartisan 501(c)(4)" that would "support public education about AI, promote safeguards, and ensure America leads the AI race". A 501(c)(4) is a nonprofit that may engage in some political activity and does not have to disclose its donors. Its affiliated super PACs do file with the FEC: Public First, which took in $4.9m in 2026 and passed $4.34m to other committees; Jobs and Democracy PAC, which reported $17.9m of independent expenditures through September; and Defending Our Values PAC, with $7.4m. Defending Our Values would run ads supporting Senator Pete Ricketts of Nebraska, who is seeking re-election, Bloomberg reported in February.
-Who funds Leading the Future is a matter of record. Greg Brockman, OpenAI's president, and his wife each gave $12.5m in 2025, as did Marc Andreessen and Ben Horowitz, the co-founders of the venture firm Andreessen Horowitz, The Washington Sun reported from the committee's filings; the investor Joe Lonsdale, the investor Ron Conway and the AI search company Perplexity were also donors. The network said in January that it had raised $125m in the second half of 2025, while its super PAC's filing showed $50.3m. Its contributions have reached $75.1m since, so by our subtraction it has reported $24.8m of new contributions in 2026. Leading the Future also gave $5m to a nonprofit arm, Build American AI, which does not have to disclose its donors, the paper reported.
-The Leading the Future group's spending is also the subject of a complaint. The Campaign Legal Center, a campaign-finance watchdog, told the FEC in May that Think Big and American Mission paid virtually all of their funds to newly formed companies, and that "neither LLC appears to be a bona fide commercial vendor operating at arm's length", according to its complaint. Komposite found no public FEC ruling on the complaint.
-The figures carry two caveats. First, the dates differ: the Leading the Future committees' pre-general reports run to 14 October, while the Public First committees' latest reports on the FEC's site run to 30 September. Second, super PACs report independent expenditures of $1,000 or more within 24 hours in the last 20 days before an election, so both networks have spent money since that is not in these totals. The cash figures are the best public measure of what each side had left for the final weeks, not of what it held on Tuesday.
-What the networks want is on record too. Leading the Future's stated goal is a "national regulatory framework for AI", which The Washington Sun described as a way to block state enforcement. Anthropic listed opposing the pre-emption of state laws without stronger federal safeguards among the priorities of the group it funds, and said it would work with "Republicans, Democrats, and Independents". Public First Action had not disclosed what it raised beyond Anthropic's $20m, Bloomberg reported in February. The question of who writes AI rules has run through Komposite's coverage this autumn, from eight state attorneys general suing OpenAI to the AI companies testifying before New York's city council.
-Why it matters: both networks were set up to fight over how AI is regulated, and the disclosed money behind each comes largely from a handful of AI companies, investors and founders. The outcomes of the races they spent on are not yet known. When they are, the filings will show how much each side spent per race, and what it kept back. The rules each state already applies to AI in campaigns are set out in our count of election deepfake laws.
-
----
-
-# Thirty-one states, three courtrooms
-
-URL: https://kompositenews.com/ai/thirty-one-states-have-election-deepfake-laws-on-polling-day/
-Section: AI
-By: Dana Whitfield
-Published: 2026-11-03T14:00:00Z
-Updated: 2026-11-03T14:00:00Z
-
-By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.
-
-Thirty-one states have a law on the books regulating AI-generated deepfakes in election communications as voters cast ballots in the US midterm elections on Tuesday, by Komposite's count of Public Citizen's legislative tracker, last updated on 21 October. Thirty-three states have passed such a law at some point. Massachusetts let its law lapse in February 2025, and a federal judge struck down Hawaii's in January.
-A deepfake, in these statutes, is audio, video or an image altered or generated with digital tools so that it shows a real person saying or doing something they did not. The laws differ in scope and penalty. Minnesota's makes it a crime to spread one within a set period before an election, without the depicted person's consent and with intent to injure a candidate or influence the result. Most of the laws are recent. By our count, only five states had one before 2024; sixteen added a law that year, seven in 2025 and five so far in 2026, the most recent Louisiana in June. When Maryland's law was signed in May, Public Citizen counted it as the 30th, and said that "the need for the remaining 20 states to enact protections has never been greater". By our arithmetic, 19 states now have none.
-First law enactedStatesCount
-2019 to 2023California, Texas (2019); Michigan, Minnesota, Washington (2023)5
-2024Alabama, Arizona, Colorado, Delaware, Florida, Hawaii, Idaho, Indiana, Massachusetts, Mississippi, New Hampshire, New Mexico, New York, Oregon, Utah, Wisconsin16
-2025Kentucky, Montana, Nevada, North Dakota, Pennsylvania, Rhode Island, South Dakota7
-2026Tennessee, Maine, Vermont, Maryland, Louisiana5
-Enacted at some point33
-Less: lapsed or struck downMassachusetts (sunset February 2025); Hawaii (struck down January 2026)&minus;2
-On the books on 3 November31
-Komposite's count from Public Citizen's tracker of state election-deepfake legislation, last updated 21 October 2026, by the year each state's first listed law was enacted. It matches Public Citizen's own count of 30 states in May plus Louisiana in June. We have not checked each law's effective date, and some laws, such as California's AB 2839, survive on the books but have been blocked in court.The laws have fared poorly when tested in court. Hawaii's Act 191 barred the reckless distribution of "materially deceptive media" that risked harming a candidate or changing how people voted, from the first working day of February in every even-numbered year through the general election. A disclaimer shown throughout a video or read at the start and end of audio was a safe harbour. On 30 January Judge Shanlyn Park of the US District Court for Hawaii held in a case brought by the satirical site the Babylon Bee that the law failed strict scrutiny and was unconstitutionally vague, The Volokh Conspiracy reported. Counter-speech, voter education and existing defamation and election-fraud laws were less restrictive options, she wrote, adding: "The First Amendment does not permit the State to sacrifice speech for efficiency."
-California's 2024 law fared no better. A federal judge granted a preliminary injunction against AB 2839 in October 2024, two weeks after it was signed, and on 29 August 2025 granted the challengers summary judgment, holding the statute unconstitutional in its entirety, according to the case record kept by the Hamilton Lincoln Law Institute, which represents one of the challengers. The court did not rule on a companion law, AB 2655, because California had agreed not to enforce it. The state appealed to the Ninth Circuit on 19 September 2025; the briefs were filed in January and March, and no decision has been reported. By our arithmetic, the appeal has been pending for 410 days.
-State and lawCaseWhat the court didWhere it stands
-Hawaii, Act 191 (SB 2687, 2024)Babylon Bee v. Lopez, US District Court for HawaiiJudge Shanlyn Park held on 30 January 2026 that the law fails strict scrutiny and is unconstitutionally vague, and rejected its disclaimer safe harbourStruck down
-California, AB 2839 (2024)Kohls v. Bonta, US District Court for the Eastern District of CaliforniaPreliminary injunction on 2 October 2024; summary judgment for the challengers on 29 August 2025, finding the statute unconstitutional in its entiretyBlocked; California's appeal to the Ninth Circuit pending since 19 September 2025
-California, AB 2655 (2024)Kohls v. BontaNot ruled on: California had agreed not to enforce itNot enforced; part of the same appeal
-Minnesota, 2023 law as amended in 2024Kohls v. Ellison, Eighth CircuitOn 9 February 2026 upheld the refusal of a preliminary injunction, on standing and delay, without deciding the constitutional questionIn force; the challenge continues in the district court
-Compiled by Komposite from the Hawaii order as reported by The Volokh Conspiracy (31 January 2026), the Hamilton Lincoln Law Institute's case record for Kohls v. Bonta, and the Eighth Circuit opinion as reported by The Volokh Conspiracy (9 February 2026). These are the challenges we reviewed, not every case filed.Minnesota's law is the exception so far. On 9 February the Eighth Circuit upheld a lower court's refusal to block it, The Volokh Conspiracy reported. The court found that one challenger, whose videos were labelled as parody, lacked standing because labelled parodies are not deepfakes under the statute, and that the other had waited 16 months to sue. It expressly did not decide whether the law is constitutional, and the case continues. Its penalties include one aimed at candidates: one who breaks the law forfeits the nomination or office.
-What this means for the technology industry is narrower than the headline count suggests. The laws we reviewed are aimed at whoever distributes a deepfake, not at the AI companies whose tools can produce one. The court record so far points in one direction: of the three states whose laws we found tested on the merits or close to it, two have lost, and the third has won only on procedure. A disclaimer, which many states treat as the safe option, did not save Hawaii's law or California's.
-Why it matters: election deepfake rules are set state by state, so a clip that is lawful to share in one state can break the law in its neighbour. Deepfakes are already a fraud problem for companies, which have rebuilt payment verification around cloned voices, and state officials have been willing to act on AI on their own, as when eight attorneys general sued OpenAI last month over ChatGPT's safety. On the money behind the election, Komposite reports separately on the two networks of AI-funded super PACs.
-
----
-
-# A hundred and fifteen billion, paid in shares
-
-URL: https://kompositenews.com/markets/marvell-to-buy-lumentum-for-115bn-in-stock/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-02T13:40:00Z
-Updated: 2026-11-02T13:40:00Z
-
-Marvell will buy Lumentum in an all-stock deal valuing it at $115bn, 4.5 shares each. Marvell owes $3.2bn if regulators block it. Close due H1 2028.
-
-Marvell Technology has agreed to buy Lumentum Holdings, which makes lasers and optical parts for AI data centres, in an all-stock deal that values Lumentum at $115bn, the two companies said on Monday. Lumentum shareholders will receive 4.500 Marvell shares for each share they hold, worth about $1,132 a share. That is a premium of about 23.9 per cent to both companies' closing prices on 28 October, which they describe as the last trading day before speculation about a deal began.
-The merger agreement was signed on Sunday, 1 November, according to Marvell's filing with the Securities and Exchange Commission. Marvell will absorb Lumentum through two merger subsidiaries, and after closing its shareholders will own about 67 per cent of the combined company and Lumentum's about 33 per cent. Both boards approved the deal unanimously. It needs a vote of Lumentum's shareholders, and Marvell's shareholders must approve both the new shares and a change to Marvell's charter raising the number of shares it is allowed to issue. It also needs the expiry of the US antitrust waiting period under the Hart-Scott-Rodino Act "and the receipt of certain other required regulatory approvals", which the filing does not name.
-The contract prices the risk of failure. If Marvell's board withdraws its recommendation or walks away for a better offer, Marvell pays Lumentum $5.8bn; the reciprocal fee for Lumentum is $2.9bn. If the deal is blocked or refused by regulators, or runs out of time, while only the regulatory conditions remain open, Marvell owes Lumentum $3.2bn. The first deadline in the agreement is 11:59pm Pacific time on 1 November 2027, which can be extended to 1 February, 1 May and 1 August 2028 if regulatory approvals are still outstanding. The companies expect to close in the first half of 2028. By our reading, that timetable assumes at least one of those extensions will be needed.
-The executives framed the deal as a bet on light replacing copper. "AI infrastructure is undergoing a fundamental architectural shift toward optical connectivity, creating an opportunity that comes along once in a generation," said Matt Murphy, Marvell's chairman and chief executive, who will run the combined company. "Joining Marvell creates a company uniquely positioned to capitalize on a market opportunity of $550 billion and generate significant, sustainable stockholder value," said Michael Hurlston, Lumentum's president and chief executive. The $550bn market estimate is the companies' own. Hurlston and two other Lumentum directors will join Marvell's board, which now has seven members, taking it to ten by our count.
-ItemFigureSource
-Exchange ratio4.500 Marvell shares per Lumentum shareJoint release; 8-K
-Implied valueAbout $1,132 a share; $115bn enterprise valueJoint release
-PremiumAbout 23.9% to unaffected closes on 28 OctoberJoint release
-Ownership after closingMarvell holders about 67%, Lumentum holders about 33%Joint release
-Fee if Marvell walks for a better offer$5.8bn (5.0% of enterprise value*)8-K
-Fee if Lumentum does$2.9bn (2.5%*)8-K
-Fee if regulators block or delay$3.2bn, paid by Marvell (2.8%*)8-K
-Outside date1 November 2027, extendable to 1 August 20288-K
-Expected closeFirst half of 2028Joint release
-Lumentum revenue, quarter to 26 September$1,262.6m, up 136.5% a yearLumentum results
-Price paid per dollar of revenue*22.8x annualised last quarter; 18.0x annualised guidanceOur arithmetic
-* Komposite's arithmetic on the companies' figures. Annualised revenue is four times the quarter: $5.05bn on the September quarter and $6.4bn on the midpoint of Lumentum's December-quarter guidance. Sources: Marvell and Lumentum joint release and Marvell Form 8-K, 2 November 2026; Lumentum fiscal first-quarter results, 2 November 2026.What is Marvell buying? On the same morning Lumentum reported revenue of $1,262.6m for the quarter to 26 September, up 136.5 per cent from a year earlier, with net income of $360.3m. Components such as lasers made up $754.2m and systems $508.4m. Hurlston said Lumentum had won a second major order for near-packaged or co-packaged optics, which put optical connections next to or inside the chip package, "backed by purchase commitments exceeding $5 billion". Lumentum forecast $1.575bn to $1.625bn of revenue for the December quarter; by our arithmetic the midpoint is $337m above the quarter just reported.
-By our arithmetic, $115bn is 22.8 times Lumentum's annualised September-quarter revenue, and 18.0 times the annualised midpoint of its guidance. The companies' figures also imply a Marvell share price of about $251.6 and an unaffected Lumentum price of about $914, though both are derived from rounded numbers. In return, the companies promise more than $1bn a year of cost savings at full run rate and say the deal will add to Marvell's adjusted earnings per share in its first year after closing. Those are forecasts. Marvell said its revenue for the quarter now under way would be consistent with its earlier guidance, narrowing the range to plus or minus 2 per cent from 5 per cent, without giving a figure.
-Lumentum's pitch to buyers has been scarcity. Its chief executive said last month that its AI optical parts were sold out to early 2029, a year later than he had said in the spring. Because the price is paid in shares, no cash changes hands for Lumentum's stock, at a time when other parts of the AI supply chain are leaning on borrowed money, as Nvidia's talks to guarantee Nscale's financing showed on Sunday.
-Why it matters: an AI data centre is increasingly limited by how fast chips can talk to each other, and the companies argue that copper is reaching its physical limits. Combining Marvell's chip design with Lumentum's lasers and its indium phosphide manufacturing would put more of that link under one roof. That is also what antitrust reviewers will look at, and the contract gives them until August 2028 before Marvell's $3.2bn fee comes into play.

@@ -3364,5 +3364,32 @@
   "alt": "A black flip-style car key fob lying on a car's instrument panel",
   "creditHtml": "<a href=\"https://unsplash.com/@ballaschottner?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Bence Balla-Schottner</a> via <a href=\"https://unsplash.com/?utm_source=komposite_news&amp;utm_medium=referral\" rel=\"noopener\">Unsplash</a>",
   "creditLine": "Photograph via Unsplash"
+ },
+ "ai/nvidia-board-opens-inquiry-394-days-after-megaspeed": {
+  "id": "commons:NVIDIA_Headquarters.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+  "width": 1280,
+  "height": 783,
+  "alt": "The glass-fronted Endeavor building at Nvidia's Santa Clara headquarters, with a wide stone stairway, grassy slopes and an Nvidia sign marked 2788",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg\" rel=\"noopener\">Coolcaesar</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/a-microsoft-redesign-that-earns-iren-no-delay-credits": {
+  "id": "commons:Wikimedia_Tampa_fall_2007_cabling.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Wikimedia_Tampa_fall_2007_cabling.jpg/1280px-Wikimedia_Tampa_fall_2007_cabling.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "Bundles of blue and green network cables tied down the backs of black server racks in a data centre",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Wikimedia_Tampa_fall_2007_cabling.jpg\" rel=\"noopener\">Midom</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/strategy-sells-common-stock-to-buy-back-its-preferred": {
+  "id": "commons:1900_-_Lehigh_Valley_Traction_Company_Preferred_Stock_Certificate_Allentown_PA.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/1900_-_Lehigh_Valley_Traction_Company_Preferred_Stock_Certificate_Allentown_PA.jpg/1280px-1900_-_Lehigh_Valley_Traction_Company_Preferred_Stock_Certificate_Allentown_PA.jpg",
+  "width": 1280,
+  "height": 820,
+  "alt": "An ornate blue-bordered preferred stock certificate of the Lehigh Valley Traction Company, Allentown, Pennsylvania, with an engraving of a streetcar",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:1900_-_Lehigh_Valley_Traction_Company_Preferred_Stock_Certificate_Allentown_PA.jpg\" rel=\"noopener\">Unknown author</a>, Public domain, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
