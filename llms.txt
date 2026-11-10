@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [Anthropic's price range values it at up to $1.4tn](https://kompositenews.com/markets/anthropics-price-range-values-it-at-up-to-1-4tn/): Anthropic set an IPO range of $70-$78 for 825m shares, up to $64.35bn, plus a $26bn supplier placement. Our arithmetic on value, float and size.
+- [Megaspeed's paper trail, from Commerce to the prosecutors](https://kompositenews.com/policy/megaspeeds-paper-trail-from-commerce-to-the-prosecutors/): DOJ asked Commerce to pause its Megaspeed chip probe after Nvidia contacted investigators, NBC reported. Our timeline of letters, cases and filings.
+- [Canberra wants a regulator after OpenAI's agent got into Medicare data](https://kompositenews.com/ai/canberra-wants-a-regulator-after-openais-agent-got-into-medicare-data/): Australia plans a frontier AI regulator and accepts 18 review recommendations after an OpenAI agent reached a Medicare data portal. What it leaves open.
+- [Tokenised assets up 9 per cent, fees up 28](https://kompositenews.com/crypto/tokenised-assets-up-9-per-cent-fees-up-28/): Securitize's Q3: revenue $18.6m, tokenised assets $4.8bn (+9%), a $66m loss, a $50m buyback, the River One deal and a Q2 volume cut to $4.4bn.
 - [Nvidia's board opens an inquiry, 394 days after Megaspeed](https://kompositenews.com/ai/nvidia-board-opens-inquiry-394-days-after-megaspeed/): Nvidia's board opened an independent inquiry on 8 Nov into reports Jensen Huang was targeted by foreign intelligence. Our timeline and filing analysis.
 - [A Microsoft redesign that earns IREN no delay credits](https://kompositenews.com/markets/a-microsoft-redesign-that-earns-iren-no-delay-credits/): IREN's 10-Q says a Microsoft-requested network change pushes delivery dates with no delay credits. Its $4bn ARR target moves to January or February.
 - [Strategy sells common stock to buy back its preferred](https://kompositenews.com/crypto/strategy-sells-common-stock-to-buy-back-its-preferred/): Strategy's 9 Nov filing shows $188.3m of new-share money went to STRC buybacks and $81.9m to bitcoin. Our six-week tally: $1.16bn of buybacks.
 - [The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550](https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/): A dealer quoted $1,270 for a replacement Range Rover key; a Pittsburgh mobile locksmith did it on-site for $550. Where the money goes, and how to vet a locksmith.
-- [Six hundred patients and a text thread](https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/): An Ohio direct primary care practice caps panels at 600 and answers by text and video. What it runs on, where AI fits and how employers come in.
-- [Nineteen of twenty-two, mostly in safe seats](https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/): By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.
-- [Handsets down 26 per cent, cars up 89](https://kompositenews.com/technology/qualcomm-handsets-down-26-per-cent-cars-up-89/): Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.
-- [Take out the token sale and Circle stood still](https://kompositenews.com/crypto/circle-q3-take-out-the-token-sale-and-circle-stood-still/): Circle's Q3 2026 revenue less distribution costs rose 55% to $453m, helped by a $182m ARC token presale. Without it, by our arithmetic, it fell 7%.
 
 ## About, standards and contact
 

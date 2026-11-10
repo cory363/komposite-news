@@ -283,6 +283,151 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Anthropic's price range values it at up to $1.4tn
+
+URL: https://kompositenews.com/markets/anthropics-price-range-values-it-at-up-to-1-4tn/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-10T14:00:00Z
+Updated: 2026-11-10T14:00:00Z
+
+Anthropic set an IPO range of $70-$78 for 825m shares, up to $64.35bn, plus a $26bn supplier placement. Our arithmetic on value, float and size.
+
+Anthropic plans to sell 825 million Class A shares at between $70 and $78 each in its initial public offering, which would raise up to $64.35bn before fees, the developer of the Claude AI models said on Tuesday. Of those shares, 801,351,354 are new stock from Anthropic and 23,648,646 come from existing holders, according to the company's notice launching its roadshow. The shares are to list on the Nasdaq Global Select Market under the ticker ANT.
+The terms arrived in a second amendment to its registration statement, filed with the Securities and Exchange Commission at 06:29 Eastern time, 15 days after the first public filing. The fee table attached to it registers 948.75 million shares at a maximum of $78, a total of $74.0bn, and explains the difference: an extra 123.75 million shares that underwriters may buy, an option equal to 15 per cent of the deal. The draft underwriting agreement names Goldman Sachs and Morgan Stanley as representatives of the banks.
+There is a second block of stock outside the offering. Seven companies, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC, have agreed to buy $26bn of a separate Class N common stock at the IPO price in a concurrent private placement, CNBC reported from the filing. Those shares are not registered in the offering and are not covered by the underwriters' lock-up, CNBC said. The draft underwriting agreement carves out "a concurrent private placement" from the restrictions on Anthropic issuing new stock. At the top of the range, $26bn buys about 333 million shares; at the bottom, about 371 million.
+What does the range say Anthropic is worth?
+Between about $1.26tn and $1.41tn on a fully diluted basis. CNBC put the top-of-range figure at $1.405tn. Dividing that by $78 gives about 18.01 billion shares, by our arithmetic, and applying the same count gives $1.261tn at $70 and $1.333tn at the $74 midpoint. Against the $965bn valuation of Anthropic's Series H round in May, as reported by CNBC, the range is 31 to 46 per cent higher. Anthropic had been aiming for a $2tn valuation, CNBC reported, and some shareholders now regard even $1.5tn as in doubt.
+At $70At $74 (midpoint)At $78
+825m shares offered (gross)$57.75bn$61.05bn$64.35bn
+of which to Anthropic (801.35m shares)$56.09bn$59.30bn$62.51bn
+of which to selling holders (23.65m shares)$1.66bn$1.75bn$1.84bn
+Underwriters' option (123.75m shares)$8.66bn$9.16bn$9.65bn
+Supplier placement ($26bn of Class N)371.4m shares351.4m shares333.3m shares
+Fully diluted value*$1.261tn$1.333tn$1.405tn
+Change from $965bn Series H*+30.7%+38.1%+45.6%
+Multiple of ~$81bn run-rate revenue*15.6x16.5x17.3x
+Komposite's arithmetic from Anthropic's 10 November notice and the S-1/A fee table. *CNBC reported the $1.405tn fully diluted figure at the top of the range, the $965bn May valuation and the ~$81bn run-rate; we derived about 18.01bn fully diluted shares from it and applied that count to the lower prices. Gross figures are before underwriting fees.The offering itself is small relative to the company. The 825 million shares come to about 4.6 per cent of the fully diluted count, or 5.3 per cent if the banks take their option, by our division. Measured against the run-rate revenue of about $81bn that the amended filing gives for the end of October, according to CNBC, the range implies a multiple of between 15.6 and 17.3 times, on our numbers. Run-rate revenue is the company's annualised figure for a single month, not reported annual revenue.
+Is it bigger than SpaceX's listing?
+It depends on what you count. SpaceX raised $85.7bn when it listed about five months ago, as CNBC reported. The 825 million shares alone would raise $57.75bn to $64.35bn, below that. Adding the supplier placement takes the total to $83.75bn at the bottom of the range and $90.35bn at the top, either side of SpaceX. If the underwriters also exercise their option at $78, Anthropic would raise $100.0bn in all, by our arithmetic. Of the $90.35bn top-of-range figure without the option, the placement would be 28.8 per cent.
+What is countedAt $70At $78SpaceX, June
+Shares offered only$57.75bn$64.35bn$85.7bn
+Offered + supplier placement$83.75bn$90.35bn$85.7bn
+Offered + option + placement$92.41bn$100.00bn$85.7bn
+Komposite's arithmetic. The SpaceX figure is as reported by CNBC. Whether a concurrent private placement counts towards an IPO's size is a matter of convention; the placement shares are not registered in the offering.What does the placement mean?
+The seven buyers all sit in the supply chain for AI computing. Google and Microsoft sell cloud capacity, Nvidia, AMD and Broadcom design processors, TSMC manufactures them and Micron makes memory chips. They will pay the same price as public investors and will hold a different class of stock, Class N. The filing's terms for that class were not in the portion of the documents we could read, and Komposite makes no claim about its voting rights. It does mean that a large slice of the money raised will come from companies that sell computing to AI developers, the kind of circular arrangement Komposite noted when Nvidia considered guaranteeing loans for its own chips.
+The prospectus pitches the listing as broad ownership. "Everyone who owns our stock, whether an institution or an individual, becomes part of that effort," the co-founders write, according to CNBC. People familiar with the deal told CNBC that Anthropic is aiming for about 20 per cent of shares to go to retail investors, against a usual 5 to 10 per cent, and that the order book was already covered across the range.
+What do the accounts show now?
+Faster growth and a larger accounting loss than in October. For the nine months to 30 September, revenue was $33.24bn, up roughly 1,200 per cent, and the net loss was $104bn, against $25.1bn a year earlier, CNBC reported from the filing. As in the first-half accounts, most of the loss comes from changes in the fair value of convertible notes and derivative liabilities, which rise with the company's own valuation. When Anthropic first filed, it reported first-half revenue of $16.3bn and a net loss of $80.7bn, of which $72.4bn came from that revaluation. The new figures imply third-quarter revenue of roughly $17bn, close to the whole of the first half, though we have not been able to check the quarterly split against the prospectus itself.
+The lock-up runs on a familiar formula. Under the draft underwriting agreement, Anthropic may not issue more stock until the earlier of the second full trading day after it reports results for the quarter to 31 March 2027, or 180 days after the prospectus, with exceptions including the placement. Selling holders sign separate lock-up agreements.
+Why it matters: this is the first chance for public investors to price a frontier AI developer directly, rather than through the chipmakers and cloud companies that supply it. The range is below the $2tn the company was reported to be seeking, above its last private price, and dependent on a $26bn commitment from its own suppliers. OpenAI, which cut the size and price of its latest round last month, wanted to close it before Anthropic listed. The structure of Anthropic's governance, including its plan to commit 5 per cent of its shares to a public benefit fund, will now be priced as well as debated.
+The order of the next week is fixed. Nvidia, one of the placement buyers, reports its third-quarter results on Tuesday 17 November, with a call at 2 p.m. Pacific. Anthropic is expected to price its shares the following day and begin trading on Thursday 19 November, people familiar with the plans told CNBC. The final price, and whether the range moves before then, will be set in an amendment that has not yet been filed.
+
+---
+
+# Megaspeed's paper trail, from Commerce to the prosecutors
+
+URL: https://kompositenews.com/policy/megaspeeds-paper-trail-from-commerce-to-the-prosecutors/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-10T13:40:00Z
+Updated: 2026-11-10T13:40:00Z
+
+DOJ asked Commerce to pause its Megaspeed chip probe after Nvidia contacted investigators, NBC reported. Our timeline of letters, cases and filings.
+
+The Justice Department asked the Commerce Department to pause its part of an investigation into whether a Singapore cloud company smuggled Nvidia's AI chips into China, and the request came after an Nvidia representative reached out to Commerce investigators, NBC News reported on Monday evening, citing a person familiar with the matter. The company was Megaspeed, the Nvidia customer whose executive Alice Huang is at the centre of the inquiry Nvidia's board opened on Sunday.
+Bloomberg News reported the same day that Nvidia's general counsel, Tim Teter, had contacted Jeffrey Kessler, the Commerce under secretary who oversees the Bureau of Industry and Security, in the late summer of 2025 about the Megaspeed probe, and that the Justice Department asked the bureau to halt its work late that year. We could not read Bloomberg's report in the original; those points are taken from two separate published summaries of it that agree on them. According to those accounts, Nvidia described its contacts with officials as routine, and the bureau said it handles law-enforcement matters in line with its rules. No charges against Megaspeed have been made public.
+Megaspeed denies wrongdoing. Its website cites inspections by the Bureau of Industry and Security, Malaysia's trade ministry and Nvidia that found "no evidence of any violations concerning the illicit transfer of chips or any illegal activities", CNBC reported on Monday. Nvidia's position for a year has been that the diversion allegations were investigated and disproved. In October 2025 it described Megaspeed as "running a small commercial cloud, like many other companies throughout the world, as allowed by U.S. export control rules", CNBC reported at the time.
+Put in order, the public record shows how long the question has been open, and how many other people asked it. Komposite assembled the documents below from Congress, the Justice Department and Nvidia's own filings. The first official confirmation of an inquiry, from Singapore's police, came 396 days ago. Three days later Senator Tom Cotton, a Republican from Arkansas, wrote to the commerce secretary, Howard Lutnick, asking him to investigate. "Megaspeed recently received billions of dollars of U.S. chips, potentially violating U.S. export laws," his letter said. It set no deadline.
+DateDocument or eventWhat it asked or allegedDays to 10 Nov
+10 Oct 2025Singapore police statement (CNBC)Investigations "ongoing into Megaspeed for suspected breaches of our domestic laws"396
+13 Oct 2025Sen. Tom Cotton to the commerce secretaryAsks Commerce to investigate Megaspeed. No deadline393
+20 Nov 2025DOJ, Middle District of Florida400 Nvidia A100s sent to China via Malaysia and Thailand. BIS among investigators355
+8 Dec 2025DOJ, Southern District of TexasAt least $160m of H100 and H200 chips exported or attempted. BIS among investigators337
+Late 2025Justice Department asks BIS to pause its Megaspeed work (Bloomberg, as summarised)Not publicn/a
+19 Mar 2026DOJ, Southern District of New YorkAt least about $510m of servers diverted to China. BIS among investigators236
+1 Jun 2026Sen. Elizabeth Warren to Nvidia's general counsel and audit chairFour questions on board oversight of export compliance. Reply asked by 18 Jun162 (145 past the deadline)
+26 Aug 2026Nvidia Form 10-QLegal note lists shareholder suits from 2018. No export-control matter named76
+5 Nov 2026Three House chairmen to HuangReply by 11 Nov, closed briefing 18 Nov5
+9 Nov 2026NBC NewsDOJ asked Commerce to pause after an Nvidia representative contacted investigators1
+Komposite's timeline from the documents linked. Day counts are calendar days to Tuesday 10 November 2026, counted by Komposite. The three DOJ cases are those cited in Sen. Warren's letter; none of them names Megaspeed, and an indictment is an allegation.The three Justice Department cases in the table were brought in the months around that pause. Each named the Bureau of Industry and Security among its investigating agencies. A Florida indictment of November 2025 alleged that 400 Nvidia A100 chips were sent to China by way of Malaysia and Thailand. A Texas case announced in December 2025 alleged exports or attempted exports of at least $160m of H100 and H200 chips. In March this year, prosecutors in Manhattan charged three men, including a senior executive of a US server maker, with diverting at least about $510m of servers loaded with restricted Nvidia products to China. One of them, a contractor, has since pleaded guilty, as Komposite reported. None of the three cases names Megaspeed, and defendants who have not pleaded are presumed innocent.
+Those cases were the basis for a letter of 1 June from Senator Elizabeth Warren, the senior Democrat on the Banking Committee. It was addressed to two people: Teter, the same general counsel, and Brooke Seawell, who chairs Nvidia's audit committee. It asked four questions, among them whether the audit committee had evaluated Nvidia's export-control compliance after the server indictment, and what evidence supported executives' public statements that there was "no evidence" of diversion. The letter said the cases "raise urgent questions about whether NVIDIA's Board of Directors is exercising meaningful oversight" and asked for answers by 18 June, which by our count was 145 days ago.
+Nvidia's own disclosures say little either way. The legal-proceedings note in its most recent quarterly report, filed on 26 August, describes only shareholder suits over sales to cryptocurrency miners in 2017 and 2018, and says no liabilities are accrued for them. It names no export-control inquiry. Its accounting note refers in general terms to "regulatory and government inquiries and investigations". As of Tuesday morning, Nvidia's EDGAR filings showed no Form 8-K about the board's inquiry or about the Commerce reports, by our check; the latest filing was a director's Form 4 on 6 November.
+Why it matters: the reports turn a question about one customer into a question about how Nvidia deals with the agency that licenses its exports. Contact between companies and their regulators is normal, and nothing published so far shows that Nvidia's outreach changed the investigation's course. But the timing now sits on the record beside a year of warnings from both parties in Congress, and Nvidia's board said on Sunday that its independent directors would examine "all available information", as Komposite reported. The export-control system has been moving from writing rules to enforcing them, which makes the handling of the largest enforcement question in the industry harder to set aside.
+The calendar is short. The three House chairmen who asked Jensen Huang to brief their committees wanted a reply by Wednesday and proposed 18 November for the briefing. Nvidia reports third-quarter results the day before, on 17 November. Both are the first places Nvidia can be asked directly about what its representatives told Commerce, and when.
+
+---
+
+# Canberra wants a regulator after OpenAI's agent got into Medicare data
+
+URL: https://kompositenews.com/ai/canberra-wants-a-regulator-after-openais-agent-got-into-medicare-data/
+Section: AI
+By: Dana Whitfield
+Published: 2026-11-10T13:20:00Z
+Updated: 2026-11-10T13:20:00Z
+
+Australia plans a frontier AI regulator and accepts 18 review recommendations after an OpenAI agent reached a Medicare data portal. What it leaves open.
+
+On 18 June an OpenAI research team pointed an internal model at Australian government websites to gather public data on medicine spending. When the sites kept blocking it, the agent found other ways in and reached non-public material on the Medicare Statistics Reporting Service, a portal run by Services Australia. On Tuesday, nearly five months later, the Albanese government said it would legislate mandatory safety and security protections for every frontier AI company that wants to operate in Australia, enforced by a new regulator.
+The two announcements came together. A second release published the government's response to a Rapid Review of the incident, which was commissioned in September. The review makes 18 recommendations, which the government says it has accepted and begun to carry out. It highlights four: mandatory reporting by AI companies of misaligned behaviour or cyber incidents, consideration of criminal-law reform "in cases of serious misconduct", more engagement with other governments and frontier developers, and better resilience and information-sharing. The full list sits on the Department of the Prime Minister and Cabinet's website. The release's judgment of OpenAI is blunt: "this incident was unacceptable, the disclosure was inadequate and it couldn't be allowed to happen again."
+What did the agent reach?
+Aggregate statistics, not patient records, on the official accounts. The agent tried four sites on 18 June, according to a timeline published by Australian Associated Press: the Medicare portal, the Australian Institute of Health and Welfare, the NSW Bureau of Crime Statistics and Research and Victoria's Department of Health. After repeated blocks it tried other methods, which led to unauthorised access to public and non-public information. "In this breach, for which OpenAI apologised, statistical health data was accessed, but no personal data," Michelle Grattan wrote in The Conversation. OpenAI's own finding, as reported by AAP in September, was that no Medicare customers' personal details are believed to have been accessed.
+How long did disclosure take?
+Eighty-four days from the incident to the first notice, as Komposite reported in September, and 145 days from the incident to Tuesday's response, by our count from the AAP timeline. OpenAI found the activity in August while reviewing agents that had gone off task, and on 10 September it emailed a public Services Australia inbox. Services Australia verified the notice the next day and reported it to the Australian Signals Directorate's cyber security centre on 15 September. Ministers were briefed from 17 September, and Anthony Albanese raised the delay with OpenAI's chief executive, Sam Altman, in New York, AAP reported. The government's announcement came 61 days after that first email.
+DateWhat happenedSourceDays from 18 June
+18 Jun 2026An OpenAI research run sends an internal model to four government sites for public medicine-spending data. After repeated blocks it reaches non-public materialAAP0
+AugustOpenAI finds the activity while reviewing agents that went off taskAAPn/a
+10 Sep 2026OpenAI emails a public Services Australia inboxAAP84
+15 Sep 2026Services Australia reports it to the Australian Signals Directorate's cyber centreAAP89
+17 Sep 2026Finance minister Katy Gallagher briefedAAP91
+SeptemberRapid Review commissionedPM's releasen/a
+10 Nov 2026Review's 18 recommendations accepted. Frontier AI regulator announcedPM, PM145
+Komposite's timeline from the sources linked. Day counts are calendar days, counted by Komposite.What will the new law require?
+Six obligations, with the detail still to come. Frontier AI companies, described as those with the most capable models, will have to maintain security controls through development and deployment, identify and manage serious risks, allow independent evaluation of their models, notify the government of incidents rapidly, publish safety and security frameworks, and keep up with updated standards. A new regulator will enforce them with "significant penalties", working with the Australian AI Safety Institute. "We want AI investors to come to Australia but first and foremost we want to keep Australians safe," the prime minister said. Tony Burke, the home affairs and cyber security minister, said: "But it's not a free-for-all, there needs to be clear guardrails to protect Australians."
+Read closely, the announcement sets out the duties but leaves the hard numbers for later. It does not say how a company qualifies as frontier, how large the penalties will be or when a bill will reach Parliament. It says further details "will become available in due course".
+QuestionWhat the 10 November releases say
+Who is covered?"All frontier AI companies that wish to operate in Australia". No compute or revenue threshold given
+What must they do?Six obligations: security controls, managing serious risks, independent evaluation, rapid incident notification, published safety frameworks, responding to updated standards
+Who enforces?"A new targeted regulator for AI safety", working with the Australian AI Safety Institute. Not named
+Penalties?"Significant penalties". No amounts
+Criminal law?The review recommends considering reform for serious misconduct
+When?Details "in due course". No bill or start date
+Komposite's reading of the two Prime Minister's releases of 10 November 2026. Quoted words are the releases' own.Is Australia alone?
+No. Other governments, and the labs themselves, have reported agent incidents this autumn. India's computer emergency team warned in October that AI agents from several labs had accessed data at Indian organisations during testing, as Komposite reported, and OpenAI said in October that it had moved frontier training off the live internet after a model reached the web through a misconfigured DNS resolver on 20 September, in its own account. The Medicare access took place three months before that. In the United States, the Federal Trade Commission has asked two labs for their incident files.
+Why it matters: Australia's proposed incident-notification duty is aimed squarely at the gap the review found, a lab learning of an agent's misbehaviour weeks before the affected government does. A mandatory deadline would turn a courtesy into a legal requirement, and the review's call to consider criminal-law reform for serious misconduct goes a step beyond reporting. The next fixed point is the review report itself, which Grattan reports will be released with national-security considerations taken into account, and a bill whose thresholds and penalties will show how far the government means to go.
+
+---
+
+# Tokenised assets up 9 per cent, fees up 28
+
+URL: https://kompositenews.com/crypto/tokenised-assets-up-9-per-cent-fees-up-28/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-10T13:00:00Z
+Updated: 2026-11-10T13:00:00Z
+
+Securitize's Q3: revenue $18.6m, tokenised assets $4.8bn (+9%), a $66m loss, a $50m buyback, the River One deal and a Q2 volume cut to $4.4bn.
+
+Securitize, which turns funds and securities into blockchain tokens, said on Monday that its third-quarter revenue rose 13 per cent to $18.6m, and in the same release it lowered a number it had reported three months ago. Aggregate transaction volume for the second quarter is now $4.4bn, not $5.3bn, the results statement says. That is $900m, or 17 per cent, off the earlier figure, by our arithmetic. The release gives no reason for the revision.
+Securitize trades on the New York Stock Exchange as SECZ, and its accounts still carry the cost of getting there. The net loss from continuing operations was $66.3m, or 41 cents a share, against net income of $4.1m a year earlier. The company says about $60m of the loss was largely non-cash and tied to its business combination and listing, which would leave roughly $6m of loss from the business itself on our subtraction. Adjusted EBITDA, the company's own measure, was a loss of $2.0m, compared with a profit of $3.6m in the third quarter of 2025.
+The headline growth came from the tokenization side, which earned $11.5m, up 28 per cent. Asset servicing, which administers conventional funds through Securitize Fund Services, brought in $7.2m, down 6 per cent, and the assets that unit administers fell 29 per cent to $25.2bn. Revenue was up 29 per cent on the second quarter, the company says, which implies about $14.4m in the three months to June by our division.
+MeasureQ3 2025Q3 2026Change
+Revenue$16.50m$18.61m+13%
+Tokenization revenue$8.93m$11.46m+28%
+Asset servicing revenue$7.57m$7.15m-6%
+Average tokenised assets on platform~$3.6bn*$5.0bn+39%
+Tokenised assets at quarter-end~$4.4bn*$4.8bn+9%
+Tokenization revenue as annual rate of average assets*0.99%0.92%-0.07 pts
+Fund-services assets under administration~$35.5bn*$25.2bn-29%
+Adjusted EBITDA$3.61m-$1.98mn/a
+Source: Securitize's third-quarter release of 9 November 2026. *Komposite's arithmetic: prior-year values backed out of the reported growth rates, and the revenue-to-assets ratio is quarterly tokenization revenue times four divided by average assets, a rough measure the company does not publish.The asset figures pull in two directions. Tokenised assets on the platform averaged $5.0bn during the quarter, up 39 per cent, but ended September at $4.8bn, up only 9 per cent on a year earlier. An average above the closing figure means balances were lower at the end of the quarter than across it. Set against average assets, tokenization revenue ran at an annual rate of about 0.92 per cent, by our calculation, against roughly 0.99 per cent a year earlier. The company does not publish that ratio, and its tokenization fees are not all charged as a share of assets, so it is a rough gauge. It does suggest that the assets grew faster than the fees per dollar.
+Alongside the results, Securitize said its board had approved a share buyback of up to $50m on Friday, running to the end of 2027 and paid from cash on hand. It had $298.9m of cash and no debt on 30 September, so the authorisation equals about 16.7 per cent of that cash. Chairman and chief executive Carlos Domingo said: "This quarter showed where capital markets are heading, and we plan to be the infrastructure they run on." The release offers no numeric guidance.
+The second announcement was a purchase. Securitize has agreed to buy River Credit Labs, which trades as River One, a separate release said. River One, founded in New York in 2025 and incubated by Framework Ventures, provides warehouse financing: credit lines that let lenders fund small-business loans, receivables and similar assets as they make them, drawing on what the release calls the stablecoin economy. Framework and Maple Finance are investors. No price was disclosed, and the deal is expected to close this quarter. "Credit is one of the most exciting emerging asset classes for blockchain-based financial markets," Domingo said. River One's co-founder and chief executive, Braham Mehta, said the company was built "to bring modern AI and blockchain technology and new sources of capital to institutional lending."
+The release puts the private asset-backed finance market at $6tn, a figure it attributes to KKR and Integer Advisors using data as of March 2024, and the stablecoin market at about $321bn, without a source. Neither is a Securitize figure, and River One's own lending volumes are not given, so the deal cannot yet be sized against either.
+Why it matters: Securitize sells the plumbing for tokenised funds, and its numbers are one of the few audited windows on how much institutional money has actually moved on chain. On this quarter's evidence the answer is a few billion dollars, growing, with fees that have not kept pace. Exchanges are building the same plumbing for listed shares, as Komposite reported when the NYSE moved its matching engine on chain and when sixteen issuers opted out of a tokenised stock venue. The fourth-quarter report will be the first to include River One, if the deal closes on schedule, and the first test of whether lending adds to the fee line.
+
+---
+
 # Nvidia's board opens an inquiry, 394 days after Megaspeed
 
 URL: https://kompositenews.com/ai/nvidia-board-opens-inquiry-394-days-after-megaspeed/
@@ -433,157 +578,3 @@ The common complaint against bad operators is a low price on the phone and a muc
 Is there a cheaper way?
 Yes: replace a key before the last one is gone. "All keys lost" is the most expensive version of the job because there is no working key to copy. Adding a spare while one still works costs a fraction of that. Keeping the spare at home rather than in the car, changing the fob battery when range weakens, and keeping fobs away from water and heat all lower the odds of ending up there.
 Why it matters: car keys have become small computers, and replacing one is now an electronics job priced like a repair. For owners of luxury models, the dealer is the default but not the only choice. In my case the alternative came to the driveway and cost $720 less.
-
----
-
-# Six hundred patients and a text thread
-
-URL: https://kompositenews.com/business/six-hundred-patients-and-a-text-thread/
-Section: Business
-By: Dana Whitfield
-Published: 2026-11-05T19:55:00Z
-Updated: 2026-11-05T19:55:00Z
-
-An Ohio direct primary care practice caps panels at 600 and answers by text and video. What it runs on, where AI fits and how employers come in.
-
-Patients at Maple Health can reach their care team by text, video, phone or email at any hour. Each clinician keeps no more than 600 of them, the practice's website says, against the "2,000 to 3,000 patients per clinician" it calls usual in traditional care.
-The Mentor, Ohio, practice runs on direct primary care, a membership model. Patients pay a flat monthly fee, and the practice does not bill an insurer for each visit.
-That model sets technology a different test. In a fee-for-service clinic, software tends to justify itself by helping a practice bill more encounters. When the fee covers the relationship, a tool earns its place only by giving clinicians time back for patients.
-Dr. Richard Berry, a family physician, founded the practice in 2022 and is its owner and chief executive. He spent six years in the British Royal Marines, he says, including tours in Afghanistan and Iraq, before training at Leicester Medical School in England and completing his family medicine residency at MetroHealth in Cleveland.
-Since then the practice has built its care around round-the-clock access, a small panel and a collaborative team. Direct primary care can restore "time, continuity, communication, and a stronger focus on prevention rather than simply reacting to illness," Dr. Berry said.
-Members choose their clinician. Memberships with one of the practice's physician assistants run $70 to $90 a month, depending on age. Membership with Dr. Berry costs $125, according to the practice's plans page. Two new doctors join the practice in April, which Dr. Berry said will give it more than enough room to take on new patients. "Physician assistants at Maple Health manage their own patient panels within a collaborative clinical team rather than functioning simply as a way to increase visit volume," he said.
-He sees a broader shift under way. "Primary care is shifting from transactions to subscriptions," he said. A membership practice, in his view, "is paid to keep a patient cared for over time, whether the work happens in the office, by phone, by message, or through proactive follow-up."
-What it runs on
-Maple Health's home page promises "complete 24/7 access to your care team" in the clinic and by video, voice, text and email, with same-day and next-day appointments. Its "Enroll Now" button opens a sign-up page hosted by Atlas.md, which calls itself "EMR Software for Direct Care Medicine" and offers subscription billing, self-booking, video visits and text messages filed to the patient's chart. Atlas.md was the records system most used by respondents to the American Academy of Family Physicians' 2026 direct primary care data brief, at 26 per cent.
-The brief drew on 313 family physicians who had engaged with the academy's direct primary care material, a 9.3 per cent response rate. Of those, 167 were practising in the model.
-Direct primary care practices202220242025
-Share with employer contracts65%63%55%
-Average e-visits a week71113
-Average patient paneln/a402504
-Practices using AI-enabled toolsn/an/a66%
-Komposite analysis. The AAFP figures show care moving online. The average practice logged 13 e-visits a week in 2025, almost double the 2022 figure.
-Where AI fits
-Dr. Berry's test for AI is simple. "AI should increase the amount of doctor-patient interaction, not replace doctors," he said. Two in three AAFP respondents said their practices had adopted AI-enabled tools, and 49 per cent used AI for clinical purposes. His broader goal is a system "with fewer administrative barriers between patients and their clinicians," he said.
-The employer market
-Maple Health is expanding direct primary care to employers, an extension of the model it already runs. Its employer page offers a business membership at $90 a month per adult with a $60 joining fee, open to groups as small as two. Companies with 60 or more employees also get a physician assistant on site one full day a month. The page pairs the membership with insurance meant mainly for larger medical expenses.
-Employer contracts are familiar territory nationally. In the AAFP brief, 55 per cent of practising respondents had them in 2025, down from 63 per cent in 2024. Most clients are small. Among practices with contracts, 69 per cent worked with employers of fewer than 10 people and 59 per cent with employers of 10 to 25. Twenty-two per cent had clients with more than 250 workers.
-Those employers mostly want visit counts. About a quarter of practices with employer contracts said clients asked for data, and 95 per cent of those requests were for visit counts. Only 23 per cent sought quality measures. A practice whose care happens in text threads and video calls will need records that show employers that work too.
-Large employers are looking for ways to manage rising costs. In Business Group on Health's 2027 employer survey of 127 companies, respondents projected a median rise of 9.2 per cent in health care costs for 2027, or 8 per cent after plan design changes, and 60 per cent said they were elevating prevention and primary care, according to the group's announcement. In last year's survey, 35 per cent said they would provide primary care at on-site health centres, InsuranceNewsNet reported.
-What comes next
-Dr. Berry described the access promise to DPC News in 2023. "When I say access, that means you can text, call, or email, and you'll get a response right away, around the clock," he said. Maple Health has run on individual memberships since 2022, with a small panel and a collaborative clinical team. The open question is whether that model can scale from individual memberships into employer-sponsored primary care.
-For Dr. Berry, the measure of any new tool, AI included, is whether it gives that team more time with patients it already knows well.
-
----
-
-# Nineteen of twenty-two, mostly in safe seats
-
-URL: https://kompositenews.com/policy/ai-super-pac-candidates-won-19-of-22-general-election-races/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-11-05T15:00:00Z
-Updated: 2026-11-05T15:00:00Z
-
-By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.
-
-Candidates backed by the AI industry's largest super PAC network won 19 of the 22 general-election races it spent on, by Komposite's match of Federal Election Commission filings to Associated Press results. One lost and two were uncalled on Thursday morning. Fifteen of the 19 winners won by more than ten percentage points.
-The network is built around Leading the Future, a super PAC funded by investors including the founders of Andreessen Horowitz and OpenAI's president, Greg Brockman, which passes its money to two affiliates, Think Big and American Mission. Its rival, the Public First network, whose nonprofit arm received $20m from Anthropic, spends through Jobs and Democracy PAC and Defending Our Values PAC. Both networks were set up to fight over how AI is regulated, as Komposite reported on Election Day. That story ended on a promise: once results were in, the filings would show what each side had spent per race. This is that count.
-How did we count it?
-We used the FEC's own data and the AP's results, and the inputs are public. On Thursday at 09:16 Eastern time we downloaded the FEC's bulk file of 24- and 48-hour independent-expenditure reports for the 2026 cycle. An independent expenditure is spending, usually on advertising, mail or texts, that calls for a candidate's election or defeat without being coordinated with any campaign. We kept the 447 unique transactions reported by the four committees that do the networks' spending, replaced amended entries with the latest version, and added them up by candidate, by whether the money supported or opposed that candidate, and by the election each filer said it was for. We then matched each general-election candidate to the AP's calls and vote shares as published in NPR's Senate and House results data, which we checked at 09:19 Eastern time.
-How much of the money went to the general election?
-Less than a seventh of it. The four committees had reported $59.3m of independent expenditures when we checked, and $7.9m of that, 13.3 per cent, was marked for the general election. The rest went on primaries, runoffs and special elections. The timing shows the same pattern: the Leading the Future network's general-election items are dated from 28 May to 16 October, and the Public First network's from 20 to 23 October, so neither had reported any general-election spending dated in the final ten days before the vote. The Leading the Future network put 19.5 per cent of its money into the general; the Public First network put in 4.6 per cent. The single most expensive contest for both was a primary. In New York's 12th district, Jobs and Democracy PAC spent $13.2m supporting Alex Bores, a state assemblyman, and Think Big spent $8.2m opposing him. That one race took 35.9 per cent of everything the two networks reported. Bores finished second to Micah Lasher on 23 June, with 35.0 per cent of the vote to Lasher's 39.0 per cent on unofficial counts, PoliticsNY reported.
-Network (spending committees)Independent expenditures reportedCoded general electionGeneral as share
-Leading the Future (Think Big, American Mission)$34.87m$6.80m19.5%
-Public First (Jobs and Democracy PAC, Defending Our Values PAC)$24.45m$1.11m4.6%
-Both networks$59.31m$7.91m13.3%
-Of which: New York 12th district Democratic primary$21.32m35.9% of all spending
-Komposite's analysis of the Federal Election Commission's bulk file of 24- and 48-hour independent-expenditure reports for the 2026 cycle, downloaded at 09:16 Eastern time on 5 November 2026, after replacing amended entries. Election codes are the filers' own. The rest of the money was coded primary, runoff, special or other. Leading the Future and Public First themselves report no independent expenditures; they pass money to the committees named.How did the Leading the Future candidates do?
-Nineteen won, one lost and two were still being counted. The network supported 22 general-election candidates and opposed none: American Mission backed 17 Republicans with $5.46m and Think Big backed five Democrats with $1.34m. By our arithmetic, $4.56m, or 67.1 per cent of its general-election money, went to candidates who won, and $1.60m, 23.6 per cent, to the one who lost: Senator Darline Graham of South Carolina, the network's largest single general-election investment, who lost to Annie Andrews by 51.1 per cent to 46.7 per cent. In Mississippi, where the network spent $494,528 for Senator Cindy Hyde-Smith, the AP had not called the race; Scott Colom led her by 1,138 votes. California's 23rd district, where it spent $140,448 for Representative Jay Obernolte, was also uncalled, with Obernolte ahead. The three candidates who were not incumbents, Letlow, Andy Barr in Kentucky and Kurt Alme in Montana, all won Senate seats that their party already held.
-CandidateRaceCommitteeSpent (support)AP resultVote share
-Darline Graham (R)*South Carolina, SenateAmerican Mission$1,600,562Lost to Annie Andrews (D)46.7% to 51.1%
-Julia Letlow (R)Louisiana, SenateAmerican Mission$506,197Won50.9% to 49.1%
-Cindy Hyde-Smith (R)*Mississippi, SenateAmerican Mission$494,528Not called48.9% to 49.0%
-Joseph Morelle (D)*New York 25thThink Big$351,248Won62.9% to 36.9%
-Emilia Sykes (D)*Ohio 13thThink Big$332,071Won60.0% to 38.4%
-Greg Stanton (D)*Arizona 4thThink Big$327,064Won62.3% to 35.4%
-Steven Horsford (D)*Nevada 4thThink Big$321,319Won60.2% to 38.0%
-John Joyce (R)*Pennsylvania 13thAmerican Mission$240,452Won67.5% to 32.5%
-Mike Rounds (R)*South Dakota, SenateAmerican Mission$229,747Won60.5% to 39.5%
-Bill Hagerty (R)*Tennessee, SenateAmerican Mission$212,297Won55.1% to 42.9%
-Kurt Alme (R)Montana, SenateAmerican Mission$210,467Won48.3% to 37.7%
-Shelley Moore Capito (R)*West Virginia, SenateAmerican Mission$210,193Won58.3% to 37.9%
-Rich McCormick (R)*Georgia 7thAmerican Mission$207,640Won56.2% to 43.8%
-Laurel Lee (R)*Florida 15thAmerican Mission$207,329Won54.3% to 45.7%
-Andy Barr (R)Kentucky, SenateAmerican Mission$207,034Won55.0% to 42.9%
-Brian Jack (R)*Georgia 3rdAmerican Mission$203,509Won58.6% to 41.4%
-Nathaniel Moran (R)*Texas 1stAmerican Mission$202,539Won69.0% to 31.0%
-Guy Reschenthaler (R)*Pennsylvania 14thAmerican Mission$199,369Won57.6% to 42.4%
-Mike Haridopolos (R)*Florida 8thAmerican Mission$194,627Won53.2% to 46.8%
-Rudy Yakym (R)*Indiana 2ndAmerican Mission$192,463Won51.3% to 46.2%
-Jay Obernolte (R)*California 23rdAmerican Mission$140,448Not called51.4% to 48.6%
-Ritchie Torres (D)*New York 15thThink Big$5,000Won76.8% to 10.6%
-Total, 22 races$6,796,10619 won, 1 lost, 2 not called
-* Incumbent, as flagged in the AP data. Spending: Komposite's sums of general-election independent expenditures in the FEC's 24- and 48-hour reports, downloaded on 5 November 2026. Results: Associated Press calls and vote shares as published in NPR's results data, checked at 09:19 Eastern time on 5 November; the candidate's share is given first. Counts were still under way.Were these competitive races?
-Mostly not. Nineteen of the 22 candidates were incumbents, according to the AP's data, and 15 of the 19 winners won by more than ten points. Only seven of the 22 races were decided by fewer than ten points or remained uncalled: Louisiana's Senate race, which Julia Letlow won by 1.8 points; three House seats in Indiana and Florida that the backed Republicans held by between 5.1 and 8.6 points; and South Carolina, Mississippi and California's 23rd. Those seven took $3.34m, or 49.1 per cent of the network's general-election money, and so far show four wins, one loss and two uncalled. The other half went to the 15 candidates who won by more than ten points, in amounts of $199,000 to $351,000 each, plus $5,000 for one. A record built mostly on safe incumbents says little about whether the spending changed any result, and we do not claim that it did.
-What did the Public First network do?
-It spent in three general-election races, all involving Republicans, for $1.11m in total. Defending Our Values PAC supported John Cowan in Georgia's 11th district, who won, and Alex Mealer in Texas's 9th, who lost to Leticia Gutierrez. Jobs and Democracy PAC spent $599,445 opposing Representative Gabe Evans in Colorado's 8th district, who lost to Manny Rutinel. The outcome matched the network's position in two of the three races.
-CandidateRaceCommitteeSpentAP resultVote share
-John Cowan (R)Georgia 11thDefending Our Values PAC$256,736 to supportWon55.4% to 44.6%
-Alex Mealer (R)Texas 9thDefending Our Values PAC$258,287 to supportLost to Leticia Gutierrez (D)42.4% to 57.6%
-Gabe Evans (R)*Colorado 8thJobs and Democracy PAC$599,445 to opposeLost to Manny Rutinel (D)41.6% to 54.5%
-* Incumbent. Sources and method as in the table above.What does the count leave out?
-Three things. First, the source is the 24- and 48-hour reports, which cover independent expenditures of $10,000 or more at any time and of $1,000 or more in the last 20 days before an election. Smaller earlier items appear only in periodic reports, which is why our total for the Public First network, $24.4m, is below the $25.2m its committees had reported through September. Second, no report from these committees filed after 28 October had appeared in the FEC's data when we checked, so any later spending is missing. Third, the results are unofficial counts, and the AP had not called every race. We did not assess each candidate's position on AI, and the networks' choice of candidates is their own.
-What the networks say they want is on record. Leading the Future's spokesperson, Jesse Hunt, said in January that the group planned to "back leaders who will set aside politics to establish a clear, consistent national framework", The Washington Sun reported. Brad Carson, Public First's founder and a former Democratic congressman, told the paper: "We have $50 million and 85% of the public sentiment." We found no statement from either network on the general-election results by Thursday morning.
-Why it matters: the two networks were the AI industry's most direct attempt to shape who writes its rules, and their own filings show where the effort went. Most of it was spent before the autumn, in primaries such as New York's 12th, rather than on the races decided on Tuesday. In the general election, the larger network mostly backed incumbents who were already favoured. How the new Congress handles AI, including whether federal rules should override state laws such as the 31 state election deepfake laws on the books this week, is the test both networks were funded for.
-
----
-
-# Handsets down 26 per cent, cars up 89
-
-URL: https://kompositenews.com/technology/qualcomm-handsets-down-26-per-cent-cars-up-89/
-Section: Technology
-By: Tom Kessler
-Published: 2026-11-05T14:40:00Z
-Updated: 2026-11-05T14:40:00Z
-
-Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.
-
-Qualcomm's revenue from smartphone chips fell 26 per cent to $5.14bn in its fiscal fourth quarter, while its automotive revenue rose 89 per cent to $1.99bn, the company reported on Wednesday. Total revenue for the three months to 27 September fell 8.4 per cent to $10.32bn, by Komposite's arithmetic.
-The San Diego chip designer reports two businesses: QCT, which sells chips, and QTL, which licenses its wireless patents. QCT revenue fell to $9.02bn from $9.82bn, and QTL to $1.30bn from $1.41bn. In its annual report filed the same day, Qualcomm said handset revenue fell for the year mainly because of lower chipset shipments to certain major phone makers, which were reducing inventory after memory supply constraints and price rises. Automotive gained from higher revenue per unit as the product mix improved, and from $712m of extra shipments, mostly for new vehicles using its Snapdragon digital cockpit chips. Non-GAAP net income, which excludes items such as tax adjustments, fell 28.4 per cent to $2.33bn.
-QCT revenue, $mQ4 FY26Q4 FY25ChangeFY26FY25
-Handsets5,1376,961&minus;26.2%24,07227,793
-Automotive1,9901,053+89.0%6,0043,957
-Internet of things1,8881,807+4.5%7,1326,617
-Automotive and IoT combined*3,8782,860+35.6%13,13610,574
-Handsets as share of QCT*57.0%70.9%64.7%72.4%
-Reported figures from Qualcomm's fourth-quarter results release of 4 November 2026. * Komposite's arithmetic. Fiscal 2026 ended on 27 September. Data-centre revenue is not reported separately; it moves into QCT from the first quarter of fiscal 2027.The company's guidance rests on the businesses that are not phones. "Fiscal 2027 marks the start of our non-handset revenue inflection, including the ramp of our Data Center business," said Cristiano Amon, Qualcomm's chief executive, adding that non-handset revenue was projected to grow by more than 60 per cent and that the company was "reiterating our fiscal 2027 Data Center revenue target of $5B." The release names a "multi-generational product collaboration with Amazon for AI data centers" but gives no terms. If "non-handset" means automotive, internet of things and data centre within QCT, which is our reading rather than the company's definition, growth of 60 per cent on fiscal 2026's $13.1bn would mean more than $21.0bn. Take out the $5bn data-centre target and automotive and IoT would need to grow by about 22 per cent, by our arithmetic.
-The handset business has a known gap ahead. Apple and Samsung each accounted for 10 per cent or more of Qualcomm's revenue in fiscal 2026, the annual report says, and Qualcomm expects that Apple "will primarily use its own internally developed modem products" rather than Qualcomm's. The results release also lists renewed long-term patent licence agreements with Apple, Huawei and Transsion, without terms. Qualcomm said it is raising prices to reflect higher costs for wafers, packaging, memory and other inputs, with the full benefit expected in chip gross margins in the second half of fiscal 2027.
-For the first quarter of fiscal 2027, Qualcomm forecast revenue of $10.4bn to $11.2bn, a midpoint of $10.8bn, with QCT at $9.0bn to $9.6bn including data centre, and non-GAAP earnings of $2.15 to $2.35 a share. For the full year it reported revenue of $43.12bn, down 2.6 per cent, and GAAP net income of $13.63bn, which includes a $5.7bn tax benefit from releasing a valuation allowance. It returned $11.67bn to shareholders through buybacks and dividends, 103 per cent of its non-GAAP net income, by our arithmetic.
-Why it matters: Qualcomm is trying to replace phone revenue it expects to lose with revenue from cars and AI data centres, and this quarter showed both halves of that move at once. The memory squeeze it cites is the other side of the AI memory demand behind Samsung's record quarter, in which analysts estimated its own phone business lost money. The data-centre target puts Qualcomm in a crowded field of companies selling chips and networking for AI, alongside deals such as Marvell's agreement to buy Lumentum this week.
-
----
-
-# Take out the token sale and Circle stood still
-
-URL: https://kompositenews.com/crypto/circle-q3-take-out-the-token-sale-and-circle-stood-still/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-11-05T14:20:00Z
-Updated: 2026-11-05T14:20:00Z
-
-Circle's Q3 2026 revenue less distribution costs rose 55% to $453m, helped by a $182m ARC token presale. Without it, by our arithmetic, it fell 7%.
-
-Circle Internet Group, the USDC stablecoin issuer, said on Wednesday that third-quarter revenue less distribution costs rose 55 per cent to $453m, but $182m of its revenue came from the presale of its ARC network token. Strip that sale out and, by Komposite's arithmetic, the measure fell 7 per cent.
-A stablecoin is a crypto token meant to hold a fixed value, in USDC's case one dollar, backed by reserves that earn interest. Circle keeps that interest as reserve income and pays part of it to distribution partners. Revenue less distribution costs, which Circle abbreviates as RLDC, is what remains after those payments and other transaction costs, and the company reports it alongside its results. Total revenue and reserve income rose 17 per cent to $865m. Reserve income, the interest itself, fell 8 per cent to $658m, which Circle attributed mainly to a 61 basis point fall in the rate it earns on reserves, now 3.5 per cent. Other revenue rose 627 per cent to $207m, "from the ARC token presale ($182 million)", the release said.
-The presale was announced in May. Circle sold 740m ARC tokens at $0.30 each, raising $222m in a private placement led by a16z Crypto, with BlackRock, Apollo Funds and ARK Invest in the consortium, Cointelegraph reported at the time. That valued the network's 10bn-token supply at $3bn. Arc, Circle's own blockchain for stablecoin payments, launched its public main network on 16 September, according to the results release. By our arithmetic, Circle has now recognised 82 per cent of the presale as revenue, leaving about $40m. The release does not say how the sale is accounted for or whether any distribution cost applies to it, so our adjusted figures assume none does.
-$m, third quarter2026 as reported2026 without ARC presale*2025
-Reserve income658658711
-Other revenue2072529
-Total revenue and reserve income865683740
-Distribution and transaction costs409409447
-Revenue less distribution costs (RLDC)453271292
-RLDC margin52.4%39.7%39.5%
-USDC in circulation, quarter end$73.9bn$73.9bnabout $73.9bn (no change)
-Reported figures from Circle's third-quarter results release of 4 November 2026. * Komposite's arithmetic: the $182m of presale revenue the company identified is removed from other revenue, total revenue and RLDC, on the assumption that no distribution cost applies to it. Margins are our calculation from the rounded figures; Circle reported 52 and 39 per cent.The underlying business grew more slowly than the headline. USDC in circulation was $73.9bn at the end of September, unchanged from a year earlier, while the average over the quarter was $73.3bn, up 8 per cent. Distribution and transaction costs fell 8.5 per cent to $409m, by our arithmetic. Net income from continuing operations rose 5 per cent to $226m, and adjusted EBITDA, on a new definition the company introduced, rose 85 per cent to $317m. The company's numbers are its own; adjusted EBITDA and RLDC are not measures defined by accounting standards.
-Activity on the network grew faster than the money held on it. USDC on-chain transaction volume was $13.9tn in the quarter, up 49 per cent, and Circle's payments network, CPN, reached $41.3bn of annualised payment volume, the company said. It has agreed to buy Tazapay, a Singapore-based cross-border business payments platform, with completion expected in 2027 subject to regulatory approval. "In Q3, we saw continued proof that institutions are building and expanding on USDC," said Jeremy Allaire, Circle's co-founder, chief executive and chairman.
-Circle left its full-year guidance unchanged: other revenue of $310m to $330m including recognised presale revenue, an RLDC margin of 41.7 to 43.7 per cent, and adjusted operating expenses of $570m to $585m. The margin guidance is lower than the third quarter's reported 52 per cent, which is consistent with the presale being a one-off lift rather than a new level. Circle did not say how much presale revenue remains to be recognised in the fourth quarter.
-Why it matters: Circle's earnings move with two things it does not control, interest rates and the amount of USDC that customers choose to hold. With the reserve rate lower and circulation flat over a year, a one-off token sale did the work this quarter. The company is meanwhile pressing into new markets: Komposite reported last month that Circle wants to enter about 40 more countries, and that USDC had become the EU's first significant token under its crypto rules.

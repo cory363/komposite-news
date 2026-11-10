@@ -3391,5 +3391,41 @@
   "alt": "An ornate blue-bordered preferred stock certificate of the Lehigh Valley Traction Company, Allentown, Pennsylvania, with an engraving of a streetcar",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:1900_-_Lehigh_Valley_Traction_Company_Preferred_Stock_Certificate_Allentown_PA.jpg\" rel=\"noopener\">Unknown author</a>, Public domain, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/anthropics-price-range-values-it-at-up-to-1-4tn": {
+  "id": "commons:TPU_v4.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/TPU_v4.png/1280px-TPU_v4.png",
+  "width": 1280,
+  "height": 960,
+  "alt": "A green Google TPU v4 circuit board seen from above, with four chip packages under metal heat plates and red, blue, yellow and green coolant hoses",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:TPU_v4.png\" rel=\"noopener\">Norman P. Jouppi et al. (Google)</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" rel=\"noopener\">CC BY 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "policy/megaspeeds-paper-trail-from-commerce-to-the-prosecutors": {
+  "id": "commons:Herbert_C._Hoover_Building,_U.S._Department_of_Commerce,_Washington,_D.C_LCCN2010719583.tif",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Herbert_C._Hoover_Building%2C_U.S._Department_of_Commerce%2C_Washington%2C_D.C_LCCN2010719583.tif/lossy-page1-1280px-Herbert_C._Hoover_Building%2C_U.S._Department_of_Commerce%2C_Washington%2C_D.C_LCCN2010719583.tif.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "An arched stone entrance marked United States Department of Commerce, flanked by bronze lanterns, with flower planters in front",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Herbert_C._Hoover_Building,_U.S._Department_of_Commerce,_Washington,_D.C_LCCN2010719583.tif\" rel=\"noopener\">Carol M. Highsmith</a>, Public domain, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/canberra-wants-a-regulator-after-openais-agent-got-into-medicare-data": {
+  "id": "commons:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Parliament_House_at_dusk%2C_Canberra_ACT.jpg/1280px-Parliament_House_at_dusk%2C_Canberra_ACT.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Australia's Parliament House in Canberra lit at dusk, its flagpole above the building and its facade reflected in the forecourt pool",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg\" rel=\"noopener\">Thennicke</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "crypto/tokenised-assets-up-9-per-cent-fees-up-28": {
+  "id": "commons:Brickell_skyline_2012.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Brickell_skyline_2012.jpg/1280px-Brickell_skyline_2012.jpg",
+  "width": 1280,
+  "height": 848,
+  "alt": "High-rise towers of Brickell in Miami under a blue sky with white clouds, seen across the water of Biscayne Bay",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Brickell_skyline_2012.jpg\" rel=\"noopener\">Daniel Christensen</a>, Public domain, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
