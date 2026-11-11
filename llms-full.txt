@@ -283,6 +283,189 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Nvidia sheds $428bn as its rivals add $291bn
+
+URL: https://kompositenews.com/markets/nvidia-sheds-428bn-as-its-rivals-add-291bn/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-11T14:00:00Z
+Updated: 2026-11-11T14:00:00Z
+
+Nvidia lost about $428bn of market value on 9-10 November 2026 by our arithmetic as AMD and Broadcom gained $291bn. A class action followed.
+
+Nvidia's shares closed at $168.89 on Tuesday 10 November, 9.5 per cent below the $186.64 close of Friday 6 November, after two days of selling that followed chief executive Jensen Huang's admission of an affair. On the 24.1 billion shares in its latest quarterly filing, that is about $428bn of market value lost since Friday, by our arithmetic.
+The fall came in two steps. On Monday the stock lost $7.97, or 4.27 per cent, about $192bn of value. On Tuesday it lost a further 5.47 per cent, CNBC reported, or about $236bn, by our multiplication. Nvidia briefly traded below a $4tn valuation on Tuesday afternoon before closing above it. On our share count the line sits at about $166 a share; the close left the company worth about $4.07tn. Volume on the two days averaged 445m shares, 2.6 times the average of the five sessions before, according to Yahoo Finance's daily history.
+The selling was not spread across the chip sector. Over the same two days AMD rose 14.7 per cent and Broadcom 13.0 per cent, on closing prices from Yahoo Finance. Applied to the share counts on their latest 10-Q covers, from SEC EDGAR, those moves added about $108.5bn to AMD and $182.8bn to Broadcom: $291.3bn together, or 68 per cent of what Nvidia lost. CNBC put Broadcom's Monday gain at just over 10 per cent; on closing prices we make it 8.8 per cent. Share prices move for many reasons at once, and the arithmetic shows coincidence, not a transfer from one to the others.
+Komposite's compilation and arithmetic. Closing prices from Yahoo Finance's daily history. *Price change times the share count on each company's latest 10-Q cover, from SEC EDGAR: Nvidia 24.1bn (21 August 2026), Broadcom 4,773,629,865 (28 August), AMD 1,640,087,251 (28 October). Share counts move between filings, so the values are approximate.CompanyClose, Fri 6 NovClose, Mon 9 NovClose, Tue 10 NovTwo-day changeMarket value change*
+Nvidia$186.64$178.67 (-4.3%)$168.89 (-5.5%)-9.5%-$427.8bn
+Broadcom$293.69$319.48 (+8.8%)$331.98 (+3.9%)+13.0%+$182.8bn
+AMD$449.04$508.58 (+13.3%)$515.21 (+1.3%)+14.7%+$108.5bn
+The two days were not alike. On Monday, AMD and Broadcom together added about $221bn, more than the $192bn Nvidia lost, by our arithmetic. On Tuesday the pattern broke: Nvidia lost $236bn while the other two added about $71bn between them. Read that way, Monday looked like investors switching between chipmakers, and Tuesday like investors selling Nvidia.
+The trigger was a weekend email. In a message to staff posted on Sunday 8 November, Huang wrote: "I was unfaithful to my wife." He also wrote, "I have fallen short of that responsibility," and said he would "cooperate fully" with the board's investigation. CNBC has reported that the affair was with Alice Huang, an executive at Megaspeed, a Singapore-based Nvidia customer. On 5 November three House committee chairmen asked Huang to brief Congress on his link to what they called a Chinese intelligence asset. The board's statement the same day said a committee of independent directors, "assisted by outside independent counsel", would run the inquiry, which we reported on Monday.
+What does the lawsuit claim?
+That Nvidia and Huang misled investors about Huang's relationship with Alice Huang and about Nvidia's dealings with Megaspeed. The suit was filed on Monday in the federal court in San Jose by the Rosen Law Firm for a shareholder named Mark Kistenmacher, Gizmodo reported. Rosen's notice says the defendants' statements were "materially false and/or misleading at all relevant times" and that investors were damaged when the true details entered the market. At least four other firms have announced investigations, according to Gizmodo.
+Komposite's summary from Rosen's notice of 10 November, Gizmodo and CNBC. Day count by Komposite. We have not read the complaint itself, which was not available to us on the public docket.ItemWhat the filings and notices say
+CaseKistenmacher v. Nvidia, a proposed securities class action against Nvidia and Jensen Huang
+CourtUS District Court for the Northern District of California, San Jose
+FiledMonday 9 November 2026, by the Rosen Law Firm
+Class period9 October 2025 to 8 November 2026, both dates inclusive: 396 days by our count
+Core allegationStatements about Huang's relationship with Alice Huang and Nvidia's dealings with Megaspeed were "materially false and/or misleading at all relevant times"
+Statements citedRemarks by Nvidia spokesman John Rizzo, and Huang's May 2025 denial that Nvidia chips were being diverted to China (as reported)
+Lead-plaintiff deadline8 January 2027, 60 days after the first notice
+StatusNo class certified. The allegations are unproven
+The dates were chosen with care. The class period opens on Thursday 9 October 2025, the day before Singapore's police said publicly that they were investigating Megaspeed, the first entry in the paper trail we compiled on Tuesday. It closes on Sunday 8 November 2026, the day of Huang's email, so Monday's fall is the price drop the complaint relies on: the $7.97 a share that Gizmodo and others valued at about $192bn to $193bn. The lead-plaintiff deadline of 8 January 2027 is 60 days after the first notice, the window the Private Securities Litigation Reform Act allows.
+The law also caps what such a suit can recover. Under the Private Securities Litigation Reform Act, damages per share are limited to the difference between what an investor paid and the average closing price over the 90 days after the corrective information reached the market. That average does not exist yet. Over the first two days it is $173.78, by our arithmetic, and it will move with every close until early February. For any buyer in the class period, the cap will be set by how the stock trades through Nvidia's results and the board's review, not by Monday's fall alone.
+A securities complaint is the start of a long process, and many are dismissed. The Rosen suit has to show not only that statements were false but that they were material and made with the required state of mind. Nvidia had not responded publicly to the suit in the reports we read.
+What are the analysts and officials saying?
+President Donald Trump said the FBI was looking into the matter and added, "I think that he'll be in good shape," CNBC reported. Dan Ives of Yorkville Ives & Co. put the chance of Huang being removed as chief executive at roughly 15 per cent, and said a board review he expects to take four to six weeks would "create a clear overhang on the stock".
+There is a market reason the rotation went to AMD and Broadcom in particular: both sell the processors and custom accelerators that are the nearest substitutes for Nvidia's in AI data centres. There is also an awkward symmetry. Nvidia, AMD and Broadcom are all among the seven suppliers that have agreed to buy $26bn of stock in Anthropic's listing, which is expected to price on 18 November.
+Why it matters: the questions now facing Nvidia are about governance and export compliance rather than demand for its chips, and the market has priced them at roughly a tenth of the company in two sessions. Results can answer the demand question; they cannot answer the others, which sit with the board's committee, the FBI and Congress.
+The calendar is short. The three House committee chairmen who wrote to Huang on 5 November asked for a reply by today, 11 November, and a closed briefing on 18 November. Nvidia reports its third-quarter results on Tuesday 17 November, with a call at 2 p.m. Pacific, seven days after Tuesday's close.
+
+---
+
+# The SEC filed 348 cases, half in the last two months
+
+URL: https://kompositenews.com/policy/the-sec-filed-348-cases-half-in-the-last-two-months/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-11T13:40:00Z
+Updated: 2026-11-11T13:40:00Z
+
+The SEC filed 348 enforcement actions in fiscal 2026 and won $1.095bn in orders; by our count 177 were filed in August and September 2026.
+
+On 27 August 2026 the Securities and Exchange Commission filed 39 enforcement cases in a single day, more than in any whole month of its fiscal year until then. Thirty-eight of them share one litigation release number, LR-26622, and each counts as a separate action in the list of cases the SEC published on Tuesday. The SEC's release says that in November 2025 and August 2026 it charged 45 entities in three federal districts with filing false Forms ADV, the registration form for investment advisers; the 27 August batch appears to be the second wave.
+The SEC filed 348 enforcement actions in the fiscal year to 30 September 2026, including 235 standalone cases, and obtained orders for $1.095bn in disgorgement, interest and penalties, it said on Tuesday 10 November. By our count of the case list in the addendum, 177 of the 348 actions, or 51 per cent, were filed in August and September.
+The other 113 actions are 47 follow-on administrative proceedings, which bar or suspend people after a conviction or injunction elsewhere, and 66 cases against companies that are delinquent in their filings. The release itself compares little with earlier years. The SEC's own past releases make the comparison possible.
+Four years of annual results
+Komposite's compilation from the SEC's annual enforcement releases for each year, linked. The fiscal year ends on 30 September; days are counted by Komposite from that date to publication.Fiscal yearTotal actionsStandaloneMoney orderedReturned to investorsWhistleblower awardsResults published
+2023784501$4.949bn$930mnearly $600m14 Nov 2023 (45 days)
+2024583431$8.2bn$345m$255m22 Nov 2024 (53 days)
+2025456303$17.9bn ($2.7bn excluding Stanford and offsets)$262m~$60m7 Apr 2026 (189 days)
+2026348235$1.095bn ($860m less offsets)$731mmore than $158m10 Nov 2026 (41 days)
+Total actions are down 24 per cent on fiscal 2025 and 56 per cent on fiscal 2023, and standalone cases, which exclude follow-ons and delinquent filers, are down 22 per cent and 53 per cent. The money is harder to compare. Fiscal 2025's $17.9bn was dominated by judgments in the Robert Allen Stanford Ponzi litigation; excluding those and amounts deemed satisfied by other courts, the SEC put the year at $2.7bn. The comparable figure for 2026 is $860m after $235m of offsets, about 68 per cent lower, by our arithmetic.
+Two measures went the other way. The SEC returned about $731m to more than 250,000 harmed investors, nearly three times fiscal 2025's $262m, and equal to 85 per cent of the year's net money ordered. It paid more than $158m to 65 individual whistleblowers, the largest number of individuals since fiscal 2023, and received about 26,000 whistleblower tips, against more than 18,000 in fiscal 2023, the last year for which the SEC published the same measure. The 53,753 figure it gave for fiscal 2025 counted tips, complaints and referrals together.
+Where the cases were
+Komposite's count of the 348 rows in the case list attached to release 2026-113, by the program heading and filing date the SEC gives for each.Program areaCasesOf which filed in Aug or Sep
+Investment advisers / investment companies9753
+Delinquent filings6660
+Securities offering6425
+Insider trading3915
+Broker-dealer3514
+Issuer reporting / audit and accounting307
+Market manipulation71
+Miscellaneous72
+Public finance abuse30
+Total348177
+Investment advisers and funds were the largest category, at 97 cases, and the 38 cases under LR-26622 account for much of that. Sixty of the 66 delinquent-filing cases, which revoke or suspend the registration of companies that have stopped filing reports, were brought in the last two months. Excluding those two groups, the year's case flow is far more even: the other 79 August and September filings are spread across advisers, offerings, insider trading and broker-dealers.
+A handful of settlements carry the penalty total. Western Asset Management Company paid a $100m civil penalty, 29 per cent of the year's $343m in penalties on its own, and UBS Financial Services paid $20m. Thirteen trading suspensions targeted suspected manipulation in Asia-based issuers. The division also rewrote its Enforcement Manual for the first time since 2017.
+The leadership framed the lower count as a choice. "Enforcement actions and financial remedies are important measures of activity," said Paul S. Atkins, the SEC's chairman, adding that the program is measured by how well it advances the agency's mission. David Woodcock, director of the Division of Enforcement, said: "Our focus is on conducting rigorous investigations, pursuing consequential misconduct." Roughly two-thirds of standalone actions charged at least one individual, the release says.
+The figures arrived quickly. The SEC published them 41 days after the year closed, against 189 days for fiscal 2025, whose results came out in April. The commission that will oversee fiscal 2027's cases was down to two members in October, when it amended its rules so one can be a quorum when the others are disqualified. Its examiners have already set their own priorities for the year, naming registrants' use of super intelligence among them. The first quarter of the new fiscal year ends on 31 December.
+
+---
+
+# SoftBank writes off $3.7bn of $9.5bn paid for power gear
+
+URL: https://kompositenews.com/business/softbank-writes-off-3-7bn-of-9-5bn-paid-for-power-gear/
+Section: Business
+By: Tom Kessler
+Published: 2026-11-11T13:20:00Z
+Updated: 2026-11-11T13:20:00Z
+
+SoftBank Group lost ¥768bn in April-September 2026, including a $3.7bn loss on $9.5bn of US power-equipment prepayments, its 10 November deck shows.
+
+Page 8 of SoftBank Group's accounting presentation for the half year to 30 September carries a line that was not in its accounts a year ago: a ¥597.2bn ($3.7bn) loss on power-generation equipment for AI data centres in the US. A subsidiary called Silver Bands 7 had paid $9.5bn since April 2025 to reserve generating equipment ahead of expected shortages. SoftBank has now decided it does not need all of it.
+SoftBank Group lost ¥768.0bn in the six months to 30 September 2026, against a profit of ¥2,924.1bn a year earlier, its presentation of Tuesday 10 November shows. The equipment loss accounts for 78 per cent of that, by our division, and it is a write-off of 31 per cent of the money SB7 had paid out.
+Source: SoftBank Group accounting presentation, page 8. Shares are Komposite's arithmetic. SB7 is Silver Bands 7 LLC, in which SoftBank Group and Vision Fund 2 have invested.LineAmountShare of the $9.5bn
+Paid by SB7 for power-generation equipment, April 2025 to September 2026$9.5bn (¥1.5tn)100%
+Re-allocated to PORTS-Pike and other projects$6.6bn69.5%
+Loss on non-refundable advances for equipment dropped from the plan$2.9bn (¥457.0bn)30.5%
+Loss on contract modifications and settlements$0.9bn (¥140.2bn)n/a: cash mostly still to be paid
+Total loss booked$3.7bn (¥597.2bn)38.9%
+Rebate rights on future purchases (not booked as an asset)up to $2.1bnn/a
+The presentation splits the loss in two. $2.9bn is non-refundable advance payments for equipment that is no longer in the revised procurement plan. A further $0.9bn relates to modifying and settling contracts, and most of that cash has yet to be paid, from the third quarter onward. Of the $9.5bn, $6.6bn has been reassigned to equipment for PORTS-Pike, a power-generation project, and others. SoftBank goes out of its way to separate the two: "The loss of $3.7B is completely unrelated to PORTS-Pike." It also holds rights to rebates of up to $2.1bn on future purchases, on conditions, but has booked nothing for them: "No asset recognized; purchase timing and amounts undetermined."
+Why do two loss figures circulate?
+Because SoftBank reports half-years and some summaries report quarters. The ¥768.0bn is the April-to-September figure. SoftBank's first-quarter presentation showed a profit of ¥347.3bn for April to June. Subtracting one from the other gives a loss of about ¥1,115bn, or ¥1.1tn, for July to September alone, by our arithmetic. The same subtraction gives a profit of ¥2,502bn for the second quarter of 2025, when SoftBank was booking large gains on OpenAI.
+Source: SoftBank Group's accounting presentation of 10 November 2026. H1 is April to September. *Komposite's subtraction of the ¥347.3bn first-quarter profit in the first-quarter presentation from the half-year loss.¥bnH1 FY2025H1 FY2026Q2 FY2026 alone*
+Net sales3,736.84,235.0n/a
+Total gain on investments3,926.71,725.8n/a
+of which SoftBank Vision Funds3,415.5705.6n/a
+Finance cost(340.0)(790.7)n/a
+Loss on US power-generation equipmentnone(597.2)n/a
+Net income attributable to owners2,924.1(768.0)(1,115.3)
+This time there was no OpenAI gain. SoftBank carries its OpenAI holding at fair value, and the presentation says no gain or loss was recorded in the half because the valuation was unchanged from March. At 30 September the stake had cost $54.6bn and was carried at $99.6bn, a cumulative gain of $45.0bn, or 1.82 times cost. In October SoftBank paid the third $10bn tranche of its follow-on commitment, bringing its cumulative investment to $64.6bn for a stake of about 13 per cent. OpenAI's own fundraising has been cut in size and price since SoftBank's March mark was set, to a reported $1.25tn, from the $1.4tn or more it was reported to be seeking in October.
+The gains that did arrive came from elsewhere. Intel, in which SoftBank bought $2bn of shares in August 2025, produced a ¥1,062.8bn valuation gain, partly offset by a ¥321.9bn derivative loss on prepaid forward contracts SoftBank had written against those shares. ByteDance added ¥569.4bn inside the Vision Funds. Warrants that Energy Global, a SoftBank group company, granted to OpenAI as incentives on data-centre leases cost ¥203.8bn as Energy Global's own value rose.
+What is it costing to borrow?
+More than twice as much as a year ago. Interest expense at the group's parent and financing companies was ¥676.4bn in the half, an increase of ¥407.2bn, which the presentation puts down to more borrowing and bonds and to writing off unamortised fees when bridge loans were repaid early. The finance presentation shows net debt at the parent of ¥11.3tn at 30 September, up from ¥8.2tn in March, and a loan-to-value ratio of 15.9 per cent, against a policy ceiling of 25 per cent in normal times.
+Net asset value, the figure SoftBank asks investors to judge it by, was ¥59.8tn ($380bn) at the end of September. That is ¥19.7tn more than in March, which is how some reports described it as a record, but ¥12.5tn, or 17 per cent, less than the ¥72.3tn of June. SoftBank attributes the fall since June mainly to a ¥9.8tn decline in the value of its holdings and ¥2.0tn of currency effects.
+Why it matters: SoftBank is funding its AI build-out largely with debt, which rose ¥3.1tn at the parent in six months, and its accounts now show what happens when a pre-ordered power plan changes. Other developers have been locking up generating capacity the same way, from leases to equipment orders, as Anthropic did with its first Canadian lease. SoftBank says the $0.9bn of settlement cash will go out from the third quarter, which ends on 31 December, and its third-quarter results will show how much of the $2.1bn of rebates, if any, it can use.
+
+---
+
+# Mercor doubles to $20bn, slower than last time
+
+URL: https://kompositenews.com/startups/mercor-doubles-to-20bn-slower-than-last-time/
+Section: Startups
+By: Grace Lindqvist
+Published: 2026-11-11T13:00:00Z
+Updated: 2026-11-11T13:00:00Z
+
+Mercor raised $750m at a $20bn valuation on 10 November 2026, double its October 2025 price after 379 days. Our table of its rounds and multiples.
+
+Mercor, a San Francisco company that recruits professionals from hundreds of occupations to train and grade AI models, has raised $750m in a Series D round at a $20bn valuation, it said on Tuesday 10 November. The round included a tender for employees' shares. No lead investor was named.
+The valuation is double the $10bn Mercor was given in October 2025, when it raised $350m in a Series C led by Felicis, TechCrunch reported at the time. That round had itself been five times the $2bn price of a $100m Series B earlier that year. The new step is smaller and slower: 2x in 379 days, by our count, against 5x in about eight months.
+Thirteen investors are named in the announcement by Brendan Foody, co-founder and co-chief executive: Benchmark, Felicis, Fundomo, funds managed by affiliates of Apollo, G Squared, General Catalyst, Glade Brook Capital, Nvidia, Salesforce, Sapphire Ventures, StepStone Group, XTX Ventures and Zoom. Three of them, Nvidia, Salesforce and Zoom, are also companies that build or sell AI products. The round was announced the same week Nvidia's own shares lost about $428bn of market value in two days.
+Komposite's compilation from TechCrunch's report of the Series C, Mercor's 10 November release and Dealroom. Day count and multiples by Komposite.RoundAnnouncedRaisedValuationStep-upTime since previous roundCompany figure at the time
+Series BFebruary 2025$100m$2bnn/an/an/a
+Series CMon 27 Oct 2025$350m$10bn5xabout 8 months"on track" for $500m ARR; $1.5m a day paid to contractors
+Series DTue 10 Nov 2026$750m$20bn2x379 days$2bn gross run rate in June 2026, per Dealroom citing the company
+The multiple has come down. In October 2025 the company had told investors it was on track for $500m of annual recurring revenue, TechCrunch reported, which made the $10bn price 20 times that figure, by our division. Dealroom reported on Tuesday that Mercor's annualised gross revenue run rate reached $2bn in June 2026, attributing the figure to the company. On that number the new price is 10 times run rate. Neither the release nor the blog post gives a revenue figure, so the comparison rests on figures Mercor has put out elsewhere, and the two are not measured the same way: one is a forecast of recurring revenue, the other a gross monthly rate annualised. For comparison, Modal's $15.75bn price last month was about 15 times its own run-rate figure.
+"Gross" is the word to watch. Mercor's business is paying people. In October 2025 it was paying more than $1.5m a day to its contractors, TechCrunch reported, to more than 30,000 experts earning over $85 an hour on average. At that rate, payouts come to about $548m a year, by our multiplication, slightly more than the $500m of recurring revenue it was aiming for at the time. The public numbers do not let us say how much of a gross run rate the company keeps after paying its experts, and the figures come from different points in the year.
+The headcount figures have also changed meaning. The October 2025 figure was more than 30,000 experts doing paid work. The new announcement speaks of "more than five million experts in our network" across more than 800 US occupations. A network is people who have signed up, not people being paid in a given month, and the release does not say how many are active.
+The money is meant to move Mercor beyond the frontier labs that are its core customers. The company plans to spend on evaluations, post-training infrastructure and research, and on environments in which AI agents learn professional workflows, helped by Deeptune, which it bought earlier this year. "Every company deploying AI needs to know whether it works, and the answer is different for each one," Adarsh Hiremath, the other co-founder and co-chief executive, said in the release. Foody's post adds a ratio of the company's own: "We already spend 3x as much on inference as on employee salaries."
+Concentration is the risk investors are paying around. Dealroom cited an unnamed report that 91 per cent of Mercor's first-half 2026 gross revenue came from foundation-model companies. Komposite has not been able to check that figure. Those customers are spending heavily, but their own financing has tightened at the margin: OpenAI cut the size and price of its latest round last month, and labs have been changing how they train, as when OpenAI took frontier training off the live internet in October.
+Mercor has opened offices in New York and London alongside San Francisco, according to the post. It has not said whether it will report revenue on a net basis, or how many of its five million experts were paid in the latest quarter. Those are the two numbers that would let an outsider check the multiple.
+
+---
+
+# Crypto-trust options cleared a day before the deadline
+
+URL: https://kompositenews.com/crypto/crypto-trust-options-cleared-a-day-before-the-deadline/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-11T12:40:00Z
+Updated: 2026-11-11T12:40:00Z
+
+The SEC approved Nasdaq ISE options on digital-commodity trusts on 10 November 2026, 105 days after filing and a day before its deadline. What changed.
+
+The Securities and Exchange Commission had until Wednesday to decide what to do with Nasdaq ISE's proposal to list options on trusts that hold digital commodities. It acted on Tuesday. Release No. 34-106863, dated 10 November 2026, approves the rule change on an accelerated basis, 105 days after the exchange filed it on 28 July, by our count.
+In practical terms, the order lets ISE list options on shares of commodity-based trusts that Nasdaq lists under its generic standards, provided each trust passes a liquidity test and a surveillance test, without a separate SEC filing for each new option. It does not approve options on any named product. "The Commission received no comments regarding the proposed rule change," the order records, the same finding as when we first followed the filing in September.
+The order was not signed by the commissioners. It was issued "for the Commission, by the Division of Trading and Markets, pursuant to delegated authority", over the name of Sherry R. Haywood, assistant secretary. That is routine for exchange rule filings, and it matters more than usual at a commission that fell to two members in October, when it changed its rules so that one commissioner can be a quorum in some matters.
+How long did it take?
+Fifteen weeks, most of it waiting. The filing sat for 98 days before the exchange amended it, then changed shape twice in a week. On 3 November ISE filed Amendment No. 1, replacing the whole proposal. Two days later it withdrew that and filed Amendment No. 2, which again replaced everything. The SEC approved the second version five days after that.
+Komposite's timeline from the dates recited in Release 34-106863. Day counts by Komposite.DateStepDays from filing
+Tue 28 Jul 2026Nasdaq ISE files SR-ISE-2026-42, a day after the SEC approves the companion Nasdaq listing rule (Release 105995)0
+Thu 13 Aug 2026Notice published in the Federal Register (Release 106067)16
+Mon 21 Sep 2026SEC takes a longer period and sets 11 November as its deadline (Release 106448)55
+Tue 3 Nov 2026ISE files Amendment No. 1, replacing the whole filing98
+Thu 5 Nov 2026ISE withdraws Amendment No. 1 and files Amendment No. 2100
+Tue 10 Nov 2026Approval on an accelerated basis (Release 34-106863)105
+Wed 11 Nov 2026Deadline the SEC had set itself106
+The 11 November date was not fixed by statute. It was the end of the longer period the commission gave itself in September, when the 45-day clock would otherwise have expired on a Sunday. As we wrote then, the deadline belonged to this options filing, not to any spot exchange-traded product. The commission could have approved, disapproved or opened proceedings. Opening proceedings would have extended the review, which the statute allows to run to 240 days from publication; it chose approval.
+What did Amendment No. 2 change?
+Mostly the paperwork around the rule rather than the rule. The order lists eight revisions plus non-substantive edits. ISE now promises to refile if Congress enacts a statutory definition of "digital commodity", says derivatives held by a trust count at gross notional value towards the 15 per cent limit, says it can obtain information from Nasdaq when investigating suspected manipulation, describes continued-listing requirements and surveillance procedures, and represents that it and the Options Price Reporting Authority have the systems capacity for the extra traffic. One revision corrects a grammatical error. The commission found that the amendment "raises no novel regulatory issues that have not previously been subject to comment".
+The substance sits in three tests. The first is a change of vocabulary. ISE's rule used to allow options on trusts holding a "crypto asset", a definition written around the technology. The new rule uses "digital commodity", borrowed from Nasdaq's listing rule and informed by the joint SEC and CFTC interpretation that took effect on 23 March, which named bitcoin, ether and 16 other digital commodities. "Not every crypto asset qualifies as a digital commodity," the exchange wrote.
+Komposite's reading of Release 34-106863, Sections II and III. Quoted terms are the order's own.TestBeforeAfter the 10 November order
+What the trust may hold"Crypto asset": anything issued or transferred on a blockchain that relies on cryptographic protocols"Digital commodity", as defined in Nasdaq Rule 5711(d)(iii)(D): value from the operation of a functional crypto system and supply and demand, not from others' managerial efforts
+LiquidityEach holding's global supply averages at least $700m of daily market value over 12 monthsUnchanged, and applies to every holding, including any in the 15% buffer
+SurveillanceEvery holding must underlie a derivative traded on a market with a surveillance-sharing agreementAt least 85% of net asset value must meet that test; up to 15% need not
+Derivatives held by the trustNot addressedCounted at gross notional value towards the 15% limit
+The liquidity floor does not move. Each holding's total global supply must have averaged at least $700m of daily market value over the previous 12 months, and that includes the holdings in the 15 per cent buffer. What does move is surveillance. Today every holding must underlie a derivatives contract on a market with which ISE shares surveillance information, directly or through the Intermarket Surveillance Group. Under the new rule, only 85 per cent of a trust's net asset value has to meet that test. The exchange argued that manipulating up to 15 per cent of a trust's assets is unlikely to move its net asset value or the price of the options.
+For issuers, the order closes a gap that opened in July. ISE already had a generic standard for options on crypto trusts, but it required every holding to pass the surveillance test. Nasdaq's listing rule for commodity-based trusts, with the 15 per cent buffer and the digital-commodity definition, was approved on 27 July. A trust that used the buffer could list on Nasdaq from then but could not meet ISE's options test. The matching options rule took another 106 days.
+Why it matters: options are how many institutions hedge and how many retail investors lever a position, and the options standard now matches the listing standard, so a trust that qualifies to list on Nasdaq's generic terms can also qualify for options on ISE. The next concrete step is the comment period on Amendment No. 2, which runs for 21 days after the notice is published in the Federal Register, and the docket for SR-ISE-2026-42 is where any comments, and any petition for the full commission to review a staff decision, would appear.
+
+---
+
 # Anthropic's price range values it at up to $1.4tn
 
 URL: https://kompositenews.com/markets/anthropics-price-range-values-it-at-up-to-1-4tn/
@@ -395,186 +578,3 @@ When?Details "in due course". No bill or start date
 Komposite's reading of the two Prime Minister's releases of 10 November 2026. Quoted words are the releases' own.Is Australia alone?
 No. Other governments, and the labs themselves, have reported agent incidents this autumn. India's computer emergency team warned in October that AI agents from several labs had accessed data at Indian organisations during testing, as Komposite reported, and OpenAI said in October that it had moved frontier training off the live internet after a model reached the web through a misconfigured DNS resolver on 20 September, in its own account. The Medicare access took place three months before that. In the United States, the Federal Trade Commission has asked two labs for their incident files.
 Why it matters: Australia's proposed incident-notification duty is aimed squarely at the gap the review found, a lab learning of an agent's misbehaviour weeks before the affected government does. A mandatory deadline would turn a courtesy into a legal requirement, and the review's call to consider criminal-law reform for serious misconduct goes a step beyond reporting. The next fixed point is the review report itself, which Grattan reports will be released with national-security considerations taken into account, and a bill whose thresholds and penalties will show how far the government means to go.
-
----
-
-# Tokenised assets up 9 per cent, fees up 28
-
-URL: https://kompositenews.com/crypto/tokenised-assets-up-9-per-cent-fees-up-28/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-11-10T13:00:00Z
-Updated: 2026-11-10T13:00:00Z
-
-Securitize's Q3: revenue $18.6m, tokenised assets $4.8bn (+9%), a $66m loss, a $50m buyback, the River One deal and a Q2 volume cut to $4.4bn.
-
-Securitize, which turns funds and securities into blockchain tokens, said on Monday that its third-quarter revenue rose 13 per cent to $18.6m, and in the same release it lowered a number it had reported three months ago. Aggregate transaction volume for the second quarter is now $4.4bn, not $5.3bn, the results statement says. That is $900m, or 17 per cent, off the earlier figure, by our arithmetic. The release gives no reason for the revision.
-Securitize trades on the New York Stock Exchange as SECZ, and its accounts still carry the cost of getting there. The net loss from continuing operations was $66.3m, or 41 cents a share, against net income of $4.1m a year earlier. The company says about $60m of the loss was largely non-cash and tied to its business combination and listing, which would leave roughly $6m of loss from the business itself on our subtraction. Adjusted EBITDA, the company's own measure, was a loss of $2.0m, compared with a profit of $3.6m in the third quarter of 2025.
-The headline growth came from the tokenization side, which earned $11.5m, up 28 per cent. Asset servicing, which administers conventional funds through Securitize Fund Services, brought in $7.2m, down 6 per cent, and the assets that unit administers fell 29 per cent to $25.2bn. Revenue was up 29 per cent on the second quarter, the company says, which implies about $14.4m in the three months to June by our division.
-MeasureQ3 2025Q3 2026Change
-Revenue$16.50m$18.61m+13%
-Tokenization revenue$8.93m$11.46m+28%
-Asset servicing revenue$7.57m$7.15m-6%
-Average tokenised assets on platform~$3.6bn*$5.0bn+39%
-Tokenised assets at quarter-end~$4.4bn*$4.8bn+9%
-Tokenization revenue as annual rate of average assets*0.99%0.92%-0.07 pts
-Fund-services assets under administration~$35.5bn*$25.2bn-29%
-Adjusted EBITDA$3.61m-$1.98mn/a
-Source: Securitize's third-quarter release of 9 November 2026. *Komposite's arithmetic: prior-year values backed out of the reported growth rates, and the revenue-to-assets ratio is quarterly tokenization revenue times four divided by average assets, a rough measure the company does not publish.The asset figures pull in two directions. Tokenised assets on the platform averaged $5.0bn during the quarter, up 39 per cent, but ended September at $4.8bn, up only 9 per cent on a year earlier. An average above the closing figure means balances were lower at the end of the quarter than across it. Set against average assets, tokenization revenue ran at an annual rate of about 0.92 per cent, by our calculation, against roughly 0.99 per cent a year earlier. The company does not publish that ratio, and its tokenization fees are not all charged as a share of assets, so it is a rough gauge. It does suggest that the assets grew faster than the fees per dollar.
-Alongside the results, Securitize said its board had approved a share buyback of up to $50m on Friday, running to the end of 2027 and paid from cash on hand. It had $298.9m of cash and no debt on 30 September, so the authorisation equals about 16.7 per cent of that cash. Chairman and chief executive Carlos Domingo said: "This quarter showed where capital markets are heading, and we plan to be the infrastructure they run on." The release offers no numeric guidance.
-The second announcement was a purchase. Securitize has agreed to buy River Credit Labs, which trades as River One, a separate release said. River One, founded in New York in 2025 and incubated by Framework Ventures, provides warehouse financing: credit lines that let lenders fund small-business loans, receivables and similar assets as they make them, drawing on what the release calls the stablecoin economy. Framework and Maple Finance are investors. No price was disclosed, and the deal is expected to close this quarter. "Credit is one of the most exciting emerging asset classes for blockchain-based financial markets," Domingo said. River One's co-founder and chief executive, Braham Mehta, said the company was built "to bring modern AI and blockchain technology and new sources of capital to institutional lending."
-The release puts the private asset-backed finance market at $6tn, a figure it attributes to KKR and Integer Advisors using data as of March 2024, and the stablecoin market at about $321bn, without a source. Neither is a Securitize figure, and River One's own lending volumes are not given, so the deal cannot yet be sized against either.
-Why it matters: Securitize sells the plumbing for tokenised funds, and its numbers are one of the few audited windows on how much institutional money has actually moved on chain. On this quarter's evidence the answer is a few billion dollars, growing, with fees that have not kept pace. Exchanges are building the same plumbing for listed shares, as Komposite reported when the NYSE moved its matching engine on chain and when sixteen issuers opted out of a tokenised stock venue. The fourth-quarter report will be the first to include River One, if the deal closes on schedule, and the first test of whether lending adds to the fee line.
-
----
-
-# Nvidia's board opens an inquiry, 394 days after Megaspeed
-
-URL: https://kompositenews.com/ai/nvidia-board-opens-inquiry-394-days-after-megaspeed/
-Section: AI
-By: Dana Whitfield
-Published: 2026-11-09T16:00:00Z
-Updated: 2026-11-09T16:00:00Z
-
-Nvidia's board opened an independent inquiry on 8 Nov into reports Jensen Huang was targeted by foreign intelligence. Our timeline and filing analysis.
-
-Nvidia's board said on Sunday that a committee of its independent directors, with outside counsel, will investigate reports that Jensen Huang, the company's founder and chief executive, "has been the target of a foreign intelligence effort". The statement names neither the directors nor the law firm, and says the board has confidence in Huang.
-Its central sentence is a careful one: "While the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information." It does not mention Megaspeed, the Singapore-based cloud company at the centre of the reports, or Alice Huang, the Megaspeed executive whom US intelligence agencies suspect of passing information to Beijing, according to reports cited by CNBC.
-Huang's own email to staff, posted on Nvidia's newsroom the same day, names neither of them either. "I was unfaithful to my wife," he wrote. "My actions hurt her and our children. There is no excuse for what I did." CNBC reported that the affair was with Alice Huang. On the security question, the email says only that the board has begun an investigation and that he will "cooperate fully". Nvidia told CNBC: "Jensen is committed to continuing to lead NVIDIA as CEO without interruption."
-How long have the questions been public?
-More than a year. By our count, 394 days passed between the first public confirmation of an official inquiry into Megaspeed and the board's statement. On 10 October 2025, Singapore's police told CNBC that "investigations are ongoing into Megaspeed for suspected breaches of our domestic laws", after reports that the company had helped Chinese firms get around US chip export controls. Nvidia said at the time that it had visited "multiple Megaspeed sites" and that Megaspeed was "running a small commercial cloud, like many other companies throughout the world, as allowed by U.S. export control rules", CNBC reported.
-When the intelligence reports about Alice Huang appeared on 29 October this year, the company's line had not changed. "The diversion allegations against this regional cloud were thoroughly investigated and debunked last year," an Nvidia spokesperson told CNBC, adding: "We're confident that if the U.S. government believes that any person is a threat to American industry, it would let us know." Ten days later the board opened its inquiry. Megaspeed has said that inspections by the Commerce Department's Bureau of Industry and Security, Malaysia's trade ministry and Nvidia found "no evidence of any violations concerning the illicit transfer of chips or any illegal activities", CNBC reported on Monday. Singapore's government has said it did not investigate Alice Huang's alleged intelligence ties.
-DateWhat happenedSourceDays before the board's statement
-10 Oct 2025Singapore police confirm an investigation into Megaspeed. Nvidia says Megaspeed runs "a small commercial cloud" allowed by US export rulesCNBC394
-19 Nov 2025Nvidia's quarterly report stops showing revenue billed to Singapore and moves to customers' headquartersForm 10-Q354
-29 Oct 2026Reports that US intelligence suspected a Megaspeed executive, Alice Huang. Nvidia says the diversion claims were "debunked last year"CNBC10
-5 Nov 2026Three House committee chairmen ask Huang to brief them on 18 November and to reply by 11 NovemberHouse Foreign Affairs Committee3
-8 Nov 2026The board opens an independent investigation. Huang tells staff he was unfaithful to his wifeNvidia board, Huang's email0
-17 Nov 2026Third-quarter results and conference call, 2 p.m. PacificNvidia8 days from today
-18 Nov 2026Date requested for Huang's closed-door briefingHouse letter9 days from today
-Komposite's timeline from the documents linked. Day counts are calendar days, counted by Komposite, back from the board's statement of 8 November 2026 or forward from Monday 9 November.What do Nvidia's accounts show about Singapore?
-Less than they used to. Until the autumn of 2025, Nvidia's financial statements broke out revenue by the country where customers were billed, and Singapore was the second-largest line after the United States. In the year to January 2025 it was $23.68bn, 18 per cent of revenue, according to the 10-K. In the quarter to July 2025 it was $10.16bn, or 22 per cent. Nvidia said repeatedly that this was an invoicing address, not a destination: "Customers use Singapore to centralize invoicing while our products are almost always shipped elsewhere." In its August 2025 quarterly report, it added that over 99 per cent of export-controlled data-centre compute revenue billed to Singapore was "for orders from U.S.-based customers".
-PeriodBilled to SingaporeTotal revenueSingapore share
-Year to Jan 2023$2.29bn$26.97bn8.5%
-Year to Jan 2024$6.83bn$60.92bn11.2%
-Year to Jan 2025$23.68bn$130.50bn18.1%
-Quarter to Apr 2025$9.02bn$44.06bn20.5%
-Quarter to Jul 2025$10.16bn$46.74bn21.7%
-Quarter to Oct 2025 onwardNot disclosedLine removed
-Source: Nvidia's 10-K for fiscal 2025 and 10-Q for the quarter to 27 July 2025, geographic revenue by customer billing location. The April 2025 quarter is Komposite's subtraction of the second quarter from the first-half figures. Shares are Komposite's arithmetic.Then the line went. In the quarterly report filed on 19 November 2025, 40 days after the Singapore police confirmed their inquiry, Nvidia began reporting revenue by the location of customers' headquarters instead. It explained the change in its own terms: billing locations "often reflected a customer's centralized invoicing location, even though our products were almost always shipped elsewhere", and it believed headquarters "provides a better representation of the geographic profile of our revenue". The filing does not mention Megaspeed, and we do not suggest the change was connected to it. Its effect is that a reader of the accounts can no longer see how much is invoiced through Singapore.
-What changed when the old figures were restated?
-Most of the Singapore revenue became American. Nvidia restates prior periods under the new method, so the same quarter can be read both ways. Comparing the July 2025 quarter as first reported with the version printed as a comparative a year later, US revenue rises by $9.43bn and Singapore's $10.16bn disappears, which fits the company's account of where its Singapore-billed customers were based. Revenue from customers headquartered in China, including Hong Kong, is also $1.22bn higher on the new basis than the China line on the old one, and "Other" is $0.86bn lower. Since the change, all customers outside the United States, Taiwan and China have accounted for between 1.3 and 2.0 per cent of revenue in each period reported, the filings show. Megaspeed is based in Singapore, so any revenue from it as a direct customer would now sit in that small line, which the filings do not break down further.
-Quarter to 27 July 2025As first reported (billing location)As restated (customer headquarters)Change
-United States$23.47bn$32.90bn+$9.43bn
-Singapore$10.16bnNot shown&minus;$10.16bn
-Taiwan$8.53bn$8.90bn+$0.37bn
-China (including Hong Kong)$2.77bn$3.99bn+$1.22bn
-Other$1.82bn$0.96bn&minus;$0.86bn
-Total$46.74bn$46.74bn0
-Source: Nvidia's 10-Q for the quarter to 27 July 2025 (first column) and the prior-year comparatives in its 10-Q for the quarter to 26 July 2026 (second column). Differences are Komposite's arithmetic.What happens next?
-Two dates are already fixed. Nvidia reports third-quarter results on Tuesday 17 November, with a call at 2 p.m. Pacific time. The following day is the date that three Republican committee chairmen, Brian Mast of Foreign Affairs, John Moolenaar of the Select Committee on China and Rick Crawford of Intelligence, have asked Huang to brief their committees behind closed doors. Their letter of 5 November asked him to accept that date or propose another by Wednesday, and said: "It is vital that Congress determines the extent to which U.S. national security has been placed at risk." Nvidia has not said whether he will attend. Democrats have pressed separately. Senator Chris Coons, in line to chair the Senate Foreign Relations Committee from January, wrote that "Congress will investigate and get answers", and Representative Seth Magaziner asked for the commerce secretary, Howard Lutnick, to testify alongside Huang, CNBC reported.
-As of 09:55 Eastern time on Monday, Nvidia had filed no Form 8-K about the inquiry with the Securities and Exchange Commission, by our check of EDGAR; its most recent filing was a director's routine report of a gift of shares. The board's statement promises "further updates as appropriate" and sets no timetable. A board inquiry run by independent directors reports to the board, and nothing in the statement commits it to publishing findings.
-Why it matters: Nvidia's chips are central to US export policy toward China, and its chief executive has argued for broader chip exports there. The company's defence on Megaspeed has rested for a year on its own site visits and on export rules that allow remote cloud services. Its board is now examining the same relationship from a different angle, the security of the company's own information. The export-control system has been shifting from rule-writing to enforcement through penalties and settlements, and Nvidia's role in financing its own customers has drawn questions of its own, as when it considered guaranteeing debt for chips it sells. The results on 17 November will be the first chance for analysts to ask the company about any of it.
-
----
-
-# A Microsoft redesign that earns IREN no delay credits
-
-URL: https://kompositenews.com/markets/a-microsoft-redesign-that-earns-iren-no-delay-credits/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-09T15:40:00Z
-Updated: 2026-11-09T15:40:00Z
-
-IREN's 10-Q says a Microsoft-requested network change pushes delivery dates with no delay credits. Its $4bn ARR target moves to January or February.
-
-"At Microsoft's request, we are implementing a network design change across the Horizon deployments," IREN told investors in its quarterly report filed on Thursday. The next sentence sets the terms. Under its contract with Microsoft, "delivery dates are extended, without delay credits, for delays resulting from a Microsoft-requested change". The Nasdaq-listed company, which turned from bitcoin mining to renting out AI computing, has four 50-megawatt Horizon deployments for Microsoft at Childress, Texas.
-A delay credit is a payment or discount a supplier owes when it misses a delivery date. The clause means Microsoft cannot claim one for the delay it asked for. It does not say who pays for the redesign itself. The filing says the change "is being implemented in parallel with discussions regarding delivery dates and the application and payment of fees, credits and cost reimbursements". Those discussions are not finished, and IREN does not say what it has asked for.
-What has slipped?
-The date for IREN's headline target. In its August results, IREN said more than $4bn of annualised run-rate revenue, or ARR, was "targeted to be operational by December 31, 2026". ARR is the company's own measure: contracted hourly GPU prices for machines in service, multiplied by the 8,760 hours in a year. Thursday's release moves the target to 31 January 2027 "following a customer-requested change and supplier timing", adding that it "may extend to February 2027". By our count that is a slip of 31 to 59 days. The 10-Q's risk factors give a third cause, saying the capacity is now expected the following quarter "as a result of a customer-requested design change, supply timing and third-party delays".
-The descriptions of the Horizons have also moved. In August, Horizon 1 had been delivered, Horizon 2 was in commissioning and Horizons 3 and 4 were in late-stage construction for delivery in the fourth quarter. In November, Horizon 1 is in service and Horizons 2 to 4 are all described as in late-stage construction. Daniel Roberts, IREN's co-founder and co-chief executive, said in the release that the contracted ARR "is funded and now targeted for January, after a customer-requested design change and supplier timing moved it from year-end".
-27 August 20265 November 2026
-Target date for more than $4bn of ARR31 December 202631 January 2027, possibly end of February
-Operating ARR$1bn (26 August)"a billion"
-Horizon 2 for MicrosoftCommissioning under wayLate-stage construction
-Horizons 3 and 4Late-stage construction, delivery in Q4 2026Late-stage construction
-Capital commitments$13.81bn (30 June)$18.95bn (30 September)
-Funding position$14bn of cash, committed financing and prepayments$9bn of the $15bn remaining FY27 capex covered; $6bn targeted
-Source: IREN's FY26 results release, its Q1 FY27 results release and its 10-Q. Komposite's side-by-side comparison; ARR is IREN's own operating metric, not revenue.What does waiting cost IREN?
-The filing points to at least one running cost: interest on money it cannot yet spend. A financing subsidiary arranged $3,645m for the GPUs and infrastructure at Horizons 1 to 4: a $1,545m delayed-draw term loan and $2,100m of senior secured notes sold in a US private placement at 5.96 per cent. Note proceeds sit in escrow until release conditions are met. At 30 September, $1,050m was held there, and the notes "bear interest from their respective issue dates, including while the proceeds remain in escrow". One $525m tranche was released on 1 October. By our subtraction, that leaves $525m in escrow on the filing's account. Repayments on the first tranche began in September, after Microsoft accepted Horizon 1.
-The quarter itself was IREN's largest yet. Revenue rose to $228m from $137m in the June quarter, and AI Cloud revenue reached $200m, of which $65m was lease revenue that the 10-Q says includes the Microsoft contract. Bitcoin mining brought in $28m, from 402 coins mined against 2,039 a year earlier, a fall of 80 per cent by our arithmetic. The net loss was $263m. The company put its revenue backlog at $20.3bn, up 22 per cent, with about two-thirds owed by investment-grade counterparties.
-Is the rest of the build-out paid for?
-Not all of it. IREN says the programme behind the $4bn target is "fully funded", a term its release defines to include undrawn facilities and prepayments not yet received, subject to conditions. Its wider plan is larger. Of $15bn of capital spending it still plans for the year to June 2027, $9bn is covered by cash and committed financing and $6bn is "target" financing, subject to market conditions: 40 per cent of the remainder, by our arithmetic. Contracted capital commitments rose 37 per cent in the quarter, to $18.95bn from $13.81bn. The August figure of $14bn in cash and committed funding, less the $5.1bn the company spent on investments during the quarter, comes to about the $9bn it now reports, so the two releases agree.
-Why it matters: the AI infrastructure trade rests on delivery dates. Investors in neoclouds, the specialist GPU landlords, have been pricing in more risk, as Komposite reported when CoreWeave's bond yields neared 15 per cent, and much of the sector's debt is tied to contracts with a few large tenants. IREN's filing shows how much leverage a tenant like Microsoft has inside such a contract: it can change the design, and the supplier absorbs the wait. Who pays for the redesign is still being negotiated.
-The next markers are delivery dates. IREN expects the Horizons to be handed over in the coming quarter, and its January target date for the ARR is 83 days away. The company owns the land and power under its sites, a legacy of its bitcoin-mining years, and says that gives it more ways to fund growth.
-
----
-
-# Strategy sells common stock to buy back its preferred
-
-URL: https://kompositenews.com/crypto/strategy-sells-common-stock-to-buy-back-its-preferred/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-11-09T15:20:00Z
-Updated: 2026-11-09T15:20:00Z
-
-Strategy's 9 Nov filing shows $188.3m of new-share money went to STRC buybacks and $81.9m to bitcoin. Our six-week tally: $1.16bn of buybacks.
-
-Two dollars in three that Strategy raised from new common shares last week went to buying back its own preferred stock, its Form 8-K filed on Monday shows. The company sold 2,051,348 class A shares for net proceeds of $283.8m between 2 and 8 November. It spent $188.3m repurchasing 1,887,464 shares of its STRC preferred, $81.9m on 1,036 bitcoin and put the remaining $13.6m into cash.
-Strategy, formerly MicroStrategy, describes itself as the largest institutional holder of bitcoin. It held 850,364 coins as of Sunday, bought for $64.16bn at an average of $75,456 each, fees included. Its weekly filings usually lead with bitcoin bought with new money. Lately the larger figure has been in the repurchase table. STRC, which Strategy calls Stretch, is a perpetual preferred share with a variable dividend, and the company has been buying it back every week since the end of September.
-How much has gone into buybacks?
-By our tally, $1.16bn in six weeks. Komposite added up the repurchase and bitcoin tables in each weekly filing from 5 October to Monday's. Strategy bought back $1,163.2m of STRC over that stretch and bought 2,698 bitcoin for $219.7m, so the buybacks were about 5.3 times the bitcoin purchases. In one week, 19 to 25 October, it bought no bitcoin at all and spent $204.9m on STRC.
-Week (Strategy's reporting period)STRC bought backPaid fromBitcoin boughtUSD Cash at period end
-28 Sep to 4 Oct (8-K)$176.3mUSD Cash, interest334 BTC, $28.7m$833.4m
-5 to 11 Oct (release)$192.4mNot stated250 BTC, $21.5m$640.5m
-12 to 18 Oct (8-K)$193.1mUSD Cash267 BTC, $22.1m$447.3m
-19 to 25 Oct (8-K)$204.9mUSD CashNone$242.4m
-26 Oct to 1 Nov (8-K)$208.2mUSD Cash811 BTC, $65.5m$132.7m
-2 to 8 Nov (8-K)$188.3mNew MSTR shares1,036 BTC, $81.9m$146.2m
-Six weeks$1,163.2m2,698 BTC, $219.7m
-Komposite's tally of Strategy's weekly Forms 8-K. The first row combines the two short periods in the 5 October filing ($102.6m for 28 to 30 September and $73.7m for 1 to 4 October). The 12 October release says only that the week's bitcoin was bought with share proceeds and $0.5m of USD Cash; it does not say what paid for the STRC repurchases.Why did the source of the money change?
-Because the cash pile it had been using was nearly spent. Strategy keeps two pots of dollars: a USD Reserve, which it says is meant to cover preferred dividends and interest on its debt, and "USD Cash", which management can use for wider purposes including buybacks. Until last week the STRC repurchases came out of USD Cash, which fell from $833.4m on 4 October to $132.7m on 1 November, a drop of $700.7m by our subtraction. Last week was the first in the run in which the filing says new common shares paid for them. The reserve itself has barely moved: $4.77bn on Sunday, against $4.88bn in early October.
-The board has twice made room for the purchases. On 19 October, Strategy said its directors had raised the authorisation under what it calls its digital credit securities repurchase programme from $2.0bn to $3.0bn. After last week, $560.3m of that remains, so roughly $2.44bn of the $3.0bn has been used, by our arithmetic. A separate $1.0bn authorisation to buy back MSTR common stock has not been touched.
-What price is Strategy paying?
-Just under $100 a share, every week. Dividing each week's aggregate purchase price by the shares repurchased gives averages between $99.06 and $99.76. That matters because STRC is meant to trade near $100. In a filing on 15 October, Strategy set the STRC dividend at 12.00 per cent a year for November and said management would recommend keeping it there "until STRC has demonstrated sustained, healthy trading near $100 per share". From 1 November the dividend is declared for every calendar day. The company has not said in these filings why it is buying the shares back, and the repurchases' effect on the price is not something the filings measure.
-Where does that leave the bitcoin?
-Below its cost, at Monday's price. Bitcoin traded at $74,812 at 14:58 GMT, according to CoinGecko, $644 below Strategy's average purchase price. At that price, by our arithmetic, the 850,364 coins were worth about $63.62bn, some $540m less than Strategy paid. Its last three purchases cost between $79,012 and $82,900 a coin, above the average, so each recent purchase has nudged the average up by a few dollars, from $75,446 on 18 October to $75,456 now. The common shares Strategy sold last week went for an average of $138.35 net, by our division, against $139.15 the week before.
-Why it matters: Strategy's model depends on selling securities to investors who want exposure to bitcoin, and its preferred shares are the part of that machine that promises a fixed-looking income. When the company sells common stock to support the price of its preferred, it is moving value between its own classes of investor rather than adding bitcoin. Holders of MSTR are absorbing the dilution, and holders of STRC are getting a buyer near par. Neither shows up in the bitcoin count. Bitcoin holders elsewhere have had their own reminders of where the price thresholds sit, as Komposite found when Bitget's user fund was measured in coins rather than dollars.
-Strategy has filed these updates on Mondays, which would make the next one due on 16 November. It will show whether the buybacks continue with $560.3m of authorisation left, and whether last week's switch to new common shares was a one-off. Strategy is not the only company leaning on preferred stock this autumn: Meta sold $12.5bn of mandatory convertible preferred alongside its common stock last month, as Komposite reported. That money was raised, not spent retiring an earlier issue.
-
----
-
-# The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550
-
-URL: https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/
-Section: Business
-By: Cory Chamberlain
-Published: 2026-11-05T20:22:00Z
-Updated: 2026-11-05T20:22:00Z
-
-A dealer quoted $1,270 for a replacement Range Rover key; a Pittsburgh mobile locksmith did it on-site for $550. Where the money goes, and how to vet a locksmith.
-
-A Land Rover dealership quoted me $1,270 to replace the key to my Range Rover. LocKey Locksmith, a mobile locksmith in Pittsburgh, cut and programmed a new one in my driveway for $550. That is $720, or 57 percent, less than the dealer's price.
-I paid the locksmith's bill myself, and I am reporting the numbers because few owners know a cheaper option exists until they need it. The gap between the two prices comes almost entirely from labor and programming. The key itself is cheap.
-Why does a Land Rover key cost so much to replace?
-Most of the price pays for programming, not for the key. Land Rover's current models, the Range Rover, Range Rover Sport, Evoque, Discovery, Discovery Sport and Defender, use keys that carry a transponder chip or work as a proximity fob. A transponder is a small chip that sends a coded signal to the car's immobilizer, the anti-theft system that stops the engine from starting without a recognised key. A cut blade with no matching code will open a door but will not start the car.
-Matching a new key to the car takes diagnostic equipment and software that can talk to the vehicle's security modules. Dealers charge a premium for that work. A growing number of independent automotive locksmiths have bought comparable tools and do the same job at the car.
-ItemApproximate cost
-Key blank or fob shell$20 to $30
-Coding the chip and programming the key to the carabout $200
-Mobile service call (travel, equipment, on-site labor)about $100
-Paid to LocKey Locksmith, in my driveway$550
-Land Rover dealership quote$1,270
-Difference$720 (57 percent less)
-Component costs are typical trade prices gathered for this article, not an itemised invoice. The $550 and $1,270 figures are the author's own payment and quote for the same Range Rover key. Percentage is Komposite's arithmetic.What does the dealer's price leave out?
-The dealer's quote did not include the cost of getting the car there. An owner who has lost every key cannot drive to the service department, so a tow comes first. Dealer service departments often book days ahead and may have to order the fob, and someone has to arrange rides to and from the dealership. Pittsburgh owners also have few dealers to choose between, which leaves little competition on price.
-The locksmith's visit avoided all of that. The car did not move, the technician brought the cutting and programming equipment, and the job took a single service call.
-What does a mobile locksmith actually do?
-LocKey, which dispatches from Pittsburgh's 15217 ZIP code and operates around the clock, describes a five-step process on its website. The technician verifies that the customer owns the vehicle, cuts the blade, programs the key to the immobilizer, tests the locks, ignition and remote, and hands over the key. The firm says it gives a price before starting, and that the total depends on the key type, the model and year, how complex the programming is, and whether the call comes after hours.
-The ownership check matters. A locksmith willing to program a key to a luxury SUV without confirming who owns it is also willing to do it for a thief.
-How do you check a locksmith in Pennsylvania?
-Pennsylvania does not license locksmiths statewide, unlike states such as New Jersey and Texas, so the checking falls to the customer. LocKey trades as LocKey LockSmith LLC and lists Pennsylvania Home Improvement Contractor registration PA175243, which can be looked up in the Attorney General's contractor search. That is a registration with the state, not a locksmith's license.
-The common complaint against bad operators is a low price on the phone and a much larger bill once the car is open. Ask for the full price, including programming and the service call, before work begins, and get it in writing.
-Is there a cheaper way?
-Yes: replace a key before the last one is gone. "All keys lost" is the most expensive version of the job because there is no working key to copy. Adding a spare while one still works costs a fraction of that. Keeping the spare at home rather than in the car, changing the fob battery when range weakens, and keeping fobs away from water and heat all lower the odds of ending up there.
-Why it matters: car keys have become small computers, and replacing one is now an electronics job priced like a repair. For owners of luxury models, the dealer is the default but not the only choice. In my case the alternative came to the driveway and cost $720 less.

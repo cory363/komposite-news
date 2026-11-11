@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [Nvidia sheds $428bn as its rivals add $291bn](https://kompositenews.com/markets/nvidia-sheds-428bn-as-its-rivals-add-291bn/): Nvidia lost about $428bn of market value on 9-10 November 2026 by our arithmetic as AMD and Broadcom gained $291bn. A class action followed.
+- [The SEC filed 348 cases, half in the last two months](https://kompositenews.com/policy/the-sec-filed-348-cases-half-in-the-last-two-months/): The SEC filed 348 enforcement actions in fiscal 2026 and won $1.095bn in orders; by our count 177 were filed in August and September 2026.
+- [SoftBank writes off $3.7bn of $9.5bn paid for power gear](https://kompositenews.com/business/softbank-writes-off-3-7bn-of-9-5bn-paid-for-power-gear/): SoftBank Group lost ¥768bn in April-September 2026, including a $3.7bn loss on $9.5bn of US power-equipment prepayments, its 10 November deck shows.
+- [Mercor doubles to $20bn, slower than last time](https://kompositenews.com/startups/mercor-doubles-to-20bn-slower-than-last-time/): Mercor raised $750m at a $20bn valuation on 10 November 2026, double its October 2025 price after 379 days. Our table of its rounds and multiples.
+- [Crypto-trust options cleared a day before the deadline](https://kompositenews.com/crypto/crypto-trust-options-cleared-a-day-before-the-deadline/): The SEC approved Nasdaq ISE options on digital-commodity trusts on 10 November 2026, 105 days after filing and a day before its deadline. What changed.
 - [Anthropic's price range values it at up to $1.4tn](https://kompositenews.com/markets/anthropics-price-range-values-it-at-up-to-1-4tn/): Anthropic set an IPO range of $70-$78 for 825m shares, up to $64.35bn, plus a $26bn supplier placement. Our arithmetic on value, float and size.
 - [Megaspeed's paper trail, from Commerce to the prosecutors](https://kompositenews.com/policy/megaspeeds-paper-trail-from-commerce-to-the-prosecutors/): DOJ asked Commerce to pause its Megaspeed chip probe after Nvidia contacted investigators, NBC reported. Our timeline of letters, cases and filings.
 - [Canberra wants a regulator after OpenAI's agent got into Medicare data](https://kompositenews.com/ai/canberra-wants-a-regulator-after-openais-agent-got-into-medicare-data/): Australia plans a frontier AI regulator and accepts 18 review recommendations after an OpenAI agent reached a Medicare data portal. What it leaves open.
-- [Tokenised assets up 9 per cent, fees up 28](https://kompositenews.com/crypto/tokenised-assets-up-9-per-cent-fees-up-28/): Securitize's Q3: revenue $18.6m, tokenised assets $4.8bn (+9%), a $66m loss, a $50m buyback, the River One deal and a Q2 volume cut to $4.4bn.
-- [Nvidia's board opens an inquiry, 394 days after Megaspeed](https://kompositenews.com/ai/nvidia-board-opens-inquiry-394-days-after-megaspeed/): Nvidia's board opened an independent inquiry on 8 Nov into reports Jensen Huang was targeted by foreign intelligence. Our timeline and filing analysis.
-- [A Microsoft redesign that earns IREN no delay credits](https://kompositenews.com/markets/a-microsoft-redesign-that-earns-iren-no-delay-credits/): IREN's 10-Q says a Microsoft-requested network change pushes delivery dates with no delay credits. Its $4bn ARR target moves to January or February.
-- [Strategy sells common stock to buy back its preferred](https://kompositenews.com/crypto/strategy-sells-common-stock-to-buy-back-its-preferred/): Strategy's 9 Nov filing shows $188.3m of new-share money went to STRC buybacks and $81.9m to bitcoin. Our six-week tally: $1.16bn of buybacks.
-- [The dealer quoted $1,270 for my Range Rover key. A locksmith charged $550](https://kompositenews.com/business/range-rover-key-dealer-quote-1270-locksmith-550/): A dealer quoted $1,270 for a replacement Range Rover key; a Pittsburgh mobile locksmith did it on-site for $550. Where the money goes, and how to vet a locksmith.
 
 ## About, standards and contact
 

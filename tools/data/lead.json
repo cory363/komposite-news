@@ -1,5 +1,5 @@
 {
- "url": "/markets/anthropics-price-range-values-it-at-up-to-1-4tn/",
- "until": "2026-11-12T22:00:00Z",
- "why": "Round 40 (Nov 10) lead: Anthropic's IPO price range, with our arithmetic from the S-1/A fee table and roadshow notice (value at each price, float, size with and without the $26bn supplier placement). Replaces the round-39 Nvidia pin, which moves down. Ignored after 'until'."
+ "url": "/markets/nvidia-sheds-428bn-as-its-rivals-add-291bn/",
+ "until": "2026-11-13T22:00:00Z",
+ "why": "Round 41 (Nov 11) lead: Nvidia's two-day fall after Huang's email, with our market-value arithmetic from EDGAR share counts and daily closes (Nvidia -$428bn, AMD and Broadcom +$291bn) and a close read of the Rosen class action's dates. Replaces the round-40 Anthropic pin, which moves down. Ignored after 'until'."
 }
