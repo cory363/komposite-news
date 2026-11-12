@@ -3472,5 +3472,50 @@
   "alt": "A green Wall St street sign marked 11-21 against a pale stone building",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Wall_Street_Sign_(5899884048).jpg\" rel=\"noopener\">Alex Proimos</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "ai/huang-resigns-from-nvidia-and-the-8-k-gives-no-reason": {
+  "id": "commons:Nvdia_Endeavor_Grand_Opening_entry_lawn.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nvdia_Endeavor_Grand_Opening_entry_lawn.jpg/1280px-Nvdia_Endeavor_Grand_Opening_entry_lawn.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A paved walkway beside a sloping grass lawn leading to the glass and steel Endeavor building at Nvidia's headquarters in Santa Clara",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Nvdia_Endeavor_Grand_Opening_entry_lawn.jpg\" rel=\"noopener\">Daniel Prostak (Crocodiletiger)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/coreweaves-biggest-customer-is-30-per-cent-not-67": {
+  "id": "commons:Cern_datacenter.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cern_datacenter.jpg/1280px-Cern_datacenter.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "Rows of open server racks with cabling visible in a brightly lit data centre at CERN",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Cern_datacenter.jpg\" rel=\"noopener\">Hugovanmeijeren</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" rel=\"noopener\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "technology/infineon-now-expects-close-to-4bn-from-ai-power-supplies": {
+  "id": "commons:MOSFET_transistors.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/MOSFET_transistors.jpg/1280px-MOSFET_transistors.jpg",
+  "width": 1280,
+  "height": 895,
+  "alt": "Dozens of power MOSFET transistors in different black and metal packages arranged in rows on a white background",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:MOSFET_transistors.jpg\" rel=\"noopener\">Mister rf</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "fintech/forty-five-days-of-silence-then-a-lawsuit-over-stock-perps": {
+  "id": "commons:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/New_York_City_%28New_York%2C_USA%29%2C_Wall_Street_--_2012_--_6614.jpg/1280px-New_York_City_%28New_York%2C_USA%29%2C_Wall_Street_--_2012_--_6614.jpg",
+  "width": 1280,
+  "height": 995,
+  "alt": "The columned facade of the New York Stock Exchange on Wall Street with a large US flag hung between the columns",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:New_York_City_(New_York,_USA),_Wall_Street_--_2012_--_6614.jpg\" rel=\"noopener\">Dietmar Rabich</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "policy/new-york-opens-its-register-for-frontier-ai-developers": {
+  "id": "commons:New_York_State_Capitol_building,_full.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/New_York_State_Capitol_building%2C_full.jpg/1280px-New_York_State_Capitol_building%2C_full.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "The New York State Capitol in Albany, a granite building with red-roofed towers, seen across a park with an equestrian statue",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:New_York_State_Capitol_building,_full.jpg\" rel=\"noopener\">Shaunfrombrooklyn</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
