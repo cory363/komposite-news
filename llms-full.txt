@@ -283,6 +283,172 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Microsoft's mail outage crosses the SLA's 99 per cent line
+
+URL: https://kompositenews.com/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-13T14:20:00Z
+Updated: 2026-11-13T14:20:00Z
+
+Microsoft's Exchange Online outage passed 21 hours on 13 November 2026, far beyond the 7.2 hours that take a user below 99% uptime in its SLA. Our analysis.
+
+Microsoft has posted 34 updates on incident EX1550543 since it opened at 16:17 GMT on Thursday 12 November, according to the service-health record that the University of Pennsylvania copies from its Microsoft 365 administration console every 15 minutes. At the 14:01 GMT update on Friday the incident was still a "service degradation", its end time "Not ended yet" and its root cause "N/A".
+The Microsoft 365 outage that began on Thursday 12 November 2026 has left users unable to reach Exchange Online mailboxes through Outlook on the web, Outlook desktop, mobile sync and programming interfaces for more than 21 hours. By Friday Microsoft listed 20 dependent services as affected, and said it had found no evidence of malicious activity.
+Recovery is under way but not complete. At 13:00 GMT Microsoft reported "broader improvements now observed in North America and sustained improvements across much of Europe"; at 14:01 GMT it said email queues were "significantly reduced and approaching normal levels", while warning that some users may still see intermittent access problems or delayed mail. It said it would publish "a full Post-Incident Report with root cause and defense-in-depth actions after mitigation is complete". Microsoft has also been posting updates on its public status page for customers without console access.
+What has Microsoft said went wrong?
+Several things, in sequence. Read in order, the updates move from a load problem to failing servers, then to a component handling health checks, then to an overwhelmed process that sets up secure connections, and finally to a patch for an authentication and routing component that began to stabilise servers on Friday morning.
+Komposite's selection from the 34 updates on incident EX1550543 between 16:20 GMT on 12 November and 14:01 GMT on 13 November, as recorded in Microsoft's service-health text mirrored by the University of Pennsylvania. Quotations are verbatim; GMT equals UTC in November.Time (GMT)What Microsoft's status update said
+Thu 16:17Incident EX1550543 opens: users may be unable to reach Exchange Online mailboxes
+Thu 18:19The affected infrastructure is under "elevated load across multiple regions"
+Thu 19:18The load is not more traffic but "a large number of servers being unexpectedly unavailable"
+Thu 19:43Affected servers are "failing automated health checks", possibly after a recent change to a component
+Thu 19:57"While we haven't identified any recent changes that correlate with the start of impact", a health-check component is bypassed on some servers
+Thu 22:00Actions "have not provided the anticipated relief"; "a core process on the affected servers is becoming overwhelmed"
+Fri 01:06The process "responsible for establishing secure connections" is overwhelmed; Microsoft begins reverting "a recent network configuration change that correlates with the start of impact"
+Fri 02:54A change is "not taking as expected"
+Fri 03:34"There is no indication this is the result of malicious activity"
+Fri 04:59"A surge in outbound call volume from our routing services to our backend servers"
+Fri 07:25Server stability improves after an "upstream authentication/routing configuration component patch"
+Fri 09:55Email timeout window extended "to 48 hours to help protect delayed messages"
+Fri 14:01Email queues "significantly reduced and approaching normal levels"; still not mitigated
+Two updates sit uneasily together. At 19:57 GMT on Thursday Microsoft said: "While we haven't identified any recent changes that correlate with the start of impact". At 01:06 GMT on Friday it said it had "begun reverting a recent network configuration change that correlates with the start of impact". The second does not say whether that change caused the outage, and investigations of this kind often revise early findings. The post-incident report should settle it. Under Microsoft's own service description, a preliminary report is due within 48 hours of resolution and a final one within five business days.
+The mail outage was Thursday's second Microsoft 365 incident. A separate one, TM1550488, disrupted Teams messaging for users routed through North and South America from 14:45 to 15:53 GMT, ending 24 minutes before the Exchange incident opened. Microsoft's preliminary root cause for that one was "Resource contention within the underlying service infrastructure", and it promised a preliminary report within two business days. The two records do not refer to each other.
+Which services were hit?
+Anything that depends on Exchange Online. A companion incident, MO1550821, opened at 18:26 GMT on Thursday naming five services. By our count of each update, the list grew to 20 by 06:54 GMT on Friday, taking in Copilot's access to mail and calendars, Intune device enrolment, Purview compliance tools, Universal Print and some Windows 365 cloud PCs. Microsoft says elements that do not interact with Exchange Online "remain functional", and that Teams calls, meetings, group chats and channel messages were largely unaffected.
+Komposite's count of the services named in each update to incident MO1550821, from the same service-health record. A separate Defender for Cloud Apps line appeared at 08:09 GMT and was folded into the Defender for Office 365 entry an hour later.Update (GMT)Services listedAdded in that update
+Thu 18:275Exchange Online, Teams, SharePoint Online, Copilot, Defender XDR
+Thu 19:588Planner, Purview, To Do
+Thu 20:5711Defender for Office 365, Intune, Power BI
+Thu 22:0313Microsoft 365 Apps admin center, Universal Print
+Thu 22:5814Windows 365 (Cloud PCs using Customer Key)
+Fri 00:0018Microsoft 365 Education, Microsoft 365 admin center, Microsoft 365 apps, Graph
+Fri 01:1219Fabric
+Fri 06:5420Power Apps
+Microsoft released its monthly security updates on Tuesday 10 November. SecurityWeek noted that Microsoft had not linked an Outlook flaw fixed in that release to the outage. October's release, by Microsoft's own count, covered 1,453 vulnerabilities.
+What does the outage mean for service credits?
+For a user who could not send or receive mail in Outlook on the web for the whole incident so far, uptime for November would already be about 97.0 per cent, by our arithmetic, which is inside the band where Microsoft's service-level agreement pays a credit of half the month's Exchange Online fees. The October 2026 edition defines Exchange Online downtime as "Any period of time when users are unable to send or receive email with Outlook Web Access", measured in user-minutes across a calendar month.
+Credit tiers from Microsoft's Online Services SLA, October 2026 edition. Minutes and times are Komposite's arithmetic on a 30-day month of 43,200 minutes, for one user unable to send or receive mail in Outlook on the web for the whole period. Microsoft measures downtime in user-minutes across a tenant, so organisations where only some users were affected fall into lower tiers.Monthly uptime for Exchange OnlineService creditFull-outage minutes that reach it in NovemberFor a user out since 16:17 GMT Thursday, reached at
+Below 99.9%25% of the month's Exchange Online fees43.2 (about 43 minutes)17:00 GMT Thursday
+Below 99%50%432 (7 hours 12 minutes)23:29 GMT Thursday
+Below 95%100%2,160 (36 hours)04:17 GMT Saturday, if still out
+Three conditions narrow that. Downtime is averaged across every user in a tenant, so an organisation where only some mailboxes failed, or where service returned early, will sit higher. Credits are not automatic: a customer must file a claim with the time, duration, number and location of affected users, and for an incident in November the claim must arrive by the end of December. And credits are "your sole and exclusive remedy", applied only to the fees for the affected service; the agreement rules out compensation for "lost revenue, operational costs, or any indirect losses". If the incident runs past 04:17 GMT on Saturday 14 November, a user out for the whole period would cross the 95 per cent line that triggers a full refund of that month's fee.
+Why does the 48-hour mail window matter?
+It decides whether delayed mail is delivered or bounced. Microsoft's documentation says Exchange Online retries delivery for 24 hours, after which messages "will expire and will be returned to the senders in non-delivery reports". At 09:55 GMT on Friday Microsoft said it was "extending the email timeout window to 48 hours to help protect delayed messages". If the clock runs from when a message is first queued, which Microsoft has not specified, mail held since 16:17 GMT on Thursday would now bounce no earlier than Saturday afternoon rather than Friday afternoon.
+The record also shows the pace of communication. Microsoft's service description promises updates "on an hourly cadence or, if a different cadence is required, it will be stated". Each update named the time of the next one, and by our comparison three of those promised times were missed by more than five minutes: by six minutes at 01:00 GMT, and by 55 and 61 minutes as Europe's working day began on Friday, when the next updates came at 09:55 and 11:01 GMT.
+The outage lands in a year when Microsoft 365's availability has already dipped. Microsoft's published worldwide uptime for the first quarter of 2026 was 99.526 per cent, the lowest figure in its table, equal to about 614 minutes of a 90-day quarter by our arithmetic; the second quarter recovered to 99.994 per cent. Some public bodies were reconsidering their dependence before this week: the Dutch tax administration said in October that it would keep its mail on its own servers rather than move to Microsoft 365, part of a broader pattern we have described as selective cloud repatriation.
+Microsoft's next scheduled update on the Exchange incident was due at 15:00 GMT on Friday. The fourth-quarter uptime figure, which will include this week, is the number customers will be able to set against the 99.9 per cent the agreement promises.
+
+---
+
+# Singapore asked Washington about Megaspeed 493 days ago
+
+URL: https://kompositenews.com/policy/singapore-asked-washington-about-megaspeed-493-days-ago/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-13T14:00:00Z
+Updated: 2026-11-13T14:00:00Z
+
+Singapore said on 12 November 2026 it first sought US help on Megaspeed's server supplier on 7 July 2025, 493 days earlier, and received little. Our timeline.
+
+On Tuesday 24 June 2025, officials of the US Commerce Department's Bureau of Industry and Security carried out a check at Megaspeed International in Singapore, with Alice Huang present. According to a statement from Singapore's Ministry of Home Affairs on Thursday 12 November 2026, that visit was the first time Singapore learned of American interest in the company.
+Singapore says it asked the United States for help with its Megaspeed investigation on 7 July 2025 and has received "limited information or assistance" since. The ministry's 12 November 2026 statement, 493 days after that first request, also says Alice Huang, Megaspeed's former chief executive, "was not investigated for espionage".
+The request concerned Super Micro Computer, the US server maker, which the ministry says gave Singapore's police only limited cooperation. Police and the Attorney-General's Chambers raised that with US authorities on 7 July 2025 and, from September 2025, repeatedly asked the Justice Department and the FBI. "Singapore has to date received limited information or assistance in respect of the company," the statement says. The account is Singapore's; the statement does not quote a US response.
+Why did Singapore need American records?
+Because the servers did not stay in Singapore. The ministry says the machines bought by the companies under investigation were exported through Singapore to Malaysia without entering the local market, and police needed to establish whether they were later moved elsewhere, contrary to what had been declared. "SPF could not rely solely on declarations made by the companies in Singapore," it says. The suspected offences are Singaporean ones, chiefly false declarations in server purchases, not breaches of US export rules.
+On that point the statement is direct. Singapore "does not enforce" other countries' unilateral export controls, but expects companies operating there "to take into account such regulations, including export controls". It repeats the home affairs minister's position of 3 March 2025 that "Singapore's investigations were not based on any request from any country or sovereign entity."
+What happened to Alice Huang?
+Police interviewed her on the day of the US check and impounded her passport. She was investigated as Megaspeed's then chief executive, chair and a key controller, the ministry says, and was a Hong Kong resident. In February 2026 police and prosecutors concluded there was insufficient evidence that she had committed offences over the declarations, but found she had knowingly given investigators inaccurate information to play down her role. She was given a stern warning, her passport was returned on 26 February 2026, 247 days after it was taken, by our count, and she left Singapore that day, barred from returning.
+Komposite's timeline from the Ministry of Home Affairs statement of 12 November and Singapore Police Force releases of 1 July and 13 November. Day counts are calendar days, by Komposite; where the source gives only a month, counts run from the first of the month and are approximate.DateEventDays to 12 Nov 2026
+Feb 2025Singapore Police Force and Singapore Customs open their own probe into several companies over suspected false declarations on server purchases, including Megaspeedabout 650
+Thu 27 Feb 2025First three individuals charged with fraud by false representation623
+Tue 24 Jun 2025US Commerce Department check at Megaspeed with Alice Huang present; police interview her and impound her passport506
+Mon 7 Jul 2025Singapore raises Super Micro Computer's limited cooperation with US authorities493
+From Sep 2025Request repeated to the Justice Department and the FBIabout 437
+Thu 26 Feb 2026Passport returned after 247 days; Huang leaves and is barred from re-entering259
+Jul 2026Four companies charged, the first corporate prosecutions; three Aperia Group companies appear in court on 6 July129 (from 6 Jul)
+Thu 12 Nov 2026Home Affairs ministry publishes its account0
+Fri 13 Nov 2026Fifth individual and two more companies charged-1
+The investigation into Megaspeed itself, and six other people, continues, the ministry says. None of the six has been in Singapore since February 2025. The ministry closes by saying Singapore will keep investigating on its own account, cooperate with foreign authorities where appropriate and "take firm enforcement action wherever the evidence warrants it". Megaspeed has not been charged with any offence. It has said that inspections by US and Malaysian authorities found no evidence of violations.
+Who has been charged so far?
+Five people and six companies in the wider server-purchase case, after the police announced charges on Friday 13 November against Shi Bingzhe and two companies he ran, Superphi and NJ Global Financial. Police say the two companies acquired 917 servers from Aperia International across 41 transactions between May 2024 and February 2025, an average of about 22 servers a transaction by our division, with reasonable grounds to believe the servers were the proceeds of Aperia's alleged fraud by false representation.
+Source: Singapore Police Force, 13 November 2026. The charges are under the Corruption, Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act, for acquiring the benefits of another's criminal conduct. The total is Komposite's sum. These are charges, not findings.Charged on 13 NovemberRoleChargesMaximum penalty per charge
+Shi BingzheDirector of Superphi, chief operating officer of NJ Global Financial4110 years' jail, a S$500,000 fine, or both
+Superphi Pte LtdBought servers from Aperia International6S$1m or twice the value of the benefits, whichever is higher
+NJ Global Financial Pte LtdBought servers from Aperia International35As above
+Total917 servers across 41 transactions, May 2024 to February 202582
+The case began with three individuals charged on 27 February 2025. A police release on 1 July added further charges, the first prosecutions of companies, including Aperia International, and a prohibition of disposal on a house valued at about S$55m. It named the server suppliers whose machines were involved as Dell, Super Micro Computer and Asus. The individuals include Wei Zhaolun Alan, who faces a charge of converting about S$55m of property, representing about S$38m of alleged criminal benefits, to buy the house. Fraud by false representation carries up to 20 years in prison per charge in Singapore. The charges are allegations and have not been proved in court.
+For Nvidia, whose Singapore customer is at the centre of the inquiry, the statement adds a government's version of events to a story told until now mostly through leaks. Komposite's earlier timeline found that Nvidia's board opened its inquiry 394 days after Megaspeed first surfaced, and we traced the paper trail from Commerce to the prosecutors. A contractor linked to Super Micro has separately pleaded guilty in a US diversion case. Jensen Huang, who resigned as Nvidia's chief executive this week, had been asked by three House committee chairmen to a closed briefing on 18 November, the next date on the American side of the story.
+
+---
+
+# Cisco lifts its AI target by $1.5bn and gives up margin
+
+URL: https://kompositenews.com/markets/cisco-lifts-its-ai-target-by-1-5bn-and-gives-up-margin/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-13T13:40:00Z
+Updated: 2026-11-13T13:40:00Z
+
+Cisco raised its FY2027 hyperscaler AI revenue target to $9bn from $7.5bn on 12 November 2026; networking rose 43% as product margin fell 3.5 points.
+
+"We are in the very early stages of a multi-year networking supercycle," Chuck Robbins, Cisco's chief executive, said on Thursday 12 November, as the company reported first-quarter results and raised the number it now gives investors for the AI side of that cycle.
+Cisco Systems expects $9bn of revenue in fiscal 2027 from AI infrastructure sold to hyperscalers, the largest cloud operators, up from the $7.5bn it forecast in August and, Cisco said, more than double its fiscal 2026 total. It also raised its full-year revenue forecast to $74.8bn to $75.8bn, from $72.2bn to $73.4bn.
+By our arithmetic the new AI figure is 20 per cent above the old one and would be about 12 per cent of fiscal 2027 revenue at the midpoint of the new range. The total forecast rose by about $2.5bn, so the AI increase accounts for roughly three-fifths of the change. Cisco does not break out how much of the rest comes from AI-related demand outside the hyperscalers.
+The new target can be set against an older number. In August Cisco said hyperscalers had placed $9.3bn of AI infrastructure orders with it in fiscal 2026, $4bn of them in the fourth quarter alone. The $9bn revenue figure for fiscal 2027 is therefore close to the value of last year's orders, by our comparison, which suggests the target mostly assumes that booked orders turn into shipped revenue. The November release gives no first-quarter orders figure, so it is not possible to tell from the filing whether that pace has continued.
+Komposite's comparison of Cisco's fourth-quarter release of 12 August and first-quarter release of 12 November, both filed with the SEC. Changes are Komposite's arithmetic. Cisco's fiscal 2027 runs to late July 2027.Said on 12 Aug 2026Said on 12 Nov 2026Change
+FY2027 AI infrastructure revenue from hyperscalers$7.5bn$9.0bn+$1.5bn (+20%)
+FY2027 revenue$72.2bn to $73.4bn$74.8bn to $75.8bn+$2.5bn at the midpoint (+3.4%)
+FY2027 non-GAAP EPS$5.05 to $5.11$5.47 to $5.53+42c at the midpoint (+8.3%)
+FY2027 GAAP EPS$4.00 to $4.06$4.38 to $4.44+38c at the midpoint (+9.4%)
+Q1 revenue$18.0bn to $18.2bn guided$18.517bn reported$317m above the top of the range
+Q1 non-GAAP EPS$1.32 to $1.34 guided$1.40 reported6c above the top
+The quarter itself, to 24 October, beat Cisco's own range. Revenue was $18.517bn, up 24 per cent and $317m above the top of its guidance, and adjusted earnings were $1.40 a share against a guided $1.32 to $1.34. Networking revenue, the hardware the AI build-out runs on, rose 43 per cent to $11.132bn and is now 60 per cent of the total. Security grew 7 per cent, collaboration 8 per cent and observability 2 per cent. Services, mainly support, grew 1 per cent. "In Q1, we delivered the strongest revenue and non-GAAP earnings per share growth rates for Cisco in over 15 years," Robbins said.
+What did the growth cost?
+Margin. Cisco's adjusted gross margin on products fell to 63.7 per cent from 67.2 per cent a year earlier, and the company-wide figure to 65.6 per cent from 68.1 per cent. On $14.667bn of product revenue, 3.5 points of margin is about $513m of gross profit that the quarter would have earned at last year's rate, by our multiplication. The release does not attribute the decline, and gross margin is affected by pricing, component costs and mix. Margin was also lower in the August quarter, as the fourth-quarter release showed.
+From the same two releases. Earlier-year quarters are the comparatives Cisco prints beside each quarter and are left blank where the release gives no figure. Growth rates are year on year, as Cisco reports them.QuarterRevenueNetworkingNon-GAAP gross marginNon-GAAP product gross margin
+Q4 FY2025 (to Jul 2025)68.4%67.5%
+Q1 FY2026 (to Oct 2025)68.1%67.2%
+Q4 FY2026 (to Jul 2026)$17.3bn$9.8bn (+28%)66.3%64.8%
+Q1 FY2027 (to Oct 2026)$18.5bn$11.1bn (+43%)65.6%63.7%
+Q2 FY2027 guidance$18.0bn to $18.2bn65% to 66%
+Cisco guides adjusted gross margin of 65 to 66 per cent for the January quarter, against 65.6 per cent just reported, and revenue of $18.0bn to $18.2bn, which would be below the quarter just ended. Mark Patterson, the finance chief, spoke of "enabling us to grow earnings much faster than revenue." The raised range for adjusted earnings, $5.47 to $5.53 a share, grew 8.3 per cent at the midpoint, more than twice the 3.4 per cent increase in the revenue range.
+One figure moved the other way. Remaining performance obligations, contracted revenue not yet recognised, were $46.2bn at the end of October, up 8 per cent on a year earlier but about $0.5bn below the $46.7bn reported at the end of July. Cisco returned $3.7bn to shareholders in the quarter, including $2.0bn of buybacks at an average of $112.38 a share.
+Other AI suppliers have reported similar trade-offs between growth and cost. CoreWeave's quarter showed debt rising $11.8bn alongside revenue, and Infineon this week raised its AI power-supply target to close to €4bn. Applied Materials, which also reported on Thursday, showed China's share of its sales falling to a quarter.
+Cisco's next quarterly dividend, of 42 cents, is payable on 20 January 2027. Its second-quarter results, expected in February, will show whether margin holds inside the 65 to 66 per cent range.
+
+---
+
+# China falls to a quarter of Applied Materials' sales
+
+URL: https://kompositenews.com/technology/china-falls-to-a-quarter-of-applied-materials-sales/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-13T13:20:00Z
+Updated: 2026-11-13T13:20:00Z
+
+China was 25% of Applied Materials' Q4 FY2026 revenue of $10.4bn, down from 35% in Q3 FY2025, its SEC filings show. US sales doubled. Our table.
+
+Twenty-five cents of every dollar that Applied Materials took in during its fourth fiscal quarter came from China, its results release showed on Thursday 12 November. Five quarters earlier the figure was 35 cents. The chip-equipment maker sold more to Chinese customers than a year ago, not less; the rest of the world simply bought faster.
+Applied Materials, the California maker of machines that deposit, etch and inspect the layers of a chip, reported revenue of $10.409bn for the quarter to 25 October 2026, up 53 per cent, with China contributing $2.642bn, or 25 per cent. A year earlier China was 29 per cent of sales, and in the July quarter of 2025 it was 35 per cent.
+China's revenue rose 34.5 per cent from a year earlier, by our arithmetic, against 53 per cent for the company as a whole. Sales to the United States roughly doubled, from $655m to $1.32bn, and sales to Europe more than doubled from a small base, to $520m. Taiwan, home of the biggest contract chipmakers, overtook China as the largest region, at 28 per cent.
+Komposite's compilation from Applied Materials' third-quarter and fourth-quarter results releases, filed with the SEC. Shares are as the company reports them. The first-half row is Komposite's subtraction of the third and fourth quarters from the full-year totals; the company does not publish it.QuarterRevenueChinaChina's shareTaiwanKoreaUnited States
+Q3 FY2025 (to Jul 2025)$7,302m$2,548m35%25%16%9%
+Q4 FY2025 (to Oct 2025)$6,800m$1,964m29%27%18%10%
+H1 FY2026 (Nov 2025 to Apr 2026)$14,922m$4,182m28%
+Q3 FY2026 (to Jul 2026)$9,115m$2,506m28%22%17%15%
+Q4 FY2026 (to Oct 2026)$10,409m$2,642m25%28%17%13%
+Is the shift a quarter or a trend?
+On the company's own figures it has run for five quarters. China's share fell from 35 per cent in the July quarter of 2025 to 29 per cent in October, held at about 28 per cent through the first three quarters of fiscal 2026, by our subtraction for the first half, and dropped again to 25 per cent. For the full year China was 27 per cent of the $34.446bn total, against 30 per cent in fiscal 2025.
+The release does not explain the mix, and the company's numbers are its own. A regional split can swing with the timing of shipments to individual new plants. The fiscal 2026 accounts also include a $253m settlement with the Commerce Department's Bureau of Industry and Security over what the company describes as a previously disclosed export-controls compliance matter; the third-quarter release already counted it in the nine-month figures.
+"Applied Materials delivered record results in fiscal 2026," Gary Dickerson, the chief executive, said. He added that the company was "on track to grow our Semiconductor Systems business more than 40 percent in our calendar 2026". That segment, which sells the equipment rather than servicing it, had revenue of $7.996bn in the quarter, against $4.879bn a year earlier. Applied Global Services, which maintains and upgrades installed machines, grew 26 per cent to $1.896bn. Adjusted earnings per share rose 92 per cent to $4.16.
+Over the full year the ranking changed less than the quarter suggests. China was still the largest region in fiscal 2026, at $9.33bn, ahead of Taiwan at $8.818bn and Korea at $6.362bn. But China's sales grew 9.4 per cent over the year, by our arithmetic, against 28.6 per cent for Taiwan, 39.9 per cent for the United States and 63.3 per cent for Europe. Korea, home of the big memory makers, rose 48.6 per cent in the fourth quarter alone.
+The quarter came in $159m above the midpoint of the $10.25bn the company guided to in August, by our arithmetic, and gross margin under US accounting rules rose 2.4 points to 50.4 per cent. Applied Materials bought back $2.0bn of its own shares in the quarter, which its finance chief described as the largest quarterly buyback in more than eight years.
+For the quarter to January 2027 it guides revenue of $11.1bn, plus or minus $500m, and adjusted earnings of $4.35 a share, plus or minus 20 cents. It gives no regional guidance. Investors in chip stocks have been told before to assume less from China: Nvidia's own forecast in September assumed no data-centre compute revenue from the country at all, and enforcement has become the main tool of US policy, as we reported when export controls shifted from rulemaking to settlements. Cisco, which also reported on Thursday, raised its own targets for the AI build-out, which we cover in Cisco lifts its AI target by $1.5bn and gives up margin.
+The next regional breakdown is expected with the first-quarter results in February. A China share above 25 per cent would mean the October quarter was the low point; one below it would make five quarters of decline six.
+
+---
+
 # Huang resigns from Nvidia, and the 8-K gives no reason
 
 URL: https://kompositenews.com/ai/huang-resigns-from-nvidia-and-the-8-k-gives-no-reason/
@@ -441,164 +607,3 @@ The CFTC's reply leans on Cboe's own record. Its brief calls the alliance a "sha
 In fairness to Cboe, the letter answered a CFTC question about futures in general. It did not address the line between security futures and security-based swaps on which the alliance's case turns, and it predates the single-stock filings by more than a year. The alliance describes itself as a trade association of financial institutions, according to Cleary; the CFTC disputes that it is a genuine membership group.
 The SEC's brief takes neither side on the central question. It disputed the alliance's portrayal "of a CFTC gone rogue, and an SEC gone missing", according to Finance Magnates, but did not say whether the contracts are futures or swaps, and noted that the exchanges' rules remain under its review. Ledger Insights has reported that the SEC has until 31 December to decide whether to overturn them. Komposite has not confirmed that date.
 Why it matters: the same question is now in two courts. CME Group's challenge to the CFTC's approval of crypto perpetuals, in which the agency argued CME could not have it both ways, raises a related question about what a perpetual contract is. The next fixed date in Manhattan is 25 November, when the CFTC's answer to the complaint is due, 22 days after the suit was filed. Judge Schofield has yet to set a date for argument on the injunction.
-
----
-
-# New York opens its register for frontier AI developers
-
-URL: https://kompositenews.com/policy/new-york-opens-its-register-for-frontier-ai-developers/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-11-12T13:20:00Z
-Updated: 2026-11-12T13:20:00Z
-
-New York opened RAISE Act registration for frontier AI developers on 10 November 2026; they must sign up by 1 January 2027. How it compares with California.
-
-New York opened a registration portal on Tuesday for the largest developers of frontier artificial-intelligence models, which must sign up by 1 January 2027, when the state's Responsible AI Safety and Education (RAISE) Act takes effect, TechCrunch reported. OpenAI and Anthropic are among the companies expected to register.
-The law applies to developers with more than $500m of annual revenue whose models were trained with more than 1026 computing operations. From 1 January they must publish a safety framework, report a critical safety incident to the state within 72 hours, and pay fines of up to $1m for a first violation and $3m for later ones. Registration opened 52 days before the deadline, by our count.
-The registrations go to the Office of Digital Innovation, Governance, Integrity and Trust, or DIGIT, a unit the state placed inside the Department of Financial Services, the regulator of New York's banks and insurers. DFS said in September that registration would start in November and named Marc Gilman, DIGIT's first full-time hire, as deputy director for the act. "DFS is proud to lead the implementation of the RAISE Act for New York," Kaitlin Asrow, the acting superintendent, said then. On Tuesday the state also launched the New York Center for AI Responsibility and Research at SUNY Binghamton, which TechCrunch said will evaluate advanced systems and help DIGIT review the companies' frameworks.
-Who has to register?
-Companies with more than $500m of revenue in the previous calendar year that train or operate a frontier model. The threshold counts the compute used in original training plus later fine-tuning, according to an analysis of the amended act by the law firm Davis Polk. A large developer files a disclosure statement with DFS before developing, deploying or operating such a model, renews it every two years and pays a share of the office's running costs. The revenue line is not close for the best-known labs. Anthropic's listing documents showed first-half revenue of $16.3bn.
-A state spokesperson declined to say what the state would do to a covered company that did not register, according to TechCrunch. The act gives DFS its own penalty of $1,000 a day for failures to file disclosures or pay fees, separate from the Attorney General's power to seek the larger fines, and there is no private right of action.
-How does it compare with California's law?
-New York copied California's thresholds and went further on speed and penalties. California's Transparency in Frontier Artificial Intelligence Act, SB 53, signed by Governor Gavin Newsom in September 2025, uses the same compute and revenue tests. Its incident clock runs for 15 days. New York's runs for 72 hours, five times faster by our arithmetic, and 24 hours where there is an imminent risk of death or serious injury. New York's cap for a repeat violation is three times California's.
-Komposite's side-by-side from Davis Polk's analysis of the amended act, the Department of Financial Services and the California governor's office.New York RAISE Act (as amended)California SB 53
-Signed19 Dec 2025; amended version 27 Mar 202629 Sep 2025
-Frontier modelTrained with more than 1026 operations, counting fine-tuningSame compute threshold
-Large developerMore than $500m of revenue in the prior yearSame revenue threshold
-Critical incident report72 hours; 24 hours if there is an imminent risk of death or serious injury15 days
-Who receives itDIGIT, a new office in the Department of Financial ServicesCalifornia's Office of Emergency Services
-Maximum penalty$1m for a first violation, $3m after that (Attorney General); $1,000 a day for disclosure or fee failures (DFS)Up to $1m a violation (Attorney General)
-Registration and feesDisclosure statement before operating, renewed every two years; share of the office's costsNone
-Whistleblower protectionsNot includedIncluded
-RulemakingDFS may write rules after notice and commentNot comparable
-The comparison runs the other way on whistleblowers. California's law protects employees who disclose significant health and safety risks; New York's amended act does not, the Davis Polk analysis notes. California also has no registration step. Its law sends incident reports to the Office of Emergency Services and leaves enforcement to the Attorney General.
-Why did it take a year?
-Because the law was signed before it was finished. Governor Kathy Hochul signed the original bill on 19 December 2025 on condition that the legislature amend it, and signed the amended version 98 days later. The register opened 228 days after that.
-Komposite's day count from the dates in the sources linked in this article.DateStepDays
-Fri 19 Dec 2025Governor Hochul signs the RAISE Act, on condition that it is amended0
-Fri 27 Mar 2026Amended act signed98
-Mon 21 Sep 2026DFS names DIGIT to run it and says registration starts in November276
-Tue 10 Nov 2026Registration portal opens326
-Fri 1 Jan 2027Act takes effect; registration deadline378
-Hochul has presented the act as a check on the industry rather than a brake on it. "Tech moguls tell us that their vision for AI is inevitable," she said at a press briefing on Tuesday, TechCrunch reported. The state has gone further than New York City, whose council in October heard a proposal for a validator for every model, and it already has an operating office, while Australia said this week only that it plans a frontier AI regulator.
-The next date is 1 January, when the act takes effect and the first disclosure statements are due. DFS can also write rules under the act, after notice and comment, which would fill in what the statute and the portal leave open.
-
----
-
-# Nvidia sheds $428bn as its rivals add $291bn
-
-URL: https://kompositenews.com/markets/nvidia-sheds-428bn-as-its-rivals-add-291bn/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-11T14:00:00Z
-Updated: 2026-11-11T14:00:00Z
-
-Nvidia lost about $428bn of market value on 9-10 November 2026 by our arithmetic as AMD and Broadcom gained $291bn. A class action followed.
-
-Nvidia's shares closed at $168.89 on Tuesday 10 November, 9.5 per cent below the $186.64 close of Friday 6 November, after two days of selling that followed chief executive Jensen Huang's admission of an affair. On the 24.1 billion shares in its latest quarterly filing, that is about $428bn of market value lost since Friday, by our arithmetic.
-The fall came in two steps. On Monday the stock lost $7.97, or 4.27 per cent, about $192bn of value. On Tuesday it lost a further 5.47 per cent, CNBC reported, or about $236bn, by our multiplication. Nvidia briefly traded below a $4tn valuation on Tuesday afternoon before closing above it. On our share count the line sits at about $166 a share; the close left the company worth about $4.07tn. Volume on the two days averaged 445m shares, 2.6 times the average of the five sessions before, according to Yahoo Finance's daily history.
-The selling was not spread across the chip sector. Over the same two days AMD rose 14.7 per cent and Broadcom 13.0 per cent, on closing prices from Yahoo Finance. Applied to the share counts on their latest 10-Q covers, from SEC EDGAR, those moves added about $108.5bn to AMD and $182.8bn to Broadcom: $291.3bn together, or 68 per cent of what Nvidia lost. CNBC put Broadcom's Monday gain at just over 10 per cent; on closing prices we make it 8.8 per cent. Share prices move for many reasons at once, and the arithmetic shows coincidence, not a transfer from one to the others.
-Komposite's compilation and arithmetic. Closing prices from Yahoo Finance's daily history. *Price change times the share count on each company's latest 10-Q cover, from SEC EDGAR: Nvidia 24.1bn (21 August 2026), Broadcom 4,773,629,865 (28 August), AMD 1,640,087,251 (28 October). Share counts move between filings, so the values are approximate.CompanyClose, Fri 6 NovClose, Mon 9 NovClose, Tue 10 NovTwo-day changeMarket value change*
-Nvidia$186.64$178.67 (-4.3%)$168.89 (-5.5%)-9.5%-$427.8bn
-Broadcom$293.69$319.48 (+8.8%)$331.98 (+3.9%)+13.0%+$182.8bn
-AMD$449.04$508.58 (+13.3%)$515.21 (+1.3%)+14.7%+$108.5bn
-The two days were not alike. On Monday, AMD and Broadcom together added about $221bn, more than the $192bn Nvidia lost, by our arithmetic. On Tuesday the pattern broke: Nvidia lost $236bn while the other two added about $71bn between them. Read that way, Monday looked like investors switching between chipmakers, and Tuesday like investors selling Nvidia.
-The trigger was a weekend email. In a message to staff posted on Sunday 8 November, Huang wrote: "I was unfaithful to my wife." He also wrote, "I have fallen short of that responsibility," and said he would "cooperate fully" with the board's investigation. CNBC has reported that the affair was with Alice Huang, an executive at Megaspeed, a Singapore-based Nvidia customer. On 5 November three House committee chairmen asked Huang to brief Congress on his link to what they called a Chinese intelligence asset. The board's statement the same day said a committee of independent directors, "assisted by outside independent counsel", would run the inquiry, which we reported on Monday.
-What does the lawsuit claim?
-That Nvidia and Huang misled investors about Huang's relationship with Alice Huang and about Nvidia's dealings with Megaspeed. The suit was filed on Monday in the federal court in San Jose by the Rosen Law Firm for a shareholder named Mark Kistenmacher, Gizmodo reported. Rosen's notice says the defendants' statements were "materially false and/or misleading at all relevant times" and that investors were damaged when the true details entered the market. At least four other firms have announced investigations, according to Gizmodo.
-Komposite's summary from Rosen's notice of 10 November, Gizmodo and CNBC. Day count by Komposite. We have not read the complaint itself, which was not available to us on the public docket.ItemWhat the filings and notices say
-CaseKistenmacher v. Nvidia, a proposed securities class action against Nvidia and Jensen Huang
-CourtUS District Court for the Northern District of California, San Jose
-FiledMonday 9 November 2026, by the Rosen Law Firm
-Class period9 October 2025 to 8 November 2026, both dates inclusive: 396 days by our count
-Core allegationStatements about Huang's relationship with Alice Huang and Nvidia's dealings with Megaspeed were "materially false and/or misleading at all relevant times"
-Statements citedRemarks by Nvidia spokesman John Rizzo, and Huang's May 2025 denial that Nvidia chips were being diverted to China (as reported)
-Lead-plaintiff deadline8 January 2027, 60 days after the first notice
-StatusNo class certified. The allegations are unproven
-The dates were chosen with care. The class period opens on Thursday 9 October 2025, the day before Singapore's police said publicly that they were investigating Megaspeed, the first entry in the paper trail we compiled on Tuesday. It closes on Sunday 8 November 2026, the day of Huang's email, so Monday's fall is the price drop the complaint relies on: the $7.97 a share that Gizmodo and others valued at about $192bn to $193bn. The lead-plaintiff deadline of 8 January 2027 is 60 days after the first notice, the window the Private Securities Litigation Reform Act allows.
-The law also caps what such a suit can recover. Under the Private Securities Litigation Reform Act, damages per share are limited to the difference between what an investor paid and the average closing price over the 90 days after the corrective information reached the market. That average does not exist yet. Over the first two days it is $173.78, by our arithmetic, and it will move with every close until early February. For any buyer in the class period, the cap will be set by how the stock trades through Nvidia's results and the board's review, not by Monday's fall alone.
-A securities complaint is the start of a long process, and many are dismissed. The Rosen suit has to show not only that statements were false but that they were material and made with the required state of mind. Nvidia had not responded publicly to the suit in the reports we read.
-What are the analysts and officials saying?
-President Donald Trump said the FBI was looking into the matter and added, "I think that he'll be in good shape," CNBC reported. Dan Ives of Yorkville Ives & Co. put the chance of Huang being removed as chief executive at roughly 15 per cent, and said a board review he expects to take four to six weeks would "create a clear overhang on the stock".
-There is a market reason the rotation went to AMD and Broadcom in particular: both sell the processors and custom accelerators that are the nearest substitutes for Nvidia's in AI data centres. There is also an awkward symmetry. Nvidia, AMD and Broadcom are all among the seven suppliers that have agreed to buy $26bn of stock in Anthropic's listing, which is expected to price on 18 November.
-Why it matters: the questions now facing Nvidia are about governance and export compliance rather than demand for its chips, and the market has priced them at roughly a tenth of the company in two sessions. Results can answer the demand question; they cannot answer the others, which sit with the board's committee, the FBI and Congress.
-The calendar is short. The three House committee chairmen who wrote to Huang on 5 November asked for a reply by today, 11 November, and a closed briefing on 18 November. Nvidia reports its third-quarter results on Tuesday 17 November, with a call at 2 p.m. Pacific, seven days after Tuesday's close.
-
----
-
-# The SEC filed 348 cases, half in the last two months
-
-URL: https://kompositenews.com/policy/the-sec-filed-348-cases-half-in-the-last-two-months/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-11-11T13:40:00Z
-Updated: 2026-11-11T13:40:00Z
-
-The SEC filed 348 enforcement actions in fiscal 2026 and won $1.095bn in orders; by our count 177 were filed in August and September 2026.
-
-On 27 August 2026 the Securities and Exchange Commission filed 39 enforcement cases in a single day, more than in any whole month of its fiscal year until then. Thirty-eight of them share one litigation release number, LR-26622, and each counts as a separate action in the list of cases the SEC published on Tuesday. The SEC's release says that in November 2025 and August 2026 it charged 45 entities in three federal districts with filing false Forms ADV, the registration form for investment advisers; the 27 August batch appears to be the second wave.
-The SEC filed 348 enforcement actions in the fiscal year to 30 September 2026, including 235 standalone cases, and obtained orders for $1.095bn in disgorgement, interest and penalties, it said on Tuesday 10 November. By our count of the case list in the addendum, 177 of the 348 actions, or 51 per cent, were filed in August and September.
-The other 113 actions are 47 follow-on administrative proceedings, which bar or suspend people after a conviction or injunction elsewhere, and 66 cases against companies that are delinquent in their filings. The release itself compares little with earlier years. The SEC's own past releases make the comparison possible.
-Four years of annual results
-Komposite's compilation from the SEC's annual enforcement releases for each year, linked. The fiscal year ends on 30 September; days are counted by Komposite from that date to publication.Fiscal yearTotal actionsStandaloneMoney orderedReturned to investorsWhistleblower awardsResults published
-2023784501$4.949bn$930mnearly $600m14 Nov 2023 (45 days)
-2024583431$8.2bn$345m$255m22 Nov 2024 (53 days)
-2025456303$17.9bn ($2.7bn excluding Stanford and offsets)$262m~$60m7 Apr 2026 (189 days)
-2026348235$1.095bn ($860m less offsets)$731mmore than $158m10 Nov 2026 (41 days)
-Total actions are down 24 per cent on fiscal 2025 and 56 per cent on fiscal 2023, and standalone cases, which exclude follow-ons and delinquent filers, are down 22 per cent and 53 per cent. The money is harder to compare. Fiscal 2025's $17.9bn was dominated by judgments in the Robert Allen Stanford Ponzi litigation; excluding those and amounts deemed satisfied by other courts, the SEC put the year at $2.7bn. The comparable figure for 2026 is $860m after $235m of offsets, about 68 per cent lower, by our arithmetic.
-Two measures went the other way. The SEC returned about $731m to more than 250,000 harmed investors, nearly three times fiscal 2025's $262m, and equal to 85 per cent of the year's net money ordered. It paid more than $158m to 65 individual whistleblowers, the largest number of individuals since fiscal 2023, and received about 26,000 whistleblower tips, against more than 18,000 in fiscal 2023, the last year for which the SEC published the same measure. The 53,753 figure it gave for fiscal 2025 counted tips, complaints and referrals together.
-Where the cases were
-Komposite's count of the 348 rows in the case list attached to release 2026-113, by the program heading and filing date the SEC gives for each.Program areaCasesOf which filed in Aug or Sep
-Investment advisers / investment companies9753
-Delinquent filings6660
-Securities offering6425
-Insider trading3915
-Broker-dealer3514
-Issuer reporting / audit and accounting307
-Market manipulation71
-Miscellaneous72
-Public finance abuse30
-Total348177
-Investment advisers and funds were the largest category, at 97 cases, and the 38 cases under LR-26622 account for much of that. Sixty of the 66 delinquent-filing cases, which revoke or suspend the registration of companies that have stopped filing reports, were brought in the last two months. Excluding those two groups, the year's case flow is far more even: the other 79 August and September filings are spread across advisers, offerings, insider trading and broker-dealers.
-A handful of settlements carry the penalty total. Western Asset Management Company paid a $100m civil penalty, 29 per cent of the year's $343m in penalties on its own, and UBS Financial Services paid $20m. Thirteen trading suspensions targeted suspected manipulation in Asia-based issuers. The division also rewrote its Enforcement Manual for the first time since 2017.
-The leadership framed the lower count as a choice. "Enforcement actions and financial remedies are important measures of activity," said Paul S. Atkins, the SEC's chairman, adding that the program is measured by how well it advances the agency's mission. David Woodcock, director of the Division of Enforcement, said: "Our focus is on conducting rigorous investigations, pursuing consequential misconduct." Roughly two-thirds of standalone actions charged at least one individual, the release says.
-The figures arrived quickly. The SEC published them 41 days after the year closed, against 189 days for fiscal 2025, whose results came out in April. The commission that will oversee fiscal 2027's cases was down to two members in October, when it amended its rules so one can be a quorum when the others are disqualified. Its examiners have already set their own priorities for the year, naming registrants' use of super intelligence among them. The first quarter of the new fiscal year ends on 31 December.
-
----
-
-# SoftBank writes off $3.7bn of $9.5bn paid for power gear
-
-URL: https://kompositenews.com/business/softbank-writes-off-3-7bn-of-9-5bn-paid-for-power-gear/
-Section: Business
-By: Tom Kessler
-Published: 2026-11-11T13:20:00Z
-Updated: 2026-11-11T13:20:00Z
-
-SoftBank Group lost ¥768bn in April-September 2026, including a $3.7bn loss on $9.5bn of US power-equipment prepayments, its 10 November deck shows.
-
-Page 8 of SoftBank Group's accounting presentation for the half year to 30 September carries a line that was not in its accounts a year ago: a ¥597.2bn ($3.7bn) loss on power-generation equipment for AI data centres in the US. A subsidiary called Silver Bands 7 had paid $9.5bn since April 2025 to reserve generating equipment ahead of expected shortages. SoftBank has now decided it does not need all of it.
-SoftBank Group lost ¥768.0bn in the six months to 30 September 2026, against a profit of ¥2,924.1bn a year earlier, its presentation of Tuesday 10 November shows. The equipment loss accounts for 78 per cent of that, by our division, and it is a write-off of 31 per cent of the money SB7 had paid out.
-Source: SoftBank Group accounting presentation, page 8. Shares are Komposite's arithmetic. SB7 is Silver Bands 7 LLC, in which SoftBank Group and Vision Fund 2 have invested.LineAmountShare of the $9.5bn
-Paid by SB7 for power-generation equipment, April 2025 to September 2026$9.5bn (¥1.5tn)100%
-Re-allocated to PORTS-Pike and other projects$6.6bn69.5%
-Loss on non-refundable advances for equipment dropped from the plan$2.9bn (¥457.0bn)30.5%
-Loss on contract modifications and settlements$0.9bn (¥140.2bn)n/a: cash mostly still to be paid
-Total loss booked$3.7bn (¥597.2bn)38.9%
-Rebate rights on future purchases (not booked as an asset)up to $2.1bnn/a
-The presentation splits the loss in two. $2.9bn is non-refundable advance payments for equipment that is no longer in the revised procurement plan. A further $0.9bn relates to modifying and settling contracts, and most of that cash has yet to be paid, from the third quarter onward. Of the $9.5bn, $6.6bn has been reassigned to equipment for PORTS-Pike, a power-generation project, and others. SoftBank goes out of its way to separate the two: "The loss of $3.7B is completely unrelated to PORTS-Pike." It also holds rights to rebates of up to $2.1bn on future purchases, on conditions, but has booked nothing for them: "No asset recognized; purchase timing and amounts undetermined."
-Why do two loss figures circulate?
-Because SoftBank reports half-years and some summaries report quarters. The ¥768.0bn is the April-to-September figure. SoftBank's first-quarter presentation showed a profit of ¥347.3bn for April to June. Subtracting one from the other gives a loss of about ¥1,115bn, or ¥1.1tn, for July to September alone, by our arithmetic. The same subtraction gives a profit of ¥2,502bn for the second quarter of 2025, when SoftBank was booking large gains on OpenAI.
-Source: SoftBank Group's accounting presentation of 10 November 2026. H1 is April to September. *Komposite's subtraction of the ¥347.3bn first-quarter profit in the first-quarter presentation from the half-year loss.¥bnH1 FY2025H1 FY2026Q2 FY2026 alone*
-Net sales3,736.84,235.0n/a
-Total gain on investments3,926.71,725.8n/a
-of which SoftBank Vision Funds3,415.5705.6n/a
-Finance cost(340.0)(790.7)n/a
-Loss on US power-generation equipmentnone(597.2)n/a
-Net income attributable to owners2,924.1(768.0)(1,115.3)
-This time there was no OpenAI gain. SoftBank carries its OpenAI holding at fair value, and the presentation says no gain or loss was recorded in the half because the valuation was unchanged from March. At 30 September the stake had cost $54.6bn and was carried at $99.6bn, a cumulative gain of $45.0bn, or 1.82 times cost. In October SoftBank paid the third $10bn tranche of its follow-on commitment, bringing its cumulative investment to $64.6bn for a stake of about 13 per cent. OpenAI's own fundraising has been cut in size and price since SoftBank's March mark was set, to a reported $1.25tn, from the $1.4tn or more it was reported to be seeking in October.
-The gains that did arrive came from elsewhere. Intel, in which SoftBank bought $2bn of shares in August 2025, produced a ¥1,062.8bn valuation gain, partly offset by a ¥321.9bn derivative loss on prepaid forward contracts SoftBank had written against those shares. ByteDance added ¥569.4bn inside the Vision Funds. Warrants that Energy Global, a SoftBank group company, granted to OpenAI as incentives on data-centre leases cost ¥203.8bn as Energy Global's own value rose.
-What is it costing to borrow?
-More than twice as much as a year ago. Interest expense at the group's parent and financing companies was ¥676.4bn in the half, an increase of ¥407.2bn, which the presentation puts down to more borrowing and bonds and to writing off unamortised fees when bridge loans were repaid early. The finance presentation shows net debt at the parent of ¥11.3tn at 30 September, up from ¥8.2tn in March, and a loan-to-value ratio of 15.9 per cent, against a policy ceiling of 25 per cent in normal times.
-Net asset value, the figure SoftBank asks investors to judge it by, was ¥59.8tn ($380bn) at the end of September. That is ¥19.7tn more than in March, which is how some reports described it as a record, but ¥12.5tn, or 17 per cent, less than the ¥72.3tn of June. SoftBank attributes the fall since June mainly to a ¥9.8tn decline in the value of its holdings and ¥2.0tn of currency effects.
-Why it matters: SoftBank is funding its AI build-out largely with debt, which rose ¥3.1tn at the parent in six months, and its accounts now show what happens when a pre-ordered power plan changes. Other developers have been locking up generating capacity the same way, from leases to equipment orders, as Anthropic did with its first Canadian lease. SoftBank says the $0.9bn of settlement cash will go out from the third quarter, which ends on 31 December, and its third-quarter results will show how much of the $2.1bn of rebates, if any, it can use.
