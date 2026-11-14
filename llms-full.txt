@@ -283,6 +283,183 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# The Entity List has not grown since October 2025
+
+URL: https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-14T14:20:00Z
+Updated: 2026-11-14T14:20:00Z
+
+BIS has added no one to the Entity List since 9 October 2025, 401 days, by our Federal Register count; Bessent said Commerce held up Megaspeed.
+
+The Commerce Department has not added a single company or person to the Entity List, Washington's main export blacklist, since 9 October 2025, by Komposite's count of rules in the Federal Register. That is 401 days. On Friday the Treasury Secretary, Scott Bessent, said four other departments had wanted one company, Megaspeed, on the list "for months".
+"Treasury, War, USTR and State — they were in favor of putting Megaspeed on the entity list for months," Bessent said on CNBC's Squawk Box on Friday 13 November, according to the network's transcript. "But Commerce has the pin — Commerce BIS has the pin." The transcript's "pin" is the idiom Fortune and other outlets rendered as "pen": the Bureau of Industry and Security, part of Commerce, writes the list. "And you will have to ask them about their internal process," Bessent said.
+Commerce has disputed a related account. Kristen Eichamer, a department spokeswoman, told Axios that Bessent and Howard Lutnick, the commerce secretary, had "no such conversation" about Megaspeed in the White House Situation Room, TNW reported, and an unnamed spokesperson told Semafor that "Treasury and Commerce have a great working relationship." Asked about the meeting on Friday, Bessent said: "We don't repeat conversations in the Situation Room." Megaspeed, a Singapore-based cloud company, has said inspections found no evidence of violations, as Komposite has reported, and Nvidia barred sales and shipments to it in June 2025, according to a spokesman quoted by The Wall Street Journal.
+How long has the list been frozen?
+About twice as long as any earlier gap since 2018. Komposite searched all rules from the Bureau of Industry and Security that mention the Entity List and counted those whose titles announce additions. In every year from 2018 to 2024 there were between seven and 17. In 2025 there were six, the last on Thursday 9 October 2025, adding 29 entries covering 26 entities in China, Turkey and the United Arab Emirates. In 2026 there have been none. The longest previous gap between such rules in our count was 196 days, from October 2018 to May 2019.
+Komposite's count of rules from the Bureau of Industry and Security whose titles announce additions to the Entity List, from the Federal Register's own search of rules published since 1 January 2018. Corrections are excluded. Some sanctions rules have added names under other titles in past years, so earlier totals may be understated; none has done so since October 2025, by our check of all 16 BIS rules published since.YearFederal Register rules adding names to the Entity List
+20188
+20197
+20208
+202112
+202211
+202317
+202411
+20256 (the last on 9 October)
+2026, to 14 November0
+We also read every rule the bureau has published since 9 October 2025: 16, including a correction. None adds a name. Two take names off. A rule of 12 November 2025 removed one Chinese entity and six aliases of another, and a rule of 24 August 2026 removed one entity in Turkey, with a companion rule removing two Hong Kong addresses. The freeze is not a matter of one company; by our count no name of any kind has gone on the list in 13 months.
+The dates line up awkwardly with the Megaspeed file. The last additions were published the day before Singapore's police confirmed, on 10 October 2025, that they were investigating Megaspeed, and four days before Senator Tom Cotton's letter of 13 October 2025 asked Lutnick to investigate it, as Komposite has reported. Nothing in the Federal Register since then mentions the company.
+The last full year of additions was not small. The four rules published after the change of administration in January 2025 added 140 entities. One of them, the rule of 16 September 2025, included a single entity in Singapore among 32.
+Komposite's compilation from the abstracts of each rule in the Federal Register. The four rules published after 20 January 2025 added 140 entities between them, by our addition.PublishedRuleNames addedWhere
+16 Jan 20252025-0048016 entitiesBefore the change of administration
+16 Jan 20252025-0070411 entitiesBefore the change of administration
+28 Mar 20252025-0542670 entitiesChina and other destinations
+28 Mar 20252025-0542712 entitiesChina and other destinations
+16 Sep 20252025-1789332 entitiesChina 23, Turkey 3, UAE 2, India, Iran, Singapore and Taiwan 1 each
+9 Oct 20252025-1950826 entities, 29 entriesChina 19, Turkey 9, UAE 1 (entries)
+What does the trade truce have to do with it?
+The pause began weeks before a deal with Beijing, and the deal froze a related rule. On 30 September 2025 the bureau published an interim rule under which any company at least 50 per cent owned by listed entities would automatically face the same restrictions, a standard it said was "designed to be consistent with longstanding Department of the Treasury practice". It was in force for 41 days. A White House fact sheet of 1 November 2025 said the United States would "suspend for one year, starting on November 10, 2025" that rule, as part of an agreement under which China would suspend rare-earth export controls "that it announced on October 9, 2025" — the same day as the last American additions.
+The suspension rule said that "BIS will continue to evaluate U.S. national security and foreign policy interests related to these non-listed foreign affiliates of listed entities" and scheduled the 50 per cent rule to return on 10 November 2026. It did not return. A final rule published on Monday 9 November extends the suspension "through January 10, 2027", 62 days, and gives no reason. Its footer shows it was filed with the Federal Register at 4:15 p.m. on Thursday 5 November. The rule also misdates its subject: its background says the affiliates rule was published "On September 20, 2025", while the dates paragraph of the same rule, and the Federal Register itself, say 30 September.
+Why would a listing matter for Megaspeed?
+A listing turns a company into a licence requirement. The Export Control Reform Act, cited in this week's rule, authorises Commerce to maintain "a list of foreign persons and end uses that are determined to be a threat to the national security and foreign policy of the United States" and to restrict exports to them. Without a listing, suppliers rely on their own checks. Singapore's police have charged five people and six companies in a parallel server case, and the island's interior ministry said Washington had given "limited" help on Megaspeed, as Komposite reported in our timeline of that inquiry.
+Megaspeed does not appear in American corporate disclosure at all. An SEC full-text search for the name across filings since January 2024 returns no results, by our check on Saturday, so no US-listed company has named it as a customer, supplier or risk. Bessent's broader complaint on Friday was about that gap. "I think there is a lot of leakage in the system and we are constantly working to close that down," he said, adding that chips had gone to "what were obviously pass-through shell companies".
+Why it matters: the Entity List is the export system's most direct tool, and for 13 months it has not been used to add anyone, while the more automatic 50 per cent rule has been suspended as a bargaining chip with Beijing. Agencies that favour listing are now saying so in public, and the agency that decides has not explained its process. Earlier reporting set out how Commerce's own Megaspeed inquiry was paused at the Justice Department's request.
+The next fixed dates are close. Nvidia reports results on Tuesday 17 November. Lutnick has agreed to testify before the Senate Banking Committee on 10 December, Fortune reported. The suspension of the 50 per cent rule runs out on Sunday 10 January 2027, 57 days from now, unless Commerce extends it again.
+
+---
+
+# Microsoft moves its outage start six hours earlier
+
+URL: https://kompositenews.com/technology/microsoft-moves-its-outage-start-six-hours-earlier/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-14T14:00:00Z
+Updated: 2026-11-14T14:00:00Z
+
+Microsoft's final record dates its 12-13 November 2026 Exchange Online outage from 10:05 to 16:10 GMT next day, 30h05m. Our SLA arithmetic.
+
+Microsoft's closed record of this week's Exchange Online outage puts its start at 10:05 GMT on Thursday 12 November, six hours and 12 minutes earlier than the time the incident carried while it was open, and its end at 16:10 GMT on Friday 13 November. On those times the outage lasted 30 hours and 5 minutes.
+The revised times appear in Microsoft's service-health record for incident EX1550543, as copied from the University of Pennsylvania's Microsoft 365 console, which marked it restored in a final update at 04:15 GMT on Saturday. The companion incident covering other Microsoft 365 services, MO1550821, was given the same start and end. When Komposite read the record on Friday, EX1550543 began at 16:17 GMT and MO1550821 at 18:26 GMT. Microsoft has not said why it moved the start.
+For the first time Microsoft also gave a cause. "The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change," it wrote, first at 17:57 GMT on Friday and again in the final status. "This was a technical issue not related to cyber or AI / agents." The same update apologised: "We are deeply sorry for the disruption this incident has caused you and your business."
+The SLA arithmetic, redone
+The earlier start does not change the credit tier for a user who was out from beginning to end. Under Microsoft's Online Services service-level agreement, Exchange Online downtime is "Any period of time when users are unable to send or receive email with Outlook Web Access", and credits step up at 99.9, 99 and 95 per cent monthly uptime. Thirty hours and 5 minutes is 1,805 minutes, which leaves 95.82 per cent of a 30-day November, by our arithmetic. That is below 99 per cent, worth a 50 per cent credit on the month's Exchange Online fee, but above the 95 per cent line that would have meant a full refund.
+Komposite's arithmetic on a 30-day month of 43,200 minutes, for a single user unable to send or receive mail in Outlook on the web for the whole period, using the times in Microsoft's service-health record and the tiers in its Online Services SLA. Microsoft measures downtime in user-minutes across a tenant, so most organisations will land in lower tiers.BasisMinutes outUptime for that user in NovemberCredit tier under the SLA
+Start as first logged (16:17 GMT Thursday) to the final end time1,43396.68%Below 99%: 50% of the month's fee
+Start as now recorded (10:05 GMT Thursday) to the final end time1,80595.82%Below 99%: 50% of the month's fee
+Needed for the 100% tier (below 95%)2,16095.00%Would have required an outage until 22:05 GMT Friday
+On Friday we calculated that a user out since the old start would cross the 95 per cent line at 04:17 GMT on Saturday if the outage continued. It did not; on the closed record the full-refund threshold would have needed the outage to last until 22:05 GMT on Friday. Microsoft's agreement also says credits are "your sole and exclusive remedy", and customers must claim them by the end of the month after the incident, so by 31 December for most monthly subscriptions.
+Restored on paper, monitored for 12 hours
+The recorded end time came before the updates stopped saying recovery was incomplete. At 20:02 GMT on Friday, almost four hours after the 16:10 end time, Microsoft wrote: "We do not have an ETA for full recovery yet. Service access can recover before mail flow fully normalizes." At 22:00 GMT it said: "Due to the severity of impact this incident caused, we're monitoring for an extended period." The final status came 12 hours after the recorded end. By our count, EX1550543 ran to 41 updates and MO1550821 to 37.
+The final list of affected services is long. MO1550821's closing text names Exchange Online, the Microsoft 365 admin centre, Microsoft 365 apps, the Apps admin centre, Microsoft 365 Education, Copilot, Defender for Office 365, Defender XDR, Fabric, Graph, Intune, Planner and Power Apps among others, and repeats that "Elements of those services that do not depend on interaction with Exchange Online remained functional." For Copilot, Microsoft said users "may be unable to load Copilot Chat or receive responses", and that its experiences may be unable to reach work email, calendars and files, a reminder of how much of the company's AI product depends on the mailbox.
+Read together, the explanations have moved since Thursday. The early updates spoke of servers failing health checks and an overwhelmed connection process; early on Friday Microsoft said it was reverting "a recent network configuration change"; the final status links a recent change to an earlier capacity upgrade. That sequence is consistent with an investigation narrowing, but the final status is still labelled a "Preliminary root cause".
+When does the full report arrive?
+Microsoft's final status promises "a preliminary Post-Incident Report within two business days and a final Post-Incident Report within five business days". Counting from Friday's end, that means Tuesday 17 November and Friday 20 November, by our calendar. Microsoft's published service description is stricter on the first of those: a preliminary report "within 48 hours of incident resolution", which would have been 16:10 GMT on Sunday.
+The report will be read for two things this record cannot answer: why the start moved to 10:05, more than six hours before the first public update at 16:20 GMT, and which customers and regions were affected in those hours. Komposite's account of the outage while it was running, and of how the SLA tiers apply, appeared on Friday. Organisations weighing how much mail to keep in a single provider's cloud have made different choices.
+
+---
+
+# The H200 licence rule, line by line
+
+URL: https://kompositenews.com/ai/the-h200-licence-rule-line-by-line/
+Section: AI
+By: Dana Whitfield
+Published: 2026-11-14T13:40:00Z
+Updated: 2026-11-14T13:40:00Z
+
+BIS's January 2026 rule lets H200 licences to China be reviewed case by case below 21,000 TPP and 6,500 GB/s. By our arithmetic the H200 is at 15,832.
+
+The US rule that allows Nvidia's H200 to be licensed for China, published by the Commerce Department on 15 January 2026, does not name a ceiling by product. It sets two numbers: total processing performance below 21,000 and memory bandwidth below 6,500 gigabytes a second. By our arithmetic from Nvidia's own specifications, the H200 sits at 15,832 and 4,800, well inside both.
+That detail matters after Friday. Scott Bessent, the Treasury Secretary, said on CNBC: "I am frustrated when President Trump made it very clear that China should not receive any NVIDIA chips above H100s," according to the network's transcript. On the measure the rule uses for computing power, the H200 is not above the H100. The two chips have the same processing figures. What the H200 adds is memory: 141 gigabytes against 80, and 4.8 terabytes a second of bandwidth against 3.35, according to Nvidia's product pages.
+What does the rule actually change?
+It moves licence applications for chips under the two thresholds from a presumption of denial to case-by-case review when the buyer is in China or Macau. The rule names "the NVIDIA H200 or AMD MI325X" as examples. It is a review standard, not a general licence: every export still needs a licence from the Bureau of Industry and Security, and the bureau and other reviewing agencies decide each one.
+The conditions are specific. The exporter must certify how many units have shipped in the United States, that exports will not delay American orders or divert foundry capacity from chips for American customers, and that "the aggregate shipments of the product to China and Macau will be no more than 50% of the total product shipped to customers for end use in the United States of that product". The buyer must run know-your-customer checks "to screen and prevent unauthorized remote access". Every shipment must be reviewed before export by "a qualified third-party testing lab" headquartered in the United States, which may test a sample from each batch. The applicant must also list remote users in Belarus, China, Cuba, Iran, Macau, North Korea, Russia and Venezuela.
+The relaxation is narrower than its headline. It covers exports from the United States to buyers located in China or Macau. Re-exports from third countries keep the presumption of denial, and so do exports to companies headquartered, or with a parent headquartered, in Macau or a country in the group the regulations call D:5, which includes China, when the buyer is located somewhere else, such as a subsidiary in South-East Asia. The bureau classed the rule as "significant" under the executive order on regulatory review, and published it without prior notice or comment, which the export-control statute allows.
+Komposite's arithmetic from Nvidia's published specifications for the H100, H200 and HGX B200. Nvidia quotes FP8 performance with sparsity; dense figures are half. Total processing performance (TPP) is dense operations per second times bit length, the measure in Export Control Classification Number 3A090. Bandwidths converted at 1 TB/s = 1,000 GB/s. Our figures are not an official classification.ChipDense FP8 (teraFLOPS)TPP, our arithmeticMemory bandwidth (GB/s)Inside the January rule's limits?
+H100 SXM1,97915,8323,350Yes
+H100 NVL1,670.513,3643,900Yes
+H200 SXM1,97915,8324,800Yes
+H200 NVL1,670.513,3644,800Yes
+B200 (per GPU in an HGX B200)4,50036,000Not listedNo: TPP above 21,000
+Rule's ceilingBelow 21,000Below 6,500
+How do the chips compare with the thresholds?
+The H200 uses about three-quarters of each allowance. Its total processing performance is 75 per cent of the 21,000 ceiling and its bandwidth 74 per cent of 6,500, by our division. The H100, at 3,350 gigabytes a second, uses about half the bandwidth allowance. Nvidia's Blackwell B200 is excluded on processing alone: at 4.5 petaFLOPS of dense FP8 per chip, half the sparse figure Nvidia publishes for an eight-chip HGX board, its total processing performance is about 36,000.
+Total processing performance is the export-control measure of raw arithmetic: operations per second multiplied by the bit length of each operation. Nvidia's headline FP8 numbers assume sparsity, a technique that skips zeros, and the company states that dense performance is half. On dense figures, the H100 and H200 in their SXM form both come to 1,979 teraFLOPS of FP8, which gives 15,832.
+Who holds the pen on licences?
+Commerce. The rule was issued by the Bureau of Industry and Security, and Bessent made the same point about the separate question of blacklisting on Friday, saying that "Commerce BIS has the pin", as the CNBC transcript renders it. Commerce did not respond to Fortune's request for comment on his remarks. The rule itself expected modest use: the bureau estimated "100 more license applications per year" because "industry is more likely to submit licenses when there is a case-by-case review".
+Use has been modest in Nvidia's accounts too. Its filing for the quarter to July recorded shipments under the H200 programme at less than 1 per cent of data-centre revenue, as Komposite reported in our reading of that 10-Q, and Beijing has restricted purchases by Chinese buyers. Enforcement has meanwhile become Washington's main tool, as we noted when export controls shifted from rulemaking to settlements.
+The rule has been in force for 303 days, by our count. Nvidia reports quarterly results on Tuesday 17 November, the first chance to see whether H200 shipments to China have moved from the margin of its accounts.
+
+---
+
+# Nvidia's first report without Huang has a $108bn bar
+
+URL: https://kompositenews.com/markets/nvidias-first-report-without-huang-has-a-108bn-bar/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-14T13:20:00Z
+Updated: 2026-11-14T13:20:00Z
+
+Nvidia reports Q3 FY2027 on 17 November 2026 against a $108bn revenue forecast; it beat its midpoint by 2.5% to 5.7% in each of six quarters. Our table.
+
+Nvidia will report results for its third fiscal quarter on Tuesday 17 November against a revenue forecast of $108.0bn, plus or minus 2 per cent, which it set in August. It is the first report since Jensen Huang resigned as chief executive on 11 November. If the company beats its own midpoint by the same margins as in the past six quarters, revenue would land between about $110.7bn and $114.2bn, by our arithmetic.
+The timetable is unchanged. Nvidia said in its call notice that results would be published at about 1:20 p.m. Pacific time, with a call at 2 p.m. limited to questions from financial analysts and institutional investors, and that written commentary would come from Colette Kress, the chief financial officer. Kress is now also interim chief executive, under the transition the company announced on Thursday, so the commentary and the call will both be hers.
+Forecasts from each previous quarter's results release (every one given as plus or minus 2 per cent), the first from the release of February 2025. Reported revenue from Nvidia's XBRL data at the SEC; the January 2026 quarter is the full-year figure less the first three quarters. Differences and percentages are Komposite's arithmetic.QuarterNvidia's revenue forecast (midpoint)Reported revenueBeat byBeat, per cent
+Q1 FY26 (to Apr 2025)$43.0bn$44.062bn$1.062bn2.5
+Q2 FY26 (to Jul 2025)$45.0bn$46.743bn$1.743bn3.9
+Q3 FY26 (to Oct 2025)$54.0bn$57.006bn$3.006bn5.6
+Q4 FY26 (to Jan 2026)$65.0bn$68.127bn$3.127bn4.8
+Q1 FY27 (to Apr 2026)$78.0bn$81.615bn$3.615bn4.6
+Q2 FY27 (to Jul 2026)$91.0bn$96.221bn$5.221bn5.7
+Q3 FY27 (to Oct 2026)$108.0bnDue 17 November
+How large have the beats been?
+Larger in dollars every quarter, and steady as a share. Measured against the midpoint of each forecast, Nvidia's beat rose from $1.06bn in the quarter to April 2025 to $5.22bn in the quarter to July 2026. As a percentage it ranged from 2.5 to 5.7, with a mean of 4.5, by our arithmetic. Revenue came in above the top of the plus-or-minus 2 per cent range in each of the six quarters, though only by $202m in the first of them. This quarter the range runs from $105.84bn to $110.16bn; a figure below the bottom would be the first miss of the range in the table.
+The forecasts themselves have grown more cautious relative to the last reported quarter. The $108bn figure is 12.2 per cent above the $96.2bn reported for the July quarter. The four forecasts before it implied growth of 15.5, 14.0, 14.5 and 11.5 per cent on the prior quarter, while actual sequential growth over the same stretch ran at 22.0, 19.5, 19.8 and 17.9 per cent. The exception in the table is the quarter to July 2025, when the forecast implied 2.1 per cent growth because export limits on the H20 chip took out about $8bn of expected sales.
+China is outside the number. The August release said: "NVIDIA is not assuming any Data Center compute revenue from China in its outlook." That has been the company's language since February, as Komposite reported when the guidance first assumed China would buy nothing. Nvidia also guided gross margins of 74.0 per cent, plus or minus half a point, against 75.0 per cent in the July quarter, and operating expenses of about $9.2bn under US accounting rules.
+What the release cannot settle
+The results are the first formal occasion on which Nvidia's management can be asked about the events of the past fortnight, though the company decides which questions to take. Its 12 November release and the accompanying 8-K gave no reason for Huang's departure, as Komposite reported on Thursday. The board's independent inquiry into reports that Huang was targeted by a foreign intelligence effort has no published timetable. The share price has already absorbed a large part of the news: Nvidia lost $428bn of market value in two days earlier this month.
+Washington adds its own calendar. Three House committee chairmen asked on 5 November for a closed briefing on 18 November, the day after the results; their letter was addressed to Huang, who no longer runs the company. Howard Lutnick, the commerce secretary, has agreed to testify before the Senate Banking Committee on 10 December, Fortune reported. On Friday the Treasury Secretary, Scott Bessent, said on CNBC that the question was whether Nvidia knew its clients, and that "anyone at the company there be held accountable" for chips that leaked to China, a theme we examine in our report on the Entity List.
+Why it matters: Nvidia's forecast is the closest thing the AI build-out has to a monthly order book, and the quarterly beat has been part of how investors price it. A first set of numbers under an interim chief executive who is also the finance chief tests whether that pattern holds through a governance crisis. Data-centre revenue was $89.0bn in the July quarter, 92.5 per cent of the total, by our division, so the beat or miss will be almost entirely a data-centre number.
+The forecast for the quarter to January 2027, due on Tuesday afternoon, will be the first Nvidia has set without Huang. Analysts will compare it with the $108bn of this quarter, and with the 12 per cent sequential step the company has asked them to expect.
+
+---
+
+# IBIT shrank by 46m shares as bitcoin fell 15 per cent
+
+URL: https://kompositenews.com/crypto/ibit-shrank-by-46m-shares-as-bitcoin-fell-15-per-cent/
+Section: Crypto
+By: Marcus Oyelaran
+Published: 2026-11-14T13:00:00Z
+Updated: 2026-11-14T13:00:00Z
+
+IBIT's share count fell 46.12m, or 3.2%, between 31 October and 12 November 2026 as bitcoin dropped 15% to $68,178. Our arithmetic from filings.
+
+The iShares Bitcoin Trust, BlackRock's spot bitcoin fund, had 1,387.96m shares outstanding on Thursday 12 November, according to the fund's own page. Its quarterly report gave 1,434.08m on 31 October. The difference is 46.12m shares, or 3.2 per cent, in net redemptions over less than two weeks.
+Measured in the coin itself, that is about 26,100 bitcoin taken out of the trust in less than two weeks, by our arithmetic, worth roughly $1.78bn at Friday's price. Bitcoin closed at $68,178.05 on Coinbase on Friday 13 November, down 15.2 per cent from $80,420.06 on 4 November and the lowest close since 18 August, according to the daily series published by the Federal Reserve Bank of St Louis.
+Share counts are the cleanest way to see money leaving an exchange-traded fund, because they move only when authorised participants create or redeem shares in blocks, which the trust calls baskets. Price falls shrink a fund's assets without touching its share count. The trust's net assets were $54.13bn on 13 November, or about $39.00 a share, according to the fund page, against $47.38 a share at the end of September.
+Komposite's compilation from the trust's filings and its XBRL data at the SEC, and BlackRock's fund page. Changes are our subtraction.DateIBIT shares outstandingChangeSource
+30 Jun 20261,296,040,00010-Q balance sheet
+30 Sep 20261,414,760,000+118,720,00010-Q
+31 Oct 20261,434,080,000+19,320,00010-Q cover page
+12 Nov 20261,387,960,000&minus;46,120,000iShares fund page, shown on 13 Nov as of the prior day
+The conversion to bitcoin uses the trust's own holdings. At 30 September it held 801,033 bitcoin against 1,414.76m shares, which is 0.000566 bitcoin per share, by our division. Multiplying the November redemptions by that figure gives 26,113 bitcoin. The ratio drifts down slowly as the 0.25 per cent annual sponsor fee is paid in bitcoin, so the true number is fractionally lower, and on the same basis the trust now holds about 785,900. The figures cover this one fund only; other spot bitcoin funds report their own share counts on their own pages.
+The redemptions reverse most of what the autumn brought in. In the quarter to September, the 10-Q shows, 187.48m shares were created in 4,687 baskets and 68.76m redeemed in 1,719, a net addition of 118.72m. October added another 19.32m. All of October's net creations and part of September's have now gone back out, by our subtraction.
+Daily closes from the Coinbase bitcoin series published by the Federal Reserve Bank of St Louis (FRED); changes are Komposite's arithmetic.DateCoinbase bitcoin closeChange to 13 Nov 2026
+5 Oct 2025 (record)$124,720.09&minus;45.3%
+31 Dec 2025$87,696.00&minus;22.3%
+14 Jan 2026 (2026 high)$96,852.91&minus;29.6%
+30 Jun 2026 (2026 low)$58,585.96+16.4%
+30 Sep 2026$83,482.51&minus;18.3%
+4 Nov 2026$80,420.06&minus;15.2%
+13 Nov 2026$68,178.05
+The fall also shows up in BlackRock's revenue from the fund. The trust pays its sponsor 0.25 per cent a year of net assets. At the $67.04bn fair value of its bitcoin on 30 September, which valued each coin at about $83,697 by our division, that fee ran at about $168m a year; on the $54.13bn of net assets reported for 13 November it runs at about $135m, by our arithmetic. About nine-tenths of the $33m drop comes from the lower price and the rest from the smaller share count, by our split.
+The price series puts the fall in proportion. Friday's close was 45.3 per cent below the record of $124,720.09 set on 5 October 2025, and 29.6 per cent below this year's high of $96,852.91 on 14 January. It was still 16.4 per cent above the 2026 low of $58,585.96 on 30 June. The last time bitcoin closed at or below Friday's level was 18 August, 87 days earlier. Friday alone accounted for a 3.7 per cent drop, from $70,822.24 on Thursday.
+The trust filed one other document this week. A Form 8-K on Friday reported that Paul Lohrey, a former president and chief executive of the iShares trust sponsor, had joined the sponsor's board and audit committee, and that Peter Landini had resigned as a director. "Mr. Landini's decision to resign was not the result of any dispute or disagreement with the Sponsor or the Trust," the filing said. It contains no financial figures.
+Why it matters: spot funds were sold as the channel through which ordinary brokerage money would reach bitcoin, and this one fund alone holds about 785,900 coins by our estimate. When its holders sell, authorised participants redeem shares and the trust gives up bitcoin, so flows out of the fund and the price can feed each other. The share count is published every business day, which makes it one of the few hard, regularly updated numbers in the bitcoin market. Options on crypto trusts, which the SEC cleared on 10 November, add a hedging layer on top of these funds, and listed bitcoin holders such as Strategy have been selling stock to manage their own capital structures.
+The fund page will show the next count on Monday. The trust's next audited holdings figure comes with its annual report; last year's 10-K was filed on 27 February.
+
+---
+
 # Microsoft's mail outage crosses the SLA's 99 per cent line
 
 URL: https://kompositenews.com/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/
@@ -416,194 +593,3 @@ Cisco guides adjusted gross margin of 65 to 66 per cent for the January quarter,
 One figure moved the other way. Remaining performance obligations, contracted revenue not yet recognised, were $46.2bn at the end of October, up 8 per cent on a year earlier but about $0.5bn below the $46.7bn reported at the end of July. Cisco returned $3.7bn to shareholders in the quarter, including $2.0bn of buybacks at an average of $112.38 a share.
 Other AI suppliers have reported similar trade-offs between growth and cost. CoreWeave's quarter showed debt rising $11.8bn alongside revenue, and Infineon this week raised its AI power-supply target to close to €4bn. Applied Materials, which also reported on Thursday, showed China's share of its sales falling to a quarter.
 Cisco's next quarterly dividend, of 42 cents, is payable on 20 January 2027. Its second-quarter results, expected in February, will show whether margin holds inside the 65 to 66 per cent range.
-
----
-
-# China falls to a quarter of Applied Materials' sales
-
-URL: https://kompositenews.com/technology/china-falls-to-a-quarter-of-applied-materials-sales/
-Section: Technology
-By: Tom Kessler
-Published: 2026-11-13T13:20:00Z
-Updated: 2026-11-13T13:20:00Z
-
-China was 25% of Applied Materials' Q4 FY2026 revenue of $10.4bn, down from 35% in Q3 FY2025, its SEC filings show. US sales doubled. Our table.
-
-Twenty-five cents of every dollar that Applied Materials took in during its fourth fiscal quarter came from China, its results release showed on Thursday 12 November. Five quarters earlier the figure was 35 cents. The chip-equipment maker sold more to Chinese customers than a year ago, not less; the rest of the world simply bought faster.
-Applied Materials, the California maker of machines that deposit, etch and inspect the layers of a chip, reported revenue of $10.409bn for the quarter to 25 October 2026, up 53 per cent, with China contributing $2.642bn, or 25 per cent. A year earlier China was 29 per cent of sales, and in the July quarter of 2025 it was 35 per cent.
-China's revenue rose 34.5 per cent from a year earlier, by our arithmetic, against 53 per cent for the company as a whole. Sales to the United States roughly doubled, from $655m to $1.32bn, and sales to Europe more than doubled from a small base, to $520m. Taiwan, home of the biggest contract chipmakers, overtook China as the largest region, at 28 per cent.
-Komposite's compilation from Applied Materials' third-quarter and fourth-quarter results releases, filed with the SEC. Shares are as the company reports them. The first-half row is Komposite's subtraction of the third and fourth quarters from the full-year totals; the company does not publish it.QuarterRevenueChinaChina's shareTaiwanKoreaUnited States
-Q3 FY2025 (to Jul 2025)$7,302m$2,548m35%25%16%9%
-Q4 FY2025 (to Oct 2025)$6,800m$1,964m29%27%18%10%
-H1 FY2026 (Nov 2025 to Apr 2026)$14,922m$4,182m28%
-Q3 FY2026 (to Jul 2026)$9,115m$2,506m28%22%17%15%
-Q4 FY2026 (to Oct 2026)$10,409m$2,642m25%28%17%13%
-Is the shift a quarter or a trend?
-On the company's own figures it has run for five quarters. China's share fell from 35 per cent in the July quarter of 2025 to 29 per cent in October, held at about 28 per cent through the first three quarters of fiscal 2026, by our subtraction for the first half, and dropped again to 25 per cent. For the full year China was 27 per cent of the $34.446bn total, against 30 per cent in fiscal 2025.
-The release does not explain the mix, and the company's numbers are its own. A regional split can swing with the timing of shipments to individual new plants. The fiscal 2026 accounts also include a $253m settlement with the Commerce Department's Bureau of Industry and Security over what the company describes as a previously disclosed export-controls compliance matter; the third-quarter release already counted it in the nine-month figures.
-"Applied Materials delivered record results in fiscal 2026," Gary Dickerson, the chief executive, said. He added that the company was "on track to grow our Semiconductor Systems business more than 40 percent in our calendar 2026". That segment, which sells the equipment rather than servicing it, had revenue of $7.996bn in the quarter, against $4.879bn a year earlier. Applied Global Services, which maintains and upgrades installed machines, grew 26 per cent to $1.896bn. Adjusted earnings per share rose 92 per cent to $4.16.
-Over the full year the ranking changed less than the quarter suggests. China was still the largest region in fiscal 2026, at $9.33bn, ahead of Taiwan at $8.818bn and Korea at $6.362bn. But China's sales grew 9.4 per cent over the year, by our arithmetic, against 28.6 per cent for Taiwan, 39.9 per cent for the United States and 63.3 per cent for Europe. Korea, home of the big memory makers, rose 48.6 per cent in the fourth quarter alone.
-The quarter came in $159m above the midpoint of the $10.25bn the company guided to in August, by our arithmetic, and gross margin under US accounting rules rose 2.4 points to 50.4 per cent. Applied Materials bought back $2.0bn of its own shares in the quarter, which its finance chief described as the largest quarterly buyback in more than eight years.
-For the quarter to January 2027 it guides revenue of $11.1bn, plus or minus $500m, and adjusted earnings of $4.35 a share, plus or minus 20 cents. It gives no regional guidance. Investors in chip stocks have been told before to assume less from China: Nvidia's own forecast in September assumed no data-centre compute revenue from the country at all, and enforcement has become the main tool of US policy, as we reported when export controls shifted from rulemaking to settlements. Cisco, which also reported on Thursday, raised its own targets for the AI build-out, which we cover in Cisco lifts its AI target by $1.5bn and gives up margin.
-The next regional breakdown is expected with the first-quarter results in February. A China share above 25 per cent would mean the October quarter was the low point; one below it would make five quarters of decline six.
-
----
-
-# Huang resigns from Nvidia, and the 8-K gives no reason
-
-URL: https://kompositenews.com/ai/huang-resigns-from-nvidia-and-the-8-k-gives-no-reason/
-Section: AI
-By: Dana Whitfield
-Published: 2026-11-12T14:40:00Z
-Updated: 2026-11-12T14:40:00Z
-
-Jensen Huang resigned as Nvidia CEO on 11 November 2026; CFO Colette Kress is interim CEO. The 8-K gives no reason. His stake, valued by our arithmetic.
-
-Item 5.02 of the 8-K that Nvidia filed on Thursday 12 November is four short paragraphs. It records that on Wednesday the board "accepted the resignation of Jen-Hsun Huang" as president, chief executive officer and director, effective immediately, and appointed Colette Kress, the chief financial officer, as interim chief executive. It does not say why he resigned.
-Jensen Huang, Nvidia's founding chief executive and a director since 1993, resigned on Wednesday 11 November 2026, three days after telling employees he had been unfaithful to his wife. Kress, 59, will run the company while the board searches for a successor, and Harvey C. Jones, a director since 1993, becomes Nvidia's first chair.
-Nvidia's announcement adds little to the filing. The board will consider internal and external candidates, and Kress keeps the finance job in the meantime. Jones, 73, a former chief executive and executive chairman of the chip-design software company Synopsys, said the board has "full confidence in Colette and the leadership team." Kress said: "Our focus remains on serving our customers, partners, developers and shareholders." Third-quarter results will be published as scheduled on Tuesday 17 November, with a call at 2 p.m. Pacific time.
-What does the filing leave out?
-Most of what investors usually look for in a chief executive's departure. The 8-K does not describe a disagreement or deny one. It mentions no separation agreement or severance, says nothing about Huang's unvested share awards, and gives no figure for Kress's pay as interim chief executive. It does not refer to the inquiry that the independent directors said on Tuesday they had hired Joon H. Kim, a former acting US Attorney for the Southern District of New York, and the law firm Wachtell, Lipton, Rosen & Katz to conduct. Nor does the press release.
-Nvidia's 2026 proxy statement gives some context for the gaps. Under its "What We Don't Do" heading, the company says it does not give executive officers special change-in-control benefits. Huang's pay for fiscal 2026 totalled $36.3m, of which $24.8m was in share awards: two grants of performance share units in March 2025, each with a target of 119,607 shares. Another $4.0m, or 10.9 per cent of the total by our division, was spent on his security. The parts of the proxy that set out what happens to unvested awards when an executive leaves were not available to us in full, and the 8-K does not say. A later filing may.
-How much of Nvidia does Huang own?
-About 3.58 per cent. The proxy attributes 870,604,104 shares to him at its 27 April record date, most of them through family trusts. At Wednesday's close of $173.73 they were worth $151.3bn, by our multiplication. At the price indicated before Thursday's open they were worth about $135.3bn, $73.0bn less than at Nvidia's record close on 6 October.
-Komposite's arithmetic: share prices from Yahoo Finance's daily history and its live coverage, multiplied by the 870,604,104 shares the 2026 proxy statement attributes to Huang at the 27 April record date. That total includes 58,683,830 shares held by the Huang family foundation, in which he and his wife say they have no pecuniary interest. Holdings may have changed since April.Price pointNvidia share priceValue of Huang's 870.6m shares
-Record close, Tue 6 Oct 2026$239.24$208.3bn
-Close, Fri 6 Nov, before his staff memo$186.64$162.5bn
-Close, Wed 11 Nov, the day the board acted$173.73$151.3bn
-Pre-market, Thu 12 Nov, 9:01 a.m. EST$155.40$135.3bn
-Source: the beneficial-ownership table and footnote in Nvidia's 2026 proxy statement. The last-but-one row is the total less the lines listed above it; percentages are Komposite's.Holder named in the proxy footnoteSharesShare of Huang's total
-Jen-Hsun and Lori Huang, as co-trustees528,531,54760.7%
-The Huang Irrevocable Remainder Trust109,040,60212.5%
-TARG LLCs (several)73,265,3348.4%
-Jen-Hsun & Lori Huang Foundation58,683,8306.7%
-The Huang 2012 Irrevocable Trust31,421,0113.6%
-Other holdings in the footnote (by our subtraction)69,661,7808.0%
-Total beneficially owned (3.58% of Nvidia)870,604,104100%
-None of the documents published on Thursday says what Huang intends to do with the shares. The figures above are the proxy's count from April, and any shares sold or given away since then would reduce them.
-How fast did it happen?
-Four days from the memo to the filing. Huang told staff on Sunday 8 November that he had been unfaithful to his wife, and the board said that day that independent directors would investigate. Nvidia's shares lost 9.5 per cent over the next two trading days, as Komposite reported when the company shed about $428bn of value. On Wednesday the Wall Street Journal reported that the board was meeting that night to decide his future, according to Yahoo Finance's live coverage. The shares had closed 2.9 per cent higher.
-Komposite's timeline from Nvidia's releases and filings, the committees' release and Yahoo Finance prices. Day counts by Komposite.DateEventDays after the memo
-Thu 5 NovThree House committee chairmen ask Huang to a closed briefing on 18 November and to reply by 11 November-3
-Sun 8 NovHuang tells staff "I was unfaithful to my wife"; the board says independent directors will investigate0
-Mon 9 NovFirst securities class action filed in San Jose; shares close down 4.3 per cent1
-Tue 10 NovIndependent directors retain Joon H. Kim and Wachtell, Lipton, Rosen & Katz; shares close down 5.5 per cent2
-Wed 11 NovShares close up 2.9 per cent; the board accepts Huang's resignation and makes Harvey Jones chair3
-Thu 12 Nov8-K and press release published; shares indicated 10.6 per cent lower before the open4
-Tue 17 NovThird-quarter results and call, unchanged9
-Wed 18 NovDate the committees set for the closed briefing10
-Before the open on Thursday the shares were indicated at $155.40, 10.6 per cent below Wednesday's close, according to Yahoo Finance. At that price Nvidia would be worth about $3.75tn on the 24.1bn shares on its last 10-Q cover, by our arithmetic, against about $5.77tn at the October record. "What matters for the stock from here is less whether a change occurs than how it is executed," Ruben Roy, an analyst at Stifel, said, according to Yahoo Finance.
-Kress has been chief financial officer since 2013, and the proxy put her target pay for fiscal 2026 at $16.0m. She will present results on Tuesday as interim chief executive and finance chief at once. The board's choice of Jones, who has sat on it since 1993, as its first chair means the search for Huang's successor will be run by a board that, for the first time, has a chair.
-Why it matters: Nvidia's next week was already crowded. Huang had until Wednesday to answer three House committee chairmen who asked him to a closed briefing on 18 November about his dealings with Alice Huang of Megaspeed, the subject of the board inquiry opened 394 days after Megaspeed first surfaced and of a paper trail running from Commerce to the prosecutors. Nvidia has not said whether he, or anyone else from the company, will attend. The results on 17 November will be the first under a chief executive other than its founder.
-
----
-
-# CoreWeave's biggest customer is 30 per cent, not 67
-
-URL: https://kompositenews.com/markets/coreweaves-biggest-customer-is-30-per-cent-not-67/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-12T14:20:00Z
-Updated: 2026-11-12T14:20:00Z
-
-CoreWeave's largest customer was 30% of Q3 2026 revenue, against 67% for one customer a year earlier, its 10-Q shows. Revenue rose to $3.66bn.
-
-Customer A accounted for 67 per cent of CoreWeave's revenue in the third quarter of 2025. In the third quarter of 2026 it accounted for 24 per cent, and a second customer, Customer B, for 30 per cent, according to the quarterly report CoreWeave filed with the Securities and Exchange Commission on Thursday 12 November. The filing names neither.
-CoreWeave, which rents out computing capacity for AI work, reported revenue of $3,661m for the three months to 30 September 2026, up from $1,365m a year earlier, in results published on Tuesday 10 November. It raised its 2026 revenue forecast to $13.0bn to $13.3bn and put its revenue backlog at about $132.5bn.
-Lower concentration does not mean the first customer shrank. By our multiplication, 24 per cent of this quarter's revenue is about $879m, close to the roughly $915m that 67 per cent represented a year earlier. Customer B paid about $1.1bn. The filing warns that its letters may refer to different customers in different periods, so the comparison assumes Customer A is the same company in both. Most of the growth came from customers that were each below the 10 per cent reporting line a year ago.
-Source: CoreWeave's 10-Q for the third quarter, concentration note. CoreWeave does not name the customers and says a letter may refer to different customers in different periods.Customer (as labelled in the 10-Q)Q3 2025Q3 2026Nine months 2025Nine months 2026Receivables, 30 Sep 2026
-Customer A67%24%70%33%18%
-Customer Bunder 10%30%under 10%26%33%
-Customer Cunder 10%under 10%under 10%under 10%12%
-Customer Dunder 10%under 10%under 10%under 10%14%
-The release lists the names behind some of that growth without saying who is A or B. It reports expanded relationships with OpenAI, Jane Street, Cohere, Perplexity, Hippocratic AI and the Chan Zuckerberg Initiative, and new customers including Canva, Substack, Wayve and Serve Robotics. Receivables tell a similar story: at 30 September, Customer B accounted for 33 per cent of the money owed to CoreWeave and Customer A for 18 per cent, against 68 per cent for Customer A at the end of 2025.
-What did the growth cost?
-About $11.8bn of new debt in one quarter, by our addition of the balance-sheet lines. Revenue rose by $1,086m from the second quarter, which Michael Intrator, the chief executive, described as "a breakout quarter for CoreWeave, with revenue increasing by more than $1 billion sequentially". Capital expenditure rose to $9.4bn, 2.6 times revenue, and net interest expense to $846m. The net loss widened to $709m even as adjusted operating income tripled.
-Komposite's compilation from CoreWeave's second-quarter and third-quarter results releases filed with the SEC. Debt is the sum of current and non-current carrying amounts; changes and ratios are Komposite's arithmetic.$m unless statedQ2 2026Q3 2026Change
-Revenue2,5753,661+42%
-Adjusted operating income128379+196%
-Net loss(626)(709)+13%
-Interest expense, net640846+32%
-Interest as a share of revenue24.9%23.1%-1.8 points
-Capital expenditure6,4229,441+47%
-Debt, recourse and non-recourse35,06846,873+11,805
-Cash and equivalents5,5244,122-1,402
-Revenue backlog~$104bn~$132.5bn+$28.5bn
-Active power1.5GWmore than 1.7GWmore than +200MW
-Contracted power~3.7GWmore than 4.6GWmore than +900MW
-Interest took a slightly smaller share of revenue than in the second quarter, 23.1 per cent against 24.9 per cent. That may not last: CoreWeave guided fourth-quarter interest expense to $1.05bn to $1.15bn. Its forecast implies fourth-quarter revenue of $4.69bn to $4.99bn, by our subtraction of the $8,314m earned in the first nine months, which is 28 to 36 per cent more than in the third quarter. During the quarter it raised about $4.2bn of convertible notes, set up a programme to sell up to 35 million new shares on the market, and closed a $2.6bn delayed-draw loan. Intrator said he expects about $9bn of customer prepayments and deposits over the next three months.
-How long is the backlog?
-Long. The 10-Q puts remaining performance obligations at $132.3bn and says 36 per cent will be recognised in the 24 months to September 2028, 38 per cent in the two years after that, and the rest between months 49 and 86, which reaches into late 2033. By our multiplication, that is about $47.6bn in the first two years, roughly equal to the $46.9bn of debt on the balance sheet at 30 September. Backlog is revenue CoreWeave expects to earn as it delivers capacity, not cash in hand.
-The market liked the quarter for a day. CoreWeave's shares rose 24.7 per cent on Wednesday to $60.77, according to Yahoo Finance's daily prices, and were indicated 14 per cent lower before Thursday's open, the morning Nvidia announced its chief executive's resignation. In October, as Komposite reported, its bonds yielded close to 15 per cent when the backlog was $104bn. Nvidia and its rivals had already moved sharply on Monday and Tuesday, when Nvidia shed about $428bn of value.
-Why it matters: concentration was the risk lenders priced most heavily into the specialist GPU landlords, and contracts with a few tenants can shift work and cost onto the supplier, as IREN's filing showed when a Microsoft redesign earned it no delay credits. CoreWeave now has two customers each paying between a quarter and a third of its revenue rather than one paying two-thirds. The next numbers to watch are the fourth-quarter interest bill and whether the $9bn of prepayments arrives over the next three months, as Intrator expects.
-
----
-
-# Infineon now expects close to €4bn from AI power supplies
-
-URL: https://kompositenews.com/technology/infineon-now-expects-close-to-4bn-from-ai-power-supplies/
-Section: Technology
-By: Tom Kessler
-Published: 2026-11-12T14:00:00Z
-Updated: 2026-11-12T14:00:00Z
-
-Infineon raised its FY2027 target for AI data-centre power supplies to close to €4bn on 10 November 2026, from about €2.5bn in February. Our table.
-
-In February, Infineon Technologies said its chips for powering AI data centres would bring in about €2.5bn in the fiscal year to September 2027. In May it repeated the figure. On Tuesday 10 November the German company put it at close to €4bn, in its results for the 2026 fiscal year.
-Infineon, the Munich-area maker of power semiconductors, expects revenue of about €20bn in its 2027 fiscal year, up more than 20 per cent, with sales of power-supply chips for data centres rising to close to €4bn. That target is 60 per cent above the €2.5bn it gave in February, by our arithmetic, and would be about a fifth of group revenue.
-These are chips that convert and regulate electricity for the servers that run AI models. Infineon reports them inside a segment it called Power & Sensor Systems until a reorganisation on 1 July, after which it reports Automotive, Edge Systems and Power Systems. The segment that holds the data-centre business is where the year's profit growth came from.
-How has the target moved?
-Upward once, sharply, after nine months of standing still. The €1.5bn and €2.5bn figures first appeared in the February release, when Infineon also raised its investment plan for the year to about €2.7bn, from €2.2bn, to build capacity for these products. In August it did not update the revenue figures but disclosed that several AI customers had signed or were negotiating multi-year capacity reservation agreements worth "a high single-digit billion euro amount", with some prepayments. The new target arrived 279 days after the first, by our count.
-Komposite's compilation from Infineon's quarterly press releases. Infineon's fiscal year ends on 30 September. Euro figures as the company states them.ReleaseData-centre power supplies, FY2026Same, FY2027Other AI detail
-Wed 4 Feb 2026around €1.5bnaround €2.5bnInvestment plan raised to about €2.7bn, from €2.2bn
-Wed 6 May 2026around €1.5bnaround €2.5bnTargets held "notwithstanding a weaker currency"
-Wed 5 Aug 2026no new figureno new figureCapacity reservation agreements worth "a high single-digit billion euro amount", with prepayments
-Tue 10 Nov 2026not disclosedclose to €4bnFY2027 investments €3.0bn to €3.5bn
-The November release does not say how much data-centre revenue Infineon actually booked in the year just ended, and it does not update the value of the capacity agreements. If the 2026 figure landed near the €1.5bn guided in May, the step to close to €4bn would supply about two-thirds of the roughly €3.65bn of extra group revenue Infineon is forecasting, by our arithmetic. That is an inference from the company's own targets, not a figure it has published.
-Where did the profit come from?
-Almost entirely from power and sensors. Group revenue rose 12 per cent to €16.353bn in the year and the segment result, Infineon's main profit measure, rose €663m to €3.223bn. Power & Sensor Systems alone added €700m, to €1,374m, so the rest of the group earned slightly less than a year earlier, by our subtraction. The segment's margin rose in every quarter, from 17.4 per cent to 30.8 per cent.
-Komposite's compilation from Infineon's four FY2026 results releases; the full-year line is from the 10 November release. Quarterly figures sum to the full year within rounding.Power & Sensor Systems, FY2026RevenueSegment resultMargin
-Q1 (Oct-Dec 2025)€1,171m€204m17.4%
-Q2 (Jan-Mar 2026)€1,260m€257m20.4%
-Q3 (Apr-Jun 2026)€1,442m€359m24.9%
-Q4 (Jul-Sep 2026)€1,796m€554m30.8%
-Full year (FY2025 in brackets)€5,670m (€4,291m)€1,374m (€674m)24.2% (15.7%)
-The other segments were mixed. Automotive, still the largest by revenue at €7,672m, grew 4 per cent and its result rose 2 per cent. Green Industrial Power grew revenue 10 per cent but its result fell 9 per cent. Connected Secure Systems shrank on both counts.
-"Infineon closed the fiscal year 2026 with another record quarter and enters the new fiscal year with continued strong momentum," Jochen Hanebeck, the chief executive, said. He listed data-centre power supplies first among the businesses expected to drive 2027, ahead of grid infrastructure, electric vehicles and software-defined vehicles.
-The company plans to spend €3.0bn to €3.5bn in fiscal 2027, depending on demand, on its fourth manufacturing building in Dresden, silicon carbide capacity in Kulim, Malaysia, and the start of gallium nitride production on 300-millimetre wafers in Villach, Austria. The plan assumes a euro at $1.15. The power the chips manage is itself scarce: SoftBank this week wrote off $3.7bn of prepayments for generating equipment, and we have reported how power availability has become the constraint on building computing capacity.
-The first test of the new target is the quarter to December, for which Infineon guides revenue of about €4.6bn and a segment margin of about 23 per cent, slightly below the fourth quarter's 23.8 per cent. It proposes a dividend of €0.38 a share, up €0.03, for approval at its annual meeting in February.
-
----
-
-# Forty-five days of silence, then a lawsuit over stock perps
-
-URL: https://kompositenews.com/fintech/forty-five-days-of-silence-then-a-lawsuit-over-stock-perps/
-Section: Fintech
-By: Elena Vasquez
-Published: 2026-11-12T13:40:00Z
-Updated: 2026-11-12T13:40:00Z
-
-Perpetual futures on US stocks took effect on 3 November 2026 after a 45-day CFTC review lapsed. A Cboe-backed group's suit was fully briefed on 10 November.
-
-"Ultimately, it is up to the exchange listing any perpetual derivatives product to determine whether a new contract is to be listed as a future or swap." Cboe Global Markets wrote that sentence to the Commodity Futures Trading Commission in a letter of 21 May 2025. Eighteen months later Cboe is a member of the trade group suing the CFTC for letting exchanges do roughly that with perpetual futures on individual US stocks.
-The Capital Markets Alliance Association, whose members include Cboe and Citadel Securities, asked a federal court in Manhattan on 3 November 2026 to set aside the CFTC's approval of the contracts, which took effect that day. Briefing on its request for a preliminary injunction closed on Tuesday 10 November. The Securities and Exchange Commission filed a brief on Monday that disputed the challengers' account of the dispute.
-A perpetual future is a futures contract with no expiry, or a very distant one, kept close to the price of the underlying asset by periodic funding payments between the two sides. The products grew up on offshore crypto exchanges. Komposite reported in September that Kalshi, Coinbase and Bitnomial had filed to offer them on single US stocks.
-How did they get approved?
-By lapse. The exchanges self-certified the contracts with the CFTC on 18 September, and when the agency's 45-day review ended on 2 November without objection they were deemed approved, according to a summary by the law firm Cleary Gottlieb. The next day Chairman Michael Selig said in a statement that the contracts were approved "pursuant to Commission Regulation 40.3" as security futures, the category Congress put under joint CFTC and SEC oversight in 2000. "The CFTC and SEC have turned the page on that era," he said, referring to an era of regulatory uncertainty.
-Komposite's timeline from the Cleary Gottlieb summary of the docket, Finance Magnates and the CFTC and Cboe documents linked. The 31 December date was reported by Ledger Insights and has not been confirmed by the SEC. Day counts from the 18 September filing are Komposite's.DateStepDays
-Wed 21 May 2025Cboe tells the CFTC the listing exchange decides whether a perpetual is a future or a swap (letter)n/a
-Fri 18 Sep 2026Exchanges file single-stock perpetual contracts with the CFTC0
-Mon 2 Nov 2026The CFTC's 45-day review lapses without objection; the contracts are deemed approved45
-Tue 3 Nov 2026Chairman Selig's statement; the Capital Markets Alliance sues in Manhattan; temporary restraining order refused the same day46
-Thu 5 Nov 2026Kalshi starts trading contracts on about 50 US stocks and ETFs48
-Mon 9 Nov 2026The SEC files its brief52
-Tue 10 Nov 2026Briefing on the preliminary injunction closes53
-Wed 25 Nov 2026The CFTC's answer to the complaint is due68
-Thu 31 Dec 2026Reported deadline for the SEC to decide whether to overturn the exchanges' rules104
-Five exchanges registered with the SEC so they could list security futures, by our count of the Cleary summary: Coinbase Derivatives, KalshiEX, Bitnomial Exchange, Nadex and ICE Futures U.S. Three of them, Coinbase Derivatives, Kalshi and Bitnomial, applied for more than 100 single-stock contracts between them, Finance Magnates reported. Kalshi started trading contracts on about 50 US stocks and exchange-traded funds on 5 November. Cboe told the court it counted about $375m of notional volume in 24 hours on the second day, according to the same report.
-What is the case about?
-Whether a contract with no delivery date can be a future at all. The alliance says the products are security-based swaps, which only the SEC can approve, because a security future requires delivery of a security at a future date. Judge Valerie Caproni, who heard the emergency application, found the alliance "is likely to succeed on the merits of its claim that the CFTC lacks statutory authority", in the words of her order as quoted by Cleary. She wrote that the CFTC's actions "seem to represent a major disruption to the equities market", Finance Magnates reported. She still refused the restraining order on 3 November, because the harm described was possible rather than likely. The case has since moved to Judge Lorna Schofield.
-The CFTC's reply leans on Cboe's own record. Its brief calls the alliance a "sham entity" created for the case, Ledger Insights reported, and points to Cboe's bitcoin and ether "continuous futures", which run for up to ten years with daily funding payments. The 2025 letter supports part of that argument. It defined a perpetual future as a contract that has no expiration date or a long one, at least five years and "typically understood to be 10 or more", with a mechanism that keeps its price converging on spot. It also said Cboe was writing about futures "on financial instruments, which could include equities, indexes and digital assets."
-In fairness to Cboe, the letter answered a CFTC question about futures in general. It did not address the line between security futures and security-based swaps on which the alliance's case turns, and it predates the single-stock filings by more than a year. The alliance describes itself as a trade association of financial institutions, according to Cleary; the CFTC disputes that it is a genuine membership group.
-The SEC's brief takes neither side on the central question. It disputed the alliance's portrayal "of a CFTC gone rogue, and an SEC gone missing", according to Finance Magnates, but did not say whether the contracts are futures or swaps, and noted that the exchanges' rules remain under its review. Ledger Insights has reported that the SEC has until 31 December to decide whether to overturn them. Komposite has not confirmed that date.
-Why it matters: the same question is now in two courts. CME Group's challenge to the CFTC's approval of crypto perpetuals, in which the agency argued CME could not have it both ways, raises a related question about what a perpetual contract is. The next fixed date in Manhattan is 25 November, when the CFTC's answer to the complaint is due, 22 days after the suit was filed. Judge Schofield has yet to set a date for argument on the injunction.

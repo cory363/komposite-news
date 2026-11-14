@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [The Entity List has not grown since October 2025](https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/): BIS has added no one to the Entity List since 9 October 2025, 401 days, by our Federal Register count; Bessent said Commerce held up Megaspeed.
+- [Microsoft moves its outage start six hours earlier](https://kompositenews.com/technology/microsoft-moves-its-outage-start-six-hours-earlier/): Microsoft's final record dates its 12-13 November 2026 Exchange Online outage from 10:05 to 16:10 GMT next day, 30h05m. Our SLA arithmetic.
+- [The H200 licence rule, line by line](https://kompositenews.com/ai/the-h200-licence-rule-line-by-line/): BIS's January 2026 rule lets H200 licences to China be reviewed case by case below 21,000 TPP and 6,500 GB/s. By our arithmetic the H200 is at 15,832.
+- [Nvidia's first report without Huang has a $108bn bar](https://kompositenews.com/markets/nvidias-first-report-without-huang-has-a-108bn-bar/): Nvidia reports Q3 FY2027 on 17 November 2026 against a $108bn revenue forecast; it beat its midpoint by 2.5% to 5.7% in each of six quarters. Our table.
+- [IBIT shrank by 46m shares as bitcoin fell 15 per cent](https://kompositenews.com/crypto/ibit-shrank-by-46m-shares-as-bitcoin-fell-15-per-cent/): IBIT's share count fell 46.12m, or 3.2%, between 31 October and 12 November 2026 as bitcoin dropped 15% to $68,178. Our arithmetic from filings.
 - [Microsoft's mail outage crosses the SLA's 99 per cent line](https://kompositenews.com/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/): Microsoft's Exchange Online outage passed 21 hours on 13 November 2026, far beyond the 7.2 hours that take a user below 99% uptime in its SLA. Our analysis.
 - [Singapore asked Washington about Megaspeed 493 days ago](https://kompositenews.com/policy/singapore-asked-washington-about-megaspeed-493-days-ago/): Singapore said on 12 November 2026 it first sought US help on Megaspeed's server supplier on 7 July 2025, 493 days earlier, and received little. Our timeline.
 - [Cisco lifts its AI target by $1.5bn and gives up margin](https://kompositenews.com/markets/cisco-lifts-its-ai-target-by-1-5bn-and-gives-up-margin/): Cisco raised its FY2027 hyperscaler AI revenue target to $9bn from $7.5bn on 12 November 2026; networking rose 43% as product margin fell 3.5 points.
-- [China falls to a quarter of Applied Materials' sales](https://kompositenews.com/technology/china-falls-to-a-quarter-of-applied-materials-sales/): China was 25% of Applied Materials' Q4 FY2026 revenue of $10.4bn, down from 35% in Q3 FY2025, its SEC filings show. US sales doubled. Our table.
-- [Huang resigns from Nvidia, and the 8-K gives no reason](https://kompositenews.com/ai/huang-resigns-from-nvidia-and-the-8-k-gives-no-reason/): Jensen Huang resigned as Nvidia CEO on 11 November 2026; CFO Colette Kress is interim CEO. The 8-K gives no reason. His stake, valued by our arithmetic.
-- [CoreWeave's biggest customer is 30 per cent, not 67](https://kompositenews.com/markets/coreweaves-biggest-customer-is-30-per-cent-not-67/): CoreWeave's largest customer was 30% of Q3 2026 revenue, against 67% for one customer a year earlier, its 10-Q shows. Revenue rose to $3.66bn.
-- [Infineon now expects close to €4bn from AI power supplies](https://kompositenews.com/technology/infineon-now-expects-close-to-4bn-from-ai-power-supplies/): Infineon raised its FY2027 target for AI data-centre power supplies to close to €4bn on 10 November 2026, from about €2.5bn in February. Our table.
-- [Forty-five days of silence, then a lawsuit over stock perps](https://kompositenews.com/fintech/forty-five-days-of-silence-then-a-lawsuit-over-stock-perps/): Perpetual futures on US stocks took effect on 3 November 2026 after a 45-day CFTC review lapsed. A Cboe-backed group's suit was fully briefed on 10 November.
 
 ## About, standards and contact
 

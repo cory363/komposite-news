@@ -1,5 +1,5 @@
 {
- "url": "/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/",
- "until": "2026-11-15T22:00:00Z",
- "why": "Round 43 (Nov 13) lead: Microsoft 365 / Exchange Online outage (EX1550543, MO1550821) from 12 Nov 16:17 GMT; our reading of Microsoft's 33 status updates, service-list count (5 to 20) and Online Services SLA credit-tier arithmetic. Replaces the round-42 Huang pin, which moves down. Ignored after 'until'."
+ "url": "/policy/the-entity-list-has-not-grown-since-october-2025/",
+ "until": "2026-11-16T22:00:00Z",
+ "why": "Round 44 (Nov 14) lead: Bessent's 13 Nov remarks that Commerce holds the pen on Megaspeed; our Federal Register count of Entity List addition rules by year (none since 9 Oct 2025, 401 days) and close read of BIS's 9 Nov extension of the affiliates-rule stay to 10 Jan 2027. Replaces the round-43 Microsoft outage pin, which moves down. Ignored after 'until'."
 }
