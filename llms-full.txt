@@ -283,6 +283,198 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 ---
 
+# Chase blames a bug, and the outage rule counts bugs
+
+URL: https://kompositenews.com/fintech/chase-blames-a-bug-and-the-outage-rule-counts-bugs/
+Section: Fintech
+By: Elena Vasquez
+Published: 2026-11-17T14:20:00Z
+Updated: 2026-11-17T14:20:00Z
+
+Chase blamed a bug in on-premise hardware for its 16 Nov outage; the 2021 bank notice rule covers incidents 'from whatever cause', with 36 hours to report.
+
+JPMorgan Chase blamed a software bug in its own on-premise hardware for Monday's disruption to consumer transactions, which customers first reported at about 11:30 EST and which the bank said had cleared by about 18:30 EST.
+The largest US bank said in a statement reported by CNBC that it had experienced a "temporary issue related to a software bug in on-premise hardware systems", that customers could still reach their accounts and funds, and that there was "no evidence it is cyber-related". "This is not a systemic issue," a spokesperson said. Transactions with other banks were delayed only where Chase was a party, the bank said. It has not said how many customers were affected or which system failed.
+By about 18:30 a spokesperson told NBC News: "Transactions are now posting normally." Zelle, the payments network operated by Early Warning Services, said: "Zelle is not down. Zelle is operating as it should." U.S. Bank said it was "not directly impacted", PNC was "not experiencing any direct impact" and Capital One "has not been impacted", NBC reported. Bank of America and Citigroup reported no problems with their own services, the Associated Press reported, and some Chase customers saw a message that services were unavailable.
+Komposite's timeline from the reports linked in each row. The last row is our arithmetic, not a known filing: the rule's 36 hours run from the moment a bank determines that an incident qualifies, which may be later than the first customer report, and Chase has not said whether or when it made that determination.Time (EST)What happenedHours after first reports
+11:30 Mon 16 NovEarliest customer reports of errors, according to CNBC0
+About 16:00Chase posts on X that it is working to resolve a temporary issue, NBC News reported4.5
+16:41CNBC publishes the bank's statement blaming a software bug in on-premise hardware5.2
+About 18:30A spokesperson says "Transactions are now posting normally"7.0
+23:30 Tue 17 NovLatest time the OCC could receive notice if Chase had judged at 11:30 on Monday that the outage was a notification incident36.0
+Does an outage that is not a cyberattack have to be reported?
+It can be. The test in federal banking rules turns on the effect of an incident, not on whether anyone attacked the bank. The computer-security incident notification rule adopted in November 2021 by the Office of the Comptroller of the Currency, the Federal Reserve and the Federal Deposit Insurance Corporation, in force since April 2022, defines a computer-security incident as "an occurrence that results in actual harm to the confidentiality, integrity, or availability of an information system". The agencies wrote that such incidents "can result from destructive malware or malicious software (cyberattacks), as well as non-malicious failure of hardware and software, personnel errors, and other causes". When two commenters asked them to exclude non-malicious causes, they declined: "For clarity, the definition includes incidents from whatever cause."
+An incident becomes reportable, a "notification incident", when it has materially disrupted or degraded, or is reasonably likely to, a bank's ability "to deliver banking products and services to a material portion of its customer base, in the ordinary course of business", or a business line or operations whose failure would threaten financial stability. The agencies listed examples. Two sit close to Monday's facts: "A failed system upgrade or change that results in widespread user outages for customers and banking organization employees", and attacks that "disrupt customer account access for an extended period of time (e.g., more than 4 hours)". Whether Chase's bug met the materiality test is a judgment for the bank and its supervisors; Chase's own statement that customers kept access to their funds would weigh in that judgment.
+The deadline is short. A bank "must notify" its primary federal regulator "as soon as possible and no later than 36 hours after the banking organization determines that a notification incident has occurred". For JPMorgan Chase Bank, N.A., a national bank, that regulator is the OCC; the Fed's version of the rule covers bank holding companies such as JPMorgan Chase & Co. The notice can be an email or a phone call, and "No specific information is required in the notification other than that a notification incident has occurred." Notices are covered by the agencies' confidentiality rules, so if Chase filed one, the public is unlikely to see it.
+Banks argued for longer when the rule was drafted. Several commenters asked for 72 hours, to match New York's financial regulator and the EU's data-protection law, and one asked for five business days for banks under $20bn in assets. The agencies kept 36: "The agencies continue to believe that 36 hours is the appropriate timeframe, given the simplicity of the notification requirement and the severity of incidents captured by the definition of 'notification incident.'" They added that the clock starts only once a bank has determined that an incident qualifies, which leaves the bank time to assess what happened.
+Komposite's close reading of the final rule, 86 FR 66424, set against the bank's statements as reported by CNBC, NBC News and the AP. The rule's examples are illustrative; each bank decides case by case.What the 2021 rule looks atWhat the rule saysWhat Chase has said in public
+CauseIncidents count "from whatever cause", including non-malicious hardware and software failureA software bug in on-premise hardware; "no evidence it is cyber-related"
+Effect on customersMaterial disruption to services for "a material portion of its customer base"Some transactions slower; customers kept access to accounts and funds; numbers affected not given
+DurationOne example cites account access disrupted for "more than 4 hours"Reports ran from about 11:30 to about 18:30 EST
+DeadlineNo later than 36 hours after the bank determines the incident qualifiesNot said whether or when it made that determination
+Public disclosureNone required; notices fall under supervisory confidentiality rulesStatements to the press and on X
+How big is the operation that slowed?
+Very. JPMorgan Chase held $2.78tn of deposits at 30 September, according to its filings with the SEC, up 8.7 per cent in nine months by our arithmetic. Its spending on technology has grown faster than its other costs. In the first nine months of 2026 the bank's technology, communications and equipment expense was $9.46bn, up 16.5 per cent on a year earlier, while total noninterest expense rose 13.7 per cent.
+From the income statement in JPMorgan Chase's 10-Q for the quarter to 30 September 2026 (XBRL rendering). Changes and shares are Komposite's arithmetic.JPMorgan Chase, $ millionsQ3 2025Q3 2026Nine months 2025Nine months 2026Change, nine months
+Technology, communications and equipment expense2,8393,3358,1219,463+16.5%
+Total noninterest expense24,28127,29571,65781,461+13.7%
+Technology as a share of noninterest expense11.7%12.2%11.3%11.6%
+The phrase "on-premise" places the fault in hardware the bank runs itself, rather than with a cloud provider or an outside processor. Chase has not elaborated. Its only Form 8-K on Tuesday, filed with the SEC, concerned the succession of its chief financial officer: Bregje de Best will succeed Jeremy Barnum after the bank reports first-quarter 2027 results, and Barnum will become a vice chairman. It does not mention Monday's outage.
+Why it matters
+The rule was written for exactly this kind of week. When it was adopted, the agencies estimated about 150 notification incidents a year across the banks they supervise, a figure based on supervisory data and suspicious-activity reports for 2019 and 2020. It also requires vendors that run services for banks to warn their bank customers when a disruption lasts four hours or more. Monday's outage came four days after a Microsoft gateway failure that Microsoft also traced to a latent software defect, and three days after an air traffic control outage that grounded US flights for several hours, the AP noted.
+Chase has said its systems are back to normal. What it has not said, how many customers were hit, whether fees or failed payments will be reversed, and whether it judged the outage reportable, is the next thing to watch. Komposite reported in October on JPMorgan's deposit token moving onto Ethereum, part of the same bank's effort to run more of its payments on new rails.
+
+---
+
+# Microsoft traces its mail outage to a July fix
+
+URL: https://kompositenews.com/technology/microsoft-traces-its-mail-outage-to-a-july-fix/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-17T14:00:00Z
+Updated: 2026-11-17T14:00:00Z
+
+Microsoft's preliminary report blames a July Windows fix for the 12-13 Nov Exchange Online outage; over 80% of gateway servers stopped responding.
+
+A Windows fix that Microsoft began deploying in July caused the Exchange Online outage of 12 and 13 November, the company says in a preliminary post-incident report dated 15 November.
+A surge of Teams traffic and a block of servers already out of service pushed the gateway in front of Exchange past breaking point, the report says. More than 80 per cent of the gateway's servers stopped responding at the worst point, and mail access was disrupted for most users for 23 hours and 50 minutes.
+The seven-page report, a copy of which was published by the Microsoft 365 site 365Fanatic, describes "a latent defect" that made Windows servers "overwhelmed and unresponsive under certain load conditions" through "lock contention inside an internal Windows process". The fix was "prepared specifically for Microsoft 365 networking gateway servers", and Microsoft says "neither the underlying defect nor the fix applies to broader Windows deployments". The report gives the outage as 16:20 UTC on Thursday to 16:10 UTC on Friday, 23 hours and 50 minutes by our arithmetic.
+Why did a July change fail in November?
+Because the load changed. The report says the change "first started deployment in July of this year" and that "For more than three months, the change was deployed worldwide without impact", between 104 and 134 days by our count depending on the July start. Load testing missed it: "The contention issue is worsened on machines with more cores and newer hardware; whereas our load testing tended to focus on weaker hardware with fewer cores."
+Two things then lined up. About 15 hours before the outage, at 01:07 UTC, Teams failed over from Microsoft's alternative gateway onto the "primary" one that also carries Exchange Online, which the report calls "part of normal operations". And "nearly 14% of server capacity for the networking gateway was out of service due to an unrelated issue from the previous day". The servers began failing "during the peak window of traffic in the United States". When failing servers handed their traffic to healthy ones, those failed too: "In less than two hours, the previously unknown defect was encountered across our fleet", and "At its lowest, more than 80% of servers were unresponsive."
+Times from Microsoft's preliminary post-incident report, dated 15 November 2026; elapsed hours are Komposite's arithmetic.Time (UTC)What Microsoft's preliminary report says happenedHours after the 16:20 alert
+01:07 Thu 12 NovAutomated failover moves Teams traffic onto the gateway servers shared with Exchange Online&minus;15.2
+16:03Anomaly monitor sees connectivity problems rising&minus;0.3
+16:20High-priority alert; incident EX1550543 posted0
+19:00All deployments and configuration changes paused2.7
+00:30 Fri 13 NovConnection negotiation identified as the main cause of access failures8.2
+07:20Update reverting the defective change applied to part of the capacity15.0
+14:17Global webmail availability back to expected levels22.0
+16:10No active customer impact; extended monitoring begins23.8
+The gateway was built to contain this kind of failure, and that did not work either. Microsoft says the gateway is made of "thousands of 'capacity units'" grouped into regions, but "due to a separate issue, the normal bulkheads between these different partitions did not stop the cascading failure", which is how the fault spread worldwide. The timeline shows the first night's fixes failing: at 22:00 UTC on Thursday Microsoft's telemetry "confirmed that the actions we'd taken to restore service had not been effective", and at 23:55 it found that servers returned to service "initially remained healthy but then become unresponsive again upon receiving traffic". The report does not describe the separate issue that weakened the bulkheads.
+Teams, OneDrive and SharePoint moved off the faulty gateway, which is why they recovered first, but "not all services, like Exchange Online, can fail out of this network gateway for scale reasons". Restarted servers were "immediately overwhelmed by waiting traffic", and because the defect was months old, "our normal rollback, flighting, and feature flags were unable to quickly revert the change". Engineers took eight hours and ten minutes from the first alert to identify connection negotiation as the problem, and 15 hours to begin applying an update that put the code back to its earlier state, by our arithmetic from the report's timeline.
+Which start time is right?
+The report says 16:20 UTC, but Microsoft's own incident record still disagrees. The closed record for EX1550543, as copied by the University of Pennsylvania on Tuesday, carries a Start Time field of 10:05 UTC, the time Komposite reported on Saturday as a six-hour revision. Its final status text and the report both say 16:20. The record's status changed to "postIncidentReviewPublished" with a note at 04:47 UTC on Monday that "A post-incident report has been published".
+Komposite's comparison of Microsoft's service-health record as copied by the University of Pennsylvania with the preliminary report. Uptime is our arithmetic on 43,200 minutes; all three fall in the same credit tier of Microsoft's service-level agreement (below 99 per cent, above 95).Where the start time appearsStart (UTC, Thu 12 Nov)Outage to 16:10 FriUptime for a user out throughout, 30-day month
+Incident record as first logged (our 13 November reading)16:1723h53m96.68%
+Start Time field of the closed record, still shown on 17 November10:0530h05m95.82%
+Final status text and preliminary report16:2023h50m96.69%
+For customers' service credits the difference does not change the tier, by our arithmetic, though it changes the minutes counted, which Microsoft measures per user across a tenant. As we reported on Friday, customers have to claim those credits from Microsoft; they are not paid automatically.
+The report lists five repair items as completed, including guardrails "for traffic distribution to avoid cascading impact" and more monitoring, and says a "comprehensive list of repair items will be delivered as part of the final PIR" on 20 November, the date The Register also gave. 365Fanatic's summary says the report runs to seven pages. The final report is the next fixed date, five business days after Friday's end time.
+
+---
+
+# The SEC moves to retire 'compensation actually paid'
+
+URL: https://kompositenews.com/policy/the-sec-moves-to-retire-compensation-actually-paid/
+Section: Policy
+By: Jonathan Bright
+Published: 2026-11-17T13:40:00Z
+Updated: 2026-11-17T13:40:00Z
+
+The SEC would replace 'compensation actually paid'; across 1,346 firms it differed from reported CEO pay by a median 37% in fiscal 2025, our analysis finds.
+
+The Securities and Exchange Commission has proposed scrapping "compensation actually paid", a pay measure that differed from reported chief executive pay by a median 37 per cent across 1,346 companies last year, by our analysis.
+The proposal, announced on Friday 13 November, would rewrite Item 402 of Regulation S-K, the rule that sets what goes in the pay section of proxy statements. The SEC said the rule was last comprehensively reformed in 2006. Chairman Paul Atkins said in a statement that "the rule has become bloated—reaching nearly the end of the alphabet in its internal organizational system" and that the changes "aim to reduce compliance burdens for companies while remaining faithful to the congressional mandate". Comments are open for 60 days after the proposal appears in the Federal Register; it had not appeared there as of Tuesday, by our check.
+What is "compensation actually paid"?
+It is the pay-versus-performance figure the SEC created in 2022 to meet a Dodd-Frank Act requirement. It adjusts the summary-table total by replacing the grant-date value of equity awards with their fair value at year-end and changes in that value, so it moves with the share price and can turn negative. Under the proposal, the fact sheet says, the measure would be replaced "with the total amount shown in the Earned Compensation Table", performance disclosure would be limited to cumulative shareholder return, and three years would be shown instead of five.
+Companies tag both numbers in their filings, so the gap can be measured. Komposite pulled the SEC's XBRL frames for the 2025 calendar-year period, matched each company's chief executive summary-table total with its compensation actually paid, and kept the 1,346 companies with both. The median company reported $4.40m in its summary table and $3.25m actually paid. Only about a quarter had the two within 10 per cent of each other. The 1,346 are the companies whose filings tag a single chief executive figure for the period, so the count covers most, not all, of the companies that file pay-versus-performance tables; 1,071 of them have fiscal years ending in December.
+Komposite's analysis of the chief executive figures that 1,346 companies tagged in their pay-versus-performance tables for fiscal years ending between June 2025 and May 2026, from the SEC's XBRL frames for summary-table total pay and compensation actually paid. Companies with more than one chief executive in the year, which tag each separately, are not in these frames. Medians: $4.40m reported, $3.25m actually paid. Some filers' tags contain obvious scale errors, which is why we use counts and medians rather than totals.How far 'actually paid' sat from the summary-table total, fiscal 2025CompaniesShare
+Within 10 per cent either way32223.9%
+More than 50 per cent apart56041.6%
+More than 100 per cent apart31923.7%
+'Actually paid' was negative1148.5%
+'Actually paid' higher than the summary table62746.6%
+'Actually paid' lower61345.5%
+Identical1067.9%
+The spread cuts both ways. Almost as many companies showed more pay actually paid as showed less, and 114 reported a negative figure, which happens when the value of earlier awards falls by more than the year's pay. Two numbers that move this differently, printed side by side, are what the proposal would collapse into one. The proposed Earned Compensation Table would count stock as earned when it vests and options when they are exercised, a third approach.
+What else would change?
+The list of disclosed executives would shrink. Named executive officers would be limited to the principal executive and principal financial officer, which the fact sheet says would cut the number "from typically five or more individuals to two officers in most circumstances". The threshold for itemising perquisites would rise fifteen-fold, and the guidance would lose its examples, "including security provided at an executive's personal residence or during personal travel".
+Komposite's summary of the SEC's fact sheet for Release 33-11455.ItemTodayAs proposed
+Named executive officersTypically five or morePrincipal executive and principal financial officer
+Main pay tablesSummary Compensation Table and othersGranted, Earned and Status of Equity Awards tables
+Pay versus performance'Compensation actually paid', five yearsEarned Compensation Table total, three years, shareholder return only
+Perquisite threshold$10,000$150,000 per executive
+Pay ratio median employeeAll employees worldwide, refreshed every three yearsUS full-time employees, every five years
+The narrative section would get shorter too. The Compensation Discussion and Analysis would have to cover three topics: the objectives of the pay programme in relation to strategy, the material elements of pay and how they are set, and, where applicable, whether the latest say-on-pay vote was considered. The current rule's list of 15 example topics would go. Tables of what executives would receive in hypothetical terminations or changes of control would be replaced by a qualitative description of the material terms, and director pay disclosure would become, in the fact sheet's words, "more principles-based".
+The proposal would also drop disclosure of risk-related pay policies and of equity grants made close to the release of material non-public information, and would let companies using long-form registration statements give pay data up to 120 days after year-end. The SEC has published the full proposing release.
+The proposal is the latest of several this year that pare back disclosure rules. Komposite reported in September on the SEC's plans to rescind the shareholder-proposal rule and to scrap the pay-to-play rule for investment advisers. The comment period, once the Federal Register prints the release, will run for 60 days from that date.
+
+---
+
+# Margin debt slips 3.6 per cent from its June record
+
+URL: https://kompositenews.com/markets/margin-debt-slips-3-6-per-cent-from-its-june-record/
+Section: Markets
+By: Priya Raghavan
+Published: 2026-11-17T13:20:00Z
+Updated: 2026-11-17T13:20:00Z
+
+FINRA data show margin debt of $1.448tn in October 2026, 3.6% below June's $1.502tn record; the 49% rise into June was the steepest since 2007, by our count.
+
+Investors owed their brokers $1.448tn in margin debt at the end of October 2026, 3.6 per cent less than the record $1.502tn of June, according to monthly figures that the Financial Industry Regulatory Authority posted on Friday.
+The FINRA statistics count debit balances in customers' securities margin accounts at member brokers, money borrowed against shares and other securities. October's figure was down 2.1 per cent from September's $1.480tn and still 22.4 per cent higher than a year earlier, by our arithmetic. Free credit balances, the cash customers keep at brokers, were $210.3bn in cash accounts and $212.9bn in margin accounts. Netting both off the debit balance leaves $1.025tn of borrowing, up 29.7 per cent on October 2025.
+Most of the rise came in three months. Debit balances grew 6.8 per cent in April, 8.5 per cent in May and 6.1 per cent in June, adding $281.2bn between March's $1.221tn and the June record, by our arithmetic. Margin debt had first passed its previous high, October 2021's $935.9bn, in January 2025. Free credit balances have grown far more slowly: up 6.2 per cent on the year in cash accounts and 9.0 per cent in margin accounts.
+From FINRA's margin statistics; monthly changes are Komposite's arithmetic. Debit balances rose 22.6 per cent between December 2025 and June 2026.Month-endDebit balances ($bn)Change on the month
+December 20251,225.6+0.9%
+January 20261,279.0+4.4%
+February1,253.2&minus;2.0%
+March1,220.9&minus;2.6%
+April1,304.3+6.8%
+May1,415.6+8.5%
+June1,502.1+6.1%
+July1,417.2&minus;5.6%
+August1,453.8+2.6%
+September1,480.1+1.8%
+October1,448.4&minus;2.1%
+How unusual was the climb into June?
+Steeper than before any peak in the series except those of 2000 and 2007. Komposite took FINRA's spreadsheet, which runs monthly from January 1997, and marked each month that was the highest within 18 months on either side. There are seven. Margin debt rose 49.0 per cent in the 12 months to June 2026, from $1.008tn in June 2025. The rise into March 2000 was 80.5 per cent and into July 2007 62.6 per cent. The rise into October 2021, the last peak before this one, was 41.9 per cent.
+Komposite's analysis of FINRA's margin statistics, January 1997 to October 2026: debit balances in customers' securities margin accounts. A peak is the highest month within 18 months either side. Growth and falls are our arithmetic.Peak monthDebit balances ($bn)Growth in the 12 months into the peakLowest month in the next 12Fall to that low
+March 2000299.9+80.5%March 2001&minus;41.7%
+July 2007416.4+62.6%April 2008&minus;20.2%
+April 2011360.9+22.1%September 2011&minus;17.3%
+April 2015550.0+15.7%February 2016&minus;13.8%
+May 2018668.9+14.8%December 2018&minus;17.1%
+October 2021935.9+41.9%October 2022&minus;30.6%
+June 20261,502.1+49.0%July 2026 (so far)&minus;5.6%
+After every earlier peak, debit balances fell at least 13.8 per cent within a year. After the 2000 and 2021 peaks they fell by more than 30 per cent. So far the drop from June has been smaller: the low was July's $1.417tn, 5.6 per cent below the record, and the figure climbed again in August and September before October's decline. Those six episodes are a small sample, and a peak can only be identified with hindsight; the table shows what followed, not what will follow.
+Prices have not fallen much. The S&P 500 closed at 7,499.36 on 30 June and 7,580.07 on 30 October, a rise of 1.1 per cent, according to FRED, while margin debt fell 3.6 per cent over the same months. The index then lost 2.2 per cent to 7,416.59 by Monday's close. FINRA's November figure, which will show whether borrowing kept falling as prices did, is not due until next month.
+What the figures do not show
+FINRA's series covers member broker-dealers only. It does not include loans that banks make against securities, leverage inside funds, or the borrowing embedded in options and leveraged exchange-traded products. Debit balances also tend to rise with prices, because higher collateral values let investors borrow more against the same holdings. A drop of 3.6 per cent from the top is modest next to the falls in the table.
+Why it matters: margin loans are callable, and when prices fall, brokers can demand more collateral or sell positions, which can add to the decline. The rise into June was large by the standards of the past 30 years, and the unwinding has been slow. Komposite has reported on other pockets of leverage this year, including the hedge-fund basis trade in Treasuries, and on bitcoin's November slide, during which the largest bitcoin fund shed 46m shares.
+
+---
+
+# Sixty-eight days to finish the upper C-band auction
+
+URL: https://kompositenews.com/technology/sixty-eight-days-to-finish-the-upper-c-band-auction/
+Section: Technology
+By: Tom Kessler
+Published: 2026-11-17T13:00:00Z
+Updated: 2026-11-17T13:00:00Z
+
+FCC Auction 115 bidding starts 27 April 2027, 68 days before the statutory 4 July deadline; Auctions 107 and 110 took 71 and 91 days, by our count.
+
+Bidding in the Federal Communications Commission's upper C-band auction opens on 27 April 2027, the FCC said on Friday, 68 days before the 4 July 2027 date by which Congress told it to finish.
+The notice, DA 26-1219, sets the rules for Auction 115: 3,248 flexible-use licences covering 160 megahertz between 3.98 and 4.14 GHz, sold as eight 20-megahertz blocks in each partial economic area of the contiguous United States, with 15-year renewable terms. Applications open at noon Eastern time on 6 January and close at 18:00 on 20 January. Upfront payments are due by 18:00 on 18 March, a mock auction runs on 21 April and the first round follows six days later.
+Where does the 4 July deadline come from?
+From the budget law signed on 4 July 2025. The notice quotes Section 40002(b)(2) of Public Law 119-21, which directs the commission to "complet[e] a system of competitive bidding not later than 2 years after the date of enactment of this Act for not less than 100 megahertz in the band between 3.98 gigahertz and 4.2 gigahertz." Auction 115 offers 160 megahertz, more than the floor. The law does not define "complete" in the passage the notice quotes, and the notice does not say which stage of the auction the agency treats as completion. The deadline falls on a Sunday.
+The FCC's own record suggests the date will be tight if the auction runs at the pace of its predecessors. Komposite took the phase dates of the two most recent mid-band clock auctions from the agency's public reporting system. Auction 107, the first C-band sale, began on 8 December 2020; its clock phase ended on 15 January 2021 and its assignment phase, in which winners bid for specific frequencies, ended on 17 February, 71 days after the first round. Auction 110 took 91 days from first round to final assignment. The same spans counted from 27 April 2027 end on 7 July and 27 July.
+Komposite's arithmetic from phase dates in the FCC's Auction Public Reporting System and the schedule in Public Notice DA 26-1219. Days are counted from the first day of bidding to the last day of the assignment phase. Past auctions are a guide to pace, not a forecast.AuctionBidding openedAssignment phase endedDaysSame length from 27 April 2027 ends
+Auction 107 (3.7-3.98 GHz)8 Dec 202017 Feb 2021717 July 2027
+Auction 110 (3.45-3.55 GHz)5 Oct 20214 Jan 20229127 July 2027
+Auction 107, clock phase only8 Dec 202015 Jan 2021 (clock)384 June 2027
+Auction 110, clock phase only5 Oct 202116 Nov 2021 (clock)428 June 2027
+Statutory deadline for Auction 11527 Apr 2027684 July 2027
+The clock phase alone would fit comfortably. Auction 107's took 38 days and Auction 110's 42, which from 27 April would end in early June. Auction 115 uses the same two-phase design, an ascending clock auction for generic blocks followed by an assignment phase, and the number of rounds a day is at the FCC's discretion. The notice declines a request from CTIA and Verizon to commit to "no fewer than four rounds per day", saying the agency will instead adjust the schedule, the activity requirement and the price increments "only as needed to bring the auction to a timely close".
+Who asked for more time, and what did they get?
+The carriers asked for a later start to the paperwork, not to the bidding. CTIA, the wireless trade group, AT&T and T-Mobile wanted the short-form deadline pushed back to shorten the quiet period during which applicants may not discuss bids, CTIA arguing that the industry was "just coming out of the quiet period for Auction 113". The notice declines, saying the schedule weighs "the statutory deadline for completing a system of competitive bidding" among other things. It designates AT&T, T-Mobile and Verizon as nationwide providers for the anti-collusion rule, as in past auctions.
+The money rules follow Auction 107 closely. Minimum opening bids are $0.03 per megahertz-pop in the 50 largest markets, $0.006 in the next 50 and $0.003 elsewhere, with a floor of $1,000 a block, the same tiers the FCC used in 2020. Upfront payments are roughly half the opening bids. There is no aggregate reserve price. The notice repeats that minimum bids "are not meant to predict the value of the spectrum". For scale only, Auction 107 raised $81.17bn in gross proceeds for 280 megahertz, by the FCC's figures, or about $290m a megahertz by our division; on top of their bids, Auction 115 winners must pay their share of the costs of moving satellite services out of the band, incentive payments to satellite operators that clear on time, and rebates for retrofitting aircraft radio altimeters, the notice says.
+The July comment notice had proposed most of what Friday's notice adopts; comments closed on 24 August and replies on 8 September. Light Reading reported that the FCC expects the band to be "lit up for most Americans before the end of 2030". Komposite has covered the scramble for mid-band and low-band airwaves, including SpaceX's agreement to buy 800 MHz licences from Grain Management in October, and the FCC's equipment authorisation rule in September.
+The next fixed date is the online application tutorial, due by 11 December, followed by the filing window 50 days from now. Whether the FCC can finish both phases in 68 days will be visible in the round schedule it publishes a week before bidding begins.
+
+---
+
 # The Entity List has not grown since October 2025
 
 URL: https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/
@@ -389,207 +581,3 @@ Who holds the pen on licences?
 Commerce. The rule was issued by the Bureau of Industry and Security, and Bessent made the same point about the separate question of blacklisting on Friday, saying that "Commerce BIS has the pin", as the CNBC transcript renders it. Commerce did not respond to Fortune's request for comment on his remarks. The rule itself expected modest use: the bureau estimated "100 more license applications per year" because "industry is more likely to submit licenses when there is a case-by-case review".
 Use has been modest in Nvidia's accounts too. Its filing for the quarter to July recorded shipments under the H200 programme at less than 1 per cent of data-centre revenue, as Komposite reported in our reading of that 10-Q, and Beijing has restricted purchases by Chinese buyers. Enforcement has meanwhile become Washington's main tool, as we noted when export controls shifted from rulemaking to settlements.
 The rule has been in force for 303 days, by our count. Nvidia reports quarterly results on Tuesday 17 November, the first chance to see whether H200 shipments to China have moved from the margin of its accounts.
-
----
-
-# Nvidia's first report without Huang has a $108bn bar
-
-URL: https://kompositenews.com/markets/nvidias-first-report-without-huang-has-a-108bn-bar/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-14T13:20:00Z
-Updated: 2026-11-14T13:20:00Z
-
-Nvidia reports Q3 FY2027 on 17 November 2026 against a $108bn revenue forecast; it beat its midpoint by 2.5% to 5.7% in each of six quarters. Our table.
-
-Nvidia will report results for its third fiscal quarter on Tuesday 17 November against a revenue forecast of $108.0bn, plus or minus 2 per cent, which it set in August. It is the first report since Jensen Huang resigned as chief executive on 11 November. If the company beats its own midpoint by the same margins as in the past six quarters, revenue would land between about $110.7bn and $114.2bn, by our arithmetic.
-The timetable is unchanged. Nvidia said in its call notice that results would be published at about 1:20 p.m. Pacific time, with a call at 2 p.m. limited to questions from financial analysts and institutional investors, and that written commentary would come from Colette Kress, the chief financial officer. Kress is now also interim chief executive, under the transition the company announced on Thursday, so the commentary and the call will both be hers.
-Forecasts from each previous quarter's results release (every one given as plus or minus 2 per cent), the first from the release of February 2025. Reported revenue from Nvidia's XBRL data at the SEC; the January 2026 quarter is the full-year figure less the first three quarters. Differences and percentages are Komposite's arithmetic.QuarterNvidia's revenue forecast (midpoint)Reported revenueBeat byBeat, per cent
-Q1 FY26 (to Apr 2025)$43.0bn$44.062bn$1.062bn2.5
-Q2 FY26 (to Jul 2025)$45.0bn$46.743bn$1.743bn3.9
-Q3 FY26 (to Oct 2025)$54.0bn$57.006bn$3.006bn5.6
-Q4 FY26 (to Jan 2026)$65.0bn$68.127bn$3.127bn4.8
-Q1 FY27 (to Apr 2026)$78.0bn$81.615bn$3.615bn4.6
-Q2 FY27 (to Jul 2026)$91.0bn$96.221bn$5.221bn5.7
-Q3 FY27 (to Oct 2026)$108.0bnDue 17 November
-How large have the beats been?
-Larger in dollars every quarter, and steady as a share. Measured against the midpoint of each forecast, Nvidia's beat rose from $1.06bn in the quarter to April 2025 to $5.22bn in the quarter to July 2026. As a percentage it ranged from 2.5 to 5.7, with a mean of 4.5, by our arithmetic. Revenue came in above the top of the plus-or-minus 2 per cent range in each of the six quarters, though only by $202m in the first of them. This quarter the range runs from $105.84bn to $110.16bn; a figure below the bottom would be the first miss of the range in the table.
-The forecasts themselves have grown more cautious relative to the last reported quarter. The $108bn figure is 12.2 per cent above the $96.2bn reported for the July quarter. The four forecasts before it implied growth of 15.5, 14.0, 14.5 and 11.5 per cent on the prior quarter, while actual sequential growth over the same stretch ran at 22.0, 19.5, 19.8 and 17.9 per cent. The exception in the table is the quarter to July 2025, when the forecast implied 2.1 per cent growth because export limits on the H20 chip took out about $8bn of expected sales.
-China is outside the number. The August release said: "NVIDIA is not assuming any Data Center compute revenue from China in its outlook." That has been the company's language since February, as Komposite reported when the guidance first assumed China would buy nothing. Nvidia also guided gross margins of 74.0 per cent, plus or minus half a point, against 75.0 per cent in the July quarter, and operating expenses of about $9.2bn under US accounting rules.
-What the release cannot settle
-The results are the first formal occasion on which Nvidia's management can be asked about the events of the past fortnight, though the company decides which questions to take. Its 12 November release and the accompanying 8-K gave no reason for Huang's departure, as Komposite reported on Thursday. The board's independent inquiry into reports that Huang was targeted by a foreign intelligence effort has no published timetable. The share price has already absorbed a large part of the news: Nvidia lost $428bn of market value in two days earlier this month.
-Washington adds its own calendar. Three House committee chairmen asked on 5 November for a closed briefing on 18 November, the day after the results; their letter was addressed to Huang, who no longer runs the company. Howard Lutnick, the commerce secretary, has agreed to testify before the Senate Banking Committee on 10 December, Fortune reported. On Friday the Treasury Secretary, Scott Bessent, said on CNBC that the question was whether Nvidia knew its clients, and that "anyone at the company there be held accountable" for chips that leaked to China, a theme we examine in our report on the Entity List.
-Why it matters: Nvidia's forecast is the closest thing the AI build-out has to a monthly order book, and the quarterly beat has been part of how investors price it. A first set of numbers under an interim chief executive who is also the finance chief tests whether that pattern holds through a governance crisis. Data-centre revenue was $89.0bn in the July quarter, 92.5 per cent of the total, by our division, so the beat or miss will be almost entirely a data-centre number.
-The forecast for the quarter to January 2027, due on Tuesday afternoon, will be the first Nvidia has set without Huang. Analysts will compare it with the $108bn of this quarter, and with the 12 per cent sequential step the company has asked them to expect.
-
----
-
-# IBIT shrank by 46m shares as bitcoin fell 15 per cent
-
-URL: https://kompositenews.com/crypto/ibit-shrank-by-46m-shares-as-bitcoin-fell-15-per-cent/
-Section: Crypto
-By: Marcus Oyelaran
-Published: 2026-11-14T13:00:00Z
-Updated: 2026-11-14T13:00:00Z
-
-IBIT's share count fell 46.12m, or 3.2%, between 31 October and 12 November 2026 as bitcoin dropped 15% to $68,178. Our arithmetic from filings.
-
-The iShares Bitcoin Trust, BlackRock's spot bitcoin fund, had 1,387.96m shares outstanding on Thursday 12 November, according to the fund's own page. Its quarterly report gave 1,434.08m on 31 October. The difference is 46.12m shares, or 3.2 per cent, in net redemptions over less than two weeks.
-Measured in the coin itself, that is about 26,100 bitcoin taken out of the trust in less than two weeks, by our arithmetic, worth roughly $1.78bn at Friday's price. Bitcoin closed at $68,178.05 on Coinbase on Friday 13 November, down 15.2 per cent from $80,420.06 on 4 November and the lowest close since 18 August, according to the daily series published by the Federal Reserve Bank of St Louis.
-Share counts are the cleanest way to see money leaving an exchange-traded fund, because they move only when authorised participants create or redeem shares in blocks, which the trust calls baskets. Price falls shrink a fund's assets without touching its share count. The trust's net assets were $54.13bn on 13 November, or about $39.00 a share, according to the fund page, against $47.38 a share at the end of September.
-Komposite's compilation from the trust's filings and its XBRL data at the SEC, and BlackRock's fund page. Changes are our subtraction.DateIBIT shares outstandingChangeSource
-30 Jun 20261,296,040,00010-Q balance sheet
-30 Sep 20261,414,760,000+118,720,00010-Q
-31 Oct 20261,434,080,000+19,320,00010-Q cover page
-12 Nov 20261,387,960,000&minus;46,120,000iShares fund page, shown on 13 Nov as of the prior day
-The conversion to bitcoin uses the trust's own holdings. At 30 September it held 801,033 bitcoin against 1,414.76m shares, which is 0.000566 bitcoin per share, by our division. Multiplying the November redemptions by that figure gives 26,113 bitcoin. The ratio drifts down slowly as the 0.25 per cent annual sponsor fee is paid in bitcoin, so the true number is fractionally lower, and on the same basis the trust now holds about 785,900. The figures cover this one fund only; other spot bitcoin funds report their own share counts on their own pages.
-The redemptions reverse most of what the autumn brought in. In the quarter to September, the 10-Q shows, 187.48m shares were created in 4,687 baskets and 68.76m redeemed in 1,719, a net addition of 118.72m. October added another 19.32m. All of October's net creations and part of September's have now gone back out, by our subtraction.
-Daily closes from the Coinbase bitcoin series published by the Federal Reserve Bank of St Louis (FRED); changes are Komposite's arithmetic.DateCoinbase bitcoin closeChange to 13 Nov 2026
-5 Oct 2025 (record)$124,720.09&minus;45.3%
-31 Dec 2025$87,696.00&minus;22.3%
-14 Jan 2026 (2026 high)$96,852.91&minus;29.6%
-30 Jun 2026 (2026 low)$58,585.96+16.4%
-30 Sep 2026$83,482.51&minus;18.3%
-4 Nov 2026$80,420.06&minus;15.2%
-13 Nov 2026$68,178.05
-The fall also shows up in BlackRock's revenue from the fund. The trust pays its sponsor 0.25 per cent a year of net assets. At the $67.04bn fair value of its bitcoin on 30 September, which valued each coin at about $83,697 by our division, that fee ran at about $168m a year; on the $54.13bn of net assets reported for 13 November it runs at about $135m, by our arithmetic. About nine-tenths of the $33m drop comes from the lower price and the rest from the smaller share count, by our split.
-The price series puts the fall in proportion. Friday's close was 45.3 per cent below the record of $124,720.09 set on 5 October 2025, and 29.6 per cent below this year's high of $96,852.91 on 14 January. It was still 16.4 per cent above the 2026 low of $58,585.96 on 30 June. The last time bitcoin closed at or below Friday's level was 18 August, 87 days earlier. Friday alone accounted for a 3.7 per cent drop, from $70,822.24 on Thursday.
-The trust filed one other document this week. A Form 8-K on Friday reported that Paul Lohrey, a former president and chief executive of the iShares trust sponsor, had joined the sponsor's board and audit committee, and that Peter Landini had resigned as a director. "Mr. Landini's decision to resign was not the result of any dispute or disagreement with the Sponsor or the Trust," the filing said. It contains no financial figures.
-Why it matters: spot funds were sold as the channel through which ordinary brokerage money would reach bitcoin, and this one fund alone holds about 785,900 coins by our estimate. When its holders sell, authorised participants redeem shares and the trust gives up bitcoin, so flows out of the fund and the price can feed each other. The share count is published every business day, which makes it one of the few hard, regularly updated numbers in the bitcoin market. Options on crypto trusts, which the SEC cleared on 10 November, add a hedging layer on top of these funds, and listed bitcoin holders such as Strategy have been selling stock to manage their own capital structures.
-The fund page will show the next count on Monday. The trust's next audited holdings figure comes with its annual report; last year's 10-K was filed on 27 February.
-
----
-
-# Microsoft's mail outage crosses the SLA's 99 per cent line
-
-URL: https://kompositenews.com/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/
-Section: Technology
-By: Tom Kessler
-Published: 2026-11-13T14:20:00Z
-Updated: 2026-11-13T14:20:00Z
-
-Microsoft's Exchange Online outage passed 21 hours on 13 November 2026, far beyond the 7.2 hours that take a user below 99% uptime in its SLA. Our analysis.
-
-Microsoft has posted 34 updates on incident EX1550543 since it opened at 16:17 GMT on Thursday 12 November, according to the service-health record that the University of Pennsylvania copies from its Microsoft 365 administration console every 15 minutes. At the 14:01 GMT update on Friday the incident was still a "service degradation", its end time "Not ended yet" and its root cause "N/A".
-The Microsoft 365 outage that began on Thursday 12 November 2026 has left users unable to reach Exchange Online mailboxes through Outlook on the web, Outlook desktop, mobile sync and programming interfaces for more than 21 hours. By Friday Microsoft listed 20 dependent services as affected, and said it had found no evidence of malicious activity.
-Recovery is under way but not complete. At 13:00 GMT Microsoft reported "broader improvements now observed in North America and sustained improvements across much of Europe"; at 14:01 GMT it said email queues were "significantly reduced and approaching normal levels", while warning that some users may still see intermittent access problems or delayed mail. It said it would publish "a full Post-Incident Report with root cause and defense-in-depth actions after mitigation is complete". Microsoft has also been posting updates on its public status page for customers without console access.
-What has Microsoft said went wrong?
-Several things, in sequence. Read in order, the updates move from a load problem to failing servers, then to a component handling health checks, then to an overwhelmed process that sets up secure connections, and finally to a patch for an authentication and routing component that began to stabilise servers on Friday morning.
-Komposite's selection from the 34 updates on incident EX1550543 between 16:20 GMT on 12 November and 14:01 GMT on 13 November, as recorded in Microsoft's service-health text mirrored by the University of Pennsylvania. Quotations are verbatim; GMT equals UTC in November.Time (GMT)What Microsoft's status update said
-Thu 16:17Incident EX1550543 opens: users may be unable to reach Exchange Online mailboxes
-Thu 18:19The affected infrastructure is under "elevated load across multiple regions"
-Thu 19:18The load is not more traffic but "a large number of servers being unexpectedly unavailable"
-Thu 19:43Affected servers are "failing automated health checks", possibly after a recent change to a component
-Thu 19:57"While we haven't identified any recent changes that correlate with the start of impact", a health-check component is bypassed on some servers
-Thu 22:00Actions "have not provided the anticipated relief"; "a core process on the affected servers is becoming overwhelmed"
-Fri 01:06The process "responsible for establishing secure connections" is overwhelmed; Microsoft begins reverting "a recent network configuration change that correlates with the start of impact"
-Fri 02:54A change is "not taking as expected"
-Fri 03:34"There is no indication this is the result of malicious activity"
-Fri 04:59"A surge in outbound call volume from our routing services to our backend servers"
-Fri 07:25Server stability improves after an "upstream authentication/routing configuration component patch"
-Fri 09:55Email timeout window extended "to 48 hours to help protect delayed messages"
-Fri 14:01Email queues "significantly reduced and approaching normal levels"; still not mitigated
-Two updates sit uneasily together. At 19:57 GMT on Thursday Microsoft said: "While we haven't identified any recent changes that correlate with the start of impact". At 01:06 GMT on Friday it said it had "begun reverting a recent network configuration change that correlates with the start of impact". The second does not say whether that change caused the outage, and investigations of this kind often revise early findings. The post-incident report should settle it. Under Microsoft's own service description, a preliminary report is due within 48 hours of resolution and a final one within five business days.
-The mail outage was Thursday's second Microsoft 365 incident. A separate one, TM1550488, disrupted Teams messaging for users routed through North and South America from 14:45 to 15:53 GMT, ending 24 minutes before the Exchange incident opened. Microsoft's preliminary root cause for that one was "Resource contention within the underlying service infrastructure", and it promised a preliminary report within two business days. The two records do not refer to each other.
-Which services were hit?
-Anything that depends on Exchange Online. A companion incident, MO1550821, opened at 18:26 GMT on Thursday naming five services. By our count of each update, the list grew to 20 by 06:54 GMT on Friday, taking in Copilot's access to mail and calendars, Intune device enrolment, Purview compliance tools, Universal Print and some Windows 365 cloud PCs. Microsoft says elements that do not interact with Exchange Online "remain functional", and that Teams calls, meetings, group chats and channel messages were largely unaffected.
-Komposite's count of the services named in each update to incident MO1550821, from the same service-health record. A separate Defender for Cloud Apps line appeared at 08:09 GMT and was folded into the Defender for Office 365 entry an hour later.Update (GMT)Services listedAdded in that update
-Thu 18:275Exchange Online, Teams, SharePoint Online, Copilot, Defender XDR
-Thu 19:588Planner, Purview, To Do
-Thu 20:5711Defender for Office 365, Intune, Power BI
-Thu 22:0313Microsoft 365 Apps admin center, Universal Print
-Thu 22:5814Windows 365 (Cloud PCs using Customer Key)
-Fri 00:0018Microsoft 365 Education, Microsoft 365 admin center, Microsoft 365 apps, Graph
-Fri 01:1219Fabric
-Fri 06:5420Power Apps
-Microsoft released its monthly security updates on Tuesday 10 November. SecurityWeek noted that Microsoft had not linked an Outlook flaw fixed in that release to the outage. October's release, by Microsoft's own count, covered 1,453 vulnerabilities.
-What does the outage mean for service credits?
-For a user who could not send or receive mail in Outlook on the web for the whole incident so far, uptime for November would already be about 97.0 per cent, by our arithmetic, which is inside the band where Microsoft's service-level agreement pays a credit of half the month's Exchange Online fees. The October 2026 edition defines Exchange Online downtime as "Any period of time when users are unable to send or receive email with Outlook Web Access", measured in user-minutes across a calendar month.
-Credit tiers from Microsoft's Online Services SLA, October 2026 edition. Minutes and times are Komposite's arithmetic on a 30-day month of 43,200 minutes, for one user unable to send or receive mail in Outlook on the web for the whole period. Microsoft measures downtime in user-minutes across a tenant, so organisations where only some users were affected fall into lower tiers.Monthly uptime for Exchange OnlineService creditFull-outage minutes that reach it in NovemberFor a user out since 16:17 GMT Thursday, reached at
-Below 99.9%25% of the month's Exchange Online fees43.2 (about 43 minutes)17:00 GMT Thursday
-Below 99%50%432 (7 hours 12 minutes)23:29 GMT Thursday
-Below 95%100%2,160 (36 hours)04:17 GMT Saturday, if still out
-Three conditions narrow that. Downtime is averaged across every user in a tenant, so an organisation where only some mailboxes failed, or where service returned early, will sit higher. Credits are not automatic: a customer must file a claim with the time, duration, number and location of affected users, and for an incident in November the claim must arrive by the end of December. And credits are "your sole and exclusive remedy", applied only to the fees for the affected service; the agreement rules out compensation for "lost revenue, operational costs, or any indirect losses". If the incident runs past 04:17 GMT on Saturday 14 November, a user out for the whole period would cross the 95 per cent line that triggers a full refund of that month's fee.
-Why does the 48-hour mail window matter?
-It decides whether delayed mail is delivered or bounced. Microsoft's documentation says Exchange Online retries delivery for 24 hours, after which messages "will expire and will be returned to the senders in non-delivery reports". At 09:55 GMT on Friday Microsoft said it was "extending the email timeout window to 48 hours to help protect delayed messages". If the clock runs from when a message is first queued, which Microsoft has not specified, mail held since 16:17 GMT on Thursday would now bounce no earlier than Saturday afternoon rather than Friday afternoon.
-The record also shows the pace of communication. Microsoft's service description promises updates "on an hourly cadence or, if a different cadence is required, it will be stated". Each update named the time of the next one, and by our comparison three of those promised times were missed by more than five minutes: by six minutes at 01:00 GMT, and by 55 and 61 minutes as Europe's working day began on Friday, when the next updates came at 09:55 and 11:01 GMT.
-The outage lands in a year when Microsoft 365's availability has already dipped. Microsoft's published worldwide uptime for the first quarter of 2026 was 99.526 per cent, the lowest figure in its table, equal to about 614 minutes of a 90-day quarter by our arithmetic; the second quarter recovered to 99.994 per cent. Some public bodies were reconsidering their dependence before this week: the Dutch tax administration said in October that it would keep its mail on its own servers rather than move to Microsoft 365, part of a broader pattern we have described as selective cloud repatriation.
-Microsoft's next scheduled update on the Exchange incident was due at 15:00 GMT on Friday. The fourth-quarter uptime figure, which will include this week, is the number customers will be able to set against the 99.9 per cent the agreement promises.
-
----
-
-# Singapore asked Washington about Megaspeed 493 days ago
-
-URL: https://kompositenews.com/policy/singapore-asked-washington-about-megaspeed-493-days-ago/
-Section: Policy
-By: Jonathan Bright
-Published: 2026-11-13T14:00:00Z
-Updated: 2026-11-13T14:00:00Z
-
-Singapore said on 12 November 2026 it first sought US help on Megaspeed's server supplier on 7 July 2025, 493 days earlier, and received little. Our timeline.
-
-On Tuesday 24 June 2025, officials of the US Commerce Department's Bureau of Industry and Security carried out a check at Megaspeed International in Singapore, with Alice Huang present. According to a statement from Singapore's Ministry of Home Affairs on Thursday 12 November 2026, that visit was the first time Singapore learned of American interest in the company.
-Singapore says it asked the United States for help with its Megaspeed investigation on 7 July 2025 and has received "limited information or assistance" since. The ministry's 12 November 2026 statement, 493 days after that first request, also says Alice Huang, Megaspeed's former chief executive, "was not investigated for espionage".
-The request concerned Super Micro Computer, the US server maker, which the ministry says gave Singapore's police only limited cooperation. Police and the Attorney-General's Chambers raised that with US authorities on 7 July 2025 and, from September 2025, repeatedly asked the Justice Department and the FBI. "Singapore has to date received limited information or assistance in respect of the company," the statement says. The account is Singapore's; the statement does not quote a US response.
-Why did Singapore need American records?
-Because the servers did not stay in Singapore. The ministry says the machines bought by the companies under investigation were exported through Singapore to Malaysia without entering the local market, and police needed to establish whether they were later moved elsewhere, contrary to what had been declared. "SPF could not rely solely on declarations made by the companies in Singapore," it says. The suspected offences are Singaporean ones, chiefly false declarations in server purchases, not breaches of US export rules.
-On that point the statement is direct. Singapore "does not enforce" other countries' unilateral export controls, but expects companies operating there "to take into account such regulations, including export controls". It repeats the home affairs minister's position of 3 March 2025 that "Singapore's investigations were not based on any request from any country or sovereign entity."
-What happened to Alice Huang?
-Police interviewed her on the day of the US check and impounded her passport. She was investigated as Megaspeed's then chief executive, chair and a key controller, the ministry says, and was a Hong Kong resident. In February 2026 police and prosecutors concluded there was insufficient evidence that she had committed offences over the declarations, but found she had knowingly given investigators inaccurate information to play down her role. She was given a stern warning, her passport was returned on 26 February 2026, 247 days after it was taken, by our count, and she left Singapore that day, barred from returning.
-Komposite's timeline from the Ministry of Home Affairs statement of 12 November and Singapore Police Force releases of 1 July and 13 November. Day counts are calendar days, by Komposite; where the source gives only a month, counts run from the first of the month and are approximate.DateEventDays to 12 Nov 2026
-Feb 2025Singapore Police Force and Singapore Customs open their own probe into several companies over suspected false declarations on server purchases, including Megaspeedabout 650
-Thu 27 Feb 2025First three individuals charged with fraud by false representation623
-Tue 24 Jun 2025US Commerce Department check at Megaspeed with Alice Huang present; police interview her and impound her passport506
-Mon 7 Jul 2025Singapore raises Super Micro Computer's limited cooperation with US authorities493
-From Sep 2025Request repeated to the Justice Department and the FBIabout 437
-Thu 26 Feb 2026Passport returned after 247 days; Huang leaves and is barred from re-entering259
-Jul 2026Four companies charged, the first corporate prosecutions; three Aperia Group companies appear in court on 6 July129 (from 6 Jul)
-Thu 12 Nov 2026Home Affairs ministry publishes its account0
-Fri 13 Nov 2026Fifth individual and two more companies charged-1
-The investigation into Megaspeed itself, and six other people, continues, the ministry says. None of the six has been in Singapore since February 2025. The ministry closes by saying Singapore will keep investigating on its own account, cooperate with foreign authorities where appropriate and "take firm enforcement action wherever the evidence warrants it". Megaspeed has not been charged with any offence. It has said that inspections by US and Malaysian authorities found no evidence of violations.
-Who has been charged so far?
-Five people and six companies in the wider server-purchase case, after the police announced charges on Friday 13 November against Shi Bingzhe and two companies he ran, Superphi and NJ Global Financial. Police say the two companies acquired 917 servers from Aperia International across 41 transactions between May 2024 and February 2025, an average of about 22 servers a transaction by our division, with reasonable grounds to believe the servers were the proceeds of Aperia's alleged fraud by false representation.
-Source: Singapore Police Force, 13 November 2026. The charges are under the Corruption, Drug Trafficking and Other Serious Crimes (Confiscation of Benefits) Act, for acquiring the benefits of another's criminal conduct. The total is Komposite's sum. These are charges, not findings.Charged on 13 NovemberRoleChargesMaximum penalty per charge
-Shi BingzheDirector of Superphi, chief operating officer of NJ Global Financial4110 years' jail, a S$500,000 fine, or both
-Superphi Pte LtdBought servers from Aperia International6S$1m or twice the value of the benefits, whichever is higher
-NJ Global Financial Pte LtdBought servers from Aperia International35As above
-Total917 servers across 41 transactions, May 2024 to February 202582
-The case began with three individuals charged on 27 February 2025. A police release on 1 July added further charges, the first prosecutions of companies, including Aperia International, and a prohibition of disposal on a house valued at about S$55m. It named the server suppliers whose machines were involved as Dell, Super Micro Computer and Asus. The individuals include Wei Zhaolun Alan, who faces a charge of converting about S$55m of property, representing about S$38m of alleged criminal benefits, to buy the house. Fraud by false representation carries up to 20 years in prison per charge in Singapore. The charges are allegations and have not been proved in court.
-For Nvidia, whose Singapore customer is at the centre of the inquiry, the statement adds a government's version of events to a story told until now mostly through leaks. Komposite's earlier timeline found that Nvidia's board opened its inquiry 394 days after Megaspeed first surfaced, and we traced the paper trail from Commerce to the prosecutors. A contractor linked to Super Micro has separately pleaded guilty in a US diversion case. Jensen Huang, who resigned as Nvidia's chief executive this week, had been asked by three House committee chairmen to a closed briefing on 18 November, the next date on the American side of the story.
-
----
-
-# Cisco lifts its AI target by $1.5bn and gives up margin
-
-URL: https://kompositenews.com/markets/cisco-lifts-its-ai-target-by-1-5bn-and-gives-up-margin/
-Section: Markets
-By: Priya Raghavan
-Published: 2026-11-13T13:40:00Z
-Updated: 2026-11-13T13:40:00Z
-
-Cisco raised its FY2027 hyperscaler AI revenue target to $9bn from $7.5bn on 12 November 2026; networking rose 43% as product margin fell 3.5 points.
-
-"We are in the very early stages of a multi-year networking supercycle," Chuck Robbins, Cisco's chief executive, said on Thursday 12 November, as the company reported first-quarter results and raised the number it now gives investors for the AI side of that cycle.
-Cisco Systems expects $9bn of revenue in fiscal 2027 from AI infrastructure sold to hyperscalers, the largest cloud operators, up from the $7.5bn it forecast in August and, Cisco said, more than double its fiscal 2026 total. It also raised its full-year revenue forecast to $74.8bn to $75.8bn, from $72.2bn to $73.4bn.
-By our arithmetic the new AI figure is 20 per cent above the old one and would be about 12 per cent of fiscal 2027 revenue at the midpoint of the new range. The total forecast rose by about $2.5bn, so the AI increase accounts for roughly three-fifths of the change. Cisco does not break out how much of the rest comes from AI-related demand outside the hyperscalers.
-The new target can be set against an older number. In August Cisco said hyperscalers had placed $9.3bn of AI infrastructure orders with it in fiscal 2026, $4bn of them in the fourth quarter alone. The $9bn revenue figure for fiscal 2027 is therefore close to the value of last year's orders, by our comparison, which suggests the target mostly assumes that booked orders turn into shipped revenue. The November release gives no first-quarter orders figure, so it is not possible to tell from the filing whether that pace has continued.
-Komposite's comparison of Cisco's fourth-quarter release of 12 August and first-quarter release of 12 November, both filed with the SEC. Changes are Komposite's arithmetic. Cisco's fiscal 2027 runs to late July 2027.Said on 12 Aug 2026Said on 12 Nov 2026Change
-FY2027 AI infrastructure revenue from hyperscalers$7.5bn$9.0bn+$1.5bn (+20%)
-FY2027 revenue$72.2bn to $73.4bn$74.8bn to $75.8bn+$2.5bn at the midpoint (+3.4%)
-FY2027 non-GAAP EPS$5.05 to $5.11$5.47 to $5.53+42c at the midpoint (+8.3%)
-FY2027 GAAP EPS$4.00 to $4.06$4.38 to $4.44+38c at the midpoint (+9.4%)
-Q1 revenue$18.0bn to $18.2bn guided$18.517bn reported$317m above the top of the range
-Q1 non-GAAP EPS$1.32 to $1.34 guided$1.40 reported6c above the top
-The quarter itself, to 24 October, beat Cisco's own range. Revenue was $18.517bn, up 24 per cent and $317m above the top of its guidance, and adjusted earnings were $1.40 a share against a guided $1.32 to $1.34. Networking revenue, the hardware the AI build-out runs on, rose 43 per cent to $11.132bn and is now 60 per cent of the total. Security grew 7 per cent, collaboration 8 per cent and observability 2 per cent. Services, mainly support, grew 1 per cent. "In Q1, we delivered the strongest revenue and non-GAAP earnings per share growth rates for Cisco in over 15 years," Robbins said.
-What did the growth cost?
-Margin. Cisco's adjusted gross margin on products fell to 63.7 per cent from 67.2 per cent a year earlier, and the company-wide figure to 65.6 per cent from 68.1 per cent. On $14.667bn of product revenue, 3.5 points of margin is about $513m of gross profit that the quarter would have earned at last year's rate, by our multiplication. The release does not attribute the decline, and gross margin is affected by pricing, component costs and mix. Margin was also lower in the August quarter, as the fourth-quarter release showed.
-From the same two releases. Earlier-year quarters are the comparatives Cisco prints beside each quarter and are left blank where the release gives no figure. Growth rates are year on year, as Cisco reports them.QuarterRevenueNetworkingNon-GAAP gross marginNon-GAAP product gross margin
-Q4 FY2025 (to Jul 2025)68.4%67.5%
-Q1 FY2026 (to Oct 2025)68.1%67.2%
-Q4 FY2026 (to Jul 2026)$17.3bn$9.8bn (+28%)66.3%64.8%
-Q1 FY2027 (to Oct 2026)$18.5bn$11.1bn (+43%)65.6%63.7%
-Q2 FY2027 guidance$18.0bn to $18.2bn65% to 66%
-Cisco guides adjusted gross margin of 65 to 66 per cent for the January quarter, against 65.6 per cent just reported, and revenue of $18.0bn to $18.2bn, which would be below the quarter just ended. Mark Patterson, the finance chief, spoke of "enabling us to grow earnings much faster than revenue." The raised range for adjusted earnings, $5.47 to $5.53 a share, grew 8.3 per cent at the midpoint, more than twice the 3.4 per cent increase in the revenue range.
-One figure moved the other way. Remaining performance obligations, contracted revenue not yet recognised, were $46.2bn at the end of October, up 8 per cent on a year earlier but about $0.5bn below the $46.7bn reported at the end of July. Cisco returned $3.7bn to shareholders in the quarter, including $2.0bn of buybacks at an average of $112.38 a share.
-Other AI suppliers have reported similar trade-offs between growth and cost. CoreWeave's quarter showed debt rising $11.8bn alongside revenue, and Infineon this week raised its AI power-supply target to close to €4bn. Applied Materials, which also reported on Thursday, showed China's share of its sales falling to a quarter.
-Cisco's next quarterly dividend, of 42 cents, is payable on 20 January 2027. Its second-quarter results, expected in February, will show whether margin holds inside the 65 to 66 per cent range.

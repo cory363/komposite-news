@@ -46,14 +46,14 @@
 
 ## Newest stories
 
+- [Chase blames a bug, and the outage rule counts bugs](https://kompositenews.com/fintech/chase-blames-a-bug-and-the-outage-rule-counts-bugs/): Chase blamed a bug in on-premise hardware for its 16 Nov outage; the 2021 bank notice rule covers incidents 'from whatever cause', with 36 hours to report.
+- [Microsoft traces its mail outage to a July fix](https://kompositenews.com/technology/microsoft-traces-its-mail-outage-to-a-july-fix/): Microsoft's preliminary report blames a July Windows fix for the 12-13 Nov Exchange Online outage; over 80% of gateway servers stopped responding.
+- [The SEC moves to retire 'compensation actually paid'](https://kompositenews.com/policy/the-sec-moves-to-retire-compensation-actually-paid/): The SEC would replace 'compensation actually paid'; across 1,346 firms it differed from reported CEO pay by a median 37% in fiscal 2025, our analysis finds.
+- [Margin debt slips 3.6 per cent from its June record](https://kompositenews.com/markets/margin-debt-slips-3-6-per-cent-from-its-june-record/): FINRA data show margin debt of $1.448tn in October 2026, 3.6% below June's $1.502tn record; the 49% rise into June was the steepest since 2007, by our count.
+- [Sixty-eight days to finish the upper C-band auction](https://kompositenews.com/technology/sixty-eight-days-to-finish-the-upper-c-band-auction/): FCC Auction 115 bidding starts 27 April 2027, 68 days before the statutory 4 July deadline; Auctions 107 and 110 took 71 and 91 days, by our count.
 - [The Entity List has not grown since October 2025](https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/): BIS has added no one to the Entity List since 9 October 2025, 401 days, by our Federal Register count; Bessent said Commerce held up Megaspeed.
 - [Microsoft moves its outage start six hours earlier](https://kompositenews.com/technology/microsoft-moves-its-outage-start-six-hours-earlier/): Microsoft's final record dates its 12-13 November 2026 Exchange Online outage from 10:05 to 16:10 GMT next day, 30h05m. Our SLA arithmetic.
 - [The H200 licence rule, line by line](https://kompositenews.com/ai/the-h200-licence-rule-line-by-line/): BIS's January 2026 rule lets H200 licences to China be reviewed case by case below 21,000 TPP and 6,500 GB/s. By our arithmetic the H200 is at 15,832.
-- [Nvidia's first report without Huang has a $108bn bar](https://kompositenews.com/markets/nvidias-first-report-without-huang-has-a-108bn-bar/): Nvidia reports Q3 FY2027 on 17 November 2026 against a $108bn revenue forecast; it beat its midpoint by 2.5% to 5.7% in each of six quarters. Our table.
-- [IBIT shrank by 46m shares as bitcoin fell 15 per cent](https://kompositenews.com/crypto/ibit-shrank-by-46m-shares-as-bitcoin-fell-15-per-cent/): IBIT's share count fell 46.12m, or 3.2%, between 31 October and 12 November 2026 as bitcoin dropped 15% to $68,178. Our arithmetic from filings.
-- [Microsoft's mail outage crosses the SLA's 99 per cent line](https://kompositenews.com/technology/microsofts-mail-outage-crosses-the-slas-99-per-cent-line/): Microsoft's Exchange Online outage passed 21 hours on 13 November 2026, far beyond the 7.2 hours that take a user below 99% uptime in its SLA. Our analysis.
-- [Singapore asked Washington about Megaspeed 493 days ago](https://kompositenews.com/policy/singapore-asked-washington-about-megaspeed-493-days-ago/): Singapore said on 12 November 2026 it first sought US help on Megaspeed's server supplier on 7 July 2025, 493 days earlier, and received little. Our timeline.
-- [Cisco lifts its AI target by $1.5bn and gives up margin](https://kompositenews.com/markets/cisco-lifts-its-ai-target-by-1-5bn-and-gives-up-margin/): Cisco raised its FY2027 hyperscaler AI revenue target to $9bn from $7.5bn on 12 November 2026; networking rose 43% as product margin fell 3.5 points.
 
 ## About, standards and contact
 

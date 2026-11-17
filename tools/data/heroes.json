@@ -3598,5 +3598,50 @@
   "alt": "A home-built computer rig with graphics cards, a bare motherboard and bundles of power cables on a white table",
   "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:AustrianBitCoinMiningRig.jpg\" rel=\"noopener\">Gastev (Mirko Tobias Schaefer)</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
   "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "fintech/chase-blames-a-bug-and-the-outage-rule-counts-bugs": {
+  "id": "commons:Chase_Bank,_Montrose_Boulevard,_Houston.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Chase_Bank%2C_Montrose_Boulevard%2C_Houston.jpg/1280px-Chase_Bank%2C_Montrose_Boulevard%2C_Houston.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A single-storey Chase bank branch with a white portico and the Chase sign above the door, an empty car park with accessible bays in front",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Chase_Bank,_Montrose_Boulevard,_Houston.jpg\" rel=\"noopener\">WhisperToMe</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" rel=\"noopener\">CC0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "technology/microsoft-traces-its-mail-outage-to-a-july-fix": {
+  "id": "commons:Switch-and-nest.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Switch-and-nest.jpg/1280px-Switch-and-nest.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A rack-mounted network switch with its ports filled, surrounded by a dense tangle of blue and grey network cables",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Switch-and-nest.jpg\" rel=\"noopener\">J.smith</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5/\" rel=\"noopener\">CC BY-SA 2.5</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "policy/the-sec-moves-to-retire-compensation-actually-paid": {
+  "id": "commons:Facade_of_the_U.S._Securities_and_Exchange_Commission_headquarters,_Washington,_D.C.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Facade_of_the_U.S._Securities_and_Exchange_Commission_headquarters%2C_Washington%2C_D.C.jpg/1280px-Facade_of_the_U.S._Securities_and_Exchange_Commission_headquarters%2C_Washington%2C_D.C.jpg",
+  "width": 1280,
+  "height": 1056,
+  "alt": "Ornate iron street lamps in front of the curved glass facade of the Securities and Exchange Commission headquarters in Washington",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Facade_of_the_U.S._Securities_and_Exchange_Commission_headquarters,_Washington,_D.C.jpg\" rel=\"noopener\">David (dbking)</a>, <a href=\"https://creativecommons.org/licenses/by/2.0/\" rel=\"noopener\">CC BY 2.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "markets/margin-debt-slips-3-6-per-cent-from-its-june-record": {
+  "id": "commons:New_York_Stock_Exchange,_Wall_Street_1.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/New_York_Stock_Exchange%2C_Wall_Street_1.jpg/1280px-New_York_Stock_Exchange%2C_Wall_Street_1.jpg",
+  "width": 1280,
+  "height": 853,
+  "alt": "The columned stone facade of the New York Stock Exchange with a large US flag hung between the columns and smaller flags on poles below",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange,_Wall_Street_1.jpg\" rel=\"noopener\">Mike Peel</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
+ },
+ "technology/sixty-eight-days-to-finish-the-upper-c-band-auction": {
+  "id": "commons:Sugar_Scoop_Antenna,_OTC_Satellite_Earth_Station_Carnarvon,_July_2020_03.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Sugar_Scoop_Antenna%2C_OTC_Satellite_Earth_Station_Carnarvon%2C_July_2020_03.jpg/1280px-Sugar_Scoop_Antenna%2C_OTC_Satellite_Earth_Station_Carnarvon%2C_July_2020_03.jpg",
+  "width": 1280,
+  "height": 960,
+  "alt": "A large horn-shaped satellite antenna on a steel frame under a blue sky, with a white dish antenna and parked vans behind it",
+  "creditHtml": "<a href=\"https://commons.wikimedia.org/wiki/File:Sugar_Scoop_Antenna,_OTC_Satellite_Earth_Station_Carnarvon,_July_2020_03.jpg\" rel=\"noopener\">Calistemon</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" rel=\"noopener\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+  "creditLine": "Photograph via Wikimedia Commons"
  }
 }
