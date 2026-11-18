@@ -68,8 +68,8 @@ For licensing terms, reprint requests, and syndication inquiries, contact partne
 URL: https://kompositenews.com/cybersecurity/sbom-what-buyers-do-with-it/
 Section: Cybersecurity
 By: Komposite News Staff
-Published: 2026-08-30T09:00:00Z
-Updated: 2026-08-30T09:00:00Z
+Published: 2026-09-04T09:00:00Z
+Updated: 2026-09-04T09:00:00Z
 
 Software bills of materials are now routinely produced and routinely ignored, and the gap between generating one and acting on it is where the risk sits.
 
@@ -116,8 +116,8 @@ That may be the intended outcome. A payment instrument that circulates as a doll
 URL: https://kompositenews.com/startups/what-a-seed-round-now-requires/
 Section: Startups
 By: Komposite News Staff
-Published: 2026-08-27T09:00:00Z
-Updated: 2026-08-27T09:00:00Z
+Published: 2026-09-04T09:00:00Z
+Updated: 2026-09-04T09:00:00Z
 
 Seed rounds now arrive after revenue and retention evidence that once belonged to Series A, and the gap between rounds has stretched past two years.
 

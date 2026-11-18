@@ -8,7 +8,7 @@ export default [
   dek: "Vendors have learned to produce the file. The harder question is what happens to it after it lands in a procurement inbox.",
   metaDesc: "Software bills of materials are now routinely produced and routinely ignored, and the gap between generating one and acting on it is where the risk sits.",
   author: "staff",
-  date: "2026-08-30T09:00:00Z",
+  date: "2026-09-04T09:00:00Z",
   tags: [{name:"Software Supply Chain",slug:"software-supply-chain"},{name:"Compliance",slug:"compliance"},{name:"Standards",slug:"standards"}],
   photo: {
     file: "Wikimedia Servers-0001 42.jpg", origW: 5475, origH: 3650,
@@ -45,7 +45,7 @@ export default [
   dek: "Federal advisories describe the same route into hardened companies: a phone call, a password reset, and an MFA token moved to a new device.",
   metaDesc: "Federal advisories describe intruders reaching hardened companies through the IT help desk, using password resets and MFA enrollment rather than exploits.",
   author: "staff",
-  date: "2026-08-29T09:00:00Z",
+  date: "2026-09-04T09:00:00Z",
   tags: [{name:"Identity",slug:"identity"},{name:"Fraud",slug:"fraud"},{name:"Security Operations",slug:"security-operations"}],
   photo: {
     file: "Callcentre.jpg", origW: 2288, origH: 1712,
@@ -82,7 +82,7 @@ export default [
   dek: "Carriers price the consequences, so their questionnaires have become more prescriptive than most regulation, and considerably harder to argue with.",
   metaDesc: "Cyber insurance questionnaires have become a de facto security standard, demanding evidence that controls were enforced rather than merely documented.",
   author: "staff",
-  date: "2026-08-28T09:00:00Z",
+  date: "2026-09-04T09:00:00Z",
   tags: [{name:"Insurance",slug:"insurance"},{name:"Risk",slug:"risk"},{name:"Security Operations",slug:"security-operations"}],
   photo: {
     file: "Insurance Building (Ellsworth KS) from NW 1.JPG", origW: 1931, origH: 1631,

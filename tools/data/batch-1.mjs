@@ -14,7 +14,7 @@ export default [
   dek: "Twenty states now have comprehensive statutes in force, and companies operating across them have stopped building to any single one.",
   metaDesc: "Twenty states now enforce comprehensive privacy statutes on staggered schedules, and multistate companies increasingly build once to the strictest rule.",
   author: "staff",
-  date: "2026-09-02T09:00:00Z",
+  date: "2026-09-04T09:00:00Z",
   tags: [{name:"Regulation",slug:"regulation"},{name:"Compliance",slug:"compliance"},{name:"Data Infrastructure",slug:"data-infrastructure"}],
   photo: {
     file: "Washington State Senate chamber.jpg", origW: 2304, origH: 1728,
@@ -88,7 +88,7 @@ export default [
   dek: "The statutes passed. The fight moved to parts pairing, diagnostic software, and what a manufacturer may require before a repair will function.",
   metaDesc: "Right-to-repair statutes have moved from passage into enforcement, and the contested ground is now parts pairing and access to diagnostic software.",
   author: "staff",
-  date: "2026-09-01T09:00:00Z",
+  date: "2026-09-04T09:00:00Z",
   tags: [{name:"Regulation",slug:"regulation"},{name:"Consumer Technology",slug:"consumer-technology"},{name:"Manufacturing",slug:"manufacturing"}],
   photo: {
     file: "Repair Cafe by Ilvy Njiokiktjien.jpg", origW: 3356, origH: 4070,
