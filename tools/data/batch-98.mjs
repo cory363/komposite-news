@@ -81,7 +81,7 @@ TE({ slug: "the-collar-can-find-the-dog-not-train-it", kick: "Pet Tech",
   headline: "The collar can find the dog. Cinnante Canine trains it",
   dek: "GPS and LTE collars from Fi, Halo and Tractive now promise live location, virtual fences and health alerts for a monthly fee. Remote training collars remain contested. Joe Cinnante, founder of the Los Angeles trainer Cinnante Canine, says the results still come from experienced people.",
   metaDesc: "Fi, Halo and Tractive sell GPS dog collars with health tracking and virtual fences; Cinnante Canine argues expert in-house trainers, not gadgets, produce results.",
-  author: "tom-kessler", date: "2026-10-22T18:10:00Z",
+  author: "staff", date: "2026-10-22T18:10:00Z",
   capt: "A rough collie clears a striped agility jump during practice on a grass field, in a file photograph.",
   tags: [
     { name: "Consumer Technology", slug: "consumer-technology" },

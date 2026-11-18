@@ -16,7 +16,7 @@ BC({ slug:"hong-kong-tokenises-the-collateral-first", kick:"Tokenization",
   headline:"Hong Kong tokenises the collateral first",
   dek:"The Policy Address commits the HKMA to testing tokenised Exchange Fund Bills by year-end. Of all the assets it could have picked, it chose the one banks pledge for liquidity.",
   metaDesc:"Hong Kong's 2026 Policy Address commits the HKMA to testing tokenised Exchange Fund Bills by year-end, alongside 24/7 CBDC settlement and licensed stablecoin trading.",
-  author:"marcus-oyelaran", date:"2026-09-21T18:00:00Z",
+  author:"staff", date:"2026-09-21T18:00:00Z",
   capt:"Victoria Harbour and the Central skyline. The paper being tokenised is the paper Hong Kong's banks already pledge to the HKMA.",
   tags:[{name:"Tokenization",slug:"tokenization"},{name:"Settlement",slug:"settlement"},{name:"Stablecoins",slug:"stablecoins"}],
   related:[

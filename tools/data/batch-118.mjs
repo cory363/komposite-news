@@ -96,7 +96,7 @@ const BIO = `Dr. Richard Berry, a family physician, founded the practice in 2022
 const CLOSE = `Dr. Berry described the access promise to DPC News in 2023. "When I say access, that means you can text, call, or email, and you'll get a response right away, around the clock," he said. Maple Health has run on individual memberships since 2022, with a small panel and a collaborative clinical team. The open question is whether that model can scale from individual memberships into employer-sponsored primary care.`;
 
 const BIZ = P("business", "Business", "business", "Photograph via Unsplash");
-const BASE = { kick: "Health Care", author: "dana-whitfield", date: "2026-11-05T19:55:00Z", capt: CAPT, tags: TAGS };
+const BASE = { kick: "Health Care", author: "staff", date: "2026-11-05T19:55:00Z", capt: CAPT, tags: TAGS };
 
 export default [
 

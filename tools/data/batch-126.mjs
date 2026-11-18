@@ -339,7 +339,7 @@ TE({ slug: "sixty-eight-days-to-finish-the-upper-c-band-auction", kick: "Spectru
   headline: "Sixty-eight days to finish the upper C-band auction",
   dek: "The FCC has set bidding for 3,248 upper C-band licences to start on 27 April 2027. Congress wants the auction completed by 4 July. The last two mid-band auctions took 71 and 91 days from first bid to final assignment.",
   metaDesc: "FCC Auction 115 bidding starts 27 April 2027, 68 days before the statutory 4 July deadline; Auctions 107 and 110 took 71 and 91 days, by our count.",
-  author: "tom-kessler", date: "2026-11-17T13:00:00Z",
+  author: "staff", date: "2026-11-17T13:00:00Z",
   capt: "A horn-shaped sugar-scoop antenna, with a dish antenna behind it, at the former satellite earth station in Carnarvon, Western Australia, in a file photograph from 2020.",
   tags: [
     { name: "Infrastructure", slug: "infrastructure" },
@@ -372,7 +372,7 @@ MK({ slug: "margin-debt-slips-3-6-per-cent-from-its-june-record", kick: "Leverag
   headline: "Margin debt slips 3.6 per cent from its June record",
   dek: "Investors owed their brokers $1.448tn at the end of October, FINRA figures show, down from $1.502tn in June. The run-up into June was the steepest before a peak since 2007, by our analysis of the series since 1997.",
   metaDesc: "FINRA data show margin debt of $1.448tn in October 2026, 3.6% below June's $1.502tn record; the 49% rise into June was the steepest since 2007, by our count.",
-  author: "priya-raghavan", date: "2026-11-17T13:20:00Z",
+  author: "staff", date: "2026-11-17T13:20:00Z",
   capt: "The columned facade of the New York Stock Exchange on Broad Street, Manhattan, hung with a large US flag, in a file photograph from 2012.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },
@@ -405,7 +405,7 @@ PO({ slug: "the-sec-moves-to-retire-compensation-actually-paid", kick: "Disclosu
   headline: "The SEC moves to retire 'compensation actually paid'",
   dek: "The SEC's proposed rewrite of executive-pay disclosure would drop a Dodd-Frank-era measure that, by our analysis of 1,346 companies' filings, sat a median 37 per cent away from the pay figure companies already report.",
   metaDesc: "The SEC would replace 'compensation actually paid'; across 1,346 firms it differed from reported CEO pay by a median 37% in fiscal 2025, our analysis finds.",
-  author: "jonathan-bright", date: "2026-11-17T13:40:00Z",
+  author: "staff", date: "2026-11-17T13:40:00Z",
   capt: "Street lamps in front of the glass facade of the Securities and Exchange Commission's headquarters in Washington, in a file photograph from 2008.",
   tags: [
     { name: "Regulation", slug: "regulation" },
@@ -439,7 +439,7 @@ TE({ slug: "microsoft-traces-its-mail-outage-to-a-july-fix", kick: "Outages",
   headline: "Microsoft traces its mail outage to a July fix",
   dek: "A Windows change Microsoft began deploying in July sat dormant for more than three months before taking down the gateway in front of Exchange Online, its preliminary report says. More than 80 per cent of the gateway's servers stopped responding.",
   metaDesc: "Microsoft's preliminary report blames a July Windows fix for the 12-13 Nov Exchange Online outage; over 80% of gateway servers stopped responding.",
-  author: "tom-kessler", date: "2026-11-17T14:00:00Z",
+  author: "staff", date: "2026-11-17T14:00:00Z",
   capt: "A rack-mounted network switch surrounded by a tangle of blue and grey network cables, in a file photograph from 2007.",
   tags: [
     { name: "Cloud", slug: "cloud" },
@@ -474,7 +474,7 @@ FI({ slug: "chase-blames-a-bug-and-the-outage-rule-counts-bugs", kick: "Banking"
   headline: "Chase blames a bug, and the outage rule counts bugs",
   dek: "JPMorgan Chase says Monday's disruption to consumer transactions came from a software bug in its own on-premise hardware, not a cyberattack. The 2021 federal rule on bank incident notices covers outages from any cause, and gives banks 36 hours.",
   metaDesc: "Chase blamed a bug in on-premise hardware for its 16 Nov outage; the 2021 bank notice rule covers incidents 'from whatever cause', with 36 hours to report.",
-  author: "elena-vasquez", date: "2026-11-17T14:20:00Z",
+  author: "staff", date: "2026-11-17T14:20:00Z",
   capt: "A Chase branch on Montrose Boulevard in Houston, Texas, with an empty car park in front, in a file photograph from 2022.",
   tags: [
     { name: "Banking", slug: "banking" },

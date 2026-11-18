@@ -5,7 +5,7 @@
 - News stories, pieces labeled Analysis and pieces labeled Opinion are clearly distinguished.
 - Information is attributed to sources wherever possible and claims are verified before publication; sponsored content is always labeled.
 - Corrected articles carry a note describing what was wrong and when it was fixed.
-- Komposite News uses AI tools to help research, draft and edit stories; every story is checked against its listed sources and approved by an editor before it goes live. Bylines name the desk or house byline responsible; they are not always individual reporters (see https://kompositenews.com/editorial-standards/#how-we-use-ai).
+- AI at Komposite News. Komposite uses AI tools to summarise filings, regulatory notices and company statements, to draft articles and to translate some Spanish-language pages. From November 2026 onward, no article goes up until a human editor has approved it. Stories without an individual author carry the Komposite News Staff byline (see https://kompositenews.com/editorial-standards/#how-we-use-ai).
 - A selection of coverage is also published in Spanish under /es/.
 - All articles are free to read. A plain-text copy of the key stories is at https://kompositenews.com/llms-full.txt.
 

@@ -99,7 +99,7 @@ MK({ slug: "thirty-seven-and-a-half-billion-with-sixty-to-follow", kick: "Equity
   headline: "Thirty-seven and a half billion, with sixty to follow",
   dek: "Meta priced $37.5bn of new equity on Monday, $25bn of common stock at $625 a share and $12.5bn of mandatory convertible preferred, and said it plans a further $60bn share-sale programme next year. Nvidia, AMD and Broadcom indicated interest in buying up to $5bn.",
   metaDesc: "Meta priced $25bn of stock at $625 and $12.5bn of convertible preferred, and plans a $60bn share programme in 2027 as AI spending outruns its cash flow.",
-  author: "priya-raghavan", date: "2026-10-28T23:40:00Z",
+  author: "staff", date: "2026-10-28T23:40:00Z",
   capt: "A long, low Meta data centre building, then Facebook's, behind a row of juniper trees and a wire fence west of Prineville, Oregon, in a file photograph.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },

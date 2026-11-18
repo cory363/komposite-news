@@ -25,7 +25,7 @@ const esc = s => String(s).replace(/&(?!amp;|lt;|gt;|quot;|#)/g, "&amp;");
 const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)\//.test(f))
   .map(f => {
     const h = fs.readFileSync(f, "utf8");
-    const by = h.match(/<a href="\/authors\/([a-z-]+)\/" class="byname">([^<]+)<\/a><span class="byrole">\s*&middot;\s*([^<]*)</);
+    const by = h.match(/<a href="\/authors\/([a-z-]+)\/" class="byname">([^<]+)<\/a>(?:<span class="byrole">\s*&middot;\s*([^<]*)<)?/);
     const img = h.match(/<figure class="arthero">[\s\S]*?<img[^>]*\ssrc="([^"]*)"[^>]*alt="([^"]*)"/);
     const cred = h.match(/<figure class="arthero">[\s\S]*?<span class="pcred">([\s\S]*?)<\/span>/);
     return {
@@ -34,7 +34,7 @@ const arts = walk(".").filter(f => f.split("/").length === 3 && !/^(authors|tag)
       dek: ((h.match(/<p class="artdeck">([\s\S]*?)<\/p>/) || [])[1] || "").replace(/<[^>]*>/g, ""),
       kick: (h.match(/<span class="kick">([^<]*)</) || [])[1] || "",
       date: (h.match(/"datePublished":"([^"]+)"/) || [])[1] || "",
-      author: by ? by[1] : null, name: by ? by[2] : null, role: by ? by[3].trim() : null,
+      author: by ? by[1] : null, name: by ? by[2] : null, role: by ? (by[3] || "").trim() : null,
       img: img ? img[1] : null, alt: img ? img[2] : "", cred: cred ? cred[1] : "",
     };
   }).filter(a => a.title && a.date).sort((a, b) => b.date.localeCompare(a.date));

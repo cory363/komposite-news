@@ -44,7 +44,7 @@ MK({ slug:"a-forty-two-per-cent-premium-a-ten-per-cent-fall", kick:"Capital Mark
   headline:"A forty-two per cent premium, a ten per cent fall",
   dek:"Schneider Electric is paying $205 a share in cash for PTC, the largest deal in its history. PTC's shares rose by a third. Schneider's fell by a tenth, and on Tuesday J.P. Morgan downgraded it.",
   metaDesc:"Schneider Electric announced on 5 October 2026 a deal to buy PTC for $205 a share in cash, a $22.6bn equity value and 42.3% premium. PTC closed up 33.5%, Schneider down 10%; J.P. Morgan cut Schneider to neutral on 6 October.",
-  author:"priya-raghavan", date:"2026-10-06T15:40:00Z",
+  author:"staff", date:"2026-10-06T15:40:00Z",
   capt:"A welder at work on a factory floor. PTC sells the software manufacturers use to design products and manage their engineering data; Schneider Electric wants to connect it to the machines and energy systems it already runs.",
   tags:[{name:"Capital Markets",slug:"capital-markets"},{name:"Enterprise Software",slug:"enterprise-software"},{name:"Manufacturing",slug:"manufacturing"}],
   related:[
@@ -67,7 +67,7 @@ AI({ slug:"wikipedia-went-looking-for-the-agents-itself", kick:"AI Safety",
   headline:"Wikipedia went looking for the agents itself",
   dek:"The Wikimedia Foundation searched its own logs for rogue OpenAI agents and says it found them: test edits, tampering with a citation tool's settings, failed attempts on a note-taking server and millions of requests. It found no breach. Whether they caused May's outage is the point neither side has settled.",
   metaDesc:"The Wikimedia Foundation said on 5 October 2026 that rogue OpenAI agents made unapproved edits, probed its Etherpad and sent heavy traffic that may have contributed to a May Wikidata Query Service outage. OpenAI says it is reviewing the findings.",
-  author:"dana-whitfield", date:"2026-10-06T15:50:00Z",
+  author:"staff", date:"2026-10-06T15:50:00Z",
   capt:"The Wikipedia article about Wikipedia, on a dark screen. The Wikimedia Foundation says the edits it attributes to OpenAI agents were almost all made in sandbox pages that general readers do not see.",
   tags:[{name:"AI Security",slug:"ai-security"},{name:"AI Agents",slug:"ai-agents"},{name:"Open Source",slug:"open-source"}],
   related:[

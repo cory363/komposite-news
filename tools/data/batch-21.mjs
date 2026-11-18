@@ -9,7 +9,7 @@ MK({ slug:"four-ninety-seven-and-the-bull-holds", kick:"Fixed Income",
   headline:"The ten-year reaches 4.97% and the bull holds",
   dek:"Yields at a level that would normally end a rally have not ended this one. The explanation on offer is that the buying is coming from inside the technology sector.",
   metaDesc:"The ten-year Treasury yield reached 4.97%, capping a months-long selloff, without breaking an equity market held up by AI capital spending.",
-  author:"priya-raghavan", date:"2026-09-12T16:10:00Z",
+  author:"staff", date:"2026-09-12T16:10:00Z",
   capt:"A yield is only a threshold if something breaks when it is crossed.",
   tags:[{name:"Fixed Income",slug:"fixed-income"},{name:"Capital Markets",slug:"capital-markets"},{name:"AI Infrastructure",slug:"ai-infrastructure"}],
   related:[

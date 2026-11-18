@@ -45,7 +45,7 @@ PO({ slug:"in-sweden-a-prosecutor-holds-the-switch", kick:"AI Governance",
   headline:"In Sweden, a prosecutor holds the switch",
   dek:"Sweden's law letting police run live facial recognition in public places has been in force since 1 July. It is the EU's ban with the exception written out in full, and its most contested clause is who signs off. Britain is still without a law of its own.",
   metaDesc:"Sweden's law on police use of real-time facial recognition (SFS 2026:806) took effect on 1 July 2026 under the AI Act's Article 5 exception. Prosecutors approve preventive use and courts approve use in investigations, with notifications to IMY. Scotland's biometrics commissioner wants primary legislation.",
-  author:"jonathan-bright", date:"2026-10-07T14:30:00Z",
+  author:"staff", date:"2026-10-07T14:30:00Z",
   capt:"Pedestrians crossing a street in central Stockholm. Sweden's law covers police use of real-time facial recognition in public places.",
   tags:[{name:"AI Governance",slug:"ai-governance"},{name:"Regulation",slug:"regulation"},{name:"Digital Identity",slug:"digital-identity"}],
   related:[

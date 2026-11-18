@@ -173,7 +173,7 @@ AI({ slug: "thirty-one-states-have-election-deepfake-laws-on-polling-day", kick:
   headline: "Thirty-one states, three courtrooms",
   dek: "Voters in 31 states cast ballots on Tuesday under a state law on AI deepfakes in election communications, by our count. Courts have struck down Hawaii's, blocked one of California's and left Minnesota's standing for now.",
   metaDesc: "By our count, 31 states have election deepfake laws on the books on 3 November 2026. Hawaii's was struck down; a California law is blocked on appeal.",
-  author: "dana-whitfield", date: "2026-11-03T14:00:00Z",
+  author: "staff", date: "2026-11-03T14:00:00Z",
   capt: "An empty television news control room with a wall of monitors and a production desk, in a file photograph.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },
@@ -203,7 +203,7 @@ PO({ slug: "ai-super-pacs-enter-election-day-with-30-6m-against-1-8m", kick: "Po
   headline: "$30.6m in reserve against $1.8m",
   dek: "The AI industry's two super PAC networks had spent $34.5m and $25.2m on independent expenditures by their latest federal filings. The network funded by investors including Andreessen Horowitz's founders held $30.6m in cash; the Anthropic-backed one held $1.8m.",
   metaDesc: "FEC filings show the Leading the Future super PACs held $30.6m in cash on 14 October; the Public First group held $1.8m on 30 September.",
-  author: "jonathan-bright", date: "2026-11-03T14:20:00Z",
+  author: "staff", date: "2026-11-03T14:20:00Z",
   capt: "The East Front and dome of the United States Capitol in Washington under a clear sky, in a file photograph.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },

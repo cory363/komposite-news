@@ -68,7 +68,7 @@ PO({ slug: "nine-banks-a-review-and-no-penalty", kick: "Debanking",
   headline: "Nine banks, a review, and no penalty",
   dek: "The OCC said on Wednesday that all nine of the largest national banks it supervises had policies that could deny or limit services over beliefs or lawful business, digital assets included. It announced no penalty, and its head said he was not confident the banks' own fixes would be enough.",
   metaDesc: "The OCC's debanking review found all nine of the largest national banks it supervises had restrictive policies, including on digital assets. No penalty was announced.",
-  author: "jonathan-bright", date: "2026-10-15T12:45:00Z",
+  author: "staff", date: "2026-10-15T12:45:00Z",
   capt: "Constitution Center at 400 7th Street SW in Washington, which houses the headquarters of the Office of the Comptroller of the Currency, in a 2011 file photograph.",
   tags: [
     { name: "Banking", slug: "banking" },

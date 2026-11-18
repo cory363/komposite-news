@@ -14,7 +14,7 @@ CR({ slug:"the-clarity-act-stops-at-forty-nine", kick:"Regulation",
   headline:"The CLARITY Act stops at forty-nine",
   dek:"The Senate would not open debate on crypto market structure. The bill failed over who gets to police a president's profits, not over the rules for the market.",
   metaDesc:"The Senate voted 49-50 against advancing the CLARITY Act, leaving crypto market structure legislation stalled over ethics rules ahead of the midterm elections.",
-  author:"marcus-oyelaran", date:"2026-09-16T19:30:00Z",
+  author:"staff", date:"2026-09-16T19:30:00Z",
   capt:"A procedural vote, and the only one the bill could not afford to lose.",
   tags:[{name:"Regulation",slug:"regulation"},{name:"Digital Assets",slug:"digital-assets"},{name:"Stablecoins",slug:"stablecoins"}],
   related:[

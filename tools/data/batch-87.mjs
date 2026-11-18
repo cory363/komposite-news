@@ -62,7 +62,7 @@ CY({ slug: "fifty-two-per-cent-over-the-june-price", kick: "M&A",
   headline: "Fifty-two per cent over the June price",
   dek: "Proofpoint, owned by Thoma Bravo, has agreed to buy the data-security firm Varonis for about $6.3bn in cash, or $49.75 a share. The price is 52 per cent above the last close before sale rumours surfaced in June.",
   metaDesc: "Thoma Bravo-owned Proofpoint agreed to buy Varonis for about $6.3bn in cash at $49.75 a share, with closing expected in the first half of 2027.",
-  author: "sam-porter", date: "2026-10-17T17:15:00Z",
+  author: "staff", date: "2026-10-17T17:15:00Z",
   capt: "Servers and blue network cables in a rack, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },

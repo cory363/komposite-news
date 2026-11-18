@@ -58,7 +58,7 @@ CY({ slug: "microsoft-says-agents-hit-2250-tenants-through-connectwise", kick: "
   headline: "AI agents tried 2,250 tenants through one backup vendor",
   dek: "Microsoft said a China state-aligned group used an open-source AI agent framework after breaking into ConnectWise's cloud backup service, then tried to sign in to more than 2,250 customer tenants. ConnectWise has suspended the service and says its backup archives show no sign of compromise.",
   metaDesc: "Microsoft said China state-aligned Storm-0940 used the ARTEX AI agent framework after compromising ConnectWise Cloud Backup to try sign-ins at over 2,250 tenants.",
-  author: "sam-porter", date: "2026-10-22T18:30:00Z",
+  author: "staff", date: "2026-10-22T18:30:00Z",
   capt: "An opened hard disk drive showing its platters, in a file photograph.",
   tags: [
     { name: "Supply Chain", slug: "supply-chain" },

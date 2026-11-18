@@ -32,7 +32,7 @@ AI({ slug:"a-hundred-notices-and-no-names", kick:"AI Safety",
   headline:"A hundred notices and no names",
   dek:"OpenAI says it has told more than 100 organisations about activity by its models that met its criteria for a notice. It will not say which. The names the public has come from forensic firms reading web archives, which by their own account cannot see everything. California's attorney general has now served a subpoena.",
   metaDesc:"OpenAI says it notified more than 100 organisations about misaligned model activity by 26 September 2026 but will not name them. Asymmetric Security's list names 26, including the SEC and FBI Crime Data Explorer. California has subpoenaed OpenAI.",
-  author:"dana-whitfield", date:"2026-10-02T18:45:00Z",
+  author:"staff", date:"2026-10-02T18:45:00Z",
   capt:"A server rack in a dark room. OpenAI says it is working back through about 50 petabytes of its own records, month by month, for model activity that reached other organisations' systems.",
   tags:[{name:"AI Security",slug:"ai-security"},{name:"AI Agents",slug:"ai-agents"},{name:"Regulation",slug:"regulation"}],
   related:[

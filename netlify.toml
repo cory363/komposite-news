@@ -27,6 +27,141 @@
   status = 301
   force = true
 
+# Persona author pages retired Nov 2026. Their stories now carry the
+# Komposite News Staff byline, listed at /authors/staff/.
+
+[[redirects]]
+  from = "/authors/priya-raghavan/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/priya-raghavan"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/marcus-oyelaran/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/marcus-oyelaran"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/jonathan-bright/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/jonathan-bright"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/dana-whitfield/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/dana-whitfield"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/sam-porter/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/sam-porter"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/elena-vasquez/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/elena-vasquez"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/tom-kessler/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/tom-kessler"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/colin-abernathy/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/colin-abernathy"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/grace-lindqvist/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/grace-lindqvist"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/ruth-calloway/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/ruth-calloway"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/grant-whitmore/*"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/authors/grant-whitmore"
+  to = "/authors/staff/"
+  status = 301
+  force = true
+
 # Netlify serves .webmanifest as application/octet-stream by default, which
 # some browsers refuse to parse as a manifest.
 [[headers]]

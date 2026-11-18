@@ -135,7 +135,7 @@ MK({ slug: "eighty-five-per-cent-margins-and-an-eight-for-one-split", kick: "Ear
   headline: "Eighty-five per cent margins, and an eight-for-one split",
   dek: "Sandisk's revenue rose to $11.0bn in its fiscal first quarter, nearly five times a year earlier, at an 85 per cent gross margin. It guided higher again, bought back $5bn of stock and will split its shares eight for one from 20 November.",
   metaDesc: "Sandisk's fiscal Q1 revenue rose 378% to $11.0bn at an 85% gross margin. It guided to $12.4bn and set an 8-for-1 stock split from 20 November.",
-  author: "priya-raghavan", date: "2026-10-30T16:20:00Z",
+  author: "staff", date: "2026-10-30T16:20:00Z",
   capt: "A Sandisk Fusion ioMemory PCI Express flash storage card for servers, with rows of black memory chips and a finned heatsink, in a file photograph.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },
@@ -165,7 +165,7 @@ AI({ slug: "a-million-fewer-search-visits-a-week", kick: "AI Search",
   headline: "A million fewer search visits a week",
   dek: "Reddit's revenue rose 53 per cent in the third quarter, but it said search referrals fell \"meaningfully\" as search becomes AI-powered, warned that daily users could fall by a low-double-digit percentage, and guided below forecasts. The shares fell about a quarter.",
   metaDesc: "Reddit said search referrals fell sharply as search turns to AI, warned daily users could drop in Q4 and guided below forecasts. Shares fell about 25%.",
-  author: "dana-whitfield", date: "2026-10-30T16:40:00Z",
+  author: "staff", date: "2026-10-30T16:40:00Z",
   capt: "Reddit's account sign-up prompt, offering sign-in with Google, Apple or email, in a 2020 screenshot.",
   tags: [
     { name: "AI", slug: "ai" },

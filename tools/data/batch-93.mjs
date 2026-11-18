@@ -90,7 +90,7 @@ PO({ slug: "seventy-two-hours-to-report-an-ai-incident", kick: "Procurement",
   headline: "Seventy-two hours to report an AI incident",
   dek: "The General Services Administration's new contract clause for AI systems took effect on Monday. It gives vendors 72 hours to report security incidents, bars training on government data and overrides their own terms of service.",
   metaDesc: "GSA's AI clause GSAR 552.239-7001 took effect on 19 October: 72-hour incident reports, a bar on training with government data and set notice periods for model changes.",
-  author: "jonathan-bright", date: "2026-10-20T19:00:00Z",
+  author: "staff", date: "2026-10-20T19:00:00Z",
   capt: "The words \"Terms of Service\" typed on a sheet of paper in a typewriter, in a file photograph.",
   tags: [
     { name: "Procurement", slug: "procurement" },

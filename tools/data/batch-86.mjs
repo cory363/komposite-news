@@ -128,7 +128,7 @@ FTC({ slug: "deutsche-bank-is-weeks-from-holding-bitcoin", kick: "Custody",
   headline: "Deutsche Bank is weeks from holding bitcoin",
   dek: "Deutsche Bank is weeks from launching crypto custody in Germany, the co-head of its corporate bank told Reuters, with Asian financial centres to follow next year. The bank's September release lists bitcoin, ether and selected stablecoins for launch.",
   metaDesc: "Deutsche Bank is weeks from launching crypto custody in Germany, co-head of its corporate bank Gerald Podobnik told Reuters, with Asia to follow next year.",
-  author: "elena-vasquez", date: "2026-10-17T16:50:00Z",
+  author: "staff", date: "2026-10-17T16:50:00Z",
   capt: "The glass towers of Deutsche Bank's headquarters in Frankfurt, in a file photograph.",
   tags: [
     { name: "Custody", slug: "custody" },
@@ -158,7 +158,7 @@ AIU({ slug: "anthropics-first-canadian-lease-is-for-95-megawatts", kick: "Data C
   headline: "Anthropic's first Canadian lease is for 95 megawatts",
   dek: "Anthropic has signed a 20-year lease for the first phase of EverWind's planned data centre at Point Tupper, Nova Scotia. The lease value was not disclosed, and EverWind says the wind farms meant to supply the campus will not be ready when it opens.",
   metaDesc: "Anthropic has signed a 20-year lease for a 95MW data centre at Point Tupper, Nova Scotia, EverWind said on Friday; the value of the lease was not disclosed.",
-  author: "tom-kessler", date: "2026-10-17T17:00:00Z",
+  author: "staff", date: "2026-10-17T17:00:00Z",
   capt: "Wind turbines beside a sandy coastal track under a blue sky, in a file photograph.",
   tags: [
     { name: "Data Centers", slug: "data-centers" },
@@ -187,7 +187,7 @@ AIU({ slug: "meta-opens-the-weights-on-816-billion-parameters", kick: "Open Mode
   headline: "Meta opens the weights on 816 billion parameters",
   dek: "Meta has released the weights of Muse Spark Open, an 816bn-parameter multimodal model, under a free licence that requires large model-hosting businesses to sign a separate deal with Meta. Meta calls it the most capable US open-weight model to date.",
   metaDesc: "Meta released the weights of Muse Spark Open, an 816bn-parameter model, on Thursday, calling it the most capable US open-weight model to date.",
-  author: "dana-whitfield", date: "2026-10-17T17:10:00Z",
+  author: "staff", date: "2026-10-17T17:10:00Z",
   capt: "A Mac Studio desktop computer on a wooden desk, in a file photograph.",
   tags: [
     { name: "Open Source", slug: "open-source" },
@@ -216,7 +216,7 @@ AIC({ slug: "the-ftc-asks-two-labs-for-their-incident-files", kick: "Regulation"
   headline: "The FTC asks two labs for their incident files",
   dek: "The Federal Trade Commission has sent civil investigative demands of more than 50 pages each to OpenAI and Anthropic about safety incidents, Axios reported. An FTC spokesperson confirmed the action, and the agency plans to seek testimony from executives.",
   metaDesc: "The FTC has sent OpenAI and Anthropic civil investigative demands of more than 50 pages each over AI safety incidents, Axios reported; an FTC spokesperson confirmed it.",
-  author: "dana-whitfield", date: "2026-10-17T17:20:00Z",
+  author: "staff", date: "2026-10-17T17:20:00Z",
   capt: "The Apex Building, headquarters of the Federal Trade Commission, on Constitution Avenue in Washington, in a file photograph.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },

@@ -98,7 +98,7 @@ CY({ slug: "hacken-puts-most-q3-hack-losses-outside-the-audit", kick: "Crypto Se
   headline: "Hacken puts most Q3 hack losses outside the audit",
   dek: "Security firm Hacken says crypto hacks cost $1.18bn across 107 incidents in the third quarter, up 55 per cent. It attributes about 77 per cent to suppliers, unapplied fixes and systems left out of security reviews. Two outlets differ on the biggest cases.",
   metaDesc: "Hacken's Q3 report puts crypto hack losses at $1.18bn across 107 incidents and blames about 77 per cent on suppliers, unapplied fixes and unreviewed systems.",
-  author: "sam-porter", date: "2026-10-18T22:15:00Z",
+  author: "staff", date: "2026-10-18T22:15:00Z",
   capt: "A bunch of keys on a ring, lying on a wooden table, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },
@@ -128,7 +128,7 @@ AI({ slug: "anthropic-sets-aside-five-per-cent-for-a-fund", kick: "Governance",
   headline: "Anthropic sets aside five per cent for a fund",
   dek: "Anthropic said on Sunday it will commit 5 per cent of its shares to a public benefit fund held in a wholly-owned LLC, subject to stockholder approval. It gave no dollar value, and said governance details will follow in the coming months.",
   metaDesc: "Anthropic said on Sunday it will commit 5 per cent of its shares to a public benefit fund, subject to stockholder approval, with governance details still to come.",
-  author: "dana-whitfield", date: "2026-10-18T22:30:00Z",
+  author: "staff", date: "2026-10-18T22:30:00Z",
   capt: "A green shoot growing out of dark soil, in a file photograph.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },

@@ -83,7 +83,7 @@ FT({ slug:"two-hundred-and-seventy-seven-questions", kick:"Stablecoins",
   headline:"Two hundred and seventy-seven questions",
   dek:"The Federal Reserve Board voted seven to nothing on Thursday to put two proposed rules for payment stablecoin issuers out for comment. It has decided nothing. The notices run to 452 pages, ask 277 numbered questions and have not yet reached the Federal Register, so the sixty days has not started — but the reserve list inside them is an answer to the balance sheets this desk opened yesterday.",
   metaDesc:"The Federal Reserve Board approved two notices of proposed rulemaking on 24 September 2026 implementing the GENIUS Act for payment stablecoin issuers. Comments close 60 days after Federal Register publication, which has not yet happened.",
-  author:"elena-vasquez", date:"2026-09-25T18:00:00Z",
+  author:"staff", date:"2026-09-25T18:00:00Z",
   capt:"The Federal Reserve Bank of Chicago at LaSalle and Jackson. The rules were written at the Board in Washington, but the state member banks that are the only institutions entitled to apply under the second of them are examined through the Reserve Banks.",
   tags:[{name:"Stablecoins",slug:"stablecoins"},{name:"Regulation",slug:"regulation"},{name:"Banking",slug:"banking"}],
   related:[

@@ -11,7 +11,7 @@ URL: https://kompositenews.com/about/
 About Komposite News
 Komposite News is an independent digital publication covering artificial intelligence, blockchain, digital assets, enterprise technology, cybersecurity, fintech and capital markets. We write for executives, founders, investors, developers and policy professionals who need to understand how technology and finance are changing each other.
 Our coverage prioritizes reporting and analysis over hype. We are interested in what is being built, what it costs, who is buying it and what the consequences are, and we hold breathless claims from any direction to the same standard of evidence.
-Komposite News is edited by Cory Chamberlain, chief editor, and Noam Krasniansky, co-editor and chief content officer.
+Komposite News is edited and published by Cory Chamberlain.
 Ownership and funding: Komposite News is independently operated. Any commercial relationship relevant to a story is disclosed within that story, and sponsored content is always clearly labeled. Questions about the publication can be directed through our contact page.
 
 ---
@@ -25,7 +25,8 @@ Komposite News reports facts we can verify and clearly distinguishes reporting f
 We attribute information to sources wherever possible, grant anonymity only when information is significant and cannot otherwise be obtained, and independently verify claims before publishing them. We do not accept payment for editorial coverage, and staff may not trade on non-public information obtained through reporting.
 Sponsored or partner content, when it appears, is labeled unambiguously and is never presented in editorial form without that label. Errors, when they occur, are corrected promptly and transparently under our corrections policy.
 How we use AI
-Komposite News uses AI tools to help research, draft and edit stories. Every story is checked against the sources listed with it before publication, and quotes are published only when we can match them to a source or the person approved them. An editor approves each story before it goes live. Bylines name the desk or house byline responsible for a story; they are not always individual reporters. Corrections: contact the newsroom via our contact page with the article link and the specific claim at issue, as set out in our corrections policy.
+AI at Komposite News. Komposite uses AI tools to summarise filings, regulatory notices and company statements, to draft articles and to translate some Spanish-language pages. From November 2026 onward, no article goes up until a human editor has approved it.
+Stories without an individual author carry the Komposite News Staff byline. Corrections: contact the newsroom via our contact page with the article link and the specific claim at issue, as set out in our corrections policy.
 
 ---
 
@@ -45,7 +46,8 @@ No corrections have been logged for the current publication period.
 URL: https://kompositenews.com/ai-policy/
 
 AI Policy
-Komposite News uses AI tools to help research, draft and edit stories, and to assist with translation and site infrastructure. AI is not a replacement for editorial judgment: every story is checked against the sources listed with it, and an editor approves each story before it goes live. Responsibility for accuracy rests with the newsroom, not with any tool used to produce it. Bylines name the desk or house byline responsible for a story; they are not always individual reporters. The full statement is in How we use AI.
+AI at Komposite News. Komposite uses AI tools to summarise filings, regulatory notices and company statements, to draft articles and to translate some Spanish-language pages. From November 2026 onward, no article goes up until a human editor has approved it.
+Stories without an individual author carry the Komposite News Staff byline. AI tools also help with site infrastructure.
 Quotes are published only when we can match them to a source or the person approved them. We do not publish AI-generated statements attributed to real people, AI-fabricated data, or synthetic imagery presented as photography. Illustrations are labeled as illustrations, photographs carry credits and licenses, and sample or demonstration data is labeled as such wherever it appears.
 This policy will evolve with the technology. Questions about how a specific story was produced can be directed to the newsroom via our contact page.
 
@@ -65,7 +67,7 @@ For licensing terms, reprint requests, and syndication inquiries, contact partne
 
 URL: https://kompositenews.com/cybersecurity/sbom-what-buyers-do-with-it/
 Section: Cybersecurity
-By: Sam Porter
+By: Komposite News Staff
 Published: 2026-08-30T09:00:00Z
 Updated: 2026-08-30T09:00:00Z
 
@@ -89,7 +91,7 @@ That is a reasonable trade and a smaller claim than the one usually made for it.
 
 URL: https://kompositenews.com/crypto/what-an-attestation-must-prove/
 Section: Crypto
-By: Marcus Oyelaran
+By: Komposite News Staff
 Published: 2026-09-03T14:00:00Z
 Updated: 2026-09-03T14:00:00Z
 
@@ -113,7 +115,7 @@ That may be the intended outcome. A payment instrument that circulates as a doll
 
 URL: https://kompositenews.com/startups/what-a-seed-round-now-requires/
 Section: Startups
-By: Grace Lindqvist
+By: Komposite News Staff
 Published: 2026-08-27T09:00:00Z
 Updated: 2026-08-27T09:00:00Z
 
@@ -137,7 +139,7 @@ The stage will keep its name regardless. It is worth understanding that the word
 
 URL: https://kompositenews.com/markets/volatility-market-structure-ai-trading/
 Section: Markets
-By: Priya Raghavan
+By: Komposite News Staff
 Published: 2026-07-17T15:00:00Z
 Updated: 2026-07-17T15:00:00Z
 
@@ -154,7 +156,7 @@ RelatedDigital asset market making becomes an institutional business ›Practiti
 
 URL: https://kompositenews.com/cybersecurity/identity-machine-workloads/
 Section: Cybersecurity
-By: Sam Porter
+By: Komposite News Staff
 Published: 2026-07-10T10:55:00Z
 Updated: 2026-07-10T10:55:00Z
 
@@ -170,7 +172,7 @@ RelatedCybersecurity spending shifts toward identity and resilience ›Agentic A
 
 URL: https://kompositenews.com/ai/ai-coding-tools-enterprise-standards/
 Section: AI
-By: Tom Kessler
+By: Komposite News Staff
 Published: 2026-06-26T13:30:00Z
 Updated: 2026-06-26T13:30:00Z
 
@@ -186,7 +188,7 @@ RelatedAI infrastructure spending moves into a new phase ›The practical effect
 
 URL: https://kompositenews.com/ai/ai-evaluation-becomes-budget-line/
 Section: AI
-By: Dana Whitfield
+By: Komposite News Staff
 Published: 2026-08-05T13:40:00Z
 Updated: 2026-08-05T13:40:00Z
 
@@ -203,7 +205,7 @@ RelatedEnterprise buyers push for clearer AI contract terms ›The maturity mark
 
 URL: https://kompositenews.com/technology/power-constraints-shape-computing/
 Section: Technology
-By: Jonathan Bright
+By: Komposite News Staff
 Published: 2026-07-27T09:15:00Z
 Updated: 2026-07-27T09:15:00Z
 
@@ -220,7 +222,7 @@ RelatedLiquid cooling stops being optional in AI data centers ›The policy dime
 
 URL: https://kompositenews.com/business/shadow-ai-governance-problem/
 Section: Business
-By: Sam Porter
+By: Komposite News Staff
 Published: 2026-08-07T11:25:00Z
 Updated: 2026-08-07T11:25:00Z
 
@@ -236,7 +238,7 @@ RelatedEnterprise software pricing strains under the weight of AI ›Security le
 
 URL: https://kompositenews.com/fintech/instant-payments-b2b-standard/
 Section: Fintech
-By: Elena Vasquez
+By: Komposite News Staff
 Published: 2026-08-12T11:20:00Z
 Updated: 2026-08-12T11:20:00Z
 
@@ -253,7 +255,7 @@ RelatedWhen software spends: payments build an authorization layer for AI agents
 
 URL: https://kompositenews.com/crypto/stablecoin-reserve-transparency-standards/
 Section: Crypto
-By: Elena Vasquez
+By: Komposite News Staff
 Published: 2026-03-06T08:45:00Z
 Updated: 2026-03-06T08:45:00Z
 
@@ -270,7 +272,7 @@ RelatedStablecoin law meets its implementation year ›Gaps remain, particularly
 
 URL: https://kompositenews.com/blockchain/interoperability-standards-institutional-chains/
 Section: Blockchain
-By: Jonathan Bright
+By: Komposite News Staff
 Published: 2025-11-12T10:05:00Z
 Updated: 2025-11-12T10:05:00Z
 
@@ -287,7 +289,7 @@ RelatedBanks test blockchain settlement without abandoning existing rails ›The
 
 URL: https://kompositenews.com/fintech/chase-blames-a-bug-and-the-outage-rule-counts-bugs/
 Section: Fintech
-By: Elena Vasquez
+By: Komposite News Staff
 Published: 2026-11-17T14:20:00Z
 Updated: 2026-11-17T14:20:00Z
 
@@ -330,7 +332,7 @@ Chase has said its systems are back to normal. What it has not said, how many cu
 
 URL: https://kompositenews.com/technology/microsoft-traces-its-mail-outage-to-a-july-fix/
 Section: Technology
-By: Tom Kessler
+By: Komposite News Staff
 Published: 2026-11-17T14:00:00Z
 Updated: 2026-11-17T14:00:00Z
 
@@ -368,7 +370,7 @@ The report lists five repair items as completed, including guardrails "for traff
 
 URL: https://kompositenews.com/policy/the-sec-moves-to-retire-compensation-actually-paid/
 Section: Policy
-By: Jonathan Bright
+By: Komposite News Staff
 Published: 2026-11-17T13:40:00Z
 Updated: 2026-11-17T13:40:00Z
 
@@ -406,7 +408,7 @@ The proposal is the latest of several this year that pare back disclosure rules.
 
 URL: https://kompositenews.com/markets/margin-debt-slips-3-6-per-cent-from-its-june-record/
 Section: Markets
-By: Priya Raghavan
+By: Komposite News Staff
 Published: 2026-11-17T13:20:00Z
 Updated: 2026-11-17T13:20:00Z
 
@@ -449,7 +451,7 @@ Why it matters: margin loans are callable, and when prices fall, brokers can dem
 
 URL: https://kompositenews.com/technology/sixty-eight-days-to-finish-the-upper-c-band-auction/
 Section: Technology
-By: Tom Kessler
+By: Komposite News Staff
 Published: 2026-11-17T13:00:00Z
 Updated: 2026-11-17T13:00:00Z
 
@@ -479,7 +481,7 @@ The next fixed date is the online application tutorial, due by 11 December, foll
 
 URL: https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/
 Section: Policy
-By: Jonathan Bright
+By: Komposite News Staff
 Published: 2026-11-14T14:20:00Z
 Updated: 2026-11-14T14:20:00Z
 
@@ -525,7 +527,7 @@ The next fixed dates are close. Nvidia reports results on Tuesday 17 November. L
 
 URL: https://kompositenews.com/technology/microsoft-moves-its-outage-start-six-hours-earlier/
 Section: Technology
-By: Tom Kessler
+By: Komposite News Staff
 Published: 2026-11-14T14:00:00Z
 Updated: 2026-11-14T14:00:00Z
 
@@ -555,7 +557,7 @@ The report will be read for two things this record cannot answer: why the start 
 
 URL: https://kompositenews.com/ai/the-h200-licence-rule-line-by-line/
 Section: AI
-By: Dana Whitfield
+By: Komposite News Staff
 Published: 2026-11-14T13:40:00Z
 Updated: 2026-11-14T13:40:00Z
 

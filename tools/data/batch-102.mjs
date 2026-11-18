@@ -114,7 +114,7 @@ FT({ slug: "canada-plans-for-five-stablecoin-issuers-and-no-yield", kick: "Stabl
   headline: "Canada plans for five stablecoin issuers, and no yield",
   dek: "Canada's Department of Finance has published draft rules for its Stablecoin Act and opened a 60-day consultation. Issuers would register with the Bank of Canada, keep short-dated reserves with a Canadian custodian and pay holders no interest. Ottawa expects about five issuers.",
   metaDesc: "Canada's draft stablecoin regulations would bar issuers from paying yield, require one-to-one reserves held with a Canadian custodian and cap redemption fees at 1 per cent.",
-  author: "elena-vasquez", date: "2026-10-26T14:00:00Z",
+  author: "staff", date: "2026-10-26T14:00:00Z",
   capt: "A stone government building with green copper roofs and spires, in a file photograph.",
   tags: [
     { name: "Stablecoins", slug: "stablecoins" },
@@ -142,7 +142,7 @@ TE({ slug: "musk-closes-a-loophole-kyiv-says-never-existed", kick: "Satellites",
   headline: "Musk closes a loophole Kyiv says never existed",
   dek: "Elon Musk said at the weekend that SpaceX restricted Starlink in Ukraine because its military broke the service's terms by using it for drone strikes. Ukrainian officials said that was technically impossible. Speeds were restored on Saturday.",
   metaDesc: "Elon Musk says SpaceX limited Starlink in Ukraine over terms-of-service breaches by drone units; Kyiv denies it and says full speeds returned on Saturday.",
-  author: "tom-kessler", date: "2026-10-26T14:15:00Z",
+  author: "staff", date: "2026-10-26T14:15:00Z",
   capt: "A satellite dish on a rooftop under a starry night sky, in a file photograph.",
   tags: [
     { name: "Networking", slug: "networking" },
@@ -170,7 +170,7 @@ MK({ slug: "anthropic-files-with-16-3bn-of-revenue-and-an-80-7bn-loss", kick: "I
   headline: "Anthropic files with $16.3bn of revenue and an $80.7bn loss",
   dek: "Anthropic filed publicly on Monday to list on Nasdaq under the ticker ANT. Its prospectus shows first-half revenue of $16.3bn and a net loss of $80.7bn, of which $72.4bn came from revaluing convertible notes as its valuation rose.",
   metaDesc: "Anthropic's S-1 shows $16.3bn of revenue and an $80.7bn net loss for the first half of 2026, $72.4bn of it from a fair-value charge on convertible notes.",
-  author: "priya-raghavan", date: "2026-10-26T14:42:00Z",
+  author: "staff", date: "2026-10-26T14:42:00Z",
   capt: "A thick stack of printed white paper, seen side-on, in a file photograph.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },

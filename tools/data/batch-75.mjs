@@ -138,7 +138,7 @@ CY({ slug: "the-negotiator-is-charged-with-extortion", kick: "Enforcement",
   headline: "The negotiator is charged with extortion",
   dek: "Edward Dubrovsky, a Canadian ransomware negotiator, was arrested in Pennsylvania on Thursday on extortion conspiracy charges filed in Texas, according to court records. The core complaint is sealed, and the FBI has not said how the case relates to its ShinyHunters investigation.",
   metaDesc: "A Canadian ransomware negotiator was arrested in Pennsylvania on 8 October on extortion conspiracy charges; the complaint is sealed and the allegations are unproven.",
-  author: "sam-porter", date: "2026-10-12T21:40:00Z",
+  author: "staff", date: "2026-10-12T21:40:00Z",
   capt: "A black desk telephone on an office desk, in a file photograph.",
   tags: [
     { name: "Ransomware", slug: "ransomware" },
@@ -168,7 +168,7 @@ CY({ slug: "eight-grocery-banners-offline-cause-unstated", kick: "Incident Respo
   headline: "Eight grocery banners offline, cause unstated",
   dek: "Ahold Delhaize said on Monday it had taken some systems offline after a security issue in its network. Websites of its five US banners and three Dutch ones were down, Albert Heijn distribution centres stalled, and no cause or recovery date was given.",
   metaDesc: "Ahold Delhaize took systems offline on Monday after a network security issue; websites of eight US and Dutch banners went down and no cause or timeline was given.",
-  author: "sam-porter", date: "2026-10-12T22:00:00Z",
+  author: "staff", date: "2026-10-12T22:00:00Z",
   capt: "Supermarket shelves stocked with packaged goods, seen from above, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },

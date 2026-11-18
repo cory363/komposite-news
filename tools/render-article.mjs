@@ -27,22 +27,13 @@ function realHeadline(href, fallback) {
 }
 
 const AUTHORS = {
-  "jonathan-bright": "Jonathan Bright|House byline",
-  "priya-raghavan": "Priya Raghavan|House byline",
-  "tom-kessler": "Tom Kessler|House byline",
-  "sam-porter": "Sam Porter|House byline",
-  "grace-lindqvist": "Grace Lindqvist|House byline",
-  "marcus-oyelaran": "Marcus Oyelaran|House byline",
-  "elena-vasquez": "Elena Vasquez|House byline",
-  "dana-whitfield": "Dana Whitfield|House byline",
-  "colin-abernathy": "Colin Abernathy|House byline",
+  /* Persona bylines retired Nov 2026: unattributed stories carry the staff byline. */
+  "staff": "Komposite News Staff|",
   "marta-reyes": "Marta Reyes|Recipes Editor",
-  "ruth-calloway": "Ruth Calloway|House byline",
-  "grant-whitmore": "Grant Whitmore|House byline",
   "julio-rojas": "Julio Rojas|Contributor",
   "irene-spiegel": "Irene Spiegel|Contributor",
   "cory-chamberlain": "Cory Chamberlain|Chief Editor and Contributor",
-  "noam-krasniansky": "Noam Krasniansky|Co-Editor, Chief Content Officer and Contributor",
+  "noam-krasniansky": "Noam Krasniansky|",
 };
 
 export const heroKey = a => `${a.dir}/${a.slug}`;
@@ -81,7 +72,7 @@ export function render(a) {
     datePublished: a.date,
     dateModified: a.updated || a.date,
     image: { "@type": "ImageObject", url: absImg, width: h.width, height: h.height },
-    author: { "@type": "Person", name: name.replace(/&amp;/g, "&"), url: `${SITE}/authors/${a.author}/` },
+    author: { "@type": a.author === "staff" ? "Organization" : "Person", name: name.replace(/&amp;/g, "&"), url: `${SITE}/authors/${a.author}/` },
     publisher: {
       "@type": "NewsMediaOrganization", name: "Komposite News", url: SITE,
       logo: { "@type": "ImageObject", url: `${SITE}/assets/img/komposite-logo.png`, width: 1200, height: 1200 },
@@ -124,7 +115,7 @@ export function render(a) {
 ${breadcrumbNav(crumbs.itemListElement).trimEnd()}
 <span class="kick${a.opinion ? " k-op" : ""}">${esc(a.kick)}</span>
 <h1>${esc(a.headline)}</h1><p class="artdeck">${esc(a.dek)}</p>
-<div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a><span class="byrole"> &middot; ${role}</span></div>
+<div class="artby"><div><a href="/authors/${a.author}/" class="byname">${name}</a>${role ? `<span class="byrole"> &middot; ${role}</span>` : ""}</div>
 <div class="bydate">${prettyDate(a.date)}<span class="readtime">${mins} min read</span></div></div>
 ${shareRow(url, a.headline)}
 ${a.opinion ? `<figure class="arthero"><figcaption>${esc(a.dek)}</figcaption></figure>` : `<figure class="arthero"><span class="pwrap"><img class="illo photo "  src="${esc(h.url)}" alt="${esc(h.alt)}" loading="eager" fetchpriority="high" decoding="async" width="800" height="450" onerror="this.onerror=null;this.parentElement.style.display='none';"><span class="pcred">${h.creditHtml}</span></span><figcaption>${esc(a.photo.capt)}<span class="ccredit">${esc(h.creditLine)}</span></figcaption></figure>`}

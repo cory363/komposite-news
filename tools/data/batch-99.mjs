@@ -91,7 +91,7 @@ CR({ slug: "a16z-drops-crypto-from-the-name-of-its-crypto-unit", kick: "Venture 
   headline: "a16z drops 'crypto' from the name of its crypto unit",
   dek: "Andreessen Horowitz has renamed a16z Crypto, the unit led by Chris Dixon, as a16z Frontier and widened its new fund's scope to AI-era products, autonomous machines and networks built for them. It says it will keep investing in crypto.",
   metaDesc: "Andreessen Horowitz renamed a16z Crypto as a16z Frontier, widening its new fund beyond crypto start-ups to frontier technology while saying it will keep investing in crypto.",
-  author: "marcus-oyelaran", date: "2026-10-23T14:40:00Z",
+  author: "staff", date: "2026-10-23T14:40:00Z",
   capt: "An orange robotic hand against a plain light background, in a file photograph.",
   tags: [
     { name: "Venture Capital", slug: "venture-capital" },
@@ -118,7 +118,7 @@ CY({ slug: "quest-says-patient-records-were-reached-through-its-ordering-portal"
   headline: "Quest says patient records were reached through its ordering portal",
   dek: "Quest Diagnostics told the SEC that an unauthorised party accessed certain patient records in its Quanum LSM system, which clients use to order tests and look up results. It has not said how many patients are affected.",
   metaDesc: "Quest Diagnostics said in an SEC filing that an unauthorised party accessed patient records in its Quanum LSM ordering system; it has not said how many people are affected.",
-  author: "sam-porter", date: "2026-10-23T15:00:00Z",
+  author: "staff", date: "2026-10-23T15:00:00Z",
   capt: "Capped sample tubes in a laboratory rack, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },
@@ -145,7 +145,7 @@ MK({ slug: "the-sec-examiners-put-super-intelligence-on-the-2027-list", kick: "R
   headline: "The SEC's examiners put super intelligence on the 2027 list",
   dek: "The SEC's Division of Examinations published its fiscal 2027 priorities on Friday. They single out registrants' use of what the document calls super intelligence, cyberattacks that use it, cybersecurity and customer data, private credit, and tokenisation at clearing agencies.",
   metaDesc: "The SEC's Division of Examinations on Friday set its fiscal 2027 priorities, naming registrants' use of super intelligence, cyber resilience, private credit and tokenisation.",
-  author: "priya-raghavan", date: "2026-10-23T15:20:00Z",
+  author: "staff", date: "2026-10-23T15:20:00Z",
   capt: "A magnifying glass beside a closed laptop, in a file photograph.",
   tags: [
     { name: "Regulation", slug: "regulation" },

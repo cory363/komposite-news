@@ -107,7 +107,7 @@ PO({ slug: "a-swap-on-the-exchange-a-bet-at-the-sportsbook", kick: "Prediction M
   headline: "A swap on the exchange, a bet at the sportsbook",
   dek: "The Commodity Futures Trading Commission on Friday proposed writing sports, political, cultural and weather event contracts into its definition of a swap. A companion interim rule says casino-style gambling is not one. Three federal appeals courts have split on the question.",
   metaDesc: "The CFTC on Friday proposed defining event contracts, including sports contracts, as swaps, and issued an interim final rule excluding casino-style gambling.",
-  author: "jonathan-bright", date: "2026-10-13T13:00:00Z",
+  author: "staff", date: "2026-10-13T13:00:00Z",
   capt: "The entrance to the Commodity Futures Trading Commission's headquarters at Three Lafayette Centre in Washington, in a file photograph.",
   tags: [
     { name: "Regulation", slug: "regulation" },

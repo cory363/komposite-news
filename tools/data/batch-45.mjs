@@ -41,7 +41,7 @@ AI({ slug:"the-guidance-that-assumes-china-buys-nothing", kick:"Semiconductors",
   headline:"The guidance that assumes China buys nothing",
   dek:"Nvidia's outlook for the quarter now ending books no data-centre compute revenue from China at all. That is the company's own sentence, not an inference — and it turns the largest market it is barred from into something closer to a free option than a hole.",
   metaDesc:"Nvidia guided to $108bn for its third quarter and told investors it assumes no Data Center compute revenue from China. The filings show why the assumption is cheap.",
-  author:"dana-whitfield", date:"2026-09-24T17:30:00Z",
+  author:"staff", date:"2026-09-24T17:30:00Z",
   capt:"Containers stacked under gantry cranes at a deep-water terminal. Nvidia's forecast for the quarter now ending books nothing moving in one particular direction.",
   tags:[{name:"Semiconductors",slug:"semiconductors"},{name:"AI Infrastructure",slug:"ai-infrastructure"},{name:"Trade",slug:"trade"}],
   related:[
@@ -65,7 +65,7 @@ BC({ slug:"the-seventy-five-days-that-are-not-in-the-rule", kick:"Market Structu
   headline:"The seventy-five days that are not in the rule",
   dek:"Crypto coverage says the SEC has cut its altcoin ETF review to 75 days for Solana, XRP and Dogecoin, with a deadline falling on 27 September. The funds have traded for the better part of a year, the number appears in no Commission document, and the deadline was extended to 11 November three days ago.",
   metaDesc:"The SEC's generic listing standards removed the 19b-4 clock rather than shortening it. The 27 September deadline belongs to an options filing, and was extended on 21 September.",
-  author:"marcus-oyelaran", date:"2026-09-24T18:00:00Z",
+  author:"staff", date:"2026-09-24T18:00:00Z",
   capt:"The Broad Street facade of the New York Stock Exchange. Several of the funds whose approval track is being described as newly shortened have listed on its Arca platform since last autumn.",
   tags:[{name:"Market Structure",slug:"market-structure"},{name:"Digital Assets",slug:"digital-assets"},{name:"Regulation",slug:"regulation"}],
   related:[

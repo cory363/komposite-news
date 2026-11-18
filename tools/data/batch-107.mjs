@@ -92,7 +92,7 @@ TE({ slug: "ai-gets-the-law-wrong-a-podcast-bets-on-chapters", kick: "Search",
   headline: "AI gets the law wrong. A podcast bets on chapters",
   dek: "Chatbots still garble legal detail. Two Taps and Friends, a show hosted by criminal defense lawyers, structures every episode so search engines can find the lawyers' own explanation rather than a summary of it.",
   metaDesc: "AI assistants still garble legal detail. Two Taps and Friends, a defense lawyers' podcast, uses chapters, transcripts and clip markup to be found instead.",
-  author: "tom-kessler", date: "2026-10-28T15:00:00Z",
+  author: "staff", date: "2026-10-28T15:00:00Z",
   capt: "A video camera fitted with a shotgun microphone on a tripod, in a file photograph.",
   tags: [
     { name: "Media", slug: "media" },

@@ -196,7 +196,7 @@ CR({ slug: "circle-q3-take-out-the-token-sale-and-circle-stood-still", kick: "St
   headline: "Take out the token sale and Circle stood still",
   dek: "Circle's revenue less distribution costs rose 55 per cent in the third quarter to $453m, but $182m came from a one-off sale of its ARC network token. Without it, by our arithmetic, the measure fell 7 per cent and the margin barely moved.",
   metaDesc: "Circle's Q3 2026 revenue less distribution costs rose 55% to $453m, helped by a $182m ARC token presale. Without it, by our arithmetic, it fell 7%.",
-  author: "marcus-oyelaran", date: "2026-11-05T14:20:00Z",
+  author: "staff", date: "2026-11-05T14:20:00Z",
   capt: "Pages of a handwritten nineteenth-century account book, with columns of dated entries and ticks, open on a wooden table, in a file photograph.",
   tags: [
     { name: "Stablecoins", slug: "stablecoins" },
@@ -237,7 +237,7 @@ TE({ slug: "qualcomm-handsets-down-26-per-cent-cars-up-89", kick: "Semiconductor
   headline: "Handsets down 26 per cent, cars up 89",
   dek: "Qualcomm's handset chip revenue fell 26 per cent in its fiscal fourth quarter as phone makers cut inventory, while automotive revenue nearly doubled. The company reaffirmed a $5bn data-centre revenue target for fiscal 2027 and said Apple will mostly use its own modems.",
   metaDesc: "Qualcomm's handset revenue fell 26% to $5.1bn in its fiscal Q4 2026 while automotive rose 89% to $2.0bn. Our table shows how the mix shifted.",
-  author: "tom-kessler", date: "2026-11-05T14:40:00Z",
+  author: "staff", date: "2026-11-05T14:40:00Z",
   capt: "Qualcomm's headquarters building in the La Jolla area of San Diego, a white tower with blue glass bands behind eucalyptus trees, in a file photograph.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },
@@ -275,7 +275,7 @@ PO({ slug: "ai-super-pac-candidates-won-19-of-22-general-election-races", kick: 
   headline: "Nineteen of twenty-two, mostly in safe seats",
   dek: "Candidates backed by the Leading the Future super PACs won 19 of the 22 general-election races the network spent on, by our match of FEC filings to AP results. Fifteen won by more than ten points. Most of both AI networks' money went on primaries.",
   metaDesc: "By our count of FEC filings and AP results, Leading the Future's super PACs backed winners in 19 of 22 general-election races. Most went on primaries.",
-  author: "jonathan-bright", date: "2026-11-05T15:00:00Z",
+  author: "staff", date: "2026-11-05T15:00:00Z",
   capt: "A white \"Vote Here\" sign with an American flag outside a polling place in Woodbury, Minnesota, in a file photograph from the 2020 general election.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },

@@ -201,7 +201,7 @@ MK({ slug: "nvidia-may-cosign-the-loan-for-its-own-chips", kick: "AI Infrastruct
   headline: "Nvidia may cosign the loan for its own chips",
   dek: "Nvidia is in talks to guarantee billions of dollars of debt for Nscale's West Virginia campus, where Anthropic has signed for up to $44.6bn of computing. Nscale's IPO filing says none of the financing for that contract was committed.",
   metaDesc: "Nvidia is in talks to guarantee debt for Nscale's West Virginia campus, home to a $44.6bn Anthropic contract its filing says is not yet financed.",
-  author: "priya-raghavan", date: "2026-11-01T13:20:00Z",
+  author: "staff", date: "2026-11-01T13:20:00Z",
   capt: "An aerial view of Point Pleasant, the seat of Mason County, West Virginia, where the Kanawha River meets the Ohio, in a file photograph.",
   tags: [
     { name: "AI Infrastructure", slug: "ai-infrastructure" },
@@ -231,7 +231,7 @@ CR({ slug: "twenty-minutes-to-steal-forty-five-days-to-wash", kick: "Crypto Crim
   headline: "Twenty minutes to steal, forty-five days to wash",
   dek: "North Korea-linked hackers took at least $2.02bn in crypto in 2025 and, with the Binance theft, at least $7bn so far in 2026. The method repeats: a human way in, a drain in minutes, then weeks of swaps, bridges and brokers.",
   metaDesc: "How North Korea's crypto theft works on-chain, from recruiter lures to bridges and brokers, with a table of its largest heists and yearly totals.",
-  author: "marcus-oyelaran", date: "2026-11-01T13:40:00Z",
+  author: "staff", date: "2026-11-01T13:40:00Z",
   capt: "Fences along the Korean Demilitarized Zone, seen from the Eulji Observatory in South Korea, in a file photograph.",
   tags: [
     { name: "Digital Assets", slug: "digital-assets" },
@@ -264,7 +264,7 @@ AI({ slug: "apples-ai-reaches-china-two-years-and-a-partner-later", kick: "Consu
   headline: "Apple's AI reaches China, two years and a partner later",
   dek: "Apple Intelligence will reach iPhone users in China with iOS 27.3 in December, with a developer beta from Wednesday. Apple's own models run most features; Alibaba's Qwen works inside Siri, Writing Tools and Visual Intelligence. The new Siri is not included.",
   metaDesc: "Apple Intelligence reaches China in December with iOS 27.3, Apple said; Alibaba's Qwen works in Siri, Writing Tools and Visual Intelligence. Beta 4 Nov.",
-  author: "dana-whitfield", date: "2026-11-01T14:00:00Z",
+  author: "staff", date: "2026-11-01T14:00:00Z",
   capt: "The Apple Store at West Lake in Hangzhou, Alibaba's home city, behind a calligraphy hoarding before its opening, in a file photograph.",
   tags: [
     { name: "Consumer Technology", slug: "consumer-technology" },

@@ -7,7 +7,7 @@ export default [
   headline: "What Buyers Actually Do With an SBOM",
   dek: "Vendors have learned to produce the file. The harder question is what happens to it after it lands in a procurement inbox.",
   metaDesc: "Software bills of materials are now routinely produced and routinely ignored, and the gap between generating one and acting on it is where the risk sits.",
-  author: "sam-porter",
+  author: "staff",
   date: "2026-08-30T09:00:00Z",
   tags: [{name:"Software Supply Chain",slug:"software-supply-chain"},{name:"Compliance",slug:"compliance"},{name:"Standards",slug:"standards"}],
   photo: {
@@ -44,7 +44,7 @@ export default [
   headline: "The Help Desk Is the Way In",
   dek: "Federal advisories describe the same route into hardened companies: a phone call, a password reset, and an MFA token moved to a new device.",
   metaDesc: "Federal advisories describe intruders reaching hardened companies through the IT help desk, using password resets and MFA enrollment rather than exploits.",
-  author: "sam-porter",
+  author: "staff",
   date: "2026-08-29T09:00:00Z",
   tags: [{name:"Identity",slug:"identity"},{name:"Fraud",slug:"fraud"},{name:"Security Operations",slug:"security-operations"}],
   photo: {
@@ -81,7 +81,7 @@ export default [
   headline: "Insurers Now Write the Security Baseline",
   dek: "Carriers price the consequences, so their questionnaires have become more prescriptive than most regulation, and considerably harder to argue with.",
   metaDesc: "Cyber insurance questionnaires have become a de facto security standard, demanding evidence that controls were enforced rather than merely documented.",
-  author: "sam-porter",
+  author: "staff",
   date: "2026-08-28T09:00:00Z",
   tags: [{name:"Insurance",slug:"insurance"},{name:"Risk",slug:"risk"},{name:"Security Operations",slug:"security-operations"}],
   photo: {

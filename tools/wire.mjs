@@ -15,22 +15,13 @@ import { heroUrl, hero } from "./render-article.mjs";
 import { optimizeHtml } from "./optimize-images.mjs";
 
 const AUTHORS = {
-  "jonathan-bright": ["Jonathan Bright", "House byline"],
-  "priya-raghavan": ["Priya Raghavan", "House byline"],
-  "tom-kessler": ["Tom Kessler", "House byline"],
-  "sam-porter": ["Sam Porter", "House byline"],
-  "grace-lindqvist": ["Grace Lindqvist", "House byline"],
-  "marcus-oyelaran": ["Marcus Oyelaran", "House byline"],
-  "elena-vasquez": ["Elena Vasquez", "House byline"],
-  "dana-whitfield": ["Dana Whitfield", "House byline"],
-  "colin-abernathy": ["Colin Abernathy", "House byline"],
+  /* Persona bylines retired Nov 2026: unattributed stories carry the staff byline. */
+  "staff": ["Komposite News Staff", ""],
   "marta-reyes": ["Marta Reyes", "Recipes Editor"],
-  "ruth-calloway": ["Ruth Calloway", "House byline"],
-  "grant-whitmore": ["Grant Whitmore", "House byline"],
   "julio-rojas": ["Julio Rojas", "Contributor"],
   "irene-spiegel": ["Irene Spiegel", "Contributor"],
   "cory-chamberlain": ["Cory Chamberlain", "Chief Editor and Contributor"],
-  "noam-krasniansky": ["Noam Krasniansky", "Co-Editor, Chief Content Officer and Contributor"],
+  "noam-krasniansky": ["Noam Krasniansky", ""],
 };
 
 const read = f => fs.readFileSync(f, "utf8");
@@ -43,7 +34,7 @@ const feedrow = a =>
 
 const secitem = a => {
   const [n, r] = AUTHORS[a.author];
-  return `<div class="secitem"><span class="kick">${esc(a.kick)}</span><a class="secline" href="${rel(a)}">${esc(a.headline)}</a><div class="byrow">By <a href="/authors/${a.author}/">${n}</a>, <span>${r}</span></div></div>`;
+  return `<div class="secitem"><span class="kick">${esc(a.kick)}</span><a class="secline" href="${rel(a)}">${esc(a.headline)}</a><div class="byrow">By <a href="/authors/${a.author}/">${n}</a>${r ? `, <span>${r}</span>` : ""}</div></div>`;
 };
 
 const storyCard = a =>

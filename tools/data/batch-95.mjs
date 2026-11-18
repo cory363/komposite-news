@@ -160,7 +160,7 @@ BC({ slug: "solana-takes-its-votes-off-the-chain", kick: "Consensus",
   headline: "Solana takes its votes off the chain",
   dek: "Solana's Alpenglow upgrade went live on Wednesday, Anza said, moving validator votes off the blockchain and targeting finality of about 150 milliseconds. Validators now pay a flat 0.8 SOL ticket each epoch instead of per-vote fees.",
   metaDesc: "Solana's Alpenglow consensus upgrade went live on 21 October, Anza said, replacing on-chain votes with aggregated certificates and targeting 150ms finality.",
-  author: "marcus-oyelaran", date: "2026-10-21T14:50:00Z",
+  author: "staff", date: "2026-10-21T14:50:00Z",
   capt: "The back of a server chassis with cooling fans and network cables, in a file photograph.",
   tags: [
     { name: "Blockchain Infrastructure", slug: "blockchain-infrastructure" },
@@ -191,7 +191,7 @@ CY({ slug: "eight-certificate-authority-keys-were-tiny-numbers", kick: "Web Secu
   headline: "Eight certificate keys that were tiny numbers",
   dek: "Eight eMudhra intermediate certificates had private keys below 256, recoverable almost instantly. Browsers have blocked them and Mozilla is pulling the root, but software that does not check revocation can still be fooled by forgeries.",
   metaDesc: "Mozilla blocked eight eMudhra intermediate certificates whose private keys were integers below 256; eMudhra blames a flawed key-ceremony script.",
-  author: "sam-porter", date: "2026-10-21T15:10:00Z",
+  author: "staff", date: "2026-10-21T15:10:00Z",
   capt: "A single metal key on a black background, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },
@@ -221,7 +221,7 @@ PO({ slug: "the-occ-finalises-its-stablecoin-rule-and-keeps-rewards-open", kick:
   headline: "The stablecoin rule that will not say what a reward is",
   dek: "The OCC on Wednesday finalised its GENIUS Act rule for stablecoin issuers, effective 18 January 2027. It dropped a proposed presumption against reward arrangements and declined to define interest or yield, leaving each programme to its facts.",
   metaDesc: "The OCC finalised its GENIUS Act stablecoin rule on Wednesday, effective 18 January 2027, dropping a presumption against rewards and leaving yield undefined.",
-  author: "jonathan-bright", date: "2026-10-21T15:30:00Z",
+  author: "staff", date: "2026-10-21T15:30:00Z",
   capt: "United States hundred-dollar notes fanned on a table, in a file photograph.",
   tags: [
     { name: "Stablecoins", slug: "stablecoins" },
@@ -251,7 +251,7 @@ BU({ slug: "spacex-and-tesla-weigh-a-merger-musk-cannot-attend", kick: "Mergers"
   headline: "Two special committees, one conflicted chief executive",
   dek: "SpaceX and Tesla have each formed a special committee of independent directors to consider a combination, Elon Musk told SpaceX's earnings call on Tuesday. No terms are agreed, and on Tesla's side a deal would need a majority of all shares.",
   metaDesc: "Elon Musk said SpaceX and Tesla have formed special committees to weigh a merger, with no terms agreed, as SpaceX reported $14.6bn in third-quarter revenue.",
-  author: "tom-kessler", date: "2026-10-21T15:50:00Z",
+  author: "staff", date: "2026-10-21T15:50:00Z",
   capt: "A SpaceX Falcon Heavy rocket lifts off beside a SpaceX hangar in Florida during its 2018 demonstration mission, in a file photograph.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },

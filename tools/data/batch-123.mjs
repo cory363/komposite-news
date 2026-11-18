@@ -345,7 +345,7 @@ PO({ slug: "new-york-opens-its-register-for-frontier-ai-developers", kick: "AI S
   headline: "New York opens its register for frontier AI developers",
   dek: "Developers of the largest AI models have 52 days to register with New York before the RAISE Act takes effect on 1 January. Our side-by-side with California's law shows where New York is stricter: a 72-hour clock and a $3m penalty.",
   metaDesc: "New York opened RAISE Act registration for frontier AI developers on 10 November 2026; they must sign up by 1 January 2027. How it compares with California.",
-  author: "jonathan-bright", date: "2026-11-12T13:20:00Z",
+  author: "staff", date: "2026-11-12T13:20:00Z",
   capt: "The New York State Capitol in Albany, seen across East Capitol Park, in a file photograph from 2017.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },
@@ -381,7 +381,7 @@ FI({ slug: "forty-five-days-of-silence-then-a-lawsuit-over-stock-perps", kick: "
   headline: "Forty-five days of silence, then a lawsuit over stock perps",
   dek: "The CFTC let perpetual futures on US stocks take effect by not objecting for 45 days. A group backed by Cboe and Citadel Securities sued the next day. Briefing closed on Tuesday. Our timeline, and what Cboe told the CFTC in 2025.",
   metaDesc: "Perpetual futures on US stocks took effect on 3 November 2026 after a 45-day CFTC review lapsed. A Cboe-backed group's suit was fully briefed on 10 November.",
-  author: "elena-vasquez", date: "2026-11-12T13:40:00Z",
+  author: "staff", date: "2026-11-12T13:40:00Z",
   capt: "The New York Stock Exchange on Wall Street, draped in a US flag, in a file photograph from 2012.",
   tags: [
     { name: "Market Structure", slug: "market-structure" },
@@ -415,7 +415,7 @@ TE({ slug: "infineon-now-expects-close-to-4bn-from-ai-power-supplies", kick: "Se
   headline: "Infineon now expects close to €4bn from AI power supplies",
   dek: "Infineon told investors in February that power chips for AI data centres would bring in about €2.5bn in its 2027 fiscal year. On Tuesday it said close to €4bn. Our compilation of its targets, and of the segment that now earns most of its profit growth.",
   metaDesc: "Infineon raised its FY2027 target for AI data-centre power supplies to close to €4bn on 10 November 2026, from about €2.5bn in February. Our table.",
-  author: "tom-kessler", date: "2026-11-12T14:00:00Z",
+  author: "staff", date: "2026-11-12T14:00:00Z",
   capt: "Power MOSFET transistors in a range of packages laid out on a white surface, in a file photograph.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },
@@ -450,7 +450,7 @@ MK({ slug: "coreweaves-biggest-customer-is-30-per-cent-not-67", kick: "AI Infras
   headline: "CoreWeave's biggest customer is 30 per cent, not 67",
   dek: "A year ago one customer paid for two-thirds of CoreWeave's revenue. Its third-quarter filing shows the largest now pays 30 per cent. Our cut of the 10-Q: concentration down, debt up $11.8bn in a quarter, and a backlog that runs to 2033.",
   metaDesc: "CoreWeave's largest customer was 30% of Q3 2026 revenue, against 67% for one customer a year earlier, its 10-Q shows. Revenue rose to $3.66bn.",
-  author: "priya-raghavan", date: "2026-11-12T14:20:00Z",
+  author: "staff", date: "2026-11-12T14:20:00Z",
   capt: "Rows of server racks with their rear panels exposed in a data centre at CERN near Geneva, in a file photograph from 2010.",
   tags: [
     { name: "AI Infrastructure", slug: "ai-infrastructure" },
@@ -484,7 +484,7 @@ AI({ slug: "huang-resigns-from-nvidia-and-the-8-k-gives-no-reason", kick: "Leade
   headline: "Huang resigns from Nvidia, and the 8-K gives no reason",
   dek: "Jensen Huang resigned as Nvidia's chief executive and a director on Wednesday, three days after telling staff he had been unfaithful to his wife. Colette Kress is interim chief executive. Our reading of the filing, and what his 870.6m shares are worth now.",
   metaDesc: "Jensen Huang resigned as Nvidia CEO on 11 November 2026; CFO Colette Kress is interim CEO. The 8-K gives no reason. His stake, valued by our arithmetic.",
-  author: "dana-whitfield", date: "2026-11-12T14:40:00Z",
+  author: "staff", date: "2026-11-12T14:40:00Z",
   capt: "The landscaped approach to Nvidia's Endeavor building at its headquarters in Santa Clara, California, in a file photograph from 2017.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },

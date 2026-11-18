@@ -155,7 +155,7 @@ CR({ slug: "china-asks-a-court-for-the-bitcoin-britain-holds", kick: "Enforcemen
   headline: "China asks a court for the bitcoin Britain holds",
   dek: "Prosecutors in Tianjin have asked a court to confiscate nearly 62,000 bitcoin as the proceeds of a 40bn-yuan investment fraud run by Qian Zhimin. The coins sit in British custody, where a High Court ruling has just put victims' claims under Chinese law.",
   metaDesc: "A Tianjin court has accepted a prosecution request to confiscate nearly 62,000 bitcoin from the Qian Zhimin fraud case, though British authorities hold the coins.",
-  author: "marcus-oyelaran", date: "2026-10-22T12:40:00Z",
+  author: "staff", date: "2026-10-22T12:40:00Z",
   capt: "The Tianjin Eye Ferris wheel on a bridge over the Hai River in Tianjin, China, in a file photograph.",
   tags: [
     { name: "Digital Assets", slug: "digital-assets" },
@@ -184,7 +184,7 @@ CY({ slug: "railway-tells-every-customer-to-rotate-its-keys", kick: "Cloud Secur
   headline: "Railway tells every customer to rotate its keys",
   dek: "Railway, a cloud platform for hosting applications, said an unauthorised party may have read and decrypted some customers' environment variables. It paused all deployments and told every user to roll their secrets, although it believes only a subset was affected.",
   metaDesc: "Railway said on Wednesday that an unauthorised party may have decrypted some customer environment variables, paused deployments and told all users to rotate keys.",
-  author: "sam-porter", date: "2026-10-22T13:00:00Z",
+  author: "staff", date: "2026-10-22T13:00:00Z",
   capt: "A set of keys on a ring lying on a white table, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },
@@ -212,7 +212,7 @@ CY({ slug: "two-critical-php-flaws-have-no-complete-mitigation", kick: "Vulnerab
   headline: "Two PHP flaws, and no fix but the patch",
   dek: "The PHP project on Wednesday shipped four releases fixing two critical flaws that allow unauthenticated remote code execution, each rated 9.2. Wiz Research, one of the teams that reported them, says frontier AI models helped it find the bugs and build working exploits.",
   metaDesc: "PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35 fix two critical remote code execution flaws rated CVSS 9.2; the project says only updating is a complete fix.",
-  author: "sam-porter", date: "2026-10-22T13:20:00Z",
+  author: "staff", date: "2026-10-22T13:20:00Z",
   capt: "A blue plush PHP elephant toy on a laptop showing code, in a file photograph.",
   tags: [
     { name: "Cybersecurity", slug: "cybersecurity" },
@@ -241,7 +241,7 @@ BU({ slug: "teslas-operating-margin-halves-as-capital-spending-doubles", kick: "
   headline: "Twice the capex, less than half the operating profit",
   dek: "Tesla's third-quarter operating income fell 56 per cent to $718m on flat revenue of $28.05bn, while capital spending more than doubled to $4.73bn. Optimus production has started in Fremont, and the company now guides to about $20bn of capex this year.",
   metaDesc: "Tesla's third-quarter operating income fell to $718m on flat $28.05bn revenue as capital spending reached $4.73bn and Optimus robot production began in Fremont.",
-  author: "priya-raghavan", date: "2026-10-22T13:40:00Z",
+  author: "staff", date: "2026-10-22T13:40:00Z",
   capt: "A red Tesla logo lit up on a white vehicle charger at night, in a file photograph.",
   tags: [
     { name: "Robotics", slug: "robotics" },
@@ -270,7 +270,7 @@ MK({ slug: "a-second-meta-share-without-the-vote", kick: "Capital Structure",
   headline: "A second Meta share, without the vote",
   dek: "Meta will give shareholders one non-voting Class C share for every share they own from January, so it can raise money without diluting Mark Zuckerberg's 60.6 per cent of the votes. An agreement ties most of his new shares to his voting stock.",
   metaDesc: "Meta will issue one non-voting Class C share per share held from 19 January 2027, filings show, letting it raise equity without diluting Mark Zuckerberg's control.",
-  author: "priya-raghavan", date: "2026-10-22T14:00:00Z",
+  author: "staff", date: "2026-10-22T14:00:00Z",
   capt: "A hand holds a smartphone in front of a screen showing the Meta logo, in a file photograph.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },

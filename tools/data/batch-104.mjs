@@ -83,7 +83,7 @@ MK({ slug: "spacex-takes-its-forty-billion-as-a-lease", kick: "AI Infrastructure
   headline: "SpaceX takes its forty billion as a lease",
   dek: "SpaceX has signed a binding commitment for an Apollo-managed entity to buy Nvidia GPU pods and lease them to it, with about $40bn of principal repaid over roughly five years. Three weeks ago the plan was reported as loans and bonds.",
   metaDesc: "SpaceX signed a binding commitment on 24 October for a $40bn GPU finance lease from an Apollo-managed entity, not the loans and bonds first reported.",
-  author: "priya-raghavan", date: "2026-10-26T20:20:00Z",
+  author: "staff", date: "2026-10-26T20:20:00Z",
   capt: "Expansion slots on a server motherboard beside an installed card, in a file photograph.",
   tags: [
     { name: "AI Infrastructure", slug: "ai-infrastructure" },

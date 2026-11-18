@@ -294,7 +294,7 @@ TE({ slug: "china-falls-to-a-quarter-of-applied-materials-sales", kick: "Semicon
   headline: "China falls to a quarter of Applied Materials' sales",
   dek: "Applied Materials' revenue from China rose about 35 per cent in its fourth quarter, yet its share of sales fell to 25 per cent as US and Taiwanese customers bought faster. Our five-quarter table from its filings, and what it guides next.",
   metaDesc: "China was 25% of Applied Materials' Q4 FY2026 revenue of $10.4bn, down from 35% in Q3 FY2025, its SEC filings show. US sales doubled. Our table.",
-  author: "tom-kessler", date: "2026-11-13T13:20:00Z",
+  author: "staff", date: "2026-11-13T13:20:00Z",
   capt: "A patterned eight-inch silicon wafer splitting light into bands of colour, in a file photograph.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },
@@ -327,7 +327,7 @@ MK({ slug: "cisco-lifts-its-ai-target-by-1-5bn-and-gives-up-margin", kick: "Netw
   headline: "Cisco lifts its AI target by $1.5bn and gives up margin",
   dek: "Cisco now expects $9bn of AI infrastructure revenue from the largest cloud companies in fiscal 2027, up from $7.5bn in August, and raised its full-year forecast. Its product gross margin fell 3.5 points. Our comparison of the two releases.",
   metaDesc: "Cisco raised its FY2027 hyperscaler AI revenue target to $9bn from $7.5bn on 12 November 2026; networking rose 43% as product margin fell 3.5 points.",
-  author: "priya-raghavan", date: "2026-11-13T13:40:00Z",
+  author: "staff", date: "2026-11-13T13:40:00Z",
   capt: "An office building on Cisco's main campus in San Jose, California, with a water tower beyond the trees, in a file photograph from 2008.",
   tags: [
     { name: "Networking", slug: "networking" },
@@ -361,7 +361,7 @@ PO({ slug: "singapore-asked-washington-about-megaspeed-493-days-ago", kick: "Exp
   headline: "Singapore asked Washington about Megaspeed 493 days ago",
   dek: "Singapore's Home Affairs ministry says the US gave it little help in its inquiry into Megaspeed and the server maker Super Micro, and that Alice Huang was not investigated for espionage. A day later police charged a fifth person. Our timeline.",
   metaDesc: "Singapore said on 12 November 2026 it first sought US help on Megaspeed's server supplier on 7 July 2025, 493 days earlier, and received little. Our timeline.",
-  author: "jonathan-bright", date: "2026-11-13T14:00:00Z",
+  author: "staff", date: "2026-11-13T14:00:00Z",
   capt: "The blue glass Police Cantonment Complex, the Pinnacle@Duxton housing towers and a row of shophouses seen from Kampong Bahru Road in Singapore, in a file photograph from 2023.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },
@@ -397,7 +397,7 @@ TE({ slug: "microsofts-mail-outage-crosses-the-slas-99-per-cent-line", kick: "Cl
   headline: "Microsoft's mail outage crosses the SLA's 99 per cent line",
   dek: "Exchange Online has been degraded since 16:17 GMT on Thursday, and Microsoft has posted 34 updates without naming a root cause. Our reading of its status record and its service-level agreement, and what the hours mean for customers' credits.",
   metaDesc: "Microsoft's Exchange Online outage passed 21 hours on 13 November 2026, far beyond the 7.2 hours that take a user below 99% uptime in its SLA. Our analysis.",
-  author: "tom-kessler", date: "2026-11-13T14:20:00Z",
+  author: "staff", date: "2026-11-13T14:20:00Z",
   capt: "Building 42 on Microsoft's campus in Redmond, Washington, after a snowfall, in a file photograph from 2007.",
   tags: [
     { name: "Cloud", slug: "cloud" },

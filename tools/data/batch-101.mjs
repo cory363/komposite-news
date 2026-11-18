@@ -68,7 +68,7 @@ PO({ slug: "the-father-who-published-his-own-court-file", kick: "Family Law",
   headline: "The father who published his own court file",
   dek: "J.C. Ruffier was jailed in Paraguay in 2005 and spent nearly nine years apart from his son. He has answered with a memoir in six languages, an album and a site that offers the case documents, arguing that a father in a cross-border custody fight can be treated as a fugitive before he is heard.",
   metaDesc: "J.C. Ruffier, separated from his son for nearly nine years after a cross-border custody fight, has turned the case into a memoir, an album and a public archive of court papers.",
-  author: "jonathan-bright", date: "2026-10-25T23:55:00Z",
+  author: "staff", date: "2026-10-25T23:55:00Z",
   capt: "A man and a small child at the water's edge at dusk, in a file photograph.",
   tags: [
     { name: "Rights", slug: "rights" },

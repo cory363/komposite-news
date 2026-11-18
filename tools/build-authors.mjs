@@ -15,24 +15,18 @@ const ROSTER = [
     { slug: "cory-chamberlain", name: "Cory Chamberlain", role: "Chief Editor and Contributor",
       bio: "Cory Chamberlain is the chief editor of Komposite News. He comes to the newsroom from a media executive background and works as an author and journalist.",
       beats: "Editorial direction and standards" },
-    /* Peer to the chief editor, not beneath one. Biography stays to a single
-       factual sentence: nothing is asserted about a real person that they have
-       not said themselves. */
-    { slug: "noam-krasniansky", name: "Noam Krasniansky", role: "Co-Editor, Chief Content Officer and Contributor",
-      bio: "Noam Krasniansky is co-editor and chief content officer of Komposite News, and shares editorial direction of the publication with chief editor Cory Chamberlain.",
-      beats: "Editorial direction and content strategy" },
   ]],
+  /* Persona house bylines were retired in Nov 2026. Stories without an
+     individual author carry the staff byline. */
   ["Newsroom", [
-    { slug: "jonathan-bright" }, { slug: "marcus-oyelaran" }, { slug: "colin-abernathy" },
-    { slug: "dana-whitfield" }, { slug: "priya-raghavan" }, { slug: "tom-kessler" },
-    { slug: "elena-vasquez" }, { slug: "sam-porter" }, { slug: "grace-lindqvist" },
+    { slug: "staff", name: "Komposite News Staff", role: "",
+      bio: "Komposite News Staff is the byline on stories that do not carry the name of an individual author." },
   ]],
   ["Contributors", [
     { slug: "julio-rojas" },
     /* One factual sentence until a biography is supplied. */
     { slug: "irene-spiegel", name: "Irene Spiegel", role: "Contributor",
       bio: "Irene Spiegel is a contributor to Komposite News." },
-    { slug: "ruth-calloway" }, { slug: "grant-whitmore" },
   ]],
 ];
 
@@ -86,7 +80,7 @@ function read(p) {
 
 const card = a => `<div class="aucard"><span class="avatar av-s">${initials(a.name)}</span>`
   + `<h3><a href="/authors/${a.slug}/">${esc(a.name)}</a></h3>`
-  + `<div class="byrole">${esc(a.role)}</div><p>${esc(a.bio)}</p></div>`;
+  + (a.role ? `<div class="byrole">${esc(a.role)}</div>` : "") + `<p>${esc(a.bio)}</p></div>`;
 
 let people = 0;
 const groups = ROSTER.map(([label, list]) => {
@@ -95,7 +89,7 @@ const groups = ROSTER.map(([label, list]) => {
   people += rows.length;
   /* The full-width row exists so one person does not sit in a two-up with a
      hole beside them. Two or more go back to the normal grid. */
-  const lead = label === "Leadership" && rows.length === 1 ? " augrid-lead" : "";
+  const lead = rows.length === 1 ? " augrid-lead" : "";
   return `<div class="lsechead"><span class="lseclabel">${esc(label)}</span></div>\n`
     + `<div class="augrid${lead}">${rows.map(card).join("")}</div>`;
 }).join("\n");
@@ -104,11 +98,11 @@ const page = "authors/index.html";
 let h = fs.readFileSync(page, "utf8");
 const main = `<main id="main" class="wrap catpage aumast">
 <h1 class="catname">Authors &amp; contributors</h1>
-<p class="aubio">Everyone who writes for Komposite News. Newsroom and Divide bylines are house bylines used by our desks, not always individual reporters; see <a href="/editorial-standards/#how-we-use-ai">How we use AI</a>. Where a fact originates with another outlet, that outlet is named and linked in the story.</p>
+<p class="aubio">Everyone who writes for Komposite News. Stories without an individual author carry the Komposite News Staff byline. See <a href="/editorial-standards/#how-we-use-ai">How we use AI</a>. Where a fact originates with another outlet, that outlet is named and linked in the story.</p>
 ${groups}
 </main>`;
 h = h.slice(0, h.indexOf("<main")) + main + h.slice(h.indexOf("</main>") + 7);
 h = h.replace(/(<title>)[\s\S]*?(<\/title>)/, "$1Authors &amp; contributors &mdash; Komposite News$2")
-     .replace(/(<meta name="description" content=")[^"]*(")/, "$1The editors, house bylines and contributors who write for Komposite News.$2");
+     .replace(/(<meta name="description" content=")[^"]*(")/, "$1The editor, staff byline and contributors who write for Komposite News.$2");
 fs.writeFileSync(page, h);
 console.log(`  /authors/ rebuilt: ${people} people in ${ROSTER.length} groups`);

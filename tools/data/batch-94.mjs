@@ -85,7 +85,7 @@ AI({ slug: "openai-seeks-thirty-billion-before-anthropic-lists", kick: "OpenAI",
   headline: "Thirty billion, ahead of Anthropic's listing",
   dek: "OpenAI is racing to line up about $30bn from investors, at a valuation that could top $1.4tn, before Anthropic's expected mid-November stock market debut, Reuters reported, citing people familiar with the talks. OpenAI declined to comment.",
   metaDesc: "OpenAI is seeking about $30bn at a valuation that could exceed $1.4tn before Anthropic's expected mid-November IPO, Reuters reported, citing people familiar.",
-  author: "dana-whitfield", date: "2026-10-20T20:45:00Z",
+  author: "staff", date: "2026-10-20T20:45:00Z",
   capt: "A ChatGPT billboard on a rooftop in San Francisco, in a file photograph.",
   tags: [
     { name: "OpenAI / Model Providers", slug: "openai-model-providers" },

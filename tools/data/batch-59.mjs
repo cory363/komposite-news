@@ -17,7 +17,7 @@ BU({ slug:"creator-agencies-iconify-media-platform-risk", kick:"Creator Economy"
   headline:"Asher Lara Is Selling the Creator Playbook. The Platforms Still Own the Field.",
   dek:"Asher Lara earns more than most creators ever will. His agency is selling his methods to companies that don't control the feeds they post into.",
   metaDesc:"Creator ad spending hit $37 billion in 2025. Asher Lara's Iconify Media is betting businesses will also pay for creator methods. The platforms still set the rules.",
-  author:"priya-raghavan", date:"2026-10-05T12:55:00Z",
+  author:"staff", date:"2026-10-05T12:55:00Z",
   capt:"Asher Lara",
   tags:[{name:"Media",slug:"media"},{name:"Startups",slug:"startups"}],
   related:[

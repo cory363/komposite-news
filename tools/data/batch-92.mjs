@@ -104,7 +104,7 @@ MK({ slug: "sixteen-issuers-opt-out-of-the-tokenised-stock-venue", kick: "Tokeni
   headline: "Sixteen issuers opt out of the tokenised stock venue",
   dek: "Microsoft, Alphabet and Goldman Sachs are among seven more companies that have objected to having their shares traded in tokenised form on OKXICE, the venue planned by OKX and the owner of the NYSE. The venue's notice now lists 16 objectors. It gives no reasons.",
   metaDesc: "OKXICE's public notice of 19 October lists 16 issuers objecting to tokenised trading of their shares, including Microsoft, Alphabet, Goldman Sachs and Qualcomm.",
-  author: "priya-raghavan", date: "2026-10-20T16:20:00Z",
+  author: "staff", date: "2026-10-20T16:20:00Z",
   capt: "A smartphone on a wooden desk showing a list of US stock quotes, in a file photograph.",
   tags: [
     { name: "Tokenization", slug: "tokenization" },
@@ -132,7 +132,7 @@ CR({ slug: "the-cftc-says-cme-cannot-have-it-both-ways", kick: "Derivatives",
   headline: "The CFTC says CME cannot have it both ways",
   dek: "In a brief filed on Friday, the US derivatives regulator told a federal judge that CME has no standing to challenge its approval of a bitcoin perpetual future. It cited CME's own volume data and its chief executive's remarks to investors that customers have not asked for the product.",
   metaDesc: "The CFTC's 16 October reply brief says CME lacks standing to fight its approval of Kalshi's bitcoin perpetual future, citing CME's own volumes and earnings call.",
-  author: "marcus-oyelaran", date: "2026-10-20T16:40:00Z",
+  author: "staff", date: "2026-10-20T16:40:00Z",
   capt: "The clock and carved name on the facade of the Chicago Board of Trade Building in Chicago, in a file photograph. CBOT is one of CME Group's exchanges.",
   tags: [
     { name: "Regulation", slug: "regulation" },
@@ -162,7 +162,7 @@ PO({ slug: "washington-orders-deepseek-out-of-civilian-agencies", kick: "AI Poli
   headline: "Washington orders DeepSeek out of civilian agencies",
   dek: "The Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and to remove them, including third-party tools built on its models. The order is dated 24 July and was published on Tuesday. It does not apply to private or consumer use.",
   metaDesc: "A DHS order dated 24 July and published on 20 October bars federal civilian agencies from buying DeepSeek products and orders their removal, with exceptions via CISA.",
-  author: "jonathan-bright", date: "2026-10-20T17:00:00Z",
+  author: "staff", date: "2026-10-20T17:00:00Z",
   capt: "A smartphone showing the DeepSeek chat app's start screen, held in a dark room, in a file photograph.",
   tags: [
     { name: "AI Governance", slug: "ai-governance" },

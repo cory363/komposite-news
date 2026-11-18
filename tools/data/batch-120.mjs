@@ -227,7 +227,7 @@ CR({ slug: "strategy-sells-common-stock-to-buy-back-its-preferred", kick: "Bitco
   headline: "Strategy sells common stock to buy back its preferred",
   dek: "Strategy raised $283.8m from new common shares last week and spent $188.3m of it buying back its STRC preferred stock, against $81.9m on bitcoin. By our tally of its filings, buybacks have outrun bitcoin purchases five to one since late September.",
   metaDesc: "Strategy's 9 Nov filing shows $188.3m of new-share money went to STRC buybacks and $81.9m to bitcoin. Our six-week tally: $1.16bn of buybacks.",
-  author: "marcus-oyelaran", date: "2026-11-09T15:20:00Z",
+  author: "staff", date: "2026-11-09T15:20:00Z",
   capt: "An unissued preferred stock certificate of the Lehigh Valley Traction Company of Allentown, Pennsylvania, printed in 1900, in a file photograph.",
   tags: [
     { name: "Institutional Crypto", slug: "institutional-crypto" },
@@ -262,7 +262,7 @@ MK({ slug: "a-microsoft-redesign-that-earns-iren-no-delay-credits", kick: "AI In
   headline: "A Microsoft redesign that earns IREN no delay credits",
   dek: "IREN's quarterly filing says Microsoft asked for a network design change across its four Texas deployments, and that the contract extends delivery dates without delay credits when Microsoft causes the delay. Its $4bn revenue run-rate target has slipped a month or two.",
   metaDesc: "IREN's 10-Q says a Microsoft-requested network change pushes delivery dates with no delay credits. Its $4bn ARR target moves to January or February.",
-  author: "priya-raghavan", date: "2026-11-09T15:40:00Z",
+  author: "staff", date: "2026-11-09T15:40:00Z",
   capt: "Blue and green network cables bundled down the backs of server racks in a data centre, in a file photograph.",
   tags: [
     { name: "AI Infrastructure", slug: "ai-infrastructure" },
@@ -296,7 +296,7 @@ AI({ slug: "nvidia-board-opens-inquiry-394-days-after-megaspeed", kick: "Corpora
   headline: "Nvidia's board opens an inquiry, 394 days after Megaspeed",
   dek: "Nvidia's independent directors are investigating reports that Jensen Huang was targeted by a foreign intelligence effort. Our timeline from company statements and filings shows the questions about its Singapore customer Megaspeed are more than a year old, and what the accounts stopped showing.",
   metaDesc: "Nvidia's board opened an independent inquiry on 8 Nov into reports Jensen Huang was targeted by foreign intelligence. Our timeline and filing analysis.",
-  author: "dana-whitfield", date: "2026-11-09T16:00:00Z",
+  author: "staff", date: "2026-11-09T16:00:00Z",
   capt: "The Endeavor building at Nvidia's headquarters on San Tomas Expressway in Santa Clara, California, in a file photograph from 2018.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },

@@ -128,7 +128,7 @@ AI({ slug: "nvidia-weighs-buying-the-lab-it-already-funds", kick: "Dealmaking",
   headline: "Nvidia weighs buying the lab it already funds",
   dek: "Nvidia is in early talks to deepen its investment in Reflection AI, in which it has put $800m, or to buy it, the Financial Times reported. One route, an acqui-hire, could avoid a lengthy regulatory review. Neither company had commented when Reuters published.",
   metaDesc: "Nvidia is in early talks to invest more in Reflection AI or acquire it, the FT reported on Saturday; an acqui-hire route could avoid a lengthy regulatory review.",
-  author: "dana-whitfield", date: "2026-10-12T12:20:00Z",
+  author: "staff", date: "2026-10-12T12:20:00Z",
   capt: "An Nvidia GeForce RTX graphics card installed in a computer, in a file photograph.",
   tags: [
     { name: "AI Infrastructure", slug: "ai-infrastructure" },
@@ -159,7 +159,7 @@ FI({ slug: "stablecoin-transfer-button-82-million-galaxy-devices", kick: "Stable
   headline: "A stablecoin transfer button, on 82 million Galaxy devices",
   dek: "Samsung Electronics America said on Wednesday that USDC transfers will arrive in Samsung Wallet in the last week of October for eligible US Galaxy users. The 82 million figure counts compatible devices, and Samsung has not said how many users will qualify.",
   metaDesc: "Samsung said USDC transfers will launch in Samsung Wallet for eligible US Galaxy users in late October, with Bastion as custodian and Coinbase as sub-custodian.",
-  author: "elena-vasquez", date: "2026-10-12T12:00:00Z",
+  author: "staff", date: "2026-10-12T12:00:00Z",
   capt: "A hand holding a smartphone showing a money-transfer screen from US dollars to euros, in a file photograph.",
   tags: [
     { name: "Stablecoins", slug: "stablecoins" },
@@ -191,7 +191,7 @@ TE({ slug: "eight-billion-for-14-mhz-and-the-carriers-sold-off", kick: "Spectrum
   headline: "Eight billion for 14 MHz, and the carriers sold off",
   dek: "SpaceX has agreed to buy up to 14 MHz of paired 800 MHz spectrum from Grain Management for Starlink Mobile, subject to FCC approval. Terms were not disclosed; the Wall Street Journal put the price at about $8bn, and carrier shares fell in the US and Australia.",
   metaDesc: "SpaceX agreed on Thursday to buy 800 MHz spectrum from Grain Management; the WSJ put the price at about $8bn, and telecom shares fell in the US and Australia.",
-  author: "tom-kessler", date: "2026-10-12T12:40:00Z",
+  author: "staff", date: "2026-10-12T12:40:00Z",
   capt: "Three telecommunications masts fitted with antennas against a cloudy blue sky, in a file photograph.",
   tags: [
     { name: "Infrastructure", slug: "infrastructure" },

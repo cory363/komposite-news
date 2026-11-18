@@ -113,7 +113,7 @@ BU({ slug: "microsoft-offers-buyouts-to-about-60000-staff", kick: "Workforce",
   headline: "Microsoft offers buyouts to about 60,000 staff",
   dek: "Microsoft has opened a Voluntary Exit Offer to about 60,000 employees on participating teams in the US, Canada, Britain and India, the company confirmed on Monday. By our arithmetic that is about 27 per cent of its full-time workforce.",
   metaDesc: "Microsoft offered voluntary buyouts to about 60,000 employees on Monday, about 27 per cent of the 223,000 full-time staff it reported in June.",
-  author: "tom-kessler", date: "2026-10-26T19:00:00Z",
+  author: "staff", date: "2026-10-26T19:00:00Z",
   capt: "A carpeted office corridor leading to a pair of glass doors beneath an exit sign, in a file photograph.",
   tags: [
     { name: "Enterprise Software", slug: "enterprise-software" },
@@ -143,7 +143,7 @@ PO({ slug: "nba-signs-cftc-pact-and-picks-kalshi-and-polymarket", kick: "Predict
   headline: "NBA signs CFTC pact and picks Kalshi and Polymarket",
   dek: "The NBA on Monday became the third major US league to sign an information-sharing memorandum with the Commodity Futures Trading Commission, and named Kalshi and Polymarket its preferred prediction-market exchanges. The memorandum itself obliges neither side to share anything.",
   metaDesc: "The NBA signed an information-sharing MOU with the CFTC on Monday and named Kalshi and Polymarket its preferred prediction-market exchanges.",
-  author: "jonathan-bright", date: "2026-10-26T19:20:00Z",
+  author: "staff", date: "2026-10-26T19:20:00Z",
   capt: "An empty outdoor basketball court and hoop at dusk, with fallen leaves and trees behind, in a file photograph.",
   tags: [
     { name: "Regulation", slug: "regulation" },

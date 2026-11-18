@@ -37,7 +37,7 @@ for (const slug of NEW) {
   if (na.headline.length >= 110) bad(`${slug} headline >=110 chars`);
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})$/.test(na.datePublished)) bad(`${slug} datePublished not ISO8601+tz`);
   if (na.image?.["@type"] !== "ImageObject" || !na.image.width || !na.image.height) bad(`${slug} image not ImageObject with dimensions`);
-  if (na.author?.["@type"] !== "Person" || !na.author.url) bad(`${slug} author not linked Person`);
+  if (!["Person", "Organization"].includes(na.author?.["@type"]) || !na.author.url) bad(`${slug} author not linked Person or staff Organization`);
   if (!na.publisher?.logo?.url) bad(`${slug} publisher has no logo`);
   const crumbs = [...h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
     .map(m => JSON.parse(m[1])).find(o => o["@type"] === "BreadcrumbList");

@@ -138,7 +138,7 @@ FI({ slug: "guidewire-pays-1-7bn-for-an-underwriting-start-up", kick: "Insurtech
   headline: "Guidewire pays $1.7bn for an underwriting start-up",
   dek: "Guidewire, which sells core software to property and casualty insurers, agreed on Tuesday to buy London-based hyperexponential for $1.7bn in cash plus up to $400m tied to revenue targets. It will borrow $1bn to help pay for it.",
   metaDesc: "Guidewire agreed to buy London underwriting-software firm hyperexponential for $1.7bn in cash plus up to $400m, funded partly by a $1bn loan.",
-  author: "elena-vasquez", date: "2026-10-28T12:40:00Z",
+  author: "staff", date: "2026-10-28T12:40:00Z",
   capt: "The Lloyd's building in the City of London, home of the Lloyd's insurance market, its steel-clad towers rising behind a carved stone facade, in a file photograph.",
   tags: [
     { name: "Insurance", slug: "insurance" },
@@ -168,7 +168,7 @@ MK({ slug: "jio-lists-a-fifth-higher-on-three-per-cent-of-its-shares", kick: "IP
   headline: "Jio lists a fifth higher, on three per cent of its shares",
   dek: "Jio Platforms opened at ₹1,358 on Wednesday, 21 per cent above its ₹1,119 offer price, after India's largest initial public offering. It closed at ₹1,419, valuing the Reliance telecoms unit at about ₹13.05 lakh crore.",
   metaDesc: "Jio Platforms opened 21% above its ₹1,119 IPO price on Wednesday and closed at ₹1,419 after India's largest offering, which sold about 3% of the company.",
-  author: "priya-raghavan", date: "2026-10-28T13:00:00Z",
+  author: "staff", date: "2026-10-28T13:00:00Z",
   capt: "An orange Jio SIM card packet printed with the words Digital Life, lying on a table, in a file photograph.",
   tags: [
     { name: "Capital Markets", slug: "capital-markets" },
@@ -198,7 +198,7 @@ TE({ slug: "a-hundred-trillion-won-and-short-until-2030", kick: "Memory Chips",
   headline: "A hundred trillion won, and short until 2030",
   dek: "SK hynix reported third-quarter revenue of ₩104.6tn on Wednesday, its first quarter above ₩100tn, with an operating margin of 80 per cent. It said demand for memory would exceed supply through 2030 and that 14 customers have signed long-term agreements.",
   metaDesc: "SK hynix posted record Q3 revenue of ₩104.6tn and an 80% operating margin, and said memory demand will outrun supply through 2030.",
-  author: "tom-kessler", date: "2026-10-28T13:20:00Z",
+  author: "staff", date: "2026-10-28T13:20:00Z",
   capt: "An SK hynix laptop memory module, with eight SK hynix DRAM chips on a blue circuit board, in a file photograph.",
   tags: [
     { name: "Semiconductors", slug: "semiconductors" },

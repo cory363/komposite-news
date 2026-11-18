@@ -121,7 +121,7 @@ AIW({ slug: "metas-first-frontier-model-priced-at-the-frontier", kick: "Frontier
   headline: "Meta's first frontier model, priced at the frontier",
   dek: "Meta released Muse Wonder on Monday, its first frontier model since rebuilding its AI effort, and says it matches or beats OpenAI and Anthropic on agent, legal, finance and coding tests. One independent index puts it close, not ahead. Its API price equals Claude Opus 5.5's.",
   metaDesc: "Meta released Muse Wonder and Muse Wonder Full on Monday, claiming frontier parity on agent and coding tests; the API costs $4 and $20 per million tokens.",
-  author: "dana-whitfield", date: "2026-10-12T22:40:00Z",
+  author: "staff", date: "2026-10-12T22:40:00Z",
   capt: "The entrance to Meta's headquarters at 1 Hacker Way in Menlo Park, California, with the company's sign beside the road, in a file photograph.",
   tags: [
     { name: "OpenAI / Model Providers", slug: "openai-model-providers" },
