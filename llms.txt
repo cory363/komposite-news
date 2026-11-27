@@ -46,6 +46,7 @@
 
 ## Newest stories
 
+- [Every Item 1.05 Cybersecurity 8-K Filed in 2026: 18 Companies, Days From Discovery to Filing and the Amendments](https://kompositenews.com/cybersecurity/item-1-05-cybersecurity-8-k-filings-2026/): 18 companies filed Item 1.05 cyber 8-Ks in 2026 to 26 Nov. Median 9.5 days from detection to filing, 12 in health care, only 2 reported a material hit to results.
 - [Chase blames a bug, and the outage rule counts bugs](https://kompositenews.com/fintech/chase-blames-a-bug-and-the-outage-rule-counts-bugs/): Chase blamed a bug in on-premise hardware for its 16 Nov outage; the 2021 bank notice rule covers incidents 'from whatever cause', with 36 hours to report.
 - [Microsoft traces its mail outage to a July fix](https://kompositenews.com/technology/microsoft-traces-its-mail-outage-to-a-july-fix/): Microsoft's preliminary report blames a July Windows fix for the 12-13 Nov Exchange Online outage; over 80% of gateway servers stopped responding.
 - [The SEC moves to retire 'compensation actually paid'](https://kompositenews.com/policy/the-sec-moves-to-retire-compensation-actually-paid/): The SEC would replace 'compensation actually paid'; across 1,346 firms it differed from reported CEO pay by a median 37% in fiscal 2025, our analysis finds.
@@ -53,7 +54,6 @@
 - [Sixty-eight days to finish the upper C-band auction](https://kompositenews.com/technology/sixty-eight-days-to-finish-the-upper-c-band-auction/): FCC Auction 115 bidding starts 27 April 2027, 68 days before the statutory 4 July deadline; Auctions 107 and 110 took 71 and 91 days, by our count.
 - [The Entity List has not grown since October 2025](https://kompositenews.com/policy/the-entity-list-has-not-grown-since-october-2025/): BIS has added no one to the Entity List since 9 October 2025, 401 days, by our Federal Register count; Bessent said Commerce held up Megaspeed.
 - [Microsoft moves its outage start six hours earlier](https://kompositenews.com/technology/microsoft-moves-its-outage-start-six-hours-earlier/): Microsoft's final record dates its 12-13 November 2026 Exchange Online outage from 10:05 to 16:10 GMT next day, 30h05m. Our SLA arithmetic.
-- [The H200 licence rule, line by line](https://kompositenews.com/ai/the-h200-licence-rule-line-by-line/): BIS's January 2026 rule lets H200 licences to China be reviewed case by case below 21,000 TPP and 6,500 GB/s. By our arithmetic the H200 is at 15,832.
 
 ## About, standards and contact
 
